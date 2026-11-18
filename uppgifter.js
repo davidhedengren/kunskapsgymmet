@@ -3573,7 +3573,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma hålrummets volym i en ihålig kropp ur medeldensiteten, ur text, sökt volym",
     "poang": "(1/2/0)",
-    "t": "<p>En järnkula har massan 1,2 kg och hela kulans yttre volym är 0,30 dm³. Järn har densiteten 7,87 g/cm³.</p><p>Visa att kulan inte kan vara massiv och bestäm volymen av hålrummet inuti. Bortse från luftens massa i hålrummet.</p>",
+    "t": "<p>En järnkula har massan 1,2 kg och hela kulans yttre volym är 0,30 dm³. Järn har densiteten 7,87 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 230\" width=\"420\" height=\"230\" role=\"img\" aria-label=\"Genomskärning av en järnkula med ett luftfyllt hålrum inuti. Kulans massa är 1,2 kg och den yttre volymen 0,30 dm³.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av en järnkula med ett luftfyllt hålrum inuti. Kulans massa är 1,2 kg och den yttre volymen 0,30 dm³.</title><rect width=\"420\" height=\"230\" fill=\"#fff\"/><circle cx=\"130.0\" cy=\"115.0\" r=\"92.0\" fill=\"#8c969e\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"138.0\" cy=\"108.0\" r=\"46.0\" fill=\"#ffffff\" stroke=\"#203746\" stroke-width=\"1.6\"/><text x=\"138.0\" y=\"113.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">luft</text><line x1=\"268.0\" y1=\"64.0\" x2=\"193.6\" y2=\"89.4\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"186.0,92.0 192.4,86.0 194.7,92.8\" fill=\"#526777\"/><text x=\"272.0\" y=\"62.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">hålrum</text><line x1=\"268.0\" y1=\"170.0\" x2=\"203.9\" y2=\"161.1\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"196.0,160.0 204.4,157.5 203.4,164.7\" fill=\"#526777\"/><text x=\"272.0\" y=\"168.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">järn</text><text x=\"272.0\" y=\"186.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">7,87 g/cm³</text><text x=\"130.0\" y=\"226.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">m = 1,2 kg,  V = 0,30 dm³</text></svg></span><p>Visa att kulan inte kan vara massiv och bestäm volymen av hålrummet inuti. Bortse från luftens massa i hålrummet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Massan är 1,2 kg = 1200 g och yttervolymen 0,30 dm³ = 300 cm³. Vi undersöker om kulan är massiv och söker sedan hålrummets volym.</p></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Detta är mindre än järnets densitet 7,87 g/cm³. Med uppgiftens antaganden måste en del av yttervolymen därför vara hålrum.</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{medel}}=1200/300=4{,}0\\ \\mathrm{g/cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Volym: \\(V=m/\\rho\\)</p><div class=\"facit-matte\">\\[V_{\\mathrm{Fe}}=1200/7{,}87\\approx152{,}4778\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Hålvolym: \\(V_h=V_y-V_{\\mathrm{Fe}}\\)</p><div class=\"facit-matte\">\\[V_h=300-1200/7{,}87\\approx147{,}522\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kulan är ihålig. Hålrummet är cirka 148 cm³.</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
@@ -4832,9 +4832,9 @@ window.BANK = [
     "id": "2.51",
     "kap": 2,
     "omr": "densitet",
-    "niva": "C",
+    "niva": "A",
     "typ": "bestämma blandningsandel ur uppmätt densitet, ur text, sökt andel",
-    "poang": "(0/3/0)",
+    "poang": "(0/0/3)",
     "t": "<p>En ring är gjord av en legering av guld och koppar. Guld har densiteten 19,3 g/cm³, koppar 8,93 g/cm³ och ringens densitet är 14,8 g/cm³.</p><p>Antag att guldets och kopparns volymer tillsammans är ringens hela volym.</p><ol type=\"a\"><li>Ställ upp ett samband som beskriver ringens densitet.</li><li>Hur stor del av ringens volym är guld?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Låt x vara den andel av ringens volym som är guld. Kopparns volymandel är 1 − x.</p></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho_{\\mathrm{Au}}V_{\\mathrm{Au}}+\\rho_{\\mathrm{Cu}}V_{\\mathrm{Cu}}\\)</p><div class=\"facit-matte\">\\[m=\\rho_{\\mathrm{Au}}xV+\\rho_{\\mathrm{Cu}}(1-x)V\\]</div></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Dela hela massuttrycket med totalvolymen V. Modellen antar att delvolymerna kan adderas.</p><div class=\"facit-matte\">\\[\\rho=x\\rho_{\\mathrm{Au}}+(1-x)\\rho_{\\mathrm{Cu}}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\rho=x\\rho_{\\mathrm{Au}}+(1-x)\\rho_{\\mathrm{Cu}}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Låt x vara den andel av ringens volym som är guld. Kopparns volymandel är 1 − x.</p></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho_{\\mathrm{Au}}V_{\\mathrm{Au}}+\\rho_{\\mathrm{Cu}}V_{\\mathrm{Cu}}\\)</p><div class=\"facit-matte\">\\[m=\\rho_{\\mathrm{Au}}xV+\\rho_{\\mathrm{Cu}}(1-x)V\\]</div></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Dela hela massuttrycket med totalvolymen V. Modellen antar att delvolymerna kan adderas.</p><div class=\"facit-matte\">\\[\\rho=x\\rho_{\\mathrm{Au}}+(1-x)\\rho_{\\mathrm{Cu}}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in densiteterna</p><div class=\"facit-matte\">\\[14{,}8=19{,}3x+8{,}93(1-x)\\]</div></li><li><p class=\"facit-rubrik\">Lös ut guldets volymandel</p><div class=\"facit-matte\">\\[\\begin{aligned}14{,}8&=10{,}37x+8{,}93\\\\x&=\\frac{14{,}8-8{,}93}{10{,}37}\\approx0{,}566\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(57\\,\\%\\text{ av volymen}\\).</p></div></div></div>",
     "familj": "Sammansatta och ihåliga föremål",
@@ -4848,7 +4848,7 @@ window.BANK = [
     "självrättning": false,
     "familjNyckelTidigare": "densitet__sammansatt_densitet",
     "ledtrad": "<p>Tänk dig att ringens hela volym är 1 cm³. Hur mycket av den volymen kan vara guld respektive koppar?</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -7313,7 +7313,7 @@ window.BANK = [
     "omr": "densitet",
     "niva": "C",
     "poang": "(2/1/0)",
-    "t": "<p>Ett järnföremål har massan 500 g och hela föremålets yttre volym är 90 cm³. Inuti finns ett luftfyllt hålrum. Järnets densitet är 7,87 g/cm³.<br></p><ol type=\"a\"><li>Vilken volym upptar själva järnet?</li><li>Hur stor är hålrummets volym?</li><li>Vilken densitet får hela föremålet om man delar dess massa med hela den yttre volymen?</li></ol>",
+    "t": "<p>Ett järnföremål har massan 500 g och hela föremålets yttre volym är 90 cm³. Inuti finns ett luftfyllt hålrum. Järnets densitet är 7,87 g/cm³.<br></p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"420\" height=\"220\" role=\"img\" aria-label=\"Genomskärning av ett järnföremål med ett slutet, luftfyllt hålrum. Massan är 500 g och den yttre volymen 90 cm³.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av ett järnföremål med ett slutet, luftfyllt hålrum. Massan är 500 g och den yttre volymen 90 cm³.</title><rect width=\"420\" height=\"220\" fill=\"#fff\"/><path d=\"M60,70 C70,30 170,24 220,40 C270,56 300,90 290,140 C282,186 200,196 140,190 C80,184 50,120 60,70 Z\" fill=\"#8c969e\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M140,92 C150,74 200,72 214,96 C226,118 200,140 172,138 C148,136 132,112 140,92 Z\" fill=\"#ffffff\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><text x=\"176.0\" y=\"112.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">luft</text><line x1=\"322.0\" y1=\"70.0\" x2=\"227.8\" y2=\"94.0\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"220.0,96.0 226.9,90.5 228.6,97.5\" fill=\"#526777\"/><text x=\"326.0\" y=\"68.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">hålrum</text><line x1=\"322.0\" y1=\"160.0\" x2=\"277.9\" y2=\"151.5\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"270.0,150.0 278.5,148.0 277.2,155.0\" fill=\"#526777\"/><text x=\"326.0\" y=\"158.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">järn</text><text x=\"326.0\" y=\"176.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">7,87 g/cm³</text><text x=\"176.0\" y=\"214.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">m = 500 g,  V = 90 cm³</text></svg></span><ol type=\"a\"><li>Vilken volym upptar själva järnet?</li><li>Hur stor är hålrummets volym?</li><li>Vilken densitet får hela föremålet om man delar dess massa med hela den yttre volymen?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volym: \\(V=m/\\rho\\)</p><p>Massan är 500 g. Luftens massa försummas, så hela massan tillskrivs järnet.</p><div class=\"facit-matte\">\\[V_{\\mathrm{Fe}}=500/7{,}87\\approx63{,}5324\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(63{,}5\\ \\mathrm{cm^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volym: \\(V=m/\\rho\\)</p><p>Massan är 500 g. Luftens massa försummas, så hela massan tillskrivs järnet.</p><div class=\"facit-matte\">\\[V_{\\mathrm{Fe}}=500/7{,}87\\approx63{,}5324\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Hålrum: \\(V_h=V_y-V_{\\mathrm{Fe}}\\)</p><div class=\"facit-matte\">\\[V_h=90-500/7{,}87\\approx26{,}5\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(26{,}5\\ \\mathrm{cm^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Medeldensiteten använder hela yttervolymen 90 cm³, inklusive hålrummet.</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{medel}}=500/90\\approx5{,}56\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}56\\ \\mathrm{g/cm^3}\\).</p></div></div></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
@@ -7356,12 +7356,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett föremål består av järn och ett slutet hålrum som väger nästan ingenting. Massan är 500 g och yttervolymen 90 cm³. Järnets densitet är 7,87 g/cm³.</p>",
+    "spelIntro": "<p>Ett föremål består av järn och ett slutet hålrum som väger nästan ingenting. Massan är 500 g och yttervolymen 90 cm³. Järnets densitet är 7,87 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"420\" height=\"220\" role=\"img\" aria-label=\"Genomskärning av ett järnföremål med ett slutet, luftfyllt hålrum. Massan är 500 g och den yttre volymen 90 cm³.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av ett järnföremål med ett slutet, luftfyllt hålrum. Massan är 500 g och den yttre volymen 90 cm³.</title><rect width=\"420\" height=\"220\" fill=\"#fff\"/><path d=\"M60,70 C70,30 170,24 220,40 C270,56 300,90 290,140 C282,186 200,196 140,190 C80,184 50,120 60,70 Z\" fill=\"#8c969e\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M140,92 C150,74 200,72 214,96 C226,118 200,140 172,138 C148,136 132,112 140,92 Z\" fill=\"#ffffff\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><text x=\"176.0\" y=\"112.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">luft</text><line x1=\"322.0\" y1=\"70.0\" x2=\"227.8\" y2=\"94.0\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"220.0,96.0 226.9,90.5 228.6,97.5\" fill=\"#526777\"/><text x=\"326.0\" y=\"68.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">hålrum</text><line x1=\"322.0\" y1=\"160.0\" x2=\"277.9\" y2=\"151.5\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"270.0,150.0 278.5,148.0 277.2,155.0\" fill=\"#526777\"/><text x=\"326.0\" y=\"158.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">järn</text><text x=\"326.0\" y=\"176.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">7,87 g/cm³</text><text x=\"176.0\" y=\"214.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">m = 500 g,  V = 90 cm³</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Vilken volym upptar järnet?",
-        "t": "<p>Ett föremål består av järn och ett slutet hålrum som väger nästan ingenting. Massan är 500 g och yttervolymen 90 cm³. Järnets densitet är 7,87 g/cm³.</p><p>Vilken volym upptar järnet?</p>",
+        "t": "<p>Ett föremål består av järn och ett slutet hålrum som väger nästan ingenting. Massan är 500 g och yttervolymen 90 cm³. Järnets densitet är 7,87 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"420\" height=\"220\" role=\"img\" aria-label=\"Genomskärning av ett järnföremål med ett slutet, luftfyllt hålrum. Massan är 500 g och den yttre volymen 90 cm³.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av ett järnföremål med ett slutet, luftfyllt hålrum. Massan är 500 g och den yttre volymen 90 cm³.</title><rect width=\"420\" height=\"220\" fill=\"#fff\"/><path d=\"M60,70 C70,30 170,24 220,40 C270,56 300,90 290,140 C282,186 200,196 140,190 C80,184 50,120 60,70 Z\" fill=\"#8c969e\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M140,92 C150,74 200,72 214,96 C226,118 200,140 172,138 C148,136 132,112 140,92 Z\" fill=\"#ffffff\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><text x=\"176.0\" y=\"112.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">luft</text><line x1=\"322.0\" y1=\"70.0\" x2=\"227.8\" y2=\"94.0\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"220.0,96.0 226.9,90.5 228.6,97.5\" fill=\"#526777\"/><text x=\"326.0\" y=\"68.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">hålrum</text><line x1=\"322.0\" y1=\"160.0\" x2=\"277.9\" y2=\"151.5\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"270.0,150.0 278.5,148.0 277.2,155.0\" fill=\"#526777\"/><text x=\"326.0\" y=\"158.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">järn</text><text x=\"326.0\" y=\"176.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">7,87 g/cm³</text><text x=\"176.0\" y=\"214.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">m = 500 g,  V = 90 cm³</text></svg></span><p>Vilken volym upptar järnet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volym: \\(V=m/\\rho\\)</p><p>Massan är 500 g. Luftens massa försummas, så hela massan tillskrivs järnet.</p><div class=\"facit-matte\">\\[V_{\\mathrm{Fe}}=500/7{,}87\\approx63{,}5324\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(63{,}5\\ \\mathrm{cm^3}\\).</p></div>",
         "ledtrad": "<p>Yttervolymen består av metallens volym och hålrummets volym.</p>",
         "niva": "E",
@@ -7372,7 +7372,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur stort är hålrummet?",
-        "t": "<p>Ett föremål består av järn och ett slutet hålrum som väger nästan ingenting. Massan är 500 g och yttervolymen 90 cm³. Järnets densitet är 7,87 g/cm³.</p><p>Hur stort är hålrummet?</p>",
+        "t": "<p>Ett föremål består av järn och ett slutet hålrum som väger nästan ingenting. Massan är 500 g och yttervolymen 90 cm³. Järnets densitet är 7,87 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"420\" height=\"220\" role=\"img\" aria-label=\"Genomskärning av ett järnföremål med ett slutet, luftfyllt hålrum. Massan är 500 g och den yttre volymen 90 cm³.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av ett järnföremål med ett slutet, luftfyllt hålrum. Massan är 500 g och den yttre volymen 90 cm³.</title><rect width=\"420\" height=\"220\" fill=\"#fff\"/><path d=\"M60,70 C70,30 170,24 220,40 C270,56 300,90 290,140 C282,186 200,196 140,190 C80,184 50,120 60,70 Z\" fill=\"#8c969e\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M140,92 C150,74 200,72 214,96 C226,118 200,140 172,138 C148,136 132,112 140,92 Z\" fill=\"#ffffff\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><text x=\"176.0\" y=\"112.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">luft</text><line x1=\"322.0\" y1=\"70.0\" x2=\"227.8\" y2=\"94.0\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"220.0,96.0 226.9,90.5 228.6,97.5\" fill=\"#526777\"/><text x=\"326.0\" y=\"68.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">hålrum</text><line x1=\"322.0\" y1=\"160.0\" x2=\"277.9\" y2=\"151.5\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"270.0,150.0 278.5,148.0 277.2,155.0\" fill=\"#526777\"/><text x=\"326.0\" y=\"158.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">järn</text><text x=\"326.0\" y=\"176.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">7,87 g/cm³</text><text x=\"176.0\" y=\"214.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">m = 500 g,  V = 90 cm³</text></svg></span><p>Hur stort är hålrummet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volym: \\(V=m/\\rho\\)</p><p>Massan är 500 g. Luftens massa försummas, så hela massan tillskrivs järnet.</p><div class=\"facit-matte\">\\[V_{\\mathrm{Fe}}=500/7{,}87\\approx63{,}5324\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Hålrum: \\(V_h=V_y-V_{\\mathrm{Fe}}\\)</p><div class=\"facit-matte\">\\[V_h=90-500/7{,}87\\approx26{,}5\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(26{,}5\\ \\mathrm{cm^3}\\).</p></div>",
         "ledtrad": "<p>Yttervolymen består av metallens volym och hålrummets volym.</p>",
         "niva": "C",
@@ -7383,7 +7383,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Vilken medeldensitet har hela föremålet?",
-        "t": "<p>Ett föremål består av järn och ett slutet hålrum som väger nästan ingenting. Massan är 500 g och yttervolymen 90 cm³. Järnets densitet är 7,87 g/cm³.</p><p>Vilken medeldensitet har hela föremålet?</p>",
+        "t": "<p>Ett föremål består av järn och ett slutet hålrum som väger nästan ingenting. Massan är 500 g och yttervolymen 90 cm³. Järnets densitet är 7,87 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"420\" height=\"220\" role=\"img\" aria-label=\"Genomskärning av ett järnföremål med ett slutet, luftfyllt hålrum. Massan är 500 g och den yttre volymen 90 cm³.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av ett järnföremål med ett slutet, luftfyllt hålrum. Massan är 500 g och den yttre volymen 90 cm³.</title><rect width=\"420\" height=\"220\" fill=\"#fff\"/><path d=\"M60,70 C70,30 170,24 220,40 C270,56 300,90 290,140 C282,186 200,196 140,190 C80,184 50,120 60,70 Z\" fill=\"#8c969e\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M140,92 C150,74 200,72 214,96 C226,118 200,140 172,138 C148,136 132,112 140,92 Z\" fill=\"#ffffff\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><text x=\"176.0\" y=\"112.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">luft</text><line x1=\"322.0\" y1=\"70.0\" x2=\"227.8\" y2=\"94.0\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"220.0,96.0 226.9,90.5 228.6,97.5\" fill=\"#526777\"/><text x=\"326.0\" y=\"68.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">hålrum</text><line x1=\"322.0\" y1=\"160.0\" x2=\"277.9\" y2=\"151.5\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"270.0,150.0 278.5,148.0 277.2,155.0\" fill=\"#526777\"/><text x=\"326.0\" y=\"158.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">järn</text><text x=\"326.0\" y=\"176.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">7,87 g/cm³</text><text x=\"176.0\" y=\"214.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">m = 500 g,  V = 90 cm³</text></svg></span><p>Vilken medeldensitet har hela föremålet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Medeldensiteten använder hela yttervolymen 90 cm³, inklusive hålrummet.</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{medel}}=500/90\\approx5{,}56\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}56\\ \\mathrm{g/cm^3}\\).</p></div>",
         "ledtrad": "<p>Yttervolymen består av metallens volym och hålrummets volym.</p>",
         "niva": "E",
@@ -7777,7 +7777,7 @@ window.BANK = [
     "omr": "densitet",
     "niva": "C",
     "poang": "(2/2/0)",
-    "t": "<p>Ett majskorn väger 0,15 g och har volymen 0,12 cm³. När det poppas växer volymen till 2,4 cm³, men massan ändras knappt.</p>\n<ol type=\"a\"><li>Bestäm densiteten före och efter poppningen.</li>\n<li>Hur stor andel av det poppade popcornet är luft?</li>\n<li>Skulle popcornet flyta i vatten? Motivera.</li></ol><p>Massan och den fasta materiens volym är oförändrade. Antag att kornet från början saknar hålrum och att vatten ännu inte hunnit tränga in i popcornet.</p>",
+    "t": "<p>Ett majskorn väger 0,15 g och har volymen 0,12 cm³. När det poppas växer volymen till 2,4 cm³, men massan ändras knappt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 190\" width=\"440\" height=\"190\" role=\"img\" aria-label=\"Ett majskorn med massan 0,15 g och volymen 0,12 cm³ poppas och blir ett popcorn med volymen 2,4 cm³.\" style=\"max-width:100%;height:auto\"><title>Ett majskorn med massan 0,15 g och volymen 0,12 cm³ poppas och blir ett popcorn med volymen 2,4 cm³.</title><rect width=\"440\" height=\"190\" fill=\"#fff\"/><path d=\"M86,70 C104,70 112,92 108,112 C104,130 92,138 86,138 C80,138 68,130 64,112 C60,92 68,70 86,70 Z\" fill=\"#f0b429\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M78,80 C82,76 90,76 94,80\" fill=\"none\" stroke=\"#fff6d6\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"86.0\" y=\"166.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">majskorn</text><text x=\"86.0\" y=\"184.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">0,15 g · 0,12 cm³</text><line x1=\"150.0\" y1=\"104.0\" x2=\"217.0\" y2=\"104.0\" stroke=\"#b25c17\" stroke-width=\"3\"/><polygon points=\"228.0,104.0 217.0,109.0 217.0,99.0\" fill=\"#b25c17\"/><text x=\"189.0\" y=\"92.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">poppas</text><circle cx=\"318\" cy=\"78\" r=\"30\" fill=\"#fffaf0\" stroke=\"#c9b48a\" stroke-width=\"1.8\"/><circle cx=\"284\" cy=\"104\" r=\"28\" fill=\"#fffaf0\" stroke=\"#c9b48a\" stroke-width=\"1.8\"/><circle cx=\"350\" cy=\"108\" r=\"30\" fill=\"#fffaf0\" stroke=\"#c9b48a\" stroke-width=\"1.8\"/><circle cx=\"316\" cy=\"126\" r=\"30\" fill=\"#fffaf0\" stroke=\"#c9b48a\" stroke-width=\"1.8\"/><circle cx=\"300\" cy=\"66\" r=\"22\" fill=\"#fffaf0\" stroke=\"#c9b48a\" stroke-width=\"1.8\"/><circle cx=\"342\" cy=\"70\" r=\"22\" fill=\"#fffaf0\" stroke=\"#c9b48a\" stroke-width=\"1.8\"/><circle cx=\"288\" cy=\"132\" r=\"20\" fill=\"#fffaf0\" stroke=\"#c9b48a\" stroke-width=\"1.8\"/><circle cx=\"348\" cy=\"136\" r=\"20\" fill=\"#fffaf0\" stroke=\"#c9b48a\" stroke-width=\"1.8\"/><circle cx=\"316\" cy=\"104\" r=\"9\" fill=\"#f0b429\" stroke=\"#203746\" stroke-width=\"1.2\"/><text x=\"318.0\" y=\"176.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">popcorn</text><text x=\"392.0\" y=\"104.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">2,4 cm³</text></svg></span>\n<ol type=\"a\"><li>Bestäm densiteten före och efter poppningen.</li>\n<li>Hur stor andel av det poppade popcornet är luft?</li>\n<li>Skulle popcornet flyta i vatten? Motivera.</li></ol><p>Massan och den fasta materiens volym är oförändrade. Antag att kornet från början saknar hålrum och att vatten ännu inte hunnit tränga in i popcornet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Massan är 0,15 g både före och efter, medan volymen ökar från 0,12 till 2,4 cm³.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\rho_{\\mathrm{före}}&=0{,}15/0{,}12=1{,}25\\ \\mathrm{g/cm^3}\\\\\\rho_{\\mathrm{efter}}&=0{,}15/2{,}4=0{,}0625\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Före: 1,25 g/cm³. Efter: 0,0625 g/cm³.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Luftandel: \\(f=(V_y-V_{\\mathrm{fast}})/V_y\\)</p><p>Den fasta materiens volym är oförändrad i modellen. Resten av yttervolymen är luft.</p><div class=\"facit-matte\">\\[f=\\frac{2{,}4-0{,}12}{2{,}4}=0{,}95=95\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(95\\,\\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför med vattnets densitet</p><p>Medeldensiteten 0,0625 g/cm³ från a) är mycket lägre än vattnets. Popcornet kan därför flyta så länge vatten inte tränger in och fyller hålrummen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det flyter i modellen, innan vatten har fyllt hålrummen.</p></div></div></div>",
     "familj": "Densitet, flytförmåga och modeller",
     "formaga": [
@@ -7805,7 +7805,7 @@ window.BANK = [
     "omr": "densitet",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Vatten har densiteten 998 kg/m³ och is 917 kg/m³.</p>\n<ol type=\"a\"><li>Hur många procent ökar volymen när vatten fryser?</li>\n<li>En glasflaska rymmer 0,50 liter och fylls helt med vatten och försluts med ett tätt lock innan den ställs i frysen. Vad händer?</li>\n<li>Varför flyter is, till skillnad från de flesta ämnens fasta form?</li></ol>",
+    "t": "<p>Vatten har densiteten 998 kg/m³ och is 917 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" width=\"360\" height=\"230\" role=\"img\" aria-label=\"En glasflaska som rymmer 0,50 liter är helt fylld med vatten och har ett tätt lock. Den står i en frys.\" style=\"max-width:100%;height:auto\"><title>En glasflaska som rymmer 0,50 liter är helt fylld med vatten och har ett tätt lock. Den står i en frys.</title><rect width=\"360\" height=\"230\" fill=\"#fff\"/><rect x=\"40.0\" y=\"20.0\" width=\"280.0\" height=\"196.0\" rx=\"10\" fill=\"#eef6fb\" stroke=\"#7aa3bd\" stroke-width=\"2.5\"/><line x1=\"65.0\" y1=\"52.0\" x2=\"87.0\" y2=\"52.0\" stroke=\"#7aa3bd\" stroke-width=\"2\"/><line x1=\"70.5\" y1=\"42.5\" x2=\"81.5\" y2=\"61.5\" stroke=\"#7aa3bd\" stroke-width=\"2\"/><line x1=\"81.5\" y1=\"42.5\" x2=\"70.5\" y2=\"61.5\" stroke=\"#7aa3bd\" stroke-width=\"2\"/><line x1=\"65.0\" y1=\"150.0\" x2=\"87.0\" y2=\"150.0\" stroke=\"#7aa3bd\" stroke-width=\"2\"/><line x1=\"70.5\" y1=\"140.5\" x2=\"81.5\" y2=\"159.5\" stroke=\"#7aa3bd\" stroke-width=\"2\"/><line x1=\"81.5\" y1=\"140.5\" x2=\"70.5\" y2=\"159.5\" stroke=\"#7aa3bd\" stroke-width=\"2\"/><line x1=\"277.0\" y1=\"182.0\" x2=\"299.0\" y2=\"182.0\" stroke=\"#7aa3bd\" stroke-width=\"2\"/><line x1=\"282.5\" y1=\"172.5\" x2=\"293.5\" y2=\"191.5\" stroke=\"#7aa3bd\" stroke-width=\"2\"/><line x1=\"293.5\" y1=\"172.5\" x2=\"282.5\" y2=\"191.5\" stroke=\"#7aa3bd\" stroke-width=\"2\"/><text x=\"78.0\" y=\"204.0\" fill=\"#4d7a96\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">frys</text><path d=\"M160,196 L160,110 C160,92 170,86 172,74 L172,54 L188,54 L188,74 C190,86 200,92 200,110 L200,196 Z\" fill=\"#cfe6f5\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"168.0\" y=\"40.0\" width=\"24.0\" height=\"16.0\" rx=\"3\" fill=\"#b13b19\" stroke=\"#203746\" stroke-width=\"1.8\"/><line x1=\"236.0\" y1=\"46.0\" x2=\"204.0\" y2=\"47.6\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"196.0,48.0 203.8,44.0 204.2,51.2\" fill=\"#526777\"/><text x=\"240.0\" y=\"50.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">tätt lock</text><text x=\"180.0\" y=\"160.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">0,50 l</text><line x1=\"236.0\" y1=\"120.0\" x2=\"209.7\" y2=\"127.7\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"202.0,130.0 208.7,124.3 210.7,131.2\" fill=\"#526777\"/><text x=\"240.0\" y=\"118.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">vatten</text><text x=\"240.0\" y=\"134.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">ända upp</text></svg></span>\n<ol type=\"a\"><li>Hur många procent ökar volymen när vatten fryser?</li>\n<li>En glasflaska rymmer 0,50 liter och fylls helt med vatten och försluts med ett tätt lock innan den ställs i frysen. Vad händer?</li>\n<li>Varför flyter is, till skillnad från de flesta ämnens fasta form?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bevarad massa: \\(\\rho_vV_v=\\rho_iV_i\\)</p><div class=\"facit-matte\">\\[\\frac{V_i}{V_v}=\\frac{998}{917}\\approx1{,}0883315\\]</div></li><li><p class=\"facit-rubrik\">Volymökning: \\((V_i/V_v-1)\\cdot100\\,\\%\\)</p><div class=\"facit-matte\">\\[(998/917-1)\\cdot100\\,\\%\\approx8{,}83\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}83\\,\\%\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isvolym: \\(V_i=V_v\\rho_v/\\rho_i\\)</p><div class=\"facit-matte\">\\[V_i=0{,}50\\cdot998/917\\approx0{,}544\\ \\mathrm l\\]</div></li><li><p class=\"facit-rubrik\">Jämför med behållarens utrymme</p><p>Isen behöver mer än 0,50 liter. En fylld, stel och sluten behållare riskerar därför att spricka.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Isen tar cirka 0,544 liter. Volymökningen kan spräcka behållaren.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isens struktur tar större plats</p><p>När vatten fryser bildas en mer öppen struktur. Samma massa upptar större volym och får därför lägre densitet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Isens öppnare struktur ger lägre densitet än flytande vatten.</p></div></div></div>",
     "familj": "Densitet, flytförmåga och modeller",
     "formaga": [
@@ -7890,8 +7890,8 @@ window.BANK = [
     "id": "2.90",
     "kap": 2,
     "omr": "densitet",
-    "niva": "C",
-    "poang": "(0/3/0)",
+    "niva": "A",
+    "poang": "(0/1/2)",
     "t": "<p>Clara ska blanda vatten (1,00 g/cm³) och etanol (0,79 g/cm³). Blandningen ska ha massan 68 g och volymen 80 cm³.</p>\n<p>Antag att vätskornas volymer kan adderas.</p>\n<ol type=\"a\"><li>Hur stor volym ska hon ta av respektive vätska?</li>\n<li>Varför stämmer inte detta exakt i verkligheten?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Låt Vᵥ och Vₑ vara volymerna vatten och etanol i cm³. Vi söker dem när totalvolymen är 80 cm³ och massan 68 g.</p></li><li><p class=\"facit-rubrik\">Volym och massa: \\(V_v+V_e=80\\)</p><p>Totalmassan är summan av varje vätskas densitet gånger dess volym.</p><div class=\"facit-matte\">\\[\\begin{aligned}V_e&=80-V_v\\\\68&=1{,}00V_v+0{,}79(80-V_v)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut vattenvolymen</p><div class=\"facit-matte\">\\[\\begin{aligned}68&=0{,}21V_v+63{,}2\\\\V_v&=\\frac{4{,}8}{0{,}21}\\approx22{,}86\\ \\mathrm{cm^3}\\\\V_e&=80-\\frac{4{,}8}{0{,}21}\\approx57{,}14\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Enligt modellen cirka 23 cm³ vatten och 57 cm³ etanol.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymerna adderas inte exakt i verkligheten</p><p>När vatten och etanol blandas blir blandningens volym något mindre än summan av de ursprungliga volymerna. Massorna kan adderas, men volymmodellen ger därför inte ett exakt recept.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vätskevolymerna från a) ger i verkligheten något mindre än 80 cm³ blandning.</p></div></div></div>",
     "familj": "Sammansatta och ihåliga föremål",
@@ -7905,7 +7905,7 @@ window.BANK = [
     "självrättning": false,
     "familjNyckelTidigare": "densitet__sammansatt_densitet",
     "ledtrad": "<p>Skriv ett samband för total massa och ett för total volym.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 2,
     "miniräknare": true,
     "geogebra": false,
@@ -8458,7 +8458,7 @@ window.BANK = [
     "niva": "C",
     "typ": "En kula har ytterradien 3,20 cm och massan 843,1 g. Den består av en sfärisk aluminiumkärna och ett stålskal. Densiteterna är 2,70 respektive 7,80 g/cm³. Bestäm kärnans radie. Svara med två decimaler.",
     "poang": "(0/2/0)",
-    "t": "<p>En kula har ytterradien 3,20 cm och massan 843,1 g. Den består av en sfärisk aluminiumkärna och ett stålskal. Densiteterna är 2,70 respektive 7,80 g/cm³. Bestäm kärnans radie.</p>",
+    "t": "<p>En kula har ytterradien 3,20 cm och massan 843,1 g. Den består av en sfärisk aluminiumkärna och ett stålskal. Densiteterna är 2,70 respektive 7,80 g/cm³. Bestäm kärnans radie.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 240\" width=\"430\" height=\"240\" role=\"img\" aria-label=\"Genomskärning av en kula med en aluminiumkärna och ett stålskal. Ytterradien är 3,20 cm och kärnans radie är okänd.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av en kula med en aluminiumkärna och ett stålskal. Ytterradien är 3,20 cm och kärnans radie är okänd.</title><rect width=\"430\" height=\"240\" fill=\"#fff\"/><circle cx=\"130.0\" cy=\"120.0\" r=\"96.0\" fill=\"#9aa8b4\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"130.0\" cy=\"120.0\" r=\"62.0\" fill=\"#d5dce2\" stroke=\"#203746\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"120.0\" x2=\"226.0\" y2=\"120.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><circle cx=\"130.0\" cy=\"120.0\" r=\"3.5\" fill=\"#203746\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"232.0\" y=\"125.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3,20 cm</text><line x1=\"130.0\" y1=\"120.0\" x2=\"68.0\" y2=\"120.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"99.0\" y=\"112.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">r = ?</text><line x1=\"300.0\" y1=\"50.0\" x2=\"190.8\" y2=\"50.8\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"182.8,50.9 190.8,47.2 190.8,54.4\" fill=\"#526777\"/><text x=\"304.0\" y=\"48.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">stål</text><text x=\"304.0\" y=\"66.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">7,80 g/cm³</text><line x1=\"300.0\" y1=\"196.0\" x2=\"156.3\" y2=\"153.3\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"148.6,151.0 157.3,149.8 155.2,156.7\" fill=\"#526777\"/><text x=\"304.0\" y=\"200.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">aluminium</text><text x=\"304.0\" y=\"218.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">2,70 g/cm³</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Ytterradien är 3,20 cm och massan 843,1 g. Aluminium har densiteten 2,70 g/cm³ och stål 7,80 g/cm³. Vi söker kärnans radie.</p></li><li><p class=\"facit-rubrik\">Jämför med en massiv stålkula: \\(m_s=\\rho_s4\\pi R^3/3\\)</p><div class=\"facit-matte\">\\[m_s=7{,}80\\cdot\\frac{4\\pi\\cdot3{,}20^3}{3}\\approx1070{,}615\\ \\mathrm g\\]</div></li><li><p class=\"facit-rubrik\">Massminskning: \\(m_s-m=(\\rho_s-\\rho_a)V_a\\)</p><p>Varje cm³ stål som ersätts av aluminium minskar massan med 5,10 g.</p><div class=\"facit-matte\">\\[\\begin{aligned}V_a&=\\frac{7{,}80\\cdot4\\pi\\cdot3{,}20^3/3-843{,}1}{7{,}80-2{,}70}\\\\&\\approx44{,}6107\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Klotets volym: \\(V=4\\pi r^3/3\\)</p><p>Använd den oavrundade kärnvolymen. Radien är mindre än ytterradien, som den ska vara.</p><div class=\"facit-matte\">\\[r=\\sqrt[3]{\\frac{3V_a}{4\\pi}}\\approx2{,}20\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}20\\ \\mathrm{cm}\\).</p></div>",
     "familj": "Densitet, flytförmåga och modeller",
     "formaga": [
@@ -8636,7 +8636,7 @@ window.BANK = [
     "niva": "C",
     "typ": "En sten vägs torr och sänks sedan helt ned i ett mätglas. Luftbubblor fastnar på stenen. Eleven beräknar densiteten från massan och vattennivåns ökning. Blir densiteten för hög eller för låg? Förklara.",
     "poang": "(0/2/0)",
-    "t": "<p>En sten vägs torr och sänks sedan helt ned i ett mätglas. Luftbubblor fastnar på stenen. Sedan beräknas densiteten från massan och vattennivåns ökning. Blir densiteten för hög eller för låg? Förklara.</p>",
+    "t": "<p>En sten vägs torr och sänks sedan helt ned i ett mätglas. Luftbubblor fastnar på stenen. Sedan beräknas densiteten från massan och vattennivåns ökning. Blir densiteten för hög eller för låg? Förklara.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 250\" width=\"360\" height=\"250\" role=\"img\" aria-label=\"En sten ligger på botten av ett mätglas med vatten. Små luftbubblor sitter fast på stenens yta.\" style=\"max-width:100%;height:auto\"><title>En sten ligger på botten av ett mätglas med vatten. Små luftbubblor sitter fast på stenens yta.</title><rect width=\"360\" height=\"250\" fill=\"#fff\"/><rect x=\"100.0\" y=\"36.0\" width=\"64.0\" height=\"186.0\" rx=\"4\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"102\" y=\"114.0\" width=\"60\" height=\"106.0\" fill=\"#cfe6f5\"/><line x1=\"102.0\" y1=\"114.0\" x2=\"162.0\" y2=\"114.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"100.0\" y1=\"222.0\" x2=\"112.0\" y2=\"222.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"94.0\" y=\"226.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">0</text><line x1=\"100.0\" y1=\"213.0\" x2=\"107.0\" y2=\"213.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"204.0\" x2=\"107.0\" y2=\"204.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"195.0\" x2=\"107.0\" y2=\"195.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"186.0\" x2=\"112.0\" y2=\"186.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"94.0\" y=\"190.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">20</text><line x1=\"100.0\" y1=\"177.0\" x2=\"107.0\" y2=\"177.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"168.0\" x2=\"107.0\" y2=\"168.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"159.0\" x2=\"107.0\" y2=\"159.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"150.0\" x2=\"112.0\" y2=\"150.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"94.0\" y=\"154.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">40</text><line x1=\"100.0\" y1=\"141.0\" x2=\"107.0\" y2=\"141.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"132.0\" x2=\"107.0\" y2=\"132.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"123.0\" x2=\"107.0\" y2=\"123.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"114.0\" x2=\"112.0\" y2=\"114.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"94.0\" y=\"118.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">60</text><line x1=\"100.0\" y1=\"105.0\" x2=\"107.0\" y2=\"105.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"96.0\" x2=\"107.0\" y2=\"96.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"87.0\" x2=\"107.0\" y2=\"87.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"78.0\" x2=\"112.0\" y2=\"78.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"94.0\" y=\"82.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">80</text><line x1=\"100.0\" y1=\"69.0\" x2=\"107.0\" y2=\"69.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"60.0\" x2=\"107.0\" y2=\"60.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"51.0\" x2=\"107.0\" y2=\"51.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"42.0\" x2=\"112.0\" y2=\"42.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"94.0\" y=\"46.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">100</text><path d=\"M110,214 C108,198 120,188 134,189 C150,189 160,198 158,210 C157,219 146,220 134,220 C120,220 112,220 110,214 Z\" fill=\"#9b8f80\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><circle cx=\"112\" cy=\"202\" r=\"3.5\" fill=\"#fff\" stroke=\"#0b6fa4\" stroke-width=\"1.2\"/><circle cx=\"124\" cy=\"189\" r=\"3.5\" fill=\"#fff\" stroke=\"#0b6fa4\" stroke-width=\"1.2\"/><circle cx=\"144\" cy=\"188\" r=\"4\" fill=\"#fff\" stroke=\"#0b6fa4\" stroke-width=\"1.2\"/><circle cx=\"157\" cy=\"200\" r=\"3.5\" fill=\"#fff\" stroke=\"#0b6fa4\" stroke-width=\"1.2\"/><circle cx=\"154\" cy=\"214\" r=\"3\" fill=\"#fff\" stroke=\"#0b6fa4\" stroke-width=\"1.2\"/><circle cx=\"130\" cy=\"206\" r=\"3\" fill=\"#fff\" stroke=\"#0b6fa4\" stroke-width=\"1.2\"/><line x1=\"250.0\" y1=\"150.0\" x2=\"177.0\" y2=\"190.1\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"170.0,194.0 175.3,187.0 178.7,193.3\" fill=\"#526777\"/><text x=\"254.0\" y=\"148.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">luftbubblor</text><line x1=\"250.0\" y1=\"226.0\" x2=\"177.9\" y2=\"215.2\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"170.0,214.0 178.4,211.6 177.4,218.7\" fill=\"#526777\"/><text x=\"254.0\" y=\"230.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">sten</text><text x=\"60.0\" y=\"30.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">ml</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Bubblorna tränger också undan vatten. Volymen blir därför för stor, men den torra stenens massa ändras inte.</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{mätt}}=\\frac{m}{V_{\\mathrm{sten}}+V_{\\mathrm{bubblor}}}\\]</div></li><li><p class=\"facit-rubrik\">Större nämnare ger mindre kvot</p><p>Samma massa delas med en för stor volym. Den beräknade densiteten blir för låg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten blir för låg.</p></div>",
     "familj": "Densitet, flytförmåga och modeller",
     "familjNyckel": "densitet__begrepp_och_modellering",
@@ -9602,7 +9602,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma densiteten ur hur stor andel som är nedsänkt",
     "poang": "(0/2/0)",
-    "t": "<p>Ett block som är gjort av samma material rakt igenom flyter i vatten med densiteten 1,00 g/cm³. När blocket flyter stilla ligger 72 % av blockets volym under vattenytan. Bestäm blockets densitet.</p><p>Avrunda inte.</p>",
+    "t": "<p>Ett block som är gjort av samma material rakt igenom flyter i vatten med densiteten 1,00 g/cm³. När blocket flyter stilla ligger 72 % av blockets volym under vattenytan. Bestäm blockets densitet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" width=\"400\" height=\"220\" role=\"img\" aria-label=\"Ett block flyter stilla i vatten med 72 procent av sin volym under vattenytan.\" style=\"max-width:100%;height:auto\"><title>Ett block flyter stilla i vatten med 72 procent av sin volym under vattenytan.</title><rect width=\"400\" height=\"220\" fill=\"#fff\"/><rect x=\"20\" y=\"92\" width=\"360\" height=\"118\" fill=\"#cfe6f5\"/><line x1=\"20.0\" y1=\"92.0\" x2=\"380.0\" y2=\"92.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><rect x=\"140.0\" y=\"61.2\" width=\"120.0\" height=\"110.0\" rx=\"0\" fill=\"#b7c9a8\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M140,61.199999999999996 L162,47.199999999999996 L282,47.199999999999996 L260,61.199999999999996 Z\" fill=\"#cfdcc3\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M260,61.199999999999996 L282,47.199999999999996 L282,157.2 L260,171.2 Z\" fill=\"#9fb48f\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"20\" y=\"92\" width=\"360\" height=\"118\" fill=\"#cfe6f5\" fill-opacity=\"0.55\"/><line x1=\"20.0\" y1=\"92.0\" x2=\"380.0\" y2=\"92.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"298.0\" y1=\"92.0\" x2=\"298.0\" y2=\"171.2\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><line x1=\"292.0\" y1=\"92.0\" x2=\"304.0\" y2=\"92.0\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><line x1=\"292.0\" y1=\"171.2\" x2=\"304.0\" y2=\"171.2\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><text x=\"308.0\" y=\"150.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">72 % av</text><text x=\"308.0\" y=\"166.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">volymen</text><text x=\"30.0\" y=\"200.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">vatten 1,00 g/cm³</text></svg></span><p>Avrunda inte.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>72 % av volymen ligger under ytan och vattnets densitet är 1,00 g/cm³. Vi söker blockets densitet.</p></li><li><p class=\"facit-rubrik\">Kraftbalans: \\(F_{\\mathrm{lyft}}=mg\\)</p><p>När föremålet flyter stilla balanserar lyftkraften tyngdkraften. Lyftkraften beror på vätskans densitet och den nedsänkta volymen.</p><div class=\"facit-matte\">\\[\\rho_v g V_{\\mathrm{under}}=\\rho_f g V_{\\mathrm{hela}}\\]</div></li><li><p class=\"facit-rubrik\">Nedsänkt andel: \\(V_{\\mathrm{under}}/V_{\\mathrm{hela}}=\\rho_f/\\rho_v\\)</p><p>Förkorta bort g och dela med vätskans densitet och hela volymen.</p><div class=\"facit-matte\">\\[\\frac{V_{\\mathrm{under}}}{V_{\\mathrm{hela}}}=\\frac{\\rho_f}{\\rho_v}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut blockets densitet</p><div class=\"facit-matte\">\\[\\rho_f=0{,}72\\rho_v=0{,}72\\cdot1{,}00=0{,}72\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}72\\ \\mathrm{g/cm^3}\\).</p></div>",
     "familj": "Densitet, flytförmåga och modeller",
     "familjNyckel": "densitet__densitet_och_flytformaga",
@@ -9661,9 +9661,9 @@ window.BANK = [
     "id": "2.146",
     "kap": 2,
     "omr": "densitet",
-    "niva": "C",
+    "niva": "A",
     "typ": "bestämma volymandelen av två material ur medeldensitet",
-    "poang": "(0/2/0)",
+    "poang": "(0/0/2)",
     "t": "<p>Ett föremål har den totala volymen 100 cm³ och består av aluminium och koppar. Föremålets medeldensitet är 7,20 g/cm³. Aluminium har densiteten 2,70 g/cm³ och koppar 8,96 g/cm³. Vilken volym upptar kopparn?<br></p><p>Antag att föremålet saknar hålrum och att aluminiumets och kopparns volymer tillsammans är 100 cm³.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Totalvolymen är 100 cm³ och medeldensiteten 7,20 g/cm³. Låt V vara kopparvolymen i cm³. Aluminiumvolymen är då 100 − V.</p></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m_{\\mathrm{tot}}=7{,}20\\cdot100=720\\ \\mathrm g\\]</div></li><li><p class=\"facit-rubrik\">Summan av massorna: \\(m=m_{\\mathrm{Cu}}+m_{\\mathrm{Al}}\\)</p><div class=\"facit-matte\">\\[720=8{,}96V+2{,}70(100-V)\\]</div></li><li><p class=\"facit-rubrik\">Samla termerna med kopparvolymen</p><div class=\"facit-matte\">\\[\\begin{aligned}720&=6{,}26V+270\\\\450&=6{,}26V\\\\V&=450/6{,}26\\approx71{,}9\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(71{,}9\\ \\mathrm{cm^3}\\).</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
@@ -119786,7 +119786,7 @@ window.BANK = [
     "omr": "densitet",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>Ett föremål som är gjort av samma material rakt igenom med densiteten 0,75 g/cm³ flyter stilla i en okänd vätska. 60 % av föremålets volym ligger under ytan. Bestäm vätskans densitet i g/cm³. Bortse från luftens lyftkraft.</p>",
+    "t": "<p>Ett föremål som är gjort av samma material rakt igenom med densiteten 0,75 g/cm³ flyter stilla i en okänd vätska. 60 % av föremålets volym ligger under ytan. Bestäm vätskans densitet i g/cm³. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 230\" width=\"440\" height=\"230\" role=\"img\" aria-label=\"Ett föremål med densiteten 0,75 g/cm³ flyter stilla i en okänd vätska med 60 procent av sin volym under ytan.\" style=\"max-width:100%;height:auto\"><title>Ett föremål med densiteten 0,75 g/cm³ flyter stilla i en okänd vätska med 60 procent av sin volym under ytan.</title><rect width=\"440\" height=\"230\" fill=\"#fff\"/><rect x=\"70.0\" y=\"30.0\" width=\"240.0\" height=\"190.0\" rx=\"6\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"72\" y=\"100\" width=\"236\" height=\"118\" rx=\"4\" fill=\"#e6d4f0\"/><line x1=\"72.0\" y1=\"100.0\" x2=\"308.0\" y2=\"100.0\" stroke=\"#7b4fa0\" stroke-width=\"2\"/><path d=\"M156,60.0 L156,160.0 A34,10 0 0 0 224,160.0 L224,60.0 Z\" fill=\"#f2c48d\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><ellipse cx=\"190.0\" cy=\"60.0\" rx=\"34.0\" ry=\"10.0\" fill=\"#f7d9b5\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"72\" y=\"100\" width=\"236\" height=\"118\" rx=\"4\" fill=\"#e6d4f0\" fill-opacity=\"0.55\"/><line x1=\"72.0\" y1=\"100.0\" x2=\"308.0\" y2=\"100.0\" stroke=\"#7b4fa0\" stroke-width=\"2\"/><line x1=\"330.0\" y1=\"100.0\" x2=\"330.0\" y2=\"160.0\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><line x1=\"324.0\" y1=\"100.0\" x2=\"336.0\" y2=\"100.0\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><line x1=\"324.0\" y1=\"160.0\" x2=\"336.0\" y2=\"160.0\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><text x=\"342.0\" y=\"150.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">60 %</text><text x=\"342.0\" y=\"166.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">under ytan</text><text x=\"190.0\" y=\"92.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">0,75 g/cm³</text><text x=\"110.0\" y=\"200.0\" fill=\"#6a3f8f\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">okänd vätska</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Föremålets densitet är 0,75 g/cm³ och den nedsänkta andelen 0,60. Vi söker vätskans densitet.</p></li><li><p class=\"facit-rubrik\">Kraftbalans: \\(F_{\\mathrm{lyft}}=mg\\)</p><p>När föremålet flyter stilla balanserar lyftkraften tyngdkraften. Lyftkraften beror på vätskans densitet och den nedsänkta volymen.</p><div class=\"facit-matte\">\\[\\rho_v g V_{\\mathrm{under}}=\\rho_f g V_{\\mathrm{hela}}\\]</div></li><li><p class=\"facit-rubrik\">Nedsänkt andel: \\(V_{\\mathrm{under}}/V_{\\mathrm{hela}}=\\rho_f/\\rho_v\\)</p><p>Förkorta bort g och dela med vätskans densitet och hela volymen.</p><div class=\"facit-matte\">\\[\\frac{V_{\\mathrm{under}}}{V_{\\mathrm{hela}}}=\\frac{\\rho_f}{\\rho_v}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut vätskans densitet</p><div class=\"facit-matte\">\\[\\begin{aligned}0{,}60&=\\frac{0{,}75}{\\rho_v}\\quad\\Rightarrow\\quad\\rho_v\\\\&=\\frac{0{,}75}{0{,}60}\\\\&=1{,}25\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}25\\ \\mathrm{g/cm^3}\\).</p></div>",
     "familj": "Densitet, flytförmåga och modeller",
     "formaga": [
@@ -132924,7 +132924,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(6/0/0)",
-    "t": "<p>Hastigheter åt höger räknas positiva. Hastigheterna nedan gäller vid t = 0, 1 och 2 s. Bestäm medelaccelerationen under 0–2 s.</p><ol type=\"a\"><li>Hastigheterna är -20, -15, -10 m/s.</li><li>Hastigheterna är 2, 4, 6 m/s.</li><li>Hastigheterna är -5, -8, -11 m/s.</li><li>Hastigheterna är 12, 8, 4 m/s.</li><li>Hastigheterna är 5, 0, -5 m/s.</li><li>Hastigheterna är -11, -8, -5 m/s.</li></ol>",
+    "t": "<p>En vagn rullar fram och tillbaka på en rak bana. Hastigheter åt höger räknas positiva och hastigheter åt vänster negativa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 116\" width=\"440\" height=\"116\" role=\"img\" aria-label=\"En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.\" style=\"max-width:100%;height:auto\"><title>En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.</title><rect width=\"440\" height=\"116\" fill=\"#fff\"/><line x1=\"20.0\" y1=\"92.0\" x2=\"420.0\" y2=\"92.0\" stroke=\"#203746\" stroke-width=\"2.5\"/><line x1=\"40.0\" y1=\"92.0\" x2=\"32.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"80.0\" y1=\"92.0\" x2=\"72.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"120.0\" y1=\"92.0\" x2=\"112.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"160.0\" y1=\"92.0\" x2=\"152.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"200.0\" y1=\"92.0\" x2=\"192.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"240.0\" y1=\"92.0\" x2=\"232.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"280.0\" y1=\"92.0\" x2=\"272.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"320.0\" y1=\"92.0\" x2=\"312.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"360.0\" y1=\"92.0\" x2=\"352.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"400.0\" y1=\"92.0\" x2=\"392.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><rect x=\"180.0\" y=\"46.0\" width=\"80.0\" height=\"34.0\" rx=\"5\" fill=\"#f2c48d\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"198.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><circle cx=\"242.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"270.0\" y1=\"30.0\" x2=\"379.0\" y2=\"30.0\" stroke=\"#0b6fa4\" stroke-width=\"3\"/><polygon points=\"390.0,30.0 379.0,35.0 379.0,25.1\" fill=\"#0b6fa4\"/><text x=\"330.0\" y=\"22.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">positiv hastighet</text><line x1=\"170.0\" y1=\"30.0\" x2=\"61.0\" y2=\"30.0\" stroke=\"#b25c17\" stroke-width=\"3\"/><polygon points=\"50.0,30.0 61.0,25.1 61.0,35.0\" fill=\"#b25c17\"/><text x=\"110.0\" y=\"22.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">negativ hastighet</text></svg></span><p>Tabellen visar vagnens hastighet v (m/s) vid tre tidpunkter i sex olika försök, a–f. Hur stor är medelaccelerationen mellan 0 s och 2 s i varje försök?</p><table class=\"data\"><tr><th>Försök</th><th>t = 0 s</th><th>t = 1 s</th><th>t = 2 s</th></tr><tr><th>a)</th><td>−20</td><td>−15</td><td>−10</td></tr><tr><th>b)</th><td>2</td><td>4</td><td>6</td></tr><tr><th>c)</th><td>−5</td><td>−8</td><td>−11</td></tr><tr><th>d)</th><td>12</td><td>8</td><td>4</td></tr><tr><th>e)</th><td>5</td><td>0</td><td>−5</td></tr><tr><th>f)</th><td>−11</td><td>−8</td><td>−5</td></tr></table>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=-20\\ \\mathrm{m/s}\\\\&v=-10\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{-10-(-20)}{2}=5\\ \\mathrm{m/s^2}\\]</div><p>Hastigheten blir mindre negativ: accelerationen är riktad åt höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=2\\ \\mathrm{m/s}\\\\&v=6\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{6-2}{2}=2\\ \\mathrm{m/s^2}\\]</div><p>Hastigheten ökar åt höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=-5\\ \\mathrm{m/s}\\\\&v=-11\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{-11-(-5)}{2}=-3\\ \\mathrm{m/s^2}\\]</div><p>Hastigheten blir mer negativ: accelerationen är riktad åt vänster.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=12\\ \\mathrm{m/s}\\\\&v=4\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{4-12}{2}=-4\\ \\mathrm{m/s^2}\\]</div><p>Farten minskar åt höger: accelerationen är riktad åt vänster.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −4 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=5\\ \\mathrm{m/s}\\\\&v=-5\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{-5-5}{2}=-5\\ \\mathrm{m/s^2}\\]</div><p>Föremålet vänder: hastigheten går från +5 till −5 m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −5 m/s².</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">f)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=-11\\ \\mathrm{m/s}\\\\&v=-5\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{-5-(-11)}{2}=3\\ \\mathrm{m/s^2}\\]</div><p>Hastigheten blir mindre negativ: accelerationen är riktad åt höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 m/s².</p></div></div></div>",
     "familj": "Medelacceleration",
     "formaga": [
@@ -132982,12 +132982,12 @@ window.BANK = [
       "f"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Hastigheter åt höger räknas positiva. Hastigheterna nedan gäller vid t = 0, 1 och 2 s. Bestäm medelaccelerationen under 0–2 s.</p>",
+    "spelIntro": "<p>En vagn rullar fram och tillbaka på en rak bana. Hastigheter åt höger räknas positiva och hastigheter åt vänster negativa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 116\" width=\"440\" height=\"116\" role=\"img\" aria-label=\"En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.\" style=\"max-width:100%;height:auto\"><title>En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.</title><rect width=\"440\" height=\"116\" fill=\"#fff\"/><line x1=\"20.0\" y1=\"92.0\" x2=\"420.0\" y2=\"92.0\" stroke=\"#203746\" stroke-width=\"2.5\"/><line x1=\"40.0\" y1=\"92.0\" x2=\"32.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"80.0\" y1=\"92.0\" x2=\"72.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"120.0\" y1=\"92.0\" x2=\"112.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"160.0\" y1=\"92.0\" x2=\"152.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"200.0\" y1=\"92.0\" x2=\"192.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"240.0\" y1=\"92.0\" x2=\"232.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"280.0\" y1=\"92.0\" x2=\"272.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"320.0\" y1=\"92.0\" x2=\"312.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"360.0\" y1=\"92.0\" x2=\"352.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"400.0\" y1=\"92.0\" x2=\"392.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><rect x=\"180.0\" y=\"46.0\" width=\"80.0\" height=\"34.0\" rx=\"5\" fill=\"#f2c48d\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"198.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><circle cx=\"242.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"270.0\" y1=\"30.0\" x2=\"379.0\" y2=\"30.0\" stroke=\"#0b6fa4\" stroke-width=\"3\"/><polygon points=\"390.0,30.0 379.0,35.0 379.0,25.1\" fill=\"#0b6fa4\"/><text x=\"330.0\" y=\"22.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">positiv hastighet</text><line x1=\"170.0\" y1=\"30.0\" x2=\"61.0\" y2=\"30.0\" stroke=\"#b25c17\" stroke-width=\"3\"/><polygon points=\"50.0,30.0 61.0,25.1 61.0,35.0\" fill=\"#b25c17\"/><text x=\"110.0\" y=\"22.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">negativ hastighet</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hastigheterna är -20, -15, -10 m/s.",
-        "t": "<p>Hastigheter åt höger räknas positiva. Hastigheterna nedan gäller vid t = 0, 1 och 2 s. Bestäm medelaccelerationen under 0–2 s.</p><p>Hastigheterna är -20, -15, -10 m/s.</p>",
+        "fraga": "<table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>−20</td><td>−15</td><td>−10</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
+        "t": "<p>En vagn rullar fram och tillbaka på en rak bana. Hastigheter åt höger räknas positiva och hastigheter åt vänster negativa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 116\" width=\"440\" height=\"116\" role=\"img\" aria-label=\"En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.\" style=\"max-width:100%;height:auto\"><title>En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.</title><rect width=\"440\" height=\"116\" fill=\"#fff\"/><line x1=\"20.0\" y1=\"92.0\" x2=\"420.0\" y2=\"92.0\" stroke=\"#203746\" stroke-width=\"2.5\"/><line x1=\"40.0\" y1=\"92.0\" x2=\"32.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"80.0\" y1=\"92.0\" x2=\"72.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"120.0\" y1=\"92.0\" x2=\"112.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"160.0\" y1=\"92.0\" x2=\"152.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"200.0\" y1=\"92.0\" x2=\"192.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"240.0\" y1=\"92.0\" x2=\"232.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"280.0\" y1=\"92.0\" x2=\"272.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"320.0\" y1=\"92.0\" x2=\"312.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"360.0\" y1=\"92.0\" x2=\"352.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"400.0\" y1=\"92.0\" x2=\"392.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><rect x=\"180.0\" y=\"46.0\" width=\"80.0\" height=\"34.0\" rx=\"5\" fill=\"#f2c48d\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"198.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><circle cx=\"242.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"270.0\" y1=\"30.0\" x2=\"379.0\" y2=\"30.0\" stroke=\"#0b6fa4\" stroke-width=\"3\"/><polygon points=\"390.0,30.0 379.0,35.0 379.0,25.1\" fill=\"#0b6fa4\"/><text x=\"330.0\" y=\"22.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">positiv hastighet</text><line x1=\"170.0\" y1=\"30.0\" x2=\"61.0\" y2=\"30.0\" stroke=\"#b25c17\" stroke-width=\"3\"/><polygon points=\"50.0,30.0 61.0,25.1 61.0,35.0\" fill=\"#b25c17\"/><text x=\"110.0\" y=\"22.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">negativ hastighet</text></svg></span><table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>−20</td><td>−15</td><td>−10</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=-20\\ \\mathrm{m/s}\\\\&v=-10\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{-10-(-20)}{2}=5\\ \\mathrm{m/s^2}\\]</div><p>Hastigheten blir mindre negativ: accelerationen är riktad åt höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 m/s².</p></div>",
         "ledtrad": "<p>Räkna sluthastigheten minus starthastigheten, med båda tecknen kvar.</p>",
         "niva": "E",
@@ -132997,8 +132997,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hastigheterna är 2, 4, 6 m/s.",
-        "t": "<p>Hastigheter åt höger räknas positiva. Hastigheterna nedan gäller vid t = 0, 1 och 2 s. Bestäm medelaccelerationen under 0–2 s.</p><p>Hastigheterna är 2, 4, 6 m/s.</p>",
+        "fraga": "<table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>2</td><td>4</td><td>6</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
+        "t": "<p>En vagn rullar fram och tillbaka på en rak bana. Hastigheter åt höger räknas positiva och hastigheter åt vänster negativa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 116\" width=\"440\" height=\"116\" role=\"img\" aria-label=\"En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.\" style=\"max-width:100%;height:auto\"><title>En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.</title><rect width=\"440\" height=\"116\" fill=\"#fff\"/><line x1=\"20.0\" y1=\"92.0\" x2=\"420.0\" y2=\"92.0\" stroke=\"#203746\" stroke-width=\"2.5\"/><line x1=\"40.0\" y1=\"92.0\" x2=\"32.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"80.0\" y1=\"92.0\" x2=\"72.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"120.0\" y1=\"92.0\" x2=\"112.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"160.0\" y1=\"92.0\" x2=\"152.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"200.0\" y1=\"92.0\" x2=\"192.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"240.0\" y1=\"92.0\" x2=\"232.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"280.0\" y1=\"92.0\" x2=\"272.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"320.0\" y1=\"92.0\" x2=\"312.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"360.0\" y1=\"92.0\" x2=\"352.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"400.0\" y1=\"92.0\" x2=\"392.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><rect x=\"180.0\" y=\"46.0\" width=\"80.0\" height=\"34.0\" rx=\"5\" fill=\"#f2c48d\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"198.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><circle cx=\"242.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"270.0\" y1=\"30.0\" x2=\"379.0\" y2=\"30.0\" stroke=\"#0b6fa4\" stroke-width=\"3\"/><polygon points=\"390.0,30.0 379.0,35.0 379.0,25.1\" fill=\"#0b6fa4\"/><text x=\"330.0\" y=\"22.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">positiv hastighet</text><line x1=\"170.0\" y1=\"30.0\" x2=\"61.0\" y2=\"30.0\" stroke=\"#b25c17\" stroke-width=\"3\"/><polygon points=\"50.0,30.0 61.0,25.1 61.0,35.0\" fill=\"#b25c17\"/><text x=\"110.0\" y=\"22.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">negativ hastighet</text></svg></span><table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>2</td><td>4</td><td>6</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=2\\ \\mathrm{m/s}\\\\&v=6\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{6-2}{2}=2\\ \\mathrm{m/s^2}\\]</div><p>Hastigheten ökar åt höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 m/s².</p></div>",
         "ledtrad": "<p>Räkna sluthastigheten minus starthastigheten, med båda tecknen kvar.</p>",
         "niva": "E",
@@ -133008,8 +133008,8 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Hastigheterna är -5, -8, -11 m/s.",
-        "t": "<p>Hastigheter åt höger räknas positiva. Hastigheterna nedan gäller vid t = 0, 1 och 2 s. Bestäm medelaccelerationen under 0–2 s.</p><p>Hastigheterna är -5, -8, -11 m/s.</p>",
+        "fraga": "<table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>−5</td><td>−8</td><td>−11</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
+        "t": "<p>En vagn rullar fram och tillbaka på en rak bana. Hastigheter åt höger räknas positiva och hastigheter åt vänster negativa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 116\" width=\"440\" height=\"116\" role=\"img\" aria-label=\"En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.\" style=\"max-width:100%;height:auto\"><title>En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.</title><rect width=\"440\" height=\"116\" fill=\"#fff\"/><line x1=\"20.0\" y1=\"92.0\" x2=\"420.0\" y2=\"92.0\" stroke=\"#203746\" stroke-width=\"2.5\"/><line x1=\"40.0\" y1=\"92.0\" x2=\"32.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"80.0\" y1=\"92.0\" x2=\"72.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"120.0\" y1=\"92.0\" x2=\"112.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"160.0\" y1=\"92.0\" x2=\"152.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"200.0\" y1=\"92.0\" x2=\"192.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"240.0\" y1=\"92.0\" x2=\"232.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"280.0\" y1=\"92.0\" x2=\"272.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"320.0\" y1=\"92.0\" x2=\"312.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"360.0\" y1=\"92.0\" x2=\"352.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"400.0\" y1=\"92.0\" x2=\"392.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><rect x=\"180.0\" y=\"46.0\" width=\"80.0\" height=\"34.0\" rx=\"5\" fill=\"#f2c48d\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"198.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><circle cx=\"242.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"270.0\" y1=\"30.0\" x2=\"379.0\" y2=\"30.0\" stroke=\"#0b6fa4\" stroke-width=\"3\"/><polygon points=\"390.0,30.0 379.0,35.0 379.0,25.1\" fill=\"#0b6fa4\"/><text x=\"330.0\" y=\"22.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">positiv hastighet</text><line x1=\"170.0\" y1=\"30.0\" x2=\"61.0\" y2=\"30.0\" stroke=\"#b25c17\" stroke-width=\"3\"/><polygon points=\"50.0,30.0 61.0,25.1 61.0,35.0\" fill=\"#b25c17\"/><text x=\"110.0\" y=\"22.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">negativ hastighet</text></svg></span><table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>−5</td><td>−8</td><td>−11</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=-5\\ \\mathrm{m/s}\\\\&v=-11\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{-11-(-5)}{2}=-3\\ \\mathrm{m/s^2}\\]</div><p>Hastigheten blir mer negativ: accelerationen är riktad åt vänster.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3 m/s².</p></div>",
         "ledtrad": "<p>Räkna sluthastigheten minus starthastigheten, med båda tecknen kvar.</p>",
         "niva": "E",
@@ -133019,8 +133019,8 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "fraga": "Hastigheterna är 12, 8, 4 m/s.",
-        "t": "<p>Hastigheter åt höger räknas positiva. Hastigheterna nedan gäller vid t = 0, 1 och 2 s. Bestäm medelaccelerationen under 0–2 s.</p><p>Hastigheterna är 12, 8, 4 m/s.</p>",
+        "fraga": "<table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>12</td><td>8</td><td>4</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
+        "t": "<p>En vagn rullar fram och tillbaka på en rak bana. Hastigheter åt höger räknas positiva och hastigheter åt vänster negativa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 116\" width=\"440\" height=\"116\" role=\"img\" aria-label=\"En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.\" style=\"max-width:100%;height:auto\"><title>En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.</title><rect width=\"440\" height=\"116\" fill=\"#fff\"/><line x1=\"20.0\" y1=\"92.0\" x2=\"420.0\" y2=\"92.0\" stroke=\"#203746\" stroke-width=\"2.5\"/><line x1=\"40.0\" y1=\"92.0\" x2=\"32.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"80.0\" y1=\"92.0\" x2=\"72.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"120.0\" y1=\"92.0\" x2=\"112.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"160.0\" y1=\"92.0\" x2=\"152.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"200.0\" y1=\"92.0\" x2=\"192.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"240.0\" y1=\"92.0\" x2=\"232.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"280.0\" y1=\"92.0\" x2=\"272.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"320.0\" y1=\"92.0\" x2=\"312.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"360.0\" y1=\"92.0\" x2=\"352.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"400.0\" y1=\"92.0\" x2=\"392.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><rect x=\"180.0\" y=\"46.0\" width=\"80.0\" height=\"34.0\" rx=\"5\" fill=\"#f2c48d\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"198.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><circle cx=\"242.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"270.0\" y1=\"30.0\" x2=\"379.0\" y2=\"30.0\" stroke=\"#0b6fa4\" stroke-width=\"3\"/><polygon points=\"390.0,30.0 379.0,35.0 379.0,25.1\" fill=\"#0b6fa4\"/><text x=\"330.0\" y=\"22.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">positiv hastighet</text><line x1=\"170.0\" y1=\"30.0\" x2=\"61.0\" y2=\"30.0\" stroke=\"#b25c17\" stroke-width=\"3\"/><polygon points=\"50.0,30.0 61.0,25.1 61.0,35.0\" fill=\"#b25c17\"/><text x=\"110.0\" y=\"22.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">negativ hastighet</text></svg></span><table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>12</td><td>8</td><td>4</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=12\\ \\mathrm{m/s}\\\\&v=4\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{4-12}{2}=-4\\ \\mathrm{m/s^2}\\]</div><p>Farten minskar åt höger: accelerationen är riktad åt vänster.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −4 m/s².</p></div>",
         "ledtrad": "<p>Räkna sluthastigheten minus starthastigheten, med båda tecknen kvar.</p>",
         "niva": "E",
@@ -133030,8 +133030,8 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "fraga": "Hastigheterna är 5, 0, -5 m/s.",
-        "t": "<p>Hastigheter åt höger räknas positiva. Hastigheterna nedan gäller vid t = 0, 1 och 2 s. Bestäm medelaccelerationen under 0–2 s.</p><p>Hastigheterna är 5, 0, -5 m/s.</p>",
+        "fraga": "<table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>5</td><td>0</td><td>−5</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
+        "t": "<p>En vagn rullar fram och tillbaka på en rak bana. Hastigheter åt höger räknas positiva och hastigheter åt vänster negativa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 116\" width=\"440\" height=\"116\" role=\"img\" aria-label=\"En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.\" style=\"max-width:100%;height:auto\"><title>En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.</title><rect width=\"440\" height=\"116\" fill=\"#fff\"/><line x1=\"20.0\" y1=\"92.0\" x2=\"420.0\" y2=\"92.0\" stroke=\"#203746\" stroke-width=\"2.5\"/><line x1=\"40.0\" y1=\"92.0\" x2=\"32.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"80.0\" y1=\"92.0\" x2=\"72.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"120.0\" y1=\"92.0\" x2=\"112.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"160.0\" y1=\"92.0\" x2=\"152.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"200.0\" y1=\"92.0\" x2=\"192.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"240.0\" y1=\"92.0\" x2=\"232.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"280.0\" y1=\"92.0\" x2=\"272.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"320.0\" y1=\"92.0\" x2=\"312.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"360.0\" y1=\"92.0\" x2=\"352.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"400.0\" y1=\"92.0\" x2=\"392.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><rect x=\"180.0\" y=\"46.0\" width=\"80.0\" height=\"34.0\" rx=\"5\" fill=\"#f2c48d\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"198.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><circle cx=\"242.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"270.0\" y1=\"30.0\" x2=\"379.0\" y2=\"30.0\" stroke=\"#0b6fa4\" stroke-width=\"3\"/><polygon points=\"390.0,30.0 379.0,35.0 379.0,25.1\" fill=\"#0b6fa4\"/><text x=\"330.0\" y=\"22.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">positiv hastighet</text><line x1=\"170.0\" y1=\"30.0\" x2=\"61.0\" y2=\"30.0\" stroke=\"#b25c17\" stroke-width=\"3\"/><polygon points=\"50.0,30.0 61.0,25.1 61.0,35.0\" fill=\"#b25c17\"/><text x=\"110.0\" y=\"22.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">negativ hastighet</text></svg></span><table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>5</td><td>0</td><td>−5</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=5\\ \\mathrm{m/s}\\\\&v=-5\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{-5-5}{2}=-5\\ \\mathrm{m/s^2}\\]</div><p>Föremålet vänder: hastigheten går från +5 till −5 m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −5 m/s².</p></div>",
         "ledtrad": "<p>Räkna sluthastigheten minus starthastigheten, med båda tecknen kvar.</p>",
         "niva": "E",
@@ -133041,8 +133041,8 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "fraga": "Hastigheterna är -11, -8, -5 m/s.",
-        "t": "<p>Hastigheter åt höger räknas positiva. Hastigheterna nedan gäller vid t = 0, 1 och 2 s. Bestäm medelaccelerationen under 0–2 s.</p><p>Hastigheterna är -11, -8, -5 m/s.</p>",
+        "fraga": "<table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>−11</td><td>−8</td><td>−5</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
+        "t": "<p>En vagn rullar fram och tillbaka på en rak bana. Hastigheter åt höger räknas positiva och hastigheter åt vänster negativa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 116\" width=\"440\" height=\"116\" role=\"img\" aria-label=\"En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.\" style=\"max-width:100%;height:auto\"><title>En vagn på en rak, horisontell bana. Hastighet åt höger är positiv och hastighet åt vänster negativ.</title><rect width=\"440\" height=\"116\" fill=\"#fff\"/><line x1=\"20.0\" y1=\"92.0\" x2=\"420.0\" y2=\"92.0\" stroke=\"#203746\" stroke-width=\"2.5\"/><line x1=\"40.0\" y1=\"92.0\" x2=\"32.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"80.0\" y1=\"92.0\" x2=\"72.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"120.0\" y1=\"92.0\" x2=\"112.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"160.0\" y1=\"92.0\" x2=\"152.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"200.0\" y1=\"92.0\" x2=\"192.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"240.0\" y1=\"92.0\" x2=\"232.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"280.0\" y1=\"92.0\" x2=\"272.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"320.0\" y1=\"92.0\" x2=\"312.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"360.0\" y1=\"92.0\" x2=\"352.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><line x1=\"400.0\" y1=\"92.0\" x2=\"392.0\" y2=\"102.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><rect x=\"180.0\" y=\"46.0\" width=\"80.0\" height=\"34.0\" rx=\"5\" fill=\"#f2c48d\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"198.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><circle cx=\"242.0\" cy=\"84.0\" r=\"9\" fill=\"#203746\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"270.0\" y1=\"30.0\" x2=\"379.0\" y2=\"30.0\" stroke=\"#0b6fa4\" stroke-width=\"3\"/><polygon points=\"390.0,30.0 379.0,35.0 379.0,25.1\" fill=\"#0b6fa4\"/><text x=\"330.0\" y=\"22.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">positiv hastighet</text><line x1=\"170.0\" y1=\"30.0\" x2=\"61.0\" y2=\"30.0\" stroke=\"#b25c17\" stroke-width=\"3\"/><polygon points=\"50.0,30.0 61.0,25.1 61.0,35.0\" fill=\"#b25c17\"/><text x=\"110.0\" y=\"22.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">negativ hastighet</text></svg></span><table class=\"data\"><tr><th>t (s)</th><th>0</th><th>1</th><th>2</th></tr><tr><th>v (m/s)</th><td>−11</td><td>−8</td><td>−5</td></tr></table><p>Hur stor är vagnens medelacceleration mellan 0 s och 2 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Starthastighet och sluthastighet med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&v_0=-11\\ \\mathrm{m/s}\\\\&v=-5\\ \\mathrm{m/s}\\\\&\\Delta t=2\\ \\mathrm s\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Medelacceleration: \\(a_m=\\dfrac{\\Delta v}{\\Delta t}\\)</p><div class=\"facit-matte\">\\[a_m=\\frac{-5-(-11)}{2}=3\\ \\mathrm{m/s^2}\\]</div><p>Hastigheten blir mindre negativ: accelerationen är riktad åt höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 m/s².</p></div>",
         "ledtrad": "<p>Räkna sluthastigheten minus starthastigheten, med båda tecknen kvar.</p>",
         "niva": "E",
@@ -148327,7 +148327,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tillämpa fysikaliska samband i flera steg",
     "poang": "(1/1/0)",
-    "t": "<p>En stålplåt har måtten 4,00 m × 2,00 m × 2,00 cm och densiteten 7800 kg/m³. I en förenklad modell delar personerna lasten lika och varje person bär högst 50 kg. Modellen tar inte hänsyn till grepp, utrymme eller arbetsmiljö.</p><ol type=\"a\"><li>Bestäm plåtens massa i kg utan avrundning.</li><li>Hur många personer kräver modellen minst?</li></ol>",
+    "t": "<p>En stålplåt har måtten 4,00 m × 2,00 m × 2,00 cm och densiteten 7800 kg/m³. I en förenklad modell delar personerna lasten lika och varje person bär högst 50 kg. Modellen tar inte hänsyn till grepp, utrymme eller arbetsmiljö.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 190\" width=\"440\" height=\"190\" role=\"img\" aria-label=\"En stålplåt som är 4,00 m lång, 2,00 m bred och 2,00 cm tjock.\" style=\"max-width:100%;height:auto\"><title>En stålplåt som är 4,00 m lång, 2,00 m bred och 2,00 cm tjock.</title><rect width=\"440\" height=\"190\" fill=\"#fff\"/><rect x=\"50.0\" y=\"96.0\" width=\"280.0\" height=\"14.0\" rx=\"0\" fill=\"#8a99a6\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M50,96 L120,46 L400,46 L330,96 Z\" fill=\"#b4c0ca\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M330,96 L400,46 L400,60 L330,110 Z\" fill=\"#7a8995\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"50.0\" y1=\"134.0\" x2=\"330.0\" y2=\"134.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"128.0\" x2=\"50.0\" y2=\"140.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"330.0\" y1=\"128.0\" x2=\"330.0\" y2=\"140.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"190.0\" y=\"153.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">4,00 m</text><line x1=\"342.0\" y1=\"114.0\" x2=\"412.0\" y2=\"64.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"387.0\" y=\"99.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,00 m</text><line x1=\"26.0\" y1=\"60.0\" x2=\"44.1\" y2=\"93.0\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"48.0,100.0 41.0,94.7 47.3,91.3\" fill=\"#526777\"/><text x=\"22.0\" y=\"52.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">2,00 cm tjock</text></svg></span><ol type=\"a\"><li>Bestäm plåtens massa i kg utan avrundning.</li><li>Hur många personer kräver modellen minst?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{cm}=0{,}01\\ \\mathrm m\\)</p><p>Plåten är 4,00 m lång och 2,00 m bred. Stålets densitet är 7800 kg/m³.</p><div class=\"facit-matte\">\\[2{,}00\\ \\mathrm{cm}=0{,}0200\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><div class=\"facit-matte\">\\[V=4{,}00\\cdot2{,}00\\cdot0{,}0200=0{,}160\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=7800\\cdot0{,}160=1248\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1248\\ \\mathrm{kg}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{cm}=0{,}01\\ \\mathrm m\\)</p><p>Plåten är 4,00 m lång och 2,00 m bred. Stålets densitet är 7800 kg/m³.</p><div class=\"facit-matte\">\\[2{,}00\\ \\mathrm{cm}=0{,}0200\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><div class=\"facit-matte\">\\[V=4{,}00\\cdot2{,}00\\cdot0{,}0200=0{,}160\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=7800\\cdot0{,}160=1248\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Antal personer: \\(N\\geq m/50\\)</p><p>Varje person bär högst 50 kg enligt modellen. Antalet måste vara ett heltal, så vi avrundar uppåt.</p><div class=\"facit-matte\">\\[N\\geq1248/50=24{,}96\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera gränsen</p><div class=\"facit-matte\">\\[24\\cdot50=1200\\ \\mathrm{kg}\\lt 1248\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minst 25 personer enligt den förenklade modellen.</p></div></div></div>",
     "familj": "Densitet med geometri",
     "formaga": [
@@ -148364,12 +148364,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En stålplåt har måtten 4,00 m × 2,00 m × 2,00 cm och densiteten 7800 kg/m³. I en förenklad modell delar personerna lasten lika och varje person bär högst 50 kg. Modellen tar inte hänsyn till grepp, utrymme eller arbetsmiljö.</p>",
+    "spelIntro": "<p>En stålplåt har måtten 4,00 m × 2,00 m × 2,00 cm och densiteten 7800 kg/m³. I en förenklad modell delar personerna lasten lika och varje person bär högst 50 kg. Modellen tar inte hänsyn till grepp, utrymme eller arbetsmiljö.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 190\" width=\"440\" height=\"190\" role=\"img\" aria-label=\"En stålplåt som är 4,00 m lång, 2,00 m bred och 2,00 cm tjock.\" style=\"max-width:100%;height:auto\"><title>En stålplåt som är 4,00 m lång, 2,00 m bred och 2,00 cm tjock.</title><rect width=\"440\" height=\"190\" fill=\"#fff\"/><rect x=\"50.0\" y=\"96.0\" width=\"280.0\" height=\"14.0\" rx=\"0\" fill=\"#8a99a6\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M50,96 L120,46 L400,46 L330,96 Z\" fill=\"#b4c0ca\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M330,96 L400,46 L400,60 L330,110 Z\" fill=\"#7a8995\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"50.0\" y1=\"134.0\" x2=\"330.0\" y2=\"134.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"128.0\" x2=\"50.0\" y2=\"140.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"330.0\" y1=\"128.0\" x2=\"330.0\" y2=\"140.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"190.0\" y=\"153.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">4,00 m</text><line x1=\"342.0\" y1=\"114.0\" x2=\"412.0\" y2=\"64.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"387.0\" y=\"99.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,00 m</text><line x1=\"26.0\" y1=\"60.0\" x2=\"44.1\" y2=\"93.0\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"48.0,100.0 41.0,94.7 47.3,91.3\" fill=\"#526777\"/><text x=\"22.0\" y=\"52.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">2,00 cm tjock</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm plåtens massa i kg utan avrundning.",
-        "t": "<p>En stålplåt har måtten 4,00 m × 2,00 m × 2,00 cm. Stålets densitet är 7800 kg/m³.</p><p>Bestäm plåtens massa i kg utan avrundning.</p>",
+        "t": "<p>En stålplåt har måtten 4,00 m × 2,00 m × 2,00 cm. Stålets densitet är 7800 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 190\" width=\"440\" height=\"190\" role=\"img\" aria-label=\"En stålplåt som är 4,00 m lång, 2,00 m bred och 2,00 cm tjock.\" style=\"max-width:100%;height:auto\"><title>En stålplåt som är 4,00 m lång, 2,00 m bred och 2,00 cm tjock.</title><rect width=\"440\" height=\"190\" fill=\"#fff\"/><rect x=\"50.0\" y=\"96.0\" width=\"280.0\" height=\"14.0\" rx=\"0\" fill=\"#8a99a6\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M50,96 L120,46 L400,46 L330,96 Z\" fill=\"#b4c0ca\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M330,96 L400,46 L400,60 L330,110 Z\" fill=\"#7a8995\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"50.0\" y1=\"134.0\" x2=\"330.0\" y2=\"134.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"128.0\" x2=\"50.0\" y2=\"140.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"330.0\" y1=\"128.0\" x2=\"330.0\" y2=\"140.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"190.0\" y=\"153.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">4,00 m</text><line x1=\"342.0\" y1=\"114.0\" x2=\"412.0\" y2=\"64.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"387.0\" y=\"99.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,00 m</text><line x1=\"26.0\" y1=\"60.0\" x2=\"44.1\" y2=\"93.0\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"48.0,100.0 41.0,94.7 47.3,91.3\" fill=\"#526777\"/><text x=\"22.0\" y=\"52.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">2,00 cm tjock</text></svg></span><p>Bestäm plåtens massa i kg utan avrundning.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{cm}=0{,}01\\ \\mathrm m\\)</p><p>Plåten är 4,00 m lång och 2,00 m bred. Stålets densitet är 7800 kg/m³.</p><div class=\"facit-matte\">\\[2{,}00\\ \\mathrm{cm}=0{,}0200\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><div class=\"facit-matte\">\\[V=4{,}00\\cdot2{,}00\\cdot0{,}0200=0{,}160\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=7800\\cdot0{,}160=1248\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1248\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Vad betyder det att antalet personer måste vara ett heltal?</p>",
         "niva": "E",
@@ -148380,7 +148380,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur många personer kräver modellen minst?",
-        "t": "<p>En stålplåt har måtten 4,00 m × 2,00 m × 2,00 cm och densiteten 7800 kg/m³. I en förenklad modell delar personerna lasten lika och varje person bär högst 50 kg. Modellen tar inte hänsyn till grepp, utrymme eller arbetsmiljö.</p><p>Hur många personer kräver modellen minst?</p>",
+        "t": "<p>En stålplåt har måtten 4,00 m × 2,00 m × 2,00 cm och densiteten 7800 kg/m³. I en förenklad modell delar personerna lasten lika och varje person bär högst 50 kg. Modellen tar inte hänsyn till grepp, utrymme eller arbetsmiljö.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 190\" width=\"440\" height=\"190\" role=\"img\" aria-label=\"En stålplåt som är 4,00 m lång, 2,00 m bred och 2,00 cm tjock.\" style=\"max-width:100%;height:auto\"><title>En stålplåt som är 4,00 m lång, 2,00 m bred och 2,00 cm tjock.</title><rect width=\"440\" height=\"190\" fill=\"#fff\"/><rect x=\"50.0\" y=\"96.0\" width=\"280.0\" height=\"14.0\" rx=\"0\" fill=\"#8a99a6\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M50,96 L120,46 L400,46 L330,96 Z\" fill=\"#b4c0ca\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M330,96 L400,46 L400,60 L330,110 Z\" fill=\"#7a8995\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"50.0\" y1=\"134.0\" x2=\"330.0\" y2=\"134.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"128.0\" x2=\"50.0\" y2=\"140.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"330.0\" y1=\"128.0\" x2=\"330.0\" y2=\"140.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"190.0\" y=\"153.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">4,00 m</text><line x1=\"342.0\" y1=\"114.0\" x2=\"412.0\" y2=\"64.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"387.0\" y=\"99.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,00 m</text><line x1=\"26.0\" y1=\"60.0\" x2=\"44.1\" y2=\"93.0\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"48.0,100.0 41.0,94.7 47.3,91.3\" fill=\"#526777\"/><text x=\"22.0\" y=\"52.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">2,00 cm tjock</text></svg></span><p>Hur många personer kräver modellen minst?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{cm}=0{,}01\\ \\mathrm m\\)</p><p>Plåten är 4,00 m lång och 2,00 m bred. Stålets densitet är 7800 kg/m³.</p><div class=\"facit-matte\">\\[2{,}00\\ \\mathrm{cm}=0{,}0200\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><div class=\"facit-matte\">\\[V=4{,}00\\cdot2{,}00\\cdot0{,}0200=0{,}160\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=7800\\cdot0{,}160=1248\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Antal personer: \\(N\\geq m/50\\)</p><p>Varje person bär högst 50 kg enligt modellen. Antalet måste vara ett heltal, så vi avrundar uppåt.</p><div class=\"facit-matte\">\\[N\\geq1248/50=24{,}96\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera gränsen</p><div class=\"facit-matte\">\\[24\\cdot50=1200\\ \\mathrm{kg}\\lt 1248\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minst 25 personer enligt den förenklade modellen.</p></div>",
         "ledtrad": "<p>Vad betyder det att antalet personer måste vara ett heltal?</p>",
         "niva": "C",
@@ -148400,7 +148400,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa densitet i en fysikalisk beräkning",
     "poang": "(2/0/0)",
-    "t": "<p>En cylinderformad järnstång är 85,8 cm lång och har diametern 2,85 cm. Järnets densitet är 7,87 g/cm³. Bestäm stångens massa.<br></p>",
+    "t": "<p>En cylinderformad järnstång är 85,8 cm lång och har diametern 2,85 cm. Järnets densitet är 7,87 g/cm³. Bestäm stångens massa.<br></p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 150\" width=\"440\" height=\"150\" role=\"img\" aria-label=\"En cylinderformad järnstång som är 85,8 cm lång och har diametern 2,85 cm.\" style=\"max-width:100%;height:auto\"><title>En cylinderformad järnstång som är 85,8 cm lång och har diametern 2,85 cm.</title><rect width=\"440\" height=\"150\" fill=\"#fff\"/><path d=\"M120,52 L410,52 A7,18 0 0 1 410,88 L120,88 Z\" fill=\"#8c969e\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><ellipse cx=\"120.0\" cy=\"70.0\" rx=\"7.0\" ry=\"18.0\" fill=\"#b3bcc3\" stroke=\"#203746\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"58.0\" x2=\"404.0\" y2=\"58.0\" stroke=\"#c9d0d5\" stroke-width=\"2\"/><line x1=\"120.0\" y1=\"114.0\" x2=\"410.0\" y2=\"114.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"120.0\" y1=\"108.0\" x2=\"120.0\" y2=\"120.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"410.0\" y1=\"108.0\" x2=\"410.0\" y2=\"120.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"265.0\" y=\"133.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">85,8 cm</text><line x1=\"94.0\" y1=\"52.0\" x2=\"94.0\" y2=\"88.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"88.0\" y1=\"52.0\" x2=\"100.0\" y2=\"52.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"88.0\" y1=\"88.0\" x2=\"100.0\" y2=\"88.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"85.0\" y=\"75.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,85 cm</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Radien: \\(r=d/2\\)</p><p>Längden är 85,8 cm och densiteten 7,87 g/cm³. Vi söker massan i kg.</p><div class=\"facit-matte\">\\[r=2{,}85/2=1{,}425\\ \\mathrm{cm}\\]</div></li><li><p class=\"facit-rubrik\">Cylinderns volym: \\(V=\\pi r^2h\\)</p><div class=\"facit-matte\">\\[V=\\pi\\cdot1{,}425^2\\cdot85{,}8\\approx547{,}352\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=7{,}87\\pi\\cdot1{,}425^2\\cdot85{,}8\\approx4307{,}66\\ \\mathrm g\\]</div></li><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1000\\ \\mathrm g=1\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[m\\approx4{,}31\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}31\\ \\mathrm{kg}\\).</p></div>",
     "familj": "Densitet med geometri",
     "formaga": [
@@ -148460,7 +148460,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa densitet i en fysikalisk beräkning",
     "poang": "(2/0/0)",
-    "t": "<p>I ett mätglas finns 78,0 ml vatten. En metallbit med massan 53,0 g sänks ned helt och vattennivån stiger till 83,0 ml. Bestäm metallens densitet och identifiera ett rimligt material. Silver har densiteten cirka 10,5 g/cm³.</p><p>Bortse från luftbubblor och vattenupptagning. Motivera materialförslaget och förklara varför identifieringen inte är säker.</p>",
+    "t": "<p>I ett mätglas finns 78,0 ml vatten. En metallbit med massan 53,0 g sänks ned helt och vattennivån stiger till 83,0 ml. Bestäm metallens densitet och identifiera ett rimligt material. Silver har densiteten cirka 10,5 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 256\" width=\"460\" height=\"256\" role=\"img\" aria-label=\"Två mätglas. Före: vattnet står vid 78,0 ml. Efter att metallbiten sänkts ner står vattnet vid 83,0 ml.\" style=\"max-width:100%;height:auto\"><title>Två mätglas. Före: vattnet står vid 78,0 ml. Efter att metallbiten sänkts ner står vattnet vid 83,0 ml.</title><rect width=\"460\" height=\"256\" fill=\"#fff\"/><rect x=\"70.0\" y=\"36.0\" width=\"64.0\" height=\"186.0\" rx=\"4\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"72\" y=\"81.6\" width=\"60\" height=\"138.4\" fill=\"#cfe6f5\"/><line x1=\"72.0\" y1=\"81.6\" x2=\"132.0\" y2=\"81.6\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"70.0\" y1=\"222.0\" x2=\"82.0\" y2=\"222.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"226.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">0</text><line x1=\"70.0\" y1=\"213.0\" x2=\"77.0\" y2=\"213.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"204.0\" x2=\"77.0\" y2=\"204.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"195.0\" x2=\"77.0\" y2=\"195.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"186.0\" x2=\"82.0\" y2=\"186.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"190.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">20</text><line x1=\"70.0\" y1=\"177.0\" x2=\"77.0\" y2=\"177.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"168.0\" x2=\"77.0\" y2=\"168.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"159.0\" x2=\"77.0\" y2=\"159.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"150.0\" x2=\"82.0\" y2=\"150.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"154.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">40</text><line x1=\"70.0\" y1=\"141.0\" x2=\"77.0\" y2=\"141.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"132.0\" x2=\"77.0\" y2=\"132.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"123.0\" x2=\"77.0\" y2=\"123.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"114.0\" x2=\"82.0\" y2=\"114.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"118.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">60</text><line x1=\"70.0\" y1=\"105.0\" x2=\"77.0\" y2=\"105.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"96.0\" x2=\"77.0\" y2=\"96.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"87.0\" x2=\"77.0\" y2=\"87.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"78.0\" x2=\"82.0\" y2=\"78.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"82.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">80</text><line x1=\"70.0\" y1=\"69.0\" x2=\"77.0\" y2=\"69.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"60.0\" x2=\"77.0\" y2=\"60.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"51.0\" x2=\"77.0\" y2=\"51.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"42.0\" x2=\"82.0\" y2=\"42.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"46.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">100</text><line x1=\"174.0\" y1=\"81.6\" x2=\"148.0\" y2=\"81.6\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><polygon points=\"140.0,81.6 148.0,78.0 148.0,85.2\" fill=\"#0b6fa4\"/><text x=\"178.0\" y=\"86.6\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">78,0 ml</text><rect x=\"290.0\" y=\"36.0\" width=\"64.0\" height=\"186.0\" rx=\"4\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"292\" y=\"72.6\" width=\"60\" height=\"147.4\" fill=\"#cfe6f5\"/><line x1=\"292.0\" y1=\"72.6\" x2=\"352.0\" y2=\"72.6\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"290.0\" y1=\"222.0\" x2=\"302.0\" y2=\"222.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"226.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">0</text><line x1=\"290.0\" y1=\"213.0\" x2=\"297.0\" y2=\"213.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"204.0\" x2=\"297.0\" y2=\"204.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"195.0\" x2=\"297.0\" y2=\"195.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"186.0\" x2=\"302.0\" y2=\"186.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"190.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">20</text><line x1=\"290.0\" y1=\"177.0\" x2=\"297.0\" y2=\"177.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"168.0\" x2=\"297.0\" y2=\"168.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"159.0\" x2=\"297.0\" y2=\"159.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"150.0\" x2=\"302.0\" y2=\"150.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"154.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">40</text><line x1=\"290.0\" y1=\"141.0\" x2=\"297.0\" y2=\"141.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"132.0\" x2=\"297.0\" y2=\"132.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"123.0\" x2=\"297.0\" y2=\"123.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"114.0\" x2=\"302.0\" y2=\"114.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"118.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">60</text><line x1=\"290.0\" y1=\"105.0\" x2=\"297.0\" y2=\"105.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"96.0\" x2=\"297.0\" y2=\"96.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"87.0\" x2=\"297.0\" y2=\"87.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"78.0\" x2=\"302.0\" y2=\"78.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"82.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">80</text><line x1=\"290.0\" y1=\"69.0\" x2=\"297.0\" y2=\"69.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"60.0\" x2=\"297.0\" y2=\"60.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"51.0\" x2=\"297.0\" y2=\"51.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"42.0\" x2=\"302.0\" y2=\"42.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"46.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">100</text><rect x=\"306.0\" y=\"204.0\" width=\"32.0\" height=\"14.0\" rx=\"2\" fill=\"#cfd3d7\" stroke=\"#203746\" stroke-width=\"1.5\"/><line x1=\"394.0\" y1=\"72.6\" x2=\"368.0\" y2=\"72.6\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><polygon points=\"360.0,72.6 368.0,69.0 368.0,76.2\" fill=\"#0b6fa4\"/><text x=\"398.0\" y=\"77.6\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">83,0 ml</text><text x=\"102.0\" y=\"246.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\">före</text><text x=\"322.0\" y=\"246.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\">efter</text><text x=\"40.0\" y=\"26.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">ml</text></svg></span><p>Bortse från luftbubblor och vattenupptagning. Motivera materialförslaget och förklara varför identifieringen inte är säker.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undanträngd volym: \\(V=V_2-V_1\\)</p><p>Metallbiten väger 53,0 g. När den sänks ned helt motsvarar nivåökningen dess volym.</p><div class=\"facit-matte\">\\[V=83{,}0-78{,}0=5{,}0\\ \\mathrm{ml}=5{,}0\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><div class=\"facit-matte\">\\[\\rho=53{,}0/5{,}0=10{,}6\\ \\mathrm{g/cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Jämför med silver</p><p>10,6 g/cm³ ligger nära silvrets 10,5 g/cm³. Densiteten gör silver rimligt, men bevisar inte materialets identitet; även mätosäkerhet och andra egenskaper behöver vägas in.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Densiteten är 10,6 g/cm³. Silver är ett rimligt materialförslag.</p></div>",
     "familj": "Massa, volym och densitet",
     "formaga": [
@@ -148486,7 +148486,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa densitet i en fysikalisk beräkning",
     "poang": "(2/0/0)",
-    "t": "<p>En tom lektionssal är 6,0 m × 4,3 m × 2,6 m. Luftens densitet är ungefär 1,30 kg/m³. Hur stor massa har luften i rummet?</p><p>Avrunda till hela kilogram.</p>",
+    "t": "<p>En tom lektionssal är 6,0 m × 4,3 m × 2,6 m. Luftens densitet är ungefär 1,30 kg/m³. Hur stor massa har luften i rummet?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\" width=\"440\" height=\"260\" role=\"img\" aria-label=\"En lektionssal som ett rätblock: 6,0 m lång, 4,3 m bred och 2,6 m hög.\" style=\"max-width:100%;height:auto\"><title>En lektionssal som ett rätblock: 6,0 m lång, 4,3 m bred och 2,6 m hög.</title><rect width=\"440\" height=\"260\" fill=\"#fff\"/><rect x=\"90.0\" y=\"76.0\" width=\"240.0\" height=\"120.0\" rx=\"0\" fill=\"#f3efe6\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M90,76 L170,26 L410,26 L330,76 Z\" fill=\"#e7e1d3\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M330,76 L410,26 L410,146 L330,196 Z\" fill=\"#e1d9c8\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"114.0\" y=\"116.0\" width=\"30.0\" height=\"80.0\" rx=\"2\" fill=\"#b98b5a\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"180.0\" y=\"100.0\" width=\"120.0\" height=\"50.0\" rx=\"2\" fill=\"#d6ebf7\" stroke=\"#203746\" stroke-width=\"1.6\"/><line x1=\"240.0\" y1=\"100.0\" x2=\"240.0\" y2=\"150.0\" stroke=\"#203746\" stroke-width=\"1.2\"/><line x1=\"90.0\" y1=\"218.0\" x2=\"330.0\" y2=\"218.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"90.0\" y1=\"212.0\" x2=\"90.0\" y2=\"224.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"330.0\" y1=\"212.0\" x2=\"330.0\" y2=\"224.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"237.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">6,0 m</text><text x=\"384.0\" y=\"193.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">4,3 m</text><line x1=\"340.0\" y1=\"202.0\" x2=\"420.0\" y2=\"152.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"70.0\" y1=\"76.0\" x2=\"70.0\" y2=\"196.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"64.0\" y1=\"76.0\" x2=\"76.0\" y2=\"76.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"64.0\" y1=\"196.0\" x2=\"76.0\" y2=\"196.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"61.0\" y=\"141.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,6 m</text></svg></span><p>Avrunda till hela kilogram.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Salen är 6,0 m × 4,3 m × 2,6 m. Luftens densitet är 1,30 kg/m³. Vi söker luftmassan.</p></li><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><div class=\"facit-matte\">\\[V=6{,}0\\cdot4{,}3\\cdot2{,}6=67{,}08\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=1{,}30\\cdot67{,}08=87{,}204\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(87\\ \\mathrm{kg}\\).</p></div>",
     "familj": "Massa, volym och densitet",
     "formaga": [
@@ -148513,7 +148513,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa fysikaliska samband i flera steg",
     "poang": "(2/0/0)",
-    "t": "<p>En bassäng har måtten 50 m × 25 m × 2,0 m och är helt fylld. Vattnets densitet är 1000 kg/m³. En elefant antas ha massan 6 ton.</p><ol type=\"a\"><li>Bestäm vattnets massa i kg.</li><li>Hur många sådana elefanter motsvarar vattenmassan? Avrunda till närmaste heltal.</li></ol>",
+    "t": "<p>En bassäng har måtten 50 m × 25 m × 2,0 m och är helt fylld. Vattnets densitet är 1000 kg/m³. En elefant antas ha massan 6 ton.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"En bassäng som är 50 m lång, 25 m bred och 2,0 m djup och helt fylld med vatten.\" style=\"max-width:100%;height:auto\"><title>En bassäng som är 50 m lång, 25 m bred och 2,0 m djup och helt fylld med vatten.</title><rect width=\"440\" height=\"210\" fill=\"#fff\"/><rect x=\"70.0\" y=\"90.0\" width=\"280.0\" height=\"40.0\" rx=\"0\" fill=\"#9ccbe6\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M70,90 L140,34 L420,34 L350,90 Z\" fill=\"#bfe0f2\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M350,90 L420,34 L420,74 L350,130 Z\" fill=\"#86bcdb\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"81.7\" y1=\"80.7\" x2=\"361.7\" y2=\"80.7\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"93.3\" y1=\"71.3\" x2=\"373.3\" y2=\"71.3\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"105.0\" y1=\"62.0\" x2=\"385.0\" y2=\"62.0\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"116.7\" y1=\"52.7\" x2=\"396.7\" y2=\"52.7\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"128.3\" y1=\"43.3\" x2=\"408.3\" y2=\"43.3\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"70.0\" y1=\"152.0\" x2=\"350.0\" y2=\"152.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"70.0\" y1=\"146.0\" x2=\"70.0\" y2=\"158.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"350.0\" y1=\"146.0\" x2=\"350.0\" y2=\"158.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"171.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">50 m</text><line x1=\"362.0\" y1=\"134.0\" x2=\"432.0\" y2=\"78.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"407.0\" y=\"116.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">25 m</text><line x1=\"52.0\" y1=\"90.0\" x2=\"52.0\" y2=\"130.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"46.0\" y1=\"90.0\" x2=\"58.0\" y2=\"90.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"46.0\" y1=\"130.0\" x2=\"58.0\" y2=\"130.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"43.0\" y=\"115.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,0 m</text></svg></span><ol type=\"a\"><li>Bestäm vattnets massa i kg.</li><li>Hur många sådana elefanter motsvarar vattenmassan? Avrunda till närmaste heltal.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><p>Bassängen är helt fylld och vattnets densitet är 1000 kg/m³.</p><div class=\"facit-matte\">\\[V=50\\cdot25\\cdot2{,}0=2500\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=1000\\cdot2500=2500000\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2500000\\ \\mathrm{kg}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><p>Bassängen är helt fylld och vattnets densitet är 1000 kg/m³.</p><div class=\"facit-matte\">\\[V=50\\cdot25\\cdot2{,}0=2500\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=1000\\cdot2500=2500000\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{ton}=1000\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[m_{\\mathrm{elefant}}=6000\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Massjämförelse: \\(N=m/m_{\\mathrm{elefant}}\\)</p><p>Här ska vi avrunda till närmaste heltal, inte alltid uppåt.</p><div class=\"facit-matte\">\\[N=2500000/6000\\approx416{,}67\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(417\\text{ elefanter}\\).</p></div></div></div>",
     "familj": "Densitet med geometri",
     "formaga": [
@@ -148550,12 +148550,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bassäng har måtten 50 m × 25 m × 2,0 m och är helt fylld. Vattnets densitet är 1000 kg/m³. En elefant antas ha massan 6 ton.</p>",
+    "spelIntro": "<p>En bassäng har måtten 50 m × 25 m × 2,0 m och är helt fylld. Vattnets densitet är 1000 kg/m³. En elefant antas ha massan 6 ton.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"En bassäng som är 50 m lång, 25 m bred och 2,0 m djup och helt fylld med vatten.\" style=\"max-width:100%;height:auto\"><title>En bassäng som är 50 m lång, 25 m bred och 2,0 m djup och helt fylld med vatten.</title><rect width=\"440\" height=\"210\" fill=\"#fff\"/><rect x=\"70.0\" y=\"90.0\" width=\"280.0\" height=\"40.0\" rx=\"0\" fill=\"#9ccbe6\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M70,90 L140,34 L420,34 L350,90 Z\" fill=\"#bfe0f2\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M350,90 L420,34 L420,74 L350,130 Z\" fill=\"#86bcdb\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"81.7\" y1=\"80.7\" x2=\"361.7\" y2=\"80.7\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"93.3\" y1=\"71.3\" x2=\"373.3\" y2=\"71.3\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"105.0\" y1=\"62.0\" x2=\"385.0\" y2=\"62.0\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"116.7\" y1=\"52.7\" x2=\"396.7\" y2=\"52.7\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"128.3\" y1=\"43.3\" x2=\"408.3\" y2=\"43.3\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"70.0\" y1=\"152.0\" x2=\"350.0\" y2=\"152.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"70.0\" y1=\"146.0\" x2=\"70.0\" y2=\"158.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"350.0\" y1=\"146.0\" x2=\"350.0\" y2=\"158.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"171.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">50 m</text><line x1=\"362.0\" y1=\"134.0\" x2=\"432.0\" y2=\"78.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"407.0\" y=\"116.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">25 m</text><line x1=\"52.0\" y1=\"90.0\" x2=\"52.0\" y2=\"130.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"46.0\" y1=\"90.0\" x2=\"58.0\" y2=\"90.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"46.0\" y1=\"130.0\" x2=\"58.0\" y2=\"130.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"43.0\" y=\"115.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,0 m</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm vattnets massa.",
-        "t": "<p>En bassäng har måtten 50 m × 25 m × 2,0 m och är helt fylld. Vattnets densitet är 1000 kg/m³. En elefant antas ha massan 6 ton.</p><p>Bestäm vattnets massa i kg.</p>",
+        "t": "<p>En bassäng har måtten 50 m × 25 m × 2,0 m och är helt fylld. Vattnets densitet är 1000 kg/m³. En elefant antas ha massan 6 ton.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"En bassäng som är 50 m lång, 25 m bred och 2,0 m djup och helt fylld med vatten.\" style=\"max-width:100%;height:auto\"><title>En bassäng som är 50 m lång, 25 m bred och 2,0 m djup och helt fylld med vatten.</title><rect width=\"440\" height=\"210\" fill=\"#fff\"/><rect x=\"70.0\" y=\"90.0\" width=\"280.0\" height=\"40.0\" rx=\"0\" fill=\"#9ccbe6\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M70,90 L140,34 L420,34 L350,90 Z\" fill=\"#bfe0f2\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M350,90 L420,34 L420,74 L350,130 Z\" fill=\"#86bcdb\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"81.7\" y1=\"80.7\" x2=\"361.7\" y2=\"80.7\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"93.3\" y1=\"71.3\" x2=\"373.3\" y2=\"71.3\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"105.0\" y1=\"62.0\" x2=\"385.0\" y2=\"62.0\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"116.7\" y1=\"52.7\" x2=\"396.7\" y2=\"52.7\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"128.3\" y1=\"43.3\" x2=\"408.3\" y2=\"43.3\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"70.0\" y1=\"152.0\" x2=\"350.0\" y2=\"152.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"70.0\" y1=\"146.0\" x2=\"70.0\" y2=\"158.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"350.0\" y1=\"146.0\" x2=\"350.0\" y2=\"158.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"171.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">50 m</text><line x1=\"362.0\" y1=\"134.0\" x2=\"432.0\" y2=\"78.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"407.0\" y=\"116.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">25 m</text><line x1=\"52.0\" y1=\"90.0\" x2=\"52.0\" y2=\"130.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"46.0\" y1=\"90.0\" x2=\"58.0\" y2=\"90.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"46.0\" y1=\"130.0\" x2=\"58.0\" y2=\"130.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"43.0\" y=\"115.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,0 m</text></svg></span><p>Bestäm vattnets massa i kg.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><p>Bassängen är helt fylld och vattnets densitet är 1000 kg/m³.</p><div class=\"facit-matte\">\\[V=50\\cdot25\\cdot2{,}0=2500\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=1000\\cdot2500=2500000\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2500000\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Beräkna vattenmassan och jämför sedan med 6000 kg.</p>",
         "niva": "E",
@@ -148566,7 +148566,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur många sådana elefanter motsvarar vattenmassan? Avrunda till närmaste heltal.",
-        "t": "<p>En bassäng har måtten 50 m × 25 m × 2,0 m och är helt fylld. Vattnets densitet är 1000 kg/m³. En elefant antas ha massan 6 ton.</p><p>Hur många sådana elefanter motsvarar vattenmassan? Avrunda till närmaste heltal.</p>",
+        "t": "<p>En bassäng har måtten 50 m × 25 m × 2,0 m och är helt fylld. Vattnets densitet är 1000 kg/m³. En elefant antas ha massan 6 ton.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"En bassäng som är 50 m lång, 25 m bred och 2,0 m djup och helt fylld med vatten.\" style=\"max-width:100%;height:auto\"><title>En bassäng som är 50 m lång, 25 m bred och 2,0 m djup och helt fylld med vatten.</title><rect width=\"440\" height=\"210\" fill=\"#fff\"/><rect x=\"70.0\" y=\"90.0\" width=\"280.0\" height=\"40.0\" rx=\"0\" fill=\"#9ccbe6\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M70,90 L140,34 L420,34 L350,90 Z\" fill=\"#bfe0f2\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M350,90 L420,34 L420,74 L350,130 Z\" fill=\"#86bcdb\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"81.7\" y1=\"80.7\" x2=\"361.7\" y2=\"80.7\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"93.3\" y1=\"71.3\" x2=\"373.3\" y2=\"71.3\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"105.0\" y1=\"62.0\" x2=\"385.0\" y2=\"62.0\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"116.7\" y1=\"52.7\" x2=\"396.7\" y2=\"52.7\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"128.3\" y1=\"43.3\" x2=\"408.3\" y2=\"43.3\" stroke=\"#ffffff\" stroke-width=\"1.4\" stroke-dasharray=\"8 6\"/><line x1=\"70.0\" y1=\"152.0\" x2=\"350.0\" y2=\"152.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"70.0\" y1=\"146.0\" x2=\"70.0\" y2=\"158.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"350.0\" y1=\"146.0\" x2=\"350.0\" y2=\"158.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"171.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">50 m</text><line x1=\"362.0\" y1=\"134.0\" x2=\"432.0\" y2=\"78.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"407.0\" y=\"116.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">25 m</text><line x1=\"52.0\" y1=\"90.0\" x2=\"52.0\" y2=\"130.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"46.0\" y1=\"90.0\" x2=\"58.0\" y2=\"90.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"46.0\" y1=\"130.0\" x2=\"58.0\" y2=\"130.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"43.0\" y=\"115.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,0 m</text></svg></span><p>Hur många sådana elefanter motsvarar vattenmassan? Avrunda till närmaste heltal.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><p>Bassängen är helt fylld och vattnets densitet är 1000 kg/m³.</p><div class=\"facit-matte\">\\[V=50\\cdot25\\cdot2{,}0=2500\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=1000\\cdot2500=2500000\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Enhetsbyte: \\(1\\ \\mathrm{ton}=1000\\ \\mathrm{kg}\\)</p><div class=\"facit-matte\">\\[m_{\\mathrm{elefant}}=6000\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Massjämförelse: \\(N=m/m_{\\mathrm{elefant}}\\)</p><p>Här ska vi avrunda till närmaste heltal, inte alltid uppåt.</p><div class=\"facit-matte\">\\[N=2500000/6000\\approx416{,}67\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(417\\text{ elefanter}\\).</p></div>",
         "ledtrad": "<p>Beräkna vattenmassan och jämför sedan med 6000 kg.</p>",
         "niva": "E",
@@ -148586,7 +148586,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa densitet i en fysikalisk beräkning",
     "poang": "(2/0/0)",
-    "t": "<p>Ett cylindriskt falltorn är 110 m högt och har diametern 3,50 m. Före tömningen fyller luft tornets invändiga utrymme och har densiteten 1,30 kg/m³. Hur stor massa luft motsvarar tornets invändiga volym?<br></p>",
+    "t": "<p>Ett cylindriskt falltorn är 110 m högt och har diametern 3,50 m. Före tömningen fyller luft tornets invändiga utrymme och har densiteten 1,30 kg/m³. Hur stor massa luft motsvarar tornets invändiga volym?<br></p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\" width=\"300\" height=\"300\" role=\"img\" aria-label=\"Ett cylindriskt falltorn som är 110 m högt och har diametern 3,50 m. Tornet är fyllt med luft.\" style=\"max-width:100%;height:auto\"><title>Ett cylindriskt falltorn som är 110 m högt och har diametern 3,50 m. Tornet är fyllt med luft.</title><rect width=\"300\" height=\"300\" fill=\"#fff\"/><rect x=\"0.0\" y=\"0.0\" width=\"300.0\" height=\"268.0\" rx=\"0\" fill=\"#eaf4fb\" stroke=\"none\" stroke-width=\"0\"/><rect x=\"0.0\" y=\"268.0\" width=\"300.0\" height=\"32.0\" rx=\"0\" fill=\"#cfe3c4\" stroke=\"none\" stroke-width=\"0\"/><line x1=\"0.0\" y1=\"268.0\" x2=\"300.0\" y2=\"268.0\" stroke=\"#6f9a5b\" stroke-width=\"2\"/><path d=\"M124,46 L124,268 A26,8 0 0 0 176,268 L176,46 Z\" fill=\"#dfe6ec\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><ellipse cx=\"150.0\" cy=\"46.0\" rx=\"26.0\" ry=\"8.0\" fill=\"#c5d0d8\" stroke=\"#203746\" stroke-width=\"2\"/><text x=\"150.0\" y=\"160.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">luft</text><line x1=\"210.0\" y1=\"46.0\" x2=\"210.0\" y2=\"268.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"204.0\" y1=\"46.0\" x2=\"216.0\" y2=\"46.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"204.0\" y1=\"268.0\" x2=\"216.0\" y2=\"268.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"219.0\" y=\"162.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">110 m</text><line x1=\"124.0\" y1=\"26.0\" x2=\"176.0\" y2=\"26.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"124.0\" y1=\"20.0\" x2=\"124.0\" y2=\"32.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"176.0\" y1=\"20.0\" x2=\"176.0\" y2=\"32.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"150.0\" y=\"18.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3,50 m</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Radien: \\(r=d/2\\)</p><p>Tornets höjd är 110 m och luftens densitet 1,30 kg/m³.</p><div class=\"facit-matte\">\\[r=3{,}50/2=1{,}75\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Cylinderns volym: \\(V=\\pi r^2h\\)</p><div class=\"facit-matte\">\\[V=\\pi\\cdot1{,}75^2\\cdot110\\approx1058{,}324\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=1{,}30\\pi\\cdot1{,}75^2\\cdot110\\approx1375{,}82\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}38\\cdot10^3\\ \\mathrm{kg}\\).</p></div>",
     "familj": "Densitet med geometri",
     "formaga": [
@@ -148954,7 +148954,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tillämpa densitet i en fysikalisk beräkning",
     "poang": "(0/2/0)",
-    "t": "<p>En ihålig kopparcylinder är 1,50 m lång. Ytterdiametern är 3,50 cm och innerdiametern 2,50 cm. Koppar har densiteten 8,96 g/cm³. Bestäm cylinderns massa.<br></p>",
+    "t": "<p>En ihålig kopparcylinder är 1,50 m lång. Ytterdiametern är 3,50 cm och innerdiametern 2,50 cm. Koppar har densiteten 8,96 g/cm³. Bestäm cylinderns massa.<br></p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 190\" width=\"460\" height=\"190\" role=\"img\" aria-label=\"Ett kopparrör sett från änden och från sidan. Ytterdiametern är 3,50 cm, innerdiametern 2,50 cm och längden 1,50 m.\" style=\"max-width:100%;height:auto\"><title>Ett kopparrör sett från änden och från sidan. Ytterdiametern är 3,50 cm, innerdiametern 2,50 cm och längden 1,50 m.</title><rect width=\"460\" height=\"190\" fill=\"#fff\"/><circle cx=\"90.0\" cy=\"92.0\" r=\"56.0\" fill=\"#c8773a\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"90.0\" cy=\"92.0\" r=\"40.0\" fill=\"#ffffff\" stroke=\"#203746\" stroke-width=\"2\"/><line x1=\"34.0\" y1=\"22.0\" x2=\"146.0\" y2=\"22.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"34.0\" y1=\"16.0\" x2=\"34.0\" y2=\"28.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"146.0\" y1=\"16.0\" x2=\"146.0\" y2=\"28.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"90.0\" y=\"14.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3,50 cm</text><line x1=\"50.0\" y1=\"98.0\" x2=\"130.0\" y2=\"98.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"92.0\" x2=\"50.0\" y2=\"104.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"130.0\" y1=\"92.0\" x2=\"130.0\" y2=\"104.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"90.0\" y=\"117.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,50 cm</text><text x=\"90.0\" y=\"182.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">änden</text><path d=\"M200,70 L430,70 A8,22 0 0 1 430,114 L200,114 Z\" fill=\"#c8773a\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><ellipse cx=\"200.0\" cy=\"92.0\" rx=\"8.0\" ry=\"22.0\" fill=\"#d99460\" stroke=\"#203746\" stroke-width=\"2\"/><ellipse cx=\"200.0\" cy=\"92.0\" rx=\"5.6\" ry=\"15.4\" fill=\"#ffffff\" stroke=\"#203746\" stroke-width=\"1.4\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"430.0\" y2=\"138.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"200.0\" y1=\"132.0\" x2=\"200.0\" y2=\"144.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"430.0\" y1=\"132.0\" x2=\"430.0\" y2=\"144.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"315.0\" y=\"157.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1,50 m</text><text x=\"315.0\" y=\"182.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">sidan</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Radier: \\(r=d/2\\)</p><p>Vi söker massan av kopparn, så hålets volym ska inte räknas med.</p><div class=\"facit-matte\">\\[\\begin{aligned}R&=3{,}50/2=1{,}75\\ \\mathrm{cm}\\\\r&=2{,}50/2=1{,}25\\ \\mathrm{cm}\\\\L&=1{,}50\\ \\mathrm m=150\\ \\mathrm{cm}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Materialvolym: \\(V=\\pi(R^2-r^2)L\\)</p><div class=\"facit-matte\">\\[V=\\pi(1{,}75^2-1{,}25^2)\\cdot150=225\\pi\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}m&=8{,}96\\cdot225\\pi\\approx6333{,}45\\ \\mathrm g\\\\&=6{,}33345\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}33\\ \\mathrm{kg}\\).</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
@@ -148985,7 +148985,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tillämpa fysikaliska samband i flera steg",
     "poang": "(0/2/0)",
-    "t": "<p>En metallkub har sidan 5,0 cm. Ett cylinderhål med diametern 2,0 cm borras vinkelrätt från en sidoyta till den motsatta, helt innanför kanterna. Efter borrningen är massan 0,75 kg.</p><ol type=\"a\"><li>Bestäm metallens densitet i g/cm³.</li><li>Bestäm kubens massa före borrningen.</li></ol>",
+    "t": "<p>En metallkub har sidan 5,0 cm. Ett cylinderhål med diametern 2,0 cm borras vinkelrätt från en sidoyta till den motsatta, helt innanför kanterna. Efter borrningen är massan 0,75 kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"En metallkub med sidan 5,0 cm. Ett cylinderformat hål med diametern 2,0 cm är borrat rakt igenom från framsidan till baksidan.\" style=\"max-width:100%;height:auto\"><title>En metallkub med sidan 5,0 cm. Ett cylinderformat hål med diametern 2,0 cm är borrat rakt igenom från framsidan till baksidan.</title><rect width=\"400\" height=\"260\" fill=\"#fff\"/><rect x=\"90.0\" y=\"70.0\" width=\"130.0\" height=\"130.0\" rx=\"0\" fill=\"#b8c2ca\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M90,70 L146,30 L276,30 L220,70 Z\" fill=\"#d3dadf\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M220,70 L276,30 L276,160 L220,200 Z\" fill=\"#9eaab4\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"155.0\" cy=\"135.0\" r=\"26.0\" fill=\"#3d4a54\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M136.8,116.8 A26,26 0 0 1 181.0,135.0\" fill=\"none\" stroke=\"#6b7a86\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"90.0\" y1=\"222.0\" x2=\"220.0\" y2=\"222.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"90.0\" y1=\"216.0\" x2=\"90.0\" y2=\"228.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"220.0\" y1=\"216.0\" x2=\"220.0\" y2=\"228.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"155.0\" y=\"241.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">5,0 cm</text><line x1=\"320.0\" y1=\"64.0\" x2=\"182.5\" y2=\"116.2\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"175.0,119.0 181.2,112.8 183.8,119.5\" fill=\"#526777\"/><text x=\"324.0\" y=\"62.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">hål</text><text x=\"324.0\" y=\"80.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">Ø 2,0 cm</text><text x=\"324.0\" y=\"104.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">rakt igenom</text></svg></span><ol type=\"a\"><li>Bestäm metallens densitet i g/cm³.</li><li>Bestäm kubens massa före borrningen.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvarvarande volym: \\(V=a^3-\\pi r^2a\\)</p><p>Hålets radie är halva diametern, 1,0 cm, och längden är kubens sida 5,0 cm.</p><div class=\"facit-matte\">\\[\\begin{aligned}V&=5{,}0^3-\\pi\\cdot1{,}0^2\\cdot5{,}0\\\\&=125-5\\pi\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Den kvarvarande massan 0,75 kg är 750 g.</p><div class=\"facit-matte\">\\[\\rho=\\frac{750}{125-5\\pi}\\approx6{,}86235\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}86\\ \\mathrm{g/cm^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvarvarande volym: \\(V=a^3-\\pi r^2a\\)</p><p>Hålets radie är halva diametern, 1,0 cm, och längden är kubens sida 5,0 cm.</p><div class=\"facit-matte\">\\[\\begin{aligned}V&=5{,}0^3-\\pi\\cdot1{,}0^2\\cdot5{,}0\\\\&=125-5\\pi\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Den kvarvarande massan 0,75 kg är 750 g.</p><div class=\"facit-matte\">\\[\\rho=\\frac{750}{125-5\\pi}\\approx6{,}86235\\ \\mathrm{g/cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Före borrningen var hela kubvolymen 125 cm³ metall. Använd den oavrundade densiteten från a).</p><div class=\"facit-matte\">\\[m_{\\mathrm{före}}=\\frac{750}{125-5\\pi}\\cdot125\\approx857{,}794\\ \\mathrm g\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}858\\ \\mathrm{kg}\\).</p></div></div></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
@@ -149022,12 +149022,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En metallkub har sidan 5,0 cm. Ett cylinderhål med diametern 2,0 cm borras vinkelrätt från en sidoyta till den motsatta, helt innanför kanterna. Efter borrningen är massan 0,75 kg.</p>",
+    "spelIntro": "<p>En metallkub har sidan 5,0 cm. Ett cylinderhål med diametern 2,0 cm borras vinkelrätt från en sidoyta till den motsatta, helt innanför kanterna. Efter borrningen är massan 0,75 kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"En metallkub med sidan 5,0 cm. Ett cylinderformat hål med diametern 2,0 cm är borrat rakt igenom från framsidan till baksidan.\" style=\"max-width:100%;height:auto\"><title>En metallkub med sidan 5,0 cm. Ett cylinderformat hål med diametern 2,0 cm är borrat rakt igenom från framsidan till baksidan.</title><rect width=\"400\" height=\"260\" fill=\"#fff\"/><rect x=\"90.0\" y=\"70.0\" width=\"130.0\" height=\"130.0\" rx=\"0\" fill=\"#b8c2ca\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M90,70 L146,30 L276,30 L220,70 Z\" fill=\"#d3dadf\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M220,70 L276,30 L276,160 L220,200 Z\" fill=\"#9eaab4\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"155.0\" cy=\"135.0\" r=\"26.0\" fill=\"#3d4a54\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M136.8,116.8 A26,26 0 0 1 181.0,135.0\" fill=\"none\" stroke=\"#6b7a86\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"90.0\" y1=\"222.0\" x2=\"220.0\" y2=\"222.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"90.0\" y1=\"216.0\" x2=\"90.0\" y2=\"228.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"220.0\" y1=\"216.0\" x2=\"220.0\" y2=\"228.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"155.0\" y=\"241.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">5,0 cm</text><line x1=\"320.0\" y1=\"64.0\" x2=\"182.5\" y2=\"116.2\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"175.0,119.0 181.2,112.8 183.8,119.5\" fill=\"#526777\"/><text x=\"324.0\" y=\"62.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">hål</text><text x=\"324.0\" y=\"80.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">Ø 2,0 cm</text><text x=\"324.0\" y=\"104.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">rakt igenom</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm metallens densitet i g/cm³.",
-        "t": "<p>En metallkub har sidan 5,0 cm. Ett cylinderhål med diametern 2,0 cm borras vinkelrätt från en sidoyta till den motsatta, helt innanför kanterna. Efter borrningen är massan 0,75 kg.</p><p>Bestäm metallens densitet i g/cm³.</p>",
+        "t": "<p>En metallkub har sidan 5,0 cm. Ett cylinderhål med diametern 2,0 cm borras vinkelrätt från en sidoyta till den motsatta, helt innanför kanterna. Efter borrningen är massan 0,75 kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"En metallkub med sidan 5,0 cm. Ett cylinderformat hål med diametern 2,0 cm är borrat rakt igenom från framsidan till baksidan.\" style=\"max-width:100%;height:auto\"><title>En metallkub med sidan 5,0 cm. Ett cylinderformat hål med diametern 2,0 cm är borrat rakt igenom från framsidan till baksidan.</title><rect width=\"400\" height=\"260\" fill=\"#fff\"/><rect x=\"90.0\" y=\"70.0\" width=\"130.0\" height=\"130.0\" rx=\"0\" fill=\"#b8c2ca\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M90,70 L146,30 L276,30 L220,70 Z\" fill=\"#d3dadf\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M220,70 L276,30 L276,160 L220,200 Z\" fill=\"#9eaab4\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"155.0\" cy=\"135.0\" r=\"26.0\" fill=\"#3d4a54\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M136.8,116.8 A26,26 0 0 1 181.0,135.0\" fill=\"none\" stroke=\"#6b7a86\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"90.0\" y1=\"222.0\" x2=\"220.0\" y2=\"222.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"90.0\" y1=\"216.0\" x2=\"90.0\" y2=\"228.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"220.0\" y1=\"216.0\" x2=\"220.0\" y2=\"228.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"155.0\" y=\"241.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">5,0 cm</text><line x1=\"320.0\" y1=\"64.0\" x2=\"182.5\" y2=\"116.2\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"175.0,119.0 181.2,112.8 183.8,119.5\" fill=\"#526777\"/><text x=\"324.0\" y=\"62.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">hål</text><text x=\"324.0\" y=\"80.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">Ø 2,0 cm</text><text x=\"324.0\" y=\"104.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">rakt igenom</text></svg></span><p>Bestäm metallens densitet i g/cm³.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvarvarande volym: \\(V=a^3-\\pi r^2a\\)</p><p>Hålets radie är halva diametern, 1,0 cm, och längden är kubens sida 5,0 cm.</p><div class=\"facit-matte\">\\[\\begin{aligned}V&=5{,}0^3-\\pi\\cdot1{,}0^2\\cdot5{,}0\\\\&=125-5\\pi\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Den kvarvarande massan 0,75 kg är 750 g.</p><div class=\"facit-matte\">\\[\\rho=\\frac{750}{125-5\\pi}\\approx6{,}86235\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}86\\ \\mathrm{g/cm^3}\\).</p></div>",
         "ledtrad": "<p>Subtrahera hålets volym innan du beräknar densiteten.</p>",
         "niva": "C",
@@ -149038,7 +149038,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm kubens massa före borrningen.",
-        "t": "<p>En metallkub har sidan 5,0 cm. Ett cylinderhål med diametern 2,0 cm borras vinkelrätt från en sidoyta till den motsatta, helt innanför kanterna. Efter borrningen är massan 0,75 kg.</p><p>Bestäm kubens massa före borrningen.</p>",
+        "t": "<p>En metallkub har sidan 5,0 cm. Ett cylinderhål med diametern 2,0 cm borras vinkelrätt från en sidoyta till den motsatta, helt innanför kanterna. Efter borrningen är massan 0,75 kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"En metallkub med sidan 5,0 cm. Ett cylinderformat hål med diametern 2,0 cm är borrat rakt igenom från framsidan till baksidan.\" style=\"max-width:100%;height:auto\"><title>En metallkub med sidan 5,0 cm. Ett cylinderformat hål med diametern 2,0 cm är borrat rakt igenom från framsidan till baksidan.</title><rect width=\"400\" height=\"260\" fill=\"#fff\"/><rect x=\"90.0\" y=\"70.0\" width=\"130.0\" height=\"130.0\" rx=\"0\" fill=\"#b8c2ca\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M90,70 L146,30 L276,30 L220,70 Z\" fill=\"#d3dadf\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M220,70 L276,30 L276,160 L220,200 Z\" fill=\"#9eaab4\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"155.0\" cy=\"135.0\" r=\"26.0\" fill=\"#3d4a54\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M136.8,116.8 A26,26 0 0 1 181.0,135.0\" fill=\"none\" stroke=\"#6b7a86\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"90.0\" y1=\"222.0\" x2=\"220.0\" y2=\"222.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"90.0\" y1=\"216.0\" x2=\"90.0\" y2=\"228.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"220.0\" y1=\"216.0\" x2=\"220.0\" y2=\"228.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"155.0\" y=\"241.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">5,0 cm</text><line x1=\"320.0\" y1=\"64.0\" x2=\"182.5\" y2=\"116.2\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"175.0,119.0 181.2,112.8 183.8,119.5\" fill=\"#526777\"/><text x=\"324.0\" y=\"62.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">hål</text><text x=\"324.0\" y=\"80.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">Ø 2,0 cm</text><text x=\"324.0\" y=\"104.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">rakt igenom</text></svg></span><p>Bestäm kubens massa före borrningen.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvarvarande volym: \\(V=a^3-\\pi r^2a\\)</p><p>Hålets radie är halva diametern, 1,0 cm, och längden är kubens sida 5,0 cm.</p><div class=\"facit-matte\">\\[\\begin{aligned}V&=5{,}0^3-\\pi\\cdot1{,}0^2\\cdot5{,}0\\\\&=125-5\\pi\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Den kvarvarande massan 0,75 kg är 750 g.</p><div class=\"facit-matte\">\\[\\rho=\\frac{750}{125-5\\pi}\\approx6{,}86235\\ \\mathrm{g/cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Före borrningen var hela kubvolymen 125 cm³ metall. Använd den oavrundade densiteten från a).</p><div class=\"facit-matte\">\\[m_{\\mathrm{före}}=\\frac{750}{125-5\\pi}\\cdot125\\approx857{,}794\\ \\mathrm g\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}858\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Subtrahera hålets volym innan du beräknar densiteten.</p>",
         "niva": "C",
@@ -149062,7 +149062,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tillämpa densitet i en fysikalisk beräkning",
     "poang": "(0/2/0)",
-    "t": "<p>En 1,0 km lång kabel består av en kopparkärna med diameter 2,0 cm och ett 1,0 cm tjockt aluminiumskal runt kärnan. Densiteter: koppar 8,96 g/cm³ och aluminium 2,70 g/cm³. Bestäm kabelns massa.<br></p>",
+    "t": "<p>En 1,0 km lång kabel består av en kopparkärna med diameter 2,0 cm och ett 1,0 cm tjockt aluminiumskal runt kärnan. Densiteter: koppar 8,96 g/cm³ och aluminium 2,70 g/cm³. Bestäm kabelns massa.<br></p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" width=\"420\" height=\"220\" role=\"img\" aria-label=\"Tvärsnitt av en kabel: en kopparkärna med diametern 2,0 cm och runt den ett 1,0 cm tjockt aluminiumskal.\" style=\"max-width:100%;height:auto\"><title>Tvärsnitt av en kabel: en kopparkärna med diametern 2,0 cm och runt den ett 1,0 cm tjockt aluminiumskal.</title><rect width=\"420\" height=\"220\" fill=\"#fff\"/><circle cx=\"120.0\" cy=\"110.0\" r=\"80.0\" fill=\"#d5dce2\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"120.0\" cy=\"110.0\" r=\"40.0\" fill=\"#c8773a\" stroke=\"#203746\" stroke-width=\"2\"/><line x1=\"80.0\" y1=\"116.0\" x2=\"160.0\" y2=\"116.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"80.0\" y1=\"110.0\" x2=\"80.0\" y2=\"122.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"160.0\" y1=\"110.0\" x2=\"160.0\" y2=\"122.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"135.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2,0 cm</text><line x1=\"160.0\" y1=\"88.0\" x2=\"200.0\" y2=\"88.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"160.0\" y1=\"82.0\" x2=\"160.0\" y2=\"94.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"200.0\" y1=\"82.0\" x2=\"200.0\" y2=\"94.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"206.0\" y=\"93.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1,0 cm</text><line x1=\"268.0\" y1=\"56.0\" x2=\"174.0\" y2=\"57.8\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"166.0,58.0 173.9,54.2 174.1,61.4\" fill=\"#526777\"/><text x=\"272.0\" y=\"58.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">aluminium</text><text x=\"272.0\" y=\"76.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">2,70 g/cm³</text><line x1=\"268.0\" y1=\"150.0\" x2=\"157.8\" y2=\"123.8\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"150.0,122.0 158.6,120.3 157.0,127.3\" fill=\"#526777\"/><text x=\"272.0\" y=\"148.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">koppar</text><text x=\"272.0\" y=\"166.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">8,96 g/cm³</text><text x=\"120.0\" y=\"212.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">kabeln är 1,0 km lång</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Kabelns längd är 1,0 km = 100 000 cm. Kopparkärnans radie är 1,0 cm. Aluminiumskalet är 1,0 cm tjockt, så ytterradien är 2,0 cm.</p></li><li><p class=\"facit-rubrik\">Cylinderns volym: \\(V=\\pi r^2h\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}V_{\\mathrm{Cu}}&=\\pi\\cdot1{,}0^2\\cdot100000\\\\&=100000\\pi\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Skalvolym: \\(V_{\\mathrm{Al}}=\\pi(R^2-r^2)L\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}V_{\\mathrm{Al}}&=\\pi(2{,}0^2-1{,}0^2)\\cdot100000\\\\&=300000\\pi\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Total massa: \\(m=\\rho_{\\mathrm{Cu}}V_{\\mathrm{Cu}}+\\rho_{\\mathrm{Al}}V_{\\mathrm{Al}}\\)</p><p>Beräkningen ger massan i gram.</p><div class=\"facit-matte\">\\[m=8{,}96\\cdot100000\\pi+2{,}70\\cdot300000\\pi\\]</div></li><li><p class=\"facit-rubrik\">Massenhet: \\(1\\ \\mathrm{ton}=10^6\\ \\mathrm g\\)</p><div class=\"facit-matte\">\\[m=\\frac{1706000\\pi}{10^6}\\approx5{,}35956\\ \\mathrm{ton}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}36\\ \\mathrm{ton}\\).</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
@@ -149093,7 +149093,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tillämpa fysikaliska samband i flera steg",
     "poang": "(0/3/0)",
-    "t": "<p>Ett slutet oljefat är invändigt 85 cm högt och 57 cm i diameter. Fatet är gjort av 2,0 mm tjock stålplåt. Det fylls med 200 liter råolja med densiteten 920 kg/m³. Stålets densitet är 7800 kg/m³.</p><ol type=\"a\"><li>Bestäm råoljans massa.</li><li>Uppskatta det tomma fatets massa.</li></ol><p>Antag att fatet är en cylinder med plana lock och lika tjock plåt överallt. För stålet får du antingen räkna skillnaden mellan fatets yttre och inre volym eller uppskatta plåtvolymen som plåtens area gånger tjockleken.</p>",
+    "t": "<p>Ett slutet oljefat är invändigt 85 cm högt och 57 cm i diameter. Fatet är gjort av 2,0 mm tjock stålplåt. Det fylls med 200 liter råolja med densiteten 920 kg/m³. Stålets densitet är 7800 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" width=\"340\" height=\"300\" role=\"img\" aria-label=\"Ett slutet oljefat. Invändigt är det 85 cm högt och 57 cm i diameter. Plåten är 2,0 mm tjock.\" style=\"max-width:100%;height:auto\"><title>Ett slutet oljefat. Invändigt är det 85 cm högt och 57 cm i diameter. Plåten är 2,0 mm tjock.</title><rect width=\"340\" height=\"300\" fill=\"#fff\"/><path d=\"M70,40 L70,220 A70,18 0 0 0 210,220 L210,40 Z\" fill=\"#2f6fa3\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><ellipse cx=\"140.0\" cy=\"40.0\" rx=\"70.0\" ry=\"18.0\" fill=\"#4a87b8\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M70,100 A70,18 0 0 0 210,100\" fill=\"none\" stroke=\"#bcd3e6\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M70,160 A70,18 0 0 0 210,160\" fill=\"none\" stroke=\"#bcd3e6\" stroke-width=\"3\" stroke-linejoin=\"round\"/><ellipse cx=\"170.0\" cy=\"40.0\" rx=\"9.0\" ry=\"4.0\" fill=\"#1d4a6e\" stroke=\"#203746\" stroke-width=\"1.4\"/><line x1=\"232.0\" y1=\"40.0\" x2=\"232.0\" y2=\"220.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"226.0\" y1=\"40.0\" x2=\"238.0\" y2=\"40.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"226.0\" y1=\"220.0\" x2=\"238.0\" y2=\"220.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"241.0\" y=\"135.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">85 cm</text><line x1=\"70.0\" y1=\"260.0\" x2=\"210.0\" y2=\"260.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"70.0\" y1=\"254.0\" x2=\"70.0\" y2=\"266.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"210.0\" y1=\"254.0\" x2=\"210.0\" y2=\"266.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"140.0\" y=\"279.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">57 cm</text><line x1=\"290.0\" y1=\"74.0\" x2=\"219.9\" y2=\"83.0\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"212.0,84.0 219.5,79.4 220.4,86.6\" fill=\"#526777\"/><text x=\"294.0\" y=\"70.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">plåt</text><text x=\"294.0\" y=\"86.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">2,0 mm</text></svg></span><ol type=\"a\"><li>Bestäm råoljans massa.</li><li>Uppskatta det tomma fatets massa.</li></ol><p>Antag att fatet är en cylinder med plana lock och lika tjock plåt överallt. För stålet får du antingen räkna skillnaden mellan fatets yttre och inre volym eller uppskatta plåtvolymen som plåtens area gånger tjockleken.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Volymenhet: \\(1000\\ \\mathrm l=1\\ \\mathrm{m^3}\\)</p><div class=\"facit-matte\">\\[200\\ \\mathrm l=0{,}200\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=920\\cdot0{,}200=184\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(184\\ \\mathrm{kg}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Innerradien är 0,285 m, innerhöjden 0,85 m och tjockleken 0,0020 m. Vi söker stålmassan.</p></li><li><p class=\"facit-rubrik\">Yttermått: \\(R=r+t\\), \\(H=h+2t\\)</p><p>Både botten och locket ökar höjden.</p><div class=\"facit-matte\">\\[\\begin{aligned}R&=0{,}285+0{,}002=0{,}287\\ \\mathrm m\\\\H&=0{,}85+2\\cdot0{,}002=0{,}854\\ \\mathrm m\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Stålvolym: \\(V=\\pi R^2H-\\pi r^2h\\)</p><p>Volymen fås i m³. Använd hela värdet när massan beräknas.</p><div class=\"facit-matte\">\\[V=\\pi(0{,}287^2\\cdot0{,}854-0{,}285^2\\cdot0{,}85)\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}m&=7800\\pi\\cdot\\\\&\\quad(0{,}287^2\\cdot0{,}854-0{,}285^2\\cdot0{,}85)\\\\&\\approx31{,}9\\ \\mathrm{kg}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Alternativ tunn plåt: \\(V\\approx(2\\pi rh+2\\pi r^2)t\\)</p><p>Denna uppskattning använder den inre mantelytan och två plana lock.</p><div class=\"facit-matte\">\\[\\begin{aligned}m&\\approx7800\\cdot0{,}002\\cdot\\\\&\\quad(2\\pi\\cdot0{,}285\\cdot0{,}85+2\\pi\\cdot0{,}285^2)\\\\&\\approx31{,}7\\ \\mathrm{kg}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 32 kg. De två tillåtna geometriska modellerna ger cirka 31,9 respektive 31,7 kg.</p></div></div></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
@@ -149184,7 +149184,7 @@ window.BANK = [
     "niva": "C",
     "typ": "Densitet:  En kula består av en aluminiumkärna och ett stålskal. Kärnans radie är hälften av kulans ytterradie. Densiteterna är 2,70 och 7,80 g/cm³. En elev beräknar mede",
     "poang": "(0/3/0)",
-    "t": "<p>En kula består av en aluminiumkärna och ett stålskal. Kärnans radie är hälften av kulans ytterradie. Densiteterna är 2,70 och 7,80 g/cm³. Vera beräknar medeldensiteten som (2,70 + 7,80)/2. Förklara felet och bestäm rätt medeldensitet.</p>",
+    "t": "<p>En kula består av en aluminiumkärna och ett stålskal. Kärnans radie är hälften av kulans ytterradie. Densiteterna är 2,70 och 7,80 g/cm³. Vera beräknar medeldensiteten som (2,70 + 7,80)/2. Förklara felet och bestäm rätt medeldensitet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 240\" width=\"430\" height=\"240\" role=\"img\" aria-label=\"Genomskärning av en kula med en aluminiumkärna och ett stålskal. Kärnans radie är hälften av ytterradien R.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av en kula med en aluminiumkärna och ett stålskal. Kärnans radie är hälften av ytterradien R.</title><rect width=\"430\" height=\"240\" fill=\"#fff\"/><circle cx=\"130.0\" cy=\"120.0\" r=\"96.0\" fill=\"#9aa8b4\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"130.0\" cy=\"120.0\" r=\"48.0\" fill=\"#d5dce2\" stroke=\"#203746\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"120.0\" x2=\"226.0\" y2=\"120.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><circle cx=\"130.0\" cy=\"120.0\" r=\"3.5\" fill=\"#203746\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"232.0\" y=\"125.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">R</text><line x1=\"130.0\" y1=\"120.0\" x2=\"82.0\" y2=\"120.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"106.0\" y=\"112.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">R/2</text><line x1=\"300.0\" y1=\"50.0\" x2=\"190.8\" y2=\"50.8\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"182.8,50.9 190.8,47.2 190.8,54.4\" fill=\"#526777\"/><text x=\"304.0\" y=\"48.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">stål</text><text x=\"304.0\" y=\"66.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">7,80 g/cm³</text><line x1=\"300.0\" y1=\"196.0\" x2=\"152.0\" y2=\"146.5\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"144.4,144.0 153.1,143.1 150.8,150.0\" fill=\"#526777\"/><text x=\"304.0\" y=\"200.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">aluminium</text><text x=\"304.0\" y=\"218.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">2,70 g/cm³</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Klotvolym: \\(V\\propto r^3\\)</p><p>Halva radien ger en åttondel av volymen. Stålskalet upptar de återstående sju åttondelarna.</p><div class=\"facit-matte\">\\[\\frac{V_a}{V_{\\mathrm{tot}}}=\\left(\\frac12\\right)^3=\\frac18\\]</div></li><li><p class=\"facit-rubrik\">Medeldensitet: \\(\\rho_{\\mathrm{medel}}=m_{\\mathrm{tot}}/V_{\\mathrm{tot}}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}\\rho_{\\mathrm{medel}}&=2{,}70\\cdot\\frac18+7{,}80\\cdot\\frac78\\\\&=7{,}1625\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Det vanliga medelvärdet kräver lika stora volymer</p><p>Uttrycket (2,70 + 7,80)/2 skulle passa om varje material upptog halva totalvolymen. Det gör de inte här.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Medeldensiteten är cirka 7,16 g/cm³. Densiteterna ska viktas med volymandelarna 1/8 och 7/8.</p></div>",
     "familj": "Densitet, flytförmåga och modeller",
     "formaga": [
@@ -149306,7 +149306,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tillämpa fysikaliska samband i flera steg",
     "poang": "(0/3/0)",
-    "t": "<p>Ett mätglas med vätska vägs. Vid 87 ml visar vågen 132,4 g. Efter att vätska hällts ut står nivån på 13 ml och vågen visar 49,6 g.</p><ol type=\"a\"><li>Bestäm vätskans densitet.</li><li>Vilken vanlig vätska ligger nära värdet?</li><li>Bestäm det tomma mätglasets massa.</li></ol><p>Jämför med etylenglykol 1,11, vatten 1,00 och etanol 0,789 g/cm³. Förklara varför förslaget inte är en säker identifiering.</p>",
+    "t": "<p>Ett mätglas med vätska vägs. Vid 87 ml visar vågen 132,4 g. Efter att vätska hällts ut står nivån på 13 ml och vågen visar 49,6 g.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 290\" width=\"440\" height=\"290\" role=\"img\" aria-label=\"Ett mätglas med vätska står på en våg. Vid 87 ml visar vågen 132,4 g. Vid 13 ml visar vågen 49,6 g.\" style=\"max-width:100%;height:auto\"><title>Ett mätglas med vätska står på en våg. Vid 87 ml visar vågen 132,4 g. Vid 13 ml visar vågen 49,6 g.</title><rect width=\"440\" height=\"290\" fill=\"#fff\"/><rect x=\"70.0\" y=\"36.0\" width=\"64.0\" height=\"186.0\" rx=\"4\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"72\" y=\"65.4\" width=\"60\" height=\"154.6\" fill=\"#f6d7a7\"/><line x1=\"72.0\" y1=\"65.4\" x2=\"132.0\" y2=\"65.4\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"70.0\" y1=\"222.0\" x2=\"82.0\" y2=\"222.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"213.0\" x2=\"77.0\" y2=\"213.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"204.0\" x2=\"77.0\" y2=\"204.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"195.0\" x2=\"77.0\" y2=\"195.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"186.0\" x2=\"82.0\" y2=\"186.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"190.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">20</text><line x1=\"70.0\" y1=\"177.0\" x2=\"77.0\" y2=\"177.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"168.0\" x2=\"77.0\" y2=\"168.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"159.0\" x2=\"77.0\" y2=\"159.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"150.0\" x2=\"82.0\" y2=\"150.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"154.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">40</text><line x1=\"70.0\" y1=\"141.0\" x2=\"77.0\" y2=\"141.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"132.0\" x2=\"77.0\" y2=\"132.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"123.0\" x2=\"77.0\" y2=\"123.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"114.0\" x2=\"82.0\" y2=\"114.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"118.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">60</text><line x1=\"70.0\" y1=\"105.0\" x2=\"77.0\" y2=\"105.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"96.0\" x2=\"77.0\" y2=\"96.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"87.0\" x2=\"77.0\" y2=\"87.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"78.0\" x2=\"82.0\" y2=\"78.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"82.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">80</text><line x1=\"70.0\" y1=\"69.0\" x2=\"77.0\" y2=\"69.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"60.0\" x2=\"77.0\" y2=\"60.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"51.0\" x2=\"77.0\" y2=\"51.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"42.0\" x2=\"82.0\" y2=\"42.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"46.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">100</text><line x1=\"174.0\" y1=\"65.4\" x2=\"148.0\" y2=\"65.4\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><polygon points=\"140.0,65.4 148.0,61.8 148.0,69.0\" fill=\"#0b6fa4\"/><text x=\"178.0\" y=\"70.4\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">87 ml</text><rect x=\"40.0\" y=\"230.0\" width=\"124.0\" height=\"10.0\" rx=\"3\" fill=\"#c9d3da\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"46.0\" y=\"240.0\" width=\"112.0\" height=\"34.0\" rx=\"4\" fill=\"#e9eef2\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"66.0\" y=\"246.0\" width=\"72.0\" height=\"22.0\" rx=\"3\" fill=\"#1f2d36\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"102.0\" y=\"262.0\" fill=\"#9ff0b4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">132,4 g</text><rect x=\"290.0\" y=\"36.0\" width=\"64.0\" height=\"186.0\" rx=\"4\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"292\" y=\"198.6\" width=\"60\" height=\"21.4\" fill=\"#f6d7a7\"/><line x1=\"292.0\" y1=\"198.6\" x2=\"352.0\" y2=\"198.6\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"290.0\" y1=\"222.0\" x2=\"302.0\" y2=\"222.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"213.0\" x2=\"297.0\" y2=\"213.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"204.0\" x2=\"297.0\" y2=\"204.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"195.0\" x2=\"297.0\" y2=\"195.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"186.0\" x2=\"302.0\" y2=\"186.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"190.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">20</text><line x1=\"290.0\" y1=\"177.0\" x2=\"297.0\" y2=\"177.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"168.0\" x2=\"297.0\" y2=\"168.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"159.0\" x2=\"297.0\" y2=\"159.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"150.0\" x2=\"302.0\" y2=\"150.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"154.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">40</text><line x1=\"290.0\" y1=\"141.0\" x2=\"297.0\" y2=\"141.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"132.0\" x2=\"297.0\" y2=\"132.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"123.0\" x2=\"297.0\" y2=\"123.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"114.0\" x2=\"302.0\" y2=\"114.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"118.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">60</text><line x1=\"290.0\" y1=\"105.0\" x2=\"297.0\" y2=\"105.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"96.0\" x2=\"297.0\" y2=\"96.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"87.0\" x2=\"297.0\" y2=\"87.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"78.0\" x2=\"302.0\" y2=\"78.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"82.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">80</text><line x1=\"290.0\" y1=\"69.0\" x2=\"297.0\" y2=\"69.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"60.0\" x2=\"297.0\" y2=\"60.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"51.0\" x2=\"297.0\" y2=\"51.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"42.0\" x2=\"302.0\" y2=\"42.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"46.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">100</text><line x1=\"394.0\" y1=\"198.6\" x2=\"368.0\" y2=\"198.6\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><polygon points=\"360.0,198.6 368.0,195.0 368.0,202.2\" fill=\"#0b6fa4\"/><text x=\"398.0\" y=\"203.6\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">13 ml</text><rect x=\"260.0\" y=\"230.0\" width=\"124.0\" height=\"10.0\" rx=\"3\" fill=\"#c9d3da\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"266.0\" y=\"240.0\" width=\"112.0\" height=\"34.0\" rx=\"4\" fill=\"#e9eef2\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"286.0\" y=\"246.0\" width=\"72.0\" height=\"22.0\" rx=\"3\" fill=\"#1f2d36\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"322.0\" y=\"262.0\" fill=\"#9ff0b4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">49,6 g</text><text x=\"40.0\" y=\"26.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">ml</text></svg></span><ol type=\"a\"><li>Bestäm vätskans densitet.</li><li>Vilken vanlig vätska ligger nära värdet?</li><li>Bestäm det tomma mätglasets massa.</li></ol><p>Jämför med etylenglykol 1,11, vatten 1,00 och etanol 0,789 g/cm³. Förklara varför förslaget inte är en säker identifiering.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Borttagen vätska: \\(\\Delta m=m_1-m_2\\), \\(\\Delta V=V_1-V_2\\)</p><p>1 ml är 1 cm³. Mätglasets massa är densamma vid båda vägningarna och försvinner i skillnaden.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta m&=132{,}4-49{,}6=82{,}8\\ \\mathrm g\\\\\\Delta V&=87-13=74\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Densiteten är lutningen: \\(\\rho=\\Delta m/\\Delta V\\)</p><div class=\"facit-matte\">\\[\\rho=82{,}8/74\\approx1{,}119\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}12\\ \\mathrm{g/cm^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför densiteten från a) med tabellen</p><p>Etylenglykolens 1,11 g/cm³ ligger nära mätresultatet. Men även andra vätskor eller blandningar kan ha samma densitet, och mätningarna har en viss osäkerhet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Etylenglykol är ett rimligt förslag, men identifieringen är inte säker.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Total massa: \\(m_{\\mathrm{tot}}=m_{\\mathrm{glas}}+\\rho V\\)</p><p>Använd den oavrundade densiteten från a) och vägningen vid 13 ml.</p><div class=\"facit-matte\">\\[m_{\\mathrm{glas}}=49{,}6-\\frac{82{,}8}{74}\\cdot13\\approx35{,}054\\ \\mathrm g\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(35{,}1\\ \\mathrm g\\).</p></div></div></div>",
     "familj": "Densitet ur diagram och mätdata",
     "formaga": [
@@ -149366,7 +149366,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tillämpa fysikaliska samband i en problemsituation",
     "poang": "(0/2/0)",
-    "t": "<p>En glasflaska väger 35,00 g tom och 98,44 g fylld med vatten. Vattnets densitet är 0,998 g/cm³. När samma flaska fylls med en okänd vätska väger den 89,22 g. Bestäm den okända vätskans densitet.<br></p><p>Flaskan fylls till exakt samma nivå vid båda vägningarna.</p>",
+    "t": "<p>En glasflaska väger 35,00 g tom och 98,44 g fylld med vatten. Vattnets densitet är 0,998 g/cm³. När samma flaska fylls med en okänd vätska väger den 89,22 g. Bestäm den okända vätskans densitet.<br></p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 450 220\" width=\"450\" height=\"220\" role=\"img\" aria-label=\"Samma glasflaska vägs tre gånger: tom 35,00 g, fylld med vatten 98,44 g och fylld med en okänd vätska 89,22 g.\" style=\"max-width:100%;height:auto\"><title>Samma glasflaska vägs tre gånger: tom 35,00 g, fylld med vatten 98,44 g och fylld med en okänd vätska 89,22 g.</title><rect width=\"450\" height=\"220\" fill=\"#fff\"/><path d=\"M45,150 L45,96 C45,80 65,74 67,62 L67,40 L83,40 L83,62 C85,74 105,80 105,96 L105,150 Z\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"13.0\" y=\"152.0\" width=\"124.0\" height=\"10.0\" rx=\"3\" fill=\"#c9d3da\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"19.0\" y=\"162.0\" width=\"112.0\" height=\"34.0\" rx=\"4\" fill=\"#e9eef2\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"39.0\" y=\"168.0\" width=\"72.0\" height=\"22.0\" rx=\"3\" fill=\"#1f2d36\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"75.0\" y=\"184.0\" fill=\"#9ff0b4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">35,00 g</text><text x=\"75.0\" y=\"216.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">tom</text><path d=\"M195,150 L195,96 C195,80 215,74 217,62 L217,40 L233,40 L233,62 C235,74 255,80 255,96 L255,150 Z\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M197,148 L197,96 C197,82 215,76 219,66 L231,66 C235,76 253,82 253,96 L253,148 Z\" fill=\"#cfe6f5\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\"/><line x1=\"219.0\" y1=\"66.0\" x2=\"231.0\" y2=\"66.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><rect x=\"163.0\" y=\"152.0\" width=\"124.0\" height=\"10.0\" rx=\"3\" fill=\"#c9d3da\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"169.0\" y=\"162.0\" width=\"112.0\" height=\"34.0\" rx=\"4\" fill=\"#e9eef2\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"189.0\" y=\"168.0\" width=\"72.0\" height=\"22.0\" rx=\"3\" fill=\"#1f2d36\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"225.0\" y=\"184.0\" fill=\"#9ff0b4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">98,44 g</text><text x=\"225.0\" y=\"216.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">vatten</text><path d=\"M345,150 L345,96 C345,80 365,74 367,62 L367,40 L383,40 L383,62 C385,74 405,80 405,96 L405,150 Z\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M347,148 L347,96 C347,82 365,76 369,66 L381,66 C385,76 403,82 403,96 L403,148 Z\" fill=\"#f3c6c6\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\"/><line x1=\"369.0\" y1=\"66.0\" x2=\"381.0\" y2=\"66.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><rect x=\"313.0\" y=\"152.0\" width=\"124.0\" height=\"10.0\" rx=\"3\" fill=\"#c9d3da\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"319.0\" y=\"162.0\" width=\"112.0\" height=\"34.0\" rx=\"4\" fill=\"#e9eef2\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"339.0\" y=\"168.0\" width=\"72.0\" height=\"22.0\" rx=\"3\" fill=\"#1f2d36\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"375.0\" y=\"184.0\" fill=\"#9ff0b4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">89,22 g</text><text x=\"375.0\" y=\"216.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">okänd vätska</text></svg></span><p>Flaskan fylls till exakt samma nivå vid båda vägningarna.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vätskemassa: \\(m=m_{\\mathrm{fylld}}-m_{\\mathrm{tom}}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}m_v&=98{,}44-35{,}00=63{,}44\\ \\mathrm g\\\\m_x&=89{,}22-35{,}00=54{,}22\\ \\mathrm g\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Volym: \\(V=m/\\rho\\)</p><p>Vattenvägningen ger flaskvolymen. Den andra vätskan fylls till exakt samma nivå.</p><div class=\"facit-matte\">\\[V=63{,}44/0{,}998\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><div class=\"facit-matte\">\\[\\rho_x=\\frac{54{,}22}{63{,}44/0{,}998}\\approx0{,}8529565\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}853\\ \\mathrm{g/cm^3}\\).</p></div>",
     "familj": "Densitet ur diagram och mätdata",
     "formaga": [
@@ -149425,7 +149425,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa fysikaliska samband i en problemsituation",
     "poang": "(2/0/0)",
-    "t": "<p>Ett cylindriskt mätglas har inre diametern 3,0 cm. Man häller i 40 ml vatten. Hur högt når vätskeytan?<br></p>",
+    "t": "<p>Ett cylindriskt mätglas har inre diametern 3,0 cm. Man häller i 40 ml vatten. Hur högt når vätskeytan?<br></p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 250\" width=\"300\" height=\"250\" role=\"img\" aria-label=\"Ett cylindriskt mätglas med den inre diametern 3,0 cm. 40 ml vatten hälls i. Vattenytans höjd är okänd.\" style=\"max-width:100%;height:auto\"><title>Ett cylindriskt mätglas med den inre diametern 3,0 cm. 40 ml vatten hälls i. Vattenytans höjd är okänd.</title><rect width=\"300\" height=\"250\" fill=\"#fff\"/><path d=\"M86,40 L86,210 A44,10 0 0 0 174,210 L174,40 Z\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><ellipse cx=\"130.0\" cy=\"40.0\" rx=\"44.0\" ry=\"10.0\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M88,120 L88,210 A44,10 0 0 0 172,210 L172,120 Z\" fill=\"#cfe6f5\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\"/><ellipse cx=\"130.0\" cy=\"120.0\" rx=\"42.0\" ry=\"9.0\" fill=\"#b6d9ef\" stroke=\"#0b6fa4\" stroke-width=\"1.6\"/><ellipse cx=\"130.0\" cy=\"40.0\" rx=\"44.0\" ry=\"10.0\" fill=\"none\" stroke=\"#203746\" stroke-width=\"2\"/><line x1=\"86.0\" y1=\"22.0\" x2=\"174.0\" y2=\"22.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"86.0\" y1=\"16.0\" x2=\"86.0\" y2=\"28.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"174.0\" y1=\"16.0\" x2=\"174.0\" y2=\"28.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"130.0\" y=\"14.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3,0 cm</text><line x1=\"196.0\" y1=\"120.0\" x2=\"196.0\" y2=\"210.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"190.0\" y1=\"120.0\" x2=\"202.0\" y2=\"120.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"190.0\" y1=\"210.0\" x2=\"202.0\" y2=\"210.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"205.0\" y=\"170.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">h = ?</text><text x=\"130.0\" y=\"176.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">40 ml</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Radien: \\(r=d/2\\)</p><p>40 ml motsvarar 40 cm³. Vi söker höjden.</p><div class=\"facit-matte\">\\[r=3{,}0/2=1{,}5\\ \\mathrm{cm}\\]</div></li><li><p class=\"facit-rubrik\">Cylinderns volym: \\(V=\\pi r^2h\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}h&=\\frac{V}{\\pi r^2}\\\\&=\\frac{40}{\\pi\\cdot1{,}5^2}\\approx5{,}659\\ \\mathrm{cm}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}66\\ \\mathrm{cm}\\).</p></div>",
     "familj": "Densitet med geometri",
     "formaga": [
@@ -149545,7 +149545,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tillämpa densitet i en fysikalisk beräkning",
     "poang": "(0/2/0)",
-    "t": "<p>En bägare väger 150 g tom. I den hälls först 200 ml vatten och därefter en okänd volym ren etanol. Totalmassan är 512 g. Densiteter: vatten 1,00 g/cm³ och etanol 0,789 g/cm³. Vilken volym etanol tillsattes före blandningen?</p><p>Avrunda till hela milliliter.</p>",
+    "t": "<p>En bägare väger 150 g tom. I den hälls först 200 ml vatten och därefter en okänd volym ren etanol. Totalmassan är 512 g. Densiteter: vatten 1,00 g/cm³ och etanol 0,789 g/cm³. Vilken volym etanol tillsattes före blandningen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" width=\"440\" height=\"250\" role=\"img\" aria-label=\"En bägare som väger 150 g tom står på en våg. I den hälls 200 ml vatten och en okänd volym etanol. Vågen visar 512 g.\" style=\"max-width:100%;height:auto\"><title>En bägare som väger 150 g tom står på en våg. I den hälls 200 ml vatten och en okänd volym etanol. Vågen visar 512 g.</title><rect width=\"440\" height=\"250\" fill=\"#fff\"/><path d=\"M170,92 L178,198 L262,198 L270,92\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M175,130 L179,196 L261,196 L265,130 Z\" fill=\"#d7ebf6\" stroke=\"none\" stroke-width=\"0\" stroke-linejoin=\"round\"/><line x1=\"175.0\" y1=\"130.0\" x2=\"265.0\" y2=\"130.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><rect x=\"158.0\" y=\"200.0\" width=\"124.0\" height=\"10.0\" rx=\"3\" fill=\"#c9d3da\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"164.0\" y=\"210.0\" width=\"112.0\" height=\"34.0\" rx=\"4\" fill=\"#e9eef2\" stroke=\"#203746\" stroke-width=\"1.6\"/><rect x=\"184.0\" y=\"216.0\" width=\"72.0\" height=\"22.0\" rx=\"3\" fill=\"#1f2d36\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"220.0\" y=\"232.0\" fill=\"#9ff0b4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">512 g</text><text x=\"220.0\" y=\"84.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">bägare 150 g tom</text><path d=\"M40,60 L40,120 L100,120 L100,60 Z\" fill=\"#cfe6f5\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"70.0\" y=\"140.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">vatten</text><text x=\"70.0\" y=\"156.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">200 ml</text><line x1=\"104.0\" y1=\"70.0\" x2=\"160.1\" y2=\"99.8\" stroke=\"#0b6fa4\" stroke-width=\"2.4\"/><polygon points=\"168.0,104.0 158.2,103.4 162.0,96.2\" fill=\"#0b6fa4\"/><path d=\"M360,50 L360,120 L400,120 L400,50 L392,50 L392,36 L368,36 L368,50 Z\" fill=\"#fff3d6\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"380.0\" y=\"140.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">etanol</text><text x=\"380.0\" y=\"156.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">? ml</text><line x1=\"356.0\" y1=\"70.0\" x2=\"280.3\" y2=\"100.6\" stroke=\"#b25c17\" stroke-width=\"2.4\"/><polygon points=\"272.0,104.0 278.8,96.9 281.9,104.4\" fill=\"#b25c17\"/></svg></span><p>Avrunda till hela milliliter.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Vattnets volym är 200 ml = 200 cm³.</p><div class=\"facit-matte\">\\[m_v=1{,}00\\cdot200=200\\ \\mathrm g\\]</div></li><li><p class=\"facit-rubrik\">Etanolmassa: \\(m_e=m_{\\mathrm{tot}}-m_{\\mathrm{bägare}}-m_v\\)</p><div class=\"facit-matte\">\\[m_e=512-150-200=162\\ \\mathrm g\\]</div></li><li><p class=\"facit-rubrik\">Volym: \\(V=m/\\rho\\)</p><p>Vi söker etanolens volym före blandningen. 1 cm³ är 1 ml; avrunda till hela milliliter.</p><div class=\"facit-matte\">\\[V_e=162/0{,}789\\approx205{,}323\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(205\\ \\mathrm{ml}\\).</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
@@ -149665,9 +149665,9 @@ window.BANK = [
     "id": "2.200",
     "kap": 2,
     "omr": "densitet",
-    "niva": "C",
+    "niva": "A",
     "typ": "tillämpa fysikaliska samband i en problemsituation",
-    "poang": "(0/2/0)",
+    "poang": "(0/0/2)",
     "t": "<p>Ett mässingsstycke har volymen 100 cm³ och massan 820 g. Mässing består här endast av koppar och zink. Antag att kopparns och zinkens volymer tillsammans är 100 cm³. Densiteter: koppar 8,96 g/cm³ och zink 7,14 g/cm³.</p><p>Bestäm zinkhalten i massprocent.<br></p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Låt x vara zinkens massa i gram. Då väger kopparn 820 − x gram. Vi söker zinkens andel av hela massan.</p></li><li><p class=\"facit-rubrik\">Volymerna adderas: \\(V=m/\\rho\\)</p><div class=\"facit-matte\">\\[\\frac{x}{7{,}14}+\\frac{820-x}{8{,}96}=100\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera bort båda nämnarna</p><div class=\"facit-matte\">\\[8{,}96x+7{,}14(820-x)=100\\cdot7{,}14\\cdot8{,}96\\]</div></li><li><p class=\"facit-rubrik\">Samla termerna med zinkmassan</p><div class=\"facit-matte\">\\[\\begin{aligned}1{,}82x+5854{,}8&=6397{,}44\\\\x&=\\frac{542{,}64}{1{,}82}\\approx298{,}154\\ \\mathrm g\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Massprocent: \\(100x/m_{\\mathrm{tot}}\\)</p><div class=\"facit-matte\">\\[\\frac{542{,}64/1{,}82}{820}\\cdot100\\,\\%\\approx36{,}36\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36{,}4\\,\\%\\).</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
@@ -149682,7 +149682,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Välj zinkmassan som obekant och skriv ett samband för totalvolymen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "%",
@@ -149727,9 +149727,9 @@ window.BANK = [
     "id": "2.202",
     "kap": 2,
     "omr": "densitet",
-    "niva": "C",
+    "niva": "A",
     "typ": "tillämpa fysikaliska samband i en problemsituation",
-    "poang": "(0/2/0)",
+    "poang": "(0/0/2)",
     "t": "<p>200 ml glycerol blandas med en okänd volym metanol. Blandningen ska få densiteten 1,00 g/cm³. Antag att den totala volymen är summan av vätskornas volymer. Densiteter: glycerol 1,26 g/cm³ och metanol 0,792 g/cm³.</p><p>Hur stor volym metanol behövs?</p><p>Avrunda inte.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Låt x vara metanolvolymen i ml, samma talvärde som i cm³. Vi söker x för att få densiteten 1,00 g/cm³.</p></li><li><p class=\"facit-rubrik\">Blandningens densitet: \\(\\rho=m_{\\mathrm{tot}}/V_{\\mathrm{tot}}\\)</p><div class=\"facit-matte\">\\[1{,}00=\\frac{1{,}26\\cdot200+0{,}792x}{200+x}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med totalvolymen och samla x</p><div class=\"facit-matte\">\\[\\begin{aligned}200+x&=252+0{,}792x\\\\0{,}208x&=52\\\\x&=52/0{,}208=250\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera blandningens massa och volym</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{252+0{,}792\\cdot250}{200+250}&=\\frac{450}{450}\\\\&=1{,}00\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\ \\mathrm{ml}\\).</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
@@ -149760,7 +149760,7 @@ window.BANK = [
     "niva": "C",
     "typ": "tillämpa fysikaliska samband i en problemsituation",
     "poang": "(0/3/0)",
-    "t": "<p>En 1,0 m lång stav har diametern 2,0 cm hela vägen. De första 0,30 m från ena änden är guld, nästa 0,40 m aluminium och de sista 0,30 m silver. Densiteterna är 19,3 g/cm³ för guld, 2,70 g/cm³ för aluminium och 10,5 g/cm³ för silver.</p><p>Rita ett diagram över stavens totala massa \\(m(x)\\) som funktion av längden \\(x\\), räknat från guldändan. Markera var grafens lutning förändras och förklara varför.</p>",
+    "t": "<p>En 1,0 m lång stav har diametern 2,0 cm hela vägen. De första 0,30 m från ena änden är guld, nästa 0,40 m aluminium och de sista 0,30 m silver. Densiteterna är 19,3 g/cm³ för guld, 2,70 g/cm³ för aluminium och 10,5 g/cm³ för silver.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 160\" width=\"460\" height=\"160\" role=\"img\" aria-label=\"En 1,0 m lång stav med diametern 2,0 cm. De första 0,30 m är guld, nästa 0,40 m aluminium och de sista 0,30 m silver. x räknas från guldändan.\" style=\"max-width:100%;height:auto\"><title>En 1,0 m lång stav med diametern 2,0 cm. De första 0,30 m är guld, nästa 0,40 m aluminium och de sista 0,30 m silver. x räknas från guldändan.</title><rect width=\"460\" height=\"160\" fill=\"#fff\"/><rect x=\"40.0\" y=\"54.0\" width=\"114.0\" height=\"32.0\" rx=\"0\" fill=\"#e3b53f\" stroke=\"#203746\" stroke-width=\"1.8\"/><text x=\"97.0\" y=\"75.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">guld</text><rect x=\"154.0\" y=\"54.0\" width=\"152.0\" height=\"32.0\" rx=\"0\" fill=\"#d5dce2\" stroke=\"#203746\" stroke-width=\"1.8\"/><text x=\"230.0\" y=\"75.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">aluminium</text><rect x=\"306.0\" y=\"54.0\" width=\"114.0\" height=\"32.0\" rx=\"0\" fill=\"#cfd3d7\" stroke=\"#203746\" stroke-width=\"1.8\"/><text x=\"363.0\" y=\"75.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">silver</text><line x1=\"40.0\" y1=\"40.0\" x2=\"154.0\" y2=\"40.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"34.0\" x2=\"40.0\" y2=\"46.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"154.0\" y1=\"34.0\" x2=\"154.0\" y2=\"46.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"97.0\" y=\"32.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">0,30 m</text><line x1=\"154.0\" y1=\"40.0\" x2=\"306.0\" y2=\"40.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"154.0\" y1=\"34.0\" x2=\"154.0\" y2=\"46.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"306.0\" y1=\"34.0\" x2=\"306.0\" y2=\"46.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"230.0\" y=\"32.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">0,40 m</text><line x1=\"306.0\" y1=\"40.0\" x2=\"420.0\" y2=\"40.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"306.0\" y1=\"34.0\" x2=\"306.0\" y2=\"46.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><line x1=\"420.0\" y1=\"34.0\" x2=\"420.0\" y2=\"46.0\" stroke=\"#526777\" stroke-width=\"1.5\"/><text x=\"363.0\" y=\"32.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">0,30 m</text><line x1=\"40.0\" y1=\"116.0\" x2=\"151.0\" y2=\"116.0\" stroke=\"#b25c17\" stroke-width=\"2.4\"/><polygon points=\"160.0,116.0 151.0,120.0 151.0,112.0\" fill=\"#b25c17\"/><text x=\"166.0\" y=\"121.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\" font-style=\"italic\">x</text><line x1=\"40.0\" y1=\"108.0\" x2=\"40.0\" y2=\"124.0\" stroke=\"#b25c17\" stroke-width=\"2\"/><text x=\"40.0\" y=\"142.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">0</text><text x=\"420.0\" y=\"121.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" font-weight=\"bold\">Ø 2,0 cm</text></svg></span><p>Rita ett diagram över stavens totala massa \\(m(x)\\) som funktion av längden \\(x\\), räknat från guldändan. Markera var grafens lutning förändras och förklara varför.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tvärsnittsarea: \\(A=\\pi r^2\\)</p><p>Radien är 1,0 cm. Längderna 0,30, 0,40 och 0,30 m är 30, 40 och 30 cm.</p><div class=\"facit-matte\">\\[A=\\pi\\cdot1{,}0^2=\\pi\\ \\mathrm{cm^2}\\]</div></li><li><p class=\"facit-rubrik\">Delmassor: \\(m=\\rho AL\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}m_{\\mathrm{Au}}&=19{,}3\\pi\\cdot30=579\\pi\\ \\mathrm g\\\\m_{\\mathrm{Al}}&=2{,}70\\pi\\cdot40=108\\pi\\ \\mathrm g\\\\m_{\\mathrm{Ag}}&=10{,}5\\pi\\cdot30=315\\pi\\ \\mathrm g\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Summera massan från guldändan</p><p>Lägg till varje nytt materials massa till det som redan räknats med.</p><div class=\"facit-matte\">\\[\\begin{aligned}m(0)&=0\\\\m(0{,}30)&=579\\pi\\approx1819\\ \\mathrm g\\\\m(0{,}70)&=687\\pi\\approx2158\\ \\mathrm g\\\\m(1{,}00)&=1002\\pi\\approx3148\\ \\mathrm g\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Rita räta linjestycken mellan brytpunkterna</p><p>Inom varje material är massan per centimeter konstant. Därför blir grafen rak där. Lutningen ändras vid 0,30 och 0,70 m, men den sammanlagda massan gör inget hopp.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"350\" style=\"max-width:100%;height:auto\" viewBox=\"0 0 540 350\" role=\"img\" aria-label=\"Sammanlagd massa som funktion av längden\"><rect width=\"540\" height=\"350\" style=\"max-width:100%;height:auto\" fill=\"white\"/><path d=\"M60 290.0H480\" stroke=\"#dce3e8\"/><text x=\"52\" y=\"295.0\" text-anchor=\"end\" font-size=\"14\">0</text><path d=\"M60 220.0H480\" stroke=\"#dce3e8\"/><text x=\"52\" y=\"225.0\" text-anchor=\"end\" font-size=\"14\">1000</text><path d=\"M60 150.0H480\" stroke=\"#dce3e8\"/><text x=\"52\" y=\"155.0\" text-anchor=\"end\" font-size=\"14\">2000</text><path d=\"M60 79.99999999999997H480\" stroke=\"#dce3e8\"/><text x=\"52\" y=\"84.99999999999997\" text-anchor=\"end\" font-size=\"14\">3000</text><path d=\"M60 50V290\" stroke=\"#dce3e8\"/><text x=\"60\" y=\"314\" text-anchor=\"middle\" font-size=\"14\">0</text><path d=\"M186.0 50V290\" stroke=\"#dce3e8\"/><text x=\"186.0\" y=\"314\" text-anchor=\"middle\" font-size=\"14\">0,3</text><path d=\"M354.0 50V290\" stroke=\"#dce3e8\"/><text x=\"354.0\" y=\"314\" text-anchor=\"middle\" font-size=\"14\">0,7</text><path d=\"M480 50V290\" stroke=\"#dce3e8\"/><text x=\"480\" y=\"314\" text-anchor=\"middle\" font-size=\"14\">1</text><path d=\"M60 40V290H495\" fill=\"none\" stroke=\"#263c4b\" stroke-width=\"2\"/><text x=\"20\" y=\"25\" font-size=\"16\">m (g)</text><text x=\"470\" y=\"340\" font-size=\"16\">x (m)</text><polyline points=\"60,290.0 186.0,162.67124975000567 354.0,138.92080928886682 480,69.6486912772119\" fill=\"none\" stroke=\"#b23d36\" stroke-width=\"3\"/></svg></span></li><li><p class=\"facit-rubrik\">Lutning: \\(\\Delta m/\\Delta x=\\rho A\\) med samma längdenhet</p><p>Arean är densamma överallt. Därför är grafen brantast i guld, flackast i aluminium och mellanbrant i silver.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Grafen går genom (0; 0), (0,30; 1819), (0,70; 2158) och (1,00; 3148), med x i m och massan i g. Lutningen ändras vid materialgränserna.</p></div>",
     "familj": "Densitet ur diagram och mätdata",
     "formaga": [
@@ -149988,7 +149988,7 @@ window.BANK = [
     "niva": "E",
     "typ": "densitet med vattenförskjutning",
     "poang": "(1/0/0)",
-    "t": "<p>En sten har massan 54 g. När stenen sänks helt ned i ett mätglas stiger vattennivån från 40 ml till 60 ml. Bestäm stenens densitet.<br></p>",
+    "t": "<p>En sten har massan 54 g. När stenen sänks helt ned i ett mätglas stiger vattennivån från 40 ml till 60 ml. Bestäm stenens densitet.<br></p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 256\" width=\"460\" height=\"256\" role=\"img\" aria-label=\"Två mätglas. Före: vattnet står vid 40 ml. Efter att stenen sänkts ner står vattnet vid 60 ml.\" style=\"max-width:100%;height:auto\"><title>Två mätglas. Före: vattnet står vid 40 ml. Efter att stenen sänkts ner står vattnet vid 60 ml.</title><rect width=\"460\" height=\"256\" fill=\"#fff\"/><rect x=\"70.0\" y=\"36.0\" width=\"64.0\" height=\"186.0\" rx=\"4\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"72\" y=\"132.0\" width=\"60\" height=\"88.0\" fill=\"#cfe6f5\"/><line x1=\"72.0\" y1=\"132.0\" x2=\"132.0\" y2=\"132.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"70.0\" y1=\"222.0\" x2=\"82.0\" y2=\"222.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"226.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">0</text><line x1=\"70.0\" y1=\"210.8\" x2=\"77.0\" y2=\"210.8\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"199.5\" x2=\"77.0\" y2=\"199.5\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"188.2\" x2=\"77.0\" y2=\"188.2\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"177.0\" x2=\"82.0\" y2=\"177.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"181.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">20</text><line x1=\"70.0\" y1=\"165.8\" x2=\"77.0\" y2=\"165.8\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"154.5\" x2=\"77.0\" y2=\"154.5\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"143.2\" x2=\"77.0\" y2=\"143.2\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"132.0\" x2=\"82.0\" y2=\"132.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"136.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">40</text><line x1=\"70.0\" y1=\"120.8\" x2=\"77.0\" y2=\"120.8\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"109.5\" x2=\"77.0\" y2=\"109.5\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"98.2\" x2=\"77.0\" y2=\"98.2\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"87.0\" x2=\"82.0\" y2=\"87.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"91.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">60</text><line x1=\"70.0\" y1=\"75.8\" x2=\"77.0\" y2=\"75.8\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"64.5\" x2=\"77.0\" y2=\"64.5\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"53.2\" x2=\"77.0\" y2=\"53.2\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"42.0\" x2=\"82.0\" y2=\"42.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"46.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">80</text><line x1=\"174.0\" y1=\"132.0\" x2=\"148.0\" y2=\"132.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><polygon points=\"140.0,132.0 148.0,128.4 148.0,135.6\" fill=\"#0b6fa4\"/><text x=\"178.0\" y=\"137.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">40 ml</text><rect x=\"290.0\" y=\"36.0\" width=\"64.0\" height=\"186.0\" rx=\"4\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"292\" y=\"87.0\" width=\"60\" height=\"133.0\" fill=\"#cfe6f5\"/><line x1=\"292.0\" y1=\"87.0\" x2=\"352.0\" y2=\"87.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"290.0\" y1=\"222.0\" x2=\"302.0\" y2=\"222.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"226.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">0</text><line x1=\"290.0\" y1=\"210.8\" x2=\"297.0\" y2=\"210.8\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"199.5\" x2=\"297.0\" y2=\"199.5\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"188.2\" x2=\"297.0\" y2=\"188.2\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"177.0\" x2=\"302.0\" y2=\"177.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"181.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">20</text><line x1=\"290.0\" y1=\"165.8\" x2=\"297.0\" y2=\"165.8\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"154.5\" x2=\"297.0\" y2=\"154.5\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"143.2\" x2=\"297.0\" y2=\"143.2\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"132.0\" x2=\"302.0\" y2=\"132.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"136.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">40</text><line x1=\"290.0\" y1=\"120.8\" x2=\"297.0\" y2=\"120.8\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"109.5\" x2=\"297.0\" y2=\"109.5\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"98.2\" x2=\"297.0\" y2=\"98.2\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"87.0\" x2=\"302.0\" y2=\"87.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"91.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">60</text><line x1=\"290.0\" y1=\"75.8\" x2=\"297.0\" y2=\"75.8\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"64.5\" x2=\"297.0\" y2=\"64.5\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"53.2\" x2=\"297.0\" y2=\"53.2\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"42.0\" x2=\"302.0\" y2=\"42.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"46.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">80</text><path d=\"M300,214 C298,198 314,190 330,192 C346,194 352,204 350,214 C348,222 336,222 324,222 C310,222 302,222 300,214 Z\" fill=\"#9b8f80\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><line x1=\"394.0\" y1=\"87.0\" x2=\"368.0\" y2=\"87.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><polygon points=\"360.0,87.0 368.0,83.4 368.0,90.6\" fill=\"#0b6fa4\"/><text x=\"398.0\" y=\"92.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">60 ml</text><text x=\"102.0\" y=\"246.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\">före</text><text x=\"322.0\" y=\"246.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\">efter</text><text x=\"40.0\" y=\"26.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">ml</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Undanträngd volym: \\(V=V_2-V_1\\)</p><div class=\"facit-matte\">\\[V=60-40=20\\ \\mathrm{ml}=20\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Densitet: \\(\\rho=m/V\\)</p><p>Stenens massa är 54 g.</p><div class=\"facit-matte\">\\[\\rho=54/20=2{,}7\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}7\\ \\mathrm{g/cm^3}\\).</p></div>",
     "familj": "Massa, volym och densitet",
     "formaga": [
@@ -150100,7 +150100,7 @@ window.BANK = [
     "niva": "E",
     "typ": "densitet för flytande föremål",
     "poang": "(1/0/0)",
-    "t": "<p>En träbit flyter stilla i vatten. 80 % av träbitens volym ligger under vattenytan. Vattnets densitet är 1,00 g/cm³. Bestäm träbitens densitet.<br></p>",
+    "t": "<p>En träbit flyter stilla i vatten. 80 % av träbitens volym ligger under vattenytan. Vattnets densitet är 1,00 g/cm³. Bestäm träbitens densitet.<br></p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 190\" width=\"400\" height=\"190\" role=\"img\" aria-label=\"En träbit flyter stilla i vatten med 80 procent av sin volym under vattenytan.\" style=\"max-width:100%;height:auto\"><title>En träbit flyter stilla i vatten med 80 procent av sin volym under vattenytan.</title><rect width=\"400\" height=\"190\" fill=\"#fff\"/><rect x=\"20\" y=\"80\" width=\"360\" height=\"100\" fill=\"#cfe6f5\"/><line x1=\"20.0\" y1=\"80.0\" x2=\"380.0\" y2=\"80.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><rect x=\"100.0\" y=\"66.0\" width=\"200.0\" height=\"70.0\" rx=\"6\" fill=\"#d9a868\" stroke=\"#203746\" stroke-width=\"2\"/><path d=\"M108,80.0 C150,75.0 200,85.0 292,78.0\" fill=\"none\" stroke=\"#b07f45\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M108,94.0 C150,89.0 200,99.0 292,92.0\" fill=\"none\" stroke=\"#b07f45\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M108,108.0 C150,103.0 200,113.0 292,106.0\" fill=\"none\" stroke=\"#b07f45\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><path d=\"M108,122.0 C150,117.0 200,127.0 292,120.0\" fill=\"none\" stroke=\"#b07f45\" stroke-width=\"1.2\" stroke-linejoin=\"round\"/><rect x=\"20\" y=\"80\" width=\"360\" height=\"100\" fill=\"#cfe6f5\" fill-opacity=\"0.55\"/><line x1=\"20.0\" y1=\"80.0\" x2=\"380.0\" y2=\"80.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"320.0\" y1=\"80.0\" x2=\"320.0\" y2=\"136.0\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><line x1=\"314.0\" y1=\"80.0\" x2=\"326.0\" y2=\"80.0\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><line x1=\"314.0\" y1=\"136.0\" x2=\"326.0\" y2=\"136.0\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><text x=\"330.0\" y=\"110.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">80 %</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>80 % av volymen är under ytan och vattnets densitet är 1,00 g/cm³. Vi söker träbitens densitet.</p></li><li><p class=\"facit-rubrik\">Kraftbalans: \\(F_{\\mathrm{lyft}}=mg\\)</p><p>När föremålet flyter stilla balanserar lyftkraften tyngdkraften. Lyftkraften beror på vätskans densitet och den nedsänkta volymen.</p><div class=\"facit-matte\">\\[\\rho_v g V_{\\mathrm{under}}=\\rho_f g V_{\\mathrm{hela}}\\]</div></li><li><p class=\"facit-rubrik\">Nedsänkt andel: \\(V_{\\mathrm{under}}/V_{\\mathrm{hela}}=\\rho_f/\\rho_v\\)</p><p>Förkorta bort g och dela med vätskans densitet och hela volymen.</p><div class=\"facit-matte\">\\[\\frac{V_{\\mathrm{under}}}{V_{\\mathrm{hela}}}=\\frac{\\rho_f}{\\rho_v}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut träbitens densitet</p><div class=\"facit-matte\">\\[\\rho_f=0{,}80\\cdot1{,}00=0{,}80\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}80\\ \\mathrm{g/cm^3}\\).</p></div>",
     "familj": "Densitet, flytförmåga och modeller",
     "formaga": [
@@ -150129,7 +150129,7 @@ window.BANK = [
     "omr": "densitet",
     "niva": "A",
     "poang": "(0/1/3)",
-    "t": "<p>En ihålig stålkula har ytterradien 10,0 cm. Stålets densitet är 7 850 kg/m³. Kulan svävar helt nedsänkt i vatten (densitet 1 000 kg/m³), alltså varken sjunker eller stiger.</p><p>Hur stor är kulans innerradie?</p>",
+    "t": "<p>En ihålig stålkula har ytterradien 10,0 cm. Stålets densitet är 7 850 kg/m³. Kulan svävar helt nedsänkt i vatten (densitet 1 000 kg/m³), alltså varken sjunker eller stiger.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 250\" width=\"380\" height=\"250\" role=\"img\" aria-label=\"En ihålig stålkula med ytterradien 10,0 cm svävar helt under ytan i vatten. Innerradien är okänd.\" style=\"max-width:100%;height:auto\"><title>En ihålig stålkula med ytterradien 10,0 cm svävar helt under ytan i vatten. Innerradien är okänd.</title><rect width=\"380\" height=\"250\" fill=\"#fff\"/><rect x=\"30.0\" y=\"20.0\" width=\"320.0\" height=\"220.0\" rx=\"6\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"32\" y=\"44\" width=\"316\" height=\"194\" rx=\"4\" fill=\"#cfe6f5\"/><line x1=\"32.0\" y1=\"44.0\" x2=\"348.0\" y2=\"44.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><circle cx=\"190.0\" cy=\"140.0\" r=\"70.0\" fill=\"#9aa8b4\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"190.0\" cy=\"140.0\" r=\"60.0\" fill=\"#ffffff\" stroke=\"#203746\" stroke-width=\"1.6\"/><line x1=\"190.0\" y1=\"140.0\" x2=\"260.0\" y2=\"140.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><circle cx=\"190.0\" cy=\"140.0\" r=\"3.5\" fill=\"#203746\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"266.0\" y=\"145.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">10,0 cm</text><line x1=\"190.0\" y1=\"140.0\" x2=\"130.0\" y2=\"140.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"160.0\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">r = ?</text><text x=\"190.0\" y=\"174.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">luft</text><text x=\"60.0\" y=\"226.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">vatten</text></svg></span><p>Hur stor är kulans innerradie?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Ytterradien R är 10,0 cm. Vi söker innerradien r. När kulan svävar helt nedsänkt är dess medeldensitet lika med vattnets. Luftens massa i hålet försummas.</p></li><li><p class=\"facit-rubrik\">Neutral flytkraft: \\(\\rho_sV_s=\\rho_vV_y\\)</p><p>Kulan tränger undan vatten med hela yttervolymen. Bara skalvolymen innehåller stål.</p><div class=\"facit-matte\">\\[7850\\cdot\\frac{4\\pi}{3}(R^3-r^3)=1000\\cdot\\frac{4\\pi}{3}R^3\\]</div></li><li><p class=\"facit-rubrik\">Förkorta och lös ut innerradiens kub</p><div class=\"facit-matte\">\\[\\begin{aligned}7850(R^3-r^3)&=1000R^3\\\\r^3&=R^3\\left(1-\\frac{1000}{7850}\\right)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Ta kubikroten och sätt in ytterradien</p><p>Densiteterna används som ett förhållande, så radien kan sättas in i cm.</p><div class=\"facit-matte\">\\[r=10{,}0\\sqrt[3]{1-\\frac{1000}{7850}}\\approx9{,}55594\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}6\\ \\mathrm{cm}\\).</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
@@ -209843,18 +209843,18 @@ window.BANK = [
 },
 {
   "id": "3.620",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "läsa av x-komposanten för en kraft i rutnät med skala, ur figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>Figuren visar en kraft \\(F\\). En ruta motsvarar 2 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 268.00\" width=\"272\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 2 N. Kraften F går från origo till punkten (4, 3).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"268.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"188.0\" x2=\"246.0\" y2=\"188.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.0,188.0 244.0,192.5 244.0,183.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"214.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"254.0\" y=\"206.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"188.0\" x2=\"155.6\" y2=\"114.8\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"162.0,110.0 156.7,119.6 151.3,112.4\" fill=\"#2A5D9E\"/><rect x=\"110.1\" y=\"152.2\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"118.4\" y=\"165.2\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"248.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 2 N</text></svg></span><p>Hur stor är kraftens x-komposant \\(F_x\\)?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\): \\(F_x\\)</p><p>Pilen går 4 rutor åt höger, 2 N per ruta.</p><div class=\"facit-matte\">\\[F_x=4\\cdot2=8\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Räkna rutor i x-led och multiplicera med skalan.</p>",
   "traningsniva": 1,
@@ -209867,7 +209867,14 @@ window.BANK = [
   "rättSvar": 8,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.621",
@@ -209961,18 +209968,18 @@ window.BANK = [
 },
 {
   "id": "3.623",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "läsa av y-komposanten för en kraft riktad snett nedåt, ur figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>Figuren visar en kraft \\(F\\). En ruta motsvarar 5 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 216.00\" width=\"246\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 5 N. Kraften F går från origo till punkten (−4, −2).\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"162.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"162.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"162.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"214.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"84.0\" x2=\"220.0\" y2=\"84.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,84.0 218.0,88.5 218.0,79.5\" fill=\"#2B2527\"/><line x1=\"162.0\" y1=\"162.0\" x2=\"162.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"162.0,18.0 166.5,28.0 157.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"102.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"149.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"162.0\" y1=\"84.0\" x2=\"65.2\" y2=\"132.4\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"58.0,136.0 64.9,127.5 69.0,135.6\" fill=\"#B5532A\"/><rect x=\"95.4\" y=\"89.5\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"103.7\" y=\"102.5\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 5 N</text></svg></span><p>Hur stor är kraftens y-komposant \\(F_y\\)?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\), med tecken: \\(F_y\\)</p><p>Pilen går 2 rutor nedåt, 5 N per ruta.</p><div class=\"facit-matte\">\\[F_y=-2\\cdot5=-10\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −10 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Nedåt ger negativt tecken.</p>",
   "traningsniva": 1,
@@ -209985,22 +209992,29 @@ window.BANK = [
   "rättSvar": -10,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.624",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "läsa av komposanterna när de är inritade som streckade pilar, ur figur, sökta komposanter",
   "poang": "(1/0/0)",
   "t": "<p>Figuren visar kraften \\(F\\) och dess komposanter som streckade pilar. En ruta motsvarar 3 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 216.00\" width=\"246\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 3 N. Kraften F går från origo till (5, 2). Streckade pilar visar komposanterna 5 rutor i x-led och 2 rutor i y-led.\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"162.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"162.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"162.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"214.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"136.0\" x2=\"220.0\" y2=\"136.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,136.0 218.0,140.5 218.0,131.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"162.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"154.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"136.0\" x2=\"180.0\" y2=\"136.0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-dasharray=\"6 4\"/><polygon points=\"188.0,136.0 178.0,140.5 178.0,131.5\" fill=\"#5C575E\"/><line x1=\"188.0\" y1=\"136.0\" x2=\"188.0\" y2=\"92.0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-dasharray=\"6 4\"/><polygon points=\"188.0,84.0 192.5,94.0 183.5,94.0\" fill=\"#5C575E\"/><line x1=\"58.0\" y1=\"136.0\" x2=\"180.6\" y2=\"87.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"188.0,84.0 180.4,91.9 177.0,83.5\" fill=\"#2A5D9E\"/><rect x=\"119.9\" y=\"115.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"128.2\" y=\"128.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 3 N</text></svg></span><p>Bestäm \\(F_x\\) och \\(F_y\\).</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\) längs de streckade pilarna</p><p>5 rutor i x-led och 2 rutor i y-led, 3 N per ruta.</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_x=5\\cdot3=15\\ \\mathrm N\\\\&F_y=2\\cdot3=6\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Fₓ = 15 N och Fᵧ = 6 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Räkna rutorna längs de streckade pilarna.</p>",
   "traningsniva": 1,
@@ -210030,22 +210044,29 @@ window.BANK = [
   "svarEtiketter": [
     "F_x",
     "F_y"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.625",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "avgöra x-komposanten för en lodrät kraft, ur figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>Figuren visar en kraft \\(F\\) som pekar rakt uppåt. En ruta motsvarar 25 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 242.00\" width=\"220\" height=\"242\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 25 N. Kraften F pekar rakt uppåt från (2, 0) till (2, 4).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"242.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"188.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"188.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"188.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"188.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"188.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"188.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"188.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"162.0\" x2=\"194.0\" y2=\"162.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,162.0 192.0,166.5 192.0,157.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"188.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"180.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"110.0\" y1=\"162.0\" x2=\"110.0\" y2=\"66.0\" stroke=\"#2F7D4A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"110.0,58.0 114.5,68.0 105.5,68.0\" fill=\"#2F7D4A\"/><rect x=\"115.7\" y=\"102.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"124.0\" y=\"115.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2F7D4A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"222.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 25 N</text></svg></span><p>Hur stor är kraftens x-komposant \\(F_x\\)?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\): \\(F_x\\)</p><p>Pilen pekar rakt uppåt och går inte alls i sidled.</p><div class=\"facit-matte\">\\[F_x=0\\cdot25=0\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Hur många rutor åt sidan går pilen?</p>",
   "traningsniva": 1,
@@ -210058,7 +210079,14 @@ window.BANK = [
   "rättSvar": 0,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.626",
@@ -210107,18 +210135,18 @@ window.BANK = [
 },
 {
   "id": "3.627",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "avgöra komposanternas tecken utifrån en vektors riktning, ur text, sökt teckenkombination",
   "poang": "(1/0/0)",
   "t": "<p>En kraft pekar snett nedåt åt vänster. x-axeln pekar åt höger och y-axeln uppåt. Vilka tecken har komposanterna?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tecknet följer axlarnas riktning: \\(F_x\\lt0\\) åt vänster, \\(F_y\\lt0\\) nedåt</p><p>Kraften pekar åt vänster och nedåt, så båda komposanterna är negativa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Fₓ negativ och Fᵧ negativ.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Tänk på vilka riktningar axlarna pekar i.</p>",
   "traningsniva": 1,
@@ -210150,22 +210178,29 @@ window.BANK = [
       "ratt": false,
       "kommentar": "Båda riktningarna är negativa."
     }
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.628",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna kraftens storlek ur komposanter avlästa i rutnät, ur figur, sökt storlek",
   "poang": "(1/0/0)",
   "t": "<p>Figuren visar en kraft \\(F\\). En ruta motsvarar 4 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 242.00\" width=\"220\" height=\"242\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 4 N. Kraften F går från origo till (3, −4).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"242.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"188.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"188.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"188.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"188.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"188.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"188.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"188.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"58.0\" x2=\"194.0\" y2=\"58.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,58.0 192.0,62.5 192.0,53.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"188.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"76.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"58.0\" x2=\"131.2\" y2=\"155.6\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"136.0,162.0 126.4,156.7 133.6,151.3\" fill=\"#B5532A\"/><rect x=\"77.5\" y=\"110.4\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"85.8\" y=\"123.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"222.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 4 N</text></svg></span><p>Hur stor är kraften?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\)</p><p>3 rutor åt höger och 4 rutor nedåt, 4 N per ruta.</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_x=3\\cdot4=12\\ \\mathrm N\\\\&F_y=-4\\cdot4=-16\\ \\mathrm N\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Pythagoras sats: \\(F=\\sqrt{F_x^2+F_y^2}\\)</p><div class=\"facit-matte\">\\[F=\\sqrt{12^2+16^2}=20\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Bestäm komposanterna först och använd sedan Pythagoras sats.</p>",
   "traningsniva": 2,
@@ -210178,22 +210213,29 @@ window.BANK = [
   "rättSvar": 20,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.629",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna x-komposanten för en kraft med cosinus, ur text och figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En kraft på 50 N är riktad 30° ovanför positiva x-axeln.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kraften F = 50 N riktad 30 grader ovanför positiva x-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"312.0\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,150.0 310.0,154.5 310.0,145.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"168.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"150.0\" x2=\"195.7\" y2=\"89.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"202.6,85.0 196.2,93.9 191.7,86.1\" fill=\"#2A5D9E\"/><path d=\"M134.00,150.00 A44,44 0 0 0 128.11,128.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"136.2\" y=\"126.9\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"151.8\" y=\"138.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">30°</text><rect x=\"206.6\" y=\"65.0\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"210.6\" y=\"77.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">F = 50 N</text></svg></span><p>Hur stor är x-komposanten \\(F_x\\)?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_x=F\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_x=50\\cos30^\\circ\\approx43{,}3\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 43,3 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Komposanten intill vinkeln får man med cosinus.</p>",
   "traningsniva": 1,
@@ -210207,7 +210249,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.630",
@@ -210240,18 +210289,18 @@ window.BANK = [
 },
 {
   "id": "3.631",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna den horisontella komposanten av en dragkraft i ett rep, ur text och figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>Ali drar en pulka med kraften 80 N i ett rep som lutar 25° mot marken.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Dragkraften F = 80 N i ett rep som lutar 25 grader mot den vågräta marken.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"312.0\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,150.0 310.0,154.5 310.0,145.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"168.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"150.0\" x2=\"200.6\" y2=\"98.4\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"207.8,95.1 200.7,103.4 196.9,95.2\" fill=\"#2A5D9E\"/><path d=\"M134.00,150.00 A44,44 0 0 0 129.88,131.40\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"136.9\" y=\"129.6\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"152.5\" y=\"141.1\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">25°</text><rect x=\"211.8\" y=\"75.1\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"215.8\" y=\"87.1\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">F = 80 N</text></svg></span><p>Hur stor är dragkraftens horisontella komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_x=F\\cos\\alpha\\)</p><p>Den vågräta komposanten drar pulkan framåt.</p><div class=\"facit-matte\">\\[F_x=80\\cos25^\\circ\\approx72{,}5\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 72,5 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Vilken komposant ligger intill vinkeln?</p>",
   "traningsniva": 2,
@@ -210265,23 +210314,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.632",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna den vågräta komposanten när vinkeln anges mot lodlinjen, ur text och figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En lampa hänger i en lina. Vinden gör att linan bildar vinkeln 20° med lodlinjen. Kraften i linan är 60 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kraften i linan, 60 N, bildar vinkeln 20 grader med den lodräta y-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"312.0\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,150.0 310.0,154.5 310.0,145.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"168.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"150.0\" x2=\"131.7\" y2=\"35.4\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"134.5,27.8 135.3,38.8 126.8,35.7\" fill=\"#2A5D9E\"/><path d=\"M105.05,108.65 A44,44 0 0 0 90.00,106.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"85.5\" y=\"80.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"101.1\" y=\"92.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">20°</text><rect x=\"138.5\" y=\"7.8\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"142.5\" y=\"19.8\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">F = 60 N</text></svg></span><p>Hur stor är kraftens horisontella komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln är mätt från lodlinjen</p><p>Då ligger den vågräta komposanten mitt emot vinkeln.</p></li><li><p class=\"facit-rubrik\">Komposanten mitt emot vinkeln: \\(F\\sin\\alpha\\): \\(F_x=F\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_x=60\\sin20^\\circ\\approx20{,}5\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20,5 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Var noga med vilken axel vinkeln mäts från.</p>",
   "traningsniva": 2,
@@ -210295,7 +210351,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.633",
@@ -210345,19 +210408,19 @@ window.BANK = [
 },
 {
   "id": "3.634",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna tyngdkraftens komposant längs ett lutande plan, ur text och figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En låda med massan 20 kg står på ett plan som lutar 30°.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360.00 200.00\" width=\"360\" height=\"200\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Låda på ett plan som lutar 30 grader. Tyngdkraften mg pekar rakt nedåt.\"><rect x=\"0\" y=\"0\" width=\"360.00\" height=\"200.00\" fill=\"#FFFFFF\"/><polygon points=\"40,170 320,170 320.0,8.3\" fill=\"#F3EFEA\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><g transform=\"rotate(-30.00 194.0 81.1)\"><rect x=\"172.0\" y=\"47.1\" width=\"44\" height=\"34\" fill=\"#DDE8F4\" stroke=\"#2B2527\" stroke-width=\"1.6\"/></g><line x1=\"202.5\" y1=\"66.4\" x2=\"202.5\" y2=\"128.4\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"202.5,136.4 198.0,126.4 207.0,126.4\" fill=\"#B5532A\"/><rect x=\"208.5\" y=\"96.4\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"212.5\" y=\"108.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"start\">mg</text><path d=\"M80,170 A40,40 0 0 0 74.64,150.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"94.0\" y=\"152.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"98.0\" y=\"164.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">30°</text><rect x=\"159.8\" y=\"23.1\" width=\"48.3\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"184.0\" y=\"35.1\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">20 kg</text></svg></span><p>Hur stor är tyngdkraftens komposant längs planet?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_g=20\\cdot9{,}82=196{,}4\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraftens komposant längs planet: \\(F_\\parallel=mg\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\parallel=196{,}4\\sin30^\\circ\\approx98{,}2\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 98,2 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Längs planet används sinus för lutningsvinkeln.</p>",
   "traningsniva": 2,
@@ -210371,23 +210434,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.635",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna tyngdkraftens komposant vinkelrätt mot ett lutande plan, ur text och figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En låda med massan 15 kg står på en ramp som lutar 25°.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360.00 200.00\" width=\"360\" height=\"200\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Låda på en ramp som lutar 25 grader. Tyngdkraften mg pekar rakt nedåt.\"><rect x=\"0\" y=\"0\" width=\"360.00\" height=\"200.00\" fill=\"#FFFFFF\"/><polygon points=\"40,170 320,170 320.0,39.4\" fill=\"#F3EFEA\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><g transform=\"rotate(-25.00 194.0 98.2)\"><rect x=\"172.0\" y=\"64.2\" width=\"44\" height=\"34\" fill=\"#DDE8F4\" stroke=\"#2B2527\" stroke-width=\"1.6\"/></g><line x1=\"201.2\" y1=\"82.8\" x2=\"201.2\" y2=\"144.8\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"201.2,152.8 196.7,142.8 205.7,142.8\" fill=\"#B5532A\"/><rect x=\"207.2\" y=\"112.8\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"211.2\" y=\"124.8\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"start\">mg</text><path d=\"M80,170 A40,40 0 0 0 76.25,153.10\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"94.0\" y=\"152.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"98.0\" y=\"164.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">25°</text><rect x=\"159.8\" y=\"40.2\" width=\"48.3\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"184.0\" y=\"52.2\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">15 kg</text></svg></span><p>Hur stor är tyngdkraftens komposant vinkelrätt mot rampen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_g=15\\cdot9{,}82=147{,}3\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraftens komposant vinkelrätt mot planet: \\(F_\\perp=mg\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\perp=147{,}3\\cos25^\\circ\\approx133{,}5\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 133,5 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Vinkelrätt mot planet används cosinus för lutningsvinkeln.</p>",
   "traningsniva": 2,
@@ -210401,7 +210471,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.636",
@@ -210450,19 +210527,19 @@ window.BANK = [
 },
 {
   "id": "3.637",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "dela upp en kraft i andra kvadranten i komposanter med tecken, ur text och figur, sökta komposanter",
   "poang": "(0/1/0)",
   "t": "<p>En kraft på 40 N är riktad 120° moturs från positiva x-axeln.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kraften 40 N pekar snett uppåt åt vänster och bildar vinkeln 60 grader med negativa x-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"312.0\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,150.0 310.0,154.5 310.0,145.5\" fill=\"#2B2527\"/><line x1=\"170.0\" y1=\"208.0\" x2=\"170.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"170.0,14.0 174.5,24.0 165.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"168.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"157.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"170.0\" y1=\"150.0\" x2=\"109.0\" y2=\"44.3\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"105.0,37.4 113.9,43.8 106.1,48.3\" fill=\"#2A5D9E\"/><path d=\"M148.00,111.89 A44,44 0 0 0 126.00,150.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"98.9\" y=\"111.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"114.6\" y=\"123.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">60°</text><rect x=\"28.5\" y=\"17.4\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"97.0\" y=\"29.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"end\">F = 40 N</text></svg></span><p>Bestäm \\(F_x\\) och \\(F_y\\).</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">120° från positiva x-axeln är 60° från negativa x-axeln</p><p>Kraften pekar åt vänster och uppåt: Fₓ negativ, Fᵧ positiv.</p></li><li><p class=\"facit-rubrik\">Komposanter: \\(F_x=F\\cos\\alpha\\) och \\(F_y=F\\sin\\alpha\\) med vinkeln 60°</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_x=-40\\cos60^\\circ=-20\\ \\mathrm N\\\\&F_y=40\\sin60^\\circ\\approx34{,}6\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Fₓ = −20 N och Fᵧ ≈ 34,6 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Räkna med vinkeln mot närmaste x-axel och sätt tecknen efter riktningen.</p>",
   "traningsniva": 3,
@@ -210492,7 +210569,14 @@ window.BANK = [
   "svarEtiketter": [
     "F_x",
     "F_y"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.638",
@@ -210542,18 +210626,18 @@ window.BANK = [
 },
 {
   "id": "3.639",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna den lodräta komposanten av kraften i ett draksnöre, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>Snöret till en drake drar i handen med kraften 30 N. Snöret bildar vinkeln 55° med marken.</p><p>Hur stor är kraftens vertikala komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten mitt emot vinkeln: \\(F\\sin\\alpha\\): \\(F_y=F\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_y=30\\sin55^\\circ\\approx24{,}6\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24,6 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Den lodräta komposanten ligger mitt emot vinkeln mot marken.</p>",
   "traningsniva": 2,
@@ -210567,7 +210651,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.640",
@@ -210599,19 +210690,19 @@ window.BANK = [
 },
 {
   "id": "3.641",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna kraftkomposanten längs en kanal när en båt dras från kanten, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En båt dras längs en kanal med ett rep från kanalkanten. Kraften i repet är 150 N, och repet bildar vinkeln 15° med kanalens riktning.</p><p>Hur stor är kraftens komposant längs kanalen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_\\parallel=F\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\parallel=150\\cos15^\\circ\\approx144{,}9\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 144,9 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Komposanten längs kanalen ligger intill vinkeln.</p>",
   "traningsniva": 2,
@@ -210625,23 +210716,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.642",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "beräkna kraftens storlek när en komposant och vinkeln är kända, ur text, sökt storlek",
   "poang": "(0/1/0)",
   "t": "<p>En kraft bildar vinkeln 35° med x-axeln. Dess x-komposant är 40 N.</p><p>Hur stor är kraften?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_x=F\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[40=F\\cos35^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(F\\)</p><div class=\"facit-matte\">\\[F=\\frac{40}{\\cos35^\\circ}\\approx48{,}8\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 48,8 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "problemlösning"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Ställ upp \\(F_x=F\\cos v\\) och lös ut \\(F\\).</p>",
   "traningsniva": 3,
@@ -210655,7 +210753,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.643",
@@ -210689,18 +210794,18 @@ window.BANK = [
 },
 {
   "id": "3.644",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "välja uttryck för komposanten när vinkeln mäts från lodlinjen, ur text, sökt uttryck",
   "poang": "(1/0/0)",
   "t": "<p>En kraft \\(F\\) bildar vinkeln \\(v\\) med lodlinjen. Vilket uttryck ger kraftens vertikala komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln mäts från lodlinjen</p><p>Den lodräta komposanten ligger då intill vinkeln.</p></li><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cosv\\)</p><div class=\"facit-matte\">\\[F_y=F\\cos v\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> F · cos v.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Rita en skiss och avgör vilken komposant som ligger intill vinkeln.</p>",
   "traningsniva": 2,
@@ -210732,22 +210837,29 @@ window.BANK = [
       "ratt": false,
       "kommentar": "Komposanten är mindre än F."
     }
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.645",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna x-komposanten för en kraft riktad 45 grader, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En kraft på 36 N är riktad 45° ovanför x-axeln.</p><p>Hur stor är x-komposanten?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_x=F\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_x=36\\cos45^\\circ\\approx25{,}5\\ \\mathrm N\\]</div><p>Vid 45° är de två komposanterna lika stora.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25,5 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Vid 45° är komposanterna lika stora.</p>",
   "traningsniva": 1,
@@ -210761,22 +210873,29 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.646",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "bestämma ett plans lutning ur andelen av tyngdkraften längs planet, ur text, sökt vinkel",
   "poang": "(0/1/0)",
   "t": "<p>På ett lutande plan är tyngdkraftens komposant längs planet 40 % av hela tyngdkraften.</p><p>Hur stor är planets lutningsvinkel?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraftens komposant längs planet: \\(F_\\parallel=mg\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[mg\\sin\\alpha=0{,}40\\,mg\\]</div></li><li><p class=\"facit-rubrik\">Lös ut vinkeln</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\sin\\alpha=0{,}40\\\\&\\Rightarrow\\ \\alpha\\approx23{,}6^\\circ\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 23,6°.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "problemlösning"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Komposanten längs planet är \\(mg\\sin v\\).</p>",
   "traningsniva": 3,
@@ -210790,22 +210909,29 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "°",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.647",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna kraftens storlek ur komposanterna med Pythagoras sats, ur text, sökt storlek",
   "poang": "(1/0/0)",
   "t": "<p>En kraft har komposanterna \\(F_x=9\\) N och \\(F_y=12\\) N. Hur stor är kraften?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats: \\(F=\\sqrt{F_x^2+F_y^2}\\)</p><div class=\"facit-matte\">\\[F=\\sqrt{9^2+12^2}=\\sqrt{225}=15\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Komposanterna är kateter i en rätvinklig triangel.</p>",
   "traningsniva": 1,
@@ -210818,7 +210944,14 @@ window.BANK = [
   "rättSvar": 15,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.648",
@@ -210879,19 +211012,19 @@ window.BANK = [
 },
 {
   "id": "3.650",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "beräkna riktningen för en kraft i andra kvadranten, ur text, sökt vinkel",
   "poang": "(0/1/0)",
   "t": "<p>En kraft har komposanterna \\(F_x=-6\\) N och \\(F_y=8\\) N. Hur stor vinkel bildar kraften med positiva x-axeln, räknat moturs?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kraften pekar åt vänster och uppåt</p><p>Räkna först vinkeln mot negativa x-axeln.</p></li><li><p class=\"facit-rubrik\">Riktning: \\(\\tan\\alpha=\\dfrac{\\text{motstående}}{\\text{närliggande}}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\tan u=\\frac{8}{6}\\\\&\\Rightarrow\\  u\\approx53{,}1^\\circ\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Vinkeln från positiva x-axeln, moturs</p><div class=\"facit-matte\">\\[\\alpha=180^\\circ-53{,}1^\\circ\\approx126{,}9^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 126,9°.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "problemlösning",
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Räkna vinkeln mot närmaste x-axel först och rita en skiss.</p>",
   "traningsniva": 3,
@@ -210905,22 +211038,29 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "°",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.651",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna storlek och riktning ur komposanterna, ur text, sökta storlek och vinkel",
   "poang": "(1/0/0)",
   "t": "<p>En kraft har komposanterna \\(F_x=12\\) N och \\(F_y=-5\\) N.</p><p>Bestäm kraftens storlek och hur många grader den pekar under x-axeln.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats: \\(F=\\sqrt{F_x^2+F_y^2}\\)</p><div class=\"facit-matte\">\\[F=\\sqrt{12^2+(-5)^2}=13\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Riktning: \\(\\tan\\alpha=\\dfrac{\\text{motstående}}{\\text{närliggande}}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\tan\\alpha=\\frac{5}{12}\\\\&\\Rightarrow\\ \\alpha\\approx22{,}6^\\circ\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 N, 22,6° under x-axeln.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Pythagoras ger storleken och \\(\\tan^{-1}\\) ger vinkeln.</p>",
   "traningsniva": 2,
@@ -210950,22 +211090,29 @@ window.BANK = [
   "svarEtiketter": [
     "storlek",
     "vinkel"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.652",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "addera två krafter grafiskt i rutnät, ur figur, sökta komposanter för resultanten",
   "poang": "(1/0/0)",
   "t": "<p>Två krafter \\(F_1\\) och \\(F_2\\) verkar på samma föremål. En ruta motsvarar 1 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 242.00\" width=\"220\" height=\"242\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 1 N. F1 går från origo till (3, 1) och F2 från origo till (1, 3).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"242.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"188.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"188.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"188.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"188.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"188.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"188.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"188.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"162.0\" x2=\"194.0\" y2=\"162.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,162.0 192.0,166.5 192.0,157.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"188.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"180.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"162.0\" x2=\"128.4\" y2=\"138.5\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"136.0,136.0 127.9,143.4 125.1,134.9\" fill=\"#2A5D9E\"/><rect x=\"88.7\" y=\"154.3\" width=\"25.4\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"101.4\" y=\"167.3\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F₁</text><line x1=\"58.0\" y1=\"162.0\" x2=\"81.5\" y2=\"91.6\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"84.0,84.0 85.1,94.9 76.6,92.1\" fill=\"#B5532A\"/><rect x=\"71.6\" y=\"119.4\" width=\"25.4\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"84.3\" y=\"132.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F₂</text><text x=\"32.0\" y=\"222.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 1 N</text></svg></span><p>Bestäm resultantens komposanter \\(R_x\\) och \\(R_y\\).</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vektoraddition komposantvis: \\(R_x=\\sum F_x\\) och \\(R_y=\\sum F_y\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&R_x=3+1=4\\ \\mathrm N\\\\&R_y=1+3=4\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Rₓ = 4 N och Rᵧ = 4 N.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning utan trigonometri",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_utan_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Addera x-komposanterna för sig och y-komposanterna för sig.</p>",
   "traningsniva": 2,
@@ -210995,22 +211142,29 @@ window.BANK = [
   "svarEtiketter": [
     "R_x",
     "R_y"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.653",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna resultanten till två vinkelräta krafter, ur figur, sökt storlek",
   "poang": "(1/0/0)",
   "t": "<p>Två krafter drar i en låda. En ruta motsvarar 10 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 216.00\" width=\"246\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 10 N. F1 pekar 4 rutor åt höger och F2 pekar 3 rutor uppåt, båda från origo.\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"162.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"162.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"162.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"214.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"136.0\" x2=\"220.0\" y2=\"136.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,136.0 218.0,140.5 218.0,131.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"162.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"154.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"136.0\" x2=\"154.0\" y2=\"136.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"162.0,136.0 152.0,140.5 152.0,131.5\" fill=\"#2A5D9E\"/><rect x=\"97.3\" y=\"142.0\" width=\"25.4\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"110.0\" y=\"155.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F₁</text><line x1=\"58.0\" y1=\"136.0\" x2=\"58.0\" y2=\"66.0\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"58.0,58.0 62.5,68.0 53.5,68.0\" fill=\"#B5532A\"/><rect x=\"59.3\" y=\"89.0\" width=\"25.4\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"72.0\" y=\"102.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F₂</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 10 N</text></svg></span><p>Hur stor är den resulterande kraften?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_1=4\\cdot10=40\\ \\mathrm N\\\\&F_2=3\\cdot10=30\\ \\mathrm N\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Krafterna är vinkelräta. Pythagoras sats: \\(R=\\sqrt{F_1^2+F_2^2}\\)</p><div class=\"facit-matte\">\\[R=\\sqrt{40^2+30^2}=50\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 N.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning utan trigonometri",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_utan_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Krafterna är vinkelräta, så Pythagoras sats gäller.</p>",
   "traningsniva": 2,
@@ -211023,22 +211177,29 @@ window.BANK = [
   "rättSvar": 50,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.654",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "addera två krafter på komposantform och beräkna resultantens storlek, ur text, sökta komposanter och storlek",
   "poang": "(1/0/0)",
   "t": "<p>Två krafter verkar på samma föremål: \\(F_1=(12,\\ 5)\\) N och \\(F_2=(-4,\\ 10)\\) N.</p><p>Bestäm resultantens komposanter och storlek.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vektoraddition komposantvis: \\(R_x=\\sum F_x\\) och \\(R_y=\\sum F_y\\)</p><div class=\"facit-matte\">\\[R=(12+(-4),\\ 5+10)=(8,\\ 15)\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Pythagoras sats: \\(R=\\sqrt{R_x^2+R_y^2}\\)</p><div class=\"facit-matte\">\\[R=\\sqrt{8^2+15^2}=17\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> R = (8; 15) N och |R| = 17 N.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning utan trigonometri",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_utan_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Addera komposant för komposant och använd sedan Pythagoras sats.</p>",
   "traningsniva": 2,
@@ -211073,22 +211234,29 @@ window.BANK = [
     "R_x",
     "R_y",
     "|R|"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.655",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "addera två lika stora snedställda krafter via komposanter, ur text och figur, sökt resultant",
   "poang": "(0/1/0)",
   "t": "<p>Två rep drar i en båt. Båda repen drar med 50 N, det ena 20° ovanför och det andra 20° under x-axeln.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 200.00\" width=\"340\" height=\"200\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två krafter på 50 N från samma punkt, den ena 20 grader ovanför och den andra 20 grader under x-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"200.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"100.0\" x2=\"312.0\" y2=\"100.0\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"320.0,100.0 310.0,104.5 310.0,95.5\" fill=\"#2B2527\"/><line x1=\"80.0\" y1=\"100.0\" x2=\"213.4\" y2=\"51.4\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"221.0,48.7 213.1,56.3 210.0,47.9\" fill=\"#2A5D9E\"/><line x1=\"80.0\" y1=\"100.0\" x2=\"213.4\" y2=\"148.6\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"221.0,151.3 210.0,152.1 213.1,143.7\" fill=\"#B5532A\"/><rect x=\"225.0\" y=\"30.7\" width=\"40.2\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"229.0\" y=\"42.7\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">50 N</text><rect x=\"225.0\" y=\"153.3\" width=\"40.2\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"229.0\" y=\"165.3\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"start\">50 N</text><path d=\"M126,100 A46,46 0 0 0 123.23,84.27\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"134.4\" y=\"80.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"150.0\" y=\"92.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">20°</text><path d=\"M123.23,115.73 A46,46 0 0 0 126,100\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"134.4\" y=\"108.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"150.0\" y=\"120.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">20°</text></svg></span><p>Hur stor är den resulterande kraften på båten?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanter: \\(F_x=F\\cos\\alpha\\) och \\(F_y=F\\sin\\alpha\\) för de två repen</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_{1y}=+50\\sin20^\\circ\\\\&F_{2y}=-50\\sin20^\\circ\\end{aligned}\\]</div><p>y-komposanterna tar ut varandra.</p></li><li><p class=\"facit-rubrik\">Vektoraddition komposantvis: \\(R_x=\\sum F_x\\) och \\(R_y=\\sum F_y\\), bara x-led blir kvar</p><div class=\"facit-matte\">\\[R=2\\cdot50\\cos20^\\circ\\approx94{,}0\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 94,0 N.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning med trigonometri",
   "formaga": [
     "problemlösning"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_med_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Dela upp båda krafterna i komposanter. Vad händer med y-komposanterna?</p>",
   "traningsniva": 3,
@@ -211102,7 +211270,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 2
+  "svarVardesiffror": 2,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.656",
@@ -211180,19 +211355,19 @@ window.BANK = [
 },
 {
   "id": "3.658",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "bestämma en tredje kraft som ger jämvikt, ur text, sökta komposanter",
   "poang": "(0/1/0)",
   "t": "<p>Tre krafter verkar på en ring som är i vila. \\(F_1=40\\) N pekar österut och \\(F_2=30\\) N pekar norrut. x-axeln pekar österut och y-axeln norrut.</p><p>Bestäm komposanterna för den tredje kraften \\(F_3\\).</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämvikt: summan av alla krafter är noll, \\(F_1+F_2+F_3=0\\)</p><div class=\"facit-matte\">\\[F_3=-(F_1+F_2)\\]</div></li><li><p class=\"facit-rubrik\">Komposantvis</p><div class=\"facit-matte\">\\[\\begin{aligned}F_3&=-\\big((40,\\ 0)+(0,\\ 30)\\big)\\\\&=(-40,\\ -30)\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> F₃ = (−40, −30) N.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning utan trigonometri",
   "formaga": [
     "problemlösning",
     "begrepp"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_utan_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Summan av komposanterna i varje riktning ska bli noll.</p>",
   "traningsniva": 4,
@@ -211222,7 +211397,14 @@ window.BANK = [
   "svarEtiketter": [
     "F₃ₓ",
     "F₃ᵧ"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.659",
@@ -211300,18 +211482,18 @@ window.BANK = [
 },
 {
   "id": "3.661",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "läsa av y-komposanten för en liten kraft med decimal skala, ur figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En magnet drar i ett gem. Figuren visar kraften \\(F\\). En ruta motsvarar 0,5 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 168.00 216.00\" width=\"168\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 0,5 N. Kraften pekar rakt nedåt 3 rutor från (1, 0).\"><rect x=\"0\" y=\"0\" width=\"168.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"136.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"136.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"136.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"136.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"136.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"58.0\" x2=\"142.0\" y2=\"58.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"150.0,58.0 140.0,62.5 140.0,53.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"162.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"150.0\" y=\"76.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.0\" y1=\"58.0\" x2=\"84.0\" y2=\"128.0\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"84.0,136.0 79.5,126.0 88.5,126.0\" fill=\"#B5532A\"/><rect x=\"61.7\" y=\"89.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"70.0\" y=\"102.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 0,5 N</text></svg></span><p>Hur stor är y-komposanten \\(F_y\\)?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\), med tecken: \\(F_y\\)</p><p>3 rutor nedåt, 0,5 N per ruta.</p><div class=\"facit-matte\">\\[F_y=-3\\cdot0{,}5=-1{,}5\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1,5 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Räkna rutorna nedåt och använd skalan.</p>",
   "traningsniva": 1,
@@ -211324,7 +211506,14 @@ window.BANK = [
   "rättSvar": -1.5,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.662",
@@ -211373,18 +211562,18 @@ window.BANK = [
 },
 {
   "id": "3.663",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "läsa av x-komposanten för en stor kraft med skala, ur figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>Figuren visar en kraft \\(F\\) från en kran. En ruta motsvarar 50 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 294.00\" width=\"220\" height=\"294\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 50 N. Kraften går från origo till (−2, 6).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"294.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"240.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"240.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"240.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"240.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"240.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"240.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"240.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"240.00\" x2=\"188.00\" y2=\"240.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"188.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"188.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"214.0\" x2=\"194.0\" y2=\"214.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,214.0 192.0,218.5 192.0,209.5\" fill=\"#2B2527\"/><line x1=\"136.0\" y1=\"240.0\" x2=\"136.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"136.0,18.0 140.5,28.0 131.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"232.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"123.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"136.0\" y1=\"214.0\" x2=\"86.5\" y2=\"65.6\" stroke=\"#2F7D4A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"84.0,58.0 91.4,66.1 82.9,68.9\" fill=\"#2F7D4A\"/><rect x=\"114.9\" y=\"123.6\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"123.3\" y=\"136.6\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2F7D4A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"274.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 50 N</text></svg></span><p>Hur stor är x-komposanten \\(F_x\\)?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\), med tecken: \\(F_x\\)</p><p>2 rutor åt vänster, 50 N per ruta.</p><div class=\"facit-matte\">\\[F_x=-2\\cdot50=-100\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −100 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Åt vänster ger negativt tecken.</p>",
   "traningsniva": 1,
@@ -211397,7 +211586,14 @@ window.BANK = [
   "rättSvar": -100,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.664",
@@ -211502,18 +211698,18 @@ window.BANK = [
 },
 {
   "id": "3.667",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "läsa av y-komposanten för en kraft snett nedåt höger, ur figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>Figuren visar en kraft \\(F\\). En ruta motsvarar 3 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 268.00\" width=\"246\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 3 N. Kraften går från origo till (5, −5).\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"268.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"214.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"214.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"214.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"58.0\" x2=\"220.0\" y2=\"58.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,58.0 218.0,62.5 218.0,53.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"214.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"76.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"58.0\" x2=\"182.3\" y2=\"182.3\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"188.0,188.0 177.7,184.1 184.1,177.7\" fill=\"#2A5D9E\"/><rect x=\"104.8\" y=\"124.9\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"113.1\" y=\"137.9\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"248.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 3 N</text></svg></span><p>Hur stor är \\(F_y\\)?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\), med tecken: \\(F_y\\)</p><p>5 rutor nedåt, 3 N per ruta.</p><div class=\"facit-matte\">\\[F_y=-5\\cdot3=-15\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −15 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Räkna rutorna nedåt.</p>",
   "traningsniva": 2,
@@ -211526,22 +211722,29 @@ window.BANK = [
   "rättSvar": -15,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.668",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna den lodräta komposanten av en dragkraft, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En isfiskare drar sin kälke med kraften 120 N. Repet lutar 30° mot isen.</p><p>Hur stor är dragkraftens vertikala komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten mitt emot vinkeln: \\(F\\sin\\alpha\\): \\(F_y=F\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_y=120\\sin30^\\circ=120\\cdot0{,}5=60\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>\\(\\sin 30^\\circ=0{,}5\\).</p>",
   "traningsniva": 1,
@@ -211555,23 +211758,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 1
+  "svarVardesiffror": 1,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.669",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna den vågräta komposanten när vinkeln mäts från lodlinjen, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En gunga hålls ut åt sidan. Kraften i kedjan är 300 N och kedjan bildar vinkeln 15° med lodlinjen.</p><p>Hur stor är kraftens horisontella komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln är mätt från lodlinjen</p><p>Den vågräta komposanten ligger mitt emot vinkeln.</p></li><li><p class=\"facit-rubrik\">Komposanten mitt emot vinkeln: \\(F\\sin\\alpha\\): \\(F_x=F\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_x=300\\sin15^\\circ\\approx77{,}6\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 77,6 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Vinkeln mäts från lodlinjen. Vilken komposant ligger då mitt emot vinkeln?</p>",
   "traningsniva": 2,
@@ -211585,23 +211795,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.670",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna kraftkomposanten i båtens färdriktning, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>Vinden ger seglet en kraft på 400 N. Kraften bildar vinkeln 50° med båtens färdriktning.</p><p>Hur stor är kraftens komposant i färdriktningen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_\\parallel=F\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\parallel=400\\cos50^\\circ\\approx257{,}1\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 257,1 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Komposanten i färdriktningen ligger intill vinkeln.</p>",
   "traningsniva": 2,
@@ -211615,7 +211832,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.671",
@@ -211693,19 +211917,19 @@ window.BANK = [
 },
 {
   "id": "3.673",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna tyngdkraftens komposant längs en backe för en bil, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En bil med massan 1 200 kg står i en backe som lutar 8°.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360.00 200.00\" width=\"360\" height=\"200\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Bil i en backe som lutar 8 grader, ritad som en låda. Tyngdkraften mg pekar rakt nedåt.\"><rect x=\"0\" y=\"0\" width=\"360.00\" height=\"200.00\" fill=\"#FFFFFF\"/><polygon points=\"40,170 320,170 320.0,130.6\" fill=\"#F3EFEA\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><g transform=\"rotate(-8.00 194.0 148.4)\"><rect x=\"172.0\" y=\"114.4\" width=\"44\" height=\"34\" fill=\"#DDE8F4\" stroke=\"#2B2527\" stroke-width=\"1.6\"/></g><line x1=\"196.4\" y1=\"131.5\" x2=\"196.4\" y2=\"180.0\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"196.4,188.0 191.9,178.0 200.9,178.0\" fill=\"#B5532A\"/><rect x=\"202.4\" y=\"153.4\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"206.4\" y=\"165.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"start\">mg</text><path d=\"M80,170 A40,40 0 0 0 79.61,164.43\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"94.0\" y=\"152.5\" width=\"23.5\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"98.0\" y=\"164.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">8°</text><rect x=\"147.8\" y=\"90.4\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"184.0\" y=\"102.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">1 200 kg</text></svg></span><p>Hur stor är tyngdkraftens komposant längs backen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_g=1200\\cdot9{,}82=11\\,784\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraftens komposant längs planet: \\(F_\\parallel=mg\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\parallel=11\\,784\\sin8^\\circ\\approx1640\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1640 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Längs backen: \\(mg\\sin v\\).</p>",
   "traningsniva": 2,
@@ -211719,23 +211943,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.674",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna tyngdkraftens komposant längs en cykelbacke, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En cyklist och cykeln väger tillsammans 85 kg. Backen lutar 4°.</p><p>Hur stor kraft drar tyngdkraften cyklisten bakåt längs backen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_g=85\\cdot9{,}82=834{,}7\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraftens komposant längs planet: \\(F_\\parallel=mg\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\parallel=834{,}7\\sin4^\\circ\\approx58{,}2\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 58,2 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Längs backen används sinus för lutningsvinkeln.</p>",
   "traningsniva": 2,
@@ -211749,23 +211980,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.675",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna tyngdkraftens komposant vinkelrätt mot en skidbacke, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En skidåkare med massan 70 kg åker i en backe som lutar 12°.</p><p>Hur stor är tyngdkraftens komposant vinkelrätt mot backen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_g=70\\cdot9{,}82=687{,}4\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraftens komposant vinkelrätt mot planet: \\(F_\\perp=mg\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\perp=687{,}4\\cos12^\\circ\\approx672{,}4\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 672,4 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Vinkelrätt mot backen används cosinus.</p>",
   "traningsniva": 2,
@@ -211779,7 +212017,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.676",
@@ -211858,20 +212103,20 @@ window.BANK = [
 },
 {
   "id": "3.678",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "dela upp en kraft riktad snett nedåt i komposanter med tecken, ur text och figur, sökta komposanter",
   "poang": "(0/1/0)",
   "t": "<p>En hund drar i kopplet med kraften 90 N. Kopplet är riktat 35° under det horisontella, framåt och nedåt mot hunden.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kraften 90 N riktad 35 grader under positiva x-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"70.0\" x2=\"312.0\" y2=\"70.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,70.0 310.0,74.5 310.0,65.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"88.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"70.0\" x2=\"189.9\" y2=\"140.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"196.5,144.6 185.7,142.5 190.9,135.1\" fill=\"#2A5D9E\"/><path d=\"M126.04,95.24 A44,44 0 0 0 134.00,70.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"135.4\" y=\"82.7\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"151.0\" y=\"94.2\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">35°</text><rect x=\"200.5\" y=\"124.6\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"204.5\" y=\"136.6\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">F = 90 N</text></svg></span><p>Bestäm kraftens horisontella och vertikala komposant.</p>",
   "kgInstruktion": "Uppåt räknas som positiv riktning.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kraften pekar framåt och nedåt</p><p>Fₓ är positiv och Fᵧ negativ.</p></li><li><p class=\"facit-rubrik\">Komposanter: \\(F_x=F\\cos\\alpha\\) och \\(F_y=F\\sin\\alpha\\) med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_x=90\\cos35^\\circ\\approx73{,}7\\ \\mathrm N\\\\&F_y=-90\\sin35^\\circ\\approx-51{,}6\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Fₓ ≈ 73,7 N och Fᵧ ≈ −51,6 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Kraften pekar nedåt, så den lodräta komposanten blir negativ.</p>",
   "traningsniva": 3,
@@ -211901,7 +212146,14 @@ window.BANK = [
   "svarEtiketter": [
     "F_x",
     "F_y"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.679",
@@ -211934,19 +212186,19 @@ window.BANK = [
 },
 {
   "id": "3.680",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "dela upp en kraft i tredje kvadranten i komposanter med tecken, ur text, sökta komposanter",
   "poang": "(0/1/0)",
   "t": "<p>En kraft på 250 N är riktad 210° moturs från positiva x-axeln.</p><p>Bestäm \\(F_x\\) och \\(F_y\\).</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">210° moturs är 30° under negativa x-axeln</p><p>Kraften pekar åt vänster och nedåt, så båda komposanterna är negativa.</p></li><li><p class=\"facit-rubrik\">Komposanter: \\(F_x=F\\cos\\alpha\\) och \\(F_y=F\\sin\\alpha\\) med vinkeln 30°</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_x=-250\\cos30^\\circ\\approx-216{,}5\\ \\mathrm N\\\\&F_y=-250\\sin30^\\circ=-125\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Fₓ ≈ −216,5 N och Fᵧ = −125 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Räkna med vinkeln mot närmaste x-axel och sätt tecknen efter riktningen.</p>",
   "traningsniva": 3,
@@ -211976,23 +212228,30 @@ window.BANK = [
   "svarEtiketter": [
     "F_x",
     "F_y"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.681",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "dela upp en kraft i fjärde kvadranten i komposanter med tecken, ur text, sökta komposanter",
   "poang": "(0/1/0)",
   "t": "<p>En kraft på 18 N pekar snett nedåt åt höger, 60° under positiva x-axeln. Det motsvarar 300° moturs.</p><p>Bestäm \\(F_x\\) och \\(F_y\\).</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">300° moturs är 60° under positiva x-axeln</p><p>Åt höger och nedåt: Fₓ positiv, Fᵧ negativ.</p></li><li><p class=\"facit-rubrik\">Komposanter: \\(F_x=F\\cos\\alpha\\) och \\(F_y=F\\sin\\alpha\\) med tecken</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_x=18\\cos60^\\circ=9\\ \\mathrm N\\\\&F_y=-18\\sin60^\\circ\\approx-15{,}6\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Fₓ = 9 N och Fᵧ ≈ −15,6 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>300° moturs är samma riktning som 60° medurs från x-axeln.</p>",
   "traningsniva": 3,
@@ -212022,7 +212281,14 @@ window.BANK = [
   "svarEtiketter": [
     "F_x",
     "F_y"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.682",
@@ -212071,18 +212337,18 @@ window.BANK = [
 },
 {
   "id": "3.683",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna kraftens storlek ur två negativa komposanter, ur text, sökt storlek",
   "poang": "(1/0/0)",
   "t": "<p>En låda dras med en kraft som har komposanterna 15 N åt vänster och 8 N nedåt. Hur stor är kraften?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats: \\(F=\\sqrt{F_x^2+F_y^2}\\)</p><div class=\"facit-matte\">\\[F=\\sqrt{15^2+8^2}=\\sqrt{289}=17\\ \\mathrm N\\]</div><p>Tecknen spelar ingen roll när komposanterna kvadreras.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Tecknen spelar ingen roll när komposanterna kvadreras.</p>",
   "traningsniva": 2,
@@ -212095,7 +212361,14 @@ window.BANK = [
   "rättSvar": 17,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.684",
@@ -212128,19 +212401,19 @@ window.BANK = [
 },
 {
   "id": "3.685",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "beräkna kraftens storlek ur den lodräta komposanten och vinkeln, ur text, sökt storlek",
   "poang": "(0/1/0)",
   "t": "<p>En kraft bildar vinkeln 60° med det horisontella. Dess vertikala komposant är 45 N. Hur stor är kraften?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten mitt emot vinkeln: \\(F\\sin\\alpha\\): \\(F_y=F\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[45=F\\sin60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(F\\)</p><div class=\"facit-matte\">\\[F=\\frac{45}{\\sin60^\\circ}\\approx52{,}0\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 52,0 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "problemlösning"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Lös ut \\(F\\) ur \\(F_y=F\\sin v\\).</p>",
   "traningsniva": 3,
@@ -212154,22 +212427,29 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 2
+  "svarVardesiffror": 2,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.686",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "addera två vinkelräta krafter med Pythagoras sats, ur text, sökt resultant",
   "poang": "(1/0/0)",
   "t": "<p>En kraft på 45 N verkar österut och en kraft på 60 N verkar norrut på samma föremål. Hur stor är den resulterande kraften?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Krafterna är vinkelräta. Pythagoras sats: \\(R=\\sqrt{F_1^2+F_2^2}\\)</p><div class=\"facit-matte\">\\[R=\\sqrt{45^2+60^2}=75\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 75 N.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning utan trigonometri",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_utan_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Krafterna är vinkelräta.</p>",
   "traningsniva": 1,
@@ -212182,22 +212462,29 @@ window.BANK = [
   "rättSvar": 75,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.687",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "addera två lika stora krafter symmetriskt kring y-axeln via komposanter, ur text, sökt resultant",
   "poang": "(0/1/0)",
   "t": "<p>Två linor håller en lampa. Båda drar med 20 N. Den ena är riktad 40° ovanför positiva x-axeln och den andra 40° ovanför negativa x-axeln.</p><p>Hur stor är resultanten av de två krafterna?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanter: \\(F_x=F\\cos\\alpha\\) och \\(F_y=F\\sin\\alpha\\) för linorna</p><p>x-komposanterna, ±20 cos 40°, tar ut varandra. y-komposanterna adderas.</p></li><li><p class=\"facit-rubrik\">Vektoraddition komposantvis: \\(R_x=\\sum F_x\\) och \\(R_y=\\sum F_y\\), bara y-led blir kvar</p><div class=\"facit-matte\">\\[R=2\\cdot20\\sin40^\\circ\\approx25{,}7\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25,7 N rakt uppåt.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning med trigonometri",
   "formaga": [
     "problemlösning"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_med_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Dela upp båda krafterna. Vilka komposanter tar ut varandra?</p>",
   "traningsniva": 3,
@@ -212211,7 +212498,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.688",
@@ -212302,18 +212596,18 @@ window.BANK = [
 },
 {
   "id": "3.691",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "läsa av komposanterna för en kraft riktad snett uppåt vänster, ur figur, sökta komposanter",
   "poang": "(1/0/0)",
   "t": "<p>Figuren visar kraften \\(F\\) från en fjäder. En ruta motsvarar 4 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 216.00\" width=\"220\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 4 N. Kraften går från origo till (−2, 3).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"162.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"162.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"136.0\" x2=\"194.0\" y2=\"136.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,136.0 192.0,140.5 192.0,131.5\" fill=\"#2B2527\"/><line x1=\"136.0\" y1=\"162.0\" x2=\"136.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"136.0,18.0 140.5,28.0 131.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"154.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"123.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"136.0\" y1=\"136.0\" x2=\"88.4\" y2=\"64.7\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"84.0,58.0 93.3,63.8 85.8,68.8\" fill=\"#B5532A\"/><rect x=\"113.3\" y=\"81.2\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"121.6\" y=\"94.2\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 4 N</text></svg></span><p>Bestäm \\(F_x\\) och \\(F_y\\).</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\), med tecken</p><p>2 rutor åt vänster och 3 rutor uppåt, 4 N per ruta.</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_x=-2\\cdot4=-8\\ \\mathrm N\\\\&F_y=3\\cdot4=12\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Fₓ = −8 N och Fᵧ = 12 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Åt vänster ger negativ x-komposant.</p>",
   "traningsniva": 1,
@@ -212343,7 +212637,14 @@ window.BANK = [
   "svarEtiketter": [
     "F_x",
     "F_y"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.692",
@@ -212392,18 +212693,18 @@ window.BANK = [
 },
 {
   "id": "3.693",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna en krafts storlek ur rutnät med decimal skala, ur figur, sökt storlek",
   "poang": "(1/0/0)",
   "t": "<p>Pilen \\(F\\) visar kraften i ett rep som drar i en kälke. Skalan är 1,5 N per ruta.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 216.00\" width=\"220\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 1,5 N. Kraften går från origo till (4, 3).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"162.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"162.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"136.0\" x2=\"194.0\" y2=\"136.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,136.0 192.0,140.5 192.0,131.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"162.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"154.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"136.0\" x2=\"155.6\" y2=\"62.8\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"162.0,58.0 156.7,67.6 151.3,60.4\" fill=\"#2A5D9E\"/><rect x=\"110.1\" y=\"100.2\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"118.4\" y=\"113.2\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 1,5 N</text></svg></span><p>Hur stor är kraften?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\)</p><p>4 rutor i x-led och 3 i y-led, 1,5 N per ruta.</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_x=6\\ \\mathrm N\\\\&F_y=4{,}5\\ \\mathrm N\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Pythagoras sats: \\(F=\\sqrt{F_x^2+F_y^2}\\)</p><div class=\"facit-matte\">\\[F=\\sqrt{6^2+4{,}5^2}=7{,}5\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,5 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Pilen är 5 rutor lång, eftersom 3, 4, 5 är en pythagoreisk trippel.</p>",
   "traningsniva": 2,
@@ -212416,7 +212717,14 @@ window.BANK = [
   "rättSvar": 7.5,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.694",
@@ -212479,18 +212787,18 @@ window.BANK = [
 },
 {
   "id": "3.696",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "addera två krafter med motsatt riktade komposanter grafiskt, ur figur, sökta komposanter",
   "poang": "(1/0/0)",
   "t": "<p>Två krafter verkar på en låda. En ruta motsvarar 10 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 268.00\" width=\"246\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 10 N. F1 går från origo till (4, 2) och F2 från origo till (−1, 3).\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"268.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"214.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"214.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"214.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"188.0\" x2=\"220.0\" y2=\"188.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,188.0 218.0,192.5 218.0,183.5\" fill=\"#2B2527\"/><line x1=\"84.0\" y1=\"214.0\" x2=\"84.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"84.0,18.0 88.5,28.0 79.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"206.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"71.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.0\" y1=\"188.0\" x2=\"180.8\" y2=\"139.6\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"188.0,136.0 181.1,144.5 177.0,136.4\" fill=\"#2A5D9E\"/><rect x=\"129.6\" y=\"166.5\" width=\"25.4\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"142.3\" y=\"179.5\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F₁</text><line x1=\"84.0\" y1=\"188.0\" x2=\"60.5\" y2=\"117.6\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"58.0,110.0 65.4,118.1 56.9,120.9\" fill=\"#B5532A\"/><rect x=\"71.6\" y=\"136.6\" width=\"25.4\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"84.3\" y=\"149.6\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F₂</text><text x=\"32.0\" y=\"248.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 10 N</text></svg></span><p>Bestäm resultantens komposanter.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vektoraddition komposantvis: \\(R_x=\\sum F_x\\) och \\(R_y=\\sum F_y\\), räknat i rutor</p><div class=\"facit-matte\">\\[\\begin{aligned}&R_x=(4-1)\\cdot10=30\\ \\mathrm N\\\\&R_y=(2+3)\\cdot10=50\\ \\mathrm N\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Rₓ = 30 N och Rᵧ = 50 N.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning utan trigonometri",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_utan_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Addera rutorna i x-led och y-led var för sig och använd skalan.</p>",
   "traningsniva": 2,
@@ -212520,7 +212828,14 @@ window.BANK = [
   "svarEtiketter": [
     "R_x",
     "R_y"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.697",
@@ -212570,18 +212885,18 @@ window.BANK = [
 },
 {
   "id": "3.698",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna den vågräta komposanten av en skjutkraft, ur text och figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>Lina skjuter en gräsklippare med kraften 150 N längs handtaget. Handtaget lutar 40° mot marken.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Skjutkraften 150 N riktad 40 grader under det vågräta, längs handtaget.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"70.0\" x2=\"312.0\" y2=\"70.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,70.0 310.0,74.5 310.0,65.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"88.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"70.0\" x2=\"183.5\" y2=\"148.4\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"189.6,153.6 179.0,150.6 184.8,143.7\" fill=\"#2A5D9E\"/><path d=\"M123.71,98.28 A44,44 0 0 0 134.00,70.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"134.5\" y=\"85.4\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"150.1\" y=\"96.9\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">40°</text><rect x=\"193.6\" y=\"133.6\" width=\"80.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"197.6\" y=\"145.6\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">F = 150 N</text></svg></span><p>Hur stor är kraftens horisontella komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_x=F\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_x=150\\cos40^\\circ\\approx114{,}9\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 114,9 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Den vågräta komposanten ligger intill vinkeln mot marken.</p>",
   "traningsniva": 1,
@@ -212595,23 +212910,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.699",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna hur mycket en skjutkraft trycker nedåt, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En gräsklippare skjuts med kraften 150 N längs handtaget, som lutar 40° mot marken.</p><p>Hur stor är kraftens vertikala komposant, alltså hur hårt trycker den klipparen mot marken?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten mitt emot vinkeln: \\(F\\sin\\alpha\\): \\(F_y=F\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_y=150\\sin40^\\circ\\approx96{,}4\\ \\mathrm N\\]</div><p>Komposanten är riktad nedåt och trycker klipparen mot marken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 96,4 N, riktad nedåt.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Den lodräta komposanten ligger mitt emot vinkeln.</p>",
   "traningsniva": 2,
@@ -212625,22 +212947,29 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.700",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna den vågräta komposanten när en resväska dras, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En resväska dras med kraften 70 N i handtaget, som bildar vinkeln 45° med golvet.</p><p>Hur stor är dragkraftens horisontella komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_x=F\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_x=70\\cos45^\\circ\\approx49{,}5\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 49,5 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>\\(\\cos 45^\\circ\\approx0{,}707\\).</p>",
   "traningsniva": 1,
@@ -212654,23 +212983,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.701",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna kraftkomposanten längs en skidliftsbacke, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En skidlift drar en skidåkare uppför backen. Kraften i liftbygeln är 600 N och bildar vinkeln 18° med backens riktning.</p><p>Hur stor är kraftens komposant längs backen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_\\parallel=F\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\parallel=600\\cos18^\\circ\\approx570{,}6\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 570,6 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Komposanten längs backen ligger intill vinkeln.</p>",
   "traningsniva": 2,
@@ -212684,22 +213020,29 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.702",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna sidokomposanten av dragkraften på en vattenskidåkare, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En båt drar en vattenskidåkare med kraften 900 N i linan. Linan bildar vinkeln 25° med båtens färdriktning.</p><p>Hur stor är kraftens komposant vinkelrätt mot färdriktningen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten mitt emot vinkeln: \\(F\\sin\\alpha\\): \\(F_\\perp=F\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\perp=900\\sin25^\\circ\\approx380{,}4\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 380,4 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Komposanten vinkelrätt mot färdriktningen ligger mitt emot vinkeln.</p>",
   "traningsniva": 2,
@@ -212713,7 +213056,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.703",
@@ -212927,19 +213277,19 @@ window.BANK = [
 },
 {
   "id": "3.709",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna den vågräta komposanten när vinkeln anges mot lodlinjen, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En kran lyfter en last. Vajern drar med 2 500 N och lutar 30° från lodlinjen.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vajerkraften 2 500 N riktad 30 grader från den lodräta y-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"312.0\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,150.0 310.0,154.5 310.0,145.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"168.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"150.0\" x2=\"151.0\" y2=\"44.3\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"155.0,37.4 153.9,48.3 146.1,43.8\" fill=\"#2A5D9E\"/><path d=\"M112.00,111.89 A44,44 0 0 0 90.00,106.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"90.9\" y=\"81.7\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"106.6\" y=\"93.2\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">30°</text><rect x=\"159.0\" y=\"17.4\" width=\"96.7\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"163.0\" y=\"29.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">F = 2 500 N</text></svg></span><p>Hur stor är kraftens horisontella komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln är mätt från lodlinjen</p><p>Den vågräta komposanten ligger mitt emot vinkeln.</p></li><li><p class=\"facit-rubrik\">Komposanten mitt emot vinkeln: \\(F\\sin\\alpha\\): \\(F_x=F\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_x=2500\\sin30^\\circ=1250\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1250 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Vinkeln mäts från lodlinjen. Vilken komposant ligger mitt emot vinkeln?</p>",
   "traningsniva": 2,
@@ -212953,23 +213303,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.710",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna den lodräta komposanten när vinkeln anges mot lodlinjen, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En byggkran håller en balk. Kraften i vajern är 2 500 N och vajern lutar 30° från lodlinjen.</p><p>Hur stor är kraftens vertikala komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln är mätt från lodlinjen</p><p>Den lodräta komposanten ligger intill vinkeln.</p></li><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_y=F\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_y=2500\\cos30^\\circ\\approx2165{,}1\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2165,1 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Vinkeln mäts från lodlinjen, så den lodräta komposanten ligger intill vinkeln.</p>",
   "traningsniva": 2,
@@ -212983,7 +213340,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 5
+  "svarVardesiffror": 5,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.711",
@@ -213125,19 +213489,19 @@ window.BANK = [
 },
 {
   "id": "3.714",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna tyngdkraftens komposant längs en rutschkana, ur text och figur, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>Ett barn med massan 30 kg sitter i en rutschkana som lutar 35°.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360.00 200.00\" width=\"360\" height=\"200\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Föremål på ett plan som lutar 35 grader. Tyngdkraften mg pekar rakt nedåt.\"><rect x=\"0\" y=\"0\" width=\"360.00\" height=\"200.00\" fill=\"#FFFFFF\"/><polygon points=\"40,170 225.6592408764749,170 225.7,40.0\" fill=\"#F3EFEA\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><g transform=\"rotate(-35.00 142.1 98.5)\"><rect x=\"120.1\" y=\"64.5\" width=\"44\" height=\"34\" fill=\"#DDE8F4\" stroke=\"#2B2527\" stroke-width=\"1.6\"/></g><line x1=\"151.9\" y1=\"84.6\" x2=\"151.9\" y2=\"146.6\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"151.9,154.6 147.4,144.6 156.4,144.6\" fill=\"#B5532A\"/><rect x=\"157.9\" y=\"114.6\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"161.9\" y=\"126.6\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"start\">mg</text><path d=\"M80,170 A40,40 0 0 0 72.77,147.06\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"94.0\" y=\"152.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"98.0\" y=\"164.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">35°</text><rect x=\"108.0\" y=\"40.5\" width=\"48.3\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"132.1\" y=\"52.5\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">30 kg</text></svg></span><p>Hur stor är tyngdkraftens komposant längs rutschkanan?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_g=30\\cdot9{,}82=294{,}6\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraftens komposant längs planet: \\(F_\\parallel=mg\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\parallel=294{,}6\\sin35^\\circ\\approx169\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 169 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Längs planet: \\(mg\\sin v\\).</p>",
   "traningsniva": 2,
@@ -213151,23 +213515,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.715",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna tyngdkraftens komposant vinkelrätt mot en skateramp, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En skateboardåkare med massan 55 kg står i en ramp som lutar 40°.</p><p>Hur stor är tyngdkraftens komposant vinkelrätt mot rampen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_g=55\\cdot9{,}82=540{,}1\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraftens komposant vinkelrätt mot planet: \\(F_\\perp=mg\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\perp=540{,}1\\cos40^\\circ\\approx413{,}7\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 413,7 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Vinkelrätt mot planet: \\(mg\\cos v\\).</p>",
   "traningsniva": 2,
@@ -213181,23 +213552,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.716",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna tyngdkraftens komposant längs en lastramp, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En pall med massan 250 kg ska rullas upp för en lastramp som lutar 15°.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360.00 200.00\" width=\"360\" height=\"200\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Föremål på ett plan som lutar 15 grader. Tyngdkraften mg pekar rakt nedåt.\"><rect x=\"0\" y=\"0\" width=\"360.00\" height=\"200.00\" fill=\"#FFFFFF\"/><polygon points=\"40,170 320,170 320.0,95.0\" fill=\"#F3EFEA\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><g transform=\"rotate(-15.00 194.0 128.7)\"><rect x=\"172.0\" y=\"94.7\" width=\"44\" height=\"34\" fill=\"#DDE8F4\" stroke=\"#2B2527\" stroke-width=\"1.6\"/></g><line x1=\"198.4\" y1=\"112.3\" x2=\"198.4\" y2=\"174.3\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"198.4,182.3 193.9,172.3 202.9,172.3\" fill=\"#B5532A\"/><rect x=\"204.4\" y=\"142.3\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"208.4\" y=\"154.3\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"start\">mg</text><path d=\"M80,170 A40,40 0 0 0 78.64,159.65\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"94.0\" y=\"152.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"98.0\" y=\"164.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">15°</text><rect x=\"155.8\" y=\"70.7\" width=\"56.4\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"184.0\" y=\"82.7\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">250 kg</text></svg></span><p>Hur stor är tyngdkraftens komposant längs rampen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_g=250\\cdot9{,}82=2455\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraftens komposant längs planet: \\(F_\\parallel=mg\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\parallel=2455\\sin15^\\circ\\approx635{,}4\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 635,4 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Längs planet: \\(mg\\sin v\\).</p>",
   "traningsniva": 2,
@@ -213211,23 +213589,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.717",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna tyngdkraftens komposant längs ett plan som lutar 30 grader, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En säck med massan 50 kg ligger på ett transportband som lutar 30°.</p><p>Hur stor är tyngdkraftens komposant längs bandet?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_g=50\\cdot9{,}82=491\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraftens komposant längs planet: \\(F_\\parallel=mg\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\parallel=491\\sin30^\\circ=245{,}5\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 245,5 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Längs planet: \\(mg\\sin v\\).</p>",
   "traningsniva": 1,
@@ -213241,23 +213626,30 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.718",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "beräkna tyngdkraftens komposant vinkelrätt mot en brant backe, ur text, sökt komposant",
   "poang": "(0/1/0)",
   "t": "<p>En snöskoter med massan 180 kg står i en backe som lutar 22°.</p><p>Hur stor är tyngdkraftens komposant vinkelrätt mot backen?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\)</p><div class=\"facit-matte\">\\[F_g=180\\cdot9{,}82=1767{,}6\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Tyngdkraftens komposant vinkelrätt mot planet: \\(F_\\perp=mg\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[F_\\perp=1767{,}6\\cos22^\\circ\\approx1638{,}9\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1638,9 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Vinkelrätt mot planet: \\(mg\\cos v\\).</p>",
   "traningsniva": 3,
@@ -213271,22 +213663,29 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 5
+  "svarVardesiffror": 5,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.719",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "beräkna den okända komposanten när storleken och den andra komposanten är kända, ur text, sökt komposant",
   "poang": "(1/0/0)",
   "t": "<p>En kraft på 25 N har x-komposanten 7 N och en positiv y-komposant. Hur stor är y-komposanten?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kraften är hypotenusan. Pythagoras sats baklänges: \\(F_y=\\sqrt{F^2-F_x^2}\\)</p><div class=\"facit-matte\">\\[F_y=\\sqrt{25^2-7^2}=\\sqrt{576}=24\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Komposanterna och kraften bildar en rätvinklig triangel där kraften är hypotenusan.</p>",
   "traningsniva": 2,
@@ -213299,7 +213698,14 @@ window.BANK = [
   "rättSvar": 24,
   "tolerans": 0,
   "svarEnhet": "N",
-  "svarFormat": "numeriskt"
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.720",
@@ -213331,18 +213737,18 @@ window.BANK = [
 },
 {
   "id": "3.721",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "bestämma vinkeln ur kraftens storlek och en komposant, ur text, sökt vinkel",
   "poang": "(0/1/0)",
   "t": "<p>En kraft på 50 N har den horisontella komposanten 35 N. Hur stor vinkel bildar kraften med det horisontella?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_x=F\\cos\\alpha\\)</p><div class=\"facit-matte\">\\[\\cos\\alpha=\\frac{35}{50}=0{,}70\\]</div></li><li><p class=\"facit-rubrik\">Lös ut vinkeln</p><div class=\"facit-matte\">\\[\\alpha=\\arccos0{,}70\\approx45{,}6^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 45,6°.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "procedur"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Den vågräta komposanten ligger intill vinkeln.</p>",
   "traningsniva": 3,
@@ -213356,22 +213762,29 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "°",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.722",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "beräkna kraften i ett rep när den lodräta komposanten är känd, ur text, sökt kraft",
   "poang": "(0/1/0)",
   "t": "<p>Ett rep håller upp en del av en hängande last. Repets vertikala komposant är 120 N och repet bildar vinkeln 65° med det horisontella. Hur stor är kraften i repet?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten mitt emot vinkeln: \\(F\\sin\\alpha\\): \\(F_y=F\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[120=F\\sin65^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(F\\)</p><div class=\"facit-matte\">\\[F=\\frac{120}{\\sin65^\\circ}\\approx132{,}4\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 132,4 N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "problemlösning"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Den lodräta komposanten är \\(F\\sin v\\).</p>",
   "traningsniva": 3,
@@ -213385,7 +213798,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.723",
@@ -213418,18 +213838,18 @@ window.BANK = [
 },
 {
   "id": "3.724",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "bestämma lutningsvinkeln ur kraften längs planet och tyngdkraften, ur text, sökt vinkel",
   "poang": "(0/1/0)",
   "t": "<p>En låda har tyngdkraften 400 N. På ett lutande plan är tyngdkraftens komposant längs planet 150 N. Hur stor är planets lutning?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraftens komposant längs planet: \\(F_\\parallel=mg\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[400\\sin\\alpha=150\\]</div></li><li><p class=\"facit-rubrik\">Lös ut vinkeln</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\sin\\alpha=0{,}375\\\\&\\Rightarrow\\ \\alpha\\approx22{,}0^\\circ\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 22,0°.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "problemlösning"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Komposanten längs planet är \\(mg\\sin v\\).</p>",
   "traningsniva": 3,
@@ -213443,7 +213863,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "°",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 2
+  "svarVardesiffror": 2,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.725",
@@ -213494,19 +213921,19 @@ window.BANK = [
 },
 {
   "id": "3.726",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "resonera om hur komposanterna förändras när vinkeln ökar, ur text, sökt påstående",
   "poang": "(1/0/0)",
   "t": "<p>En pulka dras med samma kraft men repet hålls allt brantare, från 20° till 60° mot marken. Vad händer med dragkraftens horisontella komposant?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanten intill vinkeln: \\(F\\cos\\alpha\\): \\(F_x=F\\cos\\alpha\\)</p><p>När vinkeln ökar från 20° till 60° minskar cos α från 0,94 till 0,50.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den minskar.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp",
     "resonemang"
   ],
-  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Tänk på hur \\(\\cos v\\) förändras.</p>",
   "traningsniva": 2,
@@ -213533,22 +213960,29 @@ window.BANK = [
       "ratt": false,
       "kommentar": "Komposanten beror på vinkeln."
     }
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_med_trigonometri"
 },
 {
   "id": "3.727",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "E",
   "typ": "välja rätt komposantform för en kraft rakt åt vänster, ur text, sökt vektor",
   "poang": "(1/0/0)",
   "t": "<p>En kraft på 30 N pekar rakt åt vänster. Vilken komposantform har den om x-axeln pekar åt höger?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kraften ligger längs negativa x-axeln: \\(F=(F_x,\\ F_y)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_x=-30\\ \\mathrm N\\\\&F_y=0\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> (−30, 0) N.</p></div>",
-  "familj": "Dela upp vektorer i komposanter",
+  "familj": "Komposantuppdelning",
   "formaga": [
     "begrepp"
   ],
-  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "familjNyckel": "kraftvektorer__komposantuppdelning",
   "självrättning": true,
   "ledtrad": "<p>Vilken komposant blir 0?</p>",
   "traningsniva": 1,
@@ -213580,23 +214014,30 @@ window.BANK = [
       "ratt": false,
       "kommentar": "Kraften pekar inte snett."
     }
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Dela upp vektorer i komposanter"
+  ],
+  "familjNyckelTidigare": "vektorer__komposanter_utan_trigonometri"
 },
 {
   "id": "3.728",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "addera två krafter i olika vinklar via komposanter, ur text, sökta komposanter och storlek",
   "poang": "(0/1/0)",
   "t": "<p>Två bogserbåtar drar ett fartyg. Den ena drar med 400 N riktad 30° ovanför x-axeln, den andra med 300 N riktad 20° under x-axeln.</p><p>Bestäm resultantens komposanter och storlek.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanter: \\(F_x=F\\cos\\alpha\\) och \\(F_y=F\\sin\\alpha\\) för båda krafterna</p><div class=\"facit-matte\">\\[\\begin{aligned}&F_1=(400\\cos30^\\circ,\\ 400\\sin30^\\circ)\\\\&F_2=(300\\cos20^\\circ,\\ -300\\sin20^\\circ)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Vektoraddition komposantvis: \\(R_x=\\sum F_x\\) och \\(R_y=\\sum F_y\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&R_x=346{,}4+281{,}9\\approx628{,}3\\ \\mathrm N\\\\&R_y=200-102{,}6\\approx97{,}4\\ \\mathrm N\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Pythagoras sats: \\(R=\\sqrt{R_x^2+R_y^2}\\)</p><div class=\"facit-matte\">\\[R=\\sqrt{628{,}3^2+97{,}4^2}\\approx635{,}8\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Rₓ ≈ 628,3 N, Rᵧ ≈ 97,4 N och R ≈ 635,8 N.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning med trigonometri",
   "formaga": [
     "problemlösning",
     "procedur"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_med_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Dela upp båda krafterna och addera x-komposanterna och y-komposanterna för sig.</p>",
   "traningsniva": 3,
@@ -213631,22 +214072,29 @@ window.BANK = [
     "R_x",
     "R_y",
     "R"
-  ]
+  ],
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.729",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "beräkna den lodräta resultanten från två snedställda vajrar, ur text, sökt kraft",
   "poang": "(0/1/0)",
   "t": "<p>En lampa hänger mitt på en vajer som är spänd mellan två stolpar. Båda halvorna av vajern drar med 800 N och lutar 10° uppåt från det horisontella.</p><p>Hur stor uppåtriktad kraft ger vajern tillsammans på lampan?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komposanter: \\(F_x=F\\cos\\alpha\\) och \\(F_y=F\\sin\\alpha\\) för vajerhalvorna</p><p>De vågräta komposanterna tar ut varandra. De lodräta adderas.</p></li><li><p class=\"facit-rubrik\">Vektoraddition komposantvis: \\(R_x=\\sum F_x\\) och \\(R_y=\\sum F_y\\), bara y-led blir kvar</p><div class=\"facit-matte\">\\[F=2\\cdot800\\sin10^\\circ\\approx277{,}8\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 277,8 N.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning med trigonometri",
   "formaga": [
     "problemlösning"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_med_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Endast de lodräta komposanterna bär lampan.</p>",
   "traningsniva": 3,
@@ -213660,7 +214108,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 4
+  "svarVardesiffror": 4,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.730",
@@ -213693,18 +214148,18 @@ window.BANK = [
 },
 {
   "id": "3.731",
-  "kap": 3,
-  "omr": "vektorer",
+  "kap": 4,
+  "omr": "kraftvektorer",
   "niva": "C",
   "typ": "bestämma storleken på en tredje kraft som ger jämvikt, ur text, sökt kraft",
   "poang": "(0/1/0)",
   "t": "<p>En ring hålls i vila av tre rep. Det första drar med 50 N österut. Det andra drar med 40 N riktad 60° ovanför positiva x-axeln.</p><p>Hur stor kraft måste det tredje repet dra med?</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vektoraddition komposantvis: \\(R_x=\\sum F_x\\) och \\(R_y=\\sum F_y\\) för de två kända krafterna</p><div class=\"facit-matte\">\\[\\begin{aligned}F_1+F_2&=(50+40\\cos60^\\circ,\\ 40\\sin60^\\circ)\\\\&\\approx(70{,}0,\\ 34{,}6)\\ \\mathrm N\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Jämvikt: \\(F_3=-(F_1+F_2)\\), lika stor men motriktad</p><div class=\"facit-matte\">\\[F_3=\\sqrt{70{,}0^2+34{,}6^2}\\approx78{,}1\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 78,1 N.</p></div>",
-  "familj": "Addera vektorer",
+  "familj": "Resultantbestämning med trigonometri",
   "formaga": [
     "problemlösning"
   ],
-  "familjNyckel": "vektorer__addera",
+  "familjNyckel": "kraftvektorer__resultantbestamning_med_trigonometri",
   "självrättning": true,
   "ledtrad": "<p>Summera de två kända krafterna med komposanter. Den tredje kraften är lika stor men motsatt riktad.</p>",
   "traningsniva": 4,
@@ -213718,7 +214173,14 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 3
+  "svarVardesiffror": 3,
+  "omrTidigare": [
+    "vektorer"
+  ],
+  "familjTidigare": [
+    "Addera vektorer"
+  ],
+  "familjNyckelTidigare": "vektorer__addera"
 },
 {
   "id": "3.732",
@@ -232921,5 +233383,317 @@ window.BANK = [
         "trigonometri": true
       }
     ]
+  },
+  {
+    "id": "2.365",
+    "kap": 2,
+    "omr": "densitet",
+    "familj": "Sammansatta och ihåliga föremål",
+    "familjNyckel": "densitet__sammansatt_densitet_och_ihaliga_foremal",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lödtenn är en legering av tenn och bly. Arvid har en bit lödtenn som väger 52,0 g. Han sänker ner biten i ett mätglas med vatten, se figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 256\" width=\"460\" height=\"256\" role=\"img\" aria-label=\"Två mätglas med skala i milliliter. Före: vattnet står vid 30,0 ml. Efter att biten av lödtenn sänkts ner står vattnet vid 36,0 ml.\" style=\"max-width:100%;height:auto\"><title>Två mätglas med skala i milliliter. Före: vattnet står vid 30,0 ml. Efter att biten av lödtenn sänkts ner står vattnet vid 36,0 ml.</title><rect width=\"460\" height=\"256\" fill=\"#fff\"/><rect x=\"70.0\" y=\"36.0\" width=\"64.0\" height=\"186.0\" rx=\"4\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"72\" y=\"114.0\" width=\"60\" height=\"106.0\" fill=\"#cfe6f5\"/><line x1=\"72.0\" y1=\"114.0\" x2=\"132.0\" y2=\"114.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"70.0\" y1=\"222.0\" x2=\"82.0\" y2=\"222.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"226.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">0</text><line x1=\"70.0\" y1=\"204.0\" x2=\"77.0\" y2=\"204.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"186.0\" x2=\"82.0\" y2=\"186.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"190.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">10</text><line x1=\"70.0\" y1=\"168.0\" x2=\"77.0\" y2=\"168.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"150.0\" x2=\"82.0\" y2=\"150.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"154.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">20</text><line x1=\"70.0\" y1=\"132.0\" x2=\"77.0\" y2=\"132.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"114.0\" x2=\"82.0\" y2=\"114.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"118.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">30</text><line x1=\"70.0\" y1=\"96.0\" x2=\"77.0\" y2=\"96.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"78.0\" x2=\"82.0\" y2=\"78.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"82.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">40</text><line x1=\"70.0\" y1=\"60.0\" x2=\"77.0\" y2=\"60.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"42.0\" x2=\"82.0\" y2=\"42.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"64.0\" y=\"46.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">50</text><line x1=\"174.0\" y1=\"114.0\" x2=\"148.0\" y2=\"114.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><polygon points=\"140.0,114.0 148.0,110.4 148.0,117.6\" fill=\"#0b6fa4\"/><text x=\"178.0\" y=\"119.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">30,0 ml</text><rect x=\"290.0\" y=\"36.0\" width=\"64.0\" height=\"186.0\" rx=\"4\" fill=\"#f7fafc\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"292\" y=\"92.4\" width=\"60\" height=\"127.6\" fill=\"#cfe6f5\"/><line x1=\"292.0\" y1=\"92.4\" x2=\"352.0\" y2=\"92.4\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><line x1=\"290.0\" y1=\"222.0\" x2=\"302.0\" y2=\"222.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"226.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">0</text><line x1=\"290.0\" y1=\"204.0\" x2=\"297.0\" y2=\"204.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"186.0\" x2=\"302.0\" y2=\"186.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"190.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">10</text><line x1=\"290.0\" y1=\"168.0\" x2=\"297.0\" y2=\"168.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"150.0\" x2=\"302.0\" y2=\"150.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"154.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">20</text><line x1=\"290.0\" y1=\"132.0\" x2=\"297.0\" y2=\"132.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"114.0\" x2=\"302.0\" y2=\"114.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"118.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">30</text><line x1=\"290.0\" y1=\"96.0\" x2=\"297.0\" y2=\"96.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"78.0\" x2=\"302.0\" y2=\"78.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"82.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">40</text><line x1=\"290.0\" y1=\"60.0\" x2=\"297.0\" y2=\"60.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><line x1=\"290.0\" y1=\"42.0\" x2=\"302.0\" y2=\"42.0\" stroke=\"#203746\" stroke-width=\"1.3\"/><text x=\"284.0\" y=\"46.5\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\">50</text><rect x=\"306.0\" y=\"200.0\" width=\"32.0\" height=\"18.0\" rx=\"2\" fill=\"#7d8a95\" stroke=\"#203746\" stroke-width=\"1.5\"/><line x1=\"394.0\" y1=\"92.4\" x2=\"368.0\" y2=\"92.4\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><polygon points=\"360.0,92.4 368.0,88.8 368.0,96.0\" fill=\"#0b6fa4\"/><text x=\"398.0\" y=\"97.4\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">36,0 ml</text><text x=\"102.0\" y=\"246.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\">före</text><text x=\"322.0\" y=\"246.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\">efter</text><text x=\"40.0\" y=\"26.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">ml</text></svg></span><p>Tenn har densiteten 7,29 g/cm³ och bly 11,34 g/cm³. Antag att tennets och blyets volymer tillsammans är bitens volym.</p><p>Hur många procent av bitens massa är tenn?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&m=52{,}0\\ \\mathrm g\\\\&\\rho_{\\mathrm{Sn}}=7{,}29\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\mathrm{Pb}}=11{,}34\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div><p>Sökt: hur stor del av bitens massa som är tenn, i procent.</p></li><li><p class=\"facit-rubrik\">Bitens volym ur mätglaset: \\(V=V_{\\text{efter}}-V_{\\text{före}}\\)</p><div class=\"facit-matte\">\\[V=36{,}0-30{,}0=6{,}0\\ \\mathrm{ml}=6{,}0\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Massorna adderas: \\(m_{\\mathrm{Sn}}+m_{\\mathrm{Pb}}=m\\)</p><p>Låt x vara tennets massa i gram. Då väger blyet 52,0 − x gram.</p></li><li><p class=\"facit-rubrik\">Volymerna adderas: \\(V=\\dfrac{m_{\\mathrm{Sn}}}{\\rho_{\\mathrm{Sn}}}+\\dfrac{m_{\\mathrm{Pb}}}{\\rho_{\\mathrm{Pb}}}\\)</p><p>Varje metalls volym är dess massa delad med dess densitet.</p><div class=\"facit-matte\">\\[\\frac{x}{7{,}29}+\\frac{52{,}0-x}{11{,}34}=6{,}0\\]</div></li><li><p class=\"facit-rubrik\">Samla termerna med tennets massa</p><div class=\"facit-matte\">\\[\\begin{aligned}&0{,}13717x+4{,}5855-0{,}08818x=6{,}0\\\\&0{,}04899x=1{,}4145\\\\&x\\approx28{,}9\\ \\mathrm g\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Massprocent: \\(\\dfrac{m_{\\mathrm{Sn}}}{m}\\cdot100\\,\\%\\)</p><div class=\"facit-matte\">\\[\\frac{28{,}9}{52{,}0}\\cdot100\\,\\%\\approx56\\,\\%\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med bitens densitet: \\(\\rho=\\dfrac mV\\)</p><div class=\"facit-matte\">\\[\\rho=\\frac{52{,}0}{6{,}0}\\approx8{,}67\\ \\mathrm{g/cm^3}\\]</div><p>Densiteten ligger mellan tennets och blyets, så en blandning av de två metallerna är möjlig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 56 %.</p></div>",
+    "ledtrad": "<p>Läs av bitens volym i mätglasen. Kalla tennets massa för x. Vad blir då blyets massa, och vilken volym får varje metall?</p>",
+    "rättSvar": 55.5230769230769,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.5,
+    "svarEnhet": "%",
+    "svarVardesiffror": 2,
+    "typ": "bestämma massprocent i en legering ur massa och volym avläst i mätglas"
+  },
+  {
+    "id": "2.366",
+    "kap": 2,
+    "omr": "densitet",
+    "familj": "Sammansatta och ihåliga föremål",
+    "familjNyckel": "densitet__sammansatt_densitet_och_ihaliga_foremal",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Mjölk består av skummjölk med små fettdroppar i. Skummjölk har densiteten 1,035 g/cm³ och mjölkfett 0,92 g/cm³. På ett mejeri mäter man densiteten hos ett prov mjölk till 1,031 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 214\" width=\"420\" height=\"214\" role=\"img\" aria-label=\"Ett glas mjölk med fettdroppar i skummjölk. Fettet har densiteten 0,92 g/cm³ och skummjölken 1,035 g/cm³. Mjölken har densiteten 1,031 g/cm³.\" style=\"max-width:100%;height:auto\"><title>Ett glas mjölk med fettdroppar i skummjölk. Fettet har densiteten 0,92 g/cm³ och skummjölken 1,035 g/cm³. Mjölken har densiteten 1,031 g/cm³.</title><rect width=\"420\" height=\"214\" fill=\"#fff\"/><rect x=\"150.0\" y=\"30.0\" width=\"120.0\" height=\"150.0\" rx=\"8\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"152\" y=\"52\" width=\"116\" height=\"126\" rx=\"6\" fill=\"#f4f1e8\"/><circle cx=\"178.0\" cy=\"80.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"205.0\" cy=\"70.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"236.0\" cy=\"92.0\" r=\"5\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"190.0\" cy=\"118.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"222.0\" cy=\"132.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"246.0\" cy=\"150.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"172.0\" cy=\"156.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"208.0\" cy=\"104.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"252.0\" cy=\"118.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"186.0\" cy=\"98.0\" r=\"2.5\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><line x1=\"292.0\" y1=\"86.0\" x2=\"252.9\" y2=\"91.0\" stroke=\"#b25c17\" stroke-width=\"2\"/><polygon points=\"245.0,92.0 252.5,87.4 253.4,94.6\" fill=\"#b25c17\"/><text x=\"296.0\" y=\"84.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">fettdroppar</text><text x=\"296.0\" y=\"102.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">0,92 g/cm³</text><line x1=\"292.0\" y1=\"148.0\" x2=\"269.7\" y2=\"142.1\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"262.0,140.0 270.7,138.6 268.8,145.5\" fill=\"#526777\"/><text x=\"296.0\" y=\"146.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">skummjölk</text><text x=\"296.0\" y=\"164.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">1,035 g/cm³</text><text x=\"210.0\" y=\"202.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">mjölken: 1,031 g/cm³</text></svg></span><p>Antag att fettets och skummjölkens volymer tillsammans är mjölkens volym.</p><ol type=\"a\"><li>Hur många procent av mjölkens volym är fett?</li><li>Mejeriet anger fetthalten som andel av massan. Hur många procent av mjölkens massa är fett?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\rho_{\\text{skum}}=1{,}035\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{fett}}=0{,}92\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{mjölk}}=1{,}031\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div><p>Sökt: hur stor del av mjölkens volym som är fett.</p></li><li><p class=\"facit-rubrik\">Tänk dig 1 cm³ mjölk</p><p>Låt x vara fettets volym i cm³. Då är skummjölkens volym 1 − x cm³, och hela provet väger 1,031 g.</p></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Mjölkens massa är fettets massa plus skummjölkens massa.</p><div class=\"facit-matte\">\\[1{,}031=0{,}92x+1{,}035(1-x)\\]</div></li><li><p class=\"facit-rubrik\">Lös ut fettets volym</p><div class=\"facit-matte\">\\[\\begin{aligned}&1{,}031=1{,}035-0{,}115x\\\\&0{,}115x=0{,}004\\\\&x=\\frac{0{,}004}{0{,}115}\\approx0{,}0348\\end{aligned}\\]</div><p>Fettet är alltså 0,0348 cm³ av varje kubikcentimeter mjölk.</p></li><li><p class=\"facit-rubrik\">Volymprocent: \\(\\dfrac{V_{\\text{fett}}}{V}\\cdot100\\,\\%\\)</p><div class=\"facit-matte\">\\[0{,}0348\\cdot100\\,\\%\\approx3{,}5\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,5 %.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\rho_{\\text{fett}}=0{,}92\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{mjölk}}=1{,}031\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div><p>Fettet är 3,48 % av mjölkens volym, alltså 0,0348 cm³ i varje kubikcentimeter mjölk.</p><p>Sökt: hur stor del av mjölkens massa som är fett.</p></li><li><p class=\"facit-rubrik\">Fettets massa i 1 cm³ mjölk: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m_{\\text{fett}}=0{,}92\\cdot0{,}0348\\approx0{,}0320\\ \\mathrm g\\]</div></li><li><p class=\"facit-rubrik\">Mjölkens massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m_{\\text{mjölk}}=1{,}031\\cdot1=1{,}031\\ \\mathrm g\\]</div></li><li><p class=\"facit-rubrik\">Massprocent: \\(\\dfrac{m_{\\text{fett}}}{m_{\\text{mjölk}}}\\cdot100\\,\\%\\)</p><div class=\"facit-matte\">\\[\\frac{0{,}0320}{1{,}031}\\cdot100\\,\\%\\approx3{,}1\\,\\%\\]</div></li><li><p class=\"facit-rubrik\">Varför blir massprocenten mindre än volymprocenten?</p><p>Fett har lägre densitet än skummjölk. En viss volym fett väger därför mindre än lika mycket skummjölk, och fettets andel av massan blir mindre än dess andel av volymen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,1 %.</p></div></div></div></div>",
+    "ledtrad": "<p>Utgå från 1 cm³ mjölk. Hur mycket av den volymen kan vara fett för att massan ska bli 1,031 g?</p>",
+    "rättSvar": [
+      3.4782608695652244,
+      3.103782735208542
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0.05,
+      0.05
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "%",
+      "%"
+    ],
+    "svarVardesiffror": [
+      2,
+      2
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Mjölk består av skummjölk med små fettdroppar i. Skummjölk har densiteten 1,035 g/cm³ och mjölkfett 0,92 g/cm³. På ett mejeri mäter man densiteten hos ett prov mjölk till 1,031 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 214\" width=\"420\" height=\"214\" role=\"img\" aria-label=\"Ett glas mjölk med fettdroppar i skummjölk. Fettet har densiteten 0,92 g/cm³ och skummjölken 1,035 g/cm³. Mjölken har densiteten 1,031 g/cm³.\" style=\"max-width:100%;height:auto\"><title>Ett glas mjölk med fettdroppar i skummjölk. Fettet har densiteten 0,92 g/cm³ och skummjölken 1,035 g/cm³. Mjölken har densiteten 1,031 g/cm³.</title><rect width=\"420\" height=\"214\" fill=\"#fff\"/><rect x=\"150.0\" y=\"30.0\" width=\"120.0\" height=\"150.0\" rx=\"8\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"152\" y=\"52\" width=\"116\" height=\"126\" rx=\"6\" fill=\"#f4f1e8\"/><circle cx=\"178.0\" cy=\"80.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"205.0\" cy=\"70.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"236.0\" cy=\"92.0\" r=\"5\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"190.0\" cy=\"118.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"222.0\" cy=\"132.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"246.0\" cy=\"150.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"172.0\" cy=\"156.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"208.0\" cy=\"104.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"252.0\" cy=\"118.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"186.0\" cy=\"98.0\" r=\"2.5\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><line x1=\"292.0\" y1=\"86.0\" x2=\"252.9\" y2=\"91.0\" stroke=\"#b25c17\" stroke-width=\"2\"/><polygon points=\"245.0,92.0 252.5,87.4 253.4,94.6\" fill=\"#b25c17\"/><text x=\"296.0\" y=\"84.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">fettdroppar</text><text x=\"296.0\" y=\"102.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">0,92 g/cm³</text><line x1=\"292.0\" y1=\"148.0\" x2=\"269.7\" y2=\"142.1\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"262.0,140.0 270.7,138.6 268.8,145.5\" fill=\"#526777\"/><text x=\"296.0\" y=\"146.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">skummjölk</text><text x=\"296.0\" y=\"164.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">1,035 g/cm³</text><text x=\"210.0\" y=\"202.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">mjölken: 1,031 g/cm³</text></svg></span><p>Antag att fettets och skummjölkens volymer tillsammans är mjölkens volym.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många procent av mjölkens volym är fett?",
+        "t": "<p>Mjölk består av skummjölk med små fettdroppar i. Skummjölk har densiteten 1,035 g/cm³ och mjölkfett 0,92 g/cm³. På ett mejeri mäter man densiteten hos ett prov mjölk till 1,031 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 214\" width=\"420\" height=\"214\" role=\"img\" aria-label=\"Ett glas mjölk med fettdroppar i skummjölk. Fettet har densiteten 0,92 g/cm³ och skummjölken 1,035 g/cm³. Mjölken har densiteten 1,031 g/cm³.\" style=\"max-width:100%;height:auto\"><title>Ett glas mjölk med fettdroppar i skummjölk. Fettet har densiteten 0,92 g/cm³ och skummjölken 1,035 g/cm³. Mjölken har densiteten 1,031 g/cm³.</title><rect width=\"420\" height=\"214\" fill=\"#fff\"/><rect x=\"150.0\" y=\"30.0\" width=\"120.0\" height=\"150.0\" rx=\"8\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"152\" y=\"52\" width=\"116\" height=\"126\" rx=\"6\" fill=\"#f4f1e8\"/><circle cx=\"178.0\" cy=\"80.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"205.0\" cy=\"70.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"236.0\" cy=\"92.0\" r=\"5\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"190.0\" cy=\"118.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"222.0\" cy=\"132.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"246.0\" cy=\"150.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"172.0\" cy=\"156.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"208.0\" cy=\"104.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"252.0\" cy=\"118.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"186.0\" cy=\"98.0\" r=\"2.5\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><line x1=\"292.0\" y1=\"86.0\" x2=\"252.9\" y2=\"91.0\" stroke=\"#b25c17\" stroke-width=\"2\"/><polygon points=\"245.0,92.0 252.5,87.4 253.4,94.6\" fill=\"#b25c17\"/><text x=\"296.0\" y=\"84.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">fettdroppar</text><text x=\"296.0\" y=\"102.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">0,92 g/cm³</text><line x1=\"292.0\" y1=\"148.0\" x2=\"269.7\" y2=\"142.1\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"262.0,140.0 270.7,138.6 268.8,145.5\" fill=\"#526777\"/><text x=\"296.0\" y=\"146.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">skummjölk</text><text x=\"296.0\" y=\"164.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">1,035 g/cm³</text><text x=\"210.0\" y=\"202.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">mjölken: 1,031 g/cm³</text></svg></span><p>Antag att fettets och skummjölkens volymer tillsammans är mjölkens volym.</p><p>Hur många procent av mjölkens volym är fett?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\rho_{\\text{skum}}=1{,}035\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{fett}}=0{,}92\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{mjölk}}=1{,}031\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div><p>Sökt: hur stor del av mjölkens volym som är fett.</p></li><li><p class=\"facit-rubrik\">Tänk dig 1 cm³ mjölk</p><p>Låt x vara fettets volym i cm³. Då är skummjölkens volym 1 − x cm³, och hela provet väger 1,031 g.</p></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Mjölkens massa är fettets massa plus skummjölkens massa.</p><div class=\"facit-matte\">\\[1{,}031=0{,}92x+1{,}035(1-x)\\]</div></li><li><p class=\"facit-rubrik\">Lös ut fettets volym</p><div class=\"facit-matte\">\\[\\begin{aligned}&1{,}031=1{,}035-0{,}115x\\\\&0{,}115x=0{,}004\\\\&x=\\frac{0{,}004}{0{,}115}\\approx0{,}0348\\end{aligned}\\]</div><p>Fettet är alltså 0,0348 cm³ av varje kubikcentimeter mjölk.</p></li><li><p class=\"facit-rubrik\">Volymprocent: \\(\\dfrac{V_{\\text{fett}}}{V}\\cdot100\\,\\%\\)</p><div class=\"facit-matte\">\\[0{,}0348\\cdot100\\,\\%\\approx3{,}5\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,5 %.</p></div>",
+        "ledtrad": "<p>Tänk dig 1 cm³ mjölk och kalla fettets volym för x. Vad väger fettet och skummjölken tillsammans?</p>",
+        "niva": "A",
+        "poang": "(0/0/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Fettet är 3,48 % av mjölkens volym. Mejeriet anger fetthalten som andel av massan. Hur många procent av mjölkens massa är fett?",
+        "t": "<p>Mjölk består av skummjölk med små fettdroppar i. Skummjölk har densiteten 1,035 g/cm³ och mjölkfett 0,92 g/cm³. På ett mejeri mäter man densiteten hos ett prov mjölk till 1,031 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 214\" width=\"420\" height=\"214\" role=\"img\" aria-label=\"Ett glas mjölk med fettdroppar i skummjölk. Fettet har densiteten 0,92 g/cm³ och skummjölken 1,035 g/cm³. Mjölken har densiteten 1,031 g/cm³.\" style=\"max-width:100%;height:auto\"><title>Ett glas mjölk med fettdroppar i skummjölk. Fettet har densiteten 0,92 g/cm³ och skummjölken 1,035 g/cm³. Mjölken har densiteten 1,031 g/cm³.</title><rect width=\"420\" height=\"214\" fill=\"#fff\"/><rect x=\"150.0\" y=\"30.0\" width=\"120.0\" height=\"150.0\" rx=\"8\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"152\" y=\"52\" width=\"116\" height=\"126\" rx=\"6\" fill=\"#f4f1e8\"/><circle cx=\"178.0\" cy=\"80.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"205.0\" cy=\"70.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"236.0\" cy=\"92.0\" r=\"5\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"190.0\" cy=\"118.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"222.0\" cy=\"132.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"246.0\" cy=\"150.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"172.0\" cy=\"156.0\" r=\"4\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"208.0\" cy=\"104.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"252.0\" cy=\"118.0\" r=\"3\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><circle cx=\"186.0\" cy=\"98.0\" r=\"2.5\" fill=\"#f2c14e\" stroke=\"#b28a1b\" stroke-width=\"1\"/><line x1=\"292.0\" y1=\"86.0\" x2=\"252.9\" y2=\"91.0\" stroke=\"#b25c17\" stroke-width=\"2\"/><polygon points=\"245.0,92.0 252.5,87.4 253.4,94.6\" fill=\"#b25c17\"/><text x=\"296.0\" y=\"84.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">fettdroppar</text><text x=\"296.0\" y=\"102.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">0,92 g/cm³</text><line x1=\"292.0\" y1=\"148.0\" x2=\"269.7\" y2=\"142.1\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"262.0,140.0 270.7,138.6 268.8,145.5\" fill=\"#526777\"/><text x=\"296.0\" y=\"146.0\" fill=\"#526777\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">skummjölk</text><text x=\"296.0\" y=\"164.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">1,035 g/cm³</text><text x=\"210.0\" y=\"202.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">mjölken: 1,031 g/cm³</text></svg></span><p>Antag att fettets och skummjölkens volymer tillsammans är mjölkens volym.</p><p>Fettet är 3,48 % av mjölkens volym. Mejeriet anger fetthalten som andel av massan. Hur många procent av mjölkens massa är fett?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\rho_{\\text{fett}}=0{,}92\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{mjölk}}=1{,}031\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div><p>Fettet är 3,48 % av mjölkens volym, alltså 0,0348 cm³ i varje kubikcentimeter mjölk.</p><p>Sökt: hur stor del av mjölkens massa som är fett.</p></li><li><p class=\"facit-rubrik\">Fettets massa i 1 cm³ mjölk: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m_{\\text{fett}}=0{,}92\\cdot0{,}0348\\approx0{,}0320\\ \\mathrm g\\]</div></li><li><p class=\"facit-rubrik\">Mjölkens massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m_{\\text{mjölk}}=1{,}031\\cdot1=1{,}031\\ \\mathrm g\\]</div></li><li><p class=\"facit-rubrik\">Massprocent: \\(\\dfrac{m_{\\text{fett}}}{m_{\\text{mjölk}}}\\cdot100\\,\\%\\)</p><div class=\"facit-matte\">\\[\\frac{0{,}0320}{1{,}031}\\cdot100\\,\\%\\approx3{,}1\\,\\%\\]</div></li><li><p class=\"facit-rubrik\">Varför blir massprocenten mindre än volymprocenten?</p><p>Fett har lägre densitet än skummjölk. En viss volym fett väger därför mindre än lika mycket skummjölk, och fettets andel av massan blir mindre än dess andel av volymen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,1 %.</p></div>",
+        "ledtrad": "<p>Hur mycket väger fettet i 1 cm³ mjölk? Jämför med vad hela kubikcentimetern väger.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "typ": "bestämma volymandel och massandel fett i mjölk ur uppmätt densitet"
+  },
+  {
+    "id": "2.367",
+    "kap": 2,
+    "omr": "densitet",
+    "familj": "Sammansatta och ihåliga föremål",
+    "familjNyckel": "densitet__sammansatt_densitet_och_ihaliga_foremal",
+    "niva": "A",
+    "poang": "(0/1/3)",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Kylarvätska är en blandning av vatten och glykol. Saras bil har ett kylsystem som rymmer 6,0 liter. Hon mäter kylarvätskans densitet till 1,04 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 208\" width=\"440\" height=\"208\" role=\"img\" aria-label=\"Vatten med densiteten 1,00 g/cm³, glykol med densiteten 1,11 g/cm³ och ett kylsystem som rymmer 6,0 liter kylarvätska med densiteten 1,04 g/cm³.\" style=\"max-width:100%;height:auto\"><title>Vatten med densiteten 1,00 g/cm³, glykol med densiteten 1,11 g/cm³ och ett kylsystem som rymmer 6,0 liter kylarvätska med densiteten 1,04 g/cm³.</title><rect width=\"440\" height=\"208\" fill=\"#fff\"/><rect x=\"30.0\" y=\"60.0\" width=\"90.0\" height=\"100.0\" rx=\"6\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"32\" y=\"85.0\" width=\"86\" height=\"73.0\" rx=\"4\" fill=\"#cfe6f5\"/><text x=\"75.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">vatten</text><text x=\"75.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,00 g/cm³</text><rect x=\"150.0\" y=\"60.0\" width=\"90.0\" height=\"100.0\" rx=\"6\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"152\" y=\"85.0\" width=\"86\" height=\"73.0\" rx=\"4\" fill=\"#d6ecd2\"/><text x=\"195.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">glykol</text><text x=\"195.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,11 g/cm³</text><rect x=\"286.0\" y=\"40.0\" width=\"120.0\" height=\"120.0\" rx=\"8\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"288\" y=\"62\" width=\"116\" height=\"96\" rx=\"6\" fill=\"#d9ecdf\"/><text x=\"346.0\" y=\"104.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">kylsystem</text><text x=\"346.0\" y=\"124.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\">6,0 l</text><text x=\"346.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">kylarvätska</text><text x=\"346.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,04 g/cm³</text></svg></span><p>Vatten har densiteten 1,00 g/cm³ och glykol 1,11 g/cm³. Antag att vattnets och glykolens volymer tillsammans är blandningens volym.</p><ol type=\"a\"><li>Hur många procent av kylarvätskans volym är glykol?</li><li>Sara vill att vätskan ska innehålla 50 volymprocent glykol. Hon tappar ur en del av kylarvätskan och fyller på med ren glykol tills kylsystemet är fullt igen. Hur många liter ska hon tappa ur?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&V=6{,}0\\ \\mathrm l\\\\&\\rho_{\\text{vatten}}=1{,}00\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{glykol}}=1{,}11\\ \\mathrm{g/cm^3}\\\\&\\rho=1{,}04\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div><p>Sökt: hur stor del av kylarvätskans volym som är glykol.</p></li><li><p class=\"facit-rubrik\">Tänk dig 1 cm³ kylarvätska</p><p>Låt x vara glykolens volym i cm³. Då är vattnets volym 1 − x cm³.</p></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Kubikcentimetern väger 1,04 g, och det är glykolens massa plus vattnets massa.</p><div class=\"facit-matte\">\\[1{,}04=1{,}11x+1{,}00(1-x)\\]</div></li><li><p class=\"facit-rubrik\">Lös ut glykolens volym</p><div class=\"facit-matte\">\\[\\begin{aligned}&1{,}04=1{,}00+0{,}11x\\\\&x=\\frac{0{,}04}{0{,}11}\\approx0{,}364\\end{aligned}\\]</div><div class=\"facit-matte\">\\[0{,}364\\cdot100\\,\\%\\approx36\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36 %.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&V=6{,}0\\ \\mathrm l\\\\&\\text{glykol nu: }36{,}4\\,\\%\\\\&\\text{glykol sedan: }50\\,\\%\\end{aligned}\\]</div><p>Volymandelen 36,4 % står i frågan. Låt y vara antalet liter som tappas ur och ersätts med ren glykol.</p><p>Sökt: hur många liter Sara ska tappa ur.</p></li><li><p class=\"facit-rubrik\">Glykolens volym nu: \\(V_{\\text{glykol}}=\\text{andel}\\cdot V\\)</p><div class=\"facit-matte\">\\[0{,}364\\cdot6{,}0\\approx2{,}18\\ \\mathrm l\\]</div></li><li><p class=\"facit-rubrik\">Det hon tappar ur är också till 36,4 % glykol</p><p>När y liter tappas ur försvinner 0,364y liter glykol. Sedan fyller hon på y liter ren glykol. Till slut ska hälften av 6,0 liter, alltså 3,0 liter, vara glykol.</p><div class=\"facit-matte\">\\[2{,}18-0{,}364y+y=3{,}0\\]</div></li><li><p class=\"facit-rubrik\">Lös ut volymen som byts</p><div class=\"facit-matte\">\\[\\begin{aligned}&0{,}636y=3{,}0-2{,}18\\\\&y=\\frac{0{,}82}{0{,}636}\\approx1{,}28\\ \\mathrm l\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med densiteten: \\(\\rho=\\dfrac mV\\)</p><p>Med hälften glykol och hälften vatten blir densiteten 0,50 · 1,11 + 0,50 · 1,00 = 1,055 g/cm³. Massan i kylsystemet räknas i kg, eftersom 1 liter av en vätska med densiteten 1,04 g/cm³ väger 1,04 kg.</p><div class=\"facit-matte\">\\[\\frac{6{,}0\\cdot1{,}04-1{,}29\\cdot1{,}04+1{,}29\\cdot1{,}11}{6{,}0}\\approx1{,}055\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,3 liter.</p></div></div></div></div>",
+    "ledtrad": "<p>Utgå från 1 cm³ kylarvätska. Hur stor del av den kan vara glykol för att massan ska bli 1,04 g?</p>",
+    "rättSvar": [
+      36.36363636363637,
+      1.2857142857142856
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0.5,
+      0.05
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "%",
+      "liter"
+    ],
+    "svarVardesiffror": [
+      2,
+      2
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Kylarvätska är en blandning av vatten och glykol. Saras bil har ett kylsystem som rymmer 6,0 liter. Hon mäter kylarvätskans densitet till 1,04 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 208\" width=\"440\" height=\"208\" role=\"img\" aria-label=\"Vatten med densiteten 1,00 g/cm³, glykol med densiteten 1,11 g/cm³ och ett kylsystem som rymmer 6,0 liter kylarvätska med densiteten 1,04 g/cm³.\" style=\"max-width:100%;height:auto\"><title>Vatten med densiteten 1,00 g/cm³, glykol med densiteten 1,11 g/cm³ och ett kylsystem som rymmer 6,0 liter kylarvätska med densiteten 1,04 g/cm³.</title><rect width=\"440\" height=\"208\" fill=\"#fff\"/><rect x=\"30.0\" y=\"60.0\" width=\"90.0\" height=\"100.0\" rx=\"6\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"32\" y=\"85.0\" width=\"86\" height=\"73.0\" rx=\"4\" fill=\"#cfe6f5\"/><text x=\"75.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">vatten</text><text x=\"75.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,00 g/cm³</text><rect x=\"150.0\" y=\"60.0\" width=\"90.0\" height=\"100.0\" rx=\"6\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"152\" y=\"85.0\" width=\"86\" height=\"73.0\" rx=\"4\" fill=\"#d6ecd2\"/><text x=\"195.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">glykol</text><text x=\"195.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,11 g/cm³</text><rect x=\"286.0\" y=\"40.0\" width=\"120.0\" height=\"120.0\" rx=\"8\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"288\" y=\"62\" width=\"116\" height=\"96\" rx=\"6\" fill=\"#d9ecdf\"/><text x=\"346.0\" y=\"104.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">kylsystem</text><text x=\"346.0\" y=\"124.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\">6,0 l</text><text x=\"346.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">kylarvätska</text><text x=\"346.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,04 g/cm³</text></svg></span><p>Vatten har densiteten 1,00 g/cm³ och glykol 1,11 g/cm³. Antag att vattnets och glykolens volymer tillsammans är blandningens volym.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många procent av kylarvätskans volym är glykol?",
+        "t": "<p>Kylarvätska är en blandning av vatten och glykol. Saras bil har ett kylsystem som rymmer 6,0 liter. Hon mäter kylarvätskans densitet till 1,04 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 208\" width=\"440\" height=\"208\" role=\"img\" aria-label=\"Vatten med densiteten 1,00 g/cm³, glykol med densiteten 1,11 g/cm³ och ett kylsystem som rymmer 6,0 liter kylarvätska med densiteten 1,04 g/cm³.\" style=\"max-width:100%;height:auto\"><title>Vatten med densiteten 1,00 g/cm³, glykol med densiteten 1,11 g/cm³ och ett kylsystem som rymmer 6,0 liter kylarvätska med densiteten 1,04 g/cm³.</title><rect width=\"440\" height=\"208\" fill=\"#fff\"/><rect x=\"30.0\" y=\"60.0\" width=\"90.0\" height=\"100.0\" rx=\"6\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"32\" y=\"85.0\" width=\"86\" height=\"73.0\" rx=\"4\" fill=\"#cfe6f5\"/><text x=\"75.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">vatten</text><text x=\"75.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,00 g/cm³</text><rect x=\"150.0\" y=\"60.0\" width=\"90.0\" height=\"100.0\" rx=\"6\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"152\" y=\"85.0\" width=\"86\" height=\"73.0\" rx=\"4\" fill=\"#d6ecd2\"/><text x=\"195.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">glykol</text><text x=\"195.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,11 g/cm³</text><rect x=\"286.0\" y=\"40.0\" width=\"120.0\" height=\"120.0\" rx=\"8\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"288\" y=\"62\" width=\"116\" height=\"96\" rx=\"6\" fill=\"#d9ecdf\"/><text x=\"346.0\" y=\"104.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">kylsystem</text><text x=\"346.0\" y=\"124.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\">6,0 l</text><text x=\"346.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">kylarvätska</text><text x=\"346.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,04 g/cm³</text></svg></span><p>Vatten har densiteten 1,00 g/cm³ och glykol 1,11 g/cm³. Antag att vattnets och glykolens volymer tillsammans är blandningens volym.</p><p>Hur många procent av kylarvätskans volym är glykol?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&V=6{,}0\\ \\mathrm l\\\\&\\rho_{\\text{vatten}}=1{,}00\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{glykol}}=1{,}11\\ \\mathrm{g/cm^3}\\\\&\\rho=1{,}04\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div><p>Sökt: hur stor del av kylarvätskans volym som är glykol.</p></li><li><p class=\"facit-rubrik\">Tänk dig 1 cm³ kylarvätska</p><p>Låt x vara glykolens volym i cm³. Då är vattnets volym 1 − x cm³.</p></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Kubikcentimetern väger 1,04 g, och det är glykolens massa plus vattnets massa.</p><div class=\"facit-matte\">\\[1{,}04=1{,}11x+1{,}00(1-x)\\]</div></li><li><p class=\"facit-rubrik\">Lös ut glykolens volym</p><div class=\"facit-matte\">\\[\\begin{aligned}&1{,}04=1{,}00+0{,}11x\\\\&x=\\frac{0{,}04}{0{,}11}\\approx0{,}364\\end{aligned}\\]</div><div class=\"facit-matte\">\\[0{,}364\\cdot100\\,\\%\\approx36\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36 %.</p></div>",
+        "ledtrad": "<p>Tänk dig 1 cm³ kylarvätska och kalla glykolens volym för x. Vad väger glykolen och vattnet tillsammans?</p>",
+        "niva": "A",
+        "poang": "(0/1/1)",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Kylarvätskan innehåller 36,4 volymprocent glykol. Sara vill att den ska innehålla 50 volymprocent glykol. Hon tappar ur en del av kylarvätskan och fyller på med ren glykol tills kylsystemet är fullt igen. Hur många liter ska hon tappa ur?",
+        "t": "<p>Kylarvätska är en blandning av vatten och glykol. Saras bil har ett kylsystem som rymmer 6,0 liter. Hon mäter kylarvätskans densitet till 1,04 g/cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 208\" width=\"440\" height=\"208\" role=\"img\" aria-label=\"Vatten med densiteten 1,00 g/cm³, glykol med densiteten 1,11 g/cm³ och ett kylsystem som rymmer 6,0 liter kylarvätska med densiteten 1,04 g/cm³.\" style=\"max-width:100%;height:auto\"><title>Vatten med densiteten 1,00 g/cm³, glykol med densiteten 1,11 g/cm³ och ett kylsystem som rymmer 6,0 liter kylarvätska med densiteten 1,04 g/cm³.</title><rect width=\"440\" height=\"208\" fill=\"#fff\"/><rect x=\"30.0\" y=\"60.0\" width=\"90.0\" height=\"100.0\" rx=\"6\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"32\" y=\"85.0\" width=\"86\" height=\"73.0\" rx=\"4\" fill=\"#cfe6f5\"/><text x=\"75.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">vatten</text><text x=\"75.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,00 g/cm³</text><rect x=\"150.0\" y=\"60.0\" width=\"90.0\" height=\"100.0\" rx=\"6\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"152\" y=\"85.0\" width=\"86\" height=\"73.0\" rx=\"4\" fill=\"#d6ecd2\"/><text x=\"195.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">glykol</text><text x=\"195.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,11 g/cm³</text><rect x=\"286.0\" y=\"40.0\" width=\"120.0\" height=\"120.0\" rx=\"8\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"288\" y=\"62\" width=\"116\" height=\"96\" rx=\"6\" fill=\"#d9ecdf\"/><text x=\"346.0\" y=\"104.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">kylsystem</text><text x=\"346.0\" y=\"124.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\">6,0 l</text><text x=\"346.0\" y=\"180.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">kylarvätska</text><text x=\"346.0\" y=\"198.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">1,04 g/cm³</text></svg></span><p>Vatten har densiteten 1,00 g/cm³ och glykol 1,11 g/cm³. Antag att vattnets och glykolens volymer tillsammans är blandningens volym.</p><p>Kylarvätskan innehåller 36,4 volymprocent glykol. Sara vill att den ska innehålla 50 volymprocent glykol. Hon tappar ur en del av kylarvätskan och fyller på med ren glykol tills kylsystemet är fullt igen. Hur många liter ska hon tappa ur?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&V=6{,}0\\ \\mathrm l\\\\&\\text{glykol nu: }36{,}4\\,\\%\\\\&\\text{glykol sedan: }50\\,\\%\\end{aligned}\\]</div><p>Volymandelen 36,4 % står i frågan. Låt y vara antalet liter som tappas ur och ersätts med ren glykol.</p><p>Sökt: hur många liter Sara ska tappa ur.</p></li><li><p class=\"facit-rubrik\">Glykolens volym nu: \\(V_{\\text{glykol}}=\\text{andel}\\cdot V\\)</p><div class=\"facit-matte\">\\[0{,}364\\cdot6{,}0\\approx2{,}18\\ \\mathrm l\\]</div></li><li><p class=\"facit-rubrik\">Det hon tappar ur är också till 36,4 % glykol</p><p>När y liter tappas ur försvinner 0,364y liter glykol. Sedan fyller hon på y liter ren glykol. Till slut ska hälften av 6,0 liter, alltså 3,0 liter, vara glykol.</p><div class=\"facit-matte\">\\[2{,}18-0{,}364y+y=3{,}0\\]</div></li><li><p class=\"facit-rubrik\">Lös ut volymen som byts</p><div class=\"facit-matte\">\\[\\begin{aligned}&0{,}636y=3{,}0-2{,}18\\\\&y=\\frac{0{,}82}{0{,}636}\\approx1{,}28\\ \\mathrm l\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med densiteten: \\(\\rho=\\dfrac mV\\)</p><p>Med hälften glykol och hälften vatten blir densiteten 0,50 · 1,11 + 0,50 · 1,00 = 1,055 g/cm³. Massan i kylsystemet räknas i kg, eftersom 1 liter av en vätska med densiteten 1,04 g/cm³ väger 1,04 kg.</p><div class=\"facit-matte\">\\[\\frac{6{,}0\\cdot1{,}04-1{,}29\\cdot1{,}04+1{,}29\\cdot1{,}11}{6{,}0}\\approx1{,}055\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,3 liter.</p></div>",
+        "ledtrad": "<p>Det Sara tappar ur är inte rent vatten, utan samma blandning som finns i kylsystemet. Hur mycket glykol finns kvar efteråt?</p>",
+        "niva": "A",
+        "poang": "(0/0/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      }
+    ],
+    "typ": "bestämma glykolhalt ur densitet och hur mycket som ska bytas för en ny halt"
+  },
+  {
+    "id": "2.368",
+    "kap": 2,
+    "omr": "densitet",
+    "familj": "Densitet, flytförmåga och modeller",
+    "familjNyckel": "densitet__densitet_och_flytformaga",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Leo hittar en isbit med en sten infrusen. Isbiten och stenen väger tillsammans 120 g. När han lägger isbiten i vatten hamnar den helt under ytan, men den varken sjunker eller stiger, se figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 212\" width=\"420\" height=\"212\" role=\"img\" aria-label=\"En isbit med en infrusen sten ligger helt under vattenytan i ett akvarium och varken sjunker eller stiger.\" style=\"max-width:100%;height:auto\"><title>En isbit med en infrusen sten ligger helt under vattenytan i ett akvarium och varken sjunker eller stiger.</title><rect width=\"420\" height=\"212\" fill=\"#fff\"/><rect x=\"60.0\" y=\"30.0\" width=\"300.0\" height=\"170.0\" rx=\"4\" fill=\"#fbfdff\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"62\" y=\"52\" width=\"296\" height=\"146\" fill=\"#cfe6f5\"/><line x1=\"62.0\" y1=\"52.0\" x2=\"358.0\" y2=\"52.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><polygon points=\"160,92 252,86 262,160 168,168\" fill=\"#eef7fc\" stroke=\"#6c9cb8\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"196,124 214,116 232,124 230,140 210,146 194,138\" fill=\"#8f8a82\" stroke=\"#5e5a54\" stroke-width=\"1.5\"/><line x1=\"300.0\" y1=\"104.0\" x2=\"256.0\" y2=\"105.7\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"248.0,106.0 255.9,102.1 256.1,109.3\" fill=\"#526777\"/><text x=\"304.0\" y=\"108.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">is</text><line x1=\"126.0\" y1=\"150.0\" x2=\"186.2\" y2=\"135.8\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"194.0,134.0 187.0,139.3 185.4,132.3\" fill=\"#526777\"/><text x=\"122.0\" y=\"160.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">sten</text><text x=\"320.0\" y=\"188.0\" fill=\"#0b6fa4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">vatten</text></svg></span><p>Is har densiteten 0,917 g/cm³, stenen 2,60 g/cm³ och vattnet 1,00 g/cm³.</p><p>Hur mycket väger stenen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&m=120\\ \\mathrm g\\\\&\\rho_{\\text{is}}=0{,}917\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{sten}}=2{,}60\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{vatten}}=1{,}00\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div><p>Sökt: stenens massa.</p></li><li><p class=\"facit-rubrik\">Ett föremål svävar när medeldensiteten är vätskans: \\(\\rho=\\dfrac mV=\\rho_{\\text{vatten}}\\)</p><p>Isbiten med stenen har alltså medeldensiteten 1,00 g/cm³. Det ger dess volym.</p><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{120}{1{,}00}=120\\ \\mathrm{cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Volymerna adderas: \\(V=\\dfrac{m_{\\text{sten}}}{\\rho_{\\text{sten}}}+\\dfrac{m_{\\text{is}}}{\\rho_{\\text{is}}}\\)</p><p>Låt x vara stenens massa i gram. Då väger isen 120 − x gram.</p><div class=\"facit-matte\">\\[\\frac{x}{2{,}60}+\\frac{120-x}{0{,}917}=120\\]</div></li><li><p class=\"facit-rubrik\">Samla termerna med stenens massa</p><div class=\"facit-matte\">\\[\\begin{aligned}&0{,}3846x+130{,}86-1{,}0905x=120\\\\&0{,}7059x=10{,}86\\\\&x\\approx15{,}4\\ \\mathrm g\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontroll: stenens och isens volymer</p><div class=\"facit-matte\">\\[\\begin{aligned}&V_{\\text{sten}}=\\frac{15{,}39}{2{,}60}\\approx5{,}92\\ \\mathrm{cm^3}\\\\&V_{\\text{is}}=\\frac{104{,}61}{0{,}917}\\approx114{,}08\\ \\mathrm{cm^3}\\end{aligned}\\]</div><p>Tillsammans blir det 120 cm³, precis som det ska.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15,4 g.</p></div>",
+    "ledtrad": "<p>Vad måste isbitens medeldensitet vara när den varken sjunker eller stiger? Vilken volym har den då?</p>",
+    "rättSvar": 15.3868092691622,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.05,
+    "svarEnhet": "g",
+    "svarVardesiffror": 3,
+    "typ": "bestämma massan av en infrusen sten när isbiten svävar i vatten"
+  },
+  {
+    "id": "2.369",
+    "kap": 2,
+    "omr": "densitet",
+    "familj": "Sammansatta och ihåliga föremål",
+    "familjNyckel": "densitet__sammansatt_densitet_och_ihaliga_foremal",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I en enkel modell består jorden av en kärna och en mantel runt kärnan, se figuren. Jorden har radien 6 370 km och kärnan radien 3 480 km. Jordens medeldensitet är 5 510 kg/m³ och mantelns medeldensitet är 4 500 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 270\" width=\"440\" height=\"270\" role=\"img\" aria-label=\"Genomskärning av jorden i en enkel modell: en kärna med radien 3 480 km och en mantel ut till radien 6 370 km. Manteln har densiteten 4 500 kg/m³. Kärnans densitet är okänd.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av jorden i en enkel modell: en kärna med radien 3 480 km och en mantel ut till radien 6 370 km. Manteln har densiteten 4 500 kg/m³. Kärnans densitet är okänd.</title><rect width=\"440\" height=\"270\" fill=\"#fff\"/><circle cx=\"150\" cy=\"140\" r=\"112\" fill=\"#e7c9a3\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"140\" r=\"61.2\" fill=\"#d9822b\" stroke=\"#203746\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"140.0\" x2=\"262.0\" y2=\"140.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><circle cx=\"150.0\" cy=\"140.0\" r=\"3.5\" fill=\"#203746\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"268.0\" y=\"145.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">6 370 km</text><line x1=\"150.0\" y1=\"140.0\" x2=\"88.8\" y2=\"140.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"121.4\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3 480 km</text><line x1=\"310.0\" y1=\"70.0\" x2=\"177.7\" y2=\"107.8\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"170.0,110.0 176.7,104.3 178.7,111.3\" fill=\"#526777\"/><text x=\"314.0\" y=\"66.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">kärna</text><text x=\"314.0\" y=\"84.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">densitet ?</text><line x1=\"310.0\" y1=\"210.0\" x2=\"239.9\" y2=\"199.2\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"232.0,198.0 240.5,195.7 239.4,202.8\" fill=\"#526777\"/><text x=\"314.0\" y=\"206.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">mantel</text><text x=\"314.0\" y=\"224.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">4 500 kg/m³</text></svg></span><ol type=\"a\"><li>Hur många procent av jordens volym är kärna?</li><li>Vilken medeldensitet har kärnan enligt modellen?</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&R=6\\,370\\ \\mathrm{km}\\\\&r=3\\,480\\ \\mathrm{km}\\end{aligned}\\]</div><p>Sökt: hur stor del av jordens volym som är kärna.</p></li><li><p class=\"facit-rubrik\">Klotets volym: \\(V=\\dfrac{4\\pi r^3}{3}\\)</p><p>Kärnans andel är kärnans volym delad med hela jordens volym. Faktorn 4π/3 förkortas bort.</p><div class=\"facit-matte\">\\[\\frac{V_{\\text{kärna}}}{V_{\\text{jord}}}=\\frac{\\frac{4\\pi r^3}{3}}{\\frac{4\\pi R^3}{3}}=\\left(\\frac rR\\right)^3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in radierna</p><div class=\"facit-matte\">\\[\\left(\\frac{3\\,480}{6\\,370}\\right)^3\\approx0{,}1630\\]</div><p>Enheterna tar ut varandra, så radierna kan sättas in i km.</p></li><li><p class=\"facit-rubrik\">Volymprocent: \\(\\dfrac{V_{\\text{kärna}}}{V_{\\text{jord}}}\\cdot100\\,\\%\\)</p><div class=\"facit-matte\">\\[0{,}1630\\cdot100\\,\\%\\approx16{,}3\\,\\%\\]</div><p>Kärnan sträcker sig mer än halvvägs ut, men den är ändå bara ungefär en sjättedel av volymen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16,3 %.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\rho_{\\text{jord}}=5\\,510\\ \\mathrm{kg/m^3}\\\\&\\rho_{\\text{mantel}}=4\\,500\\ \\mathrm{kg/m^3}\\end{aligned}\\]</div><p>Kärnan är 16,3 % av jordens volym, så manteln är 83,7 %.</p><p>Sökt: kärnans medeldensitet.</p></li><li><p class=\"facit-rubrik\">Tänk dig 1 m³ av jorden</p><p>Den består av 0,163 m³ kärna och 0,837 m³ mantel, och den väger 5 510 kg.</p></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Jordens massa är kärnans massa plus mantelns massa.</p><div class=\"facit-matte\">\\[5\\,510=\\rho_{\\text{kärna}}\\cdot0{,}163+4\\,500\\cdot0{,}837\\]</div></li><li><p class=\"facit-rubrik\">Lös ut kärnans densitet</p><div class=\"facit-matte\">\\[\\begin{aligned}&0{,}163\\,\\rho_{\\text{kärna}}=5\\,510-3766{,}5\\\\&\\rho_{\\text{kärna}}=\\frac{1743{\\,}5}{0{\\,}163}\\approx10\\,696\\ \\mathrm{kg/m^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Är svaret rimligt?</p><p>Kärnan får mer än dubbelt så stor densitet som manteln och ungefär fyra gånger så stor som vanligt berg (cirka 2 700 kg/m³). Det stämmer med att kärnan till största delen är järn och nickel, som pressas ihop av det höga trycket djupt inne i jorden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,1·10⁴ kg/m³, alltså cirka 11 000 kg/m³.</p></div></div></div></div>",
+    "ledtrad": "<p>Jordens massa är kärnans massa plus mantelns massa. Hur stor del av jordens volym är kärna?</p>",
+    "rättSvar": [
+      16.30494862879369,
+      10694.438406364512
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0.05,
+      500
+    ],
+    "svarstyp": "flera_delar",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "%",
+      "kg/m³"
+    ],
+    "svarVardesiffror": [
+      3,
+      2
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I en enkel modell består jorden av en kärna och en mantel runt kärnan, se figuren. Jorden har radien 6 370 km och kärnan radien 3 480 km. Jordens medeldensitet är 5 510 kg/m³ och mantelns medeldensitet är 4 500 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 270\" width=\"440\" height=\"270\" role=\"img\" aria-label=\"Genomskärning av jorden i en enkel modell: en kärna med radien 3 480 km och en mantel ut till radien 6 370 km. Manteln har densiteten 4 500 kg/m³. Kärnans densitet är okänd.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av jorden i en enkel modell: en kärna med radien 3 480 km och en mantel ut till radien 6 370 km. Manteln har densiteten 4 500 kg/m³. Kärnans densitet är okänd.</title><rect width=\"440\" height=\"270\" fill=\"#fff\"/><circle cx=\"150\" cy=\"140\" r=\"112\" fill=\"#e7c9a3\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"140\" r=\"61.2\" fill=\"#d9822b\" stroke=\"#203746\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"140.0\" x2=\"262.0\" y2=\"140.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><circle cx=\"150.0\" cy=\"140.0\" r=\"3.5\" fill=\"#203746\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"268.0\" y=\"145.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">6 370 km</text><line x1=\"150.0\" y1=\"140.0\" x2=\"88.8\" y2=\"140.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"121.4\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3 480 km</text><line x1=\"310.0\" y1=\"70.0\" x2=\"177.7\" y2=\"107.8\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"170.0,110.0 176.7,104.3 178.7,111.3\" fill=\"#526777\"/><text x=\"314.0\" y=\"66.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">kärna</text><text x=\"314.0\" y=\"84.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">densitet ?</text><line x1=\"310.0\" y1=\"210.0\" x2=\"239.9\" y2=\"199.2\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"232.0,198.0 240.5,195.7 239.4,202.8\" fill=\"#526777\"/><text x=\"314.0\" y=\"206.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">mantel</text><text x=\"314.0\" y=\"224.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">4 500 kg/m³</text></svg></span>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många procent av jordens volym är kärna?",
+        "t": "<p>I en enkel modell består jorden av en kärna och en mantel runt kärnan, se figuren. Jorden har radien 6 370 km och kärnan radien 3 480 km. Jordens medeldensitet är 5 510 kg/m³ och mantelns medeldensitet är 4 500 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 270\" width=\"440\" height=\"270\" role=\"img\" aria-label=\"Genomskärning av jorden i en enkel modell: en kärna med radien 3 480 km och en mantel ut till radien 6 370 km. Manteln har densiteten 4 500 kg/m³. Kärnans densitet är okänd.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av jorden i en enkel modell: en kärna med radien 3 480 km och en mantel ut till radien 6 370 km. Manteln har densiteten 4 500 kg/m³. Kärnans densitet är okänd.</title><rect width=\"440\" height=\"270\" fill=\"#fff\"/><circle cx=\"150\" cy=\"140\" r=\"112\" fill=\"#e7c9a3\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"140\" r=\"61.2\" fill=\"#d9822b\" stroke=\"#203746\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"140.0\" x2=\"262.0\" y2=\"140.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><circle cx=\"150.0\" cy=\"140.0\" r=\"3.5\" fill=\"#203746\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"268.0\" y=\"145.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">6 370 km</text><line x1=\"150.0\" y1=\"140.0\" x2=\"88.8\" y2=\"140.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"121.4\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3 480 km</text><line x1=\"310.0\" y1=\"70.0\" x2=\"177.7\" y2=\"107.8\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"170.0,110.0 176.7,104.3 178.7,111.3\" fill=\"#526777\"/><text x=\"314.0\" y=\"66.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">kärna</text><text x=\"314.0\" y=\"84.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">densitet ?</text><line x1=\"310.0\" y1=\"210.0\" x2=\"239.9\" y2=\"199.2\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"232.0,198.0 240.5,195.7 239.4,202.8\" fill=\"#526777\"/><text x=\"314.0\" y=\"206.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">mantel</text><text x=\"314.0\" y=\"224.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">4 500 kg/m³</text></svg></span><p>Hur många procent av jordens volym är kärna?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&R=6\\,370\\ \\mathrm{km}\\\\&r=3\\,480\\ \\mathrm{km}\\end{aligned}\\]</div><p>Sökt: hur stor del av jordens volym som är kärna.</p></li><li><p class=\"facit-rubrik\">Klotets volym: \\(V=\\dfrac{4\\pi r^3}{3}\\)</p><p>Kärnans andel är kärnans volym delad med hela jordens volym. Faktorn 4π/3 förkortas bort.</p><div class=\"facit-matte\">\\[\\frac{V_{\\text{kärna}}}{V_{\\text{jord}}}=\\frac{\\frac{4\\pi r^3}{3}}{\\frac{4\\pi R^3}{3}}=\\left(\\frac rR\\right)^3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in radierna</p><div class=\"facit-matte\">\\[\\left(\\frac{3\\,480}{6\\,370}\\right)^3\\approx0{,}1630\\]</div><p>Enheterna tar ut varandra, så radierna kan sättas in i km.</p></li><li><p class=\"facit-rubrik\">Volymprocent: \\(\\dfrac{V_{\\text{kärna}}}{V_{\\text{jord}}}\\cdot100\\,\\%\\)</p><div class=\"facit-matte\">\\[0{,}1630\\cdot100\\,\\%\\approx16{,}3\\,\\%\\]</div><p>Kärnan sträcker sig mer än halvvägs ut, men den är ändå bara ungefär en sjättedel av volymen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16,3 %.</p></div>",
+        "ledtrad": "<p>Hur beror ett klots volym på radien? Jämför kärnans volym med hela jordens.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Kärnan är 16,3 % av jordens volym. Vilken medeldensitet har kärnan enligt modellen?",
+        "t": "<p>I en enkel modell består jorden av en kärna och en mantel runt kärnan, se figuren. Jorden har radien 6 370 km och kärnan radien 3 480 km. Jordens medeldensitet är 5 510 kg/m³ och mantelns medeldensitet är 4 500 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 270\" width=\"440\" height=\"270\" role=\"img\" aria-label=\"Genomskärning av jorden i en enkel modell: en kärna med radien 3 480 km och en mantel ut till radien 6 370 km. Manteln har densiteten 4 500 kg/m³. Kärnans densitet är okänd.\" style=\"max-width:100%;height:auto\"><title>Genomskärning av jorden i en enkel modell: en kärna med radien 3 480 km och en mantel ut till radien 6 370 km. Manteln har densiteten 4 500 kg/m³. Kärnans densitet är okänd.</title><rect width=\"440\" height=\"270\" fill=\"#fff\"/><circle cx=\"150\" cy=\"140\" r=\"112\" fill=\"#e7c9a3\" stroke=\"#203746\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"140\" r=\"61.2\" fill=\"#d9822b\" stroke=\"#203746\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"140.0\" x2=\"262.0\" y2=\"140.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><circle cx=\"150.0\" cy=\"140.0\" r=\"3.5\" fill=\"#203746\" stroke=\"#203746\" stroke-width=\"1\"/><text x=\"268.0\" y=\"145.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">6 370 km</text><line x1=\"150.0\" y1=\"140.0\" x2=\"88.8\" y2=\"140.0\" stroke=\"#203746\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"121.4\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3 480 km</text><line x1=\"310.0\" y1=\"70.0\" x2=\"177.7\" y2=\"107.8\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"170.0,110.0 176.7,104.3 178.7,111.3\" fill=\"#526777\"/><text x=\"314.0\" y=\"66.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">kärna</text><text x=\"314.0\" y=\"84.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">densitet ?</text><line x1=\"310.0\" y1=\"210.0\" x2=\"239.9\" y2=\"199.2\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"232.0,198.0 240.5,195.7 239.4,202.8\" fill=\"#526777\"/><text x=\"314.0\" y=\"206.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">mantel</text><text x=\"314.0\" y=\"224.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\">4 500 kg/m³</text></svg></span><p>Kärnan är 16,3 % av jordens volym. Vilken medeldensitet har kärnan enligt modellen?</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&\\rho_{\\text{jord}}=5\\,510\\ \\mathrm{kg/m^3}\\\\&\\rho_{\\text{mantel}}=4\\,500\\ \\mathrm{kg/m^3}\\end{aligned}\\]</div><p>Kärnan är 16,3 % av jordens volym, så manteln är 83,7 %.</p><p>Sökt: kärnans medeldensitet.</p></li><li><p class=\"facit-rubrik\">Tänk dig 1 m³ av jorden</p><p>Den består av 0,163 m³ kärna och 0,837 m³ mantel, och den väger 5 510 kg.</p></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Jordens massa är kärnans massa plus mantelns massa.</p><div class=\"facit-matte\">\\[5\\,510=\\rho_{\\text{kärna}}\\cdot0{,}163+4\\,500\\cdot0{,}837\\]</div></li><li><p class=\"facit-rubrik\">Lös ut kärnans densitet</p><div class=\"facit-matte\">\\[\\begin{aligned}&0{,}163\\,\\rho_{\\text{kärna}}=5\\,510-3766{,}5\\\\&\\rho_{\\text{kärna}}=\\frac{1743{\\,}5}{0{\\,}163}\\approx10\\,696\\ \\mathrm{kg/m^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Är svaret rimligt?</p><p>Kärnan får mer än dubbelt så stor densitet som manteln och ungefär fyra gånger så stor som vanligt berg (cirka 2 700 kg/m³). Det stämmer med att kärnan till största delen är järn och nickel, som pressas ihop av det höga trycket djupt inne i jorden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,1·10⁴ kg/m³, alltså cirka 11 000 kg/m³.</p></div>",
+        "ledtrad": "<p>Tänk dig 1 m³ av jorden. Hur mycket av den kubikmetern är mantel, och vad väger den delen?</p>",
+        "niva": "A",
+        "poang": "(0/0/2)",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      }
+    ],
+    "typ": "bestämma kärnans densitet ur jordens medeldensitet i en tvåskiktsmodell"
+  },
+  {
+    "id": "2.370",
+    "kap": 2,
+    "omr": "densitet",
+    "familj": "Densitet, flytförmåga och modeller",
+    "familjNyckel": "densitet__densitet_och_flytformaga",
+    "niva": "A",
+    "poang": "(0/1/2)",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Ett fiskeflöte är gjort av balsaträ med en liten blyvikt längst ner. Hela flötet har volymen 12,0 cm³. Flötet ska flyta upprätt med 80 % av sin volym under vattenytan, se figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 226\" width=\"420\" height=\"226\" role=\"img\" aria-label=\"Ett fiskeflöte av balsaträ med en liten blyvikt längst ner flyter upprätt i vatten. 80 procent av flötets volym är under vattenytan.\" style=\"max-width:100%;height:auto\"><title>Ett fiskeflöte av balsaträ med en liten blyvikt längst ner flyter upprätt i vatten. 80 procent av flötets volym är under vattenytan.</title><rect width=\"420\" height=\"226\" fill=\"#fff\"/><rect x=\"20\" y=\"96\" width=\"380\" height=\"120\" fill=\"#cfe6f5\"/><line x1=\"20.0\" y1=\"96.0\" x2=\"400.0\" y2=\"96.0\" stroke=\"#0b6fa4\" stroke-width=\"2\"/><rect x=\"196\" y=\"71.0\" width=\"28\" height=\"115.0\" rx=\"12\" fill=\"#f2dcb3\" stroke=\"#203746\" stroke-width=\"2\"/><rect x=\"202\" y=\"178.0\" width=\"16\" height=\"18\" rx=\"3\" fill=\"#7d8a95\" stroke=\"#203746\" stroke-width=\"1.5\"/><line x1=\"210.0\" y1=\"49.0\" x2=\"210.0\" y2=\"71.0\" stroke=\"#203746\" stroke-width=\"1.4\"/><line x1=\"250.0\" y1=\"96.0\" x2=\"250.0\" y2=\"196.0\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><line x1=\"244.0\" y1=\"96.0\" x2=\"256.0\" y2=\"96.0\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><line x1=\"244.0\" y1=\"196.0\" x2=\"256.0\" y2=\"196.0\" stroke=\"#b25c17\" stroke-width=\"1.6\"/><text x=\"262.0\" y=\"150.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">80 % av volymen</text><text x=\"262.0\" y=\"166.0\" fill=\"#b25c17\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">under ytan</text><line x1=\"150.0\" y1=\"60.0\" x2=\"186.2\" y2=\"68.2\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"194.0,70.0 185.4,71.7 187.0,64.7\" fill=\"#526777\"/><text x=\"146.0\" y=\"58.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">balsaträ</text><line x1=\"150.0\" y1=\"190.0\" x2=\"192.0\" y2=\"188.3\" stroke=\"#526777\" stroke-width=\"2\"/><polygon points=\"200.0,188.0 192.2,191.9 191.9,184.7\" fill=\"#526777\"/><text x=\"146.0\" y=\"194.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">bly</text></svg></span><p>Balsaträ har densiteten 0,16 g/cm³, bly 11,3 g/cm³ och vatten 1,00 g/cm³.</p><p>Hur stor massa ska blyvikten ha?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&V=12{,}0\\ \\mathrm{cm^3}\\\\&\\rho_{\\text{balsa}}=0{,}16\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{bly}}=11{,}3\\ \\mathrm{g/cm^3}\\\\&\\rho_{\\text{vatten}}=1{,}00\\ \\mathrm{g/cm^3}\\end{aligned}\\]</div><p>Sökt: blyviktens massa.</p></li><li><p class=\"facit-rubrik\">Nedsänkt andel: \\(\\dfrac{V_{\\text{under}}}{V}=\\dfrac{\\rho}{\\rho_{\\text{vatten}}}\\)</p><p>När flötet flyter stilla är lyftkraften lika stor som tyngden. Då är den nedsänkta andelen lika med kvoten mellan flötets medeldensitet och vattnets densitet.</p><div class=\"facit-matte\">\\[\\rho=0{,}80\\cdot1{,}00=0{,}80\\ \\mathrm{g/cm^3}\\]</div></li><li><p class=\"facit-rubrik\">Flötets massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=0{,}80\\cdot12{,}0=9{,}6\\ \\mathrm g\\]</div></li><li><p class=\"facit-rubrik\">Massorna adderas: \\(m=m_{\\text{bly}}+m_{\\text{balsa}}\\)</p><p>Låt \\(V_{\\text{bly}}\\) vara blyets volym i cm³. Då är balsaträets volym \\(12{,}0-V_{\\text{bly}}\\) cm³.</p><div class=\"facit-matte\">\\[11{,}3V_{\\text{bly}}+0{,}16(12{,}0-V_{\\text{bly}})=9{,}6\\]</div></li><li><p class=\"facit-rubrik\">Lös ut blyets volym</p><div class=\"facit-matte\">\\[\\begin{aligned}&11{,}14V_{\\text{bly}}+1{,}92=9{,}6\\\\&V_{\\text{bly}}=\\frac{7{,}68}{11{,}14}\\approx0{,}689\\ \\mathrm{cm^3}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Blyviktens massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m_{\\text{bly}}=11{,}3\\cdot0{,}689\\approx7{,}8\\ \\mathrm g\\]</div><p>Balsaträet väger då 9,6 − 7,8 ≈ 1,8 g. Blyvikten är alltså tyngre än allt trä i flötet, fast den bara är en liten del av volymen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,8 g.</p></div>",
+    "ledtrad": "<p>Vilken medeldensitet måste flötet ha för att 80 % av volymen ska vara under vattenytan? Vad väger då hela flötet?</p>",
+    "rättSvar": 7.790305206463198,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.05,
+    "svarEnhet": "g",
+    "svarVardesiffror": 2,
+    "typ": "bestämma blyviktens massa så att ett flöte flyter med en given andel under ytan"
   }
 ];

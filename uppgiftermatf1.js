@@ -24450,7 +24450,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "tecken på tillväxt",
     "poang": "2/0/0",
-    "t": "<p>För \\(y'=y(10-y)\\), avgör tecknet på \\(y'\\) när \\(y=4\\) respektive \\(y=12\\).</p>",
+    "t": "<p>För \\(y'=y(10-y)\\), avgör om \\(y'\\) är positiv eller negativ när \\(y=4\\) respektive \\(y=12\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna tecknet vid y=4</p>\\[y^{\\prime}=4(10-4)=24\\gt0\\]</li><li><p class=\"facit-rubrik\">Beräkna tecknet vid y=12</p>\\[y^{\\prime}=12(10-12)=-24\\lt0\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Positiv vid y=4 och negativ vid y=12.</p></div>",
     "id": "4.90",
     "miniräknare": true,

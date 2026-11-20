@@ -1597,7 +1597,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Bråk som andel av en andel"
     ],
-    "alternativ": [{"txt": "\\(\\frac34+\\frac23\\)", "ratt": false}, {"txt": "\\(\\frac34\\cdot\\frac23\\)", "ratt": true}, {"txt": "\\(\\frac34\\div\\frac23\\)", "ratt": false}, {"txt": "\\(\\frac23\\div\\frac34\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(\\frac34+\\frac23\\)", "ratt": false, "kommentar": "”Av” betyder gånger, inte plus."}, {"txt": "\\(\\frac34\\cdot\\frac23\\)", "ratt": true}, {"txt": "\\(\\frac34\\div\\frac23\\)", "ratt": false, "kommentar": "”Av” betyder gånger, inte delat med."}, {"txt": "\\(\\frac23\\div\\frac34\\)", "ratt": false, "kommentar": "”Av” betyder gånger, inte delat med."}]
   },
   {
     "id": "0.37",
@@ -2586,7 +2586,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Felanalys vid addition"
     ],
-    "alternativ": [{"txt": "Gör täljarna lika genom förlängning och addera sedan nämnarna.", "ratt": false}, {"txt": "Behåll båda täljarna, addera dem och multiplicera sedan nämnarna.", "ratt": false}, {"txt": "Gör nämnarna lika genom förlängning och addera sedan täljarna.", "ratt": true}, {"txt": "Vänd först båda bråken, addera täljarna och addera sedan nämnarna.", "ratt": false}]
+    "alternativ": [{"txt": "Gör täljarna lika genom förlängning och addera sedan nämnarna.", "ratt": false, "kommentar": "Det är nämnarna som ska göras lika, och nämnaren ska inte adderas."}, {"txt": "Behåll båda täljarna, addera dem och multiplicera sedan nämnarna.", "ratt": false, "kommentar": "Täljarna måste också förlängas innan de adderas."}, {"txt": "Gör nämnarna lika genom förlängning och addera sedan täljarna.", "ratt": true}, {"txt": "Vänd först båda bråken, addera täljarna och addera sedan nämnarna.", "ratt": false, "kommentar": "Bråken ska inte vändas vid addition, och nämnarna ska inte adderas."}]
   },
   {
     "id": "0.61",
@@ -2739,7 +2739,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Välja räknesätt"
     ],
-    "alternativ": [{"txt": "division", "ratt": true}, {"txt": "subtraktion", "ratt": false}, {"txt": "multiplikation", "ratt": false}, {"txt": "addition", "ratt": false}]
+    "alternativ": [{"txt": "division", "ratt": true}, {"txt": "subtraktion", "ratt": false, "kommentar": "2/3 är mindre än 3/4, så skillnaden blir negativ."}, {"txt": "multiplikation", "ratt": false, "kommentar": "2/3 · 3/4 = 6/12 = 1/2, inte 8/9."}, {"txt": "addition", "ratt": false, "kommentar": "Summan blir större än 1, men 8/9 är mindre än 1."}]
   },
   {
     "id": "0.64",
@@ -2871,7 +2871,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Bedöma svarets storlek"
     ],
-    "alternativ": [{"txt": "Produkten är mindre; kvoten är mindre.", "ratt": false}, {"txt": "Produkten är mindre; kvoten är större.", "ratt": true}, {"txt": "Produkten är större; kvoten är mindre.", "ratt": false}, {"txt": "Produkten är större; kvoten är större.", "ratt": false}]
+    "alternativ": [{"txt": "Produkten är mindre; kvoten är mindre.", "ratt": false, "kommentar": "Att dela med ett tal mindre än 1 ger ett större resultat."}, {"txt": "Produkten är mindre; kvoten är större.", "ratt": true}, {"txt": "Produkten är större; kvoten är mindre.", "ratt": false, "kommentar": "Det är omvänt. Att multiplicera med 2/5 ger mindre, och att dela med 2/5 ger mer."}, {"txt": "Produkten är större; kvoten är större.", "ratt": false, "kommentar": "Att multiplicera med ett tal mindre än 1 ger ett mindre resultat."}]
   },
   {
     "id": "0.67",
@@ -4273,7 +4273,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Analysera en felaktig räkneregel"
     ],
-    "alternativ": [{"txt": "Det ligger under båda, eller är lika med båda.", "ratt": false}, {"txt": "Det ligger över båda, eller är lika med båda.", "ratt": false}, {"txt": "Det ligger mellan båda, eller är lika med båda.", "ratt": true}, {"txt": "Det är summan av båda, även när de är lika.", "ratt": false}]
+    "alternativ": [{"txt": "Det ligger under båda, eller är lika med båda.", "ratt": false, "kommentar": "Pröva 1/2 och 1/3: (1 + 1)/(2 + 3) = 2/5, som ligger mellan dem."}, {"txt": "Det ligger över båda, eller är lika med båda.", "ratt": false, "kommentar": "Pröva 1/2 och 1/3: (1 + 1)/(2 + 3) = 2/5, som ligger mellan dem."}, {"txt": "Det ligger mellan båda, eller är lika med båda.", "ratt": true}, {"txt": "Det är summan av båda, även när de är lika.", "ratt": false, "kommentar": "Pröva 1/2 och 1/2: (1 + 1)/(2 + 2) = 1/2, inte 1."}]
   },
   {
     "id": "0.97",
@@ -4855,7 +4855,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Positionsvärde i decimaltal"
     ],
-    "alternativ": [{"txt": "Svaret är 0,4600 eftersom varje siffras värde ska vara oförändrat.", "ratt": false}, {"txt": "Svaret är 4,6 eftersom varje siffras värde ska bli tio gånger så stort.", "ratt": false}, {"txt": "Svaret är 0,0046 eftersom varje siffras värde ska bli hundra gånger så litet.", "ratt": false}, {"txt": "Svaret är 46 eftersom varje siffras värde ska bli hundra gånger så stort.", "ratt": true}]
+    "alternativ": [{"txt": "Svaret är 0,4600 eftersom varje siffras värde ska vara oförändrat.", "ratt": false, "kommentar": "Att multiplicera med 100 gör varje siffra hundra gånger så stor. Fler nollor sist ändrar inget."}, {"txt": "Svaret är 4,6 eftersom varje siffras värde ska bli tio gånger så stort.", "ratt": false, "kommentar": "Varje siffra ska bli hundra gånger så stor, inte tio gånger."}, {"txt": "Svaret är 0,0046 eftersom varje siffras värde ska bli hundra gånger så litet.", "ratt": false, "kommentar": "Att multiplicera med 100 ger ett större tal, inte ett mindre."}, {"txt": "Svaret är 46 eftersom varje siffras värde ska bli hundra gånger så stort.", "ratt": true}]
   },
   {
     "id": "0.107",
@@ -7858,7 +7858,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "alternativ": [{"txt": "15,1 är rätt eftersom varje avrundning måste höja talets värde.", "ratt": false}, {"txt": "15,1 är rätt eftersom tusendelssiffran i ursprungstalet är 9.", "ratt": false}, {"txt": "15,0 är rätt eftersom hundradelssiffran i ursprungstalet är 4.", "ratt": true}, {"txt": "15,0 är rätt eftersom man alltid ska ta bort de sista siffrorna.", "ratt": false}]
+    "alternativ": [{"txt": "15,1 är rätt eftersom varje avrundning måste höja talets värde.", "ratt": false, "kommentar": "En avrundning kan också sänka värdet."}, {"txt": "15,1 är rätt eftersom tusendelssiffran i ursprungstalet är 9.", "ratt": false, "kommentar": "Det är bara siffran direkt efter den sista kvarvarande siffran som avgör, alltså hundradelssiffran 4."}, {"txt": "15,0 är rätt eftersom hundradelssiffran i ursprungstalet är 4.", "ratt": true}, {"txt": "15,0 är rätt eftersom man alltid ska ta bort de sista siffrorna.", "ratt": false, "kommentar": "Man tittar på siffran efter, och avrundar uppåt om den är 5 eller mer."}]
   },
   {
     "id": "0.187",
@@ -7975,7 +7975,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "98 490", "ratt": false}, {"txt": "98 750", "ratt": true}, {"txt": "99 501", "ratt": false}, {"txt": "99 500", "ratt": false}]
+    "alternativ": [{"txt": "98 490", "ratt": false, "kommentar": "98 490 avrundas till 98 000."}, {"txt": "98 750", "ratt": true}, {"txt": "99 501", "ratt": false, "kommentar": "99 501 avrundas till 100 000."}, {"txt": "99 500", "ratt": false, "kommentar": "99 500 avrundas till 100 000."}]
   },
   {
     "id": "0.191",
@@ -8035,7 +8035,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "alternativ": [{"txt": "Hur många nollor det avrundade talet innehåller.", "ratt": false}, {"txt": "Vilken siffra det avrundade talet börjar med.", "ratt": false}, {"txt": "Vilken noggrannhet talet avrundades till.", "ratt": true}, {"txt": "Om det avrundade talet är jämnt eller udda.", "ratt": false}]
+    "alternativ": [{"txt": "Hur många nollor det avrundade talet innehåller.", "ratt": false, "kommentar": "Antalet nollor visar inte säkert hur talet avrundades. 1 250 kan vara avrundat till tiotal."}, {"txt": "Vilken siffra det avrundade talet börjar med.", "ratt": false, "kommentar": "Första siffran säger inget om avrundningen."}, {"txt": "Vilken noggrannhet talet avrundades till.", "ratt": true}, {"txt": "Om det avrundade talet är jämnt eller udda.", "ratt": false, "kommentar": "Om talet är jämnt eller udda säger inget om avrundningen."}]
   },
   {
     "id": "0.193",
@@ -9194,7 +9194,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Areaenheter"
     ],
-    "alternativ": [{"txt": "250 cm², eftersom 1 m² = 100 cm².", "ratt": false}, {"txt": "2 500 cm², eftersom 1 m² = 1 000 cm².", "ratt": false}, {"txt": "250 000 cm², eftersom 1 m² = 100 000 cm².", "ratt": false}, {"txt": "25 000 cm², eftersom 1 m² = 10 000 cm².", "ratt": true}]
+    "alternativ": [{"txt": "250 cm², eftersom 1 m² = 100 cm².", "ratt": false, "kommentar": "1 m² är 100 cm · 100 cm = 10 000 cm², inte 100 cm²."}, {"txt": "2 500 cm², eftersom 1 m² = 1 000 cm².", "ratt": false, "kommentar": "1 m² är 100 cm · 100 cm = 10 000 cm², inte 1 000 cm²."}, {"txt": "250 000 cm², eftersom 1 m² = 100 000 cm².", "ratt": false, "kommentar": "1 m² är 100 cm · 100 cm = 10 000 cm², inte 100 000 cm²."}, {"txt": "25 000 cm², eftersom 1 m² = 10 000 cm².", "ratt": true}]
   },
   {
     "id": "0.229",
@@ -12067,7 +12067,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Grundläggande bråkräkning"
     ],
-    "alternativ": [{"txt": "De är lika stora", "ratt": false}, {"txt": "\\(\\frac59\\)", "ratt": false}, {"txt": "\\(\\frac57\\)", "ratt": true}]
+    "alternativ": [{"txt": "De är lika stora", "ratt": false, "kommentar": "Täljarna är lika men nämnarna olika, så bråken är olika stora."}, {"txt": "\\(\\frac59\\)", "ratt": false, "kommentar": "Niondelar är mindre bitar än sjundedelar, så 5/9 är mindre."}, {"txt": "\\(\\frac57\\)", "ratt": true}]
   },
   {
     "id": "0.308",
@@ -12180,7 +12180,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Enheternas betydelse"
     ],
-    "alternativ": [{"txt": "100 + 100 = 200", "ratt": false}, {"txt": "100 · 100 · 100 = 1 000 000", "ratt": false}, {"txt": "1 · 100 = 100", "ratt": false}, {"txt": "100 · 100 = 10 000", "ratt": true}]
+    "alternativ": [{"txt": "100 + 100 = 200", "ratt": false, "kommentar": "Rutorna bildar 100 rader med 100 rutor i varje, så antalen ska multipliceras."}, {"txt": "100 · 100 · 100 = 1 000 000", "ratt": false, "kommentar": "En area har två dimensioner, så det blir 100 · 100, inte 100 · 100 · 100."}, {"txt": "1 · 100 = 100", "ratt": false, "kommentar": "Det är bara en rad med rutor. Det behövs 100 sådana rader."}, {"txt": "100 · 100 = 10 000", "ratt": true}]
   },
   {
     "id": "0.311",
@@ -12279,7 +12279,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Decimal tid och klocktid"
     ],
-    "alternativ": [{"txt": "2 h 5 min", "ratt": false}, {"txt": "2 h 50 min", "ratt": false}, {"txt": "2 h 25 min", "ratt": false}, {"txt": "2 h 30 min", "ratt": true}]
+    "alternativ": [{"txt": "2 h 5 min", "ratt": false, "kommentar": "0,5 h är en halv timme, alltså 30 min, inte 5 min."}, {"txt": "2 h 50 min", "ratt": false, "kommentar": "0,5 h är en halv timme, alltså 30 min, inte 50 min."}, {"txt": "2 h 25 min", "ratt": false, "kommentar": "0,5 h är en halv timme, alltså 30 min, inte 25 min."}, {"txt": "2 h 30 min", "ratt": true}]
   },
   {
     "id": "0.314",
@@ -13844,7 +13844,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Enheternas betydelse"
     ],
-    "alternativ": [{"txt": "15 mm", "ratt": false}, {"txt": "15 km", "ratt": false}, {"txt": "15 m", "ratt": false}, {"txt": "15 cm", "ratt": true}]
+    "alternativ": [{"txt": "15 mm", "ratt": false, "kommentar": "15 mm = 1,5 cm, ungefär som en nagel."}, {"txt": "15 km", "ratt": false, "kommentar": "15 km är en lång cykeltur."}, {"txt": "15 m", "ratt": false, "kommentar": "15 m är längre än en buss."}, {"txt": "15 cm", "ratt": true}]
   },
   {
     "id": "0.501",
@@ -13976,7 +13976,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Enheternas betydelse"
     ],
-    "alternativ": [{"txt": "Längden blir 1 000 gånger större; talvärdet är oförändrat.", "ratt": false}, {"txt": "Längden är oförändrad; talvärdet blir 1 000 gånger större.", "ratt": true}, {"txt": "Längden är oförändrad; talvärdet blir 1 000 gånger mindre.", "ratt": false}, {"txt": "Längden blir 1 000 gånger mindre; talvärdet är oförändrat.", "ratt": false}]
+    "alternativ": [{"txt": "Längden blir 1 000 gånger större; talvärdet är oförändrat.", "ratt": false, "kommentar": "Längden är densamma. Det är bara talet och enheten som ändras."}, {"txt": "Längden är oförändrad; talvärdet blir 1 000 gånger större.", "ratt": true}, {"txt": "Längden är oförändrad; talvärdet blir 1 000 gånger mindre.", "ratt": false, "kommentar": "Meter är en mindre enhet än kilometer, så det behövs fler meter. Talvärdet blir större."}, {"txt": "Längden blir 1 000 gånger mindre; talvärdet är oförändrat.", "ratt": false, "kommentar": "Längden är densamma. Det är bara talet och enheten som ändras."}]
   },
   {
     "id": "0.505",
@@ -14274,7 +14274,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Enheternas betydelse"
     ],
-    "alternativ": [{"txt": "0,6 kg; 55 g; 650 g", "ratt": false}, {"txt": "650 g; 0,6 kg; 55 g", "ratt": false}, {"txt": "55 g; 650 g; 0,6 kg", "ratt": false}, {"txt": "55 g; 0,6 kg; 650 g", "ratt": true}]
+    "alternativ": [{"txt": "0,6 kg; 55 g; 650 g", "ratt": false, "kommentar": "0,6 kg = 600 g, som är större än 55 g."}, {"txt": "650 g; 0,6 kg; 55 g", "ratt": false, "kommentar": "650 g är störst, så det kan inte stå först."}, {"txt": "55 g; 650 g; 0,6 kg", "ratt": false, "kommentar": "0,6 kg = 600 g, som är mindre än 650 g."}, {"txt": "55 g; 0,6 kg; 650 g", "ratt": true}]
   },
   {
     "id": "0.514",
@@ -15647,7 +15647,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Förklara volymenheter"
     ],
-    "alternativ": [{"txt": "En meter är 10 dm, så kuben rymmer 10 + 10 + 10 liter.", "ratt": false}, {"txt": "En meter är 10 dm, så kuben rymmer 10 · 10 · 10 liter.", "ratt": true}, {"txt": "En meter är 100 cm, så kuben rymmer 100 · 100 liter.", "ratt": false}, {"txt": "En meter är 100 cm, så kuben rymmer 100 + 100 liter.", "ratt": false}]
+    "alternativ": [{"txt": "En meter är 10 dm, så kuben rymmer 10 + 10 + 10 liter.", "ratt": false, "kommentar": "Volymen beräknas med multiplikation, inte addition."}, {"txt": "En meter är 10 dm, så kuben rymmer 10 · 10 · 10 liter.", "ratt": true}, {"txt": "En meter är 100 cm, så kuben rymmer 100 · 100 liter.", "ratt": false, "kommentar": "En kub har tre dimensioner, och 100 · 100 · 100 cm³ är inte liter."}, {"txt": "En meter är 100 cm, så kuben rymmer 100 + 100 liter.", "ratt": false, "kommentar": "Volymen beräknas med multiplikation, inte addition."}]
   },
   {
     "id": "0.555",
@@ -15995,7 +15995,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Enheternas betydelse"
     ],
-    "alternativ": [{"txt": "1 l", "ratt": false}, {"txt": "1 dl", "ratt": false}, {"txt": "1 ml", "ratt": true}, {"txt": "1 m³", "ratt": false}]
+    "alternativ": [{"txt": "1 l", "ratt": false, "kommentar": "1 l = 1 000 cm³."}, {"txt": "1 dl", "ratt": false, "kommentar": "1 dl = 100 cm³."}, {"txt": "1 ml", "ratt": true}, {"txt": "1 m³", "ratt": false, "kommentar": "1 m³ = 1 000 000 cm³."}]
   },
   {
     "id": "0.565",
@@ -16295,7 +16295,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Förklara sammansatta enheter"
     ],
-    "alternativ": [{"txt": "Massans talvärde delas med 1 000 och volymens med 1 000 000.", "ratt": false}, {"txt": "Massans talvärde multipliceras med 1 000 och volymens med 1 000 000.", "ratt": true}, {"txt": "Massans talvärde multipliceras med 1 000 och volymens med 1 000.", "ratt": false}, {"txt": "Massans talvärde delas med 1 000 och volymens med 1 000.", "ratt": false}]
+    "alternativ": [{"txt": "Massans talvärde delas med 1 000 och volymens med 1 000 000.", "ratt": false, "kommentar": "1 kg = 1 000 g, så massans talvärde ska bli större, inte mindre."}, {"txt": "Massans talvärde multipliceras med 1 000 och volymens med 1 000 000.", "ratt": true}, {"txt": "Massans talvärde multipliceras med 1 000 och volymens med 1 000.", "ratt": false, "kommentar": "1 m³ = 1 000 000 cm³, inte 1 000 cm³."}, {"txt": "Massans talvärde delas med 1 000 och volymens med 1 000.", "ratt": false, "kommentar": "1 kg = 1 000 g och 1 m³ = 1 000 000 cm³, så båda talvärdena ska bli större."}]
   },
   {
     "id": "0.574",
@@ -23045,7 +23045,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra förhållanden"
     ],
-    "alternativ": [{"txt": "Blandning A", "ratt": true}, {"txt": "Blandning B", "ratt": false}]
+    "alternativ": [{"txt": "Blandning A", "ratt": true}, {"txt": "Blandning B", "ratt": false, "kommentar": "A har andelen 2/9 ≈ 22 %, och B har andelen 3/14 ≈ 21 %."}]
   },
   {
     "id": "0.769",
@@ -24070,7 +24070,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Skriva proportionalitetsuttryck"
     ],
-    "alternativ": [{"txt": "\\(y=12{,}5x\\)", "ratt": false}, {"txt": "\\(y=5x+2{,}5\\)", "ratt": false}, {"txt": "\\(y=2{,}5x\\)", "ratt": true}, {"txt": "\\(y=x+7{,}5\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y=12{,}5x\\)", "ratt": false, "kommentar": "Pröva x = 5: 12,5 · 5 = 62,5, inte 12,5."}, {"txt": "\\(y=5x+2{,}5\\)", "ratt": false, "kommentar": "Ett proportionellt samband har inget konstant tillägg. Grafen går genom origo."}, {"txt": "\\(y=2{,}5x\\)", "ratt": true}, {"txt": "\\(y=x+7{,}5\\)", "ratt": false, "kommentar": "Ett proportionellt samband har inget konstant tillägg. Grafen går genom origo."}]
   },
   {
     "id": "0.801",
@@ -24102,7 +24102,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Avgöra om ett samband är proportionellt"
     ],
-    "alternativ": [{"txt": "Tabell A", "ratt": true}, {"txt": "Tabell B", "ratt": false}]
+    "alternativ": [{"txt": "Tabell A", "ratt": true}, {"txt": "Tabell B", "ratt": false, "kommentar": "I tabell B är kvoten y/x inte konstant: 7/2 = 3,5 men 13/4 = 3,25."}]
   },
   {
     "id": "0.802",
@@ -24199,7 +24199,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra proportionalitetskonstanter"
     ],
-    "alternativ": [{"txt": "Butik A", "ratt": false}, {"txt": "Butik B", "ratt": true}]
+    "alternativ": [{"txt": "Butik A", "ratt": false, "kommentar": "A kostar 72/3 = 24 kr/kg och B kostar 115/5 = 23 kr/kg."}, {"txt": "Butik B", "ratt": true}]
   },
   {
     "id": "0.805",
@@ -24760,7 +24760,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "a är antalet termer, som här är 6.", "ratt": false}, {"txt": "a är ett räknesätt som här betyder plus.", "ratt": false}, {"txt": "a är ett tal som här har värdet 6.", "ratt": true}, {"txt": "a är hela svaret, som här är 17.", "ratt": false}]
+    "alternativ": [{"txt": "a är antalet termer, som här är 6.", "ratt": false, "kommentar": "a är ett tal i uttrycket, inte ett antal termer."}, {"txt": "a är ett räknesätt som här betyder plus.", "ratt": false, "kommentar": "a är ett tal, inte ett räknesätt."}, {"txt": "a är ett tal som här har värdet 6.", "ratt": true}, {"txt": "a är hela svaret, som här är 17.", "ratt": false, "kommentar": "17 är värdet på hela uttrycket. a är bara 6."}]
   },
   {
     "id": "1.14",
@@ -24862,7 +24862,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(8x\\)", "ratt": false}, {"txt": "\\(15x\\)", "ratt": false}, {"txt": "\\(5(x+3)\\)", "ratt": false}, {"txt": "\\(3+5x\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(8x\\)", "ratt": false, "kommentar": "5x och 3 är inte samma sorts termer, så de kan inte läggas ihop."}, {"txt": "\\(15x\\)", "ratt": false, "kommentar": "5x och 3 ska adderas, inte multipliceras."}, {"txt": "\\(5(x+3)\\)", "ratt": false, "kommentar": "5(x + 3) = 5x + 15, inte 5x + 3."}, {"txt": "\\(3+5x\\)", "ratt": true}]
   },
   {
     "id": "1.16",
@@ -25052,7 +25052,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Parentesräkning"
     ],
-    "alternativ": [{"txt": "Båda termerna ska ökas med 4, vilket ger x + 11.", "ratt": false}, {"txt": "Bara x-termen ska multipliceras med 4, vilket ger 4x + 3.", "ratt": false}, {"txt": "Båda termerna ska multipliceras med 4, vilket ger 4x + 12.", "ratt": true}, {"txt": "Bara konstanten ska multipliceras med 4, vilket ger x + 12.", "ratt": false}]
+    "alternativ": [{"txt": "Båda termerna ska ökas med 4, vilket ger x + 11.", "ratt": false, "kommentar": "4 ska multipliceras, inte adderas."}, {"txt": "Bara x-termen ska multipliceras med 4, vilket ger 4x + 3.", "ratt": false, "kommentar": "Det är så Jamal har gjort, och det är fel. Båda termerna ska multipliceras med 4."}, {"txt": "Båda termerna ska multipliceras med 4, vilket ger 4x + 12.", "ratt": true}, {"txt": "Bara konstanten ska multipliceras med 4, vilket ger x + 12.", "ratt": false, "kommentar": "Båda termerna ska multipliceras med 4, även x."}]
   },
   {
     "id": "1.20",
@@ -25578,7 +25578,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Formler"
     ],
-    "alternativ": [{"txt": "\\(b=(P-l)/2\\)", "ratt": false}, {"txt": "\\(b=P-2l\\)", "ratt": false}, {"txt": "\\(b=P/2-2l\\)", "ratt": false}, {"txt": "\\(b=P/2-l\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(b=(P-l)/2\\)", "ratt": false, "kommentar": "Det är 2l som ska dras från P, inte l."}, {"txt": "\\(b=P-2l\\)", "ratt": false, "kommentar": "Efter P − 2l = 2b måste båda leden också delas med 2."}, {"txt": "\\(b=P/2-2l\\)", "ratt": false, "kommentar": "När P − 2l delas med 2 blir det P/2 − l, inte P/2 − 2l."}, {"txt": "\\(b=P/2-l\\)", "ratt": true}]
   },
   {
     "id": "1.34",
@@ -25730,7 +25730,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Formler"
     ],
-    "alternativ": [{"txt": "\\(t=E/P\\)", "ratt": true}, {"txt": "\\(t=EP\\)", "ratt": false}, {"txt": "\\(t=P/E\\)", "ratt": false}, {"txt": "\\(t=E-P\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(t=E/P\\)", "ratt": true}, {"txt": "\\(t=EP\\)", "ratt": false, "kommentar": "Dela båda leden med P. Då ska P stå i nämnaren."}, {"txt": "\\(t=P/E\\)", "ratt": false, "kommentar": "E/P ger t, inte P/E."}, {"txt": "\\(t=E-P\\)", "ratt": false, "kommentar": "P och t multipliceras. Då ska man dela, inte subtrahera."}]
   },
   {
     "id": "1.38",
@@ -25928,7 +25928,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ],
-    "alternativ": [{"txt": "Vänsterledet får alltid värdet 3 när x ersätts med 3.", "ratt": false}, {"txt": "Båda leden får samma värde när x ersätts med 3.", "ratt": true}, {"txt": "Högerledet får alltid värdet 0 när x ersätts med 3.", "ratt": false}, {"txt": "Alla x-termer försvinner när x ersätts med 3.", "ratt": false}]
+    "alternativ": [{"txt": "Vänsterledet får alltid värdet 3 när x ersätts med 3.", "ratt": false, "kommentar": "Det är inte vänsterledet som ska bli 3. Det är x som är 3."}, {"txt": "Båda leden får samma värde när x ersätts med 3.", "ratt": true}, {"txt": "Högerledet får alltid värdet 0 när x ersätts med 3.", "ratt": false, "kommentar": "Högerledet kan ha vilket värde som helst. Båda leden ska bli lika."}, {"txt": "Alla x-termer försvinner när x ersätts med 3.", "ratt": false, "kommentar": "x-termerna försvinner inte. Det är båda ledens värden som ska bli lika."}]
   },
   {
     "id": "1.45",
@@ -26094,7 +26094,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ],
-    "alternativ": [{"txt": "\\(x+6=10\\)", "ratt": false}, {"txt": "\\(3x=12\\)", "ratt": false}, {"txt": "\\(14-x=9\\)", "ratt": true}, {"txt": "\\(x/2=5\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(x+6=10\\)", "ratt": false, "kommentar": "x + 6 = 10 ger x = 4."}, {"txt": "\\(3x=12\\)", "ratt": false, "kommentar": "3x = 12 ger x = 4."}, {"txt": "\\(14-x=9\\)", "ratt": true}, {"txt": "\\(x/2=5\\)", "ratt": false, "kommentar": "x/2 = 5 ger x = 10."}]
   },
   {
     "id": "1.49",
@@ -26378,7 +26378,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "\\(-15&lt;T&lt;45\\)", "ratt": false}, {"txt": "\\(-15\\le T&lt;45\\)", "ratt": true}, {"txt": "\\(-15&lt;T\\le45\\)", "ratt": false}, {"txt": "\\(-15\\le T\\le45\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(-15&lt;T&lt;45\\)", "ratt": false, "kommentar": "−15 °C ingår, så det ska stå ≤ vid −15."}, {"txt": "\\(-15\\le T&lt;45\\)", "ratt": true}, {"txt": "\\(-15&lt;T\\le45\\)", "ratt": false, "kommentar": "Det är omvänt: −15 ingår och 45 ingår inte."}, {"txt": "\\(-15\\le T\\le45\\)", "ratt": false, "kommentar": "45 °C ingår inte, så det ska stå < vid 45."}]
   },
   {
     "id": "1.58",
@@ -26970,7 +26970,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\((-3)^2-4=-9-4=-13\\)", "ratt": false}, {"txt": "\\((-3)^2-4=-6-4=-10\\)", "ratt": false}, {"txt": "\\((-3)^2-4=9+4=13\\)", "ratt": false}, {"txt": "\\((-3)^2-4=9-4=5\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\((-3)^2-4=-9-4=-13\\)", "ratt": false, "kommentar": "(−3)² = (−3) · (−3) = 9, inte −9."}, {"txt": "\\((-3)^2-4=-6-4=-10\\)", "ratt": false, "kommentar": "(−3)² = (−3) · (−3) = 9, inte 2 · (−3)."}, {"txt": "\\((-3)^2-4=9+4=13\\)", "ratt": false, "kommentar": "−4 ska dras bort, så det blir 9 − 4."}, {"txt": "\\((-3)^2-4=9-4=5\\)", "ratt": true}]
   },
   {
     "id": "1.75",
@@ -27553,7 +27553,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(x\\)", "ratt": false}, {"txt": "\\(6\\)", "ratt": false}, {"txt": "\\(6x\\)", "ratt": true}, {"txt": "\\(3x+1\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(x\\)", "ratt": false, "kommentar": "Även 6 går att bryta ut ur båda termerna."}, {"txt": "\\(6\\)", "ratt": false, "kommentar": "Även x går att bryta ut ur båda termerna."}, {"txt": "\\(6x\\)", "ratt": true}, {"txt": "\\(3x+1\\)", "ratt": false, "kommentar": "3x + 1 är det som står kvar i parentesen, inte faktorn som brutits ut."}]
   },
   {
     "id": "1.89",
@@ -27816,7 +27816,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(4x(4x+3)\\)", "ratt": true}, {"txt": "\\(4(4x^2+3x)\\)", "ratt": false}, {"txt": "\\(x(16x+12)\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(4x(4x+3)\\)", "ratt": true}, {"txt": "\\(4(4x^2+3x)\\)", "ratt": false, "kommentar": "Även x går att bryta ut ur 4x² + 3x."}, {"txt": "\\(x(16x+12)\\)", "ratt": false, "kommentar": "Även 4 går att bryta ut ur 16x + 12."}]
   },
   {
     "id": "1.97",
@@ -27882,7 +27882,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Formler"
     ],
-    "alternativ": [{"txt": "minuter", "ratt": false}, {"txt": "timmar", "ratt": false}, {"txt": "meter", "ratt": false}, {"txt": "sekunder", "ratt": true}]
+    "alternativ": [{"txt": "minuter", "ratt": false, "kommentar": "Med v i m/s ska tiden vara i sekunder. Minuter ger fel enhet."}, {"txt": "timmar", "ratt": false, "kommentar": "Med v i m/s ska tiden vara i sekunder. Timmar ger fel enhet."}, {"txt": "meter", "ratt": false, "kommentar": "Meter är en längdenhet, inte en tidsenhet."}, {"txt": "sekunder", "ratt": true}]
   },
   {
     "id": "1.99",
@@ -28239,7 +28239,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ],
-    "alternativ": [{"txt": "\\(60x+45=330\\)", "ratt": false}, {"txt": "\\(45(x+60)=330\\)", "ratt": false}, {"txt": "\\(60+45x=330\\)", "ratt": true}, {"txt": "\\((60+45)x=330\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(60x+45=330\\)", "ratt": false, "kommentar": "Inträdet betalas en gång, och det är serierna som kostar 45 kr styck."}, {"txt": "\\(45(x+60)=330\\)", "ratt": false, "kommentar": "Inträdet ska läggas till en gång, inte multipliceras med 45."}, {"txt": "\\(60+45x=330\\)", "ratt": true}, {"txt": "\\((60+45)x=330\\)", "ratt": false, "kommentar": "Inträdet betalas bara en gång, inte för varje serie."}]
   },
   {
     "id": "1.108",
@@ -28450,7 +28450,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ],
-    "alternativ": [{"txt": "\\(4x+12\\)", "ratt": false}, {"txt": "\\(x-12\\)", "ratt": false}, {"txt": "\\(x-3\\)", "ratt": false}, {"txt": "\\(4x-12\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(4x+12\\)", "ratt": false, "kommentar": "4 · (−3) = −12, inte +12."}, {"txt": "\\(x-12\\)", "ratt": false, "kommentar": "Även x ska multipliceras med 4."}, {"txt": "\\(x-3\\)", "ratt": false, "kommentar": "Båda termerna ska multipliceras med 4."}, {"txt": "\\(4x-12\\)", "ratt": true}]
   },
   {
     "id": "1.114",
@@ -28850,7 +28850,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "\\(-2&lt;x\\le6\\)", "ratt": false}, {"txt": "\\(-2\\le x\\le6\\)", "ratt": false}, {"txt": "\\(6&gt;x\\ge-2\\)", "ratt": true}, {"txt": "\\(6&gt;x&gt;-2\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(-2&lt;x\\le6\\)", "ratt": false, "kommentar": "Det är omvänt: −2 ingår och 6 ingår inte."}, {"txt": "\\(-2\\le x\\le6\\)", "ratt": false, "kommentar": "”Mindre än 6” betyder att 6 inte ingår."}, {"txt": "\\(6&gt;x\\ge-2\\)", "ratt": true}, {"txt": "\\(6&gt;x&gt;-2\\)", "ratt": false, "kommentar": "”Minst −2” betyder att −2 ingår."}]
   },
   {
     "id": "1.126",
@@ -28882,7 +28882,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "\\(1&lt;x\\le10\\)", "ratt": true}, {"txt": "\\(1\\le x&lt;10\\)", "ratt": false}, {"txt": "\\(1&lt;x&lt;10\\)", "ratt": false}, {"txt": "\\(1\\le x\\le10\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(1&lt;x\\le10\\)", "ratt": true}, {"txt": "\\(1\\le x&lt;10\\)", "ratt": false, "kommentar": "Det är omvänt: 1 ingår inte och 10 ingår."}, {"txt": "\\(1&lt;x&lt;10\\)", "ratt": false, "kommentar": "Den fyllda punkten vid 10 betyder att 10 ingår."}, {"txt": "\\(1\\le x\\le10\\)", "ratt": false, "kommentar": "Den öppna punkten vid 1 betyder att 1 inte ingår."}]
   },
   {
     "id": "1.127",
@@ -30049,7 +30049,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(3x(3x+2)=3x\\cdot3x+2=9x^2+2\\)", "ratt": false}, {"txt": "\\(3x(3x+2)=3x\\cdot3x+3x\\cdot2=9x^2+6x\\)", "ratt": true}, {"txt": "\\(3x(3x+2)=3x+3x+2=6x+2\\)", "ratt": false}, {"txt": "\\(3x(3x+2)=3x\\cdot3+3x\\cdot2=15x\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(3x(3x+2)=3x\\cdot3x+2=9x^2+2\\)", "ratt": false, "kommentar": "Även 2 ska multipliceras med 3x."}, {"txt": "\\(3x(3x+2)=3x\\cdot3x+3x\\cdot2=9x^2+6x\\)", "ratt": true}, {"txt": "\\(3x(3x+2)=3x+3x+2=6x+2\\)", "ratt": false, "kommentar": "3x ska multipliceras med parentesen, inte adderas."}, {"txt": "\\(3x(3x+2)=3x\\cdot3+3x\\cdot2=15x\\)", "ratt": false, "kommentar": "3x · 3x = 9x², och 9x² och 6x kan inte läggas ihop."}]
   },
   {
     "id": "1.158",
@@ -30082,7 +30082,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(6(x+3)\\)", "ratt": true}, {"txt": "\\(3(2x+18)\\)", "ratt": false}, {"txt": "\\(6(x+18)\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(6(x+3)\\)", "ratt": true}, {"txt": "\\(3(2x+18)\\)", "ratt": false, "kommentar": "3 · 18 = 54, inte 18."}, {"txt": "\\(6(x+18)\\)", "ratt": false, "kommentar": "6 · 18 = 108, inte 18."}]
   },
   {
     "id": "1.159",
@@ -30115,7 +30115,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "Åttan ska stå kvar, så parentesen blir 3x + 8.", "ratt": false}, {"txt": "Åttan ska multipliceras med 4, så parentesen blir 3x + 32.", "ratt": false}, {"txt": "Fyran ska dras från åttan, så parentesen blir 3x + 4.", "ratt": false}, {"txt": "Åttan ska delas med 4, så parentesen blir 3x + 2.", "ratt": true}]
+    "alternativ": [{"txt": "Åttan ska stå kvar, så parentesen blir 3x + 8.", "ratt": false, "kommentar": "4 · 8 = 32, så parentesen ger inte 8."}, {"txt": "Åttan ska multipliceras med 4, så parentesen blir 3x + 32.", "ratt": false, "kommentar": "Då blir det 4 · 32 = 128."}, {"txt": "Fyran ska dras från åttan, så parentesen blir 3x + 4.", "ratt": false, "kommentar": "Faktorn ska delas ut, inte dras bort."}, {"txt": "Åttan ska delas med 4, så parentesen blir 3x + 2.", "ratt": true}]
   },
   {
     "id": "1.160",
@@ -30443,7 +30443,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Formler"
     ],
-    "alternativ": [{"txt": "Den halveras.", "ratt": true}, {"txt": "Den fyrdubblas.", "ratt": false}, {"txt": "Den är oförändrad.", "ratt": false}, {"txt": "Den fördubblas.", "ratt": false}]
+    "alternativ": [{"txt": "Den halveras.", "ratt": true}, {"txt": "Den fyrdubblas.", "ratt": false, "kommentar": "Då skulle arean bli åtta gånger så stor."}, {"txt": "Den är oförändrad.", "ratt": false, "kommentar": "Då skulle arean fördubblas."}, {"txt": "Den fördubblas.", "ratt": false, "kommentar": "Då skulle arean bli fyra gånger så stor."}]
   },
   {
     "id": "1.171",
@@ -30927,7 +30927,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ],
-    "alternativ": [{"txt": "\\(6x=32+8\\)", "ratt": false}, {"txt": "\\(6x=32-8\\)", "ratt": true}, {"txt": "\\(6x=32/8\\)", "ratt": false}, {"txt": "\\(x+8=32/6\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(6x=32+8\\)", "ratt": false, "kommentar": "+8 ska tas bort, så 8 ska dras från båda leden, inte läggas till."}, {"txt": "\\(6x=32-8\\)", "ratt": true}, {"txt": "\\(6x=32/8\\)", "ratt": false, "kommentar": "8 läggs till 6x, så den ska subtraheras, inte divideras bort."}, {"txt": "\\(x+8=32/6\\)", "ratt": false, "kommentar": "Om man delar med 6 måste alla termer delas, även 8."}]
   },
   {
     "id": "1.185",
@@ -31072,7 +31072,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "Fyra gånger n, därefter minskat med fem.", "ratt": false}, {"txt": "n minskat med fyra, därefter gånger fem.", "ratt": false}, {"txt": "n minskat med fem, därefter gånger fyra.", "ratt": true}, {"txt": "Fyra gånger n, därefter ökat med fem.", "ratt": false}]
+    "alternativ": [{"txt": "Fyra gånger n, därefter minskat med fem.", "ratt": false, "kommentar": "Parentesen gör att 5 dras bort först, innan något multipliceras."}, {"txt": "n minskat med fyra, därefter gånger fem.", "ratt": false, "kommentar": "Det är 5 som dras bort och 4 som multipliceras."}, {"txt": "n minskat med fem, därefter gånger fyra.", "ratt": true}, {"txt": "Fyra gånger n, därefter ökat med fem.", "ratt": false, "kommentar": "Parentesen gör att 5 dras bort först. Fem ska inte läggas till."}]
   },
   {
     "id": "1.189",
@@ -31459,7 +31459,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(\\frac{x}{3}+7\\)", "ratt": true}, {"txt": "\\(3x+7\\)", "ratt": false}, {"txt": "\\(\\frac{7}{3}x\\)", "ratt": false}, {"txt": "\\(\\frac{x+7}{3}\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(\\frac{x}{3}+7\\)", "ratt": true}, {"txt": "\\(3x+7\\)", "ratt": false, "kommentar": "3x är tre gånger x, inte en tredjedel av x."}, {"txt": "\\(\\frac{7}{3}x\\)", "ratt": false, "kommentar": "Det är en tredjedel av x som ska ökas med 7, inte 7 som ska multipliceras med x."}, {"txt": "\\(\\frac{x+7}{3}\\)", "ratt": false, "kommentar": "Här delas även 7 med 3."}]
   },
   {
     "id": "1.200",
@@ -31492,7 +31492,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ],
-    "alternativ": [{"txt": "Eleven har subtraherat 3 från alla termer.", "ratt": false}, {"txt": "Eleven har dividerat alla termer med 3.", "ratt": true}, {"txt": "Eleven har dividerat bara x-termen med 3.", "ratt": false}, {"txt": "Eleven har subtraherat 6 från båda leden.", "ratt": false}]
+    "alternativ": [{"txt": "Eleven har subtraherat 3 från alla termer.", "ratt": false, "kommentar": "3x − 3 blir inte x, och 6 − 3 blir inte 2."}, {"txt": "Eleven har dividerat alla termer med 3.", "ratt": true}, {"txt": "Eleven har dividerat bara x-termen med 3.", "ratt": false, "kommentar": "Då hade 6 och 18 stått kvar."}, {"txt": "Eleven har subtraherat 6 från båda leden.", "ratt": false, "kommentar": "Då hade det blivit 3x = 12."}]
   },
   {
     "id": "1.201",
@@ -31793,7 +31793,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Formler"
     ],
-    "alternativ": [{"txt": "l = 4 och b = 3 ger A = 7, men 7/4 = 1,75.", "ratt": false}, {"txt": "l = 4 och b = 3 ger A = 7, men 7 − 4 = 3.", "ratt": false}, {"txt": "l = 4 och b = 3 ger A = 12, men 12/4 = 3.", "ratt": false}, {"txt": "l = 4 och b = 3 ger A = 12, men 12 − 4 = 8.", "ratt": true}]
+    "alternativ": [{"txt": "l = 4 och b = 3 ger A = 7, men 7/4 = 1,75.", "ratt": false, "kommentar": "l = 4 och b = 3 ger A = 12, inte 7."}, {"txt": "l = 4 och b = 3 ger A = 7, men 7 − 4 = 3.", "ratt": false, "kommentar": "l = 4 och b = 3 ger A = 12, inte 7."}, {"txt": "l = 4 och b = 3 ger A = 12, men 12/4 = 3.", "ratt": false, "kommentar": "Det visar att b = A/l fungerar, men inte vad Kalles formel ger."}, {"txt": "l = 4 och b = 3 ger A = 12, men 12 − 4 = 8.", "ratt": true}]
   },
   {
     "id": "1.210",
@@ -31940,7 +31940,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "Konstanten 4 ska multipliceras med x-koefficienten, så svaret är 20x.", "ratt": false}, {"txt": "Konstanten 4 ska läggas till x-koefficienten, så svaret är 9x.", "ratt": false}, {"txt": "Konstanten 4 ska vara kvar, så svaret är 5x + 4.", "ratt": true}, {"txt": "Konstanten 4 ska dras från x-koefficienten, så svaret är x.", "ratt": false}]
+    "alternativ": [{"txt": "Konstanten 4 ska multipliceras med x-koefficienten, så svaret är 20x.", "ratt": false, "kommentar": "Konstanten 4 har ingen x och kan inte multipliceras ihop med x-termerna."}, {"txt": "Konstanten 4 ska läggas till x-koefficienten, så svaret är 9x.", "ratt": false, "kommentar": "Konstanten 4 har ingen x och kan inte läggas ihop med x-termerna."}, {"txt": "Konstanten 4 ska vara kvar, så svaret är 5x + 4.", "ratt": true}, {"txt": "Konstanten 4 ska dras från x-koefficienten, så svaret är x.", "ratt": false, "kommentar": "Konstanten 4 har ingen x och kan inte dras från x-termerna."}]
   },
   {
     "id": "1.214",
@@ -32106,7 +32106,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ],
-    "alternativ": [{"txt": "Ingen lösning.", "ratt": false}, {"txt": "Exakt en lösning.", "ratt": false}, {"txt": "Oändligt många lösningar.", "ratt": true}, {"txt": "Exakt två lösningar.", "ratt": false}]
+    "alternativ": [{"txt": "Ingen lösning.", "ratt": false, "kommentar": "Vänsterledet blir 2x + 8, precis som högerledet. Likheten stämmer för alla x."}, {"txt": "Exakt en lösning.", "ratt": false, "kommentar": "Vänsterledet blir 2x + 8, precis som högerledet. Likheten stämmer för alla x."}, {"txt": "Oändligt många lösningar.", "ratt": true}, {"txt": "Exakt två lösningar.", "ratt": false, "kommentar": "Vänsterledet blir 2x + 8, precis som högerledet. Likheten stämmer för alla x."}]
   },
   {
     "id": "1.219",
@@ -32206,7 +32206,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära olikheter"
     ],
-    "alternativ": [{"txt": "\\(2-x\\ge3\\)", "ratt": false}, {"txt": "\\(2-x\\le3\\)", "ratt": true}, {"txt": "\\(6-x\\le9\\)", "ratt": false}, {"txt": "\\(2-x\\le9\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(2-x\\ge3\\)", "ratt": false, "kommentar": "Att dela med ett positivt tal vänder inte olikheten."}, {"txt": "\\(2-x\\le3\\)", "ratt": true}, {"txt": "\\(6-x\\le9\\)", "ratt": false, "kommentar": "3 ska multipliceras med båda termerna: 6 − 3x."}, {"txt": "\\(2-x\\le9\\)", "ratt": false, "kommentar": "Båda leden ska delas med 3, även 9."}]
   },
   {
     "id": "1.222",
@@ -32274,7 +32274,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "x-termerna har slagits ihop fel; de ska ge x.", "ratt": false}, {"txt": "Konstanterna har räknats ihop fel; de ska ge +5.", "ratt": false}, {"txt": "x-termerna har slagits ihop fel; de ska ge 20x.", "ratt": false}, {"txt": "Konstanterna har räknats ihop fel; de ska ge −5.", "ratt": true}]
+    "alternativ": [{"txt": "x-termerna har slagits ihop fel; de ska ge x.", "ratt": false, "kommentar": "5x + 4x = 9x, så x-termerna är rätt."}, {"txt": "Konstanterna har räknats ihop fel; de ska ge +5.", "ratt": false, "kommentar": "2 − 7 = −5, inte +5."}, {"txt": "x-termerna har slagits ihop fel; de ska ge 20x.", "ratt": false, "kommentar": "5x + 4x = 9x. x-termerna ska adderas, inte multipliceras."}, {"txt": "Konstanterna har räknats ihop fel; de ska ge −5.", "ratt": true}]
   },
   {
     "id": "1.224",
@@ -32637,7 +32637,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "Bara x = 5 fungerar.", "ratt": false}, {"txt": "Alla x &lt; 5 fungerar.", "ratt": false}, {"txt": "Inget reellt x fungerar.", "ratt": true}, {"txt": "Alla x ≥ 5 fungerar.", "ratt": false}]
+    "alternativ": [{"txt": "Bara x = 5 fungerar.", "ratt": false, "kommentar": "x = 5 uppfyller inte x < 5."}, {"txt": "Alla x &lt; 5 fungerar.", "ratt": false, "kommentar": "Tal mindre än 5 uppfyller inte x ≥ 5."}, {"txt": "Inget reellt x fungerar.", "ratt": true}, {"txt": "Alla x ≥ 5 fungerar.", "ratt": false, "kommentar": "Tal som är 5 eller större uppfyller inte x < 5."}]
   },
   {
     "id": "1.235",
@@ -33236,7 +33236,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(55+14x\\)", "ratt": true}, {"txt": "\\(55x+14\\)", "ratt": false}, {"txt": "\\(14+55/x\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(55+14x\\)", "ratt": true}, {"txt": "\\(55x+14\\)", "ratt": false, "kommentar": "Det är omvänt: 14 kr per km ska multipliceras med x."}, {"txt": "\\(14+55/x\\)", "ratt": false, "kommentar": "Priset per km ska multipliceras med antalet km."}]
   },
   {
     "id": "1.254",
@@ -33269,7 +33269,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(4x+6\\)", "ratt": true}, {"txt": "\\(x(x+3)\\)", "ratt": false}, {"txt": "\\(2x+3\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(4x+6\\)", "ratt": true}, {"txt": "\\(x(x+3)\\)", "ratt": false, "kommentar": "x(x + 3) är arean, inte omkretsen."}, {"txt": "\\(2x+3\\)", "ratt": false, "kommentar": "2x + 3 är bara halva omkretsen."}]
   },
   {
     "id": "1.255",
@@ -33337,7 +33337,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(kx\\)", "ratt": false}, {"txt": "\\(k(x-8)\\)", "ratt": true}, {"txt": "\\(8(x-k)\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(kx\\)", "ratt": false, "kommentar": "De första 8 GB ingår i abonnemanget och ska inte betalas extra."}, {"txt": "\\(k(x-8)\\)", "ratt": true}, {"txt": "\\(8(x-k)\\)", "ratt": false, "kommentar": "Det är antalet extra GB, x − 8, som ska multipliceras med priset k."}]
   },
   {
     "id": "1.257",
@@ -33369,7 +33369,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(5x-12\\)", "ratt": false}, {"txt": "\\(5(x-12)\\)", "ratt": true}, {"txt": "\\(x-60\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(5x-12\\)", "ratt": false, "kommentar": "Här multipliceras bara x med 5, och 12 dras bort efteråt."}, {"txt": "\\(5(x-12)\\)", "ratt": true}, {"txt": "\\(x-60\\)", "ratt": false, "kommentar": "Här multipliceras inte x med 5."}]
   },
   {
     "id": "1.258",
@@ -33619,7 +33619,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(2x(10x+15)\\)", "ratt": false}, {"txt": "\\(5(4x^2+6x)\\)", "ratt": false}, {"txt": "\\(10x(2x+3)\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(2x(10x+15)\\)", "ratt": false, "kommentar": "Även 5 går att bryta ut ur 10x + 15."}, {"txt": "\\(5(4x^2+6x)\\)", "ratt": false, "kommentar": "Även x går att bryta ut ur 4x² + 6x."}, {"txt": "\\(10x(2x+3)\\)", "ratt": true}]
   },
   {
     "id": "1.265",
@@ -33652,7 +33652,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(5(3a-5)=15a-5\\)", "ratt": false}, {"txt": "\\(5(3a-5)=15a+25\\)", "ratt": false}, {"txt": "\\(5(3a-5)=3a-25\\)", "ratt": false}, {"txt": "\\(5(3a-5)=15a-25\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(5(3a-5)=15a-5\\)", "ratt": false, "kommentar": "5 · (−5) = −25, inte −5."}, {"txt": "\\(5(3a-5)=15a+25\\)", "ratt": false, "kommentar": "5 · (−5) = −25, inte +25."}, {"txt": "\\(5(3a-5)=3a-25\\)", "ratt": false, "kommentar": "Även 3a ska multipliceras med 5."}, {"txt": "\\(5(3a-5)=15a-25\\)", "ratt": true}]
   },
   {
     "id": "1.266",
@@ -33717,7 +33717,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "Det är 6(3n + 30), där 3n + 30 alltid är ett heltal.", "ratt": false}, {"txt": "Det är 3(6n + 10), där 6n + 10 alltid är udda.", "ratt": false}, {"txt": "Det är 2(9n + 15), där 9n + 15 alltid är jämnt.", "ratt": false}, {"txt": "Det är 6(3n + 5), där 3n + 5 alltid är ett heltal.", "ratt": true}]
+    "alternativ": [{"txt": "Det är 6(3n + 30), där 3n + 30 alltid är ett heltal.", "ratt": false, "kommentar": "6(3n + 30) = 18n + 180, inte 18n + 30."}, {"txt": "Det är 3(6n + 10), där 6n + 10 alltid är udda.", "ratt": false, "kommentar": "6n + 10 är alltid jämnt. Dessutom visar det bara delbarhet med 3."}, {"txt": "Det är 2(9n + 15), där 9n + 15 alltid är jämnt.", "ratt": false, "kommentar": "9n + 15 är udda när n är jämnt. Dessutom visar det bara delbarhet med 2."}, {"txt": "Det är 6(3n + 5), där 3n + 5 alltid är ett heltal.", "ratt": true}]
   },
   {
     "id": "1.268",
@@ -33948,7 +33948,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ],
-    "alternativ": [{"txt": "Ingen lösning, eftersom omskrivningen ger 5 = 8.", "ratt": true}, {"txt": "x = 3, eftersom konstanterna skiljer sig med 3.", "ratt": false}, {"txt": "x = 0, eftersom x-termerna tar ut varandra.", "ratt": false}, {"txt": "Alla x fungerar, eftersom x-termerna tar ut varandra.", "ratt": false}]
+    "alternativ": [{"txt": "Ingen lösning, eftersom omskrivningen ger 5 = 8.", "ratt": true}, {"txt": "x = 3, eftersom konstanterna skiljer sig med 3.", "ratt": false, "kommentar": "x-termerna tar ut varandra, så det finns inget x kvar att lösa ut."}, {"txt": "x = 0, eftersom x-termerna tar ut varandra.", "ratt": false, "kommentar": "Pröva x = 0: 5 = 8 stämmer inte."}, {"txt": "Alla x fungerar, eftersom x-termerna tar ut varandra.", "ratt": false, "kommentar": "Kvar blir 5 = 8, som aldrig stämmer. Då finns ingen lösning."}]
   },
   {
     "id": "1.275",
@@ -37042,7 +37042,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(2x+3\\)", "ratt": false}, {"txt": "\\(3x-1\\)", "ratt": false}, {"txt": "\\(x+7\\)", "ratt": true}, {"txt": "\\(15-x\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(2x+3\\)", "ratt": false, "kommentar": "x = 4 ger 11, men x = 5 ger 2 · 5 + 3 = 13."}, {"txt": "\\(3x-1\\)", "ratt": false, "kommentar": "x = 4 ger 11, men x = 5 ger 3 · 5 − 1 = 14."}, {"txt": "\\(x+7\\)", "ratt": true}, {"txt": "\\(15-x\\)", "ratt": false, "kommentar": "x = 4 ger 11, men x = 5 ger 15 − 5 = 10."}]
   },
   {
     "id": "1.906",
@@ -37370,7 +37370,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Algebraiska uttryck"
     ],
-    "alternativ": [{"txt": "\\(x\\)", "ratt": true}, {"txt": "\\(x^2\\)", "ratt": false}, {"txt": "\\(2x\\)", "ratt": false}, {"txt": "\\(x^3\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(x\\)", "ratt": true}, {"txt": "\\(x^2\\)", "ratt": false, "kommentar": "x² kan inte brytas ut ur x utan att det blir en negativ exponent."}, {"txt": "\\(2x\\)", "ratt": false, "kommentar": "2 är inte en faktor i x² och x, så det blir bråk kvar."}, {"txt": "\\(x^3\\)", "ratt": false, "kommentar": "x³ är större än båda termerna, så det blir negativa exponenter kvar."}]
   },
   {
     "id": "1.916",
@@ -37696,7 +37696,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Formler"
     ],
-    "alternativ": [{"txt": "\\(h=A-b\\)", "ratt": false}, {"txt": "\\(h=b/A\\)", "ratt": false}, {"txt": "\\(h=A/b\\)", "ratt": true}, {"txt": "\\(h=Ab\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(h=A-b\\)", "ratt": false, "kommentar": "b och h multipliceras. Då ska man dela, inte subtrahera."}, {"txt": "\\(h=b/A\\)", "ratt": false, "kommentar": "Dela båda leden med b. Då ska b stå i nämnaren."}, {"txt": "\\(h=A/b\\)", "ratt": true}, {"txt": "\\(h=Ab\\)", "ratt": false, "kommentar": "Dela båda leden med b, inte multiplicera."}]
   },
   {
     "id": "1.926",
@@ -37729,7 +37729,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Formler"
     ],
-    "alternativ": [{"txt": "\\(t=v/s\\)", "ratt": false}, {"txt": "\\(t=sv\\)", "ratt": false}, {"txt": "\\(t=s-v\\)", "ratt": false}, {"txt": "\\(t=s/v\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(t=v/s\\)", "ratt": false, "kommentar": "Dela båda leden med v. Då ska v stå i nämnaren."}, {"txt": "\\(t=sv\\)", "ratt": false, "kommentar": "Dela båda leden med v, inte multiplicera."}, {"txt": "\\(t=s-v\\)", "ratt": false, "kommentar": "v och t multipliceras. Då ska man dela, inte subtrahera."}, {"txt": "\\(t=s/v\\)", "ratt": true}]
   },
   {
     "id": "1.927",
@@ -37798,7 +37798,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Formler"
     ],
-    "alternativ": [{"txt": "\\(x=y/2\\)", "ratt": true}, {"txt": "\\(x=2y\\)", "ratt": false}, {"txt": "\\(x=y-2\\)", "ratt": false}, {"txt": "\\(x=2/y\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(x=y/2\\)", "ratt": true}, {"txt": "\\(x=2y\\)", "ratt": false, "kommentar": "Dela båda leden med 2, inte multiplicera."}, {"txt": "\\(x=y-2\\)", "ratt": false, "kommentar": "2 och x multipliceras. Då ska man dela, inte subtrahera."}, {"txt": "\\(x=2/y\\)", "ratt": false, "kommentar": "Dela båda leden med 2. Då ska 2 stå i nämnaren."}]
   },
   {
     "id": "1.929",
@@ -37863,7 +37863,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "2", "ratt": false}, {"txt": "4", "ratt": true}, {"txt": "7", "ratt": false}, {"txt": "8", "ratt": false}]
+    "alternativ": [{"txt": "2", "ratt": false, "kommentar": "2 ingår inte, eftersom x ska vara större än 2."}, {"txt": "4", "ratt": true}, {"txt": "7", "ratt": false, "kommentar": "7 ingår inte, eftersom x ska vara mindre än 7."}, {"txt": "8", "ratt": false, "kommentar": "8 är större än 7."}]
   },
   {
     "id": "1.931",
@@ -38123,7 +38123,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "\\(x&gt;0\\)", "ratt": false}, {"txt": "\\(x\\ge0\\)", "ratt": false}, {"txt": "\\(x=0\\)", "ratt": false}, {"txt": "\\(x&lt;0\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(x&gt;0\\)", "ratt": false, "kommentar": "x > 0 betyder att x är positivt."}, {"txt": "\\(x\\ge0\\)", "ratt": false, "kommentar": "x ≥ 0 betyder att x är 0 eller positivt."}, {"txt": "\\(x=0\\)", "ratt": false, "kommentar": "0 är varken positivt eller negativt."}, {"txt": "\\(x&lt;0\\)", "ratt": true}]
   },
   {
     "id": "1.939",
@@ -38375,7 +38375,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ],
-    "alternativ": [{"txt": "\\(x+6=15\\)", "ratt": true}, {"txt": "\\(x-6=15\\)", "ratt": false}, {"txt": "\\(x+15=6\\)", "ratt": false}, {"txt": "\\(6x=15\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(x+6=15\\)", "ratt": true}, {"txt": "\\(x-6=15\\)", "ratt": false, "kommentar": "”Plus 6” betyder + 6, inte − 6."}, {"txt": "\\(x+15=6\\)", "ratt": false, "kommentar": "Det är talet plus 6 som är 15, inte talet plus 15 som är 6."}, {"txt": "\\(6x=15\\)", "ratt": false, "kommentar": "”Plus 6” betyder + 6, inte gånger 6."}]
   },
   {
     "id": "1.947",
@@ -38405,7 +38405,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära ekvationer"
     ],
-    "alternativ": [{"txt": "\\(2x=14\\)", "ratt": true}, {"txt": "\\(x+2=14\\)", "ratt": false}, {"txt": "\\(\\frac{x}{2}=14\\)", "ratt": false}, {"txt": "\\(x-2=14\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(2x=14\\)", "ratt": true}, {"txt": "\\(x+2=14\\)", "ratt": false, "kommentar": "Dubbelt så mycket betyder gånger 2, inte plus 2."}, {"txt": "\\(\\frac{x}{2}=14\\)", "ratt": false, "kommentar": "Det är halva talet."}, {"txt": "\\(x-2=14\\)", "ratt": false, "kommentar": "Dubbelt så mycket betyder gånger 2, inte minus 2."}]
   },
   {
     "id": "1.948",
@@ -38505,7 +38505,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Linjära olikheter"
     ],
-    "alternativ": [{"txt": "\\(-3&lt;-8\\)", "ratt": false}, {"txt": "\\(-3&gt;-8\\)", "ratt": true}, {"txt": "\\(-8&gt;3\\)", "ratt": false}, {"txt": "\\(3&lt;-8\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(-3&lt;-8\\)", "ratt": false, "kommentar": "−3 ligger till höger om −8 på tallinjen, så −3 är större."}, {"txt": "\\(-3&gt;-8\\)", "ratt": true}, {"txt": "\\(-8&gt;3\\)", "ratt": false, "kommentar": "Ett negativt tal är alltid mindre än ett positivt."}, {"txt": "\\(3&lt;-8\\)", "ratt": false, "kommentar": "Ett positivt tal är alltid större än ett negativt."}]
   },
   {
     "id": "1.951",
@@ -39015,7 +39015,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Parentesräkning"
     ],
-    "alternativ": [{"txt": "\\(-3(x+2)=-3x+6\\)", "ratt": false}, {"txt": "\\(-3(x+2)=3x-6\\)", "ratt": false}, {"txt": "\\(-3(x+2)=-3x-6\\)", "ratt": true}, {"txt": "\\(-3(x+2)=3x+6\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(-3(x+2)=-3x+6\\)", "ratt": false, "kommentar": "−3 · 2 = −6, inte +6. Det är just det felet som ska upptäckas."}, {"txt": "\\(-3(x+2)=3x-6\\)", "ratt": false, "kommentar": "−3 · x = −3x, inte 3x."}, {"txt": "\\(-3(x+2)=-3x-6\\)", "ratt": true}, {"txt": "\\(-3(x+2)=3x+6\\)", "ratt": false, "kommentar": "−3 · x = −3x och −3 · 2 = −6."}]
   },
   {
     "id": "1.967",
@@ -42670,7 +42670,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "\\(x\\le10\\)", "ratt": false}, {"txt": "\\(x&lt;10\\)", "ratt": false}, {"txt": "\\(x&gt;10\\)", "ratt": false}, {"txt": "\\(x\\ge10\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(x\\le10\\)", "ratt": false, "kommentar": "”Minst 10” betyder 10 eller mer, inte högst 10."}, {"txt": "\\(x&lt;10\\)", "ratt": false, "kommentar": "”Minst 10” betyder 10 eller mer."}, {"txt": "\\(x&gt;10\\)", "ratt": false, "kommentar": "”Minst 10” betyder att 10 också ingår."}, {"txt": "\\(x\\ge10\\)", "ratt": true}]
   },
   {
     "id": "1.1069",
@@ -42701,7 +42701,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Intervall och gränser"
     ],
-    "alternativ": [{"txt": "\\(0&lt;t\\le3\\)", "ratt": true}, {"txt": "\\(0\\le t&lt;3\\)", "ratt": false}, {"txt": "\\(t\\le3\\)", "ratt": false}, {"txt": "\\(0&lt;t&lt;3\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(0&lt;t\\le3\\)", "ratt": true}, {"txt": "\\(0\\le t&lt;3\\)", "ratt": false, "kommentar": "Det är omvänt: 0 ingår inte och 3 ingår."}, {"txt": "\\(t\\le3\\)", "ratt": false, "kommentar": "t ska också vara större än 0."}, {"txt": "\\(0&lt;t&lt;3\\)", "ratt": false, "kommentar": "”Högst 3” betyder att 3 ingår."}]
   },
   {
     "id": "1.1070",
@@ -44744,7 +44744,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\(y=4\\cdot2^x\\)", "ratt": false}, {"txt": "\\(y=4x^2\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(y=4\\cdot2^x\\)", "ratt": false, "kommentar": "x står i exponenten, så det är en exponentialfunktion."}, {"txt": "\\(y=4x^2\\)", "ratt": true}]
   },
   {
     "id": "2.41",
@@ -47894,7 +47894,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Grafisk ekvationslösning"
     ],
-    "alternativ": [{"txt": "\\(f(12)=4\\)", "ratt": false}, {"txt": "\\(f(4)=4\\)", "ratt": false}, {"txt": "\\(f(4)=12\\)", "ratt": true}, {"txt": "\\(f(12)=12\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(f(12)=4\\)", "ratt": false, "kommentar": "Det är omvänt: 4 är x-värdet och 12 är y-värdet."}, {"txt": "\\(f(4)=4\\)", "ratt": false, "kommentar": "f(4) är y-värdet när x = 4, alltså 12."}, {"txt": "\\(f(4)=12\\)", "ratt": true}, {"txt": "\\(f(12)=12\\)", "ratt": false, "kommentar": "Punkten säger bara vad f(4) är."}]
   },
   {
     "id": "2.105",
@@ -48406,7 +48406,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka linjära funktioner från graf och formel"
     ],
-    "alternativ": [{"txt": "\\(y=-x+2\\)", "ratt": false}, {"txt": "\\(y=2x+4\\)", "ratt": false}, {"txt": "\\(y=-2x+4\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(y=-x+2\\)", "ratt": false, "kommentar": "Linjen skär y-axeln vid 4, och lutningen är −2."}, {"txt": "\\(y=2x+4\\)", "ratt": false, "kommentar": "Linjen lutar nedåt, så k ska vara negativt."}, {"txt": "\\(y=-2x+4\\)", "ratt": true}]
   },
   {
     "id": "2.115",
@@ -49608,7 +49608,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka linjära funktioner från graf och formel"
     ],
-    "alternativ": [{"txt": "\\(y=4x+2\\)", "ratt": true}, {"txt": "\\(y=4x\\)", "ratt": false}, {"txt": "\\(y=4\\cdot2^x\\)", "ratt": false}, {"txt": "\\(y=4x^2+2\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y=4x+2\\)", "ratt": true}, {"txt": "\\(y=4x\\)", "ratt": false, "kommentar": "y = 4x är proportionell, eftersom den går genom origo."}, {"txt": "\\(y=4\\cdot2^x\\)", "ratt": false, "kommentar": "x står i exponenten, så funktionen är exponentiell."}, {"txt": "\\(y=4x^2+2\\)", "ratt": false, "kommentar": "x² gör att grafen inte är en rät linje."}]
   },
   {
     "id": "2.147",
@@ -53935,7 +53935,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Växla mellan tabell och formel"
     ],
-    "alternativ": [{"txt": "\\(y=4x+6\\)", "ratt": true}, {"txt": "\\(y=6x+4\\)", "ratt": false}, {"txt": "\\(y=4^x+5\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y=4x+6\\)", "ratt": true}, {"txt": "\\(y=6x+4\\)", "ratt": false, "kommentar": "x = 0 ger 6 · 0 + 4 = 4, men tabellen visar 6."}, {"txt": "\\(y=4^x+5\\)", "ratt": false, "kommentar": "x = 1 ger 4¹ + 5 = 9, men tabellen visar 10."}]
   },
   {
     "id": "2.247",
@@ -54261,7 +54261,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka exponentialfunktioner från graf och formel"
     ],
-    "alternativ": [{"txt": "\\(y=2x+3\\)", "ratt": false}, {"txt": "\\(y=3\\cdot1{,}25^x\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(y=2x+3\\)", "ratt": false, "kommentar": "y = 2x + 3 är en rät linje, men grafen är böjd."}, {"txt": "\\(y=3\\cdot1{,}25^x\\)", "ratt": true}]
   },
   {
     "id": "2.254",
@@ -57721,7 +57721,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka k- och m-värden i linjära funktioner"
     ],
-    "alternativ": [{"txt": "\\(m=2{,}4\\), eftersom första talet alltid är \\(m\\).", "ratt": false}, {"txt": "\\(m=-2{,}4\\), eftersom riktningskoefficienten är negativ.", "ratt": false}, {"txt": "\\(m=3\\), eftersom tecknet framför konstanttermen inte räknas.", "ratt": false}, {"txt": "\\(m=-3\\), eftersom konstanttermen är värdet när \\(x=0\\).", "ratt": true}]
+    "alternativ": [{"txt": "\\(m=2{,}4\\), eftersom första talet alltid är \\(m\\).", "ratt": false, "kommentar": "m är konstanttermen, inte det tal som står först."}, {"txt": "\\(m=-2{,}4\\), eftersom riktningskoefficienten är negativ.", "ratt": false, "kommentar": "2,4 är riktningskoefficienten k, och den är positiv."}, {"txt": "\\(m=3\\), eftersom tecknet framför konstanttermen inte räknas.", "ratt": false, "kommentar": "Minuset hör till konstanttermen, så m = −3."}, {"txt": "\\(m=-3\\), eftersom konstanttermen är värdet när \\(x=0\\).", "ratt": true}]
   },
   {
     "id": "2.330",
@@ -58060,7 +58060,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Växla mellan tabell och formel"
     ],
-    "alternativ": [{"txt": "Ja, eftersom y ökar hela tiden.", "ratt": false}, {"txt": "Ja, eftersom y fördubblas varje steg.", "ratt": false}, {"txt": "Nej, eftersom skillnaden mellan y-värdena inte är konstant.", "ratt": true}, {"txt": "Nej, eftersom ett linjärt samband måste ha värdet 0 när x=0.", "ratt": false}]
+    "alternativ": [{"txt": "Ja, eftersom y ökar hela tiden.", "ratt": false, "kommentar": "Det räcker inte att y ökar. Ökningen måste vara lika stor varje steg."}, {"txt": "Ja, eftersom y fördubblas varje steg.", "ratt": false, "kommentar": "Fördubbling varje steg är exponentiellt, inte linjärt."}, {"txt": "Nej, eftersom skillnaden mellan y-värdena inte är konstant.", "ratt": true}, {"txt": "Nej, eftersom ett linjärt samband måste ha värdet 0 när x=0.", "ratt": false, "kommentar": "Ett linjärt samband kan ha vilket startvärde som helst."}]
   },
   {
     "id": "2.340",
@@ -58948,7 +58948,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka exponentialfunktioner från graf och formel"
     ],
-    "alternativ": [{"txt": "Värdet efter 35 tidsenheter", "ratt": false}, {"txt": "Ökningen i procent", "ratt": false}, {"txt": "Startvärdet", "ratt": true}]
+    "alternativ": [{"txt": "Värdet efter 35 tidsenheter", "ratt": false, "kommentar": "35 är värdet när t = 0, inte efter 35 tidsenheter."}, {"txt": "Ökningen i procent", "ratt": false, "kommentar": "Ökningen är 18 %, vilket syns i faktorn 1,18."}, {"txt": "Startvärdet", "ratt": true}]
   },
   {
     "id": "2.369",
@@ -58980,7 +58980,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka exponentialfunktioner från graf och formel"
     ],
-    "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": true}, {"txt": "De växer lika snabbt", "ratt": false}]
+    "alternativ": [{"txt": "A", "ratt": false, "kommentar": "A växer med 3 % per tidsenhet och B med 7 %."}, {"txt": "B", "ratt": true}, {"txt": "De växer lika snabbt", "ratt": false, "kommentar": "Faktorerna är olika, 1,03 och 1,07."}]
   },
   {
     "id": "2.370",
@@ -59045,7 +59045,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Bestämma och använda exponentialfunktion"
     ],
-    "alternativ": [{"txt": "\\(300+0{,}05t\\)", "ratt": false}, {"txt": "\\(1{,}05\\cdot300^t\\)", "ratt": false}, {"txt": "\\(300\\cdot1{,}05^t\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(300+0{,}05t\\)", "ratt": false, "kommentar": "En ökning med 5 % per år ger faktorn 1,05 för varje år, inte 0,05 kr per år."}, {"txt": "\\(1{,}05\\cdot300^t\\)", "ratt": false, "kommentar": "300 är startvärdet och ska stå framför. Det är 1,05 som upphöjs till t."}, {"txt": "\\(300\\cdot1{,}05^t\\)", "ratt": true}]
   },
   {
     "id": "2.372",
@@ -59078,7 +59078,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Bestämma och använda exponentialfunktion"
     ],
-    "alternativ": [{"txt": "\\(80000\\cdot0{,}88^t\\)", "ratt": true}, {"txt": "\\(80000\\cdot1{,}12^t\\)", "ratt": false}, {"txt": "\\(80000-0{,}12t\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(80000\\cdot0{,}88^t\\)", "ratt": true}, {"txt": "\\(80000\\cdot1{,}12^t\\)", "ratt": false, "kommentar": "Faktorn 1,12 betyder en ökning med 12 %."}, {"txt": "\\(80000-0{,}12t\\)", "ratt": false, "kommentar": "En minskning med 12 % per år ger faktorn 0,88 varje år, inte 0,12 kr per år."}]
   },
   {
     "id": "2.373",
@@ -59376,7 +59376,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Läsa och använda funktioner från tabell"
     ],
-    "alternativ": [{"txt": "\\(y=3x+5\\)", "ratt": true}, {"txt": "\\(y=5x+3\\)", "ratt": false}, {"txt": "\\(y=3x-5\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y=3x+5\\)", "ratt": true}, {"txt": "\\(y=5x+3\\)", "ratt": false, "kommentar": "x = 0 ger 3, men tabellen visar 5."}, {"txt": "\\(y=3x-5\\)", "ratt": false, "kommentar": "x = 0 ger −5, men tabellen visar 5."}]
   },
   {
     "id": "2.382",
@@ -59508,7 +59508,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Läsa och använda funktioner från tabell"
     ],
-    "alternativ": [{"txt": "\\(y=2x+5\\)", "ratt": false}, {"txt": "\\(y=-2x+5\\)", "ratt": true}, {"txt": "\\(y=-2x-5\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y=2x+5\\)", "ratt": false, "kommentar": "y minskar när x ökar, så k ska vara negativt."}, {"txt": "\\(y=-2x+5\\)", "ratt": true}, {"txt": "\\(y=-2x-5\\)", "ratt": false, "kommentar": "x = 2 ger −9, men tabellen visar 1."}]
   },
   {
     "id": "2.386",
@@ -59802,7 +59802,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka exponentialfunktioner från graf och formel"
     ],
-    "alternativ": [{"txt": "\\(300+1{,}05t\\)", "ratt": false}, {"txt": "\\(300\\cdot0{,}95^t\\)", "ratt": false}, {"txt": "\\(1{,}05\\cdot300^t\\)", "ratt": false}, {"txt": "\\(300\\cdot1{,}05^t\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(300+1{,}05t\\)", "ratt": false, "kommentar": "Faktorn 1,05 ska upphöjas till t, inte multipliceras med t."}, {"txt": "\\(300\\cdot0{,}95^t\\)", "ratt": false, "kommentar": "Faktorn 0,95 betyder en minskning med 5 %."}, {"txt": "\\(1{,}05\\cdot300^t\\)", "ratt": false, "kommentar": "300 är startvärdet och ska stå framför. Det är 1,05 som upphöjs till t."}, {"txt": "\\(300\\cdot1{,}05^t\\)", "ratt": true}]
   },
   {
     "id": "2.405",
@@ -59957,7 +59957,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tolka linjära modeller i en situation"
     ],
-    "alternativ": [{"txt": "Kostnad per timme", "ratt": false}, {"txt": "Maximal kostnad", "ratt": false}, {"txt": "Antal timmar", "ratt": false}, {"txt": "Fast startavgift", "ratt": true}]
+    "alternativ": [{"txt": "Kostnad per timme", "ratt": false, "kommentar": "Kostnaden per timme är 12 kr."}, {"txt": "Maximal kostnad", "ratt": false, "kommentar": "Kostnaden ökar med antalet timmar, så 75 kr är inget tak."}, {"txt": "Antal timmar", "ratt": false, "kommentar": "x är antalet timmar."}, {"txt": "Fast startavgift", "ratt": true}]
   },
   {
     "id": "2.410",
@@ -63033,7 +63033,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Växla mellan text, graf och andra representationer"
     ],
-    "alternativ": [{"txt": "\\(y=52x\\)", "ratt": false}, {"txt": "\\(y=40x+12\\)", "ratt": false}, {"txt": "\\(y=12(x+40)\\)", "ratt": false}, {"txt": "\\(y=12x+40\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(y=52x\\)", "ratt": false, "kommentar": "Grundavgiften betalas en gång och ska inte multipliceras med x."}, {"txt": "\\(y=40x+12\\)", "ratt": false, "kommentar": "Det är omvänt: 12 kr per km ska multipliceras med x."}, {"txt": "\\(y=12(x+40)\\)", "ratt": false, "kommentar": "Grundavgiften ska läggas till en gång, inte multipliceras med 12."}, {"txt": "\\(y=12x+40\\)", "ratt": true}]
   },
   {
     "id": "2.499",
@@ -63065,7 +63065,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Växla mellan text, graf och andra representationer"
     ],
-    "alternativ": [{"txt": "\\(y=1{,}5x+20\\)", "ratt": false}, {"txt": "\\(y=20x-1{,}5\\)", "ratt": false}, {"txt": "\\(y=20-1{,}5x\\)", "ratt": true}, {"txt": "\\(y=18{,}5x\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y=1{,}5x+20\\)", "ratt": false, "kommentar": "Ljuset blir kortare, så 1,5x ska dras bort."}, {"txt": "\\(y=20x-1{,}5\\)", "ratt": false, "kommentar": "Det är omvänt: 1,5 cm per timme ska multipliceras med x."}, {"txt": "\\(y=20-1{,}5x\\)", "ratt": true}, {"txt": "\\(y=18{,}5x\\)", "ratt": false, "kommentar": "Ljuset börjar på 20 cm och blir kortare. 20 och 1,5 kan inte slås ihop."}]
   },
   {
     "id": "2.500",
@@ -63097,7 +63097,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Växla mellan text, graf och andra representationer"
     ],
-    "alternativ": [{"txt": "En linje genom origo", "ratt": false}, {"txt": "En lodrät linje", "ratt": false}, {"txt": "En linje som lutar nedåt", "ratt": false}, {"txt": "En vågrät linje", "ratt": true}]
+    "alternativ": [{"txt": "En linje genom origo", "ratt": false, "kommentar": "Kostnaden ökar inte med antalet minuter."}, {"txt": "En lodrät linje", "ratt": false, "kommentar": "En lodrät linje skulle betyda att x alltid är samma."}, {"txt": "En linje som lutar nedåt", "ratt": false, "kommentar": "Kostnaden minskar inte med antalet minuter."}, {"txt": "En vågrät linje", "ratt": true}]
   },
   {
     "id": "2.501",
@@ -63410,7 +63410,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Definitionsmängd och värdemängd"
     ],
-    "alternativ": [{"txt": "x = 0, 1, 2, 3, 4, 5, 6", "ratt": true}, {"txt": "x = 0, 85, 170, …, 510", "ratt": false}, {"txt": "\\(0\\le x\\le6\\) för alla reella x", "ratt": false}, {"txt": "Alla positiva tal", "ratt": false}]
+    "alternativ": [{"txt": "x = 0, 1, 2, 3, 4, 5, 6", "ratt": true}, {"txt": "x = 0, 85, 170, …, 510", "ratt": false, "kommentar": "De talen är kostnader, alltså värden på K(x), inte antal biljetter."}, {"txt": "\\(0\\le x\\le6\\) för alla reella x", "ratt": false, "kommentar": "Det går inte att köpa en halv biljett."}, {"txt": "Alla positiva tal", "ratt": false, "kommentar": "Högst 6 biljetter får köpas, och antalet måste vara ett heltal."}]
   },
   {
     "id": "2.511",
@@ -63441,7 +63441,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Definitionsmängd och värdemängd"
     ],
-    "alternativ": [{"txt": "Alla x-värden man får sätta in", "ratt": false}, {"txt": "Alla y-värden som funktionen kan anta", "ratt": true}, {"txt": "Grafens lutning", "ratt": false}, {"txt": "Skärningspunkten med y-axeln", "ratt": false}]
+    "alternativ": [{"txt": "Alla x-värden man får sätta in", "ratt": false, "kommentar": "Det är definitionsmängden."}, {"txt": "Alla y-värden som funktionen kan anta", "ratt": true}, {"txt": "Grafens lutning", "ratt": false, "kommentar": "Lutningen är något annat."}, {"txt": "Skärningspunkten med y-axeln", "ratt": false, "kommentar": "Skärningspunkten är bara ett enda värde."}]
   },
   {
     "id": "2.512",
@@ -63472,7 +63472,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Definitionsmängd och värdemängd"
     ],
-    "alternativ": [{"txt": "\\(y\\le0\\)", "ratt": false}, {"txt": "Alla reella tal", "ratt": false}, {"txt": "\\(y&gt;0\\)", "ratt": false}, {"txt": "\\(y\\ge0\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(y\\le0\\)", "ratt": false, "kommentar": "x² är aldrig negativt."}, {"txt": "Alla reella tal", "ratt": false, "kommentar": "x² kan inte bli negativt."}, {"txt": "\\(y&gt;0\\)", "ratt": false, "kommentar": "x = 0 ger y = 0, så 0 ingår."}, {"txt": "\\(y\\ge0\\)", "ratt": true}]
   },
   {
     "id": "2.513",
@@ -63503,7 +63503,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Definitionsmängd och värdemängd"
     ],
-    "alternativ": [{"txt": "Alla uppmätta temperaturer", "ratt": false}, {"txt": "Tiderna 0, 1, 2, …, 24", "ratt": true}, {"txt": "Bara t = 24", "ratt": false}, {"txt": "Alla tal mellan −∞ och ∞", "ratt": false}]
+    "alternativ": [{"txt": "Alla uppmätta temperaturer", "ratt": false, "kommentar": "Temperaturerna är funktionsvärden och hör till värdemängden."}, {"txt": "Tiderna 0, 1, 2, …, 24", "ratt": true}, {"txt": "Bara t = 24", "ratt": false, "kommentar": "Alla mättider ingår, inte bara den sista."}, {"txt": "Alla tal mellan −∞ och ∞", "ratt": false, "kommentar": "Tiden går bara från 0 till 24."}]
   },
   {
     "id": "2.548",
@@ -65219,7 +65219,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Addition av lika potenstermer"
     ],
-    "alternativ": [{"txt": "\\(4^{-4n-8}\\)", "ratt": false}, {"txt": "\\(4^{-n-1}\\)", "ratt": true}, {"txt": "\\(4^{-n-2}\\)", "ratt": false}, {"txt": "\\(4^{n+1}\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(4^{-4n-8}\\)", "ratt": false, "kommentar": "Exponenterna multipliceras bara när potensen upphöjs. Här adderas fyra lika termer."}, {"txt": "\\(4^{-n-1}\\)", "ratt": true}, {"txt": "\\(4^{-n-2}\\)", "ratt": false, "kommentar": "Fyra lika termer ger 4 · 4⁻ⁿ⁻² . Faktorn 4 höjer exponenten med 1."}, {"txt": "\\(4^{n+1}\\)", "ratt": false, "kommentar": "Ett bråk med 4 i nämnaren ger negativ exponent."}]
   },
   {
     "id": "3.16",
@@ -66667,7 +66667,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Term och faktor"
     ],
-    "alternativ": [{"txt": "\\(4^{4n-4}\\)", "ratt": false}, {"txt": "\\(4^{n+3}\\)", "ratt": false}, {"txt": "\\(16^{n-1}\\)", "ratt": false}, {"txt": "\\(4^n\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(4^{4n-4}\\)", "ratt": false, "kommentar": "Exponenterna multipliceras bara när potensen upphöjs. Här adderas fyra lika termer."}, {"txt": "\\(4^{n+3}\\)", "ratt": false, "kommentar": "4 · 4ⁿ⁻¹ = 4ⁿ. Faktorn 4 höjer exponenten med 1, inte med 4."}, {"txt": "\\(16^{n-1}\\)", "ratt": false, "kommentar": "16ⁿ⁻¹ = 4²ⁿ⁻², som är mycket större."}, {"txt": "\\(4^n\\)", "ratt": true}]
   },
   {
     "id": "3.46",
@@ -68211,7 +68211,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "2,4 % ränta", "ratt": true}, {"txt": "2,1 % ränta", "ratt": false}]
+    "alternativ": [{"txt": "2,4 % ränta", "ratt": true}, {"txt": "2,1 % ränta", "ratt": false, "kommentar": "2,1 % ger mindre ränta än 2,4 % på samma belopp."}]
   },
   {
     "id": "3.84",
@@ -69489,7 +69489,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Potensens betydelse"
     ],
-    "alternativ": [{"txt": "10 + 10 + 10", "ratt": false}, {"txt": "10 · 10 · 10", "ratt": true}, {"txt": "3 · 10", "ratt": false}, {"txt": "3 · 3 · 3", "ratt": false}]
+    "alternativ": [{"txt": "10 + 10 + 10", "ratt": false, "kommentar": "Exponenten anger upprepad multiplikation, inte addition."}, {"txt": "10 · 10 · 10", "ratt": true}, {"txt": "3 · 10", "ratt": false, "kommentar": "Exponenten anger upprepad multiplikation, inte 3 gånger 10."}, {"txt": "3 · 3 · 3", "ratt": false, "kommentar": "Det är basen 10 som ska multipliceras, inte 3."}]
   },
   {
     "id": "3.116",
@@ -69567,7 +69567,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Välja rätt potensregel"
     ],
-    "alternativ": [{"txt": "\\(x^4\\cdot x^7=x^{28}\\)", "ratt": false}, {"txt": "\\(x^9/x^3=x^3\\)", "ratt": false}, {"txt": "\\(x^4\\cdot x^7=x^{11}\\)", "ratt": true}, {"txt": "\\((x^3)^5=x^8\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(x^4\\cdot x^7=x^{28}\\)", "ratt": false, "kommentar": "Vid multiplikation adderas exponenterna: 4 + 7 = 11."}, {"txt": "\\(x^9/x^3=x^3\\)", "ratt": false, "kommentar": "Vid division subtraheras exponenterna: 9 − 3 = 6."}, {"txt": "\\(x^4\\cdot x^7=x^{11}\\)", "ratt": true}, {"txt": "\\((x^3)^5=x^8\\)", "ratt": false, "kommentar": "Vid potens av potens multipliceras exponenterna: 3 · 5 = 15."}]
   },
   {
     "id": "3.118",
@@ -69696,7 +69696,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Varför exponenten noll ger ett"
     ],
-    "alternativ": [{"txt": "\\(7^3-7^3=7^{3-3}\\) och skillnaden är 1.", "ratt": false}, {"txt": "\\(7^3/7^3=7^{3-3}\\) och kvoten är 1.", "ratt": true}, {"txt": "\\(7^3\\cdot7^3=7^{3-3}\\) och produkten är 1.", "ratt": false}, {"txt": "\\(7^3+7^3=7^{3-3}\\) och summan är 1.", "ratt": false}]
+    "alternativ": [{"txt": "\\(7^3-7^3=7^{3-3}\\) och skillnaden är 1.", "ratt": false, "kommentar": "7³ − 7³ = 0, inte 7⁰."}, {"txt": "\\(7^3/7^3=7^{3-3}\\) och kvoten är 1.", "ratt": true}, {"txt": "\\(7^3\\cdot7^3=7^{3-3}\\) och produkten är 1.", "ratt": false, "kommentar": "7³ · 7³ = 7⁶, inte 7⁰."}, {"txt": "\\(7^3+7^3=7^{3-3}\\) och summan är 1.", "ratt": false, "kommentar": "7³ + 7³ = 2 · 7³, inte 7⁰."}]
   },
   {
     "id": "3.122",
@@ -70818,7 +70818,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Potens av en produkt"
     ],
-    "alternativ": [{"txt": "\\(2a^3\\)", "ratt": false}, {"txt": "\\(6a^3\\)", "ratt": false}, {"txt": "\\(8a^3\\)", "ratt": true}, {"txt": "\\(8a\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(2a^3\\)", "ratt": false, "kommentar": "Även 2 ska upphöjas till 3."}, {"txt": "\\(6a^3\\)", "ratt": false, "kommentar": "2³ = 8, inte 2 · 3."}, {"txt": "\\(8a^3\\)", "ratt": true}, {"txt": "\\(8a\\)", "ratt": false, "kommentar": "Även a ska upphöjas till 3."}]
   },
   {
     "id": "3.148",
@@ -70883,7 +70883,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Skilja mellan tal, kvadrat och rot"
     ],
-    "alternativ": [{"txt": "\\(\\sqrt5\\ ;\\ 5\\)", "ratt": false}, {"txt": "\\(5\\ ;\\ 25\\)", "ratt": false}, {"txt": "\\(25\\ ;\\ 5\\)", "ratt": false}, {"txt": "\\(5\\ ;\\ \\sqrt5\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(\\sqrt5\\ ;\\ 5\\)", "ratt": false, "kommentar": "Det är omvänt: x = 5 och √x = √5."}, {"txt": "\\(5\\ ;\\ 25\\)", "ratt": false, "kommentar": "x = 5 stämmer, men √5 är inte 25."}, {"txt": "\\(25\\ ;\\ 5\\)", "ratt": false, "kommentar": "x² = 25 ger x = 5, inte 25."}, {"txt": "\\(5\\ ;\\ \\sqrt5\\)", "ratt": true}]
   },
   {
     "id": "3.150",
@@ -73116,7 +73116,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Tiopotenser kring ett"
     ],
-    "alternativ": [{"txt": "\\(10^0,10^{-2},10^{-1},10^1\\)", "ratt": false}, {"txt": "\\(10^{-1},10^{-2},10^0,10^1\\)", "ratt": false}, {"txt": "\\(10^{-2},10^{-1},10^0,10^1\\)", "ratt": true}, {"txt": "\\(10^1,10^0,10^{-1},10^{-2}\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(10^0,10^{-2},10^{-1},10^1\\)", "ratt": false, "kommentar": "10⁰ = 1 är större än 10⁻² och 10⁻¹."}, {"txt": "\\(10^{-1},10^{-2},10^0,10^1\\)", "ratt": false, "kommentar": "10⁻² = 0,01 är mindre än 10⁻¹ = 0,1."}, {"txt": "\\(10^{-2},10^{-1},10^0,10^1\\)", "ratt": true}, {"txt": "\\(10^1,10^0,10^{-1},10^{-2}\\)", "ratt": false, "kommentar": "Det är ordnat från störst till minst."}]
   },
   {
     "id": "3.197",
@@ -73272,7 +73272,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Genomsnittlig årlig förändring"
     ],
-    "alternativ": [{"txt": "Investering A", "ratt": false}, {"txt": "Investering B", "ratt": true}]
+    "alternativ": [{"txt": "Investering A", "ratt": false, "kommentar": "1,08³ ≈ 1,2597, alltså en total ökning på knappt 26 %. B har lite mer."}, {"txt": "Investering B", "ratt": true}]
   },
   {
     "id": "3.202",
@@ -74952,7 +74952,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
     ],
-    "alternativ": [{"txt": "Lån A", "ratt": true}, {"txt": "Lån B", "ratt": false}, {"txt": "Samma kostnad", "ratt": false}]
+    "alternativ": [{"txt": "Lån A", "ratt": true}, {"txt": "Lån B", "ratt": false, "kommentar": "B kostar 720 + 600 = 1 320 kr, men A bara 800 kr."}, {"txt": "Samma kostnad", "ratt": false, "kommentar": "A kostar 800 kr och B kostar 720 + 600 = 1 320 kr."}]
   },
   {
     "id": "3.251",
@@ -74983,7 +74983,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
     ],
-    "alternativ": [{"txt": "Lån A", "ratt": true}, {"txt": "Lån B", "ratt": false}, {"txt": "Samma", "ratt": false}]
+    "alternativ": [{"txt": "Lån A", "ratt": true}, {"txt": "Lån B", "ratt": false, "kommentar": "Lån B delas på fler månader, så varje amortering blir mindre."}, {"txt": "Samma", "ratt": false, "kommentar": "Samma belopp delas på olika många månader."}]
   },
   {
     "id": "3.252",
@@ -75014,7 +75014,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
     ],
-    "alternativ": [{"txt": "2 000 kr/mån", "ratt": false}, {"txt": "3 000 kr/mån", "ratt": true}, {"txt": "Samma skuld", "ratt": false}]
+    "alternativ": [{"txt": "2 000 kr/mån", "ratt": false, "kommentar": "Med 2 000 kr i månaden betalas mindre av skulden."}, {"txt": "3 000 kr/mån", "ratt": true}, {"txt": "Samma skuld", "ratt": false, "kommentar": "Olika stora amorteringar ger olika skulder."}]
   },
   {
     "id": "3.253",
@@ -75046,7 +75046,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
     ],
-    "alternativ": [{"txt": "A", "ratt": true}, {"txt": "B", "ratt": false}, {"txt": "Lika", "ratt": false}]
+    "alternativ": [{"txt": "A", "ratt": true}, {"txt": "B", "ratt": false, "kommentar": "B kostar 4 500 + 700 = 5 200 kr, men A bara 5 000 kr."}, {"txt": "Lika", "ratt": false, "kommentar": "A kostar 5 000 kr och B kostar 4 500 + 700 = 5 200 kr."}]
   },
   {
     "id": "3.254",
@@ -75078,7 +75078,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
     ],
-    "alternativ": [{"txt": "De ger alltid samma totala ränta, eftersom både räntesatsen och startskulden är samma.", "ratt": false}, {"txt": "B ger normalt lägre total ränta, eftersom en mindre amortering gör att en större del av varje betalning kan användas till ränta.", "ratt": false}, {"txt": "A ger normalt lägre total ränta, eftersom skulden minskar snabbare och framtida ränta beräknas på en lägre skuld.", "ratt": true}, {"txt": "Det går inte att jämföra, eftersom den första månadens ränta är lika stor för båda lånen.", "ratt": false}]
+    "alternativ": [{"txt": "De ger alltid samma totala ränta, eftersom både räntesatsen och startskulden är samma.", "ratt": false, "kommentar": "Räntan beror på hur stor skulden är, och skulden minskar snabbare i A."}, {"txt": "B ger normalt lägre total ränta, eftersom en mindre amortering gör att en större del av varje betalning kan användas till ränta.", "ratt": false, "kommentar": "Mer ränta är en kostnad, inte en fördel."}, {"txt": "A ger normalt lägre total ränta, eftersom skulden minskar snabbare och framtida ränta beräknas på en lägre skuld.", "ratt": true}, {"txt": "Det går inte att jämföra, eftersom den första månadens ränta är lika stor för båda lånen.", "ratt": false, "kommentar": "Efter första månaden är skulden i A mindre, så räntan blir lägre."}]
   },
   {
     "id": "3.255",
@@ -75110,7 +75110,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Konto A", "ratt": false}, {"txt": "Konto B", "ratt": true}, {"txt": "Lika stort saldo", "ratt": false}]
+    "alternativ": [{"txt": "Konto A", "ratt": false, "kommentar": "2,0 % ger mindre ränta än 2,4 % på samma belopp."}, {"txt": "Konto B", "ratt": true}, {"txt": "Lika stort saldo", "ratt": false, "kommentar": "Räntorna är olika, så saldona blir olika."}]
   },
   {
     "id": "3.256",
@@ -75143,7 +75143,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Konto A", "ratt": true}, {"txt": "Konto B", "ratt": false}, {"txt": "Samma saldo", "ratt": false}]
+    "alternativ": [{"txt": "Konto A", "ratt": true}, {"txt": "Konto B", "ratt": false, "kommentar": "B ger 10 350 − 100 = 10 250 kr, mindre än A:s 10 300 kr."}, {"txt": "Samma saldo", "ratt": false, "kommentar": "A ger 10 300 kr och B ger 10 350 − 100 = 10 250 kr."}]
   },
   {
     "id": "3.257",
@@ -75173,7 +75173,7 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "4 % per år", "ratt": false}, {"txt": "2 % per halvår", "ratt": true}, {"txt": "Exakt samma", "ratt": false}]
+    "alternativ": [{"txt": "4 % per år", "ratt": false, "kommentar": "1,02 · 1,02 = 1,0404, alltså lite mer än 4 %."}, {"txt": "2 % per halvår", "ratt": true}, {"txt": "Exakt samma", "ratt": false, "kommentar": "1,02 · 1,02 = 1,0404, alltså lite mer än 4 %. Räntan på räntan gör skillnaden."}]
   },
   {
     "id": "3.258",
@@ -75206,7 +75206,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": true}, {"txt": "Samma", "ratt": false}]
+    "alternativ": [{"txt": "A", "ratt": false, "kommentar": "A ger 2 036 − 50 = 1 986 kr, men B ger 2 032 kr."}, {"txt": "B", "ratt": true}, {"txt": "Samma", "ratt": false, "kommentar": "A ger 2 036 − 50 = 1 986 kr, men B ger 2 032 kr."}]
   },
   {
     "id": "3.259",
@@ -75238,7 +75238,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Konto A", "ratt": true}, {"txt": "Konto B", "ratt": false}, {"txt": "Lika stort saldo", "ratt": false}]
+    "alternativ": [{"txt": "Konto A", "ratt": true}, {"txt": "Konto B", "ratt": false, "kommentar": "Pengarna på B står inne ett år kortare och får därför mindre ränta."}, {"txt": "Lika stort saldo", "ratt": false, "kommentar": "Pengarna på A står inne ett år längre och får mer ränta."}]
   },
   {
     "id": "3.401",
@@ -75615,7 +75615,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Genomsnittlig årlig minskning"
     ],
-    "alternativ": [{"txt": "Metoden är fel: fem år innebär fyra förändringar; \\(36/4=9{,}0\\%\\) per år.", "ratt": false}, {"txt": "Metoden är rätt: lika stora procentuella minskningar kan fördelas additivt; \\(36/5=7{,}2\\%\\) per år.", "ratt": false}, {"txt": "Metoden är fel: den kvarvarande andelen 64 % ska delas med fem; det ger 12,8 % minskning per år.", "ratt": false}, {"txt": "Metoden är fel: samma procentuella minskning upprepas multiplikativt; \\(q^5=0{,}64\\), vilket ger cirka 8,54 % minskning per år.", "ratt": true}]
+    "alternativ": [{"txt": "Metoden är fel: fem år innebär fyra förändringar; \\(36/4=9{,}0\\%\\) per år.", "ratt": false, "kommentar": "Det är fem förändringar på fem år."}, {"txt": "Metoden är rätt: lika stora procentuella minskningar kan fördelas additivt; \\(36/5=7{,}2\\%\\) per år.", "ratt": false, "kommentar": "Procentuella förändringar multipliceras. De kan inte delas lika mellan åren."}, {"txt": "Metoden är fel: den kvarvarande andelen 64 % ska delas med fem; det ger 12,8 % minskning per år.", "ratt": false, "kommentar": "Den kvarvarande andelen kan inte delas med fem."}, {"txt": "Metoden är fel: samma procentuella minskning upprepas multiplikativt; \\(q^5=0{,}64\\), vilket ger cirka 8,54 % minskning per år.", "ratt": true}]
   },
   {
     "id": "3.411",
@@ -77633,7 +77633,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna och tolka index"
     ],
-    "alternativ": [{"txt": "Året är basår som andra år jämförs med", "ratt": true}, {"txt": "Indexet kan inte förändras", "ratt": false}, {"txt": "Priserna ökade med 100 % det året", "ratt": false}, {"txt": "Priserna var 100 kr det året", "ratt": false}]
+    "alternativ": [{"txt": "Året är basår som andra år jämförs med", "ratt": true}, {"txt": "Indexet kan inte förändras", "ratt": false, "kommentar": "Indexet kan ändras andra år."}, {"txt": "Priserna ökade med 100 % det året", "ratt": false, "kommentar": "Index 100 betyder inte en ökning med 100 %."}, {"txt": "Priserna var 100 kr det året", "ratt": false, "kommentar": "Ett index är inget pris i kronor."}]
   },
   {
     "id": "3.469",
@@ -77664,7 +77664,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna och tolka index"
     ],
-    "alternativ": [{"txt": "Priserna har ökat med 30 %", "ratt": false}, {"txt": "Alla varor har blivit 30 kr dyrare", "ratt": false}, {"txt": "Priserna har i genomsnitt ökat med 10 %", "ratt": true}, {"txt": "Lönerna har ökat med 10 %", "ratt": false}]
+    "alternativ": [{"txt": "Priserna har ökat med 30 %", "ratt": false, "kommentar": "Ökningen är 30 indexenheter, men 30/300 = 10 %."}, {"txt": "Alla varor har blivit 30 kr dyrare", "ratt": false, "kommentar": "Ett index är inga kronor. Det visar en genomsnittlig procentuell ökning."}, {"txt": "Priserna har i genomsnitt ökat med 10 %", "ratt": true}, {"txt": "Lönerna har ökat med 10 %", "ratt": false, "kommentar": "KPI mäter priser, inte löner."}]
   },
   {
     "id": "3.470",
@@ -77695,7 +77695,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna och tolka index"
     ],
-    "alternativ": [{"txt": "En bostad kostar 250 000 kr", "ratt": false}, {"txt": "Bostadspriserna är 2,5 gånger så höga som år 2000", "ratt": true}, {"txt": "Bostadspriserna har ökat med 250 %", "ratt": false}, {"txt": "Priserna har ökat med 2,5 %", "ratt": false}]
+    "alternativ": [{"txt": "En bostad kostar 250 000 kr", "ratt": false, "kommentar": "Ett index är inget pris i kronor."}, {"txt": "Bostadspriserna är 2,5 gånger så höga som år 2000", "ratt": true}, {"txt": "Bostadspriserna har ökat med 250 %", "ratt": false, "kommentar": "Index 250 betyder att priserna är 250 % av basårets, alltså en ökning med 150 %."}, {"txt": "Priserna har ökat med 2,5 %", "ratt": false, "kommentar": "Index 250 betyder att priserna är 2,5 gånger så höga, alltså en ökning med 150 %."}]
   },
   {
     "id": "3.535",
@@ -79188,7 +79188,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Genomsnittlig årlig förändring"
     ],
-    "alternativ": [{"txt": "Samma totala ökning hade fåtts om befolkningen ökat med exakt 2 % varje år", "ratt": true}, {"txt": "Befolkningen ökade med 2 personer per år", "ratt": false}, {"txt": "Befolkningen ökade med exakt 2 % varje år", "ratt": false}, {"txt": "Befolkningen ökade med 2 % under hela perioden", "ratt": false}]
+    "alternativ": [{"txt": "Samma totala ökning hade fåtts om befolkningen ökat med exakt 2 % varje år", "ratt": true}, {"txt": "Befolkningen ökade med 2 personer per år", "ratt": false, "kommentar": "Det är 2 procent per år, inte 2 personer."}, {"txt": "Befolkningen ökade med exakt 2 % varje år", "ratt": false, "kommentar": "Ett genomsnitt betyder att ökningen kan ha varierat mellan åren."}, {"txt": "Befolkningen ökade med 2 % under hela perioden", "ratt": false, "kommentar": "Det är 2 % per år, inte under hela perioden."}]
   },
   {
     "id": "3.544",
@@ -79583,7 +79583,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Ränta på ränta"
     ],
-    "alternativ": [{"txt": "Räntesatsen höjs automatiskt år 2", "ratt": false}, {"txt": "Räntan år 2 beräknas även på räntan från år 1", "ratt": true}, {"txt": "Banken ger en bonus år 2", "ratt": false}, {"txt": "Du får inte mer ränta år 2", "ratt": false}]
+    "alternativ": [{"txt": "Räntesatsen höjs automatiskt år 2", "ratt": false, "kommentar": "Räntesatsen är densamma, 5 % båda åren."}, {"txt": "Räntan år 2 beräknas även på räntan från år 1", "ratt": true}, {"txt": "Banken ger en bonus år 2", "ratt": false, "kommentar": "Det handlar inte om någon bonus."}, {"txt": "Du får inte mer ränta år 2", "ratt": false, "kommentar": "Saldot har ökat, så 5 % av det nya saldot blir mer än år 1."}]
   },
   {
     "id": "3.526",
@@ -82043,7 +82043,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Bestämma vinklar med invers trigonometri"
     ],
-    "alternativ": [{"txt": "\\(\\tan(0,75)\\)", "ratt": false}, {"txt": "\\(\\tan^{-1}(0,75)\\)", "ratt": true}, {"txt": "\\(1/\\tan(0,75)\\)", "ratt": false}, {"txt": "\\(\\cos^{-1}(0,75)\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(\\tan(0,75)\\)", "ratt": false, "kommentar": "tan(0,75) räknar ut tangens för vinkeln 0,75°, inte vinkeln."}, {"txt": "\\(\\tan^{-1}(0,75)\\)", "ratt": true}, {"txt": "\\(1/\\tan(0,75)\\)", "ratt": false, "kommentar": "Det ger inte vinkeln."}, {"txt": "\\(\\cos^{-1}(0,75)\\)", "ratt": false, "kommentar": "Det är tangens som är 0,75, inte cosinus."}]
   },
   {
     "id": "4.60",
@@ -82839,7 +82839,7 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Ja, eftersom öppningens diagonal är längre än 93 cm.", "ratt": true}, {"txt": "Ja, eftersom 82+46 är större än 93.", "ratt": false}, {"txt": "Nej, eftersom öppningens bredd är mindre än 93 cm.", "ratt": false}, {"txt": "Nej, eftersom öppningens diagonal är kortare än 93 cm.", "ratt": false}]
+    "alternativ": [{"txt": "Ja, eftersom öppningens diagonal är längre än 93 cm.", "ratt": true}, {"txt": "Ja, eftersom 82+46 är större än 93.", "ratt": false, "kommentar": "Listen ligger längs diagonalen, inte längs två sidor."}, {"txt": "Nej, eftersom öppningens bredd är mindre än 93 cm.", "ratt": false, "kommentar": "Listen ligger på snedden, så det är diagonalen som avgör."}, {"txt": "Nej, eftersom öppningens diagonal är kortare än 93 cm.", "ratt": false, "kommentar": "Diagonalen är \\(\\sqrt{82^2+46^2}\\approx94{,}0\\) cm, alltså längre än 93 cm."}]
   },
   {
     "id": "4.81",
@@ -83013,7 +83013,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Koordinatgeometri: avstånd och punkter"
     ],
-    "alternativ": [{"txt": "Triangeln är rätvinklig vid B eftersom \\(AB^2+BC^2=AC^2\\).", "ratt": true}, {"txt": "Triangeln är rätvinklig vid A eftersom \\(AB=BC\\).", "ratt": false}, {"txt": "Triangeln är inte rätvinklig eftersom ingen sida är parallell med en koordinataxel.", "ratt": false}, {"txt": "Triangeln är inte rätvinklig eftersom AB och BC är lika långa.", "ratt": false}]
+    "alternativ": [{"txt": "Triangeln är rätvinklig vid B eftersom \\(AB^2+BC^2=AC^2\\).", "ratt": true}, {"txt": "Triangeln är rätvinklig vid A eftersom \\(AB=BC\\).", "ratt": false, "kommentar": "Den räta vinkeln ligger vid B. Att två sidor är lika långa visar inte att vinkeln är rät."}, {"txt": "Triangeln är inte rätvinklig eftersom ingen sida är parallell med en koordinataxel.", "ratt": false, "kommentar": "En rätvinklig triangel behöver inte ha sidor längs axlarna."}, {"txt": "Triangeln är inte rätvinklig eftersom AB och BC är lika långa.", "ratt": false, "kommentar": "Två lika långa sidor hindrar inte att vinkeln mellan dem är rät."}]
   },
   {
     "id": "4.86",
@@ -86863,7 +86863,7 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\(x\\tan42^\\circ=(x+8)\\tan26^\\circ\\)", "ratt": false}, {"txt": "\\(x\\sin26^\\circ=(x+8)\\sin42^\\circ\\)", "ratt": false}, {"txt": "\\(x\\cos42^\\circ=(x+8)\\cos26^\\circ\\)", "ratt": false}, {"txt": "\\(x\\sin42^\\circ=(x+8)\\sin26^\\circ\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(x\\tan42^\\circ=(x+8)\\tan26^\\circ\\)", "ratt": false, "kommentar": "Tangens ger den vågräta sträckan, men det är höjden som är lika."}, {"txt": "\\(x\\sin26^\\circ=(x+8)\\sin42^\\circ\\)", "ratt": false, "kommentar": "Vinklarna har bytt plats. Den kortare linan lutar 42°."}, {"txt": "\\(x\\cos42^\\circ=(x+8)\\cos26^\\circ\\)", "ratt": false, "kommentar": "Cosinus ger den vågräta sträckan, men det är höjden som är lika."}, {"txt": "\\(x\\sin42^\\circ=(x+8)\\sin26^\\circ\\)", "ratt": true}]
   },
   {
     "id": "4.171",
@@ -87982,7 +87982,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Bestämma hypotenusan med Pythagoras sats"
     ],
-    "alternativ": [{"txt": "Ja, eftersom \\(8+15=17\\).", "ratt": false}, {"txt": "Ja, eftersom \\(8^2+15^2=17^2\\).", "ratt": true}, {"txt": "Nej, eftersom alla tre sidor är olika långa.", "ratt": false}, {"txt": "Nej, eftersom \\(8^2+15^2&gt;17^2\\).", "ratt": false}]
+    "alternativ": [{"txt": "Ja, eftersom \\(8+15=17\\).", "ratt": false, "kommentar": "Pythagoras sats gäller kvadraterna, inte sidorna."}, {"txt": "Ja, eftersom \\(8^2+15^2=17^2\\).", "ratt": true}, {"txt": "Nej, eftersom alla tre sidor är olika långa.", "ratt": false, "kommentar": "En rätvinklig triangel kan ha tre olika långa sidor."}, {"txt": "Nej, eftersom \\(8^2+15^2&gt;17^2\\).", "ratt": false, "kommentar": "8² + 15² = 64 + 225 = 289 = 17²."}]
   },
   {
     "id": "4.200",
@@ -88079,7 +88079,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Bestämma en katet med Pythagoras sats"
     ],
-    "alternativ": [{"txt": "17 cm kan inte vara hypotenusa eftersom 17 är större än 8.", "ratt": false}, {"txt": "Kvadratroten får inte användas i Pythagoras sats.", "ratt": false}, {"txt": "När en katet söks ska den kända katetens kvadrat subtraheras från hypotenusans kvadrat.", "ratt": true}, {"txt": "Det finns inget fel i elevens uppställning.", "ratt": false}]
+    "alternativ": [{"txt": "17 cm kan inte vara hypotenusa eftersom 17 är större än 8.", "ratt": false, "kommentar": "Hypotenusan är den längsta sidan, så 17 cm kan vara hypotenusa."}, {"txt": "Kvadratroten får inte användas i Pythagoras sats.", "ratt": false, "kommentar": "Kvadratroten behövs för att få längden."}, {"txt": "När en katet söks ska den kända katetens kvadrat subtraheras från hypotenusans kvadrat.", "ratt": true}, {"txt": "Det finns inget fel i elevens uppställning.", "ratt": false, "kommentar": "Med plus blir kateten längre än hypotenusan, och det går inte."}]
   },
   {
     "id": "4.203",
@@ -92232,7 +92232,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "En punkt i koordinatsystemet", "ratt": false}, {"txt": "En storhet med både storlek och riktning", "ratt": true}, {"txt": "En vinkel mellan två linjer", "ratt": false}, {"txt": "Bara en storlek", "ratt": false}]
+    "alternativ": [{"txt": "En punkt i koordinatsystemet", "ratt": false, "kommentar": "En punkt har ett läge men ingen riktning."}, {"txt": "En storhet med både storlek och riktning", "ratt": true}, {"txt": "En vinkel mellan två linjer", "ratt": false, "kommentar": "En vinkel är inte en vektor."}, {"txt": "Bara en storlek", "ratt": false, "kommentar": "En vektor har också en riktning."}]
   },
   {
     "id": "4.481",
@@ -92260,7 +92260,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "De är lika långa men motsatt riktade", "ratt": true}, {"txt": "De är lika", "ratt": false}, {"txt": "De har olika längd", "ratt": false}, {"txt": "De är vinkelräta", "ratt": false}]
+    "alternativ": [{"txt": "De är lika långa men motsatt riktade", "ratt": true}, {"txt": "De är lika", "ratt": false, "kommentar": "Vektorerna pekar åt motsatta håll, så de är inte lika."}, {"txt": "De har olika längd", "ratt": false, "kommentar": "Båda har längden \\(\\sqrt{9+4}=\\sqrt{13}\\)."}, {"txt": "De är vinkelräta", "ratt": false, "kommentar": "Vektorerna ligger längs samma linje, så de är parallella."}]
   },
   {
     "id": "4.575",
@@ -93270,7 +93270,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna en vektors längd"
     ],
-    "alternativ": [{"txt": "\\((2,3)\\)", "ratt": false}, {"txt": "\\((5,5)\\)", "ratt": false}, {"txt": "\\((-3,-4)\\)", "ratt": true}, {"txt": "\\((1,4)\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\((2,3)\\)", "ratt": false, "kommentar": "\\(\\sqrt{2^2+3^2}=\\sqrt{13}\\)."}, {"txt": "\\((5,5)\\)", "ratt": false, "kommentar": "\\(\\sqrt{5^2+5^2}=\\sqrt{50}\\)."}, {"txt": "\\((-3,-4)\\)", "ratt": true}, {"txt": "\\((1,4)\\)", "ratt": false, "kommentar": "\\(\\sqrt{1^2+4^2}=\\sqrt{17}\\)."}]
   },
   {
     "id": "4.576",
@@ -93836,7 +93836,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Skalärmultiplikation av vektorer"
     ],
-    "alternativ": [{"txt": "\\((2,3)\\)", "ratt": false}, {"txt": "\\((3,-2)\\)", "ratt": false}, {"txt": "\\((4,-5)\\)", "ratt": false}, {"txt": "\\((-4,6)\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\((2,3)\\)", "ratt": false, "kommentar": "(2, 3) är inte en multipel av (2, −3), eftersom bara den ena koordinaten är densamma."}, {"txt": "\\((3,-2)\\)", "ratt": false, "kommentar": "(3, −2) är inte en multipel av (2, −3)."}, {"txt": "\\((4,-5)\\)", "ratt": false, "kommentar": "4 = 2 · 2, men −5 är inte 2 · (−3)."}, {"txt": "\\((-4,6)\\)", "ratt": true}]
   },
   {
     "id": "4.523",
@@ -93866,7 +93866,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Skalärmultiplikation av vektorer"
     ],
-    "alternativ": [{"txt": "Den blir hälften så lång", "ratt": false}, {"txt": "Den blir vinkelrät mot \\(\\vec v\\)", "ratt": false}, {"txt": "Den blir dubbelt så lång och får motsatt riktning", "ratt": true}, {"txt": "Den blir dubbelt så lång med samma riktning", "ratt": false}]
+    "alternativ": [{"txt": "Den blir hälften så lång", "ratt": false, "kommentar": "Längden multipliceras med 2, inte med 1/2."}, {"txt": "Den blir vinkelrät mot \\(\\vec v\\)", "ratt": false, "kommentar": "Vektorn ligger längs samma linje men pekar åt andra hållet."}, {"txt": "Den blir dubbelt så lång och får motsatt riktning", "ratt": true}, {"txt": "Den blir dubbelt så lång med samma riktning", "ratt": false, "kommentar": "Minuset gör att riktningen blir motsatt."}]
   },
   {
     "id": "4.524",
@@ -93896,7 +93896,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Skalärmultiplikation av vektorer"
     ],
-    "alternativ": [{"txt": "3", "ratt": false}, {"txt": "2", "ratt": true}, {"txt": "18", "ratt": false}, {"txt": "6", "ratt": false}]
+    "alternativ": [{"txt": "3", "ratt": false, "kommentar": "6/3 = 2, inte 3."}, {"txt": "2", "ratt": true}, {"txt": "18", "ratt": false, "kommentar": "Längden ska delas med 3, inte multipliceras."}, {"txt": "6", "ratt": false, "kommentar": "Längden ändras när vektorn multipliceras med 1/3."}]
   },
   {
     "id": "4.525",
@@ -94122,7 +94122,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Den dubbleras.", "ratt": false}, {"txt": "Den blir tre gånger så stor.", "ratt": false}, {"txt": "Den är oförändrad.", "ratt": false}, {"txt": "Den blir fyra gånger så stor.", "ratt": true}]
+    "alternativ": [{"txt": "Den dubbleras.", "ratt": false, "kommentar": "Både längden och bredden fördubblas, så arean blir 2 · 2 = 4 gånger så stor."}, {"txt": "Den blir tre gånger så stor.", "ratt": false, "kommentar": "Arean blir 2 · 2 = 4 gånger så stor."}, {"txt": "Den är oförändrad.", "ratt": false, "kommentar": "Arean ändras när sidorna ändras."}, {"txt": "Den blir fyra gånger så stor.", "ratt": true}]
   },
   {
     "id": "4.533",
@@ -94921,7 +94921,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "7 och 8", "ratt": true}, {"txt": "6 och 7", "ratt": false}, {"txt": "24 och 26", "ratt": false}, {"txt": "8 och 9", "ratt": false}]
+    "alternativ": [{"txt": "7 och 8", "ratt": true}, {"txt": "6 och 7", "ratt": false, "kommentar": "7² = 49, som är mindre än 50."}, {"txt": "24 och 26", "ratt": false, "kommentar": "Kvadratroten är inte hälften av talet."}, {"txt": "8 och 9", "ratt": false, "kommentar": "8² = 64, som är större än 50."}]
   },
   {
     "id": "4.553",
@@ -95031,7 +95031,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\(x=9\\)", "ratt": false}, {"txt": "\\(x=-9\\) och \\(x=9\\)", "ratt": true}, {"txt": "\\(x=40{,}5\\)", "ratt": false}, {"txt": "\\(x=-81\\) och \\(x=81\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(x=9\\)", "ratt": false, "kommentar": "(−9)² = 81 också."}, {"txt": "\\(x=-9\\) och \\(x=9\\)", "ratt": true}, {"txt": "\\(x=40{,}5\\)", "ratt": false, "kommentar": "x² betyder x · x, inte 2x."}, {"txt": "\\(x=-81\\) och \\(x=81\\)", "ratt": false, "kommentar": "81² = 6 561, inte 81."}]
   },
   {
     "id": "4.557",
@@ -95142,7 +95142,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Två", "ratt": false}, {"txt": "En", "ratt": false}, {"txt": "Ingen", "ratt": true}, {"txt": "Oändligt många", "ratt": false}]
+    "alternativ": [{"txt": "Två", "ratt": false, "kommentar": "Ett tal i kvadrat kan aldrig bli negativt."}, {"txt": "En", "ratt": false, "kommentar": "Ett tal i kvadrat kan aldrig bli negativt."}, {"txt": "Ingen", "ratt": true}, {"txt": "Oändligt många", "ratt": false, "kommentar": "Ett tal i kvadrat kan aldrig bli negativt."}]
   },
   {
     "id": "4.561",
@@ -95313,7 +95313,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\((7,0)\\)", "ratt": false}, {"txt": "\\((4,1)\\)", "ratt": false}, {"txt": "\\((5,1)\\)", "ratt": false}, {"txt": "\\((5,3)\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\((7,0)\\)", "ratt": false, "kommentar": "(7, 0) är \\(\\vec u+2\\vec v\\). Det är \\(\\vec u\\) som ska fördubblas."}, {"txt": "\\((4,1)\\)", "ratt": false, "kommentar": "(4, 1) är \\(\\vec u+\\vec v\\). \\(\\vec u\\) ska fördubblas."}, {"txt": "\\((5,1)\\)", "ratt": false, "kommentar": "Även y-koordinaten i \\(\\vec u\\) ska fördubblas: 2 · 2 + (−1) = 3."}, {"txt": "\\((5,3)\\)", "ratt": true}]
   },
   {
     "id": "4.563",
@@ -95342,7 +95342,7 @@ window.BANKMA1 = [
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
-    "alternativ": [{"txt": "\\((3,2)\\)", "ratt": false}, {"txt": "\\((4,-6)\\)", "ratt": true}, {"txt": "\\((-2,-3)\\)", "ratt": false}, {"txt": "\\((6,9)\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\((3,2)\\)", "ratt": false, "kommentar": "(3, 2) är inte en multipel av (2, −3)."}, {"txt": "\\((4,-6)\\)", "ratt": true}, {"txt": "\\((-2,-3)\\)", "ratt": false, "kommentar": "−2 = −1 · 2, men −3 är inte −1 · (−3)."}, {"txt": "\\((6,9)\\)", "ratt": false, "kommentar": "6 = 3 · 2, men 9 är inte 3 · (−3)."}]
   },
   {
     "id": "4.564",
@@ -95990,7 +95990,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
     ],
-    "alternativ": [{"txt": "Ja, sannolikheten ändras efter första kastet.", "ratt": false}, {"txt": "Ja, men bara om första kastet blev krona.", "ratt": false}, {"txt": "Nej, sannolikheten är fortfarande \\(1/2\\).", "ratt": true}]
+    "alternativ": [{"txt": "Ja, sannolikheten ändras efter första kastet.", "ratt": false, "kommentar": "Mynten har inget minne. Sannolikheten är densamma i varje kast."}, {"txt": "Ja, men bara om första kastet blev krona.", "ratt": false, "kommentar": "Mynten har inget minne. Sannolikheten är densamma i varje kast."}, {"txt": "Nej, sannolikheten är fortfarande \\(1/2\\).", "ratt": true}]
   },
   {
     "id": "5.16",
@@ -97392,7 +97392,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Sannolikhet utan återläggning"
     ],
-    "alternativ": [{"txt": "\\(\\frac37\\cdot\\frac37\\)", "ratt": false}, {"txt": "\\(\\frac37\\cdot\\frac26\\)", "ratt": true}, {"txt": "\\(\\frac37+\\frac26\\)", "ratt": false}, {"txt": "\\(\\frac47\\cdot\\frac36\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(\\frac37\\cdot\\frac37\\)", "ratt": false, "kommentar": "Utan återläggning finns bara 2 röda av 6 kulor kvar vid andra dragningen."}, {"txt": "\\(\\frac37\\cdot\\frac26\\)", "ratt": true}, {"txt": "\\(\\frac37+\\frac26\\)", "ratt": false, "kommentar": "Båda kulorna ska vara röda, så sannolikheterna ska multipliceras."}, {"txt": "\\(\\frac47\\cdot\\frac36\\)", "ratt": false, "kommentar": "Det är sannolikheten för två blå kulor."}]
   },
   {
     "id": "5.55",
@@ -99669,7 +99669,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Sannolikhet utan återläggning"
     ],
-    "alternativ": [{"txt": "Första draget ändrar vilka och hur många kort som finns kvar inför det andra.", "ratt": true}, {"txt": "Andra draget kan ändra vilket kort som drogs först.", "ratt": false}, {"txt": "Alla kort är lika sannolika, därför måste dragningarna vara beroende.", "ratt": false}, {"txt": "Dragningarna är egentligen oberoende eftersom kortleken blandades från början.", "ratt": false}]
+    "alternativ": [{"txt": "Första draget ändrar vilka och hur många kort som finns kvar inför det andra.", "ratt": true}, {"txt": "Andra draget kan ändra vilket kort som drogs först.", "ratt": false, "kommentar": "Det andra draget kan inte ändra något som redan har hänt."}, {"txt": "Alla kort är lika sannolika, därför måste dragningarna vara beroende.", "ratt": false, "kommentar": "Att korten är lika sannolika gör inte dragningarna beroende."}, {"txt": "Dragningarna är egentligen oberoende eftersom kortleken blandades från början.", "ratt": false, "kommentar": "Blandningen ändrar inte att korten inte läggs tillbaka."}]
   },
   {
     "id": "5.120",
@@ -99733,8 +99733,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>En påse innehåller 4 röda och 3 blå kulor. Två kulor dras utan återläggning. Vilken händelse beskrivs av \\(\\frac47\\cdot\\frac36\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\(4/7\\) betyder att den första kulan är röd.</p></li><li><p>Efter en röd kula återstår 3 blå av 6 kulor, så \\(3/6\\) betyder blå i andra draget.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Först röd, sedan blå.</strong></p></div>",
+    "t": "<p>En påse innehåller 5 röda och 3 blå kulor. Två kulor dras utan återläggning. Vilken händelse beskrivs av \\(\\frac58\\cdot\\frac37\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Första faktorn: \\(\\frac58\\) är andelen röda kulor</p><p>Från början finns 5 röda av 8 kulor, så \\(\\frac58\\) betyder att den första kulan är röd.</p></li><li><p class=\"facit-rubrik\">Andra faktorn: \\(\\frac37\\) är andelen blå kulor som är kvar</p><p>Efter en röd kula finns 7 kulor kvar, och alla 3 blå är kvar. Därför betyder \\(\\frac37\\) blå i andra draget.</p></li><li><p class=\"facit-rubrik\">Jämför med de andra alternativen</p><p>Röd och sedan röd hade gett \\(\\frac58\\cdot\\frac47\\). Blå först hade börjat med \\(\\frac38\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: Först röd, sedan blå.</strong></p></div>",
     "familj": "Beroende händelser i problemlösning",
     "geogebra": false,
     "miniräknare": true,
@@ -99746,14 +99746,14 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Tolka faktorerna i ordning: vad betyder \\(4/7\\) i första draget och vad finns kvar efter det?</p>",
+    "ledtrad": "<p>Vad betyder \\(\\frac58\\) i första draget? Hur många kulor av varje färg finns kvar efter det?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Sannolikhet utan återläggning"
     ],
-    "alternativ": [{"txt": "Först röd, sedan röd.", "ratt": false}, {"txt": "Först röd, sedan blå.", "ratt": true}, {"txt": "Först blå, sedan röd.", "ratt": false}, {"txt": "Två kulor med samma färg.", "ratt": false}]
+    "alternativ": [{"txt": "Först röd, sedan röd.", "ratt": false, "kommentar": "Två röda hade gett \\(\\frac58\\cdot\\frac47\\), eftersom en röd kula redan är dragen."}, {"txt": "Först röd, sedan blå.", "ratt": true}, {"txt": "Först blå, sedan röd.", "ratt": false, "kommentar": "Om den första kulan är blå börjar uttrycket med \\(\\frac38\\)."}, {"txt": "Två kulor med samma färg.", "ratt": false, "kommentar": "Samma färg betyder två röda eller två blå. Uttrycket beskriver ett enda förlopp."}]
   },
   {
     "id": "5.122",
@@ -100090,7 +100090,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
     ],
-    "alternativ": [{"txt": "Händelserna är oberoende, eftersom \\(0{,}40\\cdot0{,}50=0{,}20\\).", "ratt": true}, {"txt": "Händelserna är beroende, eftersom A och B har olika sannolikheter.", "ratt": false}, {"txt": "Händelserna är beroende, eftersom \\(0{,}40+0{,}50\\ne1\\).", "ratt": false}, {"txt": "Det går inte att avgöra utan att känna alla möjliga utfall.", "ratt": false}]
+    "alternativ": [{"txt": "Händelserna är oberoende, eftersom \\(0{,}40\\cdot0{,}50=0{,}20\\).", "ratt": true}, {"txt": "Händelserna är beroende, eftersom A och B har olika sannolikheter.", "ratt": false, "kommentar": "Händelser kan vara oberoende och ändå ha olika sannolikheter."}, {"txt": "Händelserna är beroende, eftersom \\(0{,}40+0{,}50\\ne1\\).", "ratt": false, "kommentar": "A och B behöver inte ha summan 1."}, {"txt": "Det går inte att avgöra utan att känna alla möjliga utfall.", "ratt": false, "kommentar": "Det räcker att jämföra P(A och B) med P(A) · P(B)."}]
   },
   {
     "id": "5.130",
@@ -100532,7 +100532,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
     ],
-    "alternativ": [{"txt": "Maskinen får minst två sådana fel under dagen.", "ratt": false}, {"txt": "Maskinen får inget sådant fel under dagen.", "ratt": true}, {"txt": "Maskinen fungerar perfekt under hela sin livstid.", "ratt": false}, {"txt": "Maskinen får något annat fel under dagen.", "ratt": false}]
+    "alternativ": [{"txt": "Maskinen får minst två sådana fel under dagen.", "ratt": false, "kommentar": "Komplementet är att händelsen inte inträffar alls."}, {"txt": "Maskinen får inget sådant fel under dagen.", "ratt": true}, {"txt": "Maskinen fungerar perfekt under hela sin livstid.", "ratt": false, "kommentar": "Komplementet gäller samma dag, inte hela livstiden."}, {"txt": "Maskinen får något annat fel under dagen.", "ratt": false, "kommentar": "Maskinen kan få andra fel samtidigt. Komplementet är att just detta fel inte inträffar."}]
   },
   {
     "id": "5.141",
@@ -100931,7 +100931,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Sannolikhet utan återläggning"
     ],
-    "alternativ": [{"txt": "Beräkningen är riktig eftersom båda dragen har samma sannolikhet.", "ratt": false}, {"txt": "Sannolikheterna ska adderas i stället för multipliceras.", "ratt": false}, {"txt": "Den andra faktorn ska vara \\(\\frac49\\), eftersom bara totala antalet kulor minskar.", "ratt": false}, {"txt": "Den andra faktorn ska vara \\(\\frac39\\), eftersom en vit kula och en kula totalt har försvunnit.", "ratt": true}]
+    "alternativ": [{"txt": "Beräkningen är riktig eftersom båda dragen har samma sannolikhet.", "ratt": false, "kommentar": "Den andra dragningen har en vit kula mindre och en kula mindre totalt."}, {"txt": "Sannolikheterna ska adderas i stället för multipliceras.", "ratt": false, "kommentar": "Båda kulorna ska vara vita, så sannolikheterna ska multipliceras."}, {"txt": "Den andra faktorn ska vara \\(\\frac49\\), eftersom bara totala antalet kulor minskar.", "ratt": false, "kommentar": "Om den första kulan är vit finns bara 3 vita kvar."}, {"txt": "Den andra faktorn ska vara \\(\\frac39\\), eftersom en vit kula och en kula totalt har försvunnit.", "ratt": true}]
   },
   {
     "id": "5.150",
@@ -103612,7 +103612,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Risk och sannolikhet"
     ],
-    "alternativ": [{"txt": "System A", "ratt": false}, {"txt": "System B", "ratt": true}, {"txt": "De har samma felrisk", "ratt": false}, {"txt": "Det går inte att jämföra eftersom antalet användningar skiljer sig", "ratt": false}]
+    "alternativ": [{"txt": "System A", "ratt": false, "kommentar": "A: 6/1 200 = 0,5 %. B: 8/2 000 = 0,4 %."}, {"txt": "System B", "ratt": true}, {"txt": "De har samma felrisk", "ratt": false, "kommentar": "A: 6/1 200 = 0,5 %. B: 8/2 000 = 0,4 %."}, {"txt": "Det går inte att jämföra eftersom antalet användningar skiljer sig", "ratt": false, "kommentar": "Det går att jämföra genom att räkna andelen fel i varje system."}]
   },
   {
     "id": "5.228",
@@ -103645,7 +103645,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Risk och sannolikhet"
     ],
-    "alternativ": [{"txt": "Exakt 30 händelser måste inträffa bland de 250 personerna.", "ratt": false}, {"txt": "Varje person får 30 händelser med sannolikheten 12 %.", "ratt": false}, {"txt": "Minst 30 händelser kommer att inträffa eftersom risken är 12 %.", "ratt": false}, {"txt": "Över många lika stora grupper väntas genomsnittet ligga nära 30, men en enskild grupp kan få fler eller färre.", "ratt": true}]
+    "alternativ": [{"txt": "Exakt 30 händelser måste inträffa bland de 250 personerna.", "ratt": false, "kommentar": "30 är ett förväntat värde. Det verkliga antalet kan bli fler eller färre."}, {"txt": "Varje person får 30 händelser med sannolikheten 12 %.", "ratt": false, "kommentar": "Det är hela gruppen som väntas få ungefär 30 händelser, inte varje person."}, {"txt": "Minst 30 händelser kommer att inträffa eftersom risken är 12 %.", "ratt": false, "kommentar": "Det kan också bli färre än 30."}, {"txt": "Över många lika stora grupper väntas genomsnittet ligga nära 30, men en enskild grupp kan få fler eller färre.", "ratt": true}]
   },
   {
     "id": "5.229",
@@ -103846,7 +103846,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Risk och sannolikhet"
     ],
-    "alternativ": [{"txt": "40 % är rätt, eftersom oberoende risker alltid kan adderas.", "ratt": false}, {"txt": "60 % är rätt, eftersom komplementet till 40 % är 60 %.", "ratt": false}, {"txt": "3,75 % är rätt, eftersom oberoende risker alltid ska multipliceras.", "ratt": false}, {"txt": "36,25 % är rätt, eftersom fallet där båda inträffar annars räknas två gånger.", "ratt": true}]
+    "alternativ": [{"txt": "40 % är rätt, eftersom oberoende risker alltid kan adderas.", "ratt": false, "kommentar": "Summan räknar fallet där båda inträffar två gånger."}, {"txt": "60 % är rätt, eftersom komplementet till 40 % är 60 %.", "ratt": false, "kommentar": "60 % är komplementet till 40 %, men 40 % var redan fel."}, {"txt": "3,75 % är rätt, eftersom oberoende risker alltid ska multipliceras.", "ratt": false, "kommentar": "3,75 % är sannolikheten att båda inträffar, inte minst en."}, {"txt": "36,25 % är rätt, eftersom fallet där båda inträffar annars räknas två gånger.", "ratt": true}]
   },
   {
     "id": "5.234",
@@ -104012,7 +104012,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Grundläggande sannolikhet"
     ],
-    "alternativ": [{"txt": "Lotteri A", "ratt": false}, {"txt": "Lotteri B", "ratt": true}, {"txt": "Samma i båda", "ratt": false}]
+    "alternativ": [{"txt": "Lotteri A", "ratt": false, "kommentar": "A ger 3/8 = 37,5 %, B ger 4/10 = 40 %."}, {"txt": "Lotteri B", "ratt": true}, {"txt": "Samma i båda", "ratt": false, "kommentar": "A ger 3/8 = 37,5 %, B ger 4/10 = 40 %."}]
   },
   {
     "id": "5.239",
@@ -104659,7 +104659,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
     ],
-    "alternativ": [{"txt": "\\(1-0{,}25^4\\)", "ratt": false}, {"txt": "\\(0{,}25^4\\)", "ratt": false}, {"txt": "\\(1-0{,}75^4\\)", "ratt": true}, {"txt": "\\(4\\cdot0{,}25\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(1-0{,}25^4\\)", "ratt": false, "kommentar": "1 − 0,25⁴ är sannolikheten att inte alla fyra försöken blir träff."}, {"txt": "\\(0{,}25^4\\)", "ratt": false, "kommentar": "0,25⁴ är sannolikheten för fyra träffar."}, {"txt": "\\(1-0{,}75^4\\)", "ratt": true}, {"txt": "\\(4\\cdot0{,}25\\)", "ratt": false, "kommentar": "4 · 0,25 = 1 skulle betyda att det är säkert, men det kan bli fyra missar."}]
   },
   {
     "id": "5.257",
@@ -104692,7 +104692,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
     ],
-    "alternativ": [{"txt": "Rätt sannolikhet är 51 %, eftersom två träffar annars räknas dubbelt i summan 60 %.", "ratt": true}, {"txt": "Rätt sannolikhet är 60 %, eftersom försöken är oberoende och därför kan adderas.", "ratt": false}, {"txt": "Rätt sannolikhet är 9 %, eftersom oberoende sannolikheter alltid ska multipliceras.", "ratt": false}, {"txt": "Rätt sannolikhet är 70 %, eftersom minst en träff är komplementet till en miss.", "ratt": false}]
+    "alternativ": [{"txt": "Rätt sannolikhet är 51 %, eftersom två träffar annars räknas dubbelt i summan 60 %.", "ratt": true}, {"txt": "Rätt sannolikhet är 60 %, eftersom försöken är oberoende och därför kan adderas.", "ratt": false, "kommentar": "Summan räknar fallet med två träffar två gånger."}, {"txt": "Rätt sannolikhet är 9 %, eftersom oberoende sannolikheter alltid ska multipliceras.", "ratt": false, "kommentar": "9 % är sannolikheten för två träffar, inte minst en."}, {"txt": "Rätt sannolikhet är 70 %, eftersom minst en träff är komplementet till en miss.", "ratt": false, "kommentar": "Komplementet till minst en träff är två missar: 1 − 0,7² = 0,51."}]
   },
   {
     "id": "5.258",
@@ -104725,7 +104725,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna sannolikheten för minst en händelse"
     ],
-    "alternativ": [{"txt": "25 % är exakt rätt eftersom försöken är oberoende.", "ratt": false}, {"txt": "Den exakta sannolikheten är cirka 77,4 %, eftersom fem missar är samma sak som minst en träff.", "ratt": false}, {"txt": "Den exakta sannolikheten är 5 %, eftersom bara det första försöket räknas.", "ratt": false}, {"txt": "Den exakta sannolikheten är cirka 22,6 %, eftersom summan 25 % dubbelräknar utfall där flera träffar inträffar.", "ratt": true}]
+    "alternativ": [{"txt": "25 % är exakt rätt eftersom försöken är oberoende.", "ratt": false, "kommentar": "Summan räknar utfall med flera träffar mer än en gång."}, {"txt": "Den exakta sannolikheten är cirka 77,4 %, eftersom fem missar är samma sak som minst en träff.", "ratt": false, "kommentar": "77,4 % är sannolikheten för fem missar, alltså komplementet."}, {"txt": "Den exakta sannolikheten är 5 %, eftersom bara det första försöket räknas.", "ratt": false, "kommentar": "Alla fem försöken räknas."}, {"txt": "Den exakta sannolikheten är cirka 22,6 %, eftersom summan 25 % dubbelräknar utfall där flera träffar inträffar.", "ratt": true}]
   },
   {
     "id": "5.259",
@@ -104934,7 +104934,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Sannolikhet i flera steg"
     ],
-    "alternativ": [{"txt": "\\(\\frac35+\\frac23\\)", "ratt": false}, {"txt": "\\(1-\\frac35\\cdot\\frac23\\)", "ratt": false}, {"txt": "\\(\\frac35\\cdot\\frac13+\\frac25\\cdot\\frac23\\)", "ratt": false}, {"txt": "\\(\\frac35\\cdot\\frac23\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(\\frac35+\\frac23\\)", "ratt": false, "kommentar": "Båda matcherna ska vinnas, så sannolikheterna ska multipliceras."}, {"txt": "\\(1-\\frac35\\cdot\\frac23\\)", "ratt": false, "kommentar": "Det är sannolikheten att laget inte vinner båda."}, {"txt": "\\(\\frac35\\cdot\\frac13+\\frac25\\cdot\\frac23\\)", "ratt": false, "kommentar": "Det är sannolikheten att laget vinner exakt en match."}, {"txt": "\\(\\frac35\\cdot\\frac23\\)", "ratt": true}]
   },
   {
     "id": "5.264",
@@ -105000,7 +105000,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Sannolikhet i flera steg"
     ],
-    "alternativ": [{"txt": "Metoden är rätt, eftersom sannolikheter i flera steg alltid adderas.", "ratt": false}, {"txt": "Metoden är fel, eftersom sannolikheten i steg 2 ska subtraheras från sannolikheten i steg 1.", "ratt": false}, {"txt": "Metoden är fel, eftersom båda stegen måste inträffa längs samma väg och sannolikheterna därför multipliceras.", "ratt": true}, {"txt": "Metoden är rätt, eftersom ”om den godkänns” gör händelserna ömsesidigt uteslutande.", "ratt": false}]
+    "alternativ": [{"txt": "Metoden är rätt, eftersom sannolikheter i flera steg alltid adderas.", "ratt": false, "kommentar": "Båda stegen ska inträffa, så sannolikheterna ska multipliceras."}, {"txt": "Metoden är fel, eftersom sannolikheten i steg 2 ska subtraheras från sannolikheten i steg 1.", "ratt": false, "kommentar": "Sannolikheterna ska multipliceras, inte subtraheras."}, {"txt": "Metoden är fel, eftersom båda stegen måste inträffa längs samma väg och sannolikheterna därför multipliceras.", "ratt": true}, {"txt": "Metoden är rätt, eftersom ”om den godkänns” gör händelserna ömsesidigt uteslutande.", "ratt": false, "kommentar": "Händelserna sker efter varandra. Båda ska inträffa, så de ska multipliceras."}]
   },
   {
     "id": "5.266",
@@ -105202,7 +105202,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Risk och sannolikhet"
     ],
-    "alternativ": [{"txt": "System A", "ratt": false}, {"txt": "System B", "ratt": false}, {"txt": "Samma förväntade antal", "ratt": true}, {"txt": "Det går inte att jämföra", "ratt": false}]
+    "alternativ": [{"txt": "System A", "ratt": false, "kommentar": "A: 0,008 · 1 500 = 12 fel. B: 0,015 · 800 = 12 fel."}, {"txt": "System B", "ratt": false, "kommentar": "A: 0,008 · 1 500 = 12 fel. B: 0,015 · 800 = 12 fel."}, {"txt": "Samma förväntade antal", "ratt": true}, {"txt": "Det går inte att jämföra", "ratt": false, "kommentar": "Det förväntade antalet är risk gånger antal användningar."}]
   },
   {
     "id": "5.271",
@@ -105332,7 +105332,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Risk och sannolikhet"
     ],
-    "alternativ": [{"txt": "System A", "ratt": true}, {"txt": "System B", "ratt": false}, {"txt": "Samma risk", "ratt": false}]
+    "alternativ": [{"txt": "System A", "ratt": true}, {"txt": "System B", "ratt": false, "kommentar": "0,7 % är en större risk än 0,5 %."}, {"txt": "Samma risk", "ratt": false, "kommentar": "Riskerna är olika, 0,5 % och 0,7 %."}]
   },
   {
     "id": "5.275",
@@ -105827,7 +105827,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Exakt antal träffar vid oberoende försök"
     ],
-    "alternativ": [{"txt": "Det finns två möjliga placeringar av de två kronorna, så sannolikheten är \\(2/8\\).", "ratt": false}, {"txt": "Det finns tre möjliga placeringar av de två kronorna, så sannolikheten är \\(3/8\\).", "ratt": true}, {"txt": "Man ska räkna komplementet till tre kronor, så sannolikheten är \\(7/8\\).", "ratt": false}, {"txt": "Myntkasten är beroende, så produkten \\((1/2)^3\\) får inte användas.", "ratt": false}]
+    "alternativ": [{"txt": "Det finns två möjliga placeringar av de två kronorna, så sannolikheten är \\(2/8\\).", "ratt": false, "kommentar": "Två kronor kan komma i kast 1 och 2, 1 och 3 eller 2 och 3. Det är tre placeringar."}, {"txt": "Det finns tre möjliga placeringar av de två kronorna, så sannolikheten är \\(3/8\\).", "ratt": true}, {"txt": "Man ska räkna komplementet till tre kronor, så sannolikheten är \\(7/8\\).", "ratt": false, "kommentar": "7/8 är sannolikheten för att inte få tre kronor."}, {"txt": "Myntkasten är beroende, så produkten \\((1/2)^3\\) får inte användas.", "ratt": false, "kommentar": "Myntkasten är oberoende, så produkten får användas."}]
   },
   {
     "id": "5.406",
@@ -105861,7 +105861,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Exakt antal träffar vid oberoende försök"
     ],
-    "alternativ": [{"txt": "\\(0{,}30^2\\)", "ratt": false}, {"txt": "\\(1-0{,}30^2\\)", "ratt": false}, {"txt": "\\(2\\cdot0{,}30\\cdot0{,}70\\)", "ratt": true}, {"txt": "\\(0{,}30+0{,}70\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(0{,}30^2\\)", "ratt": false, "kommentar": "0,30² är sannolikheten för två träffar."}, {"txt": "\\(1-0{,}30^2\\)", "ratt": false, "kommentar": "1 − 0,30² är sannolikheten att inte få två träffar."}, {"txt": "\\(2\\cdot0{,}30\\cdot0{,}70\\)", "ratt": true}, {"txt": "\\(0{,}30+0{,}70\\)", "ratt": false, "kommentar": "0,30 + 0,70 = 1, och det är inte sannolikheten för exakt en träff."}]
   },
   {
     "id": "5.407",
@@ -106712,7 +106712,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
     ],
-    "alternativ": [{"txt": "Att den ena alltid inträffar före den andra", "ratt": false}, {"txt": "Att de inte kan inträffa samtidigt", "ratt": false}, {"txt": "Att de har samma sannolikhet", "ratt": false}, {"txt": "Att den ena händelsen inte påverkar sannolikheten för den andra", "ratt": true}]
+    "alternativ": [{"txt": "Att den ena alltid inträffar före den andra", "ratt": false, "kommentar": "Oberoende har inget med ordningen att göra."}, {"txt": "Att de inte kan inträffa samtidigt", "ratt": false, "kommentar": "Det kallas att händelserna utesluter varandra."}, {"txt": "Att de har samma sannolikhet", "ratt": false, "kommentar": "Oberoende händelser kan ha olika sannolikheter."}, {"txt": "Att den ena händelsen inte påverkar sannolikheten för den andra", "ratt": true}]
   },
   {
     "id": "5.573",
@@ -107224,7 +107224,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Sannolikhet utan återläggning"
     ],
-    "alternativ": [{"txt": "Sannolikheten ändras inte", "ratt": false}, {"txt": "Man har lärt sig var kulorna ligger", "ratt": false}, {"txt": "Antalet kulor, och kanske antalet av en färg, har minskat", "ratt": true}, {"txt": "Kulorna blandas bättre andra gången", "ratt": false}]
+    "alternativ": [{"txt": "Sannolikheten ändras inte", "ratt": false, "kommentar": "Sannolikheten ändras eftersom kulorna i påsen har blivit färre."}, {"txt": "Man har lärt sig var kulorna ligger", "ratt": false, "kommentar": "Det handlar om vilka kulor som finns kvar, inte om vad man har lärt sig."}, {"txt": "Antalet kulor, och kanske antalet av en färg, har minskat", "ratt": true}, {"txt": "Kulorna blandas bättre andra gången", "ratt": false, "kommentar": "Det handlar om vilka kulor som finns kvar, inte om hur de blandas."}]
   },
   {
     "id": "5.448",
@@ -107257,7 +107257,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Sannolikhet utan återläggning"
     ],
-    "alternativ": [{"txt": "När den första kulan läggs tillbaka före andra dragningen", "ratt": true}, {"txt": "När den första kulan inte läggs tillbaka", "ratt": false}, {"txt": "När påsen innehåller få kulor", "ratt": false}, {"txt": "Aldrig", "ratt": false}]
+    "alternativ": [{"txt": "När den första kulan läggs tillbaka före andra dragningen", "ratt": true}, {"txt": "När den första kulan inte läggs tillbaka", "ratt": false, "kommentar": "Utan återläggning ändras innehållet i påsen, så dragningarna blir beroende."}, {"txt": "När påsen innehåller få kulor", "ratt": false, "kommentar": "Antalet kulor spelar ingen roll om kulan läggs tillbaka."}, {"txt": "Aldrig", "ratt": false, "kommentar": "Med återläggning är påsen likadan inför andra dragningen."}]
   },
   {
     "id": "5.449",
@@ -107706,7 +107706,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
     ],
-    "alternativ": [{"txt": "Fyra sexor", "ratt": false}, {"txt": "Ingen sexa", "ratt": true}, {"txt": "Högst en sexa", "ratt": false}, {"txt": "Exakt en sexa", "ratt": false}]
+    "alternativ": [{"txt": "Fyra sexor", "ratt": false, "kommentar": "Fyra sexor är bara ett av fallen med minst en sexa."}, {"txt": "Ingen sexa", "ratt": true}, {"txt": "Högst en sexa", "ratt": false, "kommentar": "Exakt en sexa ingår i ”minst en sexa”, så det kan inte vara komplementet."}, {"txt": "Exakt en sexa", "ratt": false, "kommentar": "Exakt en sexa ingår i ”minst en sexa”, så det kan inte vara komplementet."}]
   },
   {
     "id": "5.463",
@@ -107739,7 +107739,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
     ],
-    "alternativ": [{"txt": "Det är fel eftersom P(inte A) = 0,6", "ratt": true}, {"txt": "Det är rätt eftersom händelserna är lika sannolika", "ratt": false}, {"txt": "Det är fel eftersom P(inte A) = −0,4", "ratt": false}, {"txt": "Det går inte att avgöra", "ratt": false}]
+    "alternativ": [{"txt": "Det är fel eftersom P(inte A) = 0,6", "ratt": true}, {"txt": "Det är rätt eftersom händelserna är lika sannolika", "ratt": false, "kommentar": "P(A) och P(inte A) ska tillsammans bli 1."}, {"txt": "Det är fel eftersom P(inte A) = −0,4", "ratt": false, "kommentar": "En sannolikhet kan inte vara negativ."}, {"txt": "Det går inte att avgöra", "ratt": false, "kommentar": "P(inte A) = 1 − 0,4 = 0,6."}]
   },
   {
     "id": "5.572",
@@ -108471,7 +108471,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Risk och sannolikhet"
     ],
-    "alternativ": [{"txt": "3 på 2 000", "ratt": false}, {"txt": "1 på 400", "ratt": false}, {"txt": "0,2 %", "ratt": false}, {"txt": "0,003", "ratt": true}]
+    "alternativ": [{"txt": "3 på 2 000", "ratt": false, "kommentar": "3/2 000 = 0,15 %."}, {"txt": "1 på 400", "ratt": false, "kommentar": "1/400 = 0,25 %."}, {"txt": "0,2 %", "ratt": false, "kommentar": "0,2 % är mindre än 0,003 = 0,3 %."}, {"txt": "0,003", "ratt": true}]
   },
   {
     "id": "5.485",
@@ -108730,7 +108730,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Risk och sannolikhet"
     ],
-    "alternativ": [{"txt": "Rubriken är fel eftersom risken inte ändrades", "ratt": false}, {"txt": "Nu drabbas 2 av 100 personer", "ratt": false}, {"txt": "Den relativa risken fördubblades, men den absoluta risken är fortfarande mycket liten", "ratt": true}, {"txt": "Nu drabbas hälften av alla", "ratt": false}]
+    "alternativ": [{"txt": "Rubriken är fel eftersom risken inte ändrades", "ratt": false, "kommentar": "Risken ändrades från 1 till 2 på 100 000."}, {"txt": "Nu drabbas 2 av 100 personer", "ratt": false, "kommentar": "Det är 2 av 100 000 personer, inte 2 av 100."}, {"txt": "Den relativa risken fördubblades, men den absoluta risken är fortfarande mycket liten", "ratt": true}, {"txt": "Nu drabbas hälften av alla", "ratt": false, "kommentar": "Det är 2 av 100 000 personer, långt ifrån hälften."}]
   },
   {
     "id": "5.493",
@@ -108763,7 +108763,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Risk och sannolikhet"
     ],
-    "alternativ": [{"txt": "Relativ riskökning", "ratt": false}, {"txt": "Absolut riskökning", "ratt": true}, {"txt": "Riskens förändringsfaktor", "ratt": false}, {"txt": "Antalet undersökta personer", "ratt": false}]
+    "alternativ": [{"txt": "Relativ riskökning", "ratt": false, "kommentar": "Den relativa ökningen anger hur många gånger större risken blev, inte hur många fler som drabbas."}, {"txt": "Absolut riskökning", "ratt": true}, {"txt": "Riskens förändringsfaktor", "ratt": false, "kommentar": "Förändringsfaktorn anger hur många gånger större risken blev."}, {"txt": "Antalet undersökta personer", "ratt": false, "kommentar": "Antalet undersökta säger inget om hur många fler som drabbas."}]
   },
   {
     "id": "5.570",
@@ -110966,7 +110966,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Myntet är falskt.", "ratt": false}, {"txt": "Tio kast är för få för att dra säkra slutsatser om myntet.", "ratt": true}, {"txt": "Sannolikheten för krona är 0,7.", "ratt": false}, {"txt": "Nästa kast blir troligen klave.", "ratt": false}]
+    "alternativ": [{"txt": "Myntet är falskt.", "ratt": false, "kommentar": "7 krona på 10 kast kan lätt hända med ett vanligt mynt."}, {"txt": "Tio kast är för få för att dra säkra slutsatser om myntet.", "ratt": true}, {"txt": "Sannolikheten för krona är 0,7.", "ratt": false, "kommentar": "0,7 är den relativa frekvensen i försöket, inte sannolikheten."}, {"txt": "Nästa kast blir troligen klave.", "ratt": false, "kommentar": "Myntet har inget minne. Nästa kast är oberoende av de tidigare."}]
   },
   {
     "id": "5.560",
@@ -110996,7 +110996,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Den blir exakt 1/6 efter 60 kast.", "ratt": false}, {"txt": "Den blir allt mer slumpmässig.", "ratt": false}, {"txt": "Den växer hela tiden.", "ratt": false}, {"txt": "Den närmar sig 1/6.", "ratt": true}]
+    "alternativ": [{"txt": "Den blir exakt 1/6 efter 60 kast.", "ratt": false, "kommentar": "Den relativa frekvensen blir sällan exakt 1/6."}, {"txt": "Den blir allt mer slumpmässig.", "ratt": false, "kommentar": "Den blir mer stabil, inte mer slumpmässig."}, {"txt": "Den växer hela tiden.", "ratt": false, "kommentar": "Den kan både öka och minska, men den hamnar nära 1/6."}, {"txt": "Den närmar sig 1/6.", "ratt": true}]
   },
   {
     "id": "5.561",
@@ -111840,7 +111840,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Digital grafanalys"
     ],
-    "alternativ": [{"txt": "\\(x&gt;7{,}04\\)", "ratt": true}, {"txt": "\\(0\\le x&lt;7{,}04\\)", "ratt": false}, {"txt": "\\(x&lt;180\\)", "ratt": false}, {"txt": "\\(x&gt;180\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(x&gt;7{,}04\\)", "ratt": true}, {"txt": "\\(0\\le x&lt;7{,}04\\)", "ratt": false, "kommentar": "För x < 7,04 ligger grafen över linjen, så där är f(x) > 180."}, {"txt": "\\(x&lt;180\\)", "ratt": false, "kommentar": "180 är ett y-värde, inte ett x-värde."}, {"txt": "\\(x&gt;180\\)", "ratt": false, "kommentar": "180 är ett y-värde, inte ett x-värde."}]
   },
   {
     "id": "6.12",
@@ -114561,7 +114561,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Lösa ekvationer med digitalt verktyg"
     ],
-    "alternativ": [{"txt": "Ingen", "ratt": false}, {"txt": "Två", "ratt": true}, {"txt": "En", "ratt": false}, {"txt": "Tre", "ratt": false}]
+    "alternativ": [{"txt": "Ingen", "ratt": false, "kommentar": "Vid x = 0 är vänsterledet störst (100 > 50), vid x = 5 är högerledet störst (161 < 175) och vid x = 20 är vänsterledet störst igen (673 > 550). Graferna skär alltså varandra två gånger."}, {"txt": "Två", "ratt": true}, {"txt": "En", "ratt": false, "kommentar": "Vid x = 0 är vänsterledet störst (100 > 50), vid x = 5 är högerledet störst (161 < 175) och vid x = 20 är vänsterledet störst igen (673 > 550). Graferna skär alltså varandra två gånger."}, {"txt": "Tre", "ratt": false, "kommentar": "Vid x = 0 är vänsterledet störst (100 > 50), vid x = 5 är högerledet störst (161 < 175) och vid x = 20 är vänsterledet störst igen (673 > 550). Graferna skär alltså varandra två gånger."}]
   },
   {
     "id": "6.71",
@@ -114760,7 +114760,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Digital grafanalys"
     ],
-    "alternativ": [{"txt": "Rita bara \\(y=20\\) och läs av dess lutning.", "ratt": false}, {"txt": "Rita \\(y=3x+2\\) och \\(y=x\\) och läs av skärningens y-koordinat.", "ratt": false}, {"txt": "Rita \\(y=3x+2\\) och \\(y=20\\) och läs av skärningens x-koordinat.", "ratt": true}, {"txt": "Rita \\(y=3x\\) och \\(y=2\\) och addera skärningens koordinater.", "ratt": false}]
+    "alternativ": [{"txt": "Rita bara \\(y=20\\) och läs av dess lutning.", "ratt": false, "kommentar": "Lutningen hos y = 20 är 0 och säger inget om lösningen."}, {"txt": "Rita \\(y=3x+2\\) och \\(y=x\\) och läs av skärningens y-koordinat.", "ratt": false, "kommentar": "Ekvationen har 20 i högerledet, inte x. Lösningen är dessutom skärningens x-koordinat."}, {"txt": "Rita \\(y=3x+2\\) och \\(y=20\\) och läs av skärningens x-koordinat.", "ratt": true}, {"txt": "Rita \\(y=3x\\) och \\(y=2\\) och addera skärningens koordinater.", "ratt": false, "kommentar": "Ekvationen ändras när 3x och 2 delas upp på två grafer."}]
   },
   {
     "id": "6.77",
@@ -114862,7 +114862,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Digital grafanalys"
     ],
-    "alternativ": [{"txt": "De är lika vid ungefär \\(x=11{,}77\\); \\(E\\) är störst före och \\(L\\) efter.", "ratt": false}, {"txt": "De är lika vid ungefär \\(x=11{,}77\\); \\(L\\) är störst före och \\(E\\) efter.", "ratt": true}, {"txt": "De är lika vid ungefär \\(x=6{,}00\\); \\(L\\) är störst före och \\(E\\) efter.", "ratt": false}, {"txt": "De skär inte varandra för \\(x\\ge0\\).", "ratt": false}]
+    "alternativ": [{"txt": "De är lika vid ungefär \\(x=11{,}77\\); \\(E\\) är störst före och \\(L\\) efter.", "ratt": false, "kommentar": "Det är omvänt. L(0) = 100 och E(0) = 80, så L är störst från början."}, {"txt": "De är lika vid ungefär \\(x=11{,}77\\); \\(L\\) är störst före och \\(E\\) efter.", "ratt": true}, {"txt": "De är lika vid ungefär \\(x=6{,}00\\); \\(L\\) är störst före och \\(E\\) efter.", "ratt": false, "kommentar": "L(6) = 130 och E(6) ≈ 113, så de är inte lika vid x = 6."}, {"txt": "De skär inte varandra för \\(x\\ge0\\).", "ratt": false, "kommentar": "E växer exponentiellt och kommer till slut ikapp L."}]
   },
   {
     "id": "6.80",
@@ -114897,7 +114897,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Digital grafanalys"
     ],
-    "alternativ": [{"txt": "Startvärde 100 och funktionen minskar.", "ratt": false}, {"txt": "Startvärde 50 och funktionen minskar.", "ratt": false}, {"txt": "Startvärde 100 och funktionen ökar.", "ratt": false}, {"txt": "Startvärde 50 och funktionen ökar.", "ratt": true}]
+    "alternativ": [{"txt": "Startvärde 100 och funktionen minskar.", "ratt": false, "kommentar": "Grafen skär y-axeln vid 50, inte vid 100. Funktionen ökar."}, {"txt": "Startvärde 50 och funktionen minskar.", "ratt": false, "kommentar": "Startvärdet är rätt, men grafen stiger åt höger, så funktionen ökar."}, {"txt": "Startvärde 100 och funktionen ökar.", "ratt": false, "kommentar": "Funktionen ökar, men grafen skär y-axeln vid 50, inte vid 100."}, {"txt": "Startvärde 50 och funktionen ökar.", "ratt": true}]
   },
   {
     "id": "6.81",
@@ -117516,7 +117516,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Matematik och enkla algoritmer"
     ],
-    "alternativ": [{"txt": "Värdet ökar med 90 % per steg.", "ratt": false}, {"txt": "Värdet ökar med 10 % per steg.", "ratt": false}, {"txt": "Värdet minskar med 90 % per steg.", "ratt": false}, {"txt": "Värdet minskar med 10 % per steg.", "ratt": true}]
+    "alternativ": [{"txt": "Värdet ökar med 90 % per steg.", "ratt": false, "kommentar": "Faktorn 0,9 är mindre än 1, så värdet minskar."}, {"txt": "Värdet ökar med 10 % per steg.", "ratt": false, "kommentar": "Faktorn 0,9 är mindre än 1, så värdet minskar."}, {"txt": "Värdet minskar med 90 % per steg.", "ratt": false, "kommentar": "Om värdet minskade med 90 % skulle faktorn vara 0,1."}, {"txt": "Värdet minskar med 10 % per steg.", "ratt": true}]
   },
   {
     "id": "6.408",
@@ -118162,7 +118162,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\(10x+2=10\\)", "ratt": false}, {"txt": "\\(2x+2=10\\)", "ratt": true}, {"txt": "\\(6x=4x+12\\)", "ratt": false}, {"txt": "\\(2x=12\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(10x+2=10\\)", "ratt": false, "kommentar": "4x ska dras bort från båda leden, inte läggas till."}, {"txt": "\\(2x+2=10\\)", "ratt": true}, {"txt": "\\(6x=4x+12\\)", "ratt": false, "kommentar": "2 ska dras bort från båda leden: 6x = 4x + 8."}, {"txt": "\\(2x=12\\)", "ratt": false, "kommentar": "Två steg på en gång, och 10 − 2 = 8, inte 12."}]
   },
   {
     "id": "1.1084",
@@ -118398,7 +118398,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\(7-x+2=4\\)", "ratt": true}, {"txt": "\\(7-x-2=4\\)", "ratt": false}, {"txt": "\\(7+x-2=4\\)", "ratt": false}, {"txt": "\\(5-x=4\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(7-x+2=4\\)", "ratt": true}, {"txt": "\\(7-x-2=4\\)", "ratt": false, "kommentar": "Minus framför parentesen gör att −2 blir +2."}, {"txt": "\\(7+x-2=4\\)", "ratt": false, "kommentar": "Minus framför parentesen gör att x blir −x."}, {"txt": "\\(5-x=4\\)", "ratt": false, "kommentar": "Parentesen ska tas bort först. 7 − 2 får inte räknas innan dess."}]
   },
   {
     "id": "1.1114",
@@ -118632,7 +118632,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "Högerledet skulle inte multipliceras.", "ratt": false}, {"txt": "Tvåan har inte multiplicerats med 3. Rätt är x + 6 = 15.", "ratt": true}, {"txt": "Man ska dividera med 3 i stället.", "ratt": false}, {"txt": "Inget är fel.", "ratt": false}]
+    "alternativ": [{"txt": "Högerledet skulle inte multipliceras.", "ratt": false, "kommentar": "Båda leden ska multipliceras, och det har Theo gjort."}, {"txt": "Tvåan har inte multiplicerats med 3. Rätt är x + 6 = 15.", "ratt": true}, {"txt": "Man ska dividera med 3 i stället.", "ratt": false, "kommentar": "Att dividera med 3 tar inte bort nämnaren."}, {"txt": "Inget är fel.", "ratt": false, "kommentar": "Tvåan har inte multiplicerats med 3."}]
   },
   {
     "id": "1.1096",
@@ -118690,7 +118690,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\(\\frac{2x}{9}\\)", "ratt": false}, {"txt": "\\(\\frac{x}{9}\\)", "ratt": false}, {"txt": "\\(\\frac{x}{2}\\)", "ratt": true}, {"txt": "\\(\\frac{2x}{18}\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(\\frac{2x}{9}\\)", "ratt": false, "kommentar": "Täljare och nämnare får inte adderas var för sig. Skriv om till sjättedelar: 2x/6 + x/6."}, {"txt": "\\(\\frac{x}{9}\\)", "ratt": false, "kommentar": "Nämnarna ska inte adderas. Skriv om till sjättedelar: 2x/6 + x/6."}, {"txt": "\\(\\frac{x}{2}\\)", "ratt": true}, {"txt": "\\(\\frac{2x}{18}\\)", "ratt": false, "kommentar": "2x/18 = x/9. Skriv om till sjättedelar: 2x/6 + x/6 = 3x/6."}]
   },
   {
     "id": "1.1098",
@@ -118719,7 +118719,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\(\\frac{x}{5}\\)", "ratt": false}, {"txt": "\\(\\frac{x}{-5}\\)", "ratt": false}, {"txt": "\\(\\frac{2x}{50}\\)", "ratt": false}, {"txt": "\\(\\frac{3x}{10}\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(\\frac{x}{5}\\)", "ratt": false, "kommentar": "Skriv om till tiondelar: 4x/10 − x/10 = 3x/10."}, {"txt": "\\(\\frac{x}{-5}\\)", "ratt": false, "kommentar": "Nämnarna ska inte subtraheras. Skriv om till tiondelar: 4x/10 − x/10."}, {"txt": "\\(\\frac{2x}{50}\\)", "ratt": false, "kommentar": "Skriv om till tiondelar: 4x/10 − x/10 = 3x/10."}, {"txt": "\\(\\frac{3x}{10}\\)", "ratt": true}]
   },
   {
     "id": "1.1099",
@@ -118777,7 +118777,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\(\\frac{x}{7}\\)", "ratt": false}, {"txt": "\\(\\frac{x}{3}\\)", "ratt": false}, {"txt": "\\(\\frac{3x}{10}\\)", "ratt": true}, {"txt": "\\(\\frac{3x}{7}\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(\\frac{x}{7}\\)", "ratt": false, "kommentar": "Nämnarna ska inte adderas. Skriv om till tiondelar: 5x/10 − 2x/10."}, {"txt": "\\(\\frac{x}{3}\\)", "ratt": false, "kommentar": "Nämnarna ska inte subtraheras. Skriv om till tiondelar: 5x/10 − 2x/10."}, {"txt": "\\(\\frac{3x}{10}\\)", "ratt": true}, {"txt": "\\(\\frac{3x}{7}\\)", "ratt": false, "kommentar": "Skriv om till tiondelar: 5x/10 − 2x/10 = 3x/10."}]
   },
   {
     "id": "1.1111",
@@ -119038,7 +119038,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "\\(3n+5\\)", "ratt": false}, {"txt": "\\(5n\\)", "ratt": false}, {"txt": "\\(n+3\\)", "ratt": false}, {"txt": "\\(3n+2\\)", "ratt": true}]
+    "alternativ": [{"txt": "\\(3n+5\\)", "ratt": false, "kommentar": "n = 1 ger 3 + 5 = 8, men första talet är 5."}, {"txt": "\\(5n\\)", "ratt": false, "kommentar": "n = 2 ger 10, men andra talet är 8."}, {"txt": "\\(n+3\\)", "ratt": false, "kommentar": "n = 1 ger 4, men första talet är 5."}, {"txt": "\\(3n+2\\)", "ratt": true}]
   },
   {
     "id": "1.1105",
@@ -119291,7 +119291,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Skala och likformighet"
     ],
-    "alternativ": [{"txt": "1:40", "ratt": true}, {"txt": "1:4", "ratt": false}, {"txt": "1:400", "ratt": false}, {"txt": "40:1", "ratt": false}]
+    "alternativ": [{"txt": "1:40", "ratt": true}, {"txt": "1:4", "ratt": false, "kommentar": "2,0 m = 200 cm. 200/5 = 40, inte 4."}, {"txt": "1:400", "ratt": false, "kommentar": "2,0 m = 200 cm. 200/5 = 40, inte 400."}, {"txt": "40:1", "ratt": false, "kommentar": "40:1 är en förstoring, men ritningen är förminskad."}]
   },
   {
     "id": "7.03",
@@ -120859,7 +120859,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Yrkesformler"
     ],
-    "alternativ": [{"txt": "liter", "ratt": false}, {"txt": "liter/minut", "ratt": false}, {"txt": "minuter", "ratt": true}, {"txt": "minuter/liter", "ratt": false}]
+    "alternativ": [{"txt": "liter", "ratt": false, "kommentar": "V/q = (liter)/(liter/minut) = minuter."}, {"txt": "liter/minut", "ratt": false, "kommentar": "V/q = (liter)/(liter/minut) = minuter."}, {"txt": "minuter", "ratt": true}, {"txt": "minuter/liter", "ratt": false, "kommentar": "V/q = (liter)/(liter/minut) = minuter."}]
   },
   {
     "id": "7.34",
@@ -121722,7 +121722,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Yrkesformler"
     ],
-    "alternativ": [{"txt": "0,75 tabletter", "ratt": false}, {"txt": "1,25 tabletter", "ratt": false}, {"txt": "2,5 tabletter", "ratt": false}, {"txt": "1,5 tabletter", "ratt": true}]
+    "alternativ": [{"txt": "0,75 tabletter", "ratt": false, "kommentar": "375/250 = 1,5, inte 0,75."}, {"txt": "1,25 tabletter", "ratt": false, "kommentar": "375/250 = 1,5, inte 1,25."}, {"txt": "2,5 tabletter", "ratt": false, "kommentar": "375/250 = 1,5, inte 2,5."}, {"txt": "1,5 tabletter", "ratt": true}]
   },
   {
     "id": "7.57",
@@ -123065,7 +123065,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Mätfel och felmarginal"
     ],
-    "alternativ": [{"txt": "83,0–83,4 mm", "ratt": false}, {"txt": "82,5–83,5 mm", "ratt": false}, {"txt": "82,7–83,7 mm", "ratt": true}, {"txt": "83,2–83,7 mm", "ratt": false}]
+    "alternativ": [{"txt": "83,0–83,4 mm", "ratt": false, "kommentar": "Osäkerheten är ±0,5 mm, inte ±0,2 mm."}, {"txt": "82,5–83,5 mm", "ratt": false, "kommentar": "83,2 ska vara mitt i intervallet, inte 83,0."}, {"txt": "82,7–83,7 mm", "ratt": true}, {"txt": "83,2–83,7 mm", "ratt": false, "kommentar": "Osäkerheten gäller åt båda hållen, så värdet kan också vara mindre än 83,2."}]
   },
   {
     "id": "7.91",
@@ -124973,7 +124973,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Mätfel och felmarginal"
     ],
-    "alternativ": [{"txt": "Nej", "ratt": true}, {"txt": "Ja", "ratt": false}]
+    "alternativ": [{"txt": "Nej", "ratt": true}, {"txt": "Ja", "ratt": false, "kommentar": "Intervallet är 12,3–12,7 cm, så 12,8 cm ligger utanför."}]
   },
   {
     "id": "7.138",
@@ -126910,7 +126910,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Mätfel och felmarginal"
     ],
-    "alternativ": [{"txt": "Mätning A, eftersom 1 &lt; 4.", "ratt": false}, {"txt": "Mätning B, eftersom 200 är större än 50.", "ratt": false}, {"txt": "De har samma relativa felmarginal, 2 %.", "ratt": true}, {"txt": "Det går inte att jämföra utan enhet.", "ratt": false}]
+    "alternativ": [{"txt": "Mätning A, eftersom 1 &lt; 4.", "ratt": false, "kommentar": "Den relativa felmarginalen jämför felet med mätvärdet: 1/50 = 2 % och 4/200 = 2 %."}, {"txt": "Mätning B, eftersom 200 är större än 50.", "ratt": false, "kommentar": "Den relativa felmarginalen jämför felet med mätvärdet: 1/50 = 2 % och 4/200 = 2 %."}, {"txt": "De har samma relativa felmarginal, 2 %.", "ratt": true}, {"txt": "Det går inte att jämföra utan enhet.", "ratt": false, "kommentar": "En relativ felmarginal saknar enhet, så den går att jämföra."}]
   },
   {
     "id": "7.186",
@@ -127104,7 +127104,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Mätfel och felmarginal"
     ],
-    "alternativ": [{"txt": "Ja", "ratt": false}, {"txt": "Nej", "ratt": true}]
+    "alternativ": [{"txt": "Ja", "ratt": false, "kommentar": "Intervallet är 245–255, så 256 ligger utanför."}, {"txt": "Nej", "ratt": true}]
   },
   {
     "id": "7.192",
@@ -127524,7 +127524,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Skala och likformighet"
     ],
-    "alternativ": [{"txt": "Inget är fel; 450 000 m är korrekt.", "ratt": false}, {"txt": "Man ska dividera med 100 000 i stället.", "ratt": false}, {"txt": "Skalan ska kvadreras eftersom det är en längd.", "ratt": false}, {"txt": "Produkten 450 000 är i centimeter, inte meter.", "ratt": true}]
+    "alternativ": [{"txt": "Inget är fel; 450 000 m är korrekt.", "ratt": false, "kommentar": "Produkten 450 000 är i centimeter."}, {"txt": "Man ska dividera med 100 000 i stället.", "ratt": false, "kommentar": "En kartsträcka ska multipliceras med skalans tal."}, {"txt": "Skalan ska kvadreras eftersom det är en längd.", "ratt": false, "kommentar": "Skalan kvadreras bara för areor."}, {"txt": "Produkten 450 000 är i centimeter, inte meter.", "ratt": true}]
   },
   {
     "id": "7.205",
@@ -128033,7 +128033,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna kapacitet och säkerhetsmarginal"
     ],
-    "alternativ": [{"txt": "Eleven använder rätt nämnare men borde subtrahera 25 från 100 och få 75 %.", "ratt": false}, {"txt": "Eleven har rätt; marginalen ska alltid jämföras med den aktuella lasten och är 25 %.", "ratt": false}, {"txt": "Eleven använder fel nämnare; marginalen ska jämföras med maxkapaciteten och är 640/3 200 = 20 %.", "ratt": true}, {"txt": "Marginalen kan inte beräknas eftersom maxkapaciteten och lasten har samma enhet.", "ratt": false}]
+    "alternativ": [{"txt": "Eleven använder rätt nämnare men borde subtrahera 25 från 100 och få 75 %.", "ratt": false, "kommentar": "Marginalen jämförs med maxkapaciteten, 3 200 kg."}, {"txt": "Eleven har rätt; marginalen ska alltid jämföras med den aktuella lasten och är 25 %.", "ratt": false, "kommentar": "Marginalen jämförs med maxkapaciteten, inte med lasten."}, {"txt": "Eleven använder fel nämnare; marginalen ska jämföras med maxkapaciteten och är 640/3 200 = 20 %.", "ratt": true}, {"txt": "Marginalen kan inte beräknas eftersom maxkapaciteten och lasten har samma enhet.", "ratt": false, "kommentar": "Det går bra att räkna med samma enhet."}]
   },
   {
     "id": "7.220",
@@ -130214,7 +130214,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Mätfel och felmarginal"
     ],
-    "alternativ": [{"txt": "49,75 mm", "ratt": false}, {"txt": "50,15 mm", "ratt": true}, {"txt": "50,3 mm", "ratt": false}, {"txt": "50,25 mm", "ratt": false}]
+    "alternativ": [{"txt": "49,75 mm", "ratt": false, "kommentar": "Gränserna är 49,8 och 50,2 mm. 49,75 mm är för litet."}, {"txt": "50,15 mm", "ratt": true}, {"txt": "50,3 mm", "ratt": false, "kommentar": "Gränserna är 49,8 och 50,2 mm. 50,3 mm är för stort."}, {"txt": "50,25 mm", "ratt": false, "kommentar": "Gränserna är 49,8 och 50,2 mm. 50,25 mm är för stort."}]
   },
   {
     "id": "7.451",
@@ -130245,7 +130245,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Mätfel och felmarginal"
     ],
-    "alternativ": [{"txt": "Använda en annan enhet", "ratt": false}, {"txt": "Mäta en gång snabbt", "ratt": false}, {"txt": "Mäta flera gånger och räkna medelvärdet", "ratt": true}, {"txt": "Avrunda till heltal", "ratt": false}]
+    "alternativ": [{"txt": "Använda en annan enhet", "ratt": false, "kommentar": "En annan enhet ändrar inte mätningen."}, {"txt": "Mäta en gång snabbt", "ratt": false, "kommentar": "En enda snabb mätning ger större slumpfel."}, {"txt": "Mäta flera gånger och räkna medelvärdet", "ratt": true}, {"txt": "Avrunda till heltal", "ratt": false, "kommentar": "Avrundning gör resultatet mindre noggrant."}]
   },
   {
     "id": "7.452",
@@ -130276,7 +130276,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Mätfel och felmarginal"
     ],
-    "alternativ": [{"txt": "Systematiskt fel", "ratt": true}, {"txt": "Avrundningsfel", "ratt": false}, {"txt": "Inget fel", "ratt": false}, {"txt": "Slumpmässigt fel", "ratt": false}]
+    "alternativ": [{"txt": "Systematiskt fel", "ratt": true}, {"txt": "Avrundningsfel", "ratt": false, "kommentar": "Det handlar inte om avrundning. Alla mätningar blir lika mycket för långa."}, {"txt": "Inget fel", "ratt": false, "kommentar": "Mätningarna blir fel, så det är ett fel."}, {"txt": "Slumpmässigt fel", "ratt": false, "kommentar": "Ett slumpmässigt fel varierar åt båda hållen. Här blir alla för långa."}]
   },
   {
     "id": "7.453",
@@ -130307,7 +130307,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Mätfel och felmarginal"
     ],
-    "alternativ": [{"txt": "4,0 m anger en högre noggrannhet", "ratt": false}, {"txt": "4,00 m anger en högre noggrannhet", "ratt": true}, {"txt": "Noggrannheten går inte att avgöra", "ratt": false}, {"txt": "Båda anger samma noggrannhet", "ratt": false}]
+    "alternativ": [{"txt": "4,0 m anger en högre noggrannhet", "ratt": false, "kommentar": "4,0 m anger tiondels meter, men 4,00 m anger hundradels meter."}, {"txt": "4,00 m anger en högre noggrannhet", "ratt": true}, {"txt": "Noggrannheten går inte att avgöra", "ratt": false, "kommentar": "Antalet decimaler visar noggrannheten."}, {"txt": "Båda anger samma noggrannhet", "ratt": false, "kommentar": "4,00 m har en decimal till och anger därför högre noggrannhet."}]
   },
   {
     "id": "7.533",
@@ -130735,7 +130735,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna materialåtgång, spill och kostnad"
     ],
-    "alternativ": [{"txt": "Spill finns bara vid dåligt arbete", "ratt": false}, {"txt": "Det är ett krav för att få köpa material", "ratt": false}, {"txt": "Materialet blir billigare då", "ratt": false}, {"txt": "En del av materialet går förlorat vid kapning och passning", "ratt": true}]
+    "alternativ": [{"txt": "Spill finns bara vid dåligt arbete", "ratt": false, "kommentar": "Spill uppstår även när man arbetar noggrant."}, {"txt": "Det är ett krav för att få köpa material", "ratt": false, "kommentar": "Det finns inget sådant krav."}, {"txt": "Materialet blir billigare då", "ratt": false, "kommentar": "Mer material kostar mer, inte mindre."}, {"txt": "En del av materialet går förlorat vid kapning och passning", "ratt": true}]
   },
   {
     "id": "7.467",
@@ -130766,7 +130766,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna materialåtgång, spill och kostnad"
     ],
-    "alternativ": [{"txt": "Spillet ska läggas till, inte dras bort", "ratt": true}, {"txt": "Spillet ska vara 100 %", "ratt": false}, {"txt": "Inget är fel", "ratt": false}, {"txt": "Man ska dividera med 10", "ratt": false}]
+    "alternativ": [{"txt": "Spillet ska läggas till, inte dras bort", "ratt": true}, {"txt": "Spillet ska vara 100 %", "ratt": false, "kommentar": "Spillet är 10 %, inte 100 %."}, {"txt": "Inget är fel", "ratt": false, "kommentar": "Spillet ska läggas till."}, {"txt": "Man ska dividera med 10", "ratt": false, "kommentar": "Man ska lägga till 10 %, inte dela med 10."}]
   },
   {
     "id": "7.468",
@@ -130797,7 +130797,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna materialåtgång, spill och kostnad"
     ],
-    "alternativ": [{"txt": "Rabatt", "ratt": false}, {"txt": "Tolerans", "ratt": false}, {"txt": "Svinn", "ratt": true}, {"txt": "Moms", "ratt": false}]
+    "alternativ": [{"txt": "Rabatt", "ratt": false, "kommentar": "Rabatt är en sänkning av priset."}, {"txt": "Tolerans", "ratt": false, "kommentar": "Tolerans är en tillåten avvikelse i ett mått."}, {"txt": "Svinn", "ratt": true}, {"txt": "Moms", "ratt": false, "kommentar": "Moms är en skatt."}]
   },
   {
     "id": "7.469",
@@ -130828,7 +130828,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna materialåtgång, spill och kostnad"
     ],
-    "alternativ": [{"txt": "Exakt samma spill som för ett tomt rektangulärt golv", "ratt": false}, {"txt": "Ett negativt spill", "ratt": false}, {"txt": "Ett högre spill, t.ex. 15 %", "ratt": true}, {"txt": "Inget spill alls", "ratt": false}]
+    "alternativ": [{"txt": "Exakt samma spill som för ett tomt rektangulärt golv", "ratt": false, "kommentar": "Fler hörn och rör ger mer kapning och mer spill."}, {"txt": "Ett negativt spill", "ratt": false, "kommentar": "Spill kan inte vara negativt."}, {"txt": "Ett högre spill, t.ex. 15 %", "ratt": true}, {"txt": "Inget spill alls", "ratt": false, "kommentar": "Det blir alltid spill när kakel kapas."}]
   },
   {
     "id": "7.527",
@@ -131960,7 +131960,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna kapacitet och säkerhetsmarginal"
     ],
-    "alternativ": [{"txt": "Nedåt till 8, eftersom maxlasten inte får överskridas", "ratt": true}, {"txt": "Till närmaste heltal, alltså 8 eller 9 beroende på avrundningsregeln", "ratt": false}, {"txt": "Det spelar ingen roll", "ratt": false}, {"txt": "Uppåt till 9", "ratt": false}]
+    "alternativ": [{"txt": "Nedåt till 8, eftersom maxlasten inte får överskridas", "ratt": true}, {"txt": "Till närmaste heltal, alltså 8 eller 9 beroende på avrundningsregeln", "ratt": false, "kommentar": "Om man avrundar till 9 överskrids maxlasten."}, {"txt": "Det spelar ingen roll", "ratt": false, "kommentar": "Det spelar roll, eftersom maxlasten inte får överskridas."}, {"txt": "Uppåt till 9", "ratt": false, "kommentar": "Om man avrundar till 9 överskrids maxlasten."}]
   },
   {
     "id": "7.501",
@@ -131991,7 +131991,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Beräkna kapacitet och säkerhetsmarginal"
     ],
-    "alternativ": [{"txt": "Eftersom beräkningar alltid är fel", "ratt": false}, {"txt": "För att göra byggnader dyrare", "ratt": false}, {"txt": "För att slippa mäta", "ratt": false}, {"txt": "För att ta hänsyn till osäkerheter i material, laster och beräkningar", "ratt": true}]
+    "alternativ": [{"txt": "Eftersom beräkningar alltid är fel", "ratt": false, "kommentar": "Beräkningar är inte alltid fel, men det finns osäkerheter."}, {"txt": "För att göra byggnader dyrare", "ratt": false, "kommentar": "Syftet är säkerhet, inte en högre kostnad."}, {"txt": "För att slippa mäta", "ratt": false, "kommentar": "Man behöver fortfarande mäta."}, {"txt": "För att ta hänsyn till osäkerheter i material, laster och beräkningar", "ratt": true}]
   },
   {
     "id": "7.525",
@@ -132910,7 +132910,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra andelar i figurer"
     ],
-    "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": true}]
+    "alternativ": [{"txt": "A", "ratt": false, "kommentar": "I A är 5 av 10 rutor färgade, alltså 50 %. I B är 2,5 av 4 fjärdedelar färgade, alltså 62,5 %."}, {"txt": "B", "ratt": true}]
   },
   {
     "id": "0.810",
@@ -133375,7 +133375,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra förhållanden som andelar"
     ],
-    "alternativ": [{"txt": "Blandning A", "ratt": true}, {"txt": "Blandning B", "ratt": false}]
+    "alternativ": [{"txt": "Blandning A", "ratt": true}, {"txt": "Blandning B", "ratt": false, "kommentar": "A har andelen 2/9 ≈ 22 %, och B har andelen 3/14 ≈ 21 %."}]
   },
   {
     "id": "0.824",
@@ -133638,7 +133638,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Avgöra om ett samband är proportionellt"
     ],
-    "alternativ": [{"txt": "(x,y) = (2,7), (4,14), (7,24,5)", "ratt": true}, {"txt": "(x,y) = (2,7), (4,13), (7,22)", "ratt": false}]
+    "alternativ": [{"txt": "(x,y) = (2,7), (4,14), (7,24,5)", "ratt": true}, {"txt": "(x,y) = (2,7), (4,13), (7,22)", "ratt": false, "kommentar": "Kvoten y/x är inte konstant: 7/2 = 3,5 men 13/4 = 3,25."}]
   },
   {
     "id": "0.832",
@@ -133774,7 +133774,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra proportionalitetskonstanter"
     ],
-    "alternativ": [{"txt": "Butik A", "ratt": false}, {"txt": "Butik B", "ratt": true}]
+    "alternativ": [{"txt": "Butik A", "ratt": false, "kommentar": "A kostar 84/3,5 = 24 kr/kg och B kostar 115/5 = 23 kr/kg."}, {"txt": "Butik B", "ratt": true}]
   },
   {
     "id": "0.836",
@@ -133938,7 +133938,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Identifiera proportionalitet i olika modeller"
     ],
-    "alternativ": [{"txt": "En parkering kostar 20 kr i startavgift och 8 kr per timme.", "ratt": false}, {"txt": "Vid konstant fart är färdsträckan proportionell mot tiden.", "ratt": true}, {"txt": "Temperaturen i Fahrenheit som funktion av temperaturen i Celsius.", "ratt": false}]
+    "alternativ": [{"txt": "En parkering kostar 20 kr i startavgift och 8 kr per timme.", "ratt": false, "kommentar": "Startavgiften gör att det kostar 20 kr redan vid 0 timmar. Då är det inte proportionellt."}, {"txt": "Vid konstant fart är färdsträckan proportionell mot tiden.", "ratt": true}, {"txt": "Temperaturen i Fahrenheit som funktion av temperaturen i Celsius.", "ratt": false, "kommentar": "0 °C är 32 °F, så sambandet går inte genom origo."}]
   },
   {
     "id": "0.841",
@@ -136148,7 +136148,8 @@ window.BANKMA1 = [
   "alternativ": [
     {
       "txt": "5,94",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "5,94 avrundas till 5,9."
     },
     {
       "txt": "5,96",
@@ -136156,11 +136157,13 @@ window.BANKMA1 = [
     },
     {
       "txt": "6,05",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "6,05 avrundas till 6,1."
     },
     {
       "txt": "6,1",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "6,1 har redan en decimal och är inte 6,0."
     }
   ]
 },
@@ -138067,7 +138070,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra andelar"
     ],
-    "alternativ": [{"txt": "Lag A", "ratt": true}, {"txt": "Lag B", "ratt": false}, {"txt": "Andelarna är lika stora", "ratt": false}]
+    "alternativ": [{"txt": "Lag A", "ratt": true}, {"txt": "Lag B", "ratt": false, "kommentar": "A vann 17/25 = 68 % och B vann 20/30 ≈ 67 %."}, {"txt": "Andelarna är lika stora", "ratt": false, "kommentar": "A vann 17/25 = 68 % och B vann 20/30 ≈ 67 %."}]
   },
   {
     "id": "0.965",
@@ -138766,7 +138769,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Avgöra om ett samband är proportionellt"
     ],
-    "alternativ": [{"txt": "priset och antalet liter bensin", "ratt": true}, {"txt": "priset och antalet kilometer för en taxiresa med startavgift", "ratt": false}, {"txt": "en persons längd och ålder", "ratt": false}, {"txt": "temperaturen i °F och temperaturen i °C", "ratt": false}]
+    "alternativ": [{"txt": "priset och antalet liter bensin", "ratt": true}, {"txt": "priset och antalet kilometer för en taxiresa med startavgift", "ratt": false, "kommentar": "Startavgiften gör att resan kostar något redan vid 0 km."}, {"txt": "en persons längd och ålder", "ratt": false, "kommentar": "Man växer inte lika mycket varje år, och man slutar växa."}, {"txt": "temperaturen i °F och temperaturen i °C", "ratt": false, "kommentar": "0 °C är 32 °F, så sambandet går inte genom origo."}]
   },
   {
     "id": "0.987",
@@ -139875,7 +139878,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Jämföra andelar"
     ],
-    "alternativ": [{"txt": "i elevrådet", "ratt": true}, {"txt": "i klassrådet", "ratt": false}, {"txt": "Andelarna är lika stora.", "ratt": false}]
+    "alternativ": [{"txt": "i elevrådet", "ratt": true}, {"txt": "i klassrådet", "ratt": false, "kommentar": "Elevrådet: 7/12 ≈ 58 %. Klassrådet: 10/18 ≈ 56 %."}, {"txt": "Andelarna är lika stora.", "ratt": false, "kommentar": "Elevrådet: 7/12 ≈ 58 %. Klassrådet: 10/18 ≈ 56 %."}]
   },
   {
     "id": "0.1021",
@@ -140387,7 +140390,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Avgöra om ett samband är proportionellt"
     ],
-    "alternativ": [{"txt": "(1, 3), (2, 6), (5, 15)", "ratt": true}, {"txt": "(1, 4), (2, 7), (3, 10)", "ratt": false}, {"txt": "(2, 5), (4, 9), (6, 13)", "ratt": false}, {"txt": "(1, 2), (3, 9), (4, 16)", "ratt": false}]
+    "alternativ": [{"txt": "(1, 3), (2, 6), (5, 15)", "ratt": true}, {"txt": "(1, 4), (2, 7), (3, 10)", "ratt": false, "kommentar": "Kvoten y/x är inte konstant: 4/1 = 4 men 7/2 = 3,5."}, {"txt": "(2, 5), (4, 9), (6, 13)", "ratt": false, "kommentar": "Kvoten y/x är inte konstant: 5/2 = 2,5 men 9/4 = 2,25."}, {"txt": "(1, 2), (3, 9), (4, 16)", "ratt": false, "kommentar": "Kvoten y/x är inte konstant: 2/1 = 2 men 9/3 = 3."}]
   },
   {
     "id": "0.1037",
@@ -146194,7 +146197,7 @@ window.BANKMA1 = [
   "traningsniva": 2,
   "arbetsinsats": 1,
   "spel": true,
-  "alternativ": [{"txt": "\\(-2x-3\\)", "ratt": false}, {"txt": "\\(-2x-6\\)", "ratt": false}, {"txt": "\\(-2x+6\\)", "ratt": true}, {"txt": "\\(2x-6\\)", "ratt": false}]
+  "alternativ": [{"txt": "\\(-2x-3\\)", "ratt": false, "kommentar": "−2 · (−3) = +6, inte −3."}, {"txt": "\\(-2x-6\\)", "ratt": false, "kommentar": "−2 · (−3) = +6, inte −6."}, {"txt": "\\(-2x+6\\)", "ratt": true}, {"txt": "\\(2x-6\\)", "ratt": false, "kommentar": "−2 · x = −2x, inte 2x."}]
 },
 {
   "id": "1.1151",
@@ -146224,7 +146227,7 @@ window.BANKMA1 = [
   "traningsniva": 2,
   "arbetsinsats": 2,
   "spel": true,
-  "alternativ": [{"txt": "Hon skulle först ha räknat \\(7-2=5\\), så svaret är \\(5x-15\\).", "ratt": false}, {"txt": "\\((-2)\\cdot(-3)\\) blir \\(+6\\), så svaret är \\(13-2x\\).", "ratt": true}, {"txt": "Minustecknet gäller bara \\(x\\), så svaret är \\(7-2x-3=4-2x\\).", "ratt": false}, {"txt": "Det är rätt, eftersom \\(7-6=1\\).", "ratt": false}]
+  "alternativ": [{"txt": "Hon skulle först ha räknat \\(7-2=5\\), så svaret är \\(5x-15\\).", "ratt": false, "kommentar": "Multiplikationen görs före subtraktionen, så 7 − 2 får inte räknas först."}, {"txt": "\\((-2)\\cdot(-3)\\) blir \\(+6\\), så svaret är \\(13-2x\\).", "ratt": true}, {"txt": "Minustecknet gäller bara \\(x\\), så svaret är \\(7-2x-3=4-2x\\).", "ratt": false, "kommentar": "−2 multipliceras med båda termerna i parentesen."}, {"txt": "Det är rätt, eftersom \\(7-6=1\\).", "ratt": false, "kommentar": "Det är fel: (−2) · (−3) = +6, inte −6."}]
 },
 {
   "id": "1.1152",
@@ -146979,7 +146982,7 @@ window.BANKMA1 = [
   "traningsniva": 2,
   "arbetsinsats": 1,
   "spel": true,
-  "alternativ": [{"txt": "\\(12-3x\\)", "ratt": false}, {"txt": "\\(6-3x+6\\)", "ratt": false}, {"txt": "\\(-3x+12\\)", "ratt": false}, {"txt": "\\(3x-12\\)", "ratt": true}]
+  "alternativ": [{"txt": "\\(12-3x\\)", "ratt": false, "kommentar": "6 − 3x + 6 = 12 − 3x, så detta är lika."}, {"txt": "\\(6-3x+6\\)", "ratt": false, "kommentar": "−3 · (−2) = +6, så 6 − 3x + 6 är rätt."}, {"txt": "\\(-3x+12\\)", "ratt": false, "kommentar": "−3x + 12 = 12 − 3x, så detta är lika."}, {"txt": "\\(3x-12\\)", "ratt": true}]
 },
 {
   "id": "1.1175",
@@ -147009,7 +147012,7 @@ window.BANKMA1 = [
   "traningsniva": 2,
   "arbetsinsats": 2,
   "spel": true,
-  "alternativ": [{"txt": "Rätt svar är \\(-4y+4\\), eftersom minustecknet byter tecken även på \\(-4\\).", "ratt": true}, {"txt": "Rätt svar är \\(-8y-4\\), eftersom \\(2y\\) också ska byta tecken.", "ratt": false}, {"txt": "Rätt svar är \\(8y-4\\), eftersom minustecknet bara gäller \\(6y\\).", "ratt": false}, {"txt": "Lösningen är rätt.", "ratt": false}]
+  "alternativ": [{"txt": "Rätt svar är \\(-4y+4\\), eftersom minustecknet byter tecken även på \\(-4\\).", "ratt": true}, {"txt": "Rätt svar är \\(-8y-4\\), eftersom \\(2y\\) också ska byta tecken.", "ratt": false, "kommentar": "Minustecknet framför parentesen gäller inte 2y, som står utanför."}, {"txt": "Rätt svar är \\(8y-4\\), eftersom minustecknet bara gäller \\(6y\\).", "ratt": false, "kommentar": "Minustecknet gäller båda termerna i parentesen."}, {"txt": "Lösningen är rätt.", "ratt": false, "kommentar": "−(−4) = +4, inte −4."}]
 },
 {
   "id": "1.1176",
@@ -152241,7 +152244,8 @@ window.BANKMA1 = [
     "alternativ": [
       {
         "txt": "\\(K=102x\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "90 kr betalas en gång och ska inte multipliceras med x."
       },
       {
         "txt": "\\(K=90+12x\\)",
@@ -152249,11 +152253,13 @@ window.BANKMA1 = [
       },
       {
         "txt": "\\(K=12+90x\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Det är omvänt: 12 kr per gigabyte ska multipliceras med x."
       },
       {
         "txt": "\\(K=90\\cdot1{,}12^x\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Kostnaden ökar med lika många kronor per gigabyte, så modellen är linjär."
       }
     ],
     "omrTidigare": "np_repetition",
@@ -158390,7 +158396,8 @@ window.BANKMA1 = [
       },
       {
         "txt": "Det är 45 % lägre",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Förändringarna drar åt olika håll: 1,25 · 0,8 = 1, så priset är detsamma."
       }
     ]
   },

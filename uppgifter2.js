@@ -13926,6 +13926,7 @@ window.BANK2 = [
   },
   {
     "id": "3.4",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "E",
@@ -13953,6 +13954,7 @@ window.BANK2 = [
   },
   {
     "id": "3.5",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "C",
@@ -14021,6 +14023,7 @@ window.BANK2 = [
   },
   {
     "id": "3.6",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "A",
@@ -14669,6 +14672,7 @@ window.BANK2 = [
   },
   {
     "id": "3.23",
+    "spel": false,
     "kap": 3,
     "omr": "vaxelstrom_spole_kondensator",
     "niva": "C",
@@ -14731,6 +14735,7 @@ window.BANK2 = [
   },
   {
     "id": "3.24",
+    "spel": false,
     "kap": 3,
     "omr": "vaxelstrom_spole_kondensator",
     "niva": "C",
@@ -26731,6 +26736,7 @@ window.BANK2 = [
   },
   {
     "id": "3.104",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "C",
@@ -29963,6 +29969,7 @@ window.BANK2 = [
   },
   {
     "id": "3.105",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "E",
@@ -29990,6 +29997,7 @@ window.BANK2 = [
   },
   {
     "id": "3.115",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "E",
@@ -30021,6 +30029,7 @@ window.BANK2 = [
   },
   {
     "id": "3.116",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "E",
@@ -30052,6 +30061,7 @@ window.BANK2 = [
   },
   {
     "id": "3.117",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "E",
@@ -30083,6 +30093,7 @@ window.BANK2 = [
   },
   {
     "id": "3.118",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "E",
@@ -30114,6 +30125,7 @@ window.BANK2 = [
   },
   {
     "id": "3.119",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "C",
@@ -30145,6 +30157,7 @@ window.BANK2 = [
   },
   {
     "id": "3.120",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "E",
@@ -30176,6 +30189,7 @@ window.BANK2 = [
   },
   {
     "id": "3.121",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "E",
@@ -30208,6 +30222,7 @@ window.BANK2 = [
   },
   {
     "id": "3.122",
+    "spel": false,
     "kap": 3,
     "omr": "elektriska_falt",
     "niva": "C",
@@ -31109,6 +31124,7 @@ window.BANK2 = [
   },
   {
     "id": "3.108",
+    "spel": false,
     "kap": 3,
     "omr": "vaxelstrom_spole_kondensator",
     "niva": "E",
@@ -31135,6 +31151,7 @@ window.BANK2 = [
   },
   {
     "id": "3.109",
+    "spel": false,
     "kap": 3,
     "omr": "vaxelstrom_spole_kondensator",
     "niva": "E",
@@ -32121,6 +32138,7 @@ window.BANK2 = [
   },
   {
     "id": "3.142",
+    "spel": false,
     "kap": 3,
     "omr": "vaxelstrom_spole_kondensator",
     "niva": "E",
@@ -32147,6 +32165,7 @@ window.BANK2 = [
   },
   {
     "id": "3.143",
+    "spel": false,
     "kap": 3,
     "omr": "vaxelstrom_spole_kondensator",
     "niva": "E",
@@ -32173,6 +32192,7 @@ window.BANK2 = [
   },
   {
     "id": "3.144",
+    "spel": false,
     "kap": 3,
     "omr": "vaxelstrom_spole_kondensator",
     "niva": "C",
@@ -41779,6 +41799,7 @@ window.BANK2 = [
   },
   {
     "id": "3.303",
+    "spel": false,
     "kap": 3,
     "omr": "vaxelstrom_spole_kondensator",
     "niva": "C",
@@ -41819,7 +41840,7 @@ window.BANK2 = [
     "geogebra": false,
     "självrättning": true,
     "ledtrad": "<p>Lös ut \\(C\\) ur formeln för resonansfrekvensen. Hur beror \\(f\\) på \\(C\\)?</p>",
-    "spel": true,
+    "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 2,
     "svarstyp": "flera_delar",
@@ -56252,7 +56273,7 @@ window.BANK2 = [
   ],
   "miniräknare": true,
   "geogebra": false,
-  "spel": true,
+  "spel": false,
   "självrättning": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
@@ -56289,7 +56310,7 @@ window.BANK2 = [
   ],
   "miniräknare": true,
   "geogebra": false,
-  "spel": true,
+  "spel": false,
   "självrättning": true,
   "traningsniva": 3,
   "arbetsinsats": 2,
@@ -56318,7 +56339,7 @@ window.BANK2 = [
   ],
   "miniräknare": true,
   "geogebra": false,
-  "spel": true,
+  "spel": false,
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
@@ -56366,7 +56387,7 @@ window.BANK2 = [
   ],
   "miniräknare": true,
   "geogebra": false,
-  "spel": true,
+  "spel": false,
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
@@ -66150,7 +66171,7 @@ window.BANK2 = [
   ],
   "miniräknare": true,
   "geogebra": false,
-  "spel": true,
+  "spel": false,
   "självrättning": true,
   "traningsniva": 1,
   "arbetsinsats": 1,
@@ -66233,7 +66254,7 @@ window.BANK2 = [
   ],
   "miniräknare": true,
   "geogebra": false,
-  "spel": true,
+  "spel": false,
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
@@ -66261,7 +66282,7 @@ window.BANK2 = [
   ],
   "miniräknare": true,
   "geogebra": false,
-  "spel": true,
+  "spel": false,
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
@@ -66290,7 +66311,7 @@ window.BANK2 = [
   ],
   "miniräknare": true,
   "geogebra": false,
-  "spel": true,
+  "spel": false,
   "självrättning": true,
   "traningsniva": 1,
   "arbetsinsats": 1,

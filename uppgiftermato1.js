@@ -130940,5 +130940,453 @@ window.BANKMATO1 = [
       "Koefficient −1"
     ],
     "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "1.1129",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=4x+1\\). Förenkla \\(f(x+h)-f(x)\\).</p>",
+    "ledtrad": "<p>Byt ut varje \\(x\\) mot \\(x+h\\). Vad blir kvar när du drar bort \\(f(x)\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=4x+1\\)</p><div class=\"facit-matte\">\\[f(x+h)=4(x+h)+1\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera in i parentesen</p><div class=\"facit-matte\">\\[f(x+h)=4x+4h+1\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=4x+1\\): \\(4x\\) och \\(1\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(4x+4h+1)\\\\&\\quad-(4x+1)\\\\&=4h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4h\\).</p></div>",
+    "rättSvar": "4h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1130",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>För \\(g(t)=7-2t\\) gäller det att förenkla \\(g(t+h)-g(t)\\).</p>",
+    "ledtrad": "<p>Skriv först \\(g(t+h)\\). Glöm inte att \\(-2\\) multipliceras med både \\(t\\) och \\(h\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(t\\) med \\(t+h\\) i \\(g(t)=-2t+7\\)</p><div class=\"facit-matte\">\\[g(t+h)=-2(t+h)+7\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera in i parentesen</p><div class=\"facit-matte\">\\[g(t+h)=-2t-2h+7\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(g(t)=-2t+7\\): \\(-2t\\) och \\(7\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&g(t+h)-g(t)\\\\&=(-2t-2h+7)\\\\&\\quad-(-2t+7)\\\\&=-2h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2h\\).</p></div>",
+    "rättSvar": "-2h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1131",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Låt \\(f(x)=x^2\\). Förenkla \\(f(x+h)-f(x)\\) så långt som möjligt.</p>",
+    "ledtrad": "<p>Använd kvadreringsregeln på \\((x+h)^2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=x^2\\)</p><div class=\"facit-matte\">\\[f(x+h)=(x+h)^2\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)=(x^2+2xh+h^2)\\\\&=x^2+2xh+h^2\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=x^2\\): \\(x^2\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(x^2+2xh+h^2)\\\\&\\quad-(x^2)\\\\&=2xh+h^2\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2xh+h^2\\).</p></div>",
+    "rättSvar": "2xh+h^2",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1132",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=3x^2\\). Förenkla \\(f(x+h)-f(x)\\).</p>",
+    "ledtrad": "<p>Utveckla \\((x+h)^2\\) först och multiplicera sedan med 3.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=3x^2\\)</p><div class=\"facit-matte\">\\[f(x+h)=3(x+h)^2\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)=3(x^2+2xh+h^2)\\\\&=3x^2+6xh+3h^2\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=3x^2\\): \\(3x^2\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(3x^2+6xh+3h^2)\\\\&\\quad-(3x^2)\\\\&=6xh+3h^2\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6xh+3h^2\\).</p></div>",
+    "rättSvar": "6xh+3h^2",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1133",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=2x^2+3x\\). Förenkla \\(f(x+h)-f(x)\\).</p>",
+    "ledtrad": "<p>Ersätt \\(x\\) med \\(x+h\\) i båda termerna. Vilka termer tar ut varandra när du drar bort \\(f(x)\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=2x^2+3x\\)</p><div class=\"facit-matte\">\\[f(x+h)=2(x+h)^2+3(x+h)\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)=2(x^2+2xh+h^2)\\\\&\\quad+3x+3h\\\\&=2x^2+4xh+2h^2+3x+3h\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=2x^2+3x\\): \\(2x^2\\) och \\(3x\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(2x^2+4xh+2h^2+3x+3h)\\\\&\\quad-(2x^2+3x)\\\\&=4xh+2h^2+3h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4xh+2h^2+3h\\).</p></div>",
+    "rättSvar": "4xh+2h^2+3h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1134",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>För funktionen \\(f(x)=x^2-5x\\) ska \\(f(x+h)-f(x)\\) förenklas. Skriv uttrycket utan parenteser.</p>",
+    "ledtrad": "<p>Skriv \\(f(x+h)=(x+h)^2-5(x+h)\\) och utveckla.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=x^2-5x\\)</p><div class=\"facit-matte\">\\[f(x+h)=(x+h)^2-5(x+h)\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)=(x^2+2xh+h^2)\\\\&\\quad-5x-5h\\\\&=x^2+2xh+h^2-5x-5h\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=x^2-5x\\): \\(x^2\\) och \\(-5x\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(x^2+2xh+h^2-5x-5h)\\\\&\\quad-(x^2-5x)\\\\&=2xh+h^2-5h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2xh+h^2-5h\\).</p></div>",
+    "rättSvar": "2xh+h^2-5h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1135",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Polynomet \\(p(x)=x^2+4x+7\\) är givet. Förenkla \\(p(x+h)-p(x)\\).</p>",
+    "ledtrad": "<p>Konstanten 7 finns i både \\(p(x+h)\\) och \\(p(x)\\). Vad händer med den?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(p(x)=x^2+4x+7\\)</p><div class=\"facit-matte\">\\[p(x+h)=(x+h)^2+4(x+h)+7\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&p(x+h)=(x^2+2xh+h^2)\\\\&\\quad+4x+4h+7\\\\&=x^2+2xh+h^2+4x+4h+7\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(p(x)=x^2+4x+7\\): \\(x^2\\), \\(4x\\) och \\(7\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&p(x+h)-p(x)\\\\&=(x^2+2xh+h^2+4x+4h+7)\\\\&\\quad-(x^2+4x+7)\\\\&=2xh+h^2+4h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2xh+h^2+4h\\).</p></div>",
+    "rättSvar": "2xh+h^2+4h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1136",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Ett föremål har läget \\(s(t)=5t^2-t\\). Förenkla \\(s(t+h)-s(t)\\).</p>",
+    "ledtrad": "<p>Byt \\(t\\) mot \\(t+h\\) och utveckla \\((t+h)^2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(t\\) med \\(t+h\\) i \\(s(t)=5t^2-t\\)</p><div class=\"facit-matte\">\\[s(t+h)=5(t+h)^2-(t+h)\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((t+h)^2=t^2+2th+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&s(t+h)=5(t^2+2th+h^2)\\\\&\\quad-t-h\\\\&=5t^2+10th+5h^2-t-h\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(s(t)=5t^2-t\\): \\(5t^2\\) och \\(-t\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&s(t+h)-s(t)\\\\&=(5t^2+10th+5h^2-t-h)\\\\&\\quad-(5t^2-t)\\\\&=10th+5h^2-h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10th+5h^2-h\\).</p></div>",
+    "rättSvar": "10th+5h^2-h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1137",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=6-x^2\\). Förenkla \\(f(x+h)-f(x)\\).</p>",
+    "ledtrad": "<p>Minustecknet framför \\((x+h)^2\\) gäller alla tre termerna när du utvecklar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=-x^2+6\\)</p><div class=\"facit-matte\">\\[f(x+h)=-(x+h)^2+6\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)=-(x^2+2xh+h^2)\\\\&\\quad+6\\\\&=-x^2-2xh-h^2+6\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=-x^2+6\\): \\(-x^2\\) och \\(6\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(-x^2-2xh-h^2+6)\\\\&\\quad-(-x^2+6)\\\\&=-2xh-h^2\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2xh-h^2\\).</p></div>",
+    "rättSvar": "-2xh-h^2",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1138",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla \\(f(x+h)-f(x)\\) för \\(f(x)=-x^2+6x\\).</p>",
+    "ledtrad": "<p>Utveckla \\(-(x+h)^2\\) med en parentes runt kvadraten, så att tecknen blir rätt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=-x^2+6x\\)</p><div class=\"facit-matte\">\\[f(x+h)=-(x+h)^2+6(x+h)\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)=-(x^2+2xh+h^2)\\\\&\\quad+6x+6h\\\\&=-x^2-2xh-h^2+6x+6h\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=-x^2+6x\\): \\(-x^2\\) och \\(6x\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(-x^2-2xh-h^2+6x+6h)\\\\&\\quad-(-x^2+6x)\\\\&=-2xh-h^2+6h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2xh-h^2+6h\\).</p></div>",
+    "rättSvar": "-2xh-h^2+6h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1139",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=-3x^2+2x-1\\). Förenkla \\(f(x+h)-f(x)\\) så långt som möjligt.</p>",
+    "ledtrad": "<p>Sätt parentes runt hela \\(f(x)\\) när du drar bort det, och byt tecken på alla termer.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=-3x^2+2x-1\\)</p><div class=\"facit-matte\">\\[f(x+h)=-3(x+h)^2+2(x+h)-1\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)=-3(x^2+2xh+h^2)\\\\&\\quad+2x+2h-1\\\\&=-3x^2-6xh-3h^2+2x+2h-1\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=-3x^2+2x-1\\): \\(-3x^2\\), \\(2x\\) och \\(-1\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(-3x^2-6xh-3h^2+2x+2h-1)\\\\&\\quad-(-3x^2+2x-1)\\\\&=-6xh-3h^2+2h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6xh-3h^2+2h\\).</p></div>",
+    "rättSvar": "-6xh-3h^2+2h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1140",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Låt \\(f(x)=0{,}5x^2+2x\\). Förenkla \\(f(x+h)-f(x)\\).</p>",
+    "ledtrad": "<p>Halva av \\(2xh\\) är \\(xh\\). Utveckla \\((x+h)^2\\) och multiplicera med 0,5.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=0{,}5x^2+2x\\)</p><div class=\"facit-matte\">\\[f(x+h)=0{,}5(x+h)^2+2(x+h)\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)=0{,}5(x^2+2xh+h^2)\\\\&\\quad+2x+2h\\\\&=0{,}5x^2+xh+0{,}5h^2+2x+2h\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=0{,}5x^2+2x\\): \\(0{,}5x^2\\) och \\(2x\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(0{,}5x^2+xh+0{,}5h^2+2x+2h)\\\\&\\quad-(0{,}5x^2+2x)\\\\&=xh+0{,}5h^2+2h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(xh+0{,}5h^2+2h\\).</p></div>",
+    "rättSvar": "xh+0.5h^2+2h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1141",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=x^2+3x\\). Förenkla \\(f(2+h)-f(2)\\).</p>",
+    "ledtrad": "<p>Räkna ut \\(f(2)\\) som ett tal. Sätt sedan in \\(2+h\\) och utveckla.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna \\(f(2)\\)</p><div class=\"facit-matte\">\\[f(2)=2^2+3\\cdot 2=10\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(2+h\\) och använd kvadreringsregeln \\((2+h)^2=4+4h+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(2+h)=(2+h)^2+3(2+h)\\\\&=h^2+7h+10\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(2)=10\\), så blir bara termerna med \\(h\\) kvar</p><div class=\"facit-matte\">\\[f(2+h)-f(2)=h^2+7h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h^2+7h\\).</p></div>",
+    "rättSvar": "h^2+7h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1142",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>För \\(g(x)=2x^2-x+4\\), förenkla \\(g(a+h)-g(a)\\).</p>",
+    "ledtrad": "<p>Gör som med \\(x+h\\), men med bokstaven \\(a\\) i stället för \\(x\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(a+h\\) i \\(g(x)=2x^2-x+4\\)</p><div class=\"facit-matte\">\\[g(a+h)=2(a+h)^2-(a+h)+4\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((a+h)^2=a^2+2ah+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&g(a+h)=2(a^2+2ah+h^2)\\\\&\\quad-a-h+4\\\\&=2a^2+4ah+2h^2-a-h+4\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(g(a)=2a^2-a+4\\): \\(2a^2\\), \\(-a\\) och \\(4\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&g(a+h)-g(a)\\\\&=(2a^2+4ah+2h^2-a-h+4)\\\\&\\quad-(2a^2-a+4)\\\\&=4ah+2h^2-h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4ah+2h^2-h\\).</p></div>",
+    "rättSvar": "4ah+2h^2-h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1143",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=4x^2-3x\\). Förenkla ändringskvoten \\(\\dfrac{f(x+h)-f(x)}{h}\\). Anta att \\(h\\ne0\\).</p>",
+    "ledtrad": "<p>Förenkla först täljaren \\(f(x+h)-f(x)\\). Alla termer som blir kvar innehåller \\(h\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=4x^2-3x\\)</p><div class=\"facit-matte\">\\[f(x+h)=4(x+h)^2-3(x+h)\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)=4(x^2+2xh+h^2)\\\\&\\quad-3x-3h\\\\&=4x^2+8xh+4h^2-3x-3h\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=4x^2-3x\\): \\(4x^2\\) och \\(-3x\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(4x^2+8xh+4h^2-3x-3h)\\\\&\\quad-(4x^2-3x)\\\\&=8xh+4h^2-3h\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dela varje term med \\(h\\)</p><div class=\"facit-matte\">\\[\\frac{8xh+4h^2-3h}{h}=8x+4h-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8x+4h-3\\).</p></div>",
+    "rättSvar": "8x+4h-3",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
+  },
+  {
+    "id": "1.1144",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Funktionsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Skriv \\(f(x+h)-f(x)\\) utan parenteser när \\(f(x)=x^2-2x+5\\).</p>",
+    "ledtrad": "<p>Vilka termer finns i både \\(f(x+h)\\) och \\(f(x)\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt \\(x\\) med \\(x+h\\) i \\(f(x)=x^2-2x+5\\)</p><div class=\"facit-matte\">\\[f(x+h)=(x+h)^2-2(x+h)+5\\]</div></li><li><p class=\"facit-rubrik\">Kvadreringsregeln: \\((x+h)^2=x^2+2xh+h^2\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)=(x^2+2xh+h^2)\\\\&\\quad-2x-2h+5\\\\&=x^2+2xh+h^2-2x-2h+5\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(f(x)=x^2-2x+5\\): \\(x^2\\), \\(-2x\\) och \\(5\\) tar ut varandra</p><div class=\"facit-matte\">\\[\\begin{aligned}&f(x+h)-f(x)\\\\&=(x^2+2xh+h^2-2x-2h+5)\\\\&\\quad-(x^2-2x+5)\\\\&=2xh+h^2-2h\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2xh+h^2-2h\\).</p></div>",
+    "rättSvar": "2xh+h^2-2h",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarFormat": "förenklat_polynom"
   }
 ];

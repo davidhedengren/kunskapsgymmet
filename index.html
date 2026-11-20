@@ -4155,7 +4155,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-20-sprak-ma1-klar";
+const BANK_VERSION="2026-11-20-felrapporter-0805";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11539,11 +11539,20 @@ function formatRatt(anv,facit,meta){
       const strip=x=>unit&&x.trim().endsWith(unit)?x.trim().slice(0,-unit.length).trim():x;
       return sammaForenkladePolynom(strip(hogerled(a)),strip(hogerled(f)));
       }
-    case "decimalform": {
+    case "decimalform": case "omvandling": {
       // Kontrollera representationen och, om den anges, just den begärda enheten.
-      // En likvärdig tiopotens eller ursprungsenheten besvarar inte en omvandling.
-      const raw=stadaSvar(hogerled(a)).replace(/\s+/g,"");
-      const match=raw.match(/^([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+))(.*)$/);
+      // I decimalform besvarar en likvärdig tiopotens inte frågan. Ursprungsenheten godtas aldrig.
+      // "omvandling" (enhets- och prefixbyten) godtar också grundpotensform, t.ex. 1,5·10^9 W
+      // och 5·10⁴ m² (felrapport 2026-11-20, Ma1 0.1383 och 0.1362 d).
+      let raw=stadaSvar(hogerled(a)).replace(/\s+/g,"");
+      if(format==="omvandling"){
+        const upp={"⁰":"0","¹":"1","²":"2","³":"3","⁴":"4","⁵":"5","⁶":"6","⁷":"7","⁸":"8","⁹":"9","⁻":"-"};
+        raw=normaliseraGrundpotens(raw).replace(/[⋅∙·×*]10([⁰¹²³⁴⁵⁶⁷⁸⁹⁻]+)/g,(_,x)=>"*10^"+[...x].map(c=>upp[c]).join(""))
+          .replace(/[⋅∙·×]10\^/g,"*10^");
+      }
+      const match=format==="omvandling"
+        ? raw.match(/^([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+)(?:\*10\^(?:\([+-]?\d+\)|[+-]?\d+)|e[+-]?\d+)?)(.*)$/)
+        : raw.match(/^([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+))(.*)$/);
       if(!match) return false;
       const unit=String(meta.enhet??"").replace(/\s+/g,"");
       /* Utskrivna enhetsord godtas för samma enhet: "9000 sekunder" och "9000 sek" som "9000 s". */
@@ -11554,7 +11563,15 @@ function formatRatt(anv,facit,meta){
         return namn.replace(/^[μu](?=[A-Za-zΩ])/,"µ").replace(/^([fpnmcdhkMGTµ]?)L$/,"$1l");
       };
       const svarsEnhet=match[2].replace(/\.$/,"");
-      if(svarsEnhet && (!unit || enhetNamn(svarsEnhet)!==enhetNamn(unit))) return false;
+      /* m^2, m2 och m² är samma enhet. Samma skalfaktor och dimension räknas som samma enhet,
+         men ett annat prefix (km² i stället för m²) godtas inte. */
+      const sammaEnhet=(x,y)=>{
+        if(enhetNamn(x)===enhetNamn(y)) return true;
+        if(typeof tolkaEnhet!=="function" || typeof sammaDimension!=="function") return false;
+        const ex=tolkaEnhet(x), ey=tolkaEnhet(y);
+        return !!(ex && ey && sammaDimension(ex,ey) && Math.abs(ex.f-ey.f)<=Math.abs(ey.f)*1e-12);
+      };
+      if(svarsEnhet && (!unit || !sammaEnhet(svarsEnhet,unit))) return false;
       return rentNumerisktSvar(match[1],f,meta);
     }
     case "energi_per_nukleon": {
@@ -11573,6 +11590,20 @@ function formatRatt(anv,facit,meta){
     }
     case "heltal": case "numeriskt": {
       if(rentNumerisktSvar(a,f,meta)) return true;
+      /* Exakt värde följt av närmevärde, "2√2 ≈ 2,828": båda leden ska stämma (felrapport 2026-11-20, Ma4 1.672).
+         Närmevärdet godtas om det ligger inom toleransen eller är korrekt avrundat på sina decimaler. */
+      const led=stadaSvar(hogerled(a)).split(/\s*≈\s*/);
+      if(format==="numeriskt" && led.length===2 && led[0] && led[1] && isPureNumberExpression(String(f).replace(",","."))){
+        const fv=numericValue(tillNerdamer(normalizeMathInput(String(f))));
+        const varde=x=>/^[+-]?\d+(?:[.,]\d+)?$/.test(x) ? taltolk(x)
+          : (isPureNumberExpression(x) ? numericValue(tillNerdamer(normalizeMathInput(x))) : NaN);
+        const v0=varde(led[0].trim()), v1=varde(led[1].trim());
+        if(Number.isFinite(v0) && Number.isFinite(v1) && Number.isFinite(fv)){
+          const dec=(led[1].trim().match(/^[+-]?\d+[.,](\d+)$/)?.[1]||"").length;
+          const avrundat=Math.abs(v1-fv)<=0.5*Math.pow(10,-dec)*(1+1e-9);
+          return naraNog(v0,fv,tol) && (naraNog(v1,fv,tol) || (/^[+-]?\d+(?:[.,]\d+)?$/.test(led[1].trim()) && avrundat));
+        }
+      }
       /* Exakt form av talet, t.ex. 10/3, √2 eller 2π, när svaret inte har någon enhet. */
       const h=stadaSvar(hogerled(a));
       if(format==="numeriskt" && isPureNumberExpression(h)){
@@ -11626,8 +11657,13 @@ function formatRatt(anv,facit,meta){
       if(!naraNog(Math.abs(v),Math.abs(fv),tol)) return false;
       return Math.sign(v)===Math.sign(fv) || /förlust|forlust|minus/i.test(a)===(fv<0);
     }
-    case "kort_text": case "text":
+    case "kort_text": case "text": {
+      /* Förhållandet a:b får också skrivas som a/b (felrapport 2026-11-20, Ma1 0.825). Talen ska vara
+         desamma, så kravet på enklaste form står kvar. */
+      const fh=String(f).match(/^\s*(\d+)\s*:\s*(\d+)\s*$/), ah=String(a).match(/^\s*(\d+)\s*\/\s*(\d+)\s*$/);
+      if(fh && ah) return fh[1]===ah[1] && fh[2]===ah[2];
       return textSvarRatt(a,f);
+    }
     case "kalkylbladsformel": {
       const norm=x=>textNyckel(x).replace(/\s/g,"").replace(/^=/,"").replace(/;/g,",");
       return norm(a)===norm(f);
@@ -12329,6 +12365,11 @@ function friAvrundningRatt(anv,facit,enhet,t,format){
 function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
   // Abstrakta längdenheter har vanliga svenska skrivsätt utan fysisk enhet.
   if(String(enhet||"").trim()==="längdenheter") anv=String(anv).replace(/(?:längdenhet(?:er)?|enhet(?:er)?|l\s*\.?\s*e\.?)\s*$/i,"längdenheter");
+  /* Areaenheter utan fysisk enhet: "2,828 a.e.", "2,828 ae" och "2,828 areaenheter" (felrapport 2026-11-20, Ma4 1.672). */
+  if(!enhet && (format==null || format==="numeriskt")){
+    const utan=String(anv).replace(/\s*(?:areaenhet(?:er)?|a\s*\.\s*e\s*\.?|ae\.?)\s*$/i,"");
+    if(utan!==String(anv) && /\d\s*$/.test(utan)) anv=utan;
+  }
   if(t?.svarVardesiffror!=null){
     const fysikPrecision=fysikVardesiffrorRatt(anv,facit,enhet,t,idx,format);
     if(fysikPrecision!==null) return fysikPrecision;
@@ -12363,7 +12404,7 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
   }
   /* Decimalform kräver den angivna representationen och målenheten.
      Kontrollera detta innan generella tal- och enhetsgenvägar prövas. */
-  if(["decimalform","energi_per_nukleon","faktoriserat","största_faktor","storsta_faktor","en_logaritm","kvadratkompletterat","funktionsuttryck","primitiv","primitiva"].includes(format))
+  if(["decimalform","omvandling","energi_per_nukleon","faktoriserat","största_faktor","storsta_faktor","en_logaritm","kvadratkompletterat","funktionsuttryck","primitiv","primitiva"].includes(format))
     return formatRatt(enhetMedOrd(anv),facit,{format,tolerans:tol,enhet});
   /* Ett känt prefix måste räknas om innan någon genväg tar bort målenheten.
      Annars blev "412 kPa" först "412 k" och därefter "412" mot ett facit i Pa. */
@@ -12824,7 +12865,7 @@ function sifferlage(facit,enhet,format,t){
   // Ett lagrat decimaltal kan motsvara ln2, √3 eller ett exakt bråk.
   // Frågans tillåtna svar får inte begränsas av mobilens siffertangentbord.
   if(/\bexakt(?:a)?\b/i.test(String(t?.t||""))) return false;
-  if(format && !["numeriskt","heltal","decimalform","grader","procent"].includes(format)) return false;
+  if(format && !["numeriskt","heltal","decimalform","omvandling","grader","procent"].includes(format)) return false;
   if(enhet) return false;
   if(COURSES[state.course]?.subject==="Fysik") return false;
   return numerisktSvar(facit);

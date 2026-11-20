@@ -60234,7 +60234,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Beräkna triangelarea med två sidor och mellanliggande vinkel"
-    ]
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "4.120",

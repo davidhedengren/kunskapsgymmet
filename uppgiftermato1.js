@@ -9312,8 +9312,8 @@ window.BANKMATO1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": false,
     "omrTidigare": [
       "funktioner"
@@ -130063,7 +130063,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "2/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur",
@@ -130092,7 +130092,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "2/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur",
@@ -130562,7 +130562,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "2/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur",
@@ -131064,7 +131064,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "1/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur"
@@ -131092,7 +131092,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "1/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur"
@@ -131120,7 +131120,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "1/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur"
@@ -131148,7 +131148,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "1/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur"
@@ -131176,7 +131176,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "1/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur"
@@ -131288,7 +131288,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "1/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur"
@@ -131316,7 +131316,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "1/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur"
@@ -131372,7 +131372,7 @@ window.BANKMATO1 = [
     "familj": "Funktionsvärden",
     "niva": "E",
     "poang": "1/0/0",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
       "procedur"

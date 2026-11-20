@@ -7291,7 +7291,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En biograf tar 120 kr per biljett. Låt \\(I(n)=120n\\) vara intäkten när \\(n\\) biljetter säljs.</p><p>a) Bestäm \\(I(35)\\).<br>b) Förklara varför definitionsmängden i sammanhanget bör bestå av heltal och inte alla reella tal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(I(35)=120\\cdot35=4200\\) kr.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet sålda biljetter kan bara vara ett helt antal.</p></li><li><p>Därför är en diskret definitionsmängd relevant.</p></li></ol></div></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(I(35)=120\\cdot35=4200\\) kr.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet sålda biljetter kan bara vara ett helt antal.</p></li><li><p>Därför består definitionsmängden bara av heltal.</p></li></ol></div></div></div></div>",
     "familj": "Tolka och jämföra funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -35236,7 +35236,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En idrottsförening registrerar hur många personer som kommer in i en hall varje hel timme. Wilma anpassar en kontinuerlig funktion \\(r(t)\\) till mätvärdena och använder \\(\\int_0^6 r(t)\\,dt\\) för att uppskatta antalet besökare under sex timmar.</p><p>Förklara vad som måste vara sant för att metoden ska vara rimlig och ge två olika orsaker till att integralvärdet ändå kan avvika från det faktiska antalet besökare.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen kan tolkas som ett antal besökare bara om \\(r(t)\\) verkligen beskriver en <strong>ankomsthastighet</strong>, till exempel personer per timme, och om den kontinuerliga modellen är en rimlig approximation mellan mättillfällena.</p></li><li><p>Två möjliga felkällor är:</p></li><li><p>• ankomster sker diskret, medan modellen antar ett kontinuerligt flöde,<br>• värdena mellan heltimmarna är inte observerade och den valda kurvan mellan mätpunkterna kan missa korta toppar eller dalar.</p></li><li><p>Även mätfel eller personer som registreras flera gånger kan påverka.</p></li><li><p><strong>Slutsats:</strong> integralen är en modellbaserad uppskattning, inte automatiskt ett exakt antal personer.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integralen kan tolkas som ett antal besökare bara om \\(r(t)\\) verkligen beskriver en <strong>ankomsthastighet</strong>, till exempel personer per timme, och om den kontinuerliga modellen är en rimlig approximation mellan mättillfällena.</p></li><li><p>Två möjliga felkällor är:</p></li><li><p>• personerna kommer in en och en vid enskilda tillfällen, medan modellen antar ett kontinuerligt flöde,<br>• värdena mellan heltimmarna är inte observerade och den valda kurvan mellan mätpunkterna kan missa korta toppar eller dalar.</p></li><li><p>Även mätfel eller personer som registreras flera gånger kan påverka.</p></li><li><p><strong>Slutsats:</strong> integralen är en modellbaserad uppskattning, inte automatiskt ett exakt antal personer.</p></li></ol></div>",
     "familj": "Tolka integraler i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -55761,7 +55761,7 @@ window.BANKMATO1 = [
     "niva": "A",
     "poang": "0/1/3",
     "t": "<p>Varje gång Mario fyller år lägger hans mormor ett belopp i en burk som är \\(100\\) gånger kvadraten av hans ålder. Sergio föreslår att pengarna på 6-årsdagen kan beräknas med</p><p>\\[\\int_0^6 100x^2\\,dx.\\]</p><p>Förklara varför integralen ger ett för litet värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Insättningarna sker diskret vid heltalsåldrarna \\(1{,}2,\\ldots,6\\), inte kontinuerligt.</p></li><li><p>Den verkliga summan är därför</p><p>\\[100\\cdot1^2+100\\cdot2^2+\\cdots+100\\cdot6^2.\\]</p></li><li><p>Funktionen \\(100x^2\\) är växande.</p></li><li><p>På varje del där \\(n-1\\le x\\le n\\) ligger kurvan under rektangeln med höjden \\(100n^2\\).</p></li><li><p>Därför blir arean under kurvan, alltså integralen, mindre än den diskreta summan.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Insättningarna sker bara vid heltalsåldrarna \\(1{,}2,\\ldots,6\\), inte kontinuerligt.</p></li><li><p>Den verkliga summan är därför</p><p>\\[100\\cdot1^2+100\\cdot2^2+\\cdots+100\\cdot6^2.\\]</p></li><li><p>Funktionen \\(100x^2\\) är växande.</p></li><li><p>På varje del där \\(n-1\\le x\\le n\\) ligger kurvan under rektangeln med höjden \\(100n^2\\).</p></li><li><p>Därför blir arean under kurvan, alltså integralen, mindre än summan av insättningarna.</p></li></ol></div>",
     "familj": "Ackumulerad mängd från förändringshastighet",
     "geogebra": false,
     "miniräknare": true,
@@ -69326,8 +69326,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken situation beskrivs bäst med en <strong>diskret</strong> funktion?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Diskret betyder att variabeln bara kan anta separata värden</p><p>Ofta är det heltal, till exempel ett antal saker. Mellan två tillåtna värden finns inga andra.</p></li><li><p class=\"facit-rubrik\">Antalet stolar är alltid ett heltal</p><p>Företaget kan tillverka 3 eller 4 stolar, men inte 3,6 stolar. Intäkten finns bara för antalet 0, 1, 2, 3, …</p></li><li><p class=\"facit-rubrik\">De andra variablerna kan anta alla värden i ett intervall</p><p>Sträcka, sidlängd och vikt kan vara till exempel 12,7 km, 2,35 cm eller 1,4 kg. De ger kontinuerliga funktioner.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Intäkten beror av hur många stolar som tillverkas i företaget.</p></div>",
+    "t": "<p>I vilken av situationerna kan den oberoende variabeln bara anta heltalsvärden, till exempel 0, 1, 2, 3, …?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ett antal saker är alltid ett heltal</p><p>Den oberoende variabeln är den som funktionen beror av. Är den ett antal, finns inga värden mellan två heltal.</p></li><li><p class=\"facit-rubrik\">Antalet stolar är alltid ett heltal</p><p>Företaget kan tillverka 3 eller 4 stolar, men inte 3,6 stolar. Intäkten finns bara för antalet 0, 1, 2, 3, …</p></li><li><p class=\"facit-rubrik\">De andra variablerna kan anta alla värden i ett intervall</p><p>Sträcka, sidlängd och vikt kan vara till exempel 12,7 km, 2,35 cm eller 1,4 kg. Funktionen har då ett värde för varje tal i intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Intäkten beror av hur många stolar som tillverkas i företaget.</p></div>",
     "familj": "Tolka och jämföra funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -69338,7 +69338,7 @@ window.BANKMATO1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>En diskret variabel antar separata värden, ofta heltal.</p>",
+    "ledtrad": "<p>Vilken variabel räknar man i hela styck?</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": false,
@@ -69350,17 +69350,17 @@ window.BANKMATO1 = [
       {
         "txt": "Bensinförbrukningen hos en bil beror av hur långt bilen körs.",
         "ratt": false,
-        "kommentar": "Sträckan kan vara vilket värde som helst, till exempel 12,7 km. Den varierar kontinuerligt, inte i separata steg."
+        "kommentar": "Sträckan kan vara vilket värde som helst, till exempel 12,7 km. Den kan alltså anta decimaltal, inte bara heltal."
       },
       {
         "txt": "Volymen av en kub beror av sidans längd.",
         "ratt": false,
-        "kommentar": "Sidans längd kan vara alla positiva tal, till exempel 2,35 cm. Volymen blir då en kontinuerlig funktion."
+        "kommentar": "Sidans längd kan vara alla positiva tal, till exempel 2,35 cm. Den är alltså inte bara heltal."
       },
       {
         "txt": "Kostnaden för bananer beror av vikten på bananerna.",
         "ratt": false,
-        "kommentar": "Vikten kan vara till exempel 1,35 kg, alltså alla värden i ett intervall. Det ger en kontinuerlig funktion."
+        "kommentar": "Vikten kan vara till exempel 1,35 kg, alltså alla värden i ett intervall. Vikten är alltså inte bara heltal."
       },
       {
         "txt": "Intäkten beror av hur många stolar som tillverkas i företaget.",
@@ -69515,7 +69515,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I Hagaskolans cafeteria kostar bananer 2 kr per styck. Priset \\(P\\) kronor är en funktion av antalet bananer \\(x\\).</p><p>Beskriv grafen till funktionen i intervallet \\(1\\le x\\le4\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom antalet bananer är diskret består grafen av punkterna</p><p>\\[(1,2),\\ (2,4),\\ (3,6),\\ (4,8).\\]</p></li><li><p>Punkterna ska inte sammanbindas med en kontinuerlig linje.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom man bara kan köpa ett helt antal bananer består grafen av punkterna</p><p>\\[(1,2),\\ (2,4),\\ (3,6),\\ (4,8).\\]</p></li><li><p>Punkterna ska inte sammanbindas med en kontinuerlig linje.</p></li></ol></div>",
     "familj": "Tolka och jämföra funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -92604,19 +92604,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En diskret funktion har värdena \\(f(1)=3\\), \\(f(2)=6\\) och \\(f(3)=10\\). Bestäm \\(f(1)+f(2)+f(3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv upp de givna funktionsvärdena</p><div class=\"facit-matte\">\\[f(1)=3,\\quad f(2)=6,\\quad f(3)=10\\]</div></li><li><p class=\"facit-rubrik\">Summan är de tre värdena adderade</p><div class=\"facit-matte\">\\[3+6+10=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19</p></div>",
+    "t": "<p>En skolklass säljer lotter under tre dagar. Funktionen \\(L(d)\\) anger hur många lotter klassen säljer dag \\(d\\).</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><tr><th>\\(d\\)</th><td>1</td><td>2</td><td>3</td></tr><tr><th>\\(L(d)\\)</th><td>14</td><td>9</td><td>22</td></tr></table><p>Hur många lotter säljer klassen sammanlagt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sammanlagt antal: \\(L(1)+L(2)+L(3)\\)</p><p>Läs av funktionsvärdena i tabellen.</p><div class=\"facit-matte\">\\[14+9+22=45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 45 lotter</p></div>",
     "familj": "Tolka och jämföra funktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 19,
+    "rättSvar": 45,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs av de tre givna funktionsvärdena och addera dem.</p>",
+    "ledtrad": "<p>Vad betyder \\(L(2)\\)? Lägg ihop försäljningen för alla tre dagarna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": false,
@@ -92635,26 +92635,27 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En diskret funktion har värdena \\(f(1)=2\\), \\(f(2)=5\\) och \\(f(3)=9\\). Bestäm \\(f(1)+f(2)+f(3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En diskret funktion har ett värde för varje heltal</p><p>Här är \\(f(1)=2\\), \\(f(2)=5\\) och \\(f(3)=9\\).</p></li><li><p class=\"facit-rubrik\">Addera de tre värdena</p><div class=\"facit-matte\">\\[f(1)+f(2)+f(3)=2+5+9=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
+    "t": "<p>Ida mäter sin solrosplanta en gång i veckan. Funktionen \\(h(v)\\) anger plantans höjd i centimeter vecka \\(v\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 270\" width=\"380\" height=\"270\" role=\"img\" aria-label=\"Punkter som visar solrosplantans höjd vecka 1 till 4: 10, 20, 35 och 45 centimeter.\" style=\"max-width:100%;height:auto\"><title>Punkter som visar solrosplantans höjd vecka 1 till 4: 10, 20, 35 och 45 centimeter.</title><rect width=\"380\" height=\"270\" fill=\"#fff\"/><line x1=\"52\" y1=\"230.0\" x2=\"352\" y2=\"230.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"45\" y=\"234.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#203746\">0</text><line x1=\"52\" y1=\"210.0\" x2=\"352\" y2=\"210.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"190.0\" x2=\"352\" y2=\"190.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"45\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#203746\">10</text><line x1=\"52\" y1=\"170.0\" x2=\"352\" y2=\"170.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"150.0\" x2=\"352\" y2=\"150.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"45\" y=\"154.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#203746\">20</text><line x1=\"52\" y1=\"130.0\" x2=\"352\" y2=\"130.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"110.0\" x2=\"352\" y2=\"110.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"45\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#203746\">30</text><line x1=\"52\" y1=\"90.0\" x2=\"352\" y2=\"90.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"70.0\" x2=\"352\" y2=\"70.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"45\" y=\"74.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#203746\">40</text><line x1=\"52\" y1=\"50.0\" x2=\"352\" y2=\"50.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"30.0\" x2=\"352\" y2=\"30.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"45\" y=\"34.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#203746\">50</text><line x1=\"52\" y1=\"230\" x2=\"52\" y2=\"30.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"52\" y=\"247\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#203746\">0</text><line x1=\"112\" y1=\"230\" x2=\"112\" y2=\"30.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"112\" y=\"247\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#203746\">1</text><line x1=\"172\" y1=\"230\" x2=\"172\" y2=\"30.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"172\" y=\"247\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#203746\">2</text><line x1=\"232\" y1=\"230\" x2=\"232\" y2=\"30.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"232\" y=\"247\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#203746\">3</text><line x1=\"292\" y1=\"230\" x2=\"292\" y2=\"30.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"292\" y=\"247\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#203746\">4</text><line x1=\"352\" y1=\"230\" x2=\"352\" y2=\"30.0\" stroke=\"#dfe7ef\" stroke-width=\"1\"/><text x=\"352\" y=\"247\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#203746\">5</text><line x1=\"52\" y1=\"230\" x2=\"366\" y2=\"230\" stroke=\"#203746\" stroke-width=\"1.6\"/><polygon points=\"372,230 362,225 362,235\" fill=\"#203746\"/><line x1=\"52\" y1=\"230\" x2=\"52\" y2=\"18.0\" stroke=\"#203746\" stroke-width=\"1.6\"/><polygon points=\"52,12.0 47,22.0 57,22.0\" fill=\"#203746\"/><text x=\"60\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#203746\">h (cm)</text><text x=\"356\" y=\"221\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#203746\">v (vecka)</text><circle cx=\"112\" cy=\"190.0\" r=\"6\" fill=\"#2f8f4e\" stroke=\"#1d5e33\" stroke-width=\"1.5\"/><circle cx=\"172\" cy=\"150.0\" r=\"6\" fill=\"#2f8f4e\" stroke=\"#1d5e33\" stroke-width=\"1.5\"/><circle cx=\"232\" cy=\"90.0\" r=\"6\" fill=\"#2f8f4e\" stroke=\"#1d5e33\" stroke-width=\"1.5\"/><circle cx=\"292\" cy=\"50.0\" r=\"6\" fill=\"#2f8f4e\" stroke=\"#1d5e33\" stroke-width=\"1.5\"/><g transform=\"translate(338,30)\"><line x1=\"0\" y1=\"10\" x2=\"0\" y2=\"46\" stroke=\"#2f8f4e\" stroke-width=\"3\"/><ellipse cx=\"-8\" cy=\"32\" rx=\"8\" ry=\"3.5\" fill=\"#4caf63\" transform=\"rotate(-25 -8 32)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(0)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(30)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(60)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(90)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(120)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(150)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(180)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(210)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(240)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(270)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(300)\"/><ellipse cx=\"0\" cy=\"-9\" rx=\"4\" ry=\"9\" fill=\"#f2c230\" transform=\"rotate(330)\"/><circle r=\"7\" fill=\"#7a4b1e\"/></g></svg></span><p>Hur mycket växer plantan från vecka 1 till vecka 3?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av \\(h(1)\\) och \\(h(3)\\) i grafen</p><div class=\"facit-matte\">\\[h(1)=10,\\qquad h(3)=35\\]</div></li><li><p class=\"facit-rubrik\">Tillväxten är skillnaden \\(h(3)-h(1)\\)</p><div class=\"facit-matte\">\\[35-10=25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 cm</p></div>",
     "familj": "Tolka och jämföra funktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 16,
+    "rättSvar": 25,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs av de tre givna funktionsvärdena och addera dem.</p>",
+    "ledtrad": "<p>Vilken höjd har plantan vecka 1, och vilken har den vecka 3?</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": false,
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Diskreta och kontinuerliga funktioner"
-    ]
+    ],
+    "svarEnhet": "cm"
   },
   {
     "id": "1.547",
@@ -92959,19 +92960,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En diskret funktion har värdena \\(f(1)=3\\), \\(f(2)=7\\) och \\(f(3)=8\\). Bestäm \\(f(1)+f(2)+f(3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt varje funktionsvärde med sitt tal</p><div class=\"facit-matte\">\\[f(1)+f(2)+f(3)=3+7+8\\]</div></li><li><p class=\"facit-rubrik\">Tio plus åtta</p><div class=\"facit-matte\">\\[3+7+8=10+8=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18</p></div>",
+    "t": "<p>Priset för en bussbiljett beror på hur många zoner man reser. Funktionen \\(k(n)\\) anger priset i kronor för \\(n\\) zoner.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><tr><th>\\(n\\)</th><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><th>\\(k(n)\\)</th><td>25</td><td>38</td><td>48</td><td>55</td></tr></table><p>Nora betalar 48 kr för sin biljett. Hur många zoner reser hon?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sök det \\(n\\) som ger \\(k(n)=48\\)</p><p>Nu är funktionsvärdet känt, och det är \\(n\\) som söks. Leta upp 48 på raden \\(k(n)\\).</p><div class=\"facit-matte\">\\[k(3)=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 zoner</p></div>",
     "familj": "Tolka och jämföra funktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 18,
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs av de tre givna funktionsvärdena och addera dem.</p>",
+    "ledtrad": "<p>Här vet du priset. Leta i tabellen efter det värde på \\(n\\) som ger det priset.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": false,
@@ -92990,26 +92991,27 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En diskret funktion har värdena \\(f(1)=2\\), \\(f(2)=6\\) och \\(f(3)=8\\). Bestäm \\(f(1)+f(2)+f(3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av värdena för \\(x=1,\\ 2,\\ 3\\)</p><p>Funktionen ger 2, 6 och 8.</p></li><li><p class=\"facit-rubrik\">Lägg ihop dem</p><div class=\"facit-matte\">\\[2+6+8=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
+    "t": "<p>Två bowlinghallar tar betalt på olika sätt. I hall A betalar man 60 kr för skor och 45 kr per serie. I hall B ingår skorna, och varje serie kostar 70 kr. Kostnaden i kronor för \\(n\\) serier är</p><p>\\(A(n)=60+45n\\) och \\(B(n)=70n\\).</p><p>Hur mycket dyrare är hall B än hall A för den som spelar 4 serier?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(n=4\\) i båda funktionerna</p><div class=\"facit-matte\">\\[\\begin{aligned}&A(4)=60+45\\cdot4=240\\\\&B(4)=70\\cdot4=280\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden är \\(B(4)-A(4)\\)</p><div class=\"facit-matte\">\\[280-240=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 kr</p></div>",
     "familj": "Tolka och jämföra funktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 16,
+    "rättSvar": 40,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs av de tre givna funktionsvärdena och addera dem.</p>",
+    "ledtrad": "<p>Räkna ut vad 4 serier kostar i varje hall och jämför.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": false,
     "svarFormat": "numeriskt",
     "familjTidigare": [
       "Diskret funktionsgraf"
-    ]
+    ],
+    "svarEnhet": "kr"
   },
   {
     "id": "3.1068",

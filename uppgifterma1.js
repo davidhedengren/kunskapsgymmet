@@ -47023,7 +47023,7 @@ window.BANKMA1 = [
         "c) värdemängd"
       ]
     ],
-    "ledtrad": "<p>Förenkla först intäktsuttrycket. I del c: antal personer är heltal, så mängderna är diskreta — inte hela intervall.</p>",
+    "ledtrad": "<p>Förenkla först intäktsuttrycket. I del c: antal personer är heltal, så mängderna består bara av heltal och är inte hela intervall.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -47035,7 +47035,7 @@ window.BANKMA1 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(280-x\\) är antalet ungdomar.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Förenkla först intäktsuttrycket. I del c: antal personer är heltal, så mängderna är diskreta — inte hela intervall.</p>",
+        "ledtrad": "<p>Förenkla först intäktsuttrycket. I del c: antal personer är heltal, så mängderna består bara av heltal och är inte hela intervall.</p>",
         "traningsniva": 4,
         "arbetsinsats": 2
       },
@@ -47045,7 +47045,7 @@ window.BANKMA1 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I(x)=70x+30\\,800\\].</div></li><li><p>Villkoret \\(I(x)\\ge45\\,000\\) ger \\(70x\\ge14\\,200\\), alltså \\(x\\ge202{,}857\\ldots\\).</p></li><li><p>Eftersom \\(x\\) är ett heltal krävs minst <strong>203 vuxna</strong>.</p></li></ol></div>",
         "niva": "C",
         "poang": "0/1/0",
-        "ledtrad": "<p>Förenkla först intäktsuttrycket. I del c: antal personer är heltal, så mängderna är diskreta — inte hela intervall.</p>",
+        "ledtrad": "<p>Förenkla först intäktsuttrycket. I del c: antal personer är heltal, så mängderna består bara av heltal och är inte hela intervall.</p>",
         "traningsniva": 4,
         "arbetsinsats": 2
       },
@@ -47055,7 +47055,7 @@ window.BANKMA1 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exakt definitionsmängd är \\(x\\in\\{0,1,2,\\ldots,280\\}\\).</p></li><li><p>Intäkten ökar med 70 kr per extra vuxen, så värdemängden är \\(\\{30\\,800,30\\,870,30\\,940,\\ldots,50\\,400\\}\\) kr.</p></li></ol></div>",
         "niva": "C",
         "poang": "0/1/0",
-        "ledtrad": "<p>Förenkla först intäktsuttrycket. I del c: antal personer är heltal, så mängderna är diskreta — inte hela intervall.</p>",
+        "ledtrad": "<p>Förenkla först intäktsuttrycket. I del c: antal personer är heltal, så mängderna består bara av heltal och är inte hela intervall.</p>",
         "traningsniva": 4,
         "arbetsinsats": 2
       }

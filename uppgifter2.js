@@ -10820,7 +10820,8 @@ window.BANK2 = [
       },
       {
         "txt": "Försvagat (minimum)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Vägskillnaden delat med våglängden är 0,50/0,50 = 1, ett heltal. Vågorna förstärker varandra."
       }
     ]
   },
@@ -11520,15 +11521,18 @@ window.BANK2 = [
       },
       {
         "txt": "Amplituden blir noll",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Två toppar som sammanfaller ger en dubbelt så hög topp, inte noll."
       },
       {
         "txt": "Amplituden är oförändrad",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "När två toppar sammanfaller adderas de."
       },
       {
         "txt": "Amplituden halveras",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "När två toppar sammanfaller adderas de, så amplituden blir större."
       }
     ]
   },
@@ -11565,7 +11569,8 @@ window.BANK2 = [
       },
       {
         "txt": "Destruktiv",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Vägskillnaden delat med våglängden är 0,80/0,40 = 2, ett heltal. Vågorna förstärker varandra."
       }
     ]
   },
@@ -11602,7 +11607,8 @@ window.BANK2 = [
       },
       {
         "txt": "Konstruktiv",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Vägskillnaden delat med våglängden är 0,25/0,50 = 0,5, alltså en halv våglängd extra. Vågorna släcker ut varandra."
       }
     ]
   },
@@ -11691,7 +11697,8 @@ window.BANK2 = [
       },
       {
         "txt": "Maximum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Vägskillnaden delat med våglängden är 0,90/0,60 = 1,5, alltså en halv våglängd extra. Vågorna släcker ut varandra."
       }
     ]
   },
@@ -12689,15 +12696,18 @@ window.BANK2 = [
       },
       {
         "txt": "Vägskillnaden är 0. I fas hörs ett minimum, i motfas ett maximum.",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Det är omvänt. I fas och med samma väg möts topp mot topp, så det blir maximum."
       },
       {
         "txt": "Vägskillnaden är en halv våglängd. I fas hörs ett minimum.",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "C ligger mitt emellan högtalarna, så vägskillnaden är 0."
       },
       {
         "txt": "Vägskillnaden är 0. Maximum hörs i båda fallen.",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "I motfas möts topp mot dal när vägskillnaden är 0. Det ger ett minimum."
       }
     ]
   },
@@ -12734,7 +12744,8 @@ window.BANK2 = [
       },
       {
         "txt": "Interferensminimum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Vägskillnaden delat med våglängden är 0,8/0,80 = 1, ett heltal. Vågorna förstärker varandra."
       }
     ]
   },
@@ -12953,7 +12964,8 @@ window.BANK2 = [
       },
       {
         "txt": "Förstärkt, P ligger i ett maximum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Vägskillnaden delat med våglängden är 0,75/0,50 = 1,5, alltså en halv våglängd extra. Vågorna släcker ut varandra."
       }
     ]
   },
@@ -13447,7 +13459,8 @@ window.BANK2 = [
       },
       {
         "txt": "Maximum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Vägskillnaden är \\(\\sqrt8-\\sqrt5\\approx0{,}59\\) m, ungefär en halv våglängd. Det ger ett minimum."
       }
     ]
   },
@@ -13484,7 +13497,8 @@ window.BANK2 = [
       },
       {
         "txt": "Svagt, P ligger i ett minimum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Vägskillnaden är ungefär 0,46 m, och våglängden är 340/735 ≈ 0,46 m. En hel våglängd ger ett maximum."
       }
     ]
   },
@@ -13521,7 +13535,8 @@ window.BANK2 = [
       },
       {
         "txt": "Maximum",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Vägskillnaden är ungefär 0,76 m, och våglängden är 340/223 ≈ 1,52 m. En halv våglängd ger ett minimum."
       }
     ]
   },
@@ -17073,7 +17088,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.146",
@@ -17102,7 +17117,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.147",
@@ -17130,7 +17145,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.148",
@@ -17158,7 +17173,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.149",
@@ -17186,7 +17201,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.150",
@@ -17214,7 +17229,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.151",
@@ -17242,7 +17257,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.152",
@@ -17270,7 +17285,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.153",
@@ -17298,7 +17313,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.154",
@@ -17326,7 +17341,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.155",
@@ -17354,7 +17369,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.156",
@@ -17382,7 +17397,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.157",
@@ -17410,7 +17425,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.158",
@@ -17439,7 +17454,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.159",
@@ -17467,7 +17482,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen ut ur pappret går fältet moturs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.160",
@@ -17495,7 +17510,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: magnetfält kring rak ledare"
     ],
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Det är motsatt riktning. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Fältet går runt ledaren, inte mot den eller bort från den. Med strömmen in i pappret går fältet medurs runt ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet går i cirklar runt ledaren i pappersplanet. Det pekar inte in i eller ut ur pappret."}]
   },
   {
     "id": "3.309",
@@ -17984,7 +17999,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}]
   },
   {
     "id": "3.162",
@@ -18009,7 +18024,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}]
   },
   {
     "id": "3.163",
@@ -18034,7 +18049,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}]
   },
   {
     "id": "3.164",
@@ -18059,7 +18074,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}]
   },
   {
     "id": "3.165",
@@ -18084,7 +18099,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}]
   },
   {
     "id": "3.166",
@@ -18109,7 +18124,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}]
   },
   {
     "id": "3.167",
@@ -18134,7 +18149,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}]
   },
   {
     "id": "3.168",
@@ -18160,7 +18175,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}]
   },
   {
     "id": "3.169",
@@ -18185,7 +18200,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": true}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "ut ur pappret", "ratt": true}]
   },
   {
     "id": "3.170",
@@ -18210,7 +18225,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": true}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "ut ur pappret", "ratt": true}]
   },
   {
     "id": "3.171",
@@ -18235,7 +18250,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": true}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "ut ur pappret", "ratt": true}]
   },
   {
     "id": "3.172",
@@ -18260,7 +18275,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på ledare i magnetfält"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": true}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet, så den kan inte peka längs fältet."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot strömmen, så den kan inte peka längs ledaren."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "ut ur pappret", "ratt": true}]
   },
   {
     "kap": 3,
@@ -18579,7 +18594,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor för spolar och strömslingor"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": true}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "vänster", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "uppåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "nedåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Moturs ström ger ett fält ut ur pappret i mitten."}, {"txt": "ut ur pappret", "ratt": true}]
   },
   {
     "id": "3.186",
@@ -18608,7 +18623,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor för spolar och strömslingor"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": true}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "vänster", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "uppåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "nedåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "in i pappret", "ratt": true}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Medurs ström ger ett fält in i pappret i mitten."}]
   },
   {
     "id": "3.187",
@@ -18637,7 +18652,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor för spolar och strömslingor"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": true}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "vänster", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "uppåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "nedåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Moturs ström ger ett fält ut ur pappret i mitten."}, {"txt": "ut ur pappret", "ratt": true}]
   },
   {
     "id": "3.188",
@@ -18666,7 +18681,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor för spolar och strömslingor"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": true}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "vänster", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "uppåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "nedåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "in i pappret", "ratt": true}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Medurs ström ger ett fält in i pappret i mitten."}]
   },
   {
     "id": "3.189",
@@ -18696,7 +18711,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor för spolar och strömslingor"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": true}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "vänster", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "uppåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "nedåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Moturs ström ger ett fält ut ur pappret i mitten."}, {"txt": "ut ur pappret", "ratt": true}]
   },
   {
     "id": "3.190",
@@ -18725,7 +18740,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor för spolar och strömslingor"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": true}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "vänster", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "uppåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "nedåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "in i pappret", "ratt": true}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Medurs ström ger ett fält in i pappret i mitten."}]
   },
   {
     "id": "3.191",
@@ -18754,7 +18769,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor för spolar och strömslingor"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": true}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "vänster", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "uppåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "nedåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Moturs ström ger ett fält ut ur pappret i mitten."}, {"txt": "ut ur pappret", "ratt": true}]
   },
   {
     "id": "3.192",
@@ -18783,7 +18798,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor för spolar och strömslingor"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": true}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "vänster", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "uppåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "nedåt", "ratt": false, "kommentar": "I mitten av slingan är fältet vinkelrätt mot slingans plan, alltså in i eller ut ur pappret."}, {"txt": "in i pappret", "ratt": true}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Medurs ström ger ett fält in i pappret i mitten."}]
   },
   {
     "id": "3.209",
@@ -22668,7 +22683,8 @@ window.BANK2 = [
       },
       {
         "txt": "Bara antalet stjärnor avgör, eftersom stjärnorna bromsar expansionen.",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Stjärnorna är en liten del av universums energiinnehåll och avgör inte ensamma."
       },
       {
         "txt": "Mörk energi drar ihop universum, så mer mörk energi ger en kontraktion.",
@@ -22677,7 +22693,8 @@ window.BANK2 = [
       },
       {
         "txt": "Universums framtid är redan bestämd och beror inte på energiinnehållet.",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Framtiden beror på hur mörk energi och materia påverkar expansionen."
       }
     ]
   },
@@ -31224,7 +31241,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Jordens magnetfält och kompass"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Fältlinjerna går ut från nordpolen. Till vänster om N pekar fältet därför åt vänster."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "nedåt", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Fältet ligger i pappersplanet här."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Fältet ligger i pappersplanet här."}]
   },
   {
     "id": "3.230",
@@ -31255,7 +31272,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Fältlinjerna går in i sydpolen. Till höger om S pekar fältet därför åt vänster, mot S."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "nedåt", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.231",
@@ -31286,7 +31303,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Utanför magneten går fältlinjerna från N till S. Vid magnetens mitt pekar fältet därför från N mot S."}, {"txt": "uppåt", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "nedåt", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.232",
@@ -31317,7 +31334,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Utanför magneten går fältlinjerna från N till S. Vid magnetens mitt pekar fältet därför från N mot S."}, {"txt": "uppåt", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "nedåt", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.233",
@@ -31348,7 +31365,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Fältlinjerna går in i sydpolen, så bortom S pekar fältet mot magneten."}, {"txt": "uppåt", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "nedåt", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.234",
@@ -31379,7 +31396,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Fältlinjerna går ut från nordpolen, så bortom N pekar fältet bort från magneten."}, {"txt": "uppåt", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "nedåt", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.235",
@@ -31410,7 +31427,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Utanför magneten går fältlinjerna från N till S. Vid magnetens mitt pekar fältet därför från N mot S."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "nedåt", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.236",
@@ -31441,7 +31458,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Utanför magneten går fältlinjerna från N till S. Vid magnetens mitt pekar fältet därför från N mot S."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "nedåt", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.237",
@@ -31472,7 +31489,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "vänster", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Fältlinjerna går ut från nordpolen, så bortom N pekar fältet bort från magneten."}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.238",
@@ -31503,7 +31520,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "vänster", "ratt": false, "kommentar": "P ligger på magnetens axel, så fältet pekar längs axeln."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Fältlinjerna går in i sydpolen, så bortom S pekar fältet mot magneten."}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.239",
@@ -31534,7 +31551,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "vänster", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "uppåt", "ratt": false, "kommentar": "Utanför magneten går fältlinjerna från N till S. Vid magnetens mitt pekar fältet därför från N mot S."}, {"txt": "nedåt", "ratt": true}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.240",
@@ -31565,7 +31582,7 @@ window.BANK2 = [
     "geogebra": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "vänster", "ratt": false, "kommentar": "Vid magnetens mitt är fältet parallellt med magneten, inte riktat mot den eller bort från den."}, {"txt": "uppåt", "ratt": false, "kommentar": "Utanför magneten går fältlinjerna från N till S. Vid magnetens mitt pekar fältet därför från N mot S."}, {"txt": "nedåt", "ratt": true}, {"txt": "in i bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}, {"txt": "ut ur bilden", "ratt": false, "kommentar": "Kompassen ligger i bildens plan och pekar längs fältet där."}]
   },
   {
     "id": "3.308",
@@ -33816,7 +33833,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}]
   },
   {
     "id": "3.174",
@@ -33841,7 +33858,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}]
   },
   {
     "id": "3.175",
@@ -33866,7 +33883,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "nedåt", "ratt": true}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}]
   },
   {
     "id": "3.176",
@@ -33891,7 +33908,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}]
   },
   {
     "id": "3.177",
@@ -33916,7 +33933,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Det är riktningen för en positiv laddning. För en negativ laddning blir kraften motsatt."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}]
   },
   {
     "id": "3.178",
@@ -33941,7 +33958,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Det är riktningen för en positiv laddning. För en negativ laddning blir kraften motsatt."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}]
   },
   {
     "id": "3.179",
@@ -33966,7 +33983,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Det är riktningen för en positiv laddning. För en negativ laddning blir kraften motsatt."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}]
   },
   {
     "id": "3.180",
@@ -33991,7 +34008,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Det är riktningen för en positiv laddning. För en negativ laddning blir kraften motsatt."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}]
   },
   {
     "id": "3.181",
@@ -34016,7 +34033,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}]
   },
   {
     "id": "3.182",
@@ -34041,7 +34058,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": false}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Det är riktningen för en positiv laddning. För en negativ laddning blir kraften motsatt."}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "ut ur pappret", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}]
   },
   {
     "id": "3.183",
@@ -34066,7 +34083,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": true}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Kraften pekar åt motsatt håll. Kontrollera med högerhandsregeln."}, {"txt": "ut ur pappret", "ratt": true}]
   },
   {
     "id": "3.184",
@@ -34091,7 +34108,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Riktningsfrågor: kraft på laddad partikel"
     ],
-    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i pappret", "ratt": false}, {"txt": "ut ur pappret", "ratt": true}]
+    "alternativ": [{"txt": "höger", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "vänster", "ratt": false, "kommentar": "Kraften är vinkelrät mot magnetfältet."}, {"txt": "uppåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "nedåt", "ratt": false, "kommentar": "Kraften är vinkelrät mot rörelseriktningen."}, {"txt": "in i pappret", "ratt": false, "kommentar": "Det är riktningen för en positiv laddning. För en negativ laddning blir kraften motsatt."}, {"txt": "ut ur pappret", "ratt": true}]
   },
   {
     "kap": 3,
@@ -35100,7 +35117,8 @@ window.BANK2 = [
       },
       {
         "txt": "Båda betyder att universum fryser till is.",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Big Crunch är en kollaps. Bara Big Freeze handlar om ett kallt universum."
       },
       {
         "txt": "Big Freeze betyder att expansionen stannar helt och universum står still för alltid.",
@@ -41327,7 +41345,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Snells lag och brytning"
     ],
-    "alternativ": [{"txt": "Totalreflektion sker.", "ratt": true}, {"txt": "Strålen går rakt fram.", "ratt": false}, {"txt": "Strålen bryts mot normalen.", "ratt": false}, {"txt": "Ljuset stannar i gränsytan.", "ratt": false}]
+    "alternativ": [{"txt": "Totalreflektion sker.", "ratt": true}, {"txt": "Strålen går rakt fram.", "ratt": false, "kommentar": "Strålen går bara rakt fram när den träffar ytan vinkelrätt."}, {"txt": "Strålen bryts mot normalen.", "ratt": false, "kommentar": "Vid en vinkel större än gränsvinkeln går ingen stråle ut i luften alls."}, {"txt": "Ljuset stannar i gränsytan.", "ratt": false, "kommentar": "Ljuset stannar inte. Det reflekteras tillbaka in i glaset."}]
   },
   {
     "id": "4.308",
@@ -41470,7 +41488,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Bohrs atommodell"
     ],
-    "alternativ": [{"txt": "\\(n=3\\to2\\)", "ratt": false}, {"txt": "\\(n=4\\to3\\)", "ratt": false}, {"txt": "\\(n=2\\to1\\)", "ratt": true}, {"txt": "\\(n=5\\to4\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(n=3\\to2\\)", "ratt": false, "kommentar": "Övergångar till n = 1 ger störst energi, eftersom de lägsta nivåerna ligger längst ifrån varandra."}, {"txt": "\\(n=4\\to3\\)", "ratt": false, "kommentar": "Övergångar till n = 1 ger störst energi, eftersom de lägsta nivåerna ligger längst ifrån varandra."}, {"txt": "\\(n=2\\to1\\)", "ratt": true}, {"txt": "\\(n=5\\to4\\)", "ratt": false, "kommentar": "Övergångar till n = 1 ger störst energi, eftersom de lägsta nivåerna ligger längst ifrån varandra."}]
   },
   {
     "id": "4.314",
@@ -41543,7 +41561,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Elektromagnetiska vågor och spektrum"
     ],
-    "alternativ": [{"txt": "mikrovåg – radio – synligt – infrarött – ultraviolett", "ratt": false}, {"txt": "ultraviolett – synligt – infrarött – mikrovåg – radio", "ratt": false}, {"txt": "radio – infrarött – mikrovåg – synligt – ultraviolett", "ratt": false}, {"txt": "radio – mikrovåg – infrarött – synligt – ultraviolett", "ratt": true}]
+    "alternativ": [{"txt": "mikrovåg – radio – synligt – infrarött – ultraviolett", "ratt": false, "kommentar": "Radiovågor har lägst frekvens, och infrarött ligger före synligt ljus."}, {"txt": "ultraviolett – synligt – infrarött – mikrovåg – radio", "ratt": false, "kommentar": "Ordningen är omvänd, från högst till lägst frekvens."}, {"txt": "radio – infrarött – mikrovåg – synligt – ultraviolett", "ratt": false, "kommentar": "Mikrovågor har lägre frekvens än infrarött."}, {"txt": "radio – mikrovåg – infrarött – synligt – ultraviolett", "ratt": true}]
   },
   {
   "id": "4.317",
@@ -41795,7 +41813,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Magnetfält i spole"
     ],
-    "alternativ": [{"txt": "Halveras", "ratt": false}, {"txt": "Fördubblas", "ratt": false}, {"txt": "Oförändrat", "ratt": true}, {"txt": "Fyrdubblas", "ratt": false}]
+    "alternativ": [{"txt": "Halveras", "ratt": false, "kommentar": "Fler varv ökar fältet, och det tar ut halveringen av strömmen."}, {"txt": "Fördubblas", "ratt": false, "kommentar": "Strömmen halveras samtidigt som antalet varv fördubblas."}, {"txt": "Oförändrat", "ratt": true}, {"txt": "Fyrdubblas", "ratt": false, "kommentar": "Fältet är proportionellt mot antalet varv gånger strömmen: 2 · 0,5 = 1."}]
   },
   {
     "id": "3.303",
@@ -41887,7 +41905,7 @@ window.BANK2 = [
     "familjTidigare": [
       "Infraljud, ultraljud och dopplereffekt"
     ],
-    "alternativ": [{"txt": "Infraljud", "ratt": true}, {"txt": "Hörbart ljud", "ratt": false}, {"txt": "Ultraljud", "ratt": false}, {"txt": "Elektromagnetisk strålning", "ratt": false}]
+    "alternativ": [{"txt": "Infraljud", "ratt": true}, {"txt": "Hörbart ljud", "ratt": false, "kommentar": "Människan hör ungefär 20–20 000 Hz, så 15 Hz är för lågt."}, {"txt": "Ultraljud", "ratt": false, "kommentar": "Ultraljud har frekvenser över 20 000 Hz."}, {"txt": "Elektromagnetisk strålning", "ratt": false, "kommentar": "Ljud är mekaniska vågor, inte elektromagnetisk strålning."}]
   },
   {
     "kap": 2,
@@ -43577,7 +43595,7 @@ window.BANK2 = [
       "Universums framtida utveckling"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Expansionen bromsar in mot stillastående", "ratt": false}, {"txt": "Expansionen fortsätter och avlägsna galaxer blir allt mer isolerade", "ratt": true}, {"txt": "Alla galaxer börjar snart falla mot Vintergatan", "ratt": false}, {"txt": "Universum har redan slutat expandera", "ratt": false}]
+    "alternativ": [{"txt": "Expansionen bromsar in mot stillastående", "ratt": false, "kommentar": "Expansionen accelererar, den bromsar inte in."}, {"txt": "Expansionen fortsätter och avlägsna galaxer blir allt mer isolerade", "ratt": true}, {"txt": "Alla galaxer börjar snart falla mot Vintergatan", "ratt": false, "kommentar": "Galaxerna rör sig bort från varandra, inte mot oss."}, {"txt": "Universum har redan slutat expandera", "ratt": false, "kommentar": "Universum expanderar fortfarande."}]
   },
   {
     "id": "5.302",
@@ -43604,7 +43622,7 @@ window.BANK2 = [
       "Universums framtida utveckling"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Den minskar", "ratt": true}, {"txt": "Den är exakt konstant", "ratt": false}, {"txt": "Den ökar", "ratt": false}, {"txt": "Den blir alltid noll direkt", "ratt": false}]
+    "alternativ": [{"txt": "Den minskar", "ratt": true}, {"txt": "Den är exakt konstant", "ratt": false, "kommentar": "Massan är densamma men volymen växer, så tätheten minskar."}, {"txt": "Den ökar", "ratt": false, "kommentar": "Massan är densamma men volymen växer, så tätheten minskar."}, {"txt": "Den blir alltid noll direkt", "ratt": false, "kommentar": "Tätheten minskar gradvis, den blir inte noll direkt."}]
   },
   {
     "id": "5.303",
@@ -43631,7 +43649,7 @@ window.BANK2 = [
       "Universums framtida utveckling"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Big Crunch", "ratt": false}, {"txt": "Big Freeze", "ratt": true}, {"txt": "Big Bang", "ratt": false}, {"txt": "Solvind", "ratt": false}]
+    "alternativ": [{"txt": "Big Crunch", "ratt": false, "kommentar": "Big Crunch är en kollaps."}, {"txt": "Big Freeze", "ratt": true}, {"txt": "Big Bang", "ratt": false, "kommentar": "Big Bang beskriver universums början."}, {"txt": "Solvind", "ratt": false, "kommentar": "Solvind är partiklar som strömmar från solen."}]
   },
   {
     "id": "5.304",
@@ -43658,7 +43676,7 @@ window.BANK2 = [
       "Universums framtida utveckling"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Att alla stjärnor blir blå", "ratt": false}, {"txt": "Att ljushastigheten minskar", "ratt": false}, {"txt": "Att expansionen någon gång vänder till kontraktion", "ratt": true}, {"txt": "Att Hubbles konstant blir exakt 70 för alltid", "ratt": false}]
+    "alternativ": [{"txt": "Att alla stjärnor blir blå", "ratt": false, "kommentar": "Stjärnornas färg avgör inte universums framtid."}, {"txt": "Att ljushastigheten minskar", "ratt": false, "kommentar": "Ljusets hastighet är konstant."}, {"txt": "Att expansionen någon gång vänder till kontraktion", "ratt": true}, {"txt": "Att Hubbles konstant blir exakt 70 för alltid", "ratt": false, "kommentar": "Värdet på Hubbles konstant i dag avgör inte om expansionen vänder."}]
   },
   {
     "id": "5.305",
@@ -43685,7 +43703,7 @@ window.BANK2 = [
       "Universums framtida utveckling"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Den bestämmer ljusets färg", "ratt": false}, {"txt": "Den påverkar bara planetsystem", "ratt": false}, {"txt": "Den finns endast inne i stjärnor", "ratt": false}, {"txt": "Dess egenskaper påverkar hur expansionen förändras med tiden", "ratt": true}]
+    "alternativ": [{"txt": "Den bestämmer ljusets färg", "ratt": false, "kommentar": "Mörk energi påverkar inte ljusets färg."}, {"txt": "Den påverkar bara planetsystem", "ratt": false, "kommentar": "Mörk energi märks på mycket stora avstånd, inte i planetsystem."}, {"txt": "Den finns endast inne i stjärnor", "ratt": false, "kommentar": "Mörk energi finns i hela rymden."}, {"txt": "Dess egenskaper påverkar hur expansionen förändras med tiden", "ratt": true}]
   },
   {
     "id": "5.306",
@@ -43712,7 +43730,7 @@ window.BANK2 = [
       "Universums framtida utveckling"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Det ökar", "ratt": true}, {"txt": "Det minskar alltid", "ratt": false}, {"txt": "Det blir exakt noll", "ratt": false}, {"txt": "Det påverkas inte av expansionen", "ratt": false}]
+    "alternativ": [{"txt": "Det ökar", "ratt": true}, {"txt": "Det minskar alltid", "ratt": false, "kommentar": "Galaxgrupper som inte hålls ihop av gravitationen glider isär när universum expanderar."}, {"txt": "Det blir exakt noll", "ratt": false, "kommentar": "Avståndet ökar när universum expanderar."}, {"txt": "Det påverkas inte av expansionen", "ratt": false, "kommentar": "Galaxgrupper som inte hålls ihop av gravitationen följer med expansionen."}]
   },
   {
     "id": "5.307",
@@ -43739,7 +43757,7 @@ window.BANK2 = [
       "Universums framtida utveckling"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Att universum blir varmare utan gräns", "ratt": false}, {"txt": "Att användbara energiskillnader gradvis försvinner", "ratt": true}, {"txt": "Att alla atomer omedelbart sönderfaller", "ratt": false}, {"txt": "Att gravitation upphör", "ratt": false}]
+    "alternativ": [{"txt": "Att universum blir varmare utan gräns", "ratt": false, "kommentar": "Universum blir kallare, inte varmare."}, {"txt": "Att användbara energiskillnader gradvis försvinner", "ratt": true}, {"txt": "Att alla atomer omedelbart sönderfaller", "ratt": false, "kommentar": "Det handlar om en mycket långsam utveckling."}, {"txt": "Att gravitation upphör", "ratt": false, "kommentar": "Gravitationen finns kvar."}]
   },
   {
     "id": "5.308",
@@ -43766,7 +43784,7 @@ window.BANK2 = [
       "Universums framtida utveckling"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Universums framtid avgörs enbart av geometrisk krökning", "ratt": false}, {"txt": "Endast antalet stjärnor spelar roll", "ratt": false}, {"txt": "Både materieinnehåll och mörk energis egenskaper spelar roll", "ratt": true}, {"txt": "Framtiden kan bestämmas från en enda galax", "ratt": false}]
+    "alternativ": [{"txt": "Universums framtid avgörs enbart av geometrisk krökning", "ratt": false, "kommentar": "Krökningen är inte ensam avgörande. Mörk energi spelar stor roll."}, {"txt": "Endast antalet stjärnor spelar roll", "ratt": false, "kommentar": "Stjärnorna är en liten del av universums innehåll."}, {"txt": "Både materieinnehåll och mörk energis egenskaper spelar roll", "ratt": true}, {"txt": "Framtiden kan bestämmas från en enda galax", "ratt": false, "kommentar": "En enda galax säger för lite om hela universum."}]
   },
   {
     "id": "5.309",
@@ -43790,7 +43808,7 @@ window.BANK2 = [
       "Stjärnors utveckling och HR-diagram"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Pulsar direkt", "ratt": false}, {"txt": "Neutronstjärna", "ratt": false}, {"txt": "Svart hål", "ratt": false}, {"txt": "Vit dvärg", "ratt": true}]
+    "alternativ": [{"txt": "Pulsar direkt", "ratt": false, "kommentar": "Pulsarer bildas av mycket tyngre stjärnor."}, {"txt": "Neutronstjärna", "ratt": false, "kommentar": "Neutronstjärnor bildas av mycket tyngre stjärnor."}, {"txt": "Svart hål", "ratt": false, "kommentar": "Svarta hål bildas av de allra tyngsta stjärnorna."}, {"txt": "Vit dvärg", "ratt": true}]
   },
   {
     "id": "5.310",
@@ -43814,7 +43832,7 @@ window.BANK2 = [
       "Stjärnors utveckling och HR-diagram"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Den övergår direkt till en vit dvärg utan kraftig explosion", "ratt": false}, {"txt": "Den blir alltid en planet", "ratt": false}, {"txt": "Supernova", "ratt": true}, {"txt": "Den slutar fusionera efter en dag", "ratt": false}]
+    "alternativ": [{"txt": "Den övergår direkt till en vit dvärg utan kraftig explosion", "ratt": false, "kommentar": "Mycket massiva stjärnor exploderar som supernovor."}, {"txt": "Den blir alltid en planet", "ratt": false, "kommentar": "En stjärna blir aldrig en planet."}, {"txt": "Supernova", "ratt": true}, {"txt": "Den slutar fusionera efter en dag", "ratt": false, "kommentar": "Fusionen pågår i miljoner år, inte en dag."}]
   },
   {
     "id": "5.311",
@@ -43841,7 +43859,7 @@ window.BANK2 = [
       "Stjärnors utveckling och HR-diagram"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Den visas inte", "ratt": false}, {"txt": "Åt höger", "ratt": false}, {"txt": "Nedåt", "ratt": false}, {"txt": "Åt vänster", "ratt": true}]
+    "alternativ": [{"txt": "Den visas inte", "ratt": false, "kommentar": "Temperaturen visas på den vågräta axeln."}, {"txt": "Åt höger", "ratt": false, "kommentar": "Temperaturen minskar åt höger."}, {"txt": "Nedåt", "ratt": false, "kommentar": "Den lodräta axeln visar luminositeten."}, {"txt": "Åt vänster", "ratt": true}]
   },
   {
     "id": "5.312",
@@ -43868,7 +43886,7 @@ window.BANK2 = [
       "Stjärnors utveckling och HR-diagram"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Den måste vara stor", "ratt": true}, {"txt": "Den måste vara mindre än jorden", "ratt": false}, {"txt": "Radien är alltid noll", "ratt": false}, {"txt": "Luminositet säger inget alls", "ratt": false}]
+    "alternativ": [{"txt": "Den måste vara stor", "ratt": true}, {"txt": "Den måste vara mindre än jorden", "ratt": false, "kommentar": "En sval och liten stjärna skulle vara ljussvag."}, {"txt": "Radien är alltid noll", "ratt": false, "kommentar": "En stjärna har alltid en radie."}, {"txt": "Luminositet säger inget alls", "ratt": false, "kommentar": "Luminositeten beror på både temperatur och radie."}]
   },
   {
     "id": "5.313",
@@ -43895,7 +43913,7 @@ window.BANK2 = [
       "Stjärnors utveckling och HR-diagram"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Den saknar all massa", "ratt": false}, {"txt": "Den har mycket liten radie", "ratt": true}, {"txt": "Den ligger alltid bakom stoft", "ratt": false}, {"txt": "Den avger bara radiovågor", "ratt": false}]
+    "alternativ": [{"txt": "Den saknar all massa", "ratt": false, "kommentar": "En vit dvärg har ungefär lika stor massa som solen."}, {"txt": "Den har mycket liten radie", "ratt": true}, {"txt": "Den ligger alltid bakom stoft", "ratt": false, "kommentar": "Vita dvärgar är ljussvaga även utan stoft."}, {"txt": "Den avger bara radiovågor", "ratt": false, "kommentar": "Vita dvärgar sänder ut mycket synligt ljus och ultraviolett ljus."}]
   },
   {
   "id": "5.314",
@@ -43924,7 +43942,7 @@ window.BANK2 = [
   "traningsniva": 1,
   "miniräknare": true,
   "geogebra": false,
-  "alternativ": [{"txt": "På huvudserien", "ratt": true}, {"txt": "Bland de kallaste superjättarna", "ratt": false}, {"txt": "Bland vita dvärgar", "ratt": false}, {"txt": "Utanför diagrammet", "ratt": false}]
+  "alternativ": [{"txt": "På huvudserien", "ratt": true}, {"txt": "Bland de kallaste superjättarna", "ratt": false, "kommentar": "Solen är ingen superjätte."}, {"txt": "Bland vita dvärgar", "ratt": false, "kommentar": "Solen är inte en vit dvärg ännu."}, {"txt": "Utanför diagrammet", "ratt": false, "kommentar": "Solen ligger mitt på huvudserien."}]
 },
   {
     "id": "5.315",
@@ -43948,7 +43966,7 @@ window.BANK2 = [
       "Stjärnors utveckling och HR-diagram"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "De har ingen fusion", "ratt": false}, {"txt": "De förbrukar bränslet mycket snabbare eftersom luminositeten är mycket större", "ratt": true}, {"txt": "De innehåller inget väte", "ratt": false}, {"txt": "De är kallare än alla andra stjärnor", "ratt": false}]
+    "alternativ": [{"txt": "De har ingen fusion", "ratt": false, "kommentar": "Massiva stjärnor har fusion, mycket kraftig sådan."}, {"txt": "De förbrukar bränslet mycket snabbare eftersom luminositeten är mycket större", "ratt": true}, {"txt": "De innehåller inget väte", "ratt": false, "kommentar": "Huvudseriestjärnor fusionerar väte."}, {"txt": "De är kallare än alla andra stjärnor", "ratt": false, "kommentar": "Massiva huvudseriestjärnor är de hetaste."}]
   },
   {
     "id": "5.337",
@@ -45130,7 +45148,7 @@ window.BANK2 = [
       "Stjärnors utveckling och HR-diagram"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Kall och ljussvag", "ratt": false}, {"txt": "Varm och ljussvag", "ratt": false}, {"txt": "Kall och ljusstark", "ratt": false}, {"txt": "Varm och ljusstark", "ratt": true}]
+    "alternativ": [{"txt": "Kall och ljussvag", "ratt": false, "kommentar": "Längst upp betyder ljusstark och till vänster betyder varm."}, {"txt": "Varm och ljussvag", "ratt": false, "kommentar": "Längst upp betyder ljusstark, inte ljussvag."}, {"txt": "Kall och ljusstark", "ratt": false, "kommentar": "Till vänster betyder varm, inte kall."}, {"txt": "Varm och ljusstark", "ratt": true}]
   },
   {
     "kap": 5,
@@ -45797,7 +45815,7 @@ window.BANK2 = [
       "Universums framtida utveckling"
     ],
     "traningsniva": 1,
-    "alternativ": [{"txt": "Expansionen bromsar och universum kollapsar snart.", "ratt": false}, {"txt": "Alla galaxer stannar på fasta avstånd.", "ratt": false}, {"txt": "Expansionen fortsätter och avlägsna galaxer blir allt mer separerade.", "ratt": true}, {"txt": "Universums skala börjar oscillera regelbundet.", "ratt": false}]
+    "alternativ": [{"txt": "Expansionen bromsar och universum kollapsar snart.", "ratt": false, "kommentar": "Expansionen accelererar, den bromsar inte in."}, {"txt": "Alla galaxer stannar på fasta avstånd.", "ratt": false, "kommentar": "Galaxerna fortsätter att glida isär."}, {"txt": "Expansionen fortsätter och avlägsna galaxer blir allt mer separerade.", "ratt": true}, {"txt": "Universums skala börjar oscillera regelbundet.", "ratt": false, "kommentar": "Inget tyder på att expansionen växlar mellan att öka och minska."}]
   },
   {
     "id": "5.326",
@@ -55757,7 +55775,7 @@ window.BANK2 = [
     "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "alternativ": [{"txt": "Uppåt i figuren", "ratt": true}, {"txt": "Nedåt i figuren", "ratt": false}, {"txt": "Ingen ström går, eftersom farten är konstant", "ratt": false}, {"txt": "Strömmen byter riktning hela tiden", "ratt": false}]
+    "alternativ": [{"txt": "Uppåt i figuren", "ratt": true}, {"txt": "Nedåt i figuren", "ratt": false, "kommentar": "Strömmen går åt andra hållet. Kontrollera med högerhandsregeln för laddningarna i staven."}, {"txt": "Ingen ström går, eftersom farten är konstant", "ratt": false, "kommentar": "Kretsens area växer hela tiden, så flödet ändras och det induceras en ström."}, {"txt": "Strömmen byter riktning hela tiden", "ratt": false, "kommentar": "Staven rör sig hela tiden åt samma håll, så strömmen byter inte riktning."}]
   },
   {
     "id": "3.420",
@@ -55861,7 +55879,7 @@ window.BANK2 = [
     "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "alternativ": [{"txt": "Väte fusioneras till helium i stjärnans kärna.", "ratt": true}, {"txt": "Helium fusioneras till kol i stjärnans yttre lager.", "ratt": false}, {"txt": "Stjärnan drar ihop sig och värms av gravitationen hela tiden.", "ratt": false}, {"txt": "Järn fusioneras till tyngre grundämnen.", "ratt": false}]
+    "alternativ": [{"txt": "Väte fusioneras till helium i stjärnans kärna.", "ratt": true}, {"txt": "Helium fusioneras till kol i stjärnans yttre lager.", "ratt": false, "kommentar": "Under huvudserien fusioneras väte, och det sker i kärnan."}, {"txt": "Stjärnan drar ihop sig och värms av gravitationen hela tiden.", "ratt": false, "kommentar": "Stjärnans tyngd balanseras av fusionen. Den drar inte ihop sig hela tiden."}, {"txt": "Järn fusioneras till tyngre grundämnen.", "ratt": false, "kommentar": "Järnfusion ger ingen energi. Den sker inte på huvudserien."}]
   },
   {
     "id": "5.370",
@@ -55885,7 +55903,7 @@ window.BANK2 = [
     "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": false}, {"txt": "C", "ratt": false}, {"txt": "D", "ratt": true}]
+    "alternativ": [{"txt": "A", "ratt": false, "kommentar": "Vita dvärgar är heta men ljussvaga. De ligger nere till vänster i diagrammet."}, {"txt": "B", "ratt": false, "kommentar": "Vita dvärgar är heta men ljussvaga. De ligger nere till vänster i diagrammet."}, {"txt": "C", "ratt": false, "kommentar": "Vita dvärgar är heta men ljussvaga. De ligger nere till vänster i diagrammet."}, {"txt": "D", "ratt": true}]
   },
   {
     "id": "5.371",
@@ -55960,7 +55978,7 @@ window.BANK2 = [
     "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "alternativ": [{"txt": "En vit dvärg", "ratt": false}, {"txt": "En neutronstjärna", "ratt": true}, {"txt": "Ett svart hål", "ratt": false}, {"txt": "En röd jätte", "ratt": false}]
+    "alternativ": [{"txt": "En vit dvärg", "ratt": false, "kommentar": "2,0 solmassor är mer än 1,4 solmassor, den största massan en vit dvärg kan ha."}, {"txt": "En neutronstjärna", "ratt": true}, {"txt": "Ett svart hål", "ratt": false, "kommentar": "2,0 solmassor är mindre än 3 solmassor, så det blir inget svart hål."}, {"txt": "En röd jätte", "ratt": false, "kommentar": "En röd jätte är en stjärna, inte en kollapsad kärna."}]
   },
   {
     "id": "5.374",

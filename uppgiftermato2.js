@@ -13778,7 +13778,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "trig_ekvationer"
     ],
-    "alternativ": [{"txt": "\\(-1&lt;a&lt;1\\)", "ratt": true}, {"txt": "Bara \\(a=1\\)", "ratt": false}, {"txt": "\\(|a|&gt;1\\)", "ratt": false}, {"txt": "Bara \\(a=-1\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(-1&lt;a&lt;1\\)", "ratt": true}, {"txt": "Bara \\(a=1\\)", "ratt": false, "kommentar": "sin x = 1 har bara lösningen x = 90°."}, {"txt": "\\(|a|&gt;1\\)", "ratt": false, "kommentar": "sin x kan aldrig vara större än 1 eller mindre än −1."}, {"txt": "Bara \\(a=-1\\)", "ratt": false, "kommentar": "sin x = −1 har bara lösningen x = 270°."}]
   },
   {
     "id": "1.402",
@@ -48009,7 +48009,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "grafer_asymptoter"
     ],
-    "alternativ": [{"txt": "\\(x=1\\)", "ratt": false}, {"txt": "\\(y=0\\)", "ratt": false}, {"txt": "\\(x=0\\)", "ratt": true}, {"txt": "Ingen", "ratt": false}]
+    "alternativ": [{"txt": "\\(x=1\\)", "ratt": false, "kommentar": "ln 1 = 0, så x = 1 är ett nollställe, inte en asymptot."}, {"txt": "\\(y=0\\)", "ratt": false, "kommentar": "y = 0 är en vågrät linje, inte en lodrät."}, {"txt": "\\(x=0\\)", "ratt": true}, {"txt": "Ingen", "ratt": false, "kommentar": "ln x går mot −∞ när x går mot 0 från höger. Då finns en lodrät asymptot."}]
   },
   {
     "id": "2.487",
@@ -48072,7 +48072,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "grafer_asymptoter"
     ],
-    "alternativ": [{"txt": "\\(x=0\\)", "ratt": false}, {"txt": "\\(y=1\\)", "ratt": false}, {"txt": "\\(y=0\\)", "ratt": true}, {"txt": "Ingen", "ratt": false}]
+    "alternativ": [{"txt": "\\(x=0\\)", "ratt": false, "kommentar": "x = 0 är en lodrät linje, inte en vågrät."}, {"txt": "\\(y=1\\)", "ratt": false, "kommentar": "e⁰ = 1 är värdet när x = 0. När x växer går e⁻ˣ mot 0."}, {"txt": "\\(y=0\\)", "ratt": true}, {"txt": "Ingen", "ratt": false, "kommentar": "e⁻ˣ går mot 0 när x växer, så y = 0 är en asymptot."}]
   },
   {
     "id": "2.414",
@@ -48804,7 +48804,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "grafer_asymptoter"
     ],
-    "alternativ": [{"txt": "en maximipunkt", "ratt": true}, {"txt": "en minimipunkt", "ratt": false}, {"txt": "en terrasspunkt", "ratt": false}, {"txt": "en lodrät asymptot", "ratt": false}]
+    "alternativ": [{"txt": "en maximipunkt", "ratt": true}, {"txt": "en minimipunkt", "ratt": false, "kommentar": "Funktionen växer före x = 2 och avtar efter. Det ger en topp, inte en botten."}, {"txt": "en terrasspunkt", "ratt": false, "kommentar": "Vid en terrasspunkt har derivatan samma tecken på båda sidor."}, {"txt": "en lodrät asymptot", "ratt": false, "kommentar": "Funktionen är deriverbar i x = 2, så där finns ingen asymptot."}]
   },
   {
     "id": "2.538",
@@ -67651,7 +67651,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "rotationsvolymer"
     ],
-    "alternativ": [{"txt": "en kon", "ratt": false}, {"txt": "en cylinder", "ratt": true}, {"txt": "ett klot", "ratt": false}, {"txt": "en kub", "ratt": false}]
+    "alternativ": [{"txt": "en kon", "ratt": false, "kommentar": "En kon bildas när en linje genom origo roteras."}, {"txt": "en cylinder", "ratt": true}, {"txt": "ett klot", "ratt": false, "kommentar": "Ett klot bildas när en halvcirkel roteras."}, {"txt": "en kub", "ratt": false, "kommentar": "En kub kan inte bildas genom rotation."}]
   },
   {
     "id": "4.01",
@@ -82444,7 +82444,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "polar_exponentiell"
     ],
-    "alternativ": [{"txt": "60°", "ratt": false}, {"txt": "120°", "ratt": false}, {"txt": "300°", "ratt": false}, {"txt": "240°", "ratt": true}]
+    "alternativ": [{"txt": "60°", "ratt": false, "kommentar": "60° ligger i första kvadranten, men både real- och imaginärdelen är negativa."}, {"txt": "120°", "ratt": false, "kommentar": "120° ligger i andra kvadranten, där realdelen är negativ men imaginärdelen positiv."}, {"txt": "300°", "ratt": false, "kommentar": "300° ligger i fjärde kvadranten, där realdelen är positiv."}, {"txt": "240°", "ratt": true}]
   },
   {
     "id": "4.407",
@@ -90679,7 +90679,7 @@ window.BANKMATO2 = [
     "familjTidigare": [
       "Polynomekvationer med komplexa lösningar"
     ],
-    "alternativ": [{"txt": "\\(-2i\\)", "ratt": false}, {"txt": "\\(2i\\)", "ratt": true}, {"txt": "2", "ratt": false}, {"txt": "−2", "ratt": false}]
+    "alternativ": [{"txt": "\\(-2i\\)", "ratt": false, "kommentar": "−2i har negativ imaginärdel."}, {"txt": "\\(2i\\)", "ratt": true}, {"txt": "2", "ratt": false, "kommentar": "2² + 4 = 8, inte 0."}, {"txt": "−2", "ratt": false, "kommentar": "(−2)² + 4 = 8, inte 0."}]
   },
   {
     "id": "4.402",
@@ -93924,7 +93924,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "trig_fasforskjutning"
     ],
-    "alternativ": [{"txt": "Den är förskjuten \\(40^\\circ\\) åt vänster.", "ratt": false}, {"txt": "Den är förskjuten \\(40\\) enheter nedåt.", "ratt": false}, {"txt": "Den är förskjuten \\(40\\) enheter uppåt.", "ratt": false}, {"txt": "Den är förskjuten \\(40^\\circ\\) åt höger.", "ratt": true}]
+    "alternativ": [{"txt": "Den är förskjuten \\(40^\\circ\\) åt vänster.", "ratt": false, "kommentar": "Minus inne i parentesen flyttar grafen åt höger, inte åt vänster."}, {"txt": "Den är förskjuten \\(40\\) enheter nedåt.", "ratt": false, "kommentar": "Ett tal inne i parentesen flyttar grafen i sidled. Bara ett tal utanför flyttar den uppåt eller nedåt."}, {"txt": "Den är förskjuten \\(40\\) enheter uppåt.", "ratt": false, "kommentar": "Ett tal inne i parentesen flyttar grafen i sidled. Bara ett tal utanför flyttar den uppåt eller nedåt."}, {"txt": "Den är förskjuten \\(40^\\circ\\) åt höger.", "ratt": true}]
   },
   {
     "id": "1.635",
@@ -94672,7 +94672,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "trig_kurvor_radianer"
     ],
-    "alternativ": [{"txt": "Den är förskjuten \\(\\pi/3\\) åt vänster.", "ratt": false}, {"txt": "Den är förskjuten \\(\\pi/3\\) uppåt.", "ratt": false}, {"txt": "Den är förskjuten \\(\\pi/3\\) åt höger.", "ratt": true}, {"txt": "Den är förskjuten \\(\\pi/3\\) nedåt.", "ratt": false}]
+    "alternativ": [{"txt": "Den är förskjuten \\(\\pi/3\\) åt vänster.", "ratt": false, "kommentar": "Minus inne i parentesen flyttar grafen åt höger, inte åt vänster."}, {"txt": "Den är förskjuten \\(\\pi/3\\) uppåt.", "ratt": false, "kommentar": "Ett tal inne i parentesen flyttar grafen i sidled. Bara ett tal utanför flyttar den uppåt eller nedåt."}, {"txt": "Den är förskjuten \\(\\pi/3\\) åt höger.", "ratt": true}, {"txt": "Den är förskjuten \\(\\pi/3\\) nedåt.", "ratt": false, "kommentar": "Ett tal inne i parentesen flyttar grafen i sidled. Bara ett tal utanför flyttar den uppåt eller nedåt."}]
   },
   {
     "id": "1.654",
@@ -94703,7 +94703,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "trig_kurvor_radianer"
     ],
-    "alternativ": [{"txt": "\\(y=\\cos\\left(x+\\dfrac\\pi4\\right)\\)", "ratt": false}, {"txt": "\\(y=\\cos\\left(x-\\dfrac\\pi4\\right)\\)", "ratt": true}, {"txt": "\\(y=\\cos x+\\dfrac\\pi4\\)", "ratt": false}, {"txt": "\\(y=\\cos x-\\dfrac\\pi4\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y=\\cos\\left(x+\\dfrac\\pi4\\right)\\)", "ratt": false, "kommentar": "Plus inne i parentesen flyttar grafen åt vänster."}, {"txt": "\\(y=\\cos\\left(x-\\dfrac\\pi4\\right)\\)", "ratt": true}, {"txt": "\\(y=\\cos x+\\dfrac\\pi4\\)", "ratt": false, "kommentar": "Ett tal utanför parentesen flyttar grafen uppåt, inte åt höger."}, {"txt": "\\(y=\\cos x-\\dfrac\\pi4\\)", "ratt": false, "kommentar": "Ett tal utanför parentesen flyttar grafen nedåt, inte åt höger."}]
   },
   {
     "id": "1.655",
@@ -94801,7 +94801,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "trig_fasforskjutning"
     ],
-    "alternativ": [{"txt": "Den är förskjuten \\(20\\) enheter nedåt.", "ratt": false}, {"txt": "Den är förskjuten \\(20^\\circ\\) åt höger.", "ratt": false}, {"txt": "Den är förskjuten \\(20\\) enheter uppåt.", "ratt": false}, {"txt": "Den är förskjuten \\(20^\\circ\\) åt vänster.", "ratt": true}]
+    "alternativ": [{"txt": "Den är förskjuten \\(20\\) enheter nedåt.", "ratt": false, "kommentar": "Ett tal inne i parentesen flyttar grafen i sidled. Bara ett tal utanför flyttar den uppåt eller nedåt."}, {"txt": "Den är förskjuten \\(20^\\circ\\) åt höger.", "ratt": false, "kommentar": "Plus inne i parentesen flyttar grafen åt vänster, inte åt höger."}, {"txt": "Den är förskjuten \\(20\\) enheter uppåt.", "ratt": false, "kommentar": "Ett tal inne i parentesen flyttar grafen i sidled. Bara ett tal utanför flyttar den uppåt eller nedåt."}, {"txt": "Den är förskjuten \\(20^\\circ\\) åt vänster.", "ratt": true}]
   },
   {
     "id": "1.658",
@@ -94832,7 +94832,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "trig_fasforskjutning"
     ],
-    "alternativ": [{"txt": "\\(y=\\sin(x-45^\\circ)\\)", "ratt": true}, {"txt": "\\(y=\\sin(x+45^\\circ)\\)", "ratt": false}, {"txt": "\\(y=\\sin x+45\\)", "ratt": false}, {"txt": "\\(y=\\sin x-45\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y=\\sin(x-45^\\circ)\\)", "ratt": true}, {"txt": "\\(y=\\sin(x+45^\\circ)\\)", "ratt": false, "kommentar": "Plus inne i parentesen flyttar grafen åt vänster."}, {"txt": "\\(y=\\sin x+45\\)", "ratt": false, "kommentar": "Ett tal utanför parentesen flyttar grafen uppåt, inte åt höger."}, {"txt": "\\(y=\\sin x-45\\)", "ratt": false, "kommentar": "Ett tal utanför parentesen flyttar grafen nedåt, inte åt höger."}]
   },
   {
     "id": "1.659",
@@ -95454,7 +95454,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "deriveringsregler"
     ],
-    "alternativ": [{"txt": "\\(2xe^x\\)", "ratt": false}, {"txt": "\\(2xe^x+x^2e^x\\)", "ratt": true}, {"txt": "\\(x^2e^x\\)", "ratt": false}, {"txt": "\\(2x\\cdot x^2e^x\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(2xe^x\\)", "ratt": false, "kommentar": "Produktregeln ger två termer. Termen x²eˣ saknas."}, {"txt": "\\(2xe^x+x^2e^x\\)", "ratt": true}, {"txt": "\\(x^2e^x\\)", "ratt": false, "kommentar": "Produktregeln ger två termer. Termen 2xeˣ saknas."}, {"txt": "\\(2x\\cdot x^2e^x\\)", "ratt": false, "kommentar": "Produktregeln: f′ = u′v + uv′, inte u′ · u · v."}]
   },
   {
     "id": "2.570",
@@ -95666,7 +95666,7 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "deriveringsregler"
     ],
-    "alternativ": [{"txt": "\\(f'=\\dfrac{u'v-uv'}{v^2}\\)", "ratt": true}, {"txt": "\\(f'=\\dfrac{u'v+uv'}{v^2}\\)", "ratt": false}, {"txt": "\\(f'=\\dfrac{u'}{v'}\\)", "ratt": false}, {"txt": "\\(f'=\\dfrac{uv'-u'v}{v^2}\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(f'=\\dfrac{u'v-uv'}{v^2}\\)", "ratt": true}, {"txt": "\\(f'=\\dfrac{u'v+uv'}{v^2}\\)", "ratt": false, "kommentar": "Det ska vara minus i täljaren, inte plus."}, {"txt": "\\(f'=\\dfrac{u'}{v'}\\)", "ratt": false, "kommentar": "Man kan inte derivera täljare och nämnare var för sig."}, {"txt": "\\(f'=\\dfrac{uv'-u'v}{v^2}\\)", "ratt": false, "kommentar": "Termerna i täljaren har bytt plats, så tecknet blir fel."}]
   },
   {
     "id": "2.550",

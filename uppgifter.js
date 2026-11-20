@@ -118341,7 +118341,7 @@ window.BANK = [
     "familjTidigare": [
       "Tyngdpunkt och stabilitet"
     ],
-    "alternativ": [{"txt": "Högre tyngdpunkt och smalare stödyta.", "ratt": false}, {"txt": "Lägre tyngdpunkt och bredare stödyta.", "ratt": true}, {"txt": "Högre tyngdpunkt och bredare stödyta.", "ratt": false}, {"txt": "Lägre tyngdpunkt och smalare stödyta.", "ratt": false}]
+    "alternativ": [{"txt": "Högre tyngdpunkt och smalare stödyta.", "ratt": false, "kommentar": "Både en högre tyngdpunkt och en smalare stödyta gör att föremålet välter lättare."}, {"txt": "Lägre tyngdpunkt och bredare stödyta.", "ratt": true}, {"txt": "Högre tyngdpunkt och bredare stödyta.", "ratt": false, "kommentar": "En högre tyngdpunkt gör att föremålet välter lättare."}, {"txt": "Lägre tyngdpunkt och smalare stödyta.", "ratt": false, "kommentar": "En smalare stödyta gör att föremålet välter lättare."}]
   },
   {
     "id": "4.311",
@@ -184141,7 +184141,7 @@ window.BANK = [
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
-    "alternativ": [{"txt": "A", "ratt": true}, {"txt": "B", "ratt": false}, {"txt": "C", "ratt": false}]
+    "alternativ": [{"txt": "A", "ratt": true}, {"txt": "B", "ratt": false, "kommentar": "Amperemetern ska sitta i serie med lampan, som i A, så att samma ström går genom båda."}, {"txt": "C", "ratt": false, "kommentar": "Amperemetern ska sitta i serie med lampan, som i A, så att samma ström går genom båda."}]
   },
   {
     "id": "8.383",
@@ -184166,7 +184166,7 @@ window.BANK = [
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
-    "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": true}, {"txt": "C", "ratt": false}]
+    "alternativ": [{"txt": "A", "ratt": false, "kommentar": "Voltmetern ska kopplas parallellt över motståndet, som i B."}, {"txt": "B", "ratt": true}, {"txt": "C", "ratt": false, "kommentar": "Voltmetern ska kopplas parallellt över motståndet, som i B."}]
   },
   {
     "id": "8.384",
@@ -197941,15 +197941,18 @@ window.BANK = [
       },
       {
         "txt": "A: oladdad. B: positiv.",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Det är omvänt. I B kan elektroner komma tillbaka från jorden innan ledningen tas bort."
       },
       {
         "txt": "Båda blir positivt laddade.",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "I B kan elektroner komma tillbaka från jorden innan ledningen tas bort, så kulan blir oladdad."
       },
       {
         "txt": "Båda blir negativt laddade.",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Den negativa staven stöter bort elektroner från kulan. Kulan kan därför inte bli negativ."
       }
     ]
   },
@@ -198485,7 +198488,7 @@ window.BANK = [
   "traningsniva": 1,
   "arbetsinsats": 1,
   "ledtrad": "<p>Vad innebär större massa när volymen är lika stor?</p>",
-  "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": true}, {"txt": "C", "ratt": false}]
+  "alternativ": [{"txt": "A", "ratt": false, "kommentar": "A har densiteten 25/10 = 2,5 g/cm³."}, {"txt": "B", "ratt": true}, {"txt": "C", "ratt": false, "kommentar": "C har densiteten 60/10 = 6,0 g/cm³."}]
 },
 {
   "id": "2.328",
@@ -198592,7 +198595,7 @@ window.BANK = [
   "traningsniva": 2,
   "arbetsinsats": 1,
   "ledtrad": "<p>Jämför massan per kubikcentimeter för varje rad.</p>",
-  "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": false}, {"txt": "C", "ratt": true}, {"txt": "D", "ratt": false}]
+  "alternativ": [{"txt": "A", "ratt": false, "kommentar": "A ger 27/10 = 2,7 g/cm³, samma som B och D."}, {"txt": "B", "ratt": false, "kommentar": "B ger 54/20 = 2,7 g/cm³, samma som A och D."}, {"txt": "C", "ratt": true}, {"txt": "D", "ratt": false, "kommentar": "D ger 108/40 = 2,7 g/cm³, samma som A och B."}]
 },
 {
   "id": "2.332",
@@ -198923,7 +198926,8 @@ window.BANK = [
     },
     {
       "txt": "Den elektromagnetiska kraften",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Månen och jorden är i stort sett oladdade, så den elektromagnetiska kraften håller inte ihop dem."
     },
     {
       "txt": "Den starka kraften",
@@ -198978,7 +198982,8 @@ window.BANK = [
     },
     {
       "txt": "Den svaga kraften",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Den svaga kraften verkar bara inne i atomkärnor och orsakar till exempel betasönderfall."
     }
   ]
 },
@@ -199008,11 +199013,13 @@ window.BANK = [
   "alternativ": [
     {
       "txt": "Gravitationen",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Gravitationen kan inte förvandla en partikel till en annan."
     },
     {
       "txt": "Den elektromagnetiska kraften",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Den elektromagnetiska kraften förvandlar inte en proton till en neutron."
     },
     {
       "txt": "Den starka kraften",
@@ -199112,11 +199119,13 @@ window.BANK = [
     },
     {
       "txt": "Den starka kraften",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Den starka kraften verkar bara inne i atomkärnor."
     },
     {
       "txt": "Den svaga kraften",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Den svaga kraften verkar bara inne i atomkärnor."
     }
   ]
 },
@@ -201070,11 +201079,13 @@ window.BANK = [
   "alternativ": [
     {
       "txt": "COM och 10A",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Uttaget 10A används bara för stora strömmar."
     },
     {
       "txt": "10A och µA mA V Ω Hz",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Den ena sladden ska alltid sitta i COM."
     },
     {
       "txt": "COM och µA mA V Ω Hz",
@@ -201113,11 +201124,13 @@ window.BANK = [
     },
     {
       "txt": "10A",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Uttaget 10A används bara för stora strömmar."
     },
     {
       "txt": "COM",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Den första sladden sitter redan i COM."
     }
   ],
   "självrättning": true,
@@ -201149,7 +201162,8 @@ window.BANK = [
   "alternativ": [
     {
       "txt": "10A och µA mA V Ω Hz",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Den ena sladden ska alltid sitta i COM."
     },
     {
       "txt": "COM och µA mA V Ω Hz",
@@ -201157,7 +201171,8 @@ window.BANK = [
     },
     {
       "txt": "COM och 10A",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Uttaget 10A används för strömmar över 400 mA."
     }
   ],
   "självrättning": true,
@@ -201189,11 +201204,13 @@ window.BANK = [
   "alternativ": [
     {
       "txt": "COM och µA mA V Ω Hz",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "0,65 A är mer än 400 mA, så sladden ska sitta i 10A."
     },
     {
       "txt": "10A och µA mA V Ω Hz",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Den ena sladden ska alltid sitta i COM."
     },
     {
       "txt": "COM och 10A",
@@ -201229,15 +201246,18 @@ window.BANK = [
   "alternativ": [
     {
       "txt": "Ω",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Läget Ω mäter resistans. Läget V används för spänning."
     },
     {
       "txt": "400 mA",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Läget 400 mA mäter ström. Läget V används för spänning."
     },
     {
       "txt": "10 A",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Läget 10 A mäter ström. Läget V används för spänning."
     },
     {
       "txt": "4000 µA",
@@ -201278,15 +201298,18 @@ window.BANK = [
   "alternativ": [
     {
       "txt": "10 A",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Läget 10 A ger grov upplösning för så små strömmar."
     },
     {
       "txt": "400 mA",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Läget 400 mA fungerar, men 4000 µA ger bättre upplösning."
     },
     {
       "txt": "V",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Läget V används för spänning."
     },
     {
       "txt": "4000 µA",
@@ -201326,15 +201349,18 @@ window.BANK = [
     },
     {
       "txt": "6 V",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "B och F ligger på samma ledning utan någon komponent emellan, så spänningen är 0 V."
     },
     {
       "txt": "3 V",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "B och F ligger på samma ledning utan någon komponent emellan, så spänningen är 0 V."
     },
     {
       "txt": "12 V",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "B och F ligger på samma ledning utan någon komponent emellan, så spänningen är 0 V."
     }
   ],
   "självrättning": true,
@@ -201366,7 +201392,8 @@ window.BANK = [
   "alternativ": [
     {
       "txt": "4000 µA",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "4000 µA är bara 4 mA, alldeles för lite."
     },
     {
       "txt": "10 A",
@@ -201374,11 +201401,13 @@ window.BANK = [
     },
     {
       "txt": "400 mA",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Strömmen kan vara upp till 1,5 A, alltså mer än 400 mA."
     },
     {
       "txt": "V",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Läget V används för spänning."
     }
   ],
   "självrättning": true,
@@ -201411,11 +201440,13 @@ window.BANK = [
   "alternativ": [
     {
       "txt": "Bara vrida till 10 A.",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Sladden måste också flyttas till 10A."
     },
     {
       "txt": "Bara flytta sladden från högra uttaget till 10A.",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Vredet måste också vridas till 10 A."
     },
     {
       "txt": "Flytta sladden från högra uttaget till 10A och vrida till 10 A.",
@@ -201423,7 +201454,8 @@ window.BANK = [
     },
     {
       "txt": "Vrida till 4000 µA.",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "4000 µA är ett ännu mindre mätområde."
     }
   ],
   "självrättning": true,
@@ -201509,15 +201541,18 @@ window.BANK = [
   "alternativ": [
     {
       "txt": "Flytta sladden från högra uttaget till 10A.",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Uttaget 10A används för ström."
     },
     {
       "txt": "Vrida till 400 mA.",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "Läget 400 mA mäter ström."
     },
     {
       "txt": "Trycka på HOLD.",
-      "ratt": false
+      "ratt": false,
+      "kommentar": "HOLD fryser bara det som visas."
     },
     {
       "txt": "Byta plats på mätspetsarna vid batteriet.",

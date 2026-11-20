@@ -4109,15 +4109,18 @@ window.BANKMATF1 = [
       },
       {
         "txt": "\\(\\binom{16}{5}\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "Ordningen spelar roll, så det är permutationer, inte kombinationer."
       },
       {
         "txt": "\\(16!\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "16! ordnar alla 16 spelarna, men bara 5 ska väljas."
       },
       {
         "txt": "\\(11!\\)",
-        "ratt": false
+        "ratt": false,
+        "kommentar": "11! räknar ordningar av de 11 som inte väljs."
       }
     ]
   },
@@ -19602,7 +19605,7 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "bevismetoder"
     ],
-    "alternativ": [{"txt": "Anta att 3 är jämnt.", "ratt": false}, {"txt": "Anta att \\(\\sqrt3=3\\).", "ratt": false}, {"txt": "Anta att alla rationella tal är heltal.", "ratt": false}, {"txt": "Anta att \\(\\sqrt3\\) är rationellt och kan skrivas \\(p/q\\) i förkortad form.", "ratt": true}]
+    "alternativ": [{"txt": "Anta att 3 är jämnt.", "ratt": false, "kommentar": "Att 3 är udda har inget med beviset att göra."}, {"txt": "Anta att \\(\\sqrt3=3\\).", "ratt": false, "kommentar": "√3 är inte 3, och antagandet ska vara motsatsen till påståendet."}, {"txt": "Anta att alla rationella tal är heltal.", "ratt": false, "kommentar": "Rationella tal behöver inte vara heltal."}, {"txt": "Anta att \\(\\sqrt3\\) är rationellt och kan skrivas \\(p/q\\) i förkortad form.", "ratt": true}]
   },
   {
     "id": "2.302",
@@ -19629,7 +19632,7 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "bevismetoder"
     ],
-    "alternativ": [{"txt": "Att det bara finns ändligt många primtal.", "ratt": true}, {"txt": "Att alla heltal är primtal.", "ratt": false}, {"txt": "Att 1 är ett primtal.", "ratt": false}, {"txt": "Att varje primtal är jämnt.", "ratt": false}]
+    "alternativ": [{"txt": "Att det bara finns ändligt många primtal.", "ratt": true}, {"txt": "Att alla heltal är primtal.", "ratt": false, "kommentar": "Antagandet ska vara motsatsen till påståendet: att det bara finns ändligt många primtal."}, {"txt": "Att 1 är ett primtal.", "ratt": false, "kommentar": "1 är inget primtal, och det är inte motsatsen till påståendet."}, {"txt": "Att varje primtal är jämnt.", "ratt": false, "kommentar": "2 är ett jämnt primtal, men övriga är udda."}]
   },
   {
     "id": "2.303",
@@ -19656,7 +19659,7 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "bevismetoder"
     ],
-    "alternativ": [{"txt": "Både Q och inte-Q är sanna samtidigt.", "ratt": false}, {"txt": "Antagandet \\(P\\) kan inte vara sant.", "ratt": true}, {"txt": "Beviset visar ingenting.", "ratt": false}, {"txt": "P måste vara en identitet.", "ratt": false}]
+    "alternativ": [{"txt": "Både Q och inte-Q är sanna samtidigt.", "ratt": false, "kommentar": "Q och inte Q kan inte vara sanna samtidigt. Det är just därför antagandet måste vara falskt."}, {"txt": "Antagandet \\(P\\) kan inte vara sant.", "ratt": true}, {"txt": "Beviset visar ingenting.", "ratt": false, "kommentar": "Motsägelsen visar att antagandet P är falskt."}, {"txt": "P måste vara en identitet.", "ratt": false, "kommentar": "En motsägelse visar att P är falskt, inte att P alltid gäller."}]
   },
   {
     "id": "2.304",
@@ -19683,7 +19686,7 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "bevismetoder"
     ],
-    "alternativ": [{"txt": "Anta att alla heltal är positiva.", "ratt": false}, {"txt": "Anta att n=0.", "ratt": false}, {"txt": "Anta att det finns ett heltal n som är både jämnt och udda.", "ratt": true}, {"txt": "Anta att jämna tal inte finns.", "ratt": false}]
+    "alternativ": [{"txt": "Anta att alla heltal är positiva.", "ratt": false, "kommentar": "Påståendet handlar inte om positiva tal."}, {"txt": "Anta att n=0.", "ratt": false, "kommentar": "Antagandet ska gälla ett godtyckligt heltal, inte bara 0."}, {"txt": "Anta att det finns ett heltal n som är både jämnt och udda.", "ratt": true}, {"txt": "Anta att jämna tal inte finns.", "ratt": false, "kommentar": "Jämna tal finns, till exempel 2."}]
   },
   {
     "id": "2.305",
@@ -19714,7 +19717,7 @@ window.BANKMATF1 = [
       "Direkta bevis, kontraposition och metodval",
       "Matematiska induktionsbevis"
     ],
-    "alternativ": [{"txt": "Induktion över reella tal.", "ratt": false}, {"txt": "Indirekt bevis: visa att om n är udda så är \\(n^2\\) udda.", "ratt": true}, {"txt": "Numerisk approximation.", "ratt": false}, {"txt": "Rita en graf.", "ratt": false}]
+    "alternativ": [{"txt": "Induktion över reella tal.", "ratt": false, "kommentar": "Induktion används för heltal, inte reella tal."}, {"txt": "Indirekt bevis: visa att om n är udda så är \\(n^2\\) udda.", "ratt": true}, {"txt": "Numerisk approximation.", "ratt": false, "kommentar": "En numerisk beräkning bevisar inget för alla heltal."}, {"txt": "Rita en graf.", "ratt": false, "kommentar": "En graf bevisar inget för alla heltal."}]
   },
   {
     "id": "2.322",
@@ -19744,7 +19747,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "Induktionsbevis", "ratt": false}, {"txt": "Motsägelsebevis", "ratt": false}, {"txt": "Lådprincipen", "ratt": false}, {"txt": "Direkt bevis", "ratt": true}]
+    "alternativ": [{"txt": "Induktionsbevis", "ratt": false, "kommentar": "Induktion behövs inte. Ett direkt bevis räcker: 2a + 2b = 2(a + b), som är jämnt."}, {"txt": "Motsägelsebevis", "ratt": false, "kommentar": "Ett motsägelsebevis behövs inte. Ett direkt bevis räcker: 2a + 2b = 2(a + b), som är jämnt."}, {"txt": "Lådprincipen", "ratt": false, "kommentar": "Lådprincipen används för att visa att två objekt hamnar i samma grupp."}, {"txt": "Direkt bevis", "ratt": true}]
   },
   {
     "kap": 2,
@@ -21165,7 +21168,7 @@ window.BANKMATF1 = [
     "ledtrad": "<p>Ersätt den problematiska gränsen med en parameter. Integralen konvergerar bara om det beräknade gränsvärdet blir ändligt.</p>",
     "traningsniva": 1
   ,
-  "alternativ": [{"txt": "Konvergerar", "ratt": false}, {"txt": "Divergerar", "ratt": true}]
+  "alternativ": [{"txt": "Konvergerar", "ratt": false, "kommentar": "eˣ växer utan gräns, så arean blir oändligt stor."}, {"txt": "Divergerar", "ratt": true}]
 },
   {
     "kap": 3,
@@ -28521,7 +28524,7 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
     "traningsniva": 2,
-    "alternativ": [{"txt": "\\(y'=x-y\\)", "ratt": true}, {"txt": "\\(y'=x+y\\)", "ratt": false}, {"txt": "\\(y'=xy\\)", "ratt": false}, {"txt": "\\(y'=y-x\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(y'=x-y\\)", "ratt": true}, {"txt": "\\(y'=x+y\\)", "ratt": false, "kommentar": "Med y′ = x + y blir lutningen 0 på linjen y = −x, inte på y = x."}, {"txt": "\\(y'=xy\\)", "ratt": false, "kommentar": "Med y′ = xy blir lutningen 0 på axlarna, inte på linjen y = x."}, {"txt": "\\(y'=y-x\\)", "ratt": false, "kommentar": "Med y′ = y − x blir lutningen positiv ovanför y = x, men i fältet är den negativ där."}]
   },
   {
     "kap": 4,
@@ -30130,7 +30133,7 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "modellering_digitalt"
     ],
-    "alternativ": [{"txt": "\\(T'=k(T-20)\\) med \\(k&gt;0\\)", "ratt": false}, {"txt": "\\(T'=20k\\)", "ratt": false}, {"txt": "\\(T'=-k(T-20)\\) med \\(k&gt;0\\)", "ratt": true}, {"txt": "\\(T'=T^2\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(T'=k(T-20)\\) med \\(k&gt;0\\)", "ratt": false, "kommentar": "Med k > 0 skulle ett varmt föremål bli ännu varmare."}, {"txt": "\\(T'=20k\\)", "ratt": false, "kommentar": "Då ändras temperaturen lika mycket hela tiden."}, {"txt": "\\(T'=-k(T-20)\\) med \\(k&gt;0\\)", "ratt": true}, {"txt": "\\(T'=T^2\\)", "ratt": false, "kommentar": "Förändringen ska bero på skillnaden T − 20, inte på T²."}]
   },
   {
     "kap": 4,
@@ -36944,7 +36947,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "Skriv talen som \\(2a\\) och \\(2b\\).", "ratt": true}, {"txt": "Skriv båda som \\(2a+1\\).", "ratt": false}, {"txt": "Anta att de är primtal.", "ratt": false}, {"txt": "Rita en graf.", "ratt": false}]
+    "alternativ": [{"txt": "Skriv talen som \\(2a\\) och \\(2b\\).", "ratt": true}, {"txt": "Skriv båda som \\(2a+1\\).", "ratt": false, "kommentar": "2a + 1 är ett udda tal."}, {"txt": "Anta att de är primtal.", "ratt": false, "kommentar": "Primtal har inget med saken att göra."}, {"txt": "Rita en graf.", "ratt": false, "kommentar": "En graf bevisar inget för alla heltal."}]
   },
   {
     "kap": 2,
@@ -36974,7 +36977,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "\\(n=2k\\)", "ratt": false}, {"txt": "\\(n=2k+1\\)", "ratt": true}, {"txt": "\\(n=k/2\\)", "ratt": false}, {"txt": "\\(n=k^2\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(n=2k\\)", "ratt": false, "kommentar": "2k är ett jämnt tal."}, {"txt": "\\(n=2k+1\\)", "ratt": true}, {"txt": "\\(n=k/2\\)", "ratt": false, "kommentar": "k/2 behöver inte vara ett heltal."}, {"txt": "\\(n=k^2\\)", "ratt": false, "kommentar": "k² är ingen allmän form för udda tal."}]
   },
   {
     "kap": 2,
@@ -37004,7 +37007,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "Indirekt bevis: anta att \\(n\\) är udda och visa att \\(n^2\\) är udda.", "ratt": true}, {"txt": "Lådprincipen.", "ratt": false}, {"txt": "Numerisk approximation.", "ratt": false}, {"txt": "Partiell integration.", "ratt": false}]
+    "alternativ": [{"txt": "Indirekt bevis: anta att \\(n\\) är udda och visa att \\(n^2\\) är udda.", "ratt": true}, {"txt": "Lådprincipen.", "ratt": false, "kommentar": "Lådprincipen används för att visa att två objekt hamnar i samma grupp."}, {"txt": "Numerisk approximation.", "ratt": false, "kommentar": "En numerisk beräkning bevisar inget för alla heltal."}, {"txt": "Partiell integration.", "ratt": false, "kommentar": "Partiell integration används för integraler."}]
   },
   {
     "kap": 2,
@@ -37034,7 +37037,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "\\(n=3+k\\)", "ratt": false}, {"txt": "\\(n=k/3\\)", "ratt": false}, {"txt": "\\(n=3k\\) för något heltal \\(k\\)", "ratt": true}, {"txt": "\\(n=3^k\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(n=3+k\\)", "ratt": false, "kommentar": "3 | n betyder att n är en multipel av 3, inte 3 plus något."}, {"txt": "\\(n=k/3\\)", "ratt": false, "kommentar": "k/3 behöver inte vara ett heltal."}, {"txt": "\\(n=3k\\) för något heltal \\(k\\)", "ratt": true}, {"txt": "\\(n=3^k\\)", "ratt": false, "kommentar": "3ᵏ är en potens av 3, men n kan vara till exempel 6."}]
   },
   {
     "kap": 2,
@@ -37061,7 +37064,7 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "bevismetoder"
     ],
-    "alternativ": [{"txt": "Anta att det faktiskt finns heltal \\(a,b\\) med egenskap P.", "ratt": true}, {"txt": "Anta att alla reella tal är heltal.", "ratt": false}, {"txt": "Testa bara ett exempel.", "ratt": false}, {"txt": "Derivera P.", "ratt": false}]
+    "alternativ": [{"txt": "Anta att det faktiskt finns heltal \\(a,b\\) med egenskap P.", "ratt": true}, {"txt": "Anta att alla reella tal är heltal.", "ratt": false, "kommentar": "Påståendet handlar om heltal a och b, inte om alla reella tal."}, {"txt": "Testa bara ett exempel.", "ratt": false, "kommentar": "Ett exempel bevisar inget."}, {"txt": "Derivera P.", "ratt": false, "kommentar": "Att derivera hör inte hemma i ett sådant bevis."}]
   },
   {
     "kap": 2,
@@ -37088,7 +37091,7 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "bevismetoder"
     ],
-    "alternativ": [{"txt": "Induktionssteget.", "ratt": false}, {"txt": "Basfallet.", "ratt": true}, {"txt": "Motsägelsen.", "ratt": false}, {"txt": "Lådprincipen.", "ratt": false}]
+    "alternativ": [{"txt": "Induktionssteget.", "ratt": false, "kommentar": "Induktionssteget kommer efter basfallet."}, {"txt": "Basfallet.", "ratt": true}, {"txt": "Motsägelsen.", "ratt": false, "kommentar": "Ett induktionsbevis innehåller ingen motsägelse."}, {"txt": "Lådprincipen.", "ratt": false, "kommentar": "Lådprincipen är en annan bevismetod."}]
   },
   {
     "kap": 2,
@@ -37115,7 +37118,7 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "bevismetoder"
     ],
-    "alternativ": [{"txt": "Att det gäller för \\(n=k-1\\).", "ratt": false}, {"txt": "Att det gäller för alla reella tal direkt.", "ratt": false}, {"txt": "Att det gäller för \\(n=k+1\\).", "ratt": true}, {"txt": "Att k är primtal.", "ratt": false}]
+    "alternativ": [{"txt": "Att det gäller för \\(n=k-1\\).", "ratt": false, "kommentar": "Man ska gå framåt, från k till k + 1."}, {"txt": "Att det gäller för alla reella tal direkt.", "ratt": false, "kommentar": "Induktion visar steg för steg för heltal, inte för alla reella tal."}, {"txt": "Att det gäller för \\(n=k+1\\).", "ratt": true}, {"txt": "Att k är primtal.", "ratt": false, "kommentar": "k behöver inte vara ett primtal."}]
   },
   {
     "kap": 2,
@@ -37145,7 +37148,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "Alla heltal är jämna.", "ratt": false}, {"txt": "\\(n^2\\) är alltid jämnt.", "ratt": false}, {"txt": "\\(n+1\\) är alltid udda.", "ratt": false}, {"txt": "Två på varandra följande heltal innehåller alltid ett jämnt tal.", "ratt": true}]
+    "alternativ": [{"txt": "Alla heltal är jämna.", "ratt": false, "kommentar": "Alla heltal är inte jämna, till exempel 3."}, {"txt": "\\(n^2\\) är alltid jämnt.", "ratt": false, "kommentar": "n² är udda när n är udda."}, {"txt": "\\(n+1\\) är alltid udda.", "ratt": false, "kommentar": "n + 1 är jämnt när n är udda."}, {"txt": "Två på varandra följande heltal innehåller alltid ett jämnt tal.", "ratt": true}]
   },
   {
     "kap": 2,
@@ -37175,7 +37178,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "ett nytt bevis.", "ratt": false}, {"txt": "ett motexempel.", "ratt": true}, {"txt": "en derivata.", "ratt": false}, {"txt": "en restklass.", "ratt": false}]
+    "alternativ": [{"txt": "ett nytt bevis.", "ratt": false, "kommentar": "Ett bevis visar att något är sant, inte falskt."}, {"txt": "ett motexempel.", "ratt": true}, {"txt": "en derivata.", "ratt": false, "kommentar": "En derivata visar inte att ett påstående är falskt."}, {"txt": "en restklass.", "ratt": false, "kommentar": "En restklass visar inte i sig att ett påstående är falskt."}]
   },
   {
     "kap": 2,
@@ -37205,7 +37208,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "Induktionsbevis.", "ratt": false}, {"txt": "Motsägelsebevis med kvadratrötter.", "ratt": false}, {"txt": "Lådprincipen.", "ratt": true}, {"txt": "Partiell integration.", "ratt": false}]
+    "alternativ": [{"txt": "Induktionsbevis.", "ratt": false, "kommentar": "Induktion används för påståenden om alla heltal n."}, {"txt": "Motsägelsebevis med kvadratrötter.", "ratt": false, "kommentar": "Kvadratrötter har inget med saken att göra."}, {"txt": "Lådprincipen.", "ratt": true}, {"txt": "Partiell integration.", "ratt": false, "kommentar": "Partiell integration används för integraler."}]
   },
   {
     "kap": 3,
@@ -46430,7 +46433,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "Skriv talen som \\(2a\\) och \\(2b\\).", "ratt": true}, {"txt": "Skriv talen som \\(2a+1\\) och \\(2b+1\\).", "ratt": false}, {"txt": "Anta att båda är primtal.", "ratt": false}, {"txt": "Derivera summan.", "ratt": false}]
+    "alternativ": [{"txt": "Skriv talen som \\(2a\\) och \\(2b\\).", "ratt": true}, {"txt": "Skriv talen som \\(2a+1\\) och \\(2b+1\\).", "ratt": false, "kommentar": "2a + 1 och 2b + 1 är udda tal."}, {"txt": "Anta att båda är primtal.", "ratt": false, "kommentar": "Primtal har inget med saken att göra."}, {"txt": "Derivera summan.", "ratt": false, "kommentar": "Att derivera hör inte hemma i ett sådant bevis."}]
   },
   {
     "kap": 2,
@@ -46460,7 +46463,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "\\(2a\\) och \\(2b\\)", "ratt": false}, {"txt": "\\(2a+1\\) och \\(2b+1\\)", "ratt": true}, {"txt": "\\(a^2\\) och \\(b^2\\)", "ratt": false}, {"txt": "\\(a/2\\) och \\(b/2\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(2a\\) och \\(2b\\)", "ratt": false, "kommentar": "2a och 2b är jämna tal."}, {"txt": "\\(2a+1\\) och \\(2b+1\\)", "ratt": true}, {"txt": "\\(a^2\\) och \\(b^2\\)", "ratt": false, "kommentar": "a² och b² är ingen allmän form för udda tal."}, {"txt": "\\(a/2\\) och \\(b/2\\)", "ratt": false, "kommentar": "a/2 behöver inte vara ett heltal."}]
   },
   {
     "kap": 2,
@@ -46490,7 +46493,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "\\(3k\\) och \\(6k\\)", "ratt": false}, {"txt": "\\(2k\\) och \\(2k+1\\)", "ratt": false}, {"txt": "\\(3k+1\\) och \\(3k+2\\)", "ratt": true}, {"txt": "\\(k^2\\) och \\(k^3\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(3k\\) och \\(6k\\)", "ratt": false, "kommentar": "3k och 6k är båda delbara med 3."}, {"txt": "\\(2k\\) och \\(2k+1\\)", "ratt": false, "kommentar": "2k och 2k + 1 delar in i jämna och udda, inte efter delbarhet med 3."}, {"txt": "\\(3k+1\\) och \\(3k+2\\)", "ratt": true}, {"txt": "\\(k^2\\) och \\(k^3\\)", "ratt": false, "kommentar": "k² och k³ täcker inte alla heltal."}]
   },
   {
     "kap": 2,
@@ -46520,7 +46523,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "Om \\(n^2\\) är jämnt så är \\(n\\) jämnt.", "ratt": false}, {"txt": "Om \\(n\\) är udda så är \\(n^2\\) jämnt.", "ratt": false}, {"txt": "Om \\(n^2\\) är udda så är \\(n\\) jämnt.", "ratt": false}, {"txt": "Om \\(n^2\\) är udda så är \\(n\\) udda.", "ratt": true}]
+    "alternativ": [{"txt": "Om \\(n^2\\) är jämnt så är \\(n\\) jämnt.", "ratt": false, "kommentar": "Det är det omvända påståendet, som inte är likvärdigt."}, {"txt": "Om \\(n\\) är udda så är \\(n^2\\) jämnt.", "ratt": false, "kommentar": "Det påståendet är falskt."}, {"txt": "Om \\(n^2\\) är udda så är \\(n\\) jämnt.", "ratt": false, "kommentar": "Det påståendet är falskt."}, {"txt": "Om \\(n^2\\) är udda så är \\(n\\) udda.", "ratt": true}]
   },
   {
     "kap": 2,
@@ -46547,7 +46550,7 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "bevismetoder"
     ],
-    "alternativ": [{"txt": "Att det finns heltal \\(a,b\\) som uppfyller P.", "ratt": true}, {"txt": "Att P alltid är falskt.", "ratt": false}, {"txt": "Att \\(a=b=0\\).", "ratt": false}, {"txt": "Att alla reella tal är heltal.", "ratt": false}]
+    "alternativ": [{"txt": "Att det finns heltal \\(a,b\\) som uppfyller P.", "ratt": true}, {"txt": "Att P alltid är falskt.", "ratt": false, "kommentar": "Antagandet ska vara motsatsen till påståendet: att det finns sådana heltal."}, {"txt": "Att \\(a=b=0\\).", "ratt": false, "kommentar": "Antagandet ska gälla godtyckliga heltal, inte bara 0."}, {"txt": "Att alla reella tal är heltal.", "ratt": false, "kommentar": "Påståendet handlar om heltal, inte om alla reella tal."}]
   },
   {
     "kap": 2,
@@ -46577,7 +46580,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "\\(n=5+k\\)", "ratt": false}, {"txt": "\\(n=k/5\\)", "ratt": false}, {"txt": "\\(n=5k\\) för något heltal \\(k\\)", "ratt": true}, {"txt": "\\(n=5^k\\)", "ratt": false}]
+    "alternativ": [{"txt": "\\(n=5+k\\)", "ratt": false, "kommentar": "5 | n betyder att n är en multipel av 5, inte 5 plus något."}, {"txt": "\\(n=k/5\\)", "ratt": false, "kommentar": "k/5 behöver inte vara ett heltal."}, {"txt": "\\(n=5k\\) för något heltal \\(k\\)", "ratt": true}, {"txt": "\\(n=5^k\\)", "ratt": false, "kommentar": "5ᵏ är en potens av 5, men n kan vara till exempel 10."}]
   },
   {
     "kap": 2,
@@ -46607,7 +46610,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "Alla heltal är jämna.", "ratt": false}, {"txt": "Av två på varandra följande heltal är ett alltid jämnt.", "ratt": true}, {"txt": "\\(n^2\\) är alltid jämnt.", "ratt": false}, {"txt": "\\(n+1\\) är alltid jämnt.", "ratt": false}]
+    "alternativ": [{"txt": "Alla heltal är jämna.", "ratt": false, "kommentar": "Alla heltal är inte jämna, till exempel 3."}, {"txt": "Av två på varandra följande heltal är ett alltid jämnt.", "ratt": true}, {"txt": "\\(n^2\\) är alltid jämnt.", "ratt": false, "kommentar": "n² är udda när n är udda."}, {"txt": "\\(n+1\\) är alltid jämnt.", "ratt": false, "kommentar": "n + 1 är udda när n är jämnt."}]
   },
   {
     "id": "2.583",
@@ -46685,7 +46688,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "Ett långt bevis.", "ratt": false}, {"txt": "Ett enda motexempel.", "ratt": true}, {"txt": "Två slumpmässiga exempel.", "ratt": false}, {"txt": "En graf.", "ratt": false}]
+    "alternativ": [{"txt": "Ett långt bevis.", "ratt": false, "kommentar": "Ett bevis visar att något är sant, inte falskt."}, {"txt": "Ett enda motexempel.", "ratt": true}, {"txt": "Två slumpmässiga exempel.", "ratt": false, "kommentar": "Exempel som fungerar visar inte att påståendet är falskt."}, {"txt": "En graf.", "ratt": false, "kommentar": "En graf visar bara några fall."}]
   },
   {
     "kap": 2,
@@ -46715,7 +46718,7 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
     ],
-    "alternativ": [{"txt": "Visa \\(P\\Rightarrow Q\\) genom att anta både P och Q.", "ratt": false}, {"txt": "Visa \\(Q\\Rightarrow P\\).", "ratt": false}, {"txt": "Visa \\(\\neg Q\\Rightarrow\\neg P\\).", "ratt": true}, {"txt": "Visa att P och Q är lika stora.", "ratt": false}]
+    "alternativ": [{"txt": "Visa \\(P\\Rightarrow Q\\) genom att anta både P och Q.", "ratt": false, "kommentar": "Om man antar Q har man redan antagit det som ska visas."}, {"txt": "Visa \\(Q\\Rightarrow P\\).", "ratt": false, "kommentar": "Det är det omvända påståendet, som inte är likvärdigt."}, {"txt": "Visa \\(\\neg Q\\Rightarrow\\neg P\\).", "ratt": true}, {"txt": "Visa att P och Q är lika stora.", "ratt": false, "kommentar": "P och Q är påståenden, inte tal."}]
   },
   {
     "kap": 2,
@@ -46742,7 +46745,7 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "bevismetoder"
     ],
-    "alternativ": [{"txt": "Beviset måste börja om.", "ratt": false}, {"txt": "Talet är 0.", "ratt": false}, {"txt": "Påståendet är bara ungefär sant.", "ratt": false}, {"txt": "Antagandet har lett till en motsägelse.", "ratt": true}]
+    "alternativ": [{"txt": "Beviset måste börja om.", "ratt": false, "kommentar": "Beviset är klart. Motsägelsen visar att antagandet var falskt."}, {"txt": "Talet är 0.", "ratt": false, "kommentar": "Talet 0 är jämnt men inte udda."}, {"txt": "Påståendet är bara ungefär sant.", "ratt": false, "kommentar": "Ett bevis visar att något är sant. Det finns inget ”ungefär”."}, {"txt": "Antagandet har lett till en motsägelse.", "ratt": true}]
   },
   {
     "kap": 3,

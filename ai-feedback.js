@@ -193,8 +193,16 @@
 
   /* ---------------------------------------------------------------- rendering */
   // Modellens text: escapas och radbryts; KaTeX renderas efteråt med renderMath.
-  // Radbrytningar runt fristående formler \[ … \] tas bort: formeln blir ändå en egen rad, och <br> gav stora luckor.
-  const txt=s=>esc(String(s||"")).replace(/\s*\n\s*(?=\\\[)/g,"").replace(/(\\\])\s*\n\s*/g,"$1").replace(/\n/g,"<br>");
+  // KaTeX behöver hela formeln i samma textnod, även om modellen skickar den på flera rader.
+  function txt(s){
+    const delar=String(s||"").split(/(\\\[[\s\S]*?\\\]|\\\([\s\S]*?\\\)|\$\$[\s\S]*?\$\$)/g);
+    return delar.map((del,i)=>{
+      if(i%2) return esc(del);
+      if(/^(?:\\\]|\$\$)$/.test(delar[i-1]?.slice(-2))) del=del.replace(/^\s*\n\s*/,"");
+      if(/^(?:\\\[|\$\$)/.test(delar[i+1])) del=del.replace(/\s*\n\s*$/,"");
+      return esc(del).replace(/\r\n?|\n/g,"<br>");
+    }).join("");
+  }
   const KAMERA='<svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>';
 
   function bildruta(src,etikett,mal,i){

@@ -22,7 +22,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Punkten på enhetscirkeln har koordinaterna \\((\\cos v,\\sin v)\\). Använd en referensvinkel och kvadranten för tecknen.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -120,7 +120,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "spelIntro": "<p>Bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -151,7 +151,7 @@ window.BANKMATO2 = [
     "rättSvar": "1/2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -249,7 +249,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "spelIntro": "<p>Bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -347,7 +347,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "spelIntro": "<p>Bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -378,7 +378,7 @@ window.BANKMATO2 = [
     "rättSvar": "-sqrt(3)/2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -409,7 +409,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "enhetscirkeln_formler__symmetrier_och_periodicitet_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Spegling i y-axeln ger vinkeln \\(180^\\circ-v\\), och spegling i x-axeln ger \\(360^\\circ-v\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -506,7 +506,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_formler__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken. För b) och c): vad händer med sinus och cosinus vid speglingar i axlarna?</p>",
     "spelIntro": "<p>Vinkeln \\(\\alpha\\) ligger i andra kvadranten och \\(\\sin\\alpha=3/5\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"100.0\" y2=\"105.0\" stroke=\"#c0392b\" stroke-width=\"2.6\"/><line x1=\"100.0\" y1=\"105.0\" x2=\"100.0\" y2=\"180\" stroke=\"#c0392b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"100.0\" y1=\"105.0\" x2=\"200\" y2=\"105.0\" stroke=\"#c0392b\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 177.6 163.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"213\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">α</text><circle cx=\"100.0\" cy=\"105.0\" r=\"5\" fill=\"#24262b\"/><text x=\"84\" y=\"97\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"221\" y=\"111\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3/5</text></svg></div>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -537,7 +537,7 @@ window.BANKMATO2 = [
     "rättSvar": "-sqrt(2)/2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -577,7 +577,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Punkten på enhetscirkeln har koordinaterna \\((\\cos v,\\sin v)\\). Använd en referensvinkel och kvadranten för tecknen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Punkten \\(P\\) ligger på enhetscirkeln och motsvarar vinkeln \\(120^\\circ\\).</p><span class=\"fig\"><svg aria-label=\"Enhetscirkel med en radie till vinkeln 120 grader\" height=\"265\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 390 265\" width=\"390\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"263\" rx=\"10\" stroke=\"#E4E3E6\" width=\"388\" x=\"1\" y=\"1\"></rect>\n<circle cx=\"190\" cy=\"135\" fill=\"none\" r=\"82\" stroke=\"#2B2527\" stroke-width=\"2\"></circle>\n<line stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"60\" x2=\"330\" y1=\"135\" y2=\"135\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"190\" x2=\"190\" y1=\"35\" y2=\"235\"></line>\n<line stroke=\"#268FA3\" stroke-width=\"2.5\" x1=\"190\" x2=\"149.0\" y1=\"135\" y2=\"64.0\"></line>\n<line stroke=\"#268FA3\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"149.0\" x2=\"149.0\" y1=\"64.0\" y2=\"135\"></line>\n<line stroke=\"#268FA3\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"149.0\" x2=\"190\" y1=\"64.0\" y2=\"64.0\"></line>\n<circle cx=\"149.0\" cy=\"64.0\" fill=\"#268FA3\" r=\"5\"></circle>\n<path d=\"M 220 135 A 30 30 0 0 0 175.0 109.0\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.5\"></path>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"12\" x=\"202\" y=\"114\">120°</text>\n<text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"13\" text-anchor=\"end\" x=\"141.0\" y=\"54.0\">P</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"333\" y=\"128\">x</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"198\" y=\"42\">y</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" x=\"279\" y=\"152\">1</text>\n</svg></span>",
     "spelDelar": [
@@ -705,7 +705,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_formler__symmetrier_och_periodicitet_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Rita vinklarna x, \\(180^\\circ-x\\) och \\(-x\\) i enhetscirkeln. Vilka koordinater är lika och vilka byter tecken?</p>",
     "spelIntro": "<p>Förenkla med hjälp av symmetrier i enhetscirkeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -736,7 +736,7 @@ window.BANKMATO2 = [
     "rättSvar": "-1",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -834,7 +834,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_formler__symmetrier_och_periodicitet_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "spelIntro": "<p>Använd symmetrier i enhetscirkeln och bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -865,7 +865,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Punkten på enhetscirkeln har koordinaterna \\((\\cos v,\\sin v)\\). Använd en referensvinkel och kvadranten för tecknen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -895,7 +895,7 @@ window.BANKMATO2 = [
     "rättSvar": "sqrt(3)/2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -979,7 +979,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "spelIntro": "<p>Bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -1077,7 +1077,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "spelIntro": "<p>Bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -1108,7 +1108,7 @@ window.BANKMATO2 = [
     "rättSvar": "-sqrt(3)/2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -1178,7 +1178,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_formler__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Punktens koordinater är \\((\\cos v,\\sin v)\\). Vilken vinkel i andra kvadranten har \\(\\sin v=1/2\\)?</p>",
     "spelIntro": "<p>Punkten \\(P\\) ligger på enhetscirkeln och har koordinaterna</p><p>\\[P=\\left(-\\frac{\\sqrt3}{2},\\frac12\\right).\\]</p><p>Låt \\(v\\) vara vinkeln från positiva x-axeln till \\(OP\\), där \\(0\\le v&lt;360^\\circ\\).</p><span class=\"fig\"><svg height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"358\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" x1=\"99.3\" x2=\"99.3\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"193.5\" x2=\"193.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"287.7\" x2=\"287.7\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"236.7\" y2=\"236.7\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"48.3\" y2=\"48.3\"></line>\n<circle cx=\"193.5\" cy=\"142.5\" fill=\"none\" r=\"94.2\" stroke=\"#2B2527\" stroke-width=\"2\"></circle>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"61.6\" x2=\"325.4\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"193.5\" x2=\"193.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<circle cx=\"111.9\" cy=\"95.4\" fill=\"#B43123\" r=\"4.5\"></circle>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"118.9\" y=\"88.4\">P</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"322.4\" y=\"135.5\">x</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"200.5\" y=\"32.0\">y</text>\n</svg></span>",
     "svarEnhet": [
       "°",
@@ -1266,7 +1266,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_formler__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken. \\(\\sin(180^\\circ-v)=\\sin v\\), och \\(\\tan(360^\\circ-v)=-\\tan v\\).</p>",
     "spelIntro": "<p>För vinkeln \\(v\\) gäller \\(\\sin v=3/5\\) och \\(90^\\circ&lt;v&lt;180^\\circ\\).</p><div class=\"fig smal\"><svg width=\"400\" height=\"360\" viewBox=\"0 0 400 360\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkeln med punkten P\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"180\" x2=\"355\" y2=\"180\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M363 180 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"200\" y1=\"335\" x2=\"200\" y2=\"30\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M200 22 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"355\" y=\"172\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">x</text><text x=\"214\" y=\"33\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">y</text><circle cx=\"200\" cy=\"180\" r=\"125\" fill=\"none\" stroke=\"#6b7280\" stroke-width=\"1.8\"/><text x=\"333\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"61\" y=\"200\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><text x=\"188\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">1</text><text x=\"184\" y=\"309\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">−1</text><line x1=\"200\" y1=\"180\" x2=\"100.0\" y2=\"105.0\" stroke=\"#2e7d52\" stroke-width=\"2.6\"/><line x1=\"100.0\" y1=\"105.0\" x2=\"100.0\" y2=\"180\" stroke=\"#2e7d52\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"100.0\" y1=\"105.0\" x2=\"200\" y2=\"105.0\" stroke=\"#2e7d52\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><path d=\"M228 180 A28 28 0 0 0 177.6 163.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"213\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\" font-style=\"italic\">v</text><circle cx=\"100.0\" cy=\"105.0\" r=\"5\" fill=\"#24262b\"/><text x=\"84\" y=\"97\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"16\">P</text><text x=\"221\" y=\"111\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3/5</text></svg></div>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -1297,7 +1297,7 @@ window.BANKMATO2 = [
     "rättSvar": "-sqrt(2)/2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -1328,7 +1328,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "enhetscirkeln_formler__symmetrier_och_periodicitet_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>\\(140^\\circ=180^\\circ-40^\\circ\\). Vad händer med sinus och cosinus när en vinkel speglas i y-axeln?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -1457,7 +1457,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "spelIntro": "<p>Bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -1488,7 +1488,7 @@ window.BANKMATO2 = [
     "rättSvar": "-sqrt(3)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -1548,7 +1548,7 @@ window.BANKMATO2 = [
       "d"
     ],
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Sinus är positiv i första och andra kvadranten, cosinus i första och fjärde och tangens i första och tredje.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -1689,7 +1689,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_formler__symmetrier_och_periodicitet_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd spegling i enhetscirkeln och att sinus och cosinus har perioden \\(360^\\circ\\) medan tangens har \\(180^\\circ\\).</p>",
     "spelIntro": "<p>Förenkla med hjälp av symmetrier och funktionernas perioder.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -1720,7 +1720,7 @@ window.BANKMATO2 = [
     "rättSvar": 150,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Rita punkten i enhetscirkeln. Vilken referensvinkel ger koordinaterna, och i vilken kvadrant ligger punkten?</p>",
     "svarFormat": "grader",
     "svarEnhet": "°",
     "traningsniva": 2,
@@ -1819,7 +1819,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet. \\(\\sin(-v)=-\\sin v\\).</p>",
     "spelIntro": "<p>Bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -1903,7 +1903,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Punkten på enhetscirkeln har koordinaterna \\((\\cos v,\\sin v)\\). Använd en referensvinkel och kvadranten för tecknen.</p>",
     "spelIntro": "<p>Bestäm koordinaterna för punkten på enhetscirkeln som motsvarar vinkeln</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -1934,7 +1934,7 @@ window.BANKMATO2 = [
     "rättSvar": 240,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Rita punkten i enhetscirkeln. Vilken referensvinkel ger koordinaterna, och i vilken kvadrant ligger punkten?</p>",
     "svarFormat": "grader",
     "svarEnhet": "°",
     "traningsniva": 2,
@@ -1975,7 +1975,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "enhetscirkeln_formler__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Punkten ligger på enhetscirkeln, så \\(x^2+y^2=1\\). I tredje kvadranten är y negativ. \\(\\tan v=y/x\\).</p>",
     "svarFormat": [
       "uttryck",
       "uttryck"
@@ -2036,7 +2036,7 @@ window.BANKMATO2 = [
     "rättSvar": 315,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Rita punkten i enhetscirkeln. Vilken referensvinkel ger koordinaterna, och i vilken kvadrant ligger punkten?</p>",
     "svarFormat": "grader",
     "svarEnhet": "°",
     "traningsniva": 2,
@@ -2077,7 +2077,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "enhetscirkeln_formler__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken. Använd sedan formlerna för dubbla vinkeln.</p>",
     "svarFormat": [
       "uttryck",
       "uttryck"
@@ -2151,7 +2151,7 @@ window.BANKMATO2 = [
       "uttryck"
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
@@ -2208,7 +2208,7 @@ window.BANKMATO2 = [
     "rättSvar": 270,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Var på enhetscirkeln ligger punkten \\((0,-1)\\)?</p>",
     "svarFormat": "grader",
     "svarEnhet": "°",
     "traningsniva": 1,
@@ -2307,7 +2307,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "spelIntro": "<p>Bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -2347,7 +2347,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Punkten ligger på enhetscirkeln, så \\(x^2+y^2=1\\). I tredje kvadranten är x negativ. \\(\\tan v=y/x\\).</p>",
     "svarFormat": [
       "uttryck",
       "uttryck"
@@ -2511,7 +2511,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Sinus är positiv i första och andra kvadranten, cosinus i första och fjärde och tangens i första och tredje.</p>",
     "spelIntro": "<p>Avgör utan räknare om uttrycken är positiva eller negativa.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -2609,7 +2609,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "spelIntro": "<p>Bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -2640,7 +2640,7 @@ window.BANKMATO2 = [
     "rättSvar": "-12/13",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -2680,7 +2680,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "enhetscirkeln_formler__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Punkten ligger på enhetscirkeln, så \\(x^2+y^2=1\\). I fjärde kvadranten är y negativ.</p>",
     "svarFormat": [
       "uttryck",
       "uttryck"
@@ -2808,7 +2808,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "enhetscirkeln_trianglar__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "spelIntro": "<p>Bestäm exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -2839,7 +2839,7 @@ window.BANKMATO2 = [
     "rättSvar": "-15/17",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -2871,7 +2871,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln_formler__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken. Sedan är \\(\\tan\\alpha=\\sin\\alpha/\\cos\\alpha\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -2900,7 +2900,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>x-koordinaten är \\(\\cos210^\\circ\\). Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -2951,7 +2951,7 @@ window.BANKMATO2 = [
     "rättSvar": "24/25",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -2982,7 +2982,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln_formler__symmetrier_och_periodicitet_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>\\(\\sin(-v)=-\\sin v\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -3012,7 +3012,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln_formler__symmetrier_och_periodicitet_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Cosinus har perioden \\(360^\\circ\\), så \\(\\cos390^\\circ=\\cos30^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -3042,7 +3042,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Punkten för \\(180^\\circ-v\\) är spegelbilden av punkten för v i y-axeln.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -3105,7 +3105,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln_formler__symmetrier_och_periodicitet_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Sinus har perioden \\(360^\\circ\\). Dra bort hela varv från \\(750^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -3135,7 +3135,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln_formler__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -3165,7 +3165,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Pröva med en pythagoreisk trippel, till exempel 3, 4, 5, och dela med hypotenusan.</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -3196,7 +3196,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln_formler__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -3226,7 +3226,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln_formler__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken. Sedan är \\(\\tan v=\\sin v/\\cos v\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -3289,7 +3289,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>\\(|\\sin v|=|\\cos v|\\) betyder att punkten ligger lika långt från båda axlarna. Var händer det på enhetscirkeln?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -3320,7 +3320,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>x-koordinaten är \\(\\cos120^\\circ\\). Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -3350,7 +3350,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>y-koordinaten är \\(\\sin225^\\circ\\). Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -3380,7 +3380,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken. Sedan är \\(\\sin2v=2\\sin v\\cos v\\). Vilka tecken har sinus och cosinus i första kvadranten?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -3444,7 +3444,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "ledtrad": "<p>x-koordinaten är \\(\\cos300^\\circ\\). Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -3871,7 +3871,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "dubbla_vinkeln__visa_och_forenkla_med_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv \\(3x=2x+x\\) och \\(x=2x-x\\) och använd additionsformlerna. Bryt sedan ut \\(\\sin2x\\) i ekvationen.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -3970,7 +3970,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd \\(\\sin(a\\pm b)=\\sin a\\cos b\\pm\\cos a\\sin b\\) och \\(\\cos(a\\pm b)=\\cos a\\cos b\\mp\\sin a\\sin b\\).</p>",
     "spelIntro": "<p>Utveckla uttrycket.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -4067,7 +4067,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2x+\\cos^2x=1\\), för att byta ut delar av uttrycken.</p>",
     "spelIntro": "<p>Förenkla så långt som möjligt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -4101,7 +4101,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "dubbla_vinkeln__visa_och_forenkla_med_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\), och förkorta.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -4201,7 +4201,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv vinklarna som summor eller skillnader av \\(30^\\circ\\), \\(45^\\circ\\) och \\(60^\\circ\\), till exempel \\(75^\\circ=45^\\circ+30^\\circ\\).</p>",
     "spelIntro": "<p>Bestäm exakt med additions- eller subtraktionsformler.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -4243,7 +4243,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken. \\(\\tan v=\\sin v/\\cos v\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För vinkeln \\(v\\) gäller \\(\\sin v=\\frac35\\).</p>",
     "spelDelar": [
@@ -4354,7 +4354,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken. Använd sedan \\(\\sin2v=2\\sin v\\cos v\\) och additionsformeln för cosinus.</p>",
     "spelIntro": "<p>För vinkeln \\(v\\) gäller</p><p>\\[ \\cos v=-\\frac35,\\qquad 90^\\circ&lt;v&lt;180^\\circ. \\]</p><p>Bestäm exakt</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -4451,7 +4451,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken.</p>",
     "spelIntro": "<p>Bestäm det saknade trigonometriska värdet exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -4534,7 +4534,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv vinklarna som summor eller skillnader av \\(30^\\circ\\), \\(45^\\circ\\) och \\(60^\\circ\\), till exempel \\(75^\\circ=45^\\circ+30^\\circ\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm exakt med additions- eller subtraktionsformler.</p>",
     "spelDelar": [
@@ -4716,7 +4716,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv vinklarna som summor eller skillnader av \\(30^\\circ\\), \\(45^\\circ\\) och \\(60^\\circ\\), till exempel \\(75^\\circ=45^\\circ+30^\\circ\\). \\(105^\\circ=60^\\circ+45^\\circ\\).</p>",
     "spelIntro": "<p>Bestäm exakt med additions- eller subtraktionsformler.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -4758,7 +4758,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv vinklarna som summor eller skillnader av \\(30^\\circ\\), \\(45^\\circ\\) och \\(60^\\circ\\), till exempel \\(75^\\circ=45^\\circ+30^\\circ\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beräkna exakt med additions- eller subtraktionsformler.</p>",
     "spelDelar": [
@@ -4830,7 +4830,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "dubbla_vinkeln__visa_och_forenkla_med_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\), och förkorta.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -4864,7 +4864,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "additionsformler__visa_och_forenkla_med_additionsformler",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd \\(\\sin(a\\pm b)=\\sin a\\cos b\\pm\\cos a\\sin b\\) och \\(\\cos(a\\pm b)=\\cos a\\cos b\\mp\\sin a\\sin b\\). Termerna med \\(\\cos x\\) tar ut varandra.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -4897,7 +4897,7 @@ window.BANKMATO2 = [
     "rättSvar": "\\frac{\\sqrt6+\\sqrt2}{4}",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv vinklarna som summor eller skillnader av \\(30^\\circ\\), \\(45^\\circ\\) och \\(60^\\circ\\), till exempel \\(75^\\circ=45^\\circ+30^\\circ\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -4997,7 +4997,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd \\(\\sin(a\\pm b)=\\sin a\\cos b\\pm\\cos a\\sin b\\) och \\(\\cos(a\\pm b)=\\cos a\\cos b\\mp\\sin a\\sin b\\).</p>",
     "spelIntro": "<p>Utveckla.</p><p><small>I svarsrutan kan du skriva \\(\\sqrt{3}\\) som <strong>sqrt(3)</strong>. Skriv trigonometriska funktioner som <strong>sin(x)</strong> och <strong>cos(x)</strong>.</small></p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -5080,7 +5080,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv vinklarna som summor eller skillnader av \\(30^\\circ\\), \\(45^\\circ\\) och \\(60^\\circ\\), till exempel \\(75^\\circ=45^\\circ+30^\\circ\\).</p>",
     "spelIntro": "<p>Bestäm exakt med additions- eller subtraktionsformler.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -5144,7 +5144,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Förläng vänsterledet med \\(1-\\cos x\\) och använd trigonometriska ettan i nämnaren. Vilka x gör någon nämnare noll?</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -5244,7 +5244,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "dubbla_vinkeln__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Formlerna för dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=2\\cos^2x-1=1-2\\sin^2x\\).</p>",
     "spelIntro": "<p>Förenkla med formler för dubbla vinkeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -5327,7 +5327,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "dubbla_vinkeln__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Formlerna för dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=2\\cos^2x-1=1-2\\sin^2x\\). \\(\\tan2x=\\sin2x/\\cos2x\\).</p>",
     "spelIntro": "<p>Det gäller att \\(\\sin x=\\frac{5}{13}\\) och \\(\\cos x=\\frac{12}{13}\\).</p><p>Bestäm exakt</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -5424,7 +5424,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken.</p>",
     "spelIntro": "<p>Använd trigonometriska ettan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -5458,7 +5458,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "dubbla_vinkeln__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Kvadrera båda leden. Då får du \\(\\sin^2x+2\\sin x\\cos x+\\cos^2x\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -5488,7 +5488,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "dubbla_vinkeln__visa_och_forenkla_med_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv \\(\\sin v=2\\sin\\frac v2\\cos\\frac v2\\) och \\(1+\\cos v=2\\cos^2\\frac v2\\).</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -5587,7 +5587,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "dubbla_vinkeln__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Formlerna för dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=2\\cos^2x-1=1-2\\sin^2x\\).</p>",
     "spelIntro": "<p>Skriv om med formler för dubbla vinkeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -5651,7 +5651,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "dubbla_vinkeln__visa_och_forenkla_med_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv \\(\\sin4x=2\\sin2x\\cos2x\\) och bryt ut \\(2\\sin2x\\).</p>",
     "spel": false,
     "traningsniva": 5,
     "arbetsinsats": 3,
@@ -5693,7 +5693,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "dubbla_vinkeln__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Rita en rätvinklig triangel med kateterna 1 och 2. Läs av \\(\\sin v\\) och \\(\\cos v\\) och använd formlerna för dubbla vinkeln.</p>",
     "svarFormat": [
       "uttryck",
       "uttryck"
@@ -5754,7 +5754,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Täljaren är \\(\\cos^2x\\) enligt trigonometriska ettan. Uttrycket är inte definierat där \\(\\cos x=0\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -5804,7 +5804,7 @@ window.BANKMATO2 = [
       "b"
     ],
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv vinklarna som summor eller skillnader av \\(30^\\circ\\), \\(45^\\circ\\) och \\(60^\\circ\\), till exempel \\(75^\\circ=45^\\circ+30^\\circ\\). \\(\\sin15^\\circ=\\cos75^\\circ\\), eftersom vinklarna tillsammans är \\(90^\\circ\\).</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -5856,7 +5856,7 @@ window.BANKMATO2 = [
     "rättSvar": "7/25",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd \\(\\cos2v=1-2\\sin^2v\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -5890,7 +5890,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "dubbla_vinkeln__visa_och_forenkla_med_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\), och förkorta.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -5924,7 +5924,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "dubbla_vinkeln__visa_och_forenkla_med_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv \\(3x=2x+x\\) och \\(x=2x-x\\) och använd additionsformlerna i både täljare och nämnare.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -5957,7 +5957,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "dubbla_vinkeln__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Rita en rätvinklig triangel med kateterna 1 och 2. Läs av \\(\\sin v\\) och \\(\\cos v\\) och använd \\(\\sin2v=2\\sin v\\cos v\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -6439,7 +6439,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2x+\\cos^2x=1\\), för att byta ut delar av uttrycken.</p>",
     "spelIntro": "<p>Förenkla.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -6574,7 +6574,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken.</p>",
     "spelIntro": "<p>Bestäm det saknade värdet. Använd kvadranten för att avgöra om värdet är positivt eller negativt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -6613,7 +6613,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd",
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2v+\\cos^2v=1\\), och kvadranten för att välja tecken. Bestäm \\(\\cos a\\) och \\(\\sin b\\) och använd \\(\\cos(a+b)=\\cos a\\cos b-\\sin a\\sin b\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -6868,7 +6868,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\), och förkorta.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -6954,7 +6954,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "dubbla_vinkeln__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Formlerna för dubbla vinkeln: \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=2\\cos^2x-1=1-2\\sin^2x\\).</p>",
     "spelIntro": "<p>Förenkla med formler för dubbla vinkeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -7406,7 +7406,7 @@ window.BANKMATO2 = [
     "rättSvar": "sqrt(3)/2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Uttrycket har formen \\(\\sin a\\cos b-\\cos a\\sin b=\\sin(a-b)\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -7814,7 +7814,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "additionsformler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd \\(\\sin(a+b)=\\sin a\\cos b+\\cos a\\sin b\\) med \\(\\cos90^\\circ=0\\) och \\(\\sin90^\\circ=1\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -7912,7 +7912,7 @@ window.BANKMATO2 = [
     "rättSvar": "-4/3",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd \\(\\tan2x=\\frac{2\\tan x}{1-\\tan^2x}\\), eller bestäm \\(\\sin2x\\) och \\(\\cos2x\\) först.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -8080,7 +8080,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "dubbla_vinkeln__visa_och_forenkla_med_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan och formeln för \\(\\sin2x\\).</p>",
     "spelIntro": "<p>Förenkla.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -8349,7 +8349,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "dubbla_vinkeln__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>\\(2v=60^\\circ\\). Vilket exakt värde har \\(\\sin60^\\circ\\)?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -8379,7 +8379,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "dubbla_vinkeln__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>\\(2v=45^\\circ\\). Vilket exakt värde har \\(\\cos45^\\circ\\)?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -8409,7 +8409,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "dubbla_vinkeln__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>\\(2v=150^\\circ\\). Använd en referensvinkel på \\(30^\\circ\\), \\(45^\\circ\\) eller \\(60^\\circ\\) och kvadranten för att avgöra tecknet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -16849,7 +16849,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "asinx_bcosx__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
+    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\) och jämför koefficienterna. Då är \\(R=\\sqrt{a^2+b^2}\\).</p>",
     "spelIntro": "<p>Bestäm \\(R\\) och \\(v\\) så att uttrycket kan skrivas \\(R\\sin(x+v)\\), där \\(R&gt;0\\). Vinklarna \\(x\\) och \\(v\\) mäts i grader och \\(-90^\\circ&lt;v&lt;90^\\circ\\).</p><p>Ange \\(R\\) exakt och \\(v\\) med en decimal.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
@@ -17681,7 +17681,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "asinx_bcosx__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
+    "ledtrad": "<p>Skriv vänsterledet som \\(R\\sin(x+v)\\) med \\(R=\\sqrt{a^2+16}\\). Ekvationen har en lösning om \\(R\\ge5\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -18238,7 +18238,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "asinx_bcosx__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
+    "ledtrad": "<p>Skriv \\(5\\sin x-12\\cos x\\) som \\(R\\sin(x+v)\\). Uttrycket varierar då mellan \\(-R\\) och R.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -18431,7 +18431,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "asinx_bcosx__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
+    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\) och jämför koefficienterna. Då är \\(R=\\sqrt{a^2+b^2}\\).</p>",
     "spelIntro": "<p>Bestäm \\(R\\) och \\(v\\) så att uttrycket kan skrivas \\(R\\sin(x+v)\\), där \\(R&gt;0\\). Vinklarna \\(x\\) och \\(v\\) mäts i grader och \\(-90^\\circ&lt;v&lt;90^\\circ\\).</p><p>Ange \\(R\\) exakt och \\(v\\) med en decimal.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
@@ -21141,7 +21141,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Omvandla.</p>",
     "spelDelar": [
@@ -21234,7 +21234,7 @@ window.BANKMATO2 = [
     "rättSvar": "pi/12",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -21791,7 +21791,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är båglängden \\(b=rv\\). Sektorns area är \\(A=\\frac{r^2v}{2}\\).</p>",
     "spelIntro": "<p>En cirkelsektor har radien 6 cm och medelpunktsvinkeln 1,2 radianer.</p><span class=\"fig\"><svg aria-label=\"Cirkel med radie 6 och medelpunktsvinkel 1,2 radianer\" height=\"260\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 420 260\" width=\"420\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"258\" rx=\"10\" stroke=\"#E4E3E6\" width=\"418\" x=\"1\" y=\"1\"></rect>\n<circle cx=\"165\" cy=\"142\" fill=\"none\" r=\"82\" stroke=\"#2B2527\" stroke-width=\"2\"></circle>\n<path d=\"M165 142 L247 142 A82 82 0 0 0 194.7 65.6 Z\" fill=\"#DCEFF2\" stroke=\"#268FA3\" stroke-width=\"1.5\"></path>\n<line stroke=\"#B43123\" stroke-width=\"2\" x1=\"165\" x2=\"247\" y1=\"142\" y2=\"142\"></line>\n<line stroke=\"#B43123\" stroke-width=\"2\" x1=\"165\" x2=\"194.7\" y1=\"142\" y2=\"65.6\"></line>\n<path d=\"M200 142 A35 35 0 0 0 177.7 109.4\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.5\"></path>\n<text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"13\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"202\" y=\"124\">1,2 rad</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"13\" x=\"202\" y=\"124\">1,2 rad</text>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"13\" x=\"205\" y=\"158\">6 cm</text>\n<text font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"165\" y=\"146\">O</text>\n</svg></span>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -21919,7 +21919,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "spelIntro": "<p>Omvandla mellan grader och radianer.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -22188,7 +22188,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är båglängden \\(b=rv\\). Sektorns area är \\(A=\\frac{r^2v}{2}\\). I c) löser du ut v ur \\(b=rv\\).</p>",
     "spelIntro": "<p>Använd radianmått.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -22218,7 +22218,7 @@ window.BANKMATO2 = [
     "rättSvar": 126,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -22315,7 +22315,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "spelIntro": "<p>Skriv i radianer.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -22425,7 +22425,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är båglängden \\(b=rv\\). Sektorns area är \\(A=\\frac{r^2v}{2}\\).</p>",
     "spelIntro": "<p>En cirkel har radien 12 cm och sektorvinkeln är \\(\\frac{5\\pi}{6}\\) rad.</p><div class=\"fig smal\"><svg width=\"440\" height=\"330\" viewBox=\"0 0 440 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En cirkelsektor\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M220.0 245.0 L364.9 206.2 A150 150 0 0 0 75.1 206.2 Z\" fill=\"#f8dcd8\" stroke=\"#24262b\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><path d=\"M364.9 206.2 A150 150 0 0 0 75.1 206.2\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"4.5\"/><circle cx=\"220.0\" cy=\"245.0\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M249.0 237.2 A30 30 0 0 0 191.0 237.2\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"220\" y=\"195\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5π/6</text><text x=\"300\" y=\"261\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12 cm</text><text x=\"220\" y=\"83\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">b</text><text x=\"220\" y=\"137\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">A</text></svg></div>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -22553,7 +22553,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "spelIntro": "<p>Omvandla.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -22658,7 +22658,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är båglängden \\(b=rv\\). Sektorns area är \\(A=\\frac{r^2v}{2}\\).</p>",
     "spelIntro": "<p>En cirkel har radien 9,0 cm och en cirkelsektor har medelpunktsvinkeln \\(1{,}4\\) rad.</p><div class=\"fig smal\"><svg width=\"440\" height=\"330\" viewBox=\"0 0 440 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En cirkelsektor\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M191.6 245.0 L313.6 157.7 A150 150 0 0 0 126.4 109.9 Z\" fill=\"#dbe8f7\" stroke=\"#24262b\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><path d=\"M313.6 157.7 A150 150 0 0 0 126.4 109.9\" fill=\"none\" stroke=\"#2b6cb0\" stroke-width=\"4.5\"/><circle cx=\"191.6\" cy=\"245.0\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M216.0 227.5 A30 30 0 0 0 178.6 218.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"207\" y=\"191\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">1,4 rad</text><text x=\"272\" y=\"235\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">9,0 cm</text><text x=\"233\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">b</text><text x=\"220\" y=\"141\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">A</text></svg></div>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -22793,7 +22793,7 @@ window.BANKMATO2 = [
     "rättSvar": 4.8,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är båglängden \\(b=rv\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -22824,7 +22824,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -22885,7 +22885,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -22947,7 +22947,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -23008,7 +23008,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -23175,7 +23175,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är sektorns area \\(A=\\frac{r^2v}{2}\\). Lös ut v.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -23205,7 +23205,7 @@ window.BANKMATO2 = [
     "rättSvar": 18.849556,
     "tolerans": 0.05,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är sektorns area \\(A=\\frac{r^2v}{2}\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -23236,7 +23236,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -23395,7 +23395,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
-    "ledtrad": "<p>Från grader till radianer multiplicerar du med \\(\\pi/180\\). Åt andra hållet multiplicerar du med \\(180/\\pi\\).</p>",
+    "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "spelIntro": "<p>Omvandla.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -23496,7 +23496,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Vinkeln är \\(v=b/r\\). Arean är sedan \\(A=\\frac{r^2v}{2}\\).</p>",
     "spelIntro": "<p>En cirkelsektor har radien 9,0 cm och båglängden 12,0 cm.</p><div class=\"fig smal\"><svg width=\"440\" height=\"330\" viewBox=\"0 0 440 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En cirkelsektor\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><path d=\"M190.8 245.0 L309.9 153.7 A150 150 0 0 0 130.1 107.8 Z\" fill=\"#fbe6cc\" stroke=\"#24262b\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><path d=\"M309.9 153.7 A150 150 0 0 0 130.1 107.8\" fill=\"none\" stroke=\"#d9822b\" stroke-width=\"4.5\"/><circle cx=\"190.8\" cy=\"245.0\" r=\"3.5\" fill=\"#24262b\"/><path d=\"M214.6 226.7 A30 30 0 0 0 178.7 217.6\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.5\"/><text x=\"203\" y=\"203\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">?</text><text x=\"271\" y=\"232\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">9,0 cm</text><text x=\"234\" y=\"84\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">12,0 cm</text><text x=\"219\" y=\"141\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">A</text></svg></div>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -23527,7 +23527,7 @@ window.BANKMATO2 = [
     "rättSvar": 1.308997,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Ett varv är omkretsen \\(2\\pi r\\). Farten är sträckan delad med tiden.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -23624,7 +23624,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är båglängden \\(b=rv\\).</p>",
     "spelIntro": "<p>Bestäm båglängden \\(b\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -23687,7 +23687,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är sektorns area \\(A=\\frac{r^2v}{2}\\). Lös ut v.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -23821,7 +23821,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är båglängden \\(b=rv\\).</p>",
     "spelIntro": "<p>En cirkel har radien 10 cm. Bestäm båglängden för vinkeln</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -23852,7 +23852,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>En radian definieras som den vinkel där båglängden är lika med radien.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -23955,7 +23955,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Med vinkeln v i radianer är sektorns area \\(A=\\frac{r^2v}{2}\\).</p>",
     "spelIntro": "<p>En cirkel har radien 7 cm. Bestäm sektorarean när vinkeln är</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -23986,7 +23986,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Båglängden \\(b=rv\\) och arean \\(A=\\frac{r^2v}{2}\\) är båda proportionella mot v när r är densamma.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -24702,7 +24702,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_problemlosning_2__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Största värdet är medellinjen plus amplituden och minsta värdet medellinjen minus amplituden. För b) löser du \\(h(t)=\\) den givna höjden och tittar på perioden.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ett pariserhjuls gondolhöjd kan modelleras med</p><p>\\[ h(t)=22+18\\sin\\left(\\frac{\\pi}{20}t-\\frac{\\pi}{2}\\right), \\]</p><p>där \\(h\\) mäts i meter och \\(t\\) i minuter efter att gondolen startar i sitt lägsta läge.</p><span class=\"fig\"><svg aria-label=\"Pariserhjul vars lägsta punkt ligger 4 m över marken och högsta punkt 40 m över marken\" height=\"320\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 430 320\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"318\" rx=\"10\" stroke=\"#E4E3E6\" width=\"428\" x=\"1\" y=\"1\"></rect><line stroke=\"#2B2527\" stroke-width=\"2.2\" x1=\"40.0\" x2=\"390.0\" y1=\"275.0\" y2=\"275.0\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"175.0\" y=\"293.0\">marknivå</text><circle cx=\"175.0\" cy=\"143.0\" fill=\"none\" r=\"108.0\" stroke=\"#2B2527\" stroke-width=\"2.2\"></circle><circle cx=\"175.0\" cy=\"143.0\" fill=\"#2B2527\" r=\"4\"></circle><line stroke=\"#268FA3\" stroke-width=\"1.8\" x1=\"175.0\" x2=\"251.7\" y1=\"143.0\" y2=\"66.3\"></line><rect fill=\"#fff\" height=\"12\" rx=\"4\" stroke=\"#268FA3\" stroke-width=\"1.6\" width=\"18\" x=\"242.7\" y=\"59.3\"></rect><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"340.0\" x2=\"340.0\" y1=\"275.0\" y2=\"35.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"335.0\" x2=\"345.0\" y1=\"35.0\" y2=\"35.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"335.0\" x2=\"345.0\" y1=\"275.0\" y2=\"275.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" x=\"349.0\" y=\"159.0\">40 m</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" x=\"349.0\" y=\"159.0\">40 m</text><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"300.0\" x2=\"300.0\" y1=\"275.0\" y2=\"251.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"295.0\" x2=\"305.0\" y1=\"251.0\" y2=\"251.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"295.0\" x2=\"305.0\" y1=\"275.0\" y2=\"275.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" x=\"309.0\" y=\"267.0\">4 m</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" x=\"309.0\" y=\"267.0\">4 m</text><line stroke=\"#9A9AA0\" stroke-dasharray=\"4 4\" stroke-width=\"1\" x1=\"283.0\" x2=\"340.0\" y1=\"35.0\" y2=\"35.0\"></line><line stroke=\"#9A9AA0\" stroke-dasharray=\"4 4\" stroke-width=\"1\" x1=\"175.0\" x2=\"300.0\" y1=\"251.0\" y2=\"251.0\"></line></svg></span>",
     "spelDelar": [
@@ -24769,7 +24769,7 @@ window.BANKMATO2 = [
     "rättSvar": 16,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Största värdet är medellinjen plus amplituden och minsta värdet medellinjen minus amplituden.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -24811,7 +24811,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_problemlosning_2__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Läs av största och minsta höjd och tiden för ett varv i grafen. Medellinjen ligger mitt emellan största och minsta värdet, och amplituden är halva skillnaden. k bestäms av perioden: \\(k=2\\pi/\\text{perioden}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen visar höjden för en stol på en roterande åkattraktion under ett varv.</p><span class=\"fig\"><svg height=\"250\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 450 250\" width=\"450\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"248\" rx=\"10\" stroke=\"#E4E3E6\" width=\"448\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"147.0\" x2=\"147.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"242.0\" x2=\"242.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"337.0\" x2=\"337.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"432.0\" x2=\"432.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"188.0\" y2=\"188.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"152.0\" y2=\"152.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"116.0\" y2=\"116.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"80.0\" y2=\"80.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"44.0\" y2=\"44.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52\" x2=\"432\" y1=\"212.0\" y2=\"212.0\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"52.0\" y=\"236\">0</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"147.0\" y=\"236\">3</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"242.0\" y=\"236\">6</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"337.0\" y=\"236\">9</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"432.0\" y=\"236\">12</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"192.0\">2</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"120.0\">8</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"48.0\">14</text>\n<path d=\"M52.0,116.0 L53.6,114.1 L55.2,112.2 L56.8,110.4 L58.3,108.5 L59.9,106.6 L61.5,104.7 L63.1,102.9 L64.7,101.0 L66.2,99.2 L67.8,97.4 L69.4,95.6 L71.0,93.8 L72.6,92.0 L74.2,90.2 L75.8,88.4 L77.3,86.7 L78.9,85.0 L80.5,83.3 L82.1,81.6 L83.7,80.0 L85.2,78.4 L86.8,76.8 L88.4,75.2 L90.0,73.7 L91.6,72.2 L93.2,70.7 L94.8,69.2 L96.3,67.8 L97.9,66.4 L99.5,65.1 L101.1,63.8 L102.7,62.5 L104.2,61.3 L105.8,60.0 L107.4,58.9 L109.0,57.8 L110.6,56.7 L112.2,55.6 L113.8,54.6 L115.3,53.6 L116.9,52.7 L118.5,51.8 L120.1,51.0 L121.7,50.2 L123.2,49.5 L124.8,48.8 L126.4,48.1 L128.0,47.5 L129.6,47.0 L131.2,46.5 L132.8,46.0 L134.3,45.6 L135.9,45.2 L137.5,44.9 L139.1,44.6 L140.7,44.4 L142.2,44.2 L143.8,44.1 L145.4,44.0 L147.0,44.0 L148.6,44.0 L150.2,44.1 L151.8,44.2 L153.3,44.4 L154.9,44.6 L156.5,44.9 L158.1,45.2 L159.7,45.6 L161.2,46.0 L162.8,46.5 L164.4,47.0 L166.0,47.5 L167.6,48.1 L169.2,48.8 L170.8,49.5 L172.3,50.2 L173.9,51.0 L175.5,51.8 L177.1,52.7 L178.7,53.6 L180.2,54.6 L181.8,55.6 L183.4,56.7 L185.0,57.8 L186.6,58.9 L188.2,60.0 L189.8,61.3 L191.3,62.5 L192.9,63.8 L194.5,65.1 L196.1,66.4 L197.7,67.8 L199.2,69.2 L200.8,70.7 L202.4,72.2 L204.0,73.7 L205.6,75.2 L207.2,76.8 L208.8,78.4 L210.3,80.0 L211.9,81.6 L213.5,83.3 L215.1,85.0 L216.7,86.7 L218.2,88.4 L219.8,90.2 L221.4,92.0 L223.0,93.8 L224.6,95.6 L226.2,97.4 L227.8,99.2 L229.3,101.0 L230.9,102.9 L232.5,104.7 L234.1,106.6 L235.7,108.5 L237.2,110.4 L238.8,112.2 L240.4,114.1 L242.0,116.0 L243.6,117.9 L245.2,119.8 L246.8,121.6 L248.3,123.5 L249.9,125.4 L251.5,127.3 L253.1,129.1 L254.7,131.0 L256.2,132.8 L257.8,134.6 L259.4,136.4 L261.0,138.2 L262.6,140.0 L264.2,141.8 L265.8,143.6 L267.3,145.3 L268.9,147.0 L270.5,148.7 L272.1,150.4 L273.7,152.0 L275.2,153.6 L276.8,155.2 L278.4,156.8 L280.0,158.3 L281.6,159.8 L283.2,161.3 L284.8,162.8 L286.3,164.2 L287.9,165.6 L289.5,166.9 L291.1,168.2 L292.7,169.5 L294.2,170.7 L295.8,172.0 L297.4,173.1 L299.0,174.2 L300.6,175.3 L302.2,176.4 L303.8,177.4 L305.3,178.4 L306.9,179.3 L308.5,180.2 L310.1,181.0 L311.7,181.8 L313.2,182.5 L314.8,183.2 L316.4,183.9 L318.0,184.5 L319.6,185.0 L321.2,185.5 L322.8,186.0 L324.3,186.4 L325.9,186.8 L327.5,187.1 L329.1,187.4 L330.7,187.6 L332.2,187.8 L333.8,187.9 L335.4,188.0 L337.0,188.0 L338.6,188.0 L340.2,187.9 L341.8,187.8 L343.3,187.6 L344.9,187.4 L346.5,187.1 L348.1,186.8 L349.7,186.4 L351.2,186.0 L352.8,185.5 L354.4,185.0 L356.0,184.5 L357.6,183.9 L359.2,183.2 L360.8,182.5 L362.3,181.8 L363.9,181.0 L365.5,180.2 L367.1,179.3 L368.7,178.4 L370.2,177.4 L371.8,176.4 L373.4,175.3 L375.0,174.2 L376.6,173.1 L378.2,172.0 L379.8,170.7 L381.3,169.5 L382.9,168.2 L384.5,166.9 L386.1,165.6 L387.7,164.2 L389.2,162.8 L390.8,161.3 L392.4,159.8 L394.0,158.3 L395.6,156.8 L397.2,155.2 L398.8,153.6 L400.3,152.0 L401.9,150.4 L403.5,148.7 L405.1,147.0 L406.7,145.3 L408.2,143.6 L409.8,141.8 L411.4,140.0 L413.0,138.2 L414.6,136.4 L416.2,134.6 L417.8,132.8 L419.3,131.0 L420.9,129.1 L422.5,127.3 L424.1,125.4 L425.7,123.5 L427.2,121.6 L428.8,119.8 L430.4,117.9 L432.0,116.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"></path>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"420\" y=\"225\">tid (s)</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" x=\"64\" y=\"32\">höjd (m)</text>\n</svg></span>",
     "spelDelar": [
@@ -24903,7 +24903,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan största och minsta värdet, och amplituden är halva skillnaden. k bestäms av perioden: \\(k=2\\pi/\\text{perioden}\\). Klockan 06.00 passerar modellen medellinjen uppåt, vilket bestämmer förskjutningen.</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -24967,7 +24967,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Rita den rätvinkliga triangeln med strålkastaren, väggen och avståndet till väggen. Vilken trigonometrisk kvot innehåller motstående och närliggande katet?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -25114,7 +25114,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Läs av största och minsta värde, perioden och var ett maximum ligger. Cosinus har sitt maximum där argumentet är 0.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En sensors höjd över ett golv varierar periodiskt. Grafen visar hur höjden varierar.</p><span class=\"fig\"><svg aria-label=\"Periodisk cosinuskurva med maximum 11 vid t 2, minimum 3 vid t 8 och nästa maximum vid t 14, samt streckad linje y lika med 9\" height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 520 300\" width=\"520\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"518\" x=\"1\" y=\"1\"></rect>\n<g stroke=\"#E3E7EB\" stroke-width=\"1\"><line x1=\"60\" x2=\"60\" y1=\"40\" y2=\"250\"></line><line x1=\"110\" x2=\"110\" y1=\"40\" y2=\"250\"></line><line x1=\"160\" x2=\"160\" y1=\"40\" y2=\"250\"></line><line x1=\"210\" x2=\"210\" y1=\"40\" y2=\"250\"></line><line x1=\"260\" x2=\"260\" y1=\"40\" y2=\"250\"></line><line x1=\"310\" x2=\"310\" y1=\"40\" y2=\"250\"></line><line x1=\"360\" x2=\"360\" y1=\"40\" y2=\"250\"></line><line x1=\"410\" x2=\"410\" y1=\"40\" y2=\"250\"></line><line x1=\"460\" x2=\"460\" y1=\"40\" y2=\"250\"></line><line x1=\"55\" x2=\"465\" y1=\"197\" y2=\"197\"></line><line x1=\"55\" x2=\"465\" y1=\"165\" y2=\"165\"></line><line x1=\"55\" x2=\"465\" y1=\"133\" y2=\"133\"></line><line x1=\"55\" x2=\"465\" y1=\"101\" y2=\"101\"></line><line x1=\"55\" x2=\"465\" y1=\"69\" y2=\"69\"></line></g>\n<line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"55\" x2=\"475\" y1=\"245\" y2=\"245\"></line><path d=\"M475 245 l-9 -5 v10 z\" fill=\"#2B2527\"></path>\n<line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"60\" x2=\"60\" y1=\"258\" y2=\"30\"></line><path d=\"M60 30 l-5 9 h10 z\" fill=\"#2B2527\"></path>\n<line stroke=\"#8A8F96\" stroke-dasharray=\"6 5\" stroke-width=\"1.4\" x1=\"60\" x2=\"460\" y1=\"101\" y2=\"101\"></line>\n<polyline fill=\"none\" points=\"60.0,101.0 62.5,98.1 65.0,95.4 67.5,92.7 70.0,90.2 72.5,87.7 75.0,85.4 77.5,83.3 80.0,81.2 82.5,79.3 85.0,77.6 87.5,76.0 90.0,74.5 92.5,73.3 95.0,72.1 97.5,71.2 100.0,70.4 102.5,69.8 105.0,69.4 107.5,69.1 110.0,69.0 112.5,69.1 115.0,69.4 117.5,69.8 120.0,70.4 122.5,71.2 125.0,72.1 127.5,73.3 130.0,74.5 132.5,76.0 135.0,77.6 137.5,79.3 140.0,81.2 142.5,83.3 145.0,85.4 147.5,87.7 150.0,90.2 152.5,92.7 155.0,95.4 157.5,98.1 160.0,101.0 162.5,103.9 165.0,107.0 167.5,110.1 170.0,113.2 172.5,116.4 175.0,119.7 177.5,123.0 180.0,126.3 182.5,129.7 185.0,133.0 187.5,136.3 190.0,139.7 192.5,143.0 195.0,146.3 197.5,149.6 200.0,152.8 202.5,155.9 205.0,159.0 207.5,162.1 210.0,165.0 212.5,167.9 215.0,170.6 217.5,173.3 220.0,175.8 222.5,178.3 225.0,180.6 227.5,182.7 230.0,184.8 232.5,186.7 235.0,188.4 237.5,190.0 240.0,191.5 242.5,192.7 245.0,193.9 247.5,194.8 250.0,195.6 252.5,196.2 255.0,196.6 257.5,196.9 260.0,197.0 262.5,196.9 265.0,196.6 267.5,196.2 270.0,195.6 272.5,194.8 275.0,193.9 277.5,192.7 280.0,191.5 282.5,190.0 285.0,188.4 287.5,186.7 290.0,184.8 292.5,182.7 295.0,180.6 297.5,178.3 300.0,175.8 302.5,173.3 305.0,170.6 307.5,167.9 310.0,165.0 312.5,162.1 315.0,159.0 317.5,155.9 320.0,152.8 322.5,149.6 325.0,146.3 327.5,143.0 330.0,139.7 332.5,136.3 335.0,133.0 337.5,129.7 340.0,126.3 342.5,123.0 345.0,119.7 347.5,116.4 350.0,113.2 352.5,110.1 355.0,107.0 357.5,103.9 360.0,101.0 362.5,98.1 365.0,95.4 367.5,92.7 370.0,90.2 372.5,87.7 375.0,85.4 377.5,83.3 380.0,81.2 382.5,79.3 385.0,77.6 387.5,76.0 390.0,74.5 392.5,73.3 395.0,72.1 397.5,71.2 400.0,70.4 402.5,69.8 405.0,69.4 407.5,69.1 410.0,69.0 412.5,69.1 415.0,69.4 417.5,69.8 420.0,70.4 422.5,71.2 425.0,72.1 427.5,73.3 430.0,74.5 432.5,76.0 435.0,77.6 437.5,79.3 440.0,81.2 442.5,83.3 445.0,85.4 447.5,87.7 450.0,90.2 452.5,92.7 455.0,95.4 457.5,98.1 460.0,101.0\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"3\"></polyline>\n<g fill=\"#B43123\"><circle cx=\"110\" cy=\"69\" r=\"4\"></circle><circle cx=\"260\" cy=\"197\" r=\"4\"></circle><circle cx=\"410\" cy=\"69\" r=\"4\"></circle></g>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"480\" y=\"249\">t (h)</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"68\" y=\"32\">h</text>\n<text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"110\" y=\"272\">2</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"260\" y=\"272\">8</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"410\" y=\"272\">14</text>\n<text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"43\" y=\"201\">3</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"43\" y=\"105\">9</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"43\" y=\"73\">11</text>\n</svg></span>",
     "spelDelar": [
@@ -25259,7 +25259,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "trig_problemlosning_2__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Rita grafen och den vågräta linjen. Läs av eller räkna ut skärningspunkterna och se var grafen ligger över linjen. Dela den tid bojen är över 2,20 m med perioden.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -25368,7 +25368,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "trig_problemlosning_2__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medelhöjden är lägsta punkten plus radien. Gondolen startar på medelhöjd uppåt, så en sinusmodell passar.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ett pariserhjul har diametern 32 m och dess lägsta punkt ligger 3 m över marken. Ett varv tar 40 s. Vid \\(t=0\\) befinner sig en gondol på medelhöjd och är på väg uppåt.</p><span class=\"fig\"><svg aria-label=\"Pariserhjul med diameter 32 meter och lägsta punkt 3 meter över marken\" height=\"285\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 430 285\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"283\" rx=\"10\" stroke=\"#E4E3E6\" width=\"428\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#2B2527\" stroke-width=\"2\" x1=\"45\" x2=\"390\" y1=\"248\" y2=\"248\"></line>\n<circle cx=\"210\" cy=\"135\" fill=\"none\" r=\"82\" stroke=\"#2B2527\" stroke-width=\"2.2\"></circle>\n<line stroke=\"#5C575E\" x1=\"210\" x2=\"210\" y1=\"135\" y2=\"217\"></line><line stroke=\"#5C575E\" x1=\"210\" x2=\"292\" y1=\"135\" y2=\"135\"></line><line stroke=\"#5C575E\" x1=\"210\" x2=\"210\" y1=\"135\" y2=\"53\"></line>\n<circle cx=\"292\" cy=\"135\" fill=\"#268FA3\" r=\"7\"></circle><text font-family=\"sans-serif\" font-size=\"12\" x=\"305\" y=\"139\">gondol vid t=0</text>\n<line stroke=\"#B43123\" x1=\"120\" x2=\"120\" y1=\"53\" y2=\"217\"></line><line stroke=\"#B43123\" x1=\"114\" x2=\"126\" y1=\"53\" y2=\"53\"></line><line stroke=\"#B43123\" x1=\"114\" x2=\"126\" y1=\"217\" y2=\"217\"></line><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"93\" y=\"139\">32 m</text>\n<line stroke=\"#268FA3\" x1=\"330\" x2=\"330\" y1=\"217\" y2=\"248\"></line><line stroke=\"#268FA3\" x1=\"324\" x2=\"336\" y1=\"217\" y2=\"217\"></line><line stroke=\"#268FA3\" x1=\"324\" x2=\"336\" y1=\"248\" y2=\"248\"></line><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" x=\"342\" y=\"236\">3 m</text>\n</svg></span>",
     "spelDelar": [
@@ -25461,7 +25461,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Rita den rätvinkliga triangeln med strålkastaren, väggen och avståndet till väggen. Vilken trigonometrisk kvot innehåller motstående och närliggande katet?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -25569,7 +25569,7 @@ window.BANKMATO2 = [
     "tolerans": 0.02,
     "självrättning": true,
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Rita båda modellerna och läs av var de skär varandra.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
     "traningsniva": 4,
@@ -25602,7 +25602,7 @@ window.BANKMATO2 = [
     "rättSvar": "f(t)=23-20\\cos(\\frac{2\\pi}{24}t)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan största och minsta värdet, och amplituden är halva skillnaden. k bestäms av perioden: \\(k=2\\pi/\\text{perioden}\\). Gondolen startar längst ned, så \\(-\\cos\\) passar.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -25643,7 +25643,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Rita grafen och den vågräta linjen. Läs av eller räkna ut skärningspunkterna och se var grafen ligger över linjen.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -25705,7 +25705,7 @@ window.BANKMATO2 = [
     "rättSvar": "f(t)=2.8-2\\cos(\\frac{2\\pi}{12}t)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan största och minsta värdet, och amplituden är halva skillnaden. k bestäms av perioden: \\(k=2\\pi/\\text{perioden}\\). Nivån är lägst vid \\(t=0\\), så \\(-\\cos\\) passar.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -25747,7 +25747,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "trig_problemlosning_2__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Läs av största och minsta höjd, perioden och var ett maximum ligger. Rita grafen och den vågräta linjen. Läs av eller räkna ut skärningspunkterna och se var grafen ligger över linjen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En gondols höjd över marken varierar periodiskt enligt grafen.</p><span class=\"fig\"><svg aria-label=\"Höjd över tid\" height=\"280\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 500 280\" width=\"500\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"278\" rx=\"10\" stroke=\"#E4E3E6\" width=\"498\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"55.0\" x2=\"55.0\" y1=\"25\" y2=\"242\"></line><line stroke=\"#E8ECEF\" x1=\"124.5\" x2=\"124.5\" y1=\"25\" y2=\"242\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"124.5\" y=\"260\">4</text><line stroke=\"#E8ECEF\" x1=\"194.0\" x2=\"194.0\" y1=\"25\" y2=\"242\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"194.0\" y=\"260\">8</text><line stroke=\"#E8ECEF\" x1=\"263.5\" x2=\"263.5\" y1=\"25\" y2=\"242\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"263.5\" y=\"260\">12</text><line stroke=\"#E8ECEF\" x1=\"333.0\" x2=\"333.0\" y1=\"25\" y2=\"242\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"333.0\" y=\"260\">16</text><line stroke=\"#E8ECEF\" x1=\"402.5\" x2=\"402.5\" y1=\"25\" y2=\"242\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"402.5\" y=\"260\">20</text><line stroke=\"#E8ECEF\" x1=\"472.0\" x2=\"472.0\" y1=\"25\" y2=\"242\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"472.0\" y=\"260\">24</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"472\" y1=\"198.6\" y2=\"198.6\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"202.6\">10</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"472\" y1=\"155.2\" y2=\"155.2\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"159.2\">20</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"472\" y1=\"111.8\" y2=\"111.8\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"115.8\">30</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"472\" y1=\"68.4\" y2=\"68.4\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"72.4\">40</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"472\" y1=\"25.0\" y2=\"25.0\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"29.0\">50</text><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"472\" y1=\"242.0\" y2=\"242.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55.0\" x2=\"55.0\" y1=\"25\" y2=\"242\"></line><polyline fill=\"none\" points=\"55.0,159.5 56.9,155.6 58.8,151.6 60.7,147.4 62.6,143.2 64.5,138.9 66.4,134.5 68.3,130.1 70.2,125.7 72.1,121.2 74.0,116.8 75.8,112.3 77.7,107.9 79.6,103.5 81.5,99.2 83.4,94.9 85.3,90.8 87.2,86.7 89.1,82.7 91.0,78.9 92.9,75.2 94.8,71.6 96.7,68.2 98.6,65.0 100.5,61.9 102.4,59.1 104.3,56.4 106.2,54.0 108.1,51.7 110.0,49.7 111.9,48.0 113.8,46.4 115.7,45.1 117.5,44.1 119.4,43.3 121.3,42.7 123.2,42.4 125.1,42.4 127.0,42.6 128.9,43.1 130.8,43.8 132.7,44.7 134.6,46.0 136.5,47.4 138.4,49.1 140.3,51.0 142.2,53.2 144.1,55.6 146.0,58.2 147.9,61.0 149.8,63.9 151.7,67.1 153.6,70.5 155.5,74.0 157.4,77.6 159.2,81.4 161.1,85.3 163.0,89.4 164.9,93.5 166.8,97.8 168.7,102.1 170.6,106.4 172.5,110.8 174.4,115.3 176.3,119.7 178.2,124.2 180.1,128.6 182.0,133.1 183.9,137.4 185.8,141.8 187.7,146.0 189.6,150.2 191.5,154.3 193.4,158.2 195.3,162.1 197.2,165.8 199.1,169.4 201.0,172.8 202.8,176.0 204.7,179.0 206.6,181.9 208.5,184.5 210.4,187.0 212.3,189.2 214.2,191.2 216.1,193.0 218.0,194.5 219.9,195.8 221.8,196.9 223.7,197.7 225.6,198.2 227.5,198.5 229.4,198.6 231.3,198.4 233.2,197.9 235.1,197.2 237.0,196.2 238.9,195.0 240.8,193.5 242.7,191.8 244.5,189.9 246.4,187.8 248.3,185.4 250.2,182.8 252.1,180.0 254.0,177.0 255.9,173.8 257.8,170.5 259.7,167.0 261.6,163.3 263.5,159.5 265.4,155.6 267.3,151.6 269.2,147.4 271.1,143.2 273.0,138.9 274.9,134.5 276.8,130.1 278.7,125.7 280.6,121.2 282.5,116.8 284.3,112.3 286.2,107.9 288.1,103.5 290.0,99.2 291.9,94.9 293.8,90.8 295.7,86.7 297.6,82.7 299.5,78.9 301.4,75.2 303.3,71.6 305.2,68.2 307.1,65.0 309.0,61.9 310.9,59.1 312.8,56.4 314.7,54.0 316.6,51.7 318.5,49.7 320.4,48.0 322.3,46.4 324.2,45.1 326.1,44.1 327.9,43.3 329.8,42.7 331.7,42.4 333.6,42.4 335.5,42.6 337.4,43.1 339.3,43.8 341.2,44.7 343.1,46.0 345.0,47.4 346.9,49.1 348.8,51.0 350.7,53.2 352.6,55.6 354.5,58.2 356.4,61.0 358.3,63.9 360.2,67.1 362.1,70.5 364.0,74.0 365.9,77.6 367.8,81.4 369.6,85.3 371.5,89.4 373.4,93.5 375.3,97.8 377.2,102.1 379.1,106.4 381.0,110.8 382.9,115.3 384.8,119.7 386.7,124.2 388.6,128.6 390.5,133.1 392.4,137.4 394.3,141.8 396.2,146.0 398.1,150.2 400.0,154.3 401.9,158.2 403.8,162.1 405.7,165.8 407.6,169.4 409.4,172.8 411.3,176.0 413.2,179.0 415.1,181.9 417.0,184.5 418.9,187.0 420.8,189.2 422.7,191.2 424.6,193.0 426.5,194.5 428.4,195.8 430.3,196.9 432.2,197.7 434.1,198.2 436.0,198.5 437.9,198.6 439.8,198.4 441.7,197.9 443.6,197.2 445.5,196.2 447.4,195.0 449.3,193.5 451.2,191.8 453.0,189.9 454.9,187.8 456.8,185.4 458.7,182.8 460.6,180.0 462.5,177.0 464.4,173.8 466.3,170.5 468.2,167.0 470.1,163.3 472.0,159.5\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\"></polyline><circle cx=\"124.5\" cy=\"42.4\" fill=\"#B43123\" r=\"4.5\"></circle><circle cx=\"228.8\" cy=\"198.6\" fill=\"#B43123\" r=\"4.5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"11.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"235.8\" y=\"190.6\">min</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" x=\"235.8\" y=\"190.6\">min</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"470\" y=\"234.0\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"63.0\" y=\"37\">y</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"11.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"end\" x=\"438.6\" y=\"190.5\">h(t)</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" text-anchor=\"end\" x=\"438.6\" y=\"190.5\">h(t)</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"11.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"131.5\" y=\"34.4\">max</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" x=\"131.5\" y=\"34.4\">max</text></svg></span>",
     "spelDelar": [
@@ -25809,7 +25809,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_problemlosning_2__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen är 2,4 och amplituden 0,8. Perioden är \\(2\\pi\\) delat med \\(\\pi/6\\).</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -25937,7 +25937,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>m ligger mitt emellan högsta och lägsta temperatur, och A är halva skillnaden. Cosinus har sitt maximum där \\(t=c\\).</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -26148,7 +26148,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen är talet som läggs till, amplituden faktorn framför sinus och perioden \\(2\\pi/k\\).</p>",
     "spelIntro": "<p>En periodisk storhet beskrivs av</p><p>\\[f(t)=7+3\\sin\\left(\\frac{\\pi}{4}(t-2)\\right).\\]</p><p>Bestäm funktionens</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -26212,7 +26212,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan största och minsta värdet, och amplituden är halva skillnaden. k bestäms av perioden: \\(k=2\\pi/\\text{perioden}\\). Sinus passerar medellinjen uppåt där argumentet är 0.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -26448,7 +26448,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Sätt \\(f(t)=g(t)\\). Då återstår \\(\\sin\\frac{\\pi t}{3}=\\cos\\frac{\\pi t}{3}\\), alltså \\(\\tan\\frac{\\pi t}{3}=1\\).</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -26479,7 +26479,7 @@ window.BANKMATO2 = [
     "rättSvar": 6,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Sätt in \\(t=0\\). Vad är \\(\\sin(-\\pi/2)\\)?</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -26586,7 +26586,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_problemlosning_2__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Cosinus varierar mellan −1 och 1. Perioden är \\(2\\pi\\) delat med \\(\\pi/20\\).</p>",
     "spelIntro": "<p>Höjden över marken för en gondol i ett pariserhjul modelleras av</p><p>\\[h(t)=14-12\\cos\\left(\\frac{\\pi t}{20}\\right),\\]</p><p>där \\(t\\) mäts i sekunder.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -26650,7 +26650,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan största och minsta värdet, och amplituden är halva skillnaden. k bestäms av perioden: \\(k=2\\pi/\\text{perioden}\\). d bestäms av när temperaturen passerar medellinjen uppåt.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -26776,7 +26776,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Amplituden är 4 och perioden \\(2\\pi/5\\). \\(s(t)=0\\) när \\(5t+\\pi/6\\) är en multipel av \\(\\pi\\).</p>",
     "svarFormat": [
       "numeriskt",
       "uttryck",
@@ -26860,7 +26860,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Sätt in \\(t=0\\) och \\(t=6\\). Vad är \\(\\cos0\\) och \\(\\cos\\pi\\)?</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -26900,7 +26900,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Kortare period betyder att grafen hinner fler svängningar på samma tid. Vilken graf är brantast genom medellinjen?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -26941,7 +26941,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medelhöjden är lägsta punkten plus radien. Längst till höger på väg uppåt betyder att gondolen är på medelhöjd.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ett pariserhjul har radien 20 m. Hjulets lägsta punkt är 5 m över marken och det gör ett varv på 40 s. Vid tiden \\(t=0\\) befinner sig gondolen P längst till höger på hjulet och rör sig uppåt.</p><span class=\"fig smal\"><svg aria-label=\"Pariserhjul med radie och höjd över marken\" height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 390 300\" width=\"390\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"388\" x=\"1\" y=\"1\"></rect><line stroke=\"#7B756F\" stroke-width=\"2\" x1=\"35\" x2=\"355\" y1=\"270\" y2=\"270\"></line><circle cx=\"195\" cy=\"145\" fill=\"none\" r=\"100\" stroke=\"#2B2527\" stroke-width=\"2.2\"></circle><circle cx=\"195\" cy=\"145\" fill=\"#2B2527\" r=\"4\"></circle><line stroke=\"#268FA3\" stroke-width=\"2\" x1=\"195\" x2=\"195\" y1=\"145\" y2=\"45\"></line><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" x=\"207\" y=\"98\">20 m</text><line stroke=\"#B43123\" stroke-width=\"1.7\" x1=\"195\" x2=\"195\" y1=\"245\" y2=\"270\"></line><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"207\" y=\"263\">5 m</text><circle cx=\"295\" cy=\"145\" fill=\"#B43123\" r=\"5\"></circle><text font-family=\"sans-serif\" font-size=\"12\" x=\"304\" y=\"139\">P</text></svg></span>",
     "spelDelar": [
@@ -27003,7 +27003,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan max och min, och amplituden är avståndet från medellinjen till max.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -27088,7 +27088,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_problemlosning_2__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Cosinus har sitt maximum där argumentet är 0. Minsta värdet får du när cosinus är −1.</p>",
     "spelIntro": "<p>Under ett dygn modelleras temperaturen i ett växthus av</p><p>\\[T(t)=18+5\\cos(\\pi(t-14)/12),\\qquad 0\\le t\\le24.\\]</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -27120,7 +27120,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Perioden är \\(2\\pi/k\\), där k är hela faktorn framför t, alltså \\(\\pi/5\\).</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -27202,7 +27202,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan 8 och −4. Vid \\(t=0\\) är värdet 2 och ökar, så sinus passar.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -27310,7 +27310,7 @@ window.BANKMATO2 = [
     "rättSvar": 6,
     "tolerans": 0.001,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Cosinus har sitt minimum där argumentet är \\(\\pi\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -27418,7 +27418,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_problemlosning_2__tidpunkter_och_intervall_i_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Perioden är \\(2\\pi\\) delat med \\(\\pi/4\\). Största värdet är medellinjen plus amplituden och minsta värdet medellinjen minus amplituden.</p>",
     "spelIntro": "<p>Höjden \\(h\\) i meter för en boj på en våg modelleras under en kort tid av</p><p>\\[h(t)=1{,}8+0{,}35\\sin(\\pi t/4),\\]</p><p>där \\(t\\) mäts i sekunder.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -27451,7 +27451,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan största och minsta värdet, och amplituden är halva skillnaden. k bestäms av perioden: \\(k=2\\pi/\\text{perioden}\\). Placera maximum på årets längsta dag.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -27482,7 +27482,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.5,
     "tolerans": 0.001,
     "självrättning": true,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Sinus är positiv under halva perioden.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -27573,7 +27573,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Perioden är \\(2\\pi\\) delat med \\(\\pi/3\\). Sätt in \\(t=2\\) för b).</p>",
     "spelIntro": "<p>En roterande plattform rör sig upp och ner. Höjden modelleras av</p><p>\\[h(t)=1{,}2+0{,}4\\cos(\\pi t/3)\\]</p><p>meter.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -27606,7 +27606,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Cosinuskurvan är sinuskurvan förskjuten en kvarts period. Hur lång är perioden här?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -27639,7 +27639,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan största och minsta värdet, och amplituden är halva skillnaden. k bestäms av perioden: \\(k=2\\pi/\\text{perioden}\\). Cosinus har sitt maximum där argumentet är 0, alltså vid klockan 16.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -27671,7 +27671,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
+    "ledtrad": "<p>Cosinus har sitt maximum där argumentet är 0. Skriv \\(f(t)=10+4\\cos(k(t-1))\\) och bestäm k ur perioden.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -28032,7 +28032,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kort_om_derivator__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Skriv rötter och bråk som potenser av x, till exempel \\(\\sqrt x=x^{1/2}\\) och \\(\\frac1{x^2}=x^{-2}\\), och derivera term för term.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -28217,7 +28217,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
+    "ledtrad": "<p>a) och b) kräver kedjeregeln och c) kvotregeln.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -28300,7 +28300,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
+    "ledtrad": "<p>a) och b) kräver kedjeregeln och c) produktregeln.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -28485,7 +28485,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -28516,7 +28516,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig. Förenkla täljaren.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -28647,7 +28647,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig. Tangenten är \\(y-y_1=k(x-x_1)\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -28793,7 +28793,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
+    "ledtrad": "<p>a) är \\((\\sin x)^3\\) och kräver kedjeregeln. b) är en produkt. c) är \\(\\ln\\) av en inre funktion.</p>",
     "spelIntro": "<p>Derivera.</p><p><small>I svarsrutan kan du använda vanlig tangentbordsnotation, till exempel <strong>sin(x)</strong>, <strong>cos(x)</strong>, <strong>^</strong> för potens och <strong>*</strong> för multiplikation.</small></p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -28824,7 +28824,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig. Bestäm sedan punkten och lutningen vid \\(x=1\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -28915,7 +28915,7 @@ window.BANKMATO2 = [
     "rättSvar": "1-1/x^2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
+    "ledtrad": "<p>Skriv om funktionen som \\(x+\\frac1x\\) och derivera term för term.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -29001,7 +29001,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig. I c) använder du trigonometriska ettan.</p>",
     "spelIntro": "<p>Derivera och förenkla.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -29098,7 +29098,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kort_om_derivator__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>I b) och c) behövs den inre derivatan. Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -29195,7 +29195,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kort_om_derivator__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Skriv rötter och bråk som potenser av x, till exempel \\(\\sqrt x=x^{1/2}\\) och \\(\\frac1{x^2}=x^{-2}\\), och derivera term för term.</p>",
     "spelIntro": "<p>Derivera och förenkla.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -29278,7 +29278,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
+    "ledtrad": "<p>a) och b) kräver kedjeregeln och c) kvotregeln.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -29375,7 +29375,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig. Glöm inte den inre derivatan i a) och d).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -29599,7 +29599,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Derivera.</p>",
     "spelDelar": [
@@ -29748,7 +29748,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kort_om_derivator__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>I a) och d) behövs den inre derivatan, och b) är en produkt. Skriv \\(\\ln(4x)=\\ln4+\\ln x\\) i c).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -29845,7 +29845,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kort_om_derivator__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Derivera först och sätt sedan in värdet. Skriv \\(\\sqrt x\\) och \\(3/x\\) som potenser.</p>",
     "spelIntro": "<p>Bestäm derivatans värde.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -30008,7 +30008,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig. Täljare och nämnare kan själva kräva kedje- eller produktregeln.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
@@ -30053,7 +30053,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig. Bryt ut gemensamma faktorer efteråt.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Derivera och faktorisera svaret där det är lämpligt.</p>",
     "spelDelar": [
@@ -30202,7 +30202,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -30299,7 +30299,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kort_om_derivator__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Skriv rötter och bråk som potenser av x, till exempel \\(\\sqrt x=x^{1/2}\\) och \\(\\frac1{x^2}=x^{-2}\\), och derivera term för term.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -30382,7 +30382,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
+    "ledtrad": "<p>a) och b) kräver kedjeregeln och c) produktregeln.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -30427,7 +30427,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
+    "ledtrad": "<p>a) och b) är produkter, c) och d) kvoter.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Derivera och förenkla så långt som möjligt.</p>",
     "spelDelar": [
@@ -30513,7 +30513,7 @@ window.BANKMATO2 = [
     "rättSvar": "2/(x+1)^2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -30599,7 +30599,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kort_om_derivator__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Tangentens lutning är derivatans värde i punkten.</p>",
     "spelIntro": "<p>Bestäm tangentens lutning till grafen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -30767,7 +30767,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig. Tangenten vid \\(x=1\\) får du med \\(y-y_1=k(x-x_1)\\).</p>",
     "spelIntro": "<p>För \\(x&gt;0\\) är</p><p>\\[f(x)=\\frac{\\ln x}{x+1}.\\]</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -30864,7 +30864,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kort_om_derivator__grundlaggande_deriveringsregler",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>a) är en produkt och b) en kvot. I c) och d) behövs kedjeregeln.</p>",
     "spelIntro": "<p>Derivera och förenkla.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
@@ -30981,7 +30981,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -31267,7 +31267,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
-    "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig. Bryt ut \\(xe^{3x}\\) efteråt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -31692,7 +31692,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv täljare och nämnare tydligt och använd kvotregeln. Förenkla först efter att regeln har använts korrekt.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -31795,7 +31795,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig. Täljaren \\(x^2e^x\\) deriveras med produktregeln.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -32039,7 +32039,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig. Sätt in \\(x=2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -32457,7 +32457,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Sätt in \\(g(x)\\) på x:s plats i f. Derivera sedan \\(f(g(x))\\) och sätt in \\(x=2\\).</p>",
     "spelIntro": "<p>Låt \\(f(x)=x^2+1\\) och \\(g(x)=3x-2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -32638,7 +32638,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre.</p>",
     "spelIntro": "<p>Derivera med kedjeregeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -32766,7 +32766,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -32801,7 +32801,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\ln(g(x))\\) är \\(\\frac{g'(x)}{g(x)}\\). Läs av \\(f(1)\\) och \\(f'(1)\\) i figuren.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -32942,7 +32942,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Rita \\(h\\) och linjen \\(y=0{,}6\\) och läs av skärningspunkterna.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Låt</p><p>\\[f(u)=\\sin u,\\qquad g(x)=\\frac{x^2}{3}+0{,}5x.\\]</p><p>Funktionen \\(h\\) definieras av \\(h(x)=f(g(x))\\).</p>",
     "spelDelar": [
@@ -33079,7 +33079,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -33197,7 +33197,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "derivata_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Sätt in \\(g(x)\\) på x:s plats i f. Roten är bara definierad när uttrycket under rottecknet är minst 0.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Låt</p><p>\\[ f(x)=\\sqrt{x+1},\\qquad g(x)=x^2-4. \\]</p>",
     "spelDelar": [
@@ -33353,7 +33353,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Derivatan av \\(e^{g(x)}\\) är \\(g'(x)e^{g(x)}\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -33437,7 +33437,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Sätt in \\(g(x)\\) på x:s plats i f. Roten är bara definierad när uttrycket under rottecknet är minst 0.</p>",
     "spelIntro": "<p>Låt \\(f(x)=\\sqrt{x+4}\\) och \\(g(x)=3x-1\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -33565,7 +33565,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre. Derivatan av \\(\\sin u\\) är \\(\\cos u\\) och av \\(\\cos u\\) är den \\(-\\sin u\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -33595,7 +33595,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>\\(h\\) är störst där exponenten \\(-g(x)\\) är störst, alltså där \\(g\\) är minst. Lös \\(g'(x)=0\\). Lös ekvationen numeriskt.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -33691,7 +33691,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre. Alla fyra är en potens eller exponentialfunktion av en inre funktion.</p>",
     "spelIntro": "<p>Derivera och förenkla.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -34000,7 +34000,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -34246,7 +34246,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Sätt in \\(f(x)\\) i g. Med kedjeregeln är \\(g'(u)=1/u\\) och \\(f'(x)=2x\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Låt \\(f(x)=x^2+1\\) och \\(g(x)=\\ln x\\).</p>",
     "spelDelar": [
@@ -34431,7 +34431,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre. Bestäm sedan punkten och lutningen vid \\(x=1\\).</p>",
     "spelIntro": "<p>Funktionen \\(f\\) ges av \\(f(x)=(x^2-4x)^3\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -34559,7 +34559,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -35036,7 +35036,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -35167,7 +35167,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -35402,7 +35402,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\ln(g(x))\\) är \\(\\frac{g'(x)}{g(x)}\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -35434,7 +35434,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Derivera med kedjeregeln och sätt \\(h'(x)=0\\). Cosinusfaktorn är noll där \\(e^{0{,}4x}=\\pi/2\\) och \\(3\\pi/2\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -35609,7 +35609,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Sätt in \\(g(x)\\) på x:s plats i f. Derivera sedan med kedjeregeln och sätt in \\(x=2\\).</p>",
     "spelIntro": "<p>Låt \\(f(x)=x^2+2x\\) och \\(g(x)=3x-1\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -35692,7 +35692,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Sätt in \\(g(x)\\) på x:s plats i f. Derivera sedan med kedjeregeln och sätt in \\(x=2\\).</p>",
     "spelIntro": "<p>Låt \\(f(x)=\\sqrt{x+4}\\) och \\(g(x)=x^2+1\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -35831,7 +35831,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln kräver att du också multiplicerar med derivatan av det som står under rottecknet.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -36187,7 +36187,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>ln är bara definierad för positiva tal. Sätt uttrycket inne i logaritmen större än 0. Derivatan av \\(\\ln(g(x))\\) är \\(\\frac{g'(x)}{g(x)}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Derivera och ange funktionens definitionsmängd.</p>",
     "spelDelar": [
@@ -36258,7 +36258,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Sätt in punkterna. \\(\\ln1=0\\) ger b direkt, och \\(\\ln e=1\\) ger sedan a.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -36354,7 +36354,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Derivatan av \\(a^x\\) är \\(a^x\\ln a\\). Skriv \\(\\ln(4x)=\\ln4+\\ln x\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -36451,7 +36451,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Skriv om a) och b) med logaritmlagarna innan du deriverar. I c) och d) behövs kedjeregeln.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -36871,7 +36871,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Derivatan av \\(e^{g(x)}\\) är \\(g'(x)e^{g(x)}\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -36932,7 +36932,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Derivera och sätt \\(f'(x)=2\\). Ekvationen blir en andragradsekvation efter multiplikation med x.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -37029,7 +37029,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>ln är bara definierad för positiva tal. Sätt uttrycket inne i logaritmen större än 0. Asymptoten ligger där uttrycket inne i logaritmen går mot 0.</p>",
     "spelIntro": "<p>För \\(f(x)=\\ln(x-3)+2\\), bestäm</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -37060,7 +37060,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Tangenten ger både \\(f(1)=2\\) och \\(f'(1)=5\\). Det blir två ekvationer för a och b.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -37090,7 +37090,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>ln är bara definierad för positiva tal. Sätt uttrycket inne i logaritmen större än 0. Derivatan av \\(\\ln(g(x))\\) är \\(\\frac{g'(x)}{g(x)}\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -37206,7 +37206,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>ln är bara definierad för positiva tal. Sätt uttrycket inne i logaritmen större än 0. För inversen löser du ut x ur \\(y=\\ln(x-2)+1\\).</p>",
     "spelIntro": "<p>Funktionen</p><p>\\[ f(x)=\\ln(x-2)+1 \\]</p><p>är given.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -37367,7 +37367,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig. Du kan också skriva funktionen som \\(\\ln(2x)\\cdot e^{-4x}\\) och använda produktregeln.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -37411,7 +37411,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre. Derivatan av \\(\\tan u\\) är \\(\\frac1{\\cos^2u}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Derivera.</p>",
     "spelDelar": [
@@ -37493,7 +37493,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig. Sätt \\(f'(x)=0\\). Då får du \\(\\tan x=\\frac{1}{0{,}3}\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -37523,7 +37523,7 @@ window.BANKMATO2 = [
     "rättSvar": "1/x",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Skriv \\(\\ln(3x)=\\ln3+\\ln x\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -37620,7 +37620,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\ln(g(x))\\) är \\(\\frac{g'(x)}{g(x)}\\). Derivatan av \\(a^{kx}\\) är \\(ka^{kx}\\ln a\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -37705,7 +37705,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>ln är bara definierad för positiva tal. Sätt uttrycket inne i logaritmen större än 0. Bestäm punkten och derivatans värde där. Tangenten är \\(y-y_1=k(x-x_1)\\).</p>",
     "spelIntro": "<p>För \\(f(x)=\\ln(x-2)\\):</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -37860,7 +37860,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>a) är en produkt, b) en kvot och c) en logaritm av en inre funktion.</p>",
     "spelIntro": "<p>Derivera och förenkla så långt som möjligt.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -37930,7 +37930,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig. Bestäm punkten och derivatans värde där. Tangenten är \\(y-y_1=k(x-x_1)\\).</p>",
     "spelIntro": "<p>Funktionen ges av \\(f(x)=x\\ln x\\), där \\(x&gt;0\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -38027,7 +38027,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Förenkla med \\(e^{\\ln x}=x\\) och logaritmlagarna innan du deriverar.</p>",
     "spelIntro": "<p>Derivera och förenkla.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
@@ -38120,7 +38120,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Derivera och sätt \\(f'(x)=0\\). Avgör typen med en teckentabell eller andraderivatan.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -38181,7 +38181,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Undersök \\(g(x)=\\ln x-\\frac x3\\). Var har den sitt största värde, och är det värdet positivt? Lös ekvationen numeriskt.</p>",
     "spel": false,
     "traningsniva": 5,
     "arbetsinsats": 3,
@@ -38278,7 +38278,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\ln(g(x))\\) är \\(\\frac{g'(x)}{g(x)}\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -38357,7 +38357,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>ln är bara definierad för positiva tal. Sätt uttrycket inne i logaritmen större än 0.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm definitionsmängden.</p>",
     "spelDelar": [
@@ -38492,7 +38492,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Skriv om med \\(e\\): \\(\\ln x=a\\) betyder \\(x=e^a\\).</p>",
     "spelIntro": "<p>Lös ekvationen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -38753,7 +38753,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Skriv om med \\(e\\): \\(\\ln x=a\\) betyder \\(x=e^a\\). I d) skriver du \\(2\\ln x=\\ln x^2\\).</p>",
     "spelIntro": "<p>Lös ekvationen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -38816,7 +38816,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Undersök \\(g(x)=x-1-\\ln x\\). Var har den sitt minsta värde, och hur stort är det?</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -38845,7 +38845,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Derivera och sätt \\(f'(x)=0{,}8\\). Lös ekvationen numeriskt.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -38973,7 +38973,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>ln är bara definierad för positiva tal. Sätt uttrycket inne i logaritmen större än 0.</p>",
     "spelIntro": "<p>Ange funktionens definitionsmängd.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -39077,7 +39077,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\ln x\\) är \\(1/x\\). Tangenten är \\(y-y_1=k(x-x_1)\\).</p>",
     "spelIntro": "<p>Grafen visar \\(y=\\ln x\\) och punkten \\(P=(e,1)\\).</p><span class=\"fig\"><svg aria-label=\"Grafen till y = ln x med tangenten i punkten P = (e, 1)\" height=\"270\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 460 270\" width=\"460\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"10\" stroke=\"#E4E3E6\" width=\"458\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"83.8\" x2=\"83.8\" y1=\"30\" y2=\"232\"></line><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"147.9\" x2=\"147.9\" y1=\"30\" y2=\"232\"></line><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"212.1\" x2=\"212.1\" y1=\"30\" y2=\"232\"></line><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"276.2\" x2=\"276.2\" y1=\"30\" y2=\"232\"></line><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"340.3\" x2=\"340.3\" y1=\"30\" y2=\"232\"></line><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"404.4\" x2=\"404.4\" y1=\"30\" y2=\"232\"></line><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"55\" x2=\"430\" y1=\"222.8\" y2=\"222.8\"></line><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"55\" x2=\"430\" y1=\"176.9\" y2=\"176.9\"></line><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"55\" x2=\"430\" y1=\"131\" y2=\"131\"></line><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"55\" x2=\"430\" y1=\"85.1\" y2=\"85.1\"></line><line stroke=\"#E8ECEF\" stroke-width=\"1\" x1=\"55\" x2=\"430\" y1=\"39.2\" y2=\"39.2\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"430\" y1=\"131\" y2=\"131\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"83.8\" x2=\"83.8\" y1=\"30\" y2=\"232\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"middle\" x=\"147.9\" y=\"146\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"147.9\" y=\"146\">1</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"middle\" x=\"212.1\" y=\"146\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"212.1\" y=\"146\">2</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"middle\" x=\"276.2\" y=\"146\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"276.2\" y=\"146\">3</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"middle\" x=\"340.3\" y=\"146\">4</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"340.3\" y=\"146\">4</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"middle\" x=\"404.4\" y=\"146\">5</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"404.4\" y=\"146\">5</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"end\" x=\"76.8\" y=\"226.8\">-2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"76.8\" y=\"226.8\">-2</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"end\" x=\"76.8\" y=\"180.9\">-1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"76.8\" y=\"180.9\">-1</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"end\" x=\"76.8\" y=\"89.1\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"76.8\" y=\"89.1\">1</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"end\" x=\"76.8\" y=\"43.2\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"76.8\" y=\"43.2\">2</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"426\" y=\"123\">x</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"11\" x=\"91.8\" y=\"40\">y</text><polyline fill=\"none\" points=\"92.8,221.3 94.1,215.1 95.4,209.6 96.7,204.7 98,200.3 99.3,196.3 100.6,192.6 101.9,189.2 103.2,186 104.5,183 105.8,180.2 107.1,177.6 108.4,175.1 109.7,172.7 111,170.5 112.3,168.3 113.6,166.3 114.9,164.3 116.2,162.4 117.5,160.6 118.8,158.9 120.1,157.2 121.4,155.6 122.6,154 123.9,152.5 125.2,151.1 126.5,149.7 127.8,148.3 129.1,147 130.4,145.7 131.7,144.4 133,143.2 134.3,142 135.6,140.8 136.9,139.7 138.2,138.6 139.5,137.5 140.8,136.4 142.1,135.4 143.4,134.4 144.7,133.4 146,132.4 147.3,131.5 148.6,130.5 149.9,129.6 151.2,128.7 152.5,127.9 153.8,127 155.1,126.2 156.4,125.3 157.7,124.5 159,123.7 160.3,122.9 161.6,122.2 162.9,121.4 164.1,120.7 165.4,119.9 166.7,119.2 168,118.5 169.3,117.8 170.6,117.1 171.9,116.4 173.2,115.7 174.5,115.1 175.8,114.4 177.1,113.8 178.4,113.1 179.7,112.5 181,111.9 182.3,111.3 183.6,110.7 184.9,110.1 186.2,109.5 187.5,108.9 188.8,108.4 190.1,107.8 191.4,107.2 192.7,106.7 194,106.2 195.3,105.6 196.6,105.1 197.9,104.6 199.2,104 200.5,103.5 201.8,103 203.1,102.5 204.3,102 205.6,101.5 206.9,101 208.2,100.6 209.5,100.1 210.8,99.6 212.1,99.2 213.4,98.7 214.7,98.2 216,97.8 217.3,97.3 218.6,96.9 219.9,96.4 221.2,96 222.5,95.6 223.8,95.2 225.1,94.7 226.4,94.3 227.7,93.9 229,93.5 230.3,93.1 231.6,92.7 232.9,92.3 234.2,91.9 235.5,91.5 236.8,91.1 238.1,90.7 239.4,90.3 240.7,89.9 242,89.6 243.3,89.2 244.6,88.8 245.8,88.4 247.1,88.1 248.4,87.7 249.7,87.3 251,87 252.3,86.6 253.6,86.3 254.9,85.9 256.2,85.6 257.5,85.2 258.8,84.9 260.1,84.6 261.4,84.2 262.7,83.9 264,83.6 265.3,83.2 266.6,82.9 267.9,82.6 269.2,82.3 270.5,81.9 271.8,81.6 273.1,81.3 274.4,81 275.7,80.7 277,80.4 278.3,80.1 279.6,79.8 280.9,79.5 282.2,79.2 283.5,78.9 284.8,78.6 286.1,78.3 287.3,78 288.6,77.7 289.9,77.4 291.2,77.1 292.5,76.8 293.8,76.5 295.1,76.2 296.4,76 297.7,75.7 299,75.4 300.3,75.1 301.6,74.9 302.9,74.6 304.2,74.3 305.5,74 306.8,73.8 308.1,73.5 309.4,73.2 310.7,73 312,72.7 313.3,72.5 314.6,72.2 315.9,71.9 317.2,71.7 318.5,71.4 319.8,71.2 321.1,70.9 322.4,70.7 323.7,70.4 325,70.2 326.3,69.9 327.5,69.7 328.8,69.4 330.1,69.2 331.4,69 332.7,68.7 334,68.5 335.3,68.2 336.6,68 337.9,67.8 339.2,67.5 340.5,67.3 341.8,67.1 343.1,66.8 344.4,66.6 345.7,66.4 347,66.2 348.3,65.9 349.6,65.7 350.9,65.5 352.2,65.3 353.5,65 354.8,64.8 356.1,64.6 357.4,64.4 358.7,64.2 360,64 361.3,63.7 362.6,63.5 363.9,63.3 365.2,63.1 366.5,62.9 367.8,62.7 369,62.5 370.3,62.3 371.6,62.1 372.9,61.8 374.2,61.6 375.5,61.4 376.8,61.2 378.1,61 379.4,60.8 380.7,60.6 382,60.4 383.3,60.2 384.6,60 385.9,59.8 387.2,59.6 388.5,59.4 389.8,59.2 391.1,59.1 392.4,58.9 393.7,58.7 395,58.5 396.3,58.3 397.6,58.1 398.9,57.9 400.2,57.7 401.5,57.5 402.8,57.3 404.1,57.2 405.4,57 406.7,56.8 408,56.6 409.3,56.4 410.5,56.2 411.8,56.1 413.1,55.9 414.4,55.7 415.7,55.5 417,55.3 418.3,55.2 419.6,55 420.9,54.8 422.2,54.6 423.5,54.4 424.8,54.3 426.1,54.1 427.4,53.9 428.7,53.8 430,53.6\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.3\"></polyline><line stroke=\"#268FA3\" stroke-width=\"2\" x1=\"87.1\" x2=\"423.6\" y1=\"130.2\" y2=\"41.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"11\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"end\" x=\"417.6\" y=\"33.5\">tangent</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"417.6\" y=\"33.5\">tangent</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"11\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"middle\" x=\"378.7\" y=\"78.9\">y = ln x</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"378.7\" y=\"78.9\">y = ln x</text><circle cx=\"258.1\" cy=\"85.1\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"11.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"267.1\" y=\"77.1\">P</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" x=\"267.1\" y=\"77.1\">P</text></svg></span>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -39465,7 +39465,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre. Skriv \\(\\ln(4x)=\\ln4+\\ln x\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -39562,7 +39562,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -39594,7 +39594,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Bestäm punkten och derivatans värde där. Tangenten är \\(y-y_1=k(x-x_1)\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -39625,7 +39625,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig. Sätt \\(f'(x)=0\\) och gör en teckentabell.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -39656,7 +39656,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Produktregeln: \\((uv)'=u'v+uv'\\). Välj u och v och derivera dem var för sig. Sätt \\(f'(x)=0{,}5\\) och lös numeriskt.</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -39687,7 +39687,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Horisontell tangent betyder att \\(f'(x)=0\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -39783,7 +39783,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -39814,7 +39814,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Derivera och sätt \\(f'(x)=0\\). Avgör typen med en teckentabell eller andraderivatan.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -39910,7 +39910,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Derivatan av \\(e^{2x}\\) är \\(2e^{2x}\\) och av \\(2^x\\) är den \\(2^x\\ln2\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -40007,7 +40007,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre. Skriv \\(\\ln(5x)=\\ln5+\\ln x\\) i b).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -40104,7 +40104,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -40169,7 +40169,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\ln x\\) är \\(1/x\\). Tangenten är \\(y-y_1=k(x-x_1)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -40232,7 +40232,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Derivatan av \\(e^{g(x)}\\) är \\(g'(x)e^{g(x)}\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -40263,7 +40263,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
+    "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}\\). Välj u och v och derivera dem var för sig. Täljaren blir \\(\\cos^2x+\\sin^2x\\).</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -40294,7 +40294,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre. Den inre funktionen är \\(x^2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -40324,7 +40324,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Derivatan av \\(e^{g(x)}\\) är \\(g'(x)e^{g(x)}\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -40388,7 +40388,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Derivatan av \\(e^{g(x)}\\) är \\(g'(x)e^{g(x)}\\). Sätt in \\(x=0\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -40419,7 +40419,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre. Sätt in \\(x=\\pi/6\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -40449,7 +40449,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre. Sätt in \\(x=0\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -40512,7 +40512,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Derivatan av \\(e^{g(x)}\\) är \\(g'(x)e^{g(x)}\\). Sätt in \\(x=0\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -40542,7 +40542,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_sammansatta__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
-    "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
+    "ledtrad": "<p>Kedjeregeln: derivera den yttre funktionen och multiplicera med derivatan av den inre. Sätt in x-värdet efter deriveringen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -40894,7 +40894,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_problemlosning__tangentproblem_i_tillampningar",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Bestäm punkten och derivatans värde där. Tangenten är \\(y-y_1=k(x-x_1)\\). Tangentens skärningspunkter med axlarna ger triangelns kateter.</p>",
     "spelIntro": "<p>Kurvan \\(y=\\ln x+x^2\\) har en tangent i punkten där \\(x=1\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -40926,7 +40926,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Rektangelns area är bredden gånger höjden, där höjden är \\(12-x^2\\). Derivera och sätt derivatan lika med 0.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -40958,7 +40958,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Rita den rätvinkliga triangeln med lasern, väggen och avståndet L. Sträckan längs väggen är \\(L\\tan v\\). Derivera med avseende på tiden.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -40989,7 +40989,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Låt x vara avståndet längs väggen från ena fotpunkten. Skriv den totala sträckan med Pythagoras sats och minimera den.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -41020,7 +41020,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Med de övre hörnen i \\((\\pm x,\\,12-x^2)\\) är arean \\(2x(12-x^2)\\). Derivera och sätt derivatan lika med 0.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41050,7 +41050,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tangentproblem_i_tillampningar",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Parallell med \\(y=5x-7\\) betyder att \\(f'(1)=5\\). Derivera och lös ut a.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41082,7 +41082,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41113,7 +41113,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Avståndet i kvadrat från \\((0,3)\\) till \\((x,x^2)\\) är \\(x^2+(x^2-3)^2\\). Minimera det uttrycket.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -41145,7 +41145,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Volymen ger \\(h=\\frac{1000}{\\pi r^2}\\). Sätt in det i arean, derivera och sätt \\(S'(r)=0\\).</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 2,
@@ -41177,7 +41177,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Derivera med produkt- och kedjeregeln och sätt \\(P'(v)=0\\). Jämför med ändpunkterna.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -41208,7 +41208,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Skriv tvärsnittsarean som en funktion av v och derivera. Sätt derivatan lika med 0.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41240,7 +41240,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Låt x vara avståndet från A till L. Skriv den totala kostnaden eller sträckan som funktion av x och minimera.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -41277,7 +41277,7 @@ window.BANKMATO2 = [
       0
     ],
     "självrättning": true,
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Skriv den andra sidan med hjälp av omkretsen. Arean blir då en andragradsfunktion av x.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -41317,7 +41317,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=s^3\\). Derivera med avseende på tiden: \\(\\frac{dV}{dt}=3s^2\\frac{ds}{dt}\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41400,7 +41400,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_problemlosning__tangentproblem_i_tillampningar",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Bestäm punkten och derivatans värde där. Tangenten är \\(y-y_1=k(x-x_1)\\).</p>",
     "spelIntro": "<p>Kurvan ges av \\(f(x)=x^2-4x+1\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -41476,7 +41476,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "derivata_problemlosning__tangentproblem_i_tillampningar",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm punkter där derivatan är 0.</p>",
     "spelDelar": [
@@ -41570,7 +41570,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Lådans volym är \\(V(x)=x(32-2x)(22-2x)\\). Derivera och sätt \\(V'(x)=0\\). Vilket x är möjligt?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41600,7 +41600,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Maximum vid \\(x=4\\) betyder att \\(f'(4)=0\\), vilket ger b. Sätt sedan \\(f(4)=12\\) för att bestämma a.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -41631,7 +41631,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Derivera med produktregeln och sätt \\(M'(t)=0\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41663,7 +41663,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\). Derivera med avseende på tiden: \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41704,7 +41704,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Sidan längs ån blir \\(180-2x\\). Arean är \\(x(180-2x)\\). Derivera och sätt derivatan lika med 0.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En rektangulär hage ska ligga längs en rak å, så stängsel behövs bara på tre sidor. Man har 180 m stängsel.</p><p>Låt \\(x\\) vara de två sidorna vinkelräta mot ån.</p>",
     "spelDelar": [
@@ -41765,7 +41765,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Lådans volym är \\(V(x)=x(30-2x)(20-2x)\\). Derivera och sätt \\(V'(x)=0\\). Vilket x är möjligt?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41796,7 +41796,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Volymen 120 liter ger höjden uttryckt i x. Glasytan är botten plus fyra sidor. Derivera och sätt derivatan lika med 0.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41827,7 +41827,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Låt den tryckta ytan ha bredden x, så att höjden är \\(384/x\\). Hela affischens area är \\((x+4)(384/x+6)\\). Minimera den.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41880,7 +41880,7 @@ window.BANKMATO2 = [
       "s"
     ],
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\). Derivera med avseende på tiden: \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En klotformad ballong blåses upp. Vid ett visst ögonblick är radien 10 cm och ökar då med 0,40 cm/s.</p><span class=\"fig\"><svg aria-label=\"Klotformad ballong med radie r markerad\" height=\"245\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 360 245\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"243\" rx=\"10\" stroke=\"#E4E3E6\" width=\"358\" x=\"1\" y=\"1\"></rect>\n<circle cx=\"170\" cy=\"120\" fill=\"#F4F5F7\" r=\"78\" stroke=\"#2B2527\" stroke-width=\"2\"></circle>\n<circle cx=\"170\" cy=\"120\" fill=\"#2B2527\" r=\"3.5\"></circle><line stroke=\"#B43123\" stroke-width=\"2.4\" x1=\"170\" x2=\"241\" y1=\"120\" y2=\"88\"></line><path d=\"M241 88 l-11 1 l5 9 z\" fill=\"#B43123\"></path><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"14\" x=\"198\" y=\"86\">r</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"170\" y=\"221\">V = 4πr³/3</text>\n</svg></span>",
     "spelDelar": [{"etikett": "a", "fraga": "<p>Bestäm hur snabbt ballongens volym ökar vid detta ögonblick.</p>", "s": "<div class=\"facit-v2\"><p>Klotets volym är \\(V=4\\pi r^3/3\\). Radien beror på tiden, så</p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]<p>Vid radien 10 cm och ökningen 0,40 cm/s:</p>\\[\\frac{dV}{dt}=4\\pi\\cdot10^2\\cdot0{,}40.\\]<p><strong>Svar:</strong> \\(160\\pi\\) cm³/s, ungefär 503 cm³/s.</p></div>", "niva": "C", "traningsniva": 3, "arbetsinsats": 1}, {"etikett": "b", "fraga": "<p>Antag att en tom klotformad ballong fylls med den konstanta volymökningen \\(160\\pi\\,\\text{cm}^3/\\text{s}\\). Hur lång tid tar det tills radien är 15 cm?</p>", "s": "<div class=\"facit-v2\"><p>Först beräknar vi volymen vid radien 15 cm:</p>\\[V=\\frac{4\\pi\\cdot15^3}{3}=4500\\pi\\text{ cm}^3.\\]<p>Ballongen börjar tom och volymen ökar med \\(160\\pi\\) cm³ varje sekund. Tiden är därför</p>\\[t=\\frac{4500\\pi}{160\\pi}=28{,}125\\text{ s}.\\]<p><strong>Svar:</strong> ungefär 28,1 sekunder.</p></div>", "niva": "E", "traningsniva": 2, "arbetsinsats": 1, "t": "<p>Antag att en tom klotformad ballong fylls med den konstanta volymökningen \\(160\\pi\\,\\text{cm}^3/\\text{s}\\). Hur lång tid tar det tills radien är 15 cm?</p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Klotformad ballong med radien 15 centimeter\"><rect width=\"360\" height=\"230\" fill=\"white\"/><circle cx=\"170\" cy=\"110\" r=\"85\" fill=\"none\" stroke=\"#164e63\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"110\" r=\"3\" fill=\"#164e63\"/><path d=\"M170 110H255\" stroke=\"#164e63\" stroke-width=\"2\"/><text x=\"206\" y=\"96\" text-anchor=\"middle\" fill=\"#172033\" font-size=\"17\">15 cm</text></svg></span>", "poang": "1/0/0", "ledtrad": "<p>Beräkna först volymen vid radien 15 cm. Hur kopplas volym, tid och konstant volymökning ihop?</p>"}],
@@ -41914,7 +41914,7 @@ window.BANKMATO2 = [
     "rättSvar": 18.84955592153876,
     "tolerans": 0.05,
     "självrättning": true,
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant h. Derivera med avseende på tiden.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -41983,7 +41983,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen.</p>",
     "spelIntro": "<p>Bestäm största eller minsta värde.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -42015,7 +42015,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "derivata_problemlosning__tangentproblem_i_tillampningar",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Bestäm punkten och derivatans värde där. Tangenten är \\(y-y_1=k(x-x_1)\\). Derivera med produktregeln.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42047,7 +42047,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Lådans volym är \\(V(x)=x(30-2x)(20-2x)\\). Derivera och sätt \\(V'(x)=0\\). Vilket x är möjligt?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -42114,7 +42114,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Med de övre hörnen i \\((\\pm x,\\,12-x^2)\\) är arean \\(2x(12-x^2)\\). Derivera och sätt derivatan lika med 0.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42145,7 +42145,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Skriv den andra sidan med hjälp av omkretsen. Arean blir då en andragradsfunktion av x.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42177,7 +42177,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Skriv den andra sidan med hjälp av omkretsen. Arean blir då en andragradsfunktion av x. Vilket x ger det största värdet?</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -42210,7 +42210,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42242,7 +42242,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\). Lös ut \\(dr/dt\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42275,7 +42275,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Låt x vara sträckan längs stranden som livräddaren springer. Tiden är sträckan på land delad med 4,0 plus sträckan i vattnet delad med simfarten. Minimera tiden.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -42307,7 +42307,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\). Derivera med avseende på tiden: \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42339,7 +42339,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Klotets yta är \\(A=4\\pi r^2\\). Derivera med avseende på tiden och lös ut \\(dr/dt\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42372,7 +42372,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=s^3\\). Derivera med avseende på tiden: \\(\\frac{dV}{dt}=3s^2\\frac{ds}{dt}\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42403,7 +42403,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Lådans volym är \\(V(x)=x(30-2x)(20-2x)\\). Derivera och sätt \\(V'(x)=0\\). Vilket x är möjligt?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -42453,7 +42453,7 @@ window.BANKMATO2 = [
       "b"
     ],
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Arean är \\(A=s^2\\). Derivera med avseende på tiden. \\(\\frac{dA}{dt}=\\frac{dA}{ds}\\cdot\\frac{ds}{dt}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En kvadratisk ljusbild på en vägg växer men behåller sin form. När sidlängden är 3,0 m ökar bildens area med 1,8 m²/s.</p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Kvadratisk ljusbild med sidlängden s lika med 3,0 meter\"><rect width=\"360\" height=\"230\" fill=\"white\"/><rect x=\"105\" y=\"25\" width=\"150\" height=\"150\" fill=\"#dbeafe\" stroke=\"#164e63\" stroke-width=\"2\"/><path d=\"M105 185v15M255 185v15M105 193H255\" fill=\"none\" stroke=\"#164e63\" stroke-width=\"2\"/><text x=\"180\" y=\"222\" text-anchor=\"middle\" fill=\"#172033\" font-size=\"17\">s = 3,0 m</text></svg></span>",
     "spelDelar": [{"etikett": "a", "fraga": "<p>Bestäm \\(dA/ds\\) när \\(s=3,0\\) m.</p>", "s": "<div class=\"facit-v2\"><p>En kvadrat med sidan \\(s\\) har arean \\(A=s^2\\). Derivera med avseende på sidan:</p>\\[\\frac{dA}{ds}=2s.\\]<p>Vid \\(s=3{,}0\\) m blir värdet \\(2\\cdot3{,}0=6{,}0\\) m. Enheten är m²/m = m.</p></div>", "niva": "E", "traningsniva": 2, "arbetsinsats": 1, "poang": "1/0/0", "ledtrad": "<p>Skriv kvadratens area som en funktion av sidlängden och derivera med avseende på sidan.</p>"}, {"etikett": "b", "fraga": "<p>Bestäm hur snabbt sidlängden ökar.</p>", "s": "<div class=\"facit-v2\"><p>Arean är \\(A=s^2\\), och sidan förändras med tiden. Kedjeregeln ger</p>\\[\\frac{dA}{dt}=2s\\frac{ds}{dt}.\\]<p>Sätt in \\(s=3{,}0\\) m och areans ökning 1,8 m²/s:</p>\\[1{,}8=6{,}0\\frac{ds}{dt}.\\]\\[\\frac{ds}{dt}=\\frac{1{,}8}{6{,}0}=0{,}30\\text{ m/s}.\\]<p>Sidlängden ökar alltså med 0,30 m varje sekund.</p></div>", "niva": "C", "traningsniva": 3, "arbetsinsats": 1}],
@@ -42491,7 +42491,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant h. Derivera med avseende på tiden. Tänk på enheterna: radien ökar i cm/min men höjden är i m.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42522,7 +42522,7 @@ window.BANKMATO2 = [
   "självrättning": true,
   "svarFormat": "numeriskt",
   "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-  "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+  "ledtrad": "<p>Skriv konens volym med bara r, eftersom \\(h=3r\\). Derivera med avseende på tiden och lös ut \\(dr/dt\\).</p>",
   "traningsniva": 4,
   "arbetsinsats": 2,
   "omrTidigare": [
@@ -42571,7 +42571,7 @@ window.BANKMATO2 = [
     "numeriskt"
   ],
   "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-  "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+  "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
   "spelDelning": "deluppgifter",
   "spelIntro": "<p>Ett radarsystem söker av ett cirkelformat område. Sökningens radie ökar med 0,40 km/min.</p><p>När radien är 6,0 km:</p><span class=\"fig\"><svg aria-label=\"Cirkel med radien r markerad\" height=\"230\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 390 230\" width=\"390\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"228\" rx=\"10\" stroke=\"#E4E3E6\" width=\"388\" x=\"1\" y=\"1\"></rect>\n<circle cx=\"180\" cy=\"116\" fill=\"#EAF4E8\" r=\"76\" stroke=\"#5C7D58\" stroke-width=\"2.2\"></circle>\n<circle cx=\"180\" cy=\"116\" fill=\"#2B2527\" r=\"3.5\"></circle>\n<line stroke=\"#268FA3\" stroke-width=\"2.2\" x1=\"180\" x2=\"250\" y1=\"116\" y2=\"86\"></line>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"></path>\n<text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"14\" x=\"216\" y=\"92\">r</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"180\" y=\"214\">cirkelns storlek förändras med tiden</text>\n</svg></span>",
   "spelDelar": [
@@ -42649,7 +42649,7 @@ window.BANKMATO2 = [
       "m²/s"
     ],
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Omkretsen är \\(O=2\\pi r\\), så \\(\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}\\). Använd sedan \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>När en sten träffar en stilla vattenyta sprids en cirkelformad våg utåt. Omkretsen av den yttersta vågfronten ökar med 5,0 m/s.</p><p>När vågfrontens radie är 4,0 m:</p><span class=\"fig\"><svg aria-label=\"Cirkelformad våg med radien r\" height=\"235\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 390 235\" width=\"390\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"233\" rx=\"10\" stroke=\"#E4E3E6\" width=\"388\" x=\"1\" y=\"1\"></rect>\n<circle cx=\"182\" cy=\"116\" fill=\"#EEF7FA\" r=\"76\" stroke=\"#527C91\" stroke-width=\"2.3\"></circle>\n<circle cx=\"182\" cy=\"116\" fill=\"none\" r=\"58\" stroke=\"#A7C6D3\" stroke-width=\"1.2\"></circle>\n<circle cx=\"182\" cy=\"116\" fill=\"none\" r=\"40\" stroke=\"#C8DDE5\" stroke-width=\"1.2\"></circle>\n<line stroke=\"#268FA3\" stroke-width=\"2.2\" x1=\"182\" x2=\"252\" y1=\"116\" y2=\"116\"></line>\n<path d=\"M252 116 l-9 -5 v10 z\" fill=\"#268FA3\"></path>\n<text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"14\" x=\"216\" y=\"106\">r</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"182\" y=\"218\">den yttersta vågfronten är en cirkel</text>\n</svg></span>",
     "spelDelar": [
@@ -42702,7 +42702,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Sidan längs muren blir \\(80-2x\\). Arean är \\(x(80-2x)\\). Derivera och sätt derivatan lika med 0.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42735,7 +42735,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Lådans volym är \\(V(x)=x(30-2x)(20-2x)\\). Derivera och sätt \\(V'(x)=0\\). Vilket x är möjligt?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42766,7 +42766,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Derivera och sätt \\(C'(t)=0\\). Då får du \\(0{,}15e^{-0{,}15t}=0{,}80e^{-0{,}80t}\\), som du löser med logaritmer.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42797,7 +42797,7 @@ window.BANKMATO2 = [
   "tolerans": 0.05,
   "självrättning": true,
   "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-  "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+  "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
   "traningsniva": 3,
   "arbetsinsats": 2,
   "omrTidigare": [
@@ -42829,7 +42829,7 @@ window.BANKMATO2 = [
   "tolerans": 0.05,
   "självrättning": true,
   "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-  "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+  "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\). Derivera med avseende på tiden: \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\).</p>",
   "traningsniva": 3,
   "arbetsinsats": 2,
   "omrTidigare": [
@@ -42862,7 +42862,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant h. Derivera med avseende på tiden. Lös ut \\(dr/dt\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42894,7 +42894,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Arean är \\(A=s^2\\). Derivera med avseende på tiden.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42925,7 +42925,7 @@ window.BANKMATO2 = [
     "rättSvar": -0.375,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Derivera \\(x^2+y^2=25\\) med avseende på tiden: \\(2x\\frac{dx}{dt}+2y\\frac{dy}{dt}=0\\). Bestäm y när \\(x=3\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 5,
     "arbetsinsats": 3,
@@ -42957,7 +42957,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\). Lös ut \\(dr/dt\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42990,7 +42990,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Skriv volymen med bara r, eftersom \\(h=2r\\). Derivera med avseende på tiden.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43021,7 +43021,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Den andra sidan är \\(100/x\\). Skriv omkretsen som funktion av x och minimera den.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43053,7 +43053,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\). Lös ut \\(dr/dt\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43084,7 +43084,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Den yttre kanten är \\(2h+2r+\\pi r=8{,}0\\). Lös ut h och skriv fönstrets area som funktion av r. Maximera arean.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -43115,7 +43115,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "derivata_problemlosning__tangentproblem_i_tillampningar",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Bestäm punkten och derivatans värde där. Tangenten är \\(y-y_1=k(x-x_1)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43146,7 +43146,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Derivera med produktregeln och sätt \\(P'(t)=0\\). Jämför med värdena i ändpunkterna.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43177,7 +43177,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Skriv konens volym med bara h, eftersom \\(r=h/2\\). Derivera med avseende på tiden och lös ut \\(dh/dt\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43208,7 +43208,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__tillampad_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Derivera med produktregeln och sätt \\(C'(t)=0\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43240,7 +43240,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Låt bredden vara x och höjden \\(12/x\\). Kostnaden är \\(2\\cdot2x+2\\cdot\\frac{12}{x}\\) gånger priset per meter. Minimera.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -43272,7 +43272,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\). Derivera med avseende på tiden: \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43304,7 +43304,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\). Derivera med avseende på tiden: \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\). Lös ut \\(dr/dt\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43336,7 +43336,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Den andra sidan är \\(48/x\\). Skriv omkretsen som funktion av x, minimera och kontrollera med en teckentabell.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -43368,7 +43368,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Kvadratens area är \\(A=D^2/2\\), uttryckt med diagonalen. Derivera med avseende på tiden.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43400,7 +43400,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Volymen 1,0 liter = 1 000 cm³ ger h uttryckt i r. Sätt in i den totala arean och minimera.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43432,7 +43432,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Lådans volym är \\(V(x)=x(30-2x)^2\\). Derivera och sätt \\(V'(x)=0\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43463,7 +43463,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant h. Derivera med avseende på tiden.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43494,7 +43494,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "ledtrad": "<p>Använd \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\) för att bestämma \\(dr/dt\\). Omkretsen ändras med \\(2\\pi\\frac{dr}{dt}\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43528,7 +43528,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__geometrisk_optimering_med_derivata",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Rektangelns area är \\(x(12-x^2)\\). Derivera och sätt derivatan lika med 0.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -43591,7 +43591,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__tangentproblem_i_tillampningar",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Bestäm punkten och derivatans värde där. Tangenten är \\(y-y_1=k(x-x_1)\\). Sätt sedan \\(x=0\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -43621,7 +43621,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__tangentproblem_i_tillampningar",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Tangenten skär x-axeln där \\(y=0\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -43684,7 +43684,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "derivata_problemlosning__tangentproblem_i_tillampningar",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\ln x\\) är \\(1/x\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -44103,7 +44103,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Grafen saknar extrempunkter om \\(f'(x)\\) aldrig byter tecken. Derivatan är ett andragradsuttryck. När saknar det två olika nollställen?</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -44156,7 +44156,7 @@ window.BANKMATO2 = [
       null
     ],
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>f växer där \\(f'(x)>0\\) och avtar där \\(f'(x)<0\\). Där \\(f'\\) byter tecken från plus till minus har f ett maximum, och från minus till plus ett minimum.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen visar derivatan \\(f'\\) till en funktion \\(f\\).</p><span class=\"fig\"><svg aria-label=\"Graf till derivatan\" height=\"270\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 270\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"55.0\" x2=\"55.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"55.0\" y=\"250\">-4</text><line stroke=\"#E8ECEF\" x1=\"98.0\" x2=\"98.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"98.0\" y=\"250\">-3</text><line stroke=\"#E8ECEF\" x1=\"141.0\" x2=\"141.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"141.0\" y=\"250\">-2</text><line stroke=\"#E8ECEF\" x1=\"184.0\" x2=\"184.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"184.0\" y=\"250\">-1</text><line stroke=\"#E8ECEF\" x1=\"227.0\" x2=\"227.0\" y1=\"25\" y2=\"232\"></line><line stroke=\"#E8ECEF\" x1=\"270.0\" x2=\"270.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"270.0\" y=\"250\">1</text><line stroke=\"#E8ECEF\" x1=\"313.0\" x2=\"313.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"313.0\" y=\"250\">2</text><line stroke=\"#E8ECEF\" x1=\"356.0\" x2=\"356.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"356.0\" y=\"250\">3</text><line stroke=\"#E8ECEF\" x1=\"399.0\" x2=\"399.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"399.0\" y=\"250\">4</text><line stroke=\"#E8ECEF\" x1=\"442.0\" x2=\"442.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"442.0\" y=\"250\">5</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"206.1\" y2=\"206.1\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"210.1\">-2</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"154.4\" y2=\"154.4\"></line><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"102.6\" y2=\"102.6\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"106.6\">2</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"50.9\" y2=\"50.9\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"54.9\">4</text><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"442\" y1=\"154.4\" y2=\"154.4\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"227.0\" x2=\"227.0\" y1=\"25\" y2=\"232\"></line><polyline fill=\"none\" points=\"55.0,-104.4 56.8,-97.0 58.5,-89.7 60.3,-82.5 62.0,-75.4 63.8,-68.4 65.6,-61.5 67.3,-54.6 69.1,-47.9 70.8,-41.2 72.6,-34.6 74.4,-28.1 76.1,-21.7 77.9,-15.4 79.6,-9.1 81.4,-3.0 83.1,3.1 84.9,9.1 86.7,15.0 88.4,20.8 90.2,26.5 91.9,32.1 93.7,37.7 95.5,43.1 97.2,48.5 99.0,53.8 100.7,59.0 102.5,64.1 104.3,69.1 106.0,74.1 107.8,78.9 109.5,83.7 111.3,88.4 113.1,93.0 114.8,97.5 116.6,101.9 118.3,106.3 120.1,110.5 121.8,114.7 123.6,118.7 125.4,122.7 127.1,126.6 128.9,130.4 130.6,134.2 132.4,137.8 134.2,141.4 135.9,144.8 137.7,148.2 139.4,151.5 141.2,154.7 143.0,157.8 144.7,160.9 146.5,163.8 148.2,166.7 150.0,169.5 151.8,172.2 153.5,174.8 155.3,177.3 157.0,179.7 158.8,182.1 160.5,184.3 162.3,186.5 164.1,188.6 165.8,190.6 167.6,192.5 169.3,194.3 171.1,196.0 172.9,197.7 174.6,199.2 176.4,200.7 178.1,202.1 179.9,203.4 181.7,204.6 183.4,205.8 185.2,206.8 186.9,207.8 188.7,208.6 190.4,209.4 192.2,210.1 194.0,210.7 195.7,211.3 197.5,211.7 199.2,212.0 201.0,212.3 202.8,212.5 204.5,212.6 206.3,212.6 208.0,212.5 209.8,212.3 211.6,212.1 213.3,211.7 215.1,211.3 216.8,210.8 218.6,210.2 220.4,209.5 222.1,208.7 223.9,207.9 225.6,206.9 227.4,205.9 229.1,204.8 230.9,203.6 232.7,202.3 234.4,200.9 236.2,199.4 237.9,197.9 239.7,196.2 241.5,194.5 243.2,192.7 245.0,190.8 246.7,188.8 248.5,186.7 250.3,184.6 252.0,182.3 253.8,180.0 255.5,177.6 257.3,175.1 259.1,172.5 260.8,169.8 262.6,167.0 264.3,164.2 266.1,161.2 267.9,158.2 269.6,155.1 271.4,151.9 273.1,148.6 274.9,145.2 276.6,141.8 278.4,138.2 280.2,134.6 281.9,130.9 283.7,127.1 285.4,123.2 287.2,119.2 289.0,115.1 290.7,111.0 292.5,106.7 294.2,102.4 296.0,98.0 297.8,93.5 299.5,88.9 301.3,84.2 303.0,79.5 304.8,74.6 306.5,69.7 308.3,64.7 310.1,59.6 311.8,54.4 313.6,49.1 315.3,43.7 317.1,38.3 318.9,32.8 320.6,27.1 322.4,21.4 324.1,15.6 325.9,9.7 327.7,3.8 329.4,-2.3 331.2,-8.4 332.9,-14.7 334.7,-21.0 336.5,-27.4 338.2,-33.9 340.0,-40.5 341.7,-47.1 343.5,-53.9 345.2,-60.7 347.0,-67.6 348.8,-74.6 350.5,-81.7 352.3,-88.9 354.0,-96.2 355.8,-103.6 357.6,-111.0 359.3,-118.5 361.1,-126.1 362.8,-133.8 364.6,-141.6 366.4,-149.5 368.1,-157.5 369.9,-165.5 371.6,-173.7 373.4,-181.9 375.2,-190.2 376.9,-198.6 378.7,-207.1 380.4,-215.6 382.2,-224.3 384.0,-233.0 385.7,-241.9 387.5,-250.8 389.2,-259.8 391.0,-268.9 392.7,-278.0 394.5,-287.3 396.3,-296.7 398.0,-306.1 399.8,-315.6 401.5,-325.2 403.3,-334.9 405.1,-344.7 406.8,-354.6 408.6,-364.5 410.3,-374.6 412.1,-384.7\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\"></polyline><circle cx=\"141.0\" cy=\"154.4\" fill=\"#B43123\" r=\"4.5\"></circle><circle cx=\"270.0\" cy=\"154.4\" fill=\"#B43123\" r=\"4.5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"11.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"277.0\" y=\"146.4\">1</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" x=\"277.0\" y=\"146.4\">1</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"440\" y=\"146.4\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"235.0\" y=\"37\">y</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"11.5\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"148.0\" y=\"146.4\">-2</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" x=\"148.0\" y=\"146.4\">-2</text></svg></span>",
     "spelDelar": [
@@ -44251,7 +44251,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -44282,7 +44282,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>\\(f'(x)=3x^2-3a\\). Hur många nollställen har derivatan när \\(a>0\\), \\(a=0\\) och \\(a<0\\)?</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -44313,7 +44313,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Grafen saknar extrempunkter om \\(f'(x)\\) aldrig byter tecken. Derivatan är ett andragradsuttryck. När saknar det två olika nollställen?</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -44345,7 +44345,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>f växer där \\(f'(x)>0\\) och avtar där \\(f'(x)<0\\). Där \\(f'\\) byter tecken från plus till minus har f ett maximum, och från minus till plus ett minimum. Arean under \\(f'\\) visar hur mycket f ändras.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -44385,7 +44385,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>f växer där \\(f'(x)>0\\) och avtar där \\(f'(x)<0\\). Där \\(f'\\) byter tecken från plus till minus har f ett maximum, och från minus till plus ett minimum.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen visar derivatan \\(f'\\) till en deriverbar funktion \\(f\\).</p><span class=\"fig\"><svg aria-label=\"funktionsgraf\" height=\"290\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 500 290\" width=\"500\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"288\" rx=\"10\" stroke=\"#E4E3E6\" width=\"498\" x=\"1\" y=\"1\"></rect><line stroke=\"#D9E6E9\" x1=\"55.0\" x2=\"55.0\" y1=\"25\" y2=\"248\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"55.0\" y=\"266\">-3</text><line stroke=\"#D9E6E9\" x1=\"115.0\" x2=\"115.0\" y1=\"25\" y2=\"248\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"115.0\" y=\"266\">-2</text><line stroke=\"#D9E6E9\" x1=\"175.0\" x2=\"175.0\" y1=\"25\" y2=\"248\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"175.0\" y=\"266\">-1</text><line stroke=\"#D9E6E9\" x1=\"235.0\" x2=\"235.0\" y1=\"25\" y2=\"248\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"235.0\" y=\"266\">0</text><line stroke=\"#D9E6E9\" x1=\"295.0\" x2=\"295.0\" y1=\"25\" y2=\"248\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"295.0\" y=\"266\">1</text><line stroke=\"#D9E6E9\" x1=\"355.0\" x2=\"355.0\" y1=\"25\" y2=\"248\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"355.0\" y=\"266\">2</text><line stroke=\"#D9E6E9\" x1=\"415.0\" x2=\"415.0\" y1=\"25\" y2=\"248\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"415.0\" y=\"266\">3</text><line stroke=\"#D9E6E9\" x1=\"475.0\" x2=\"475.0\" y1=\"25\" y2=\"248\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"475.0\" y=\"266\">4</text><line stroke=\"#D9E6E9\" x1=\"55\" x2=\"475\" y1=\"248.0\" y2=\"248.0\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"47\" y=\"251.0\">-4</text><line stroke=\"#D9E6E9\" x1=\"55\" x2=\"475\" y1=\"210.8\" y2=\"210.8\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"47\" y=\"213.8\">-2</text><line stroke=\"#D9E6E9\" x1=\"55\" x2=\"475\" y1=\"173.7\" y2=\"173.7\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"47\" y=\"176.7\">0</text><line stroke=\"#D9E6E9\" x1=\"55\" x2=\"475\" y1=\"136.5\" y2=\"136.5\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"47\" y=\"139.5\">2</text><line stroke=\"#D9E6E9\" x1=\"55\" x2=\"475\" y1=\"99.3\" y2=\"99.3\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"47\" y=\"102.3\">4</text><line stroke=\"#D9E6E9\" x1=\"55\" x2=\"475\" y1=\"62.2\" y2=\"62.2\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"47\" y=\"65.2\">6</text><line stroke=\"#D9E6E9\" x1=\"55\" x2=\"475\" y1=\"25.0\" y2=\"25.0\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"47\" y=\"28.0\">8</text><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"55\" x2=\"480\" y1=\"173.7\" y2=\"173.7\"></line><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"235.0\" x2=\"235.0\" y1=\"20\" y2=\"248\"></line><polyline fill=\"none\" points=\"64.5,7.9 65.5,10.0 66.5,12.2 67.6,14.3 68.7,16.5 69.7,18.6 70.8,20.7 71.8,22.8 72.8,24.9 73.9,27.0 75.0,29.0 76.0,31.1 77.1,33.1 78.1,35.2 79.1,37.2 80.2,39.2 81.2,41.2 82.3,43.2 83.4,45.1 84.4,47.1 85.4,49.1 86.5,51.0 87.5,52.9 88.6,54.9 89.7,56.8 90.7,58.7 91.7,60.5 92.8,62.4 93.8,64.3 94.9,66.1 96.0,68.0 97.0,69.8 98.1,71.6 99.1,73.4 100.2,75.2 101.2,77.0 102.2,78.7 103.3,80.5 104.3,82.3 105.4,84.0 106.4,85.7 107.5,87.4 108.6,89.1 109.6,90.8 110.7,92.5 111.7,94.2 112.8,95.8 113.8,97.5 114.8,99.1 115.9,100.7 116.9,102.3 118.0,103.9 119.0,105.5 120.1,107.1 121.2,108.7 122.2,110.2 123.2,111.8 124.3,113.3 125.4,114.8 126.4,116.3 127.5,117.8 128.5,119.3 129.6,120.8 130.6,122.2 131.7,123.7 132.7,125.1 133.8,126.6 134.8,128.0 135.8,129.4 136.9,130.8 137.9,132.2 139.0,133.5 140.1,134.9 141.1,136.2 142.1,137.6 143.2,138.9 144.2,140.2 145.3,141.5 146.3,142.8 147.4,144.1 148.4,145.4 149.5,146.6 150.6,147.9 151.6,149.1 152.6,150.3 153.7,151.5 154.8,152.7 155.8,153.9 156.8,155.1 157.9,156.3 158.9,157.4 160.0,158.6 161.1,159.7 162.1,160.8 163.2,161.9 164.2,163.0 165.2,164.1 166.3,165.2 167.4,166.3 168.4,167.3 169.4,168.4 170.5,169.4 171.6,170.4 172.6,171.4 173.7,172.4 174.7,173.4 175.8,174.4 176.8,175.3 177.8,176.3 178.9,177.2 179.9,178.1 181.0,179.1 182.1,180.0 183.1,180.9 184.1,181.7 185.2,182.6 186.2,183.5 187.3,184.3 188.4,185.2 189.4,186.0 190.4,186.8 191.5,187.6 192.6,188.4 193.6,189.2 194.7,189.9 195.7,190.7 196.8,191.4 197.8,192.2 198.8,192.9 199.9,193.6 201.0,194.3 202.0,195.0 203.0,195.7 204.1,196.3 205.2,197.0 206.2,197.6 207.2,198.3 208.3,198.9 209.3,199.5 210.4,200.1 211.4,200.7 212.5,201.3 213.6,201.8 214.6,202.4 215.7,202.9 216.7,203.4 217.8,204.0 218.8,204.5 219.8,205.0 220.9,205.4 222.0,205.9 223.0,206.4 224.0,206.8 225.1,207.3 226.2,207.7 227.2,208.1 228.2,208.5 229.3,208.9 230.3,209.3 231.4,209.7 232.4,210.0 233.5,210.4 234.6,210.7 235.6,211.0 236.6,211.3 237.7,211.6 238.8,211.9 239.8,212.2 240.9,212.5 241.9,212.7 242.9,213.0 244.0,213.2 245.1,213.4 246.1,213.6 247.2,213.8 248.2,214.0 249.2,214.2 250.3,214.4 251.3,214.5 252.4,214.7 253.5,214.8 254.5,214.9 255.5,215.0 256.6,215.1 257.6,215.2 258.7,215.3 259.8,215.3 260.8,215.4 261.9,215.4 262.9,215.5 263.9,215.5 265.0,215.5 266.1,215.5 267.1,215.5 268.1,215.4 269.2,215.4 270.2,215.3 271.3,215.3 272.4,215.2 273.4,215.1 274.5,215.0 275.5,214.9 276.5,214.8 277.6,214.7 278.6,214.5 279.7,214.4 280.8,214.2 281.8,214.0 282.9,213.8 283.9,213.6 284.9,213.4 286.0,213.2 287.1,213.0 288.1,212.7 289.1,212.5 290.2,212.2 291.2,211.9 292.3,211.6 293.4,211.3 294.4,211.0 295.5,210.7 296.5,210.4 297.6,210.0 298.6,209.7 299.6,209.3 300.7,208.9 301.8,208.5 302.8,208.1 303.9,207.7 304.9,207.3 306.0,206.8 307.0,206.4 308.1,205.9 309.1,205.4 310.2,205.0 311.2,204.5 312.2,204.0 313.3,203.4 314.3,202.9 315.4,202.4 316.4,201.8 317.5,201.3 318.6,200.7 319.6,200.1 320.7,199.5 321.7,198.9 322.8,198.3 323.8,197.6 324.8,197.0 325.9,196.3 326.9,195.7 328.0,195.0 329.1,194.3 330.1,193.6 331.1,192.9 332.2,192.2 333.2,191.4 334.3,190.7 335.4,189.9 336.4,189.2 337.4,188.4 338.5,187.6 339.5,186.8 340.6,186.0 341.6,185.2 342.7,184.3 343.8,183.5 344.8,182.6 345.9,181.7 346.9,180.9 348.0,180.0 349.0,179.1 350.1,178.1 351.1,177.2 352.1,176.3 353.2,175.3 354.2,174.4 355.3,173.4 356.4,172.4 357.4,171.4 358.4,170.4 359.5,169.4 360.6,168.4 361.6,167.3 362.7,166.3 363.7,165.2 364.8,164.1 365.8,163.0 366.8,161.9 367.9,160.8 368.9,159.7 370.0,158.6 371.1,157.4 372.1,156.3 373.2,155.1 374.2,153.9 375.2,152.7 376.3,151.5 377.3,150.3 378.4,149.1 379.4,147.9 380.5,146.6 381.6,145.4 382.6,144.1 383.6,142.8 384.7,141.5 385.8,140.2 386.8,138.9 387.9,137.6 388.9,136.2 389.9,134.9 391.0,133.5 392.0,132.2 393.1,130.8 394.1,129.4 395.2,128.0 396.2,126.6 397.3,125.1 398.4,123.7 399.4,122.2 400.5,120.8 401.5,119.3 402.6,117.8 403.6,116.3 404.6,114.8 405.7,113.3 406.8,111.8 407.8,110.2 408.9,108.7 409.9,107.1 410.9,105.5 412.0,103.9 413.1,102.3 414.1,100.7 415.2,99.1 416.2,97.5 417.2,95.8 418.3,94.2 419.3,92.5 420.4,90.8 421.4,89.1 422.5,87.4 423.6,85.7 424.6,84.0 425.7,82.3 426.7,80.5 427.8,78.7 428.8,77.0 429.8,75.2 430.9,73.4 431.9,71.6 433.0,69.8 434.1,68.0 435.1,66.1 436.1,64.3 437.2,62.4 438.2,60.5 439.3,58.7 440.4,56.8 441.4,54.9 442.4,52.9 443.5,51.0 444.5,49.1 445.6,47.1 446.6,45.1 447.7,43.2 448.8,41.2 449.8,39.2 450.9,37.2 451.9,35.2 453.0,33.1 454.0,31.1 455.1,29.0 456.1,27.0 457.1,24.9 458.2,22.8 459.2,20.7 460.3,18.6 461.4,16.5 462.4,14.3 463.4,12.2 464.5,10.0 465.6,7.9\" stroke=\"#B43123\" stroke-width=\"2.3\"></polyline><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"467\" y=\"43\">y = f′(x)</text></svg></span>",
     "spelDelar": [
@@ -44447,7 +44447,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Asymptoterna är \\(x=2\\) och \\(y=2x-1\\). Derivera och sätt \\(f'(x)=0\\) för att hitta extrempunkterna.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -44671,7 +44671,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor. För extrempunkterna löser du \\(f'(x)=0\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Undersök funktionen</p><p>\\[f(x)=\\frac{x^2+1}{x-1}.\\]</p>",
     "spelDelar": [
@@ -44732,7 +44732,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_asymptoter__skissa_grafer_och_asymptoter",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -44795,7 +44795,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>f växer där \\(f'(x)>0\\) och avtar där \\(f'(x)<0\\). Där \\(f'\\) byter tecken från plus till minus har f ett maximum, och från minus till plus ett minimum.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -44826,7 +44826,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Där grafen stiger är \\(f'(x)>0\\), där den faller är \\(f'(x)<0\\), och vid toppar och dalar är \\(f'(x)=0\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -44857,7 +44857,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Lodräta asymptoter finns där nämnaren är noll men täljaren inte är det. För stora \\(|x|\\) går kvoten mot förhållandet mellan termerna med högst grad i täljare och nämnare.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -44890,7 +44890,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen. Minimipunkten ligger där \\(x=a\\).</p>",
     "spel": false,
     "traningsniva": 5,
     "arbetsinsats": 3,
@@ -44923,7 +44923,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -44962,7 +44962,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>f växer där \\(f'(x)>0\\) och avtar där \\(f'(x)<0\\). Där \\(f'\\) byter tecken från plus till minus har f ett maximum, och från minus till plus ett minimum.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen visar derivatan \\(f'\\) till en funktion \\(f\\).</p><span class=\"fig\"><svg height=\"270\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 430 270\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"268\" rx=\"10\" stroke=\"#E4E3E6\" width=\"428\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"232\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"97.0\" x2=\"97.0\" y1=\"20\" y2=\"232\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"142.0\" x2=\"142.0\" y1=\"20\" y2=\"232\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"187.0\" x2=\"187.0\" y1=\"20\" y2=\"232\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"232.0\" x2=\"232.0\" y1=\"20\" y2=\"232\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"277.0\" x2=\"277.0\" y1=\"20\" y2=\"232\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"322.0\" x2=\"322.0\" y1=\"20\" y2=\"232\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"367.0\" x2=\"367.0\" y1=\"20\" y2=\"232\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"412.0\" x2=\"412.0\" y1=\"20\" y2=\"232\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"412\" y1=\"201.7\" y2=\"201.7\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"412\" y1=\"141.1\" y2=\"141.1\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"412\" y1=\"80.6\" y2=\"80.6\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"412\" y1=\"20.0\" y2=\"20.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"187.0\" x2=\"187.0\" y1=\"20\" y2=\"232\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52\" x2=\"412\" y1=\"141.1\" y2=\"141.1\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"142.0\" y=\"256\">−1</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"187.0\" y=\"256\">0</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"322.0\" y=\"256\">3</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"205.7\">−4</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"84.6\">4</text>\n<path d=\"M52.0,-40.6 L53.5,-36.6 L55.0,-32.6 L56.5,-28.6 L58.0,-24.7 L59.5,-20.8 L61.0,-16.9 L62.5,-13.1 L64.0,-9.3 L65.5,-5.6 L67.0,-1.9 L68.5,1.8 L70.0,5.5 L71.5,9.1 L73.0,12.7 L74.5,16.2 L76.0,19.7 L77.5,23.2 L79.0,26.7 L80.5,30.1 L82.0,33.5 L83.5,36.8 L85.0,40.1 L86.5,43.4 L88.0,46.7 L89.5,49.9 L91.0,53.0 L92.5,56.2 L94.0,59.3 L95.5,62.4 L97.0,65.4 L98.5,68.4 L100.0,71.4 L101.5,74.4 L103.0,77.3 L104.5,80.2 L106.0,83.0 L107.5,85.8 L109.0,88.6 L110.5,91.3 L112.0,94.0 L113.5,96.7 L115.0,99.3 L116.5,102.0 L118.0,104.5 L119.5,107.1 L121.0,109.6 L122.5,112.1 L124.0,114.5 L125.5,116.9 L127.0,119.3 L128.5,121.6 L130.0,123.9 L131.5,126.2 L133.0,128.4 L134.5,130.6 L136.0,132.8 L137.5,134.9 L139.0,137.0 L140.5,139.1 L142.0,141.1 L143.5,143.1 L145.0,145.1 L146.5,147.0 L148.0,148.9 L149.5,150.8 L151.0,152.7 L152.5,154.5 L154.0,156.2 L155.5,158.0 L157.0,159.7 L158.5,161.3 L160.0,162.9 L161.5,164.5 L163.0,166.1 L164.5,167.6 L166.0,169.1 L167.5,170.6 L169.0,172.0 L170.5,173.4 L172.0,174.8 L173.5,176.1 L175.0,177.4 L176.5,178.7 L178.0,179.9 L179.5,181.1 L181.0,182.3 L182.5,183.4 L184.0,184.5 L185.5,185.5 L187.0,186.6 L188.5,187.6 L190.0,188.5 L191.5,189.4 L193.0,190.3 L194.5,191.2 L196.0,192.0 L197.5,192.8 L199.0,193.6 L200.5,194.3 L202.0,195.0 L203.5,195.6 L205.0,196.3 L206.5,196.9 L208.0,197.4 L209.5,197.9 L211.0,198.4 L212.5,198.9 L214.0,199.3 L215.5,199.7 L217.0,200.0 L218.5,200.4 L220.0,200.6 L221.5,200.9 L223.0,201.1 L224.5,201.3 L226.0,201.4 L227.5,201.6 L229.0,201.6 L230.5,201.7 L232.0,201.7 L233.5,201.7 L235.0,201.6 L236.5,201.6 L238.0,201.4 L239.5,201.3 L241.0,201.1 L242.5,200.9 L244.0,200.6 L245.5,200.4 L247.0,200.0 L248.5,199.7 L250.0,199.3 L251.5,198.9 L253.0,198.4 L254.5,197.9 L256.0,197.4 L257.5,196.9 L259.0,196.3 L260.5,195.6 L262.0,195.0 L263.5,194.3 L265.0,193.6 L266.5,192.8 L268.0,192.0 L269.5,191.2 L271.0,190.3 L272.5,189.4 L274.0,188.5 L275.5,187.6 L277.0,186.6 L278.5,185.5 L280.0,184.5 L281.5,183.4 L283.0,182.3 L284.5,181.1 L286.0,179.9 L287.5,178.7 L289.0,177.4 L290.5,176.1 L292.0,174.8 L293.5,173.4 L295.0,172.0 L296.5,170.6 L298.0,169.1 L299.5,167.6 L301.0,166.1 L302.5,164.5 L304.0,162.9 L305.5,161.3 L307.0,159.7 L308.5,158.0 L310.0,156.2 L311.5,154.5 L313.0,152.7 L314.5,150.8 L316.0,148.9 L317.5,147.0 L319.0,145.1 L320.5,143.1 L322.0,141.1 L323.5,139.1 L325.0,137.0 L326.5,134.9 L328.0,132.8 L329.5,130.6 L331.0,128.4 L332.5,126.2 L334.0,123.9 L335.5,121.6 L337.0,119.3 L338.5,116.9 L340.0,114.5 L341.5,112.1 L343.0,109.6 L344.5,107.1 L346.0,104.5 L347.5,102.0 L349.0,99.3 L350.5,96.7 L352.0,94.0 L353.5,91.3 L355.0,88.6 L356.5,85.8 L358.0,83.0 L359.5,80.2 L361.0,77.3 L362.5,74.4 L364.0,71.4 L365.5,68.4 L367.0,65.4 L368.5,62.4 L370.0,59.3 L371.5,56.2 L373.0,53.0 L374.5,49.9 L376.0,46.7 L377.5,43.4 L379.0,40.1 L380.5,36.8 L382.0,33.5 L383.5,30.1 L385.0,26.7 L386.5,23.2 L388.0,19.7 L389.5,16.2 L391.0,12.7 L392.5,9.1 L394.0,5.5 L395.5,1.8 L397.0,-1.9 L398.5,-5.6 L400.0,-9.3 L401.5,-13.1 L403.0,-16.9 L404.5,-20.8 L406.0,-24.7 L407.5,-28.6 L409.0,-32.6 L410.5,-36.6 L412.0,-40.6\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"></path>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"345\" y=\"45\">y = f′(x)</text>\n</svg></span>",
     "spelDelar": [
@@ -45044,7 +45044,7 @@ window.BANKMATO2 = [
     true
   ],
   "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-  "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+  "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig. Skriv b) på formen \\(2+\\frac{c}{x+2}\\).</p>",
   "spelDelning": "deluppgifter",
   "spelIntro": "<p>Bestäm båda asymptoternas ekvationer.</p>",
   "spelDelar": [
@@ -45144,7 +45144,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_asymptoter__skissa_grafer_och_asymptoter",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -45238,7 +45238,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "sneda_asymptoter__asymptoter_med_polynomdivision",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>En funktion på formen \\(2x-1+\\frac{c}{x-2}\\) har just dessa asymptoter. Välj c så att grafen ser ut som i figuren.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -45427,7 +45427,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Gör en teckentabell för \\((x-1)(x+3)\\).</p>",
     "spelIntro": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-1)(x+3)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -45474,7 +45474,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För \\(f(x)=x^3-3x\\):</p>",
     "spelDelar": [
@@ -45558,7 +45558,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Faktorisera täljaren. Om \\(x-1\\) går att förkorta bort blir det ett hål i grafen, inte en asymptot.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -45591,7 +45591,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -45739,7 +45739,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sneda_asymptoter__asymptoter_med_polynomdivision",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Lodräta asymptoter finns där nämnaren är noll men täljaren inte är det. Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor.</p>",
     "spelIntro": "<p>Funktionen \\(f(x)=\\frac{{2x^2+3}}{{x-1}}\\) har en lodrät och en sned asymptot.</p><span class=\"fig\"><svg aria-label=\"Rationell funktion med lodrät och sned asymptot\" height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 500 300\" width=\"500\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"498\" x=\"1\" y=\"1\"></rect><line stroke=\"#E3E6EA\" x1=\"55.0\" x2=\"55.0\" y1=\"25\" y2=\"255\"></line><line stroke=\"#E3E6EA\" x1=\"101.1\" x2=\"101.1\" y1=\"25\" y2=\"255\"></line><line stroke=\"#E3E6EA\" x1=\"147.2\" x2=\"147.2\" y1=\"25\" y2=\"255\"></line><line stroke=\"#E3E6EA\" x1=\"193.3\" x2=\"193.3\" y1=\"25\" y2=\"255\"></line><line stroke=\"#E3E6EA\" x1=\"239.4\" x2=\"239.4\" y1=\"25\" y2=\"255\"></line><line stroke=\"#E3E6EA\" x1=\"285.6\" x2=\"285.6\" y1=\"25\" y2=\"255\"></line><line stroke=\"#E3E6EA\" x1=\"331.7\" x2=\"331.7\" y1=\"25\" y2=\"255\"></line><line stroke=\"#E3E6EA\" x1=\"377.8\" x2=\"377.8\" y1=\"25\" y2=\"255\"></line><line stroke=\"#E3E6EA\" x1=\"423.9\" x2=\"423.9\" y1=\"25\" y2=\"255\"></line><line stroke=\"#E3E6EA\" x1=\"470.0\" x2=\"470.0\" y1=\"25\" y2=\"255\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"255.0\" y2=\"255.0\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"235.8\" y2=\"235.8\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"216.7\" y2=\"216.7\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"197.5\" y2=\"197.5\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"178.3\" y2=\"178.3\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"159.2\" y2=\"159.2\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"140.0\" y2=\"140.0\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"120.8\" y2=\"120.8\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"101.7\" y2=\"101.7\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"82.5\" y2=\"82.5\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"63.3\" y2=\"63.3\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"44.2\" y2=\"44.2\"></line><line stroke=\"#E3E6EA\" x1=\"55\" x2=\"470\" y1=\"25.0\" y2=\"25.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.5\" x1=\"55\" x2=\"470\" y1=\"159.2\" y2=\"159.2\"></line><line stroke=\"#2B2527\" stroke-width=\"1.5\" x1=\"239.4\" x2=\"239.4\" y1=\"25\" y2=\"255\"></line><line stroke=\"#268FA3\" stroke-dasharray=\"6 4\" stroke-width=\"1.5\" x1=\"285.6\" x2=\"285.6\" y1=\"25\" y2=\"255\"></line><line stroke=\"#268FA3\" stroke-dasharray=\"6 4\" stroke-width=\"1.5\" x1=\"55.0\" x2=\"470.0\" y1=\"216.7\" y2=\"44.2\"></line><polyline fill=\"none\" points=\"55.0,226.2 56.0,225.9 56.9,225.5 57.9,225.2 58.8,224.8 59.8,224.5 60.7,224.1 61.7,223.8 62.6,223.4 63.6,223.1 64.5,222.7 65.5,222.4 66.4,222.0 67.4,221.7 68.3,221.3 69.3,221.0 70.2,220.6 71.2,220.3 72.1,219.9 73.1,219.6 74.0,219.2 75.0,218.9 75.9,218.5 76.9,218.2 77.8,217.8 78.8,217.5 79.7,217.1 80.7,216.8 81.6,216.4 82.6,216.1 83.5,215.7 84.5,215.4 85.4,215.1 86.4,214.7 87.3,214.4 88.3,214.0 89.2,213.7 90.2,213.3 91.1,213.0 92.1,212.7 93.0,212.3 94.0,212.0 94.9,211.7 95.9,211.3 96.9,211.0 97.8,210.6 98.8,210.3 99.7,210.0 100.7,209.6 101.6,209.3 102.6,209.0 103.5,208.6 104.5,208.3 105.4,208.0 106.4,207.6 107.3,207.3 108.3,207.0 109.2,206.7 110.2,206.3 111.1,206.0 112.1,205.7 113.0,205.4 114.0,205.0 114.9,204.7 115.9,204.4 116.8,204.1 117.8,203.7 118.7,203.4 119.7,203.1 120.6,202.8 121.6,202.5 122.5,202.1 123.5,201.8 124.4,201.5 125.4,201.2 126.3,200.9 127.3,200.6 128.2,200.3 129.2,200.0 130.1,199.6 131.1,199.3 132.0,199.0 133.0,198.7 133.9,198.4 134.9,198.1 135.8,197.8 136.8,197.5 137.8,197.2 138.7,196.9 139.7,196.6 140.6,196.3 141.6,196.0 142.5,195.7 143.5,195.4 144.4,195.2 145.4,194.9 146.3,194.6 147.3,194.3 148.2,194.0 149.2,193.7 150.1,193.4 151.1,193.2 152.0,192.9 153.0,192.6 153.9,192.3 154.9,192.1 155.8,191.8 156.8,191.5 157.7,191.3 158.7,191.0 159.6,190.7 160.6,190.5 161.5,190.2 162.5,189.9 163.4,189.7 164.4,189.4 165.3,189.2 166.3,188.9 167.2,188.7 168.2,188.4 169.1,188.2 170.1,188.0 171.0,187.7 172.0,187.5 172.9,187.3 173.9,187.0 174.8,186.8 175.8,186.6 176.7,186.4 177.7,186.2 178.7,185.9 179.6,185.7 180.6,185.5 181.5,185.3 182.5,185.1 183.4,184.9 184.4,184.7 185.3,184.5 186.3,184.4 187.2,184.2 188.2,184.0 189.1,183.8 190.1,183.7 191.0,183.5 192.0,183.3 192.9,183.2 193.9,183.0 194.8,182.9 195.8,182.8 196.7,182.6 197.7,182.5 198.6,182.4 199.6,182.3 200.5,182.2 201.5,182.1 202.4,182.0 203.4,181.9 204.3,181.8 205.3,181.7 206.2,181.7 207.2,181.6 208.1,181.6 209.1,181.5 210.0,181.5 211.0,181.5 211.9,181.4 212.9,181.4 213.8,181.5 214.8,181.5 215.7,181.5 216.7,181.5 217.6,181.6 218.6,181.7 219.6,181.7 220.5,181.8 221.5,181.9 222.4,182.1 223.4,182.2 224.3,182.4 225.3,182.5 226.2,182.7 227.2,182.9 228.1,183.2 229.1,183.4 230.0,183.7 231.0,184.0 231.9,184.3 232.9,184.7 233.8,185.0 234.8,185.4 235.7,185.9 236.7,186.4 237.6,186.9 238.6,187.4 239.5,188.0 240.5,188.6 241.4,189.2 242.4,190.0 243.3,190.7 244.3,191.5 245.2,192.4 246.2,193.3 247.1,194.3 248.1,195.4 249.0,196.5 250.0,197.7 250.9,199.1 251.9,200.5 252.8,202.0 253.8,203.6 254.7,205.4 255.7,207.2 256.6,209.3 257.6,211.5 258.5,213.9 259.5,216.5 260.5,219.3 261.4,222.4 262.4,225.7 263.3,229.4 264.3,233.4 265.2,237.9 266.2,242.8 267.1,248.3 268.1,254.4\" stroke=\"#B43123\" stroke-width=\"2.2\"></polyline><polyline fill=\"none\" points=\"312.3,27.1 313.0,29.0 313.8,30.9 314.6,32.6 315.3,34.2 316.1,35.8 316.8,37.2 317.6,38.6 318.4,39.8 319.1,41.0 319.9,42.2 320.6,43.3 321.4,44.3 322.1,45.2 322.9,46.1 323.7,47.0 324.4,47.8 325.2,48.6 325.9,49.3 326.7,50.0 327.5,50.7 328.2,51.3 329.0,51.9 329.7,52.5 330.5,53.0 331.2,53.5 332.0,54.0 332.8,54.4 333.5,54.8 334.3,55.2 335.0,55.6 335.8,56.0 336.6,56.3 337.3,56.6 338.1,56.9 338.8,57.2 339.6,57.5 340.3,57.7 341.1,58.0 341.9,58.2 342.6,58.4 343.4,58.6 344.1,58.8 344.9,58.9 345.7,59.1 346.4,59.2 347.2,59.4 347.9,59.5 348.7,59.6 349.4,59.7 350.2,59.8 351.0,59.9 351.7,59.9 352.5,60.0 353.2,60.1 354.0,60.1 354.7,60.1 355.5,60.2 356.3,60.2 357.0,60.2 357.8,60.2 358.5,60.2 359.3,60.2 360.1,60.2 360.8,60.2 361.6,60.2 362.3,60.1 363.1,60.1 363.8,60.1 364.6,60.0 365.4,60.0 366.1,59.9 366.9,59.9 367.6,59.8 368.4,59.7 369.2,59.7 369.9,59.6 370.7,59.5 371.4,59.4 372.2,59.3 372.9,59.2 373.7,59.1 374.5,59.0 375.2,58.9 376.0,58.8 376.7,58.7 377.5,58.6 378.3,58.5 379.0,58.3 379.8,58.2 380.5,58.1 381.3,58.0 382.0,57.8 382.8,57.7 383.6,57.6 384.3,57.4 385.1,57.3 385.8,57.1 386.6,57.0 387.4,56.8 388.1,56.7 388.9,56.5 389.6,56.3 390.4,56.2 391.1,56.0 391.9,55.9 392.7,55.7 393.4,55.5 394.2,55.3 394.9,55.2 395.7,55.0 396.5,54.8 397.2,54.6 398.0,54.5 398.7,54.3 399.5,54.1 400.2,53.9 401.0,53.7 401.8,53.5 402.5,53.3 403.3,53.1 404.0,52.9 404.8,52.7 405.6,52.5 406.3,52.3 407.1,52.1 407.8,51.9 408.6,51.7 409.3,51.5 410.1,51.3 410.9,51.1 411.6,50.9 412.4,50.7 413.1,50.5 413.9,50.3 414.6,50.1 415.4,49.8 416.2,49.6 416.9,49.4 417.7,49.2 418.4,49.0 419.2,48.8 420.0,48.5 420.7,48.3 421.5,48.1 422.2,47.9 423.0,47.6 423.7,47.4 424.5,47.2 425.3,46.9 426.0,46.7 426.8,46.5 427.5,46.3 428.3,46.0 429.1,45.8 429.8,45.6 430.6,45.3 431.3,45.1 432.1,44.8 432.8,44.6 433.6,44.4 434.4,44.1 435.1,43.9 435.9,43.7 436.6,43.4 437.4,43.2 438.2,42.9 438.9,42.7 439.7,42.4 440.4,42.2 441.2,41.9 441.9,41.7 442.7,41.5 443.5,41.2 444.2,41.0 445.0,40.7 445.7,40.5 446.5,40.2 447.3,40.0 448.0,39.7 448.8,39.5 449.5,39.2 450.3,38.9 451.0,38.7 451.8,38.4 452.6,38.2 453.3,37.9 454.1,37.7 454.8,37.4 455.6,37.2 456.4,36.9 457.1,36.6 457.9,36.4 458.6,36.1 459.4,35.9 460.1,35.6 460.9,35.3 461.7,35.1 462.4,34.8 463.2,34.6 463.9,34.3 464.7,34.0 465.5,33.8 466.2,33.5 467.0,33.2 467.7,33.0 468.5,32.7 469.2,32.5 470.0,32.2\" stroke=\"#B43123\" stroke-width=\"2.2\"></polyline></svg></span>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -45783,7 +45783,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>f växer där \\(f'(x)>0\\) och avtar där \\(f'(x)<0\\). Där \\(f'\\) byter tecken från plus till minus har f ett maximum, och från minus till plus ett minimum.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen visar derivatan \\(f'(x)\\).</p><span class=\"fig\"><svg aria-label=\"Graf till derivatan f prim med nollställen minus 2, 1 och 4\" height=\"245\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 245\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"243\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#D9E6E9\" x1=\"77.9\" x2=\"77.9\" y1=\"25\" y2=\"210\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"77.9\" y=\"133.5\">-3</text>\n<line stroke=\"#D9E6E9\" x1=\"123.8\" x2=\"123.8\" y1=\"25\" y2=\"210\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"123.8\" y=\"133.5\">-2</text>\n<line stroke=\"#D9E6E9\" x1=\"169.7\" x2=\"169.7\" y1=\"25\" y2=\"210\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"169.7\" y=\"133.5\">-1</text>\n<line stroke=\"#D9E6E9\" x1=\"215.6\" x2=\"215.6\" y1=\"25\" y2=\"210\"></line>\n<line stroke=\"#D9E6E9\" x1=\"261.5\" x2=\"261.5\" y1=\"25\" y2=\"210\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"261.5\" y=\"133.5\">1</text>\n<line stroke=\"#D9E6E9\" x1=\"307.4\" x2=\"307.4\" y1=\"25\" y2=\"210\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"307.4\" y=\"133.5\">2</text>\n<line stroke=\"#D9E6E9\" x1=\"353.2\" x2=\"353.2\" y1=\"25\" y2=\"210\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"353.2\" y=\"133.5\">3</text>\n<line stroke=\"#D9E6E9\" x1=\"399.1\" x2=\"399.1\" y1=\"25\" y2=\"210\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"399.1\" y=\"133.5\">4</text>\n<line stroke=\"#D9E6E9\" x1=\"445.0\" x2=\"445.0\" y1=\"25\" y2=\"210\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"445.0\" y=\"133.5\">5</text>\n<line stroke=\"#D9E6E9\" x1=\"55\" x2=\"445\" y1=\"210.0\" y2=\"210.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"55\" x2=\"445\" y1=\"186.9\" y2=\"186.9\"></line>\n<line stroke=\"#D9E6E9\" x1=\"55\" x2=\"445\" y1=\"163.8\" y2=\"163.8\"></line>\n<line stroke=\"#D9E6E9\" x1=\"55\" x2=\"445\" y1=\"140.6\" y2=\"140.6\"></line>\n<line stroke=\"#D9E6E9\" x1=\"55\" x2=\"445\" y1=\"117.5\" y2=\"117.5\"></line>\n<line stroke=\"#D9E6E9\" x1=\"55\" x2=\"445\" y1=\"94.4\" y2=\"94.4\"></line>\n<line stroke=\"#D9E6E9\" x1=\"55\" x2=\"445\" y1=\"71.2\" y2=\"71.2\"></line>\n<line stroke=\"#D9E6E9\" x1=\"55\" x2=\"445\" y1=\"48.1\" y2=\"48.1\"></line>\n<line stroke=\"#D9E6E9\" x1=\"55\" x2=\"445\" y1=\"25.0\" y2=\"25.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"55\" x2=\"445\" y1=\"117.5\" y2=\"117.5\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"215.6\" x2=\"215.6\" y1=\"25\" y2=\"210\"></line>\n<polyline fill=\"none\" points=\"73.53,209.61 74.50,207.09 75.47,204.60 76.45,202.14 77.42,199.71 78.40,197.31 79.38,194.95 80.35,192.61 81.33,190.31 82.30,188.04 83.28,185.80 84.25,183.58 85.22,181.40 86.20,179.25 87.17,177.13 88.15,175.04 89.12,172.98 90.10,170.95 91.07,168.94 92.05,166.97 93.03,165.02 94.00,163.11 94.97,161.22 95.95,159.36 96.92,157.53 97.90,155.72 98.88,153.95 99.85,152.20 100.83,150.48 101.80,148.79 102.77,147.12 103.75,145.49 104.73,143.87 105.70,142.29 106.67,140.73 107.65,139.20 108.62,137.70 109.60,136.22 110.57,134.76 111.55,133.34 112.53,131.93 113.50,130.56 114.47,129.21 115.45,127.88 116.42,126.58 117.40,125.30 118.38,124.05 119.35,122.82 120.33,121.62 121.30,120.44 122.28,119.29 123.25,118.15 124.22,117.05 125.20,115.96 126.17,114.90 127.15,113.86 128.12,112.85 129.10,111.86 130.07,110.89 131.05,109.94 132.03,109.01 133.00,108.11 133.97,107.23 134.95,106.37 135.93,105.53 136.90,104.72 137.88,103.92 138.85,103.15 139.82,102.40 140.80,101.66 141.78,100.95 142.75,100.26 143.73,99.59 144.70,98.94 145.68,98.31 146.65,97.70 147.62,97.11 148.60,96.53 149.57,95.98 150.55,95.45 151.52,94.93 152.50,94.44 153.47,93.96 154.45,93.50 155.43,93.06 156.40,92.64 157.38,92.23 158.35,91.85 159.32,91.48 160.30,91.13 161.28,90.79 162.25,90.47 163.23,90.17 164.20,89.89 165.18,89.62 166.15,89.37 167.12,89.14 168.10,88.92 169.07,88.72 170.05,88.53 171.02,88.36 172.00,88.20 172.97,88.06 173.95,87.94 174.93,87.83 175.90,87.73 176.88,87.65 177.85,87.58 178.82,87.53 179.80,87.49 180.78,87.47 181.75,87.46 182.73,87.46 183.70,87.48 184.68,87.51 185.65,87.55 186.62,87.61 187.60,87.68 188.57,87.76 189.55,87.85 190.52,87.96 191.50,88.08 192.47,88.21 193.45,88.35 194.42,88.50 195.40,88.67 196.38,88.85 197.35,89.03 198.32,89.23 199.30,89.44 200.28,89.66 201.25,89.89 202.22,90.13 203.20,90.38 204.18,90.64 205.15,90.91 206.12,91.19 207.10,91.48 208.08,91.78 209.05,92.09 210.03,92.40 211.00,92.73 211.98,93.06 212.95,93.41 213.93,93.76 214.90,94.12 215.88,94.48 216.85,94.86 217.82,95.24 218.80,95.63 219.78,96.03 220.75,96.43 221.72,96.84 222.70,97.26 223.68,97.69 224.65,98.12 225.62,98.55 226.60,99.00 227.57,99.45 228.55,99.90 229.53,100.36 230.50,100.83 231.47,101.30 232.45,101.78 233.43,102.26 234.40,102.74 235.38,103.24 236.35,103.73 237.32,104.23 238.30,104.73 239.28,105.24 240.25,105.75 241.22,106.27 242.20,106.79 243.18,107.31 244.15,107.83 245.12,108.36 246.10,108.89 247.08,109.43 248.05,109.96 249.03,110.50 250.00,111.04 250.98,111.58 251.95,112.13 252.92,112.67 253.90,113.22 254.88,113.77 255.85,114.32 256.82,114.87 257.80,115.42 258.77,115.97 259.75,116.52 260.73,117.08 261.70,117.63 262.67,118.18 263.65,118.74 264.62,119.29 265.60,119.84 266.57,120.39 267.55,120.94 268.52,121.49 269.50,122.04 270.48,122.58 271.45,123.13 272.43,123.67 273.40,124.21 274.38,124.75 275.35,125.29 276.32,125.82 277.30,126.36 278.27,126.89 279.25,127.41 280.23,127.94 281.20,128.46 282.18,128.97 283.15,129.49 284.12,130.00 285.10,130.50 286.08,131.01 287.05,131.50 288.02,132.00 289.00,132.49 289.98,132.97 290.95,133.45 291.93,133.92 292.90,134.39 293.88,134.86 294.85,135.31 295.83,135.77 296.80,136.21 297.77,136.65 298.75,137.09 299.73,137.52 300.70,137.94 301.67,138.35 302.65,138.76 303.62,139.16 304.60,139.55 305.57,139.94 306.55,140.32 307.52,140.69 308.50,141.05 309.48,141.41 310.45,141.76 311.43,142.09 312.40,142.42 313.38,142.75 314.35,143.06 315.32,143.36 316.30,143.66 317.27,143.94 318.25,144.22 319.23,144.48 320.20,144.74 321.18,144.98 322.15,145.22 323.12,145.44 324.10,145.66 325.07,145.86 326.05,146.06 327.02,146.24 328.00,146.41 328.98,146.57 329.95,146.72 330.93,146.85 331.90,146.98 332.88,147.09 333.85,147.19 334.82,147.28 335.80,147.36 336.78,147.42 337.75,147.47 338.73,147.51 339.70,147.53 340.68,147.54 341.65,147.54 342.62,147.52 343.60,147.49 344.58,147.44 345.55,147.39 346.52,147.31 347.50,147.22 348.48,147.12 349.45,147.01 350.42,146.87 351.40,146.73 352.38,146.56 353.35,146.38 354.32,146.19 355.30,145.98 356.27,145.75 357.25,145.51 358.22,145.25 359.20,144.98 360.18,144.69 361.15,144.38 362.12,144.05 363.10,143.71 364.07,143.35 365.05,142.97 366.02,142.58 367.00,142.17 367.98,141.73 368.95,141.29 369.93,140.82 370.90,140.33 371.88,139.83 372.85,139.30 373.82,138.76 374.80,138.20 375.77,137.62 376.75,137.02 377.73,136.40 378.70,135.76 379.68,135.10 380.65,134.42 381.62,133.72 382.60,132.99 383.57,132.25 384.55,131.49 385.53,130.71 386.50,129.90 387.48,129.08 388.45,128.23 389.43,127.36 390.40,126.47 391.38,125.55 392.35,124.62 393.33,123.66 394.30,122.68 395.27,121.68 396.25,120.65 397.23,119.60 398.20,118.53 399.17,117.43 400.15,116.32 401.12,115.17 402.10,114.01 403.07,112.82 404.05,111.60 405.02,110.36 406.00,109.10 406.97,107.81 407.95,106.50 408.93,105.16 409.90,103.80 410.88,102.41 411.85,101.00 412.82,99.56 413.80,98.09 414.77,96.60 415.75,95.08 416.73,93.54 417.70,91.97 418.68,90.37 419.65,88.75 420.62,87.10 421.60,85.42 422.57,83.71 423.55,81.98 424.53,80.22 425.50,78.43 426.47,76.61 427.45,74.77 428.43,72.90 429.40,71.00 430.38,69.07 431.35,67.11 432.33,65.12 433.30,63.10 434.27,61.06 435.25,58.98 436.23,56.87 437.20,54.74 438.18,52.57 439.15,50.38 440.12,48.15 441.10,45.90 442.07,43.61 443.05,41.29 444.02,38.94 445.00,36.56\" stroke=\"#268FA3\" stroke-width=\"2.6\"></polyline>\n<circle cx=\"123.8\" cy=\"117.5\" fill=\"#268FA3\" r=\"4\"></circle>\n<circle cx=\"261.5\" cy=\"117.5\" fill=\"#268FA3\" r=\"4\"></circle>\n<circle cx=\"399.1\" cy=\"117.5\" fill=\"#268FA3\" r=\"4\"></circle>\n<text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"440\" y=\"40\">y = f'(x)</text>\n</svg></span>",
     "spelDelar": [
@@ -45923,7 +45923,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Lodräta asymptoter finns där nämnaren är noll men täljaren inte är det. För stora \\(|x|\\) går kvoten mot förhållandet mellan termerna med högst grad i täljare och nämnare.</p>",
     "spelIntro": "<p>Bestäm funktionens lodräta och vågräta asymptoter. Skriv den vågräta asymptotens y-värde i svarsrutan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -45955,7 +45955,7 @@ window.BANKMATO2 = [
     "rättSvar": "x+1",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -45995,7 +45995,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Lodräta asymptoter finns där nämnaren är noll men täljaren inte är det. För stora \\(|x|\\) går kvoten mot förhållandet mellan termerna med högst grad i täljare och nämnare.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm lodräta och vågräta asymptoter.</p>",
     "spelDelar": [
@@ -46055,7 +46055,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_asymptoter__skissa_grafer_och_asymptoter",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -46228,7 +46228,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig. I b) och d) behövs polynomdivision eller en jämförelse av de högsta termerna.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm funktionens asymptoter.</p>",
     "spelDelar": [
@@ -46364,7 +46364,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sneda_asymptoter__asymptoter_med_polynomdivision",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor.</p>",
     "spelIntro": "<p>Bestäm den sneda asymptoten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -46396,7 +46396,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_asymptoter__skissa_grafer_och_asymptoter",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -46530,7 +46530,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sneda_asymptoter__asymptoter_med_polynomdivision",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Lodräta asymptoter finns där nämnaren är noll men täljaren inte är det. Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor.</p>",
     "spelIntro": "<p>Funktionen \\(f\\) ges av</p><p>\\[f(x)=\\frac{2x^2-3}{x-2}.\\]</p><span class=\"fig\"><svg aria-label=\"Graf till rationell funktion\" height=\"290\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 480 290\" width=\"480\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"288\" rx=\"10\" stroke=\"#E4E3E6\" width=\"478\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"87.9\" x2=\"87.9\" y1=\"25\" y2=\"250\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"87.9\" y=\"268\">-4</text><line stroke=\"#E8ECEF\" x1=\"153.8\" x2=\"153.8\" y1=\"25\" y2=\"250\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"153.8\" y=\"268\">-2</text><line stroke=\"#E8ECEF\" x1=\"219.6\" x2=\"219.6\" y1=\"25\" y2=\"250\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"219.6\" y=\"268\">0</text><line stroke=\"#E8ECEF\" x1=\"285.4\" x2=\"285.4\" y1=\"25\" y2=\"250\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"285.4\" y=\"268\">2</text><line stroke=\"#E8ECEF\" x1=\"351.2\" x2=\"351.2\" y1=\"25\" y2=\"250\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"351.2\" y=\"268\">4</text><line stroke=\"#E8ECEF\" x1=\"417.1\" x2=\"417.1\" y1=\"25\" y2=\"250\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"417.1\" y=\"268\">6</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"450\" y1=\"250.0\" y2=\"250.0\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"254.0\">-20</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"450\" y1=\"200.0\" y2=\"200.0\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"204.0\">-10</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"450\" y1=\"150.0\" y2=\"150.0\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"154.0\">0</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"450\" y1=\"100.0\" y2=\"100.0\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"104.0\">10</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"450\" y1=\"50.0\" y2=\"50.0\"></line><text font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"54.0\">20</text><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"450\" y1=\"150.0\" y2=\"150.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"219.6\" x2=\"219.6\" y1=\"25\" y2=\"250\"></line><line stroke=\"#268FA3\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"285.4\" x2=\"285.4\" y1=\"25\" y2=\"250\"></line><line stroke=\"#268FA3\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"55.0\" x2=\"450.0\" y1=\"180.0\" y2=\"60.0\"></line><polyline fill=\"none\" points=\"55.0,183.6 56.0,183.3 56.9,183.0 57.9,182.7 58.8,182.5 59.8,182.2 60.7,181.9 61.7,181.6 62.6,181.4 63.6,181.1 64.6,180.8 65.5,180.5 66.5,180.3 67.4,180.0 68.4,179.7 69.3,179.5 70.3,179.2 71.2,178.9 72.2,178.6 73.2,178.4 74.1,178.1 75.1,177.8 76.0,177.5 77.0,177.3 77.9,177.0 78.9,176.7 79.9,176.5 80.8,176.2 81.8,175.9 82.7,175.6 83.7,175.4 84.6,175.1 85.6,174.8 86.5,174.6 87.5,174.3 88.5,174.0 89.4,173.7 90.4,173.5 91.3,173.2 92.3,172.9 93.2,172.7 94.2,172.4 95.1,172.1 96.1,171.9 97.1,171.6 98.0,171.3 99.0,171.1 99.9,170.8 100.9,170.5 101.8,170.3 102.8,170.0 103.7,169.7 104.7,169.5 105.7,169.2 106.6,168.9 107.6,168.7 108.5,168.4 109.5,168.1 110.4,167.9 111.4,167.6 112.3,167.3 113.3,167.1 114.3,166.8 115.2,166.5 116.2,166.3 117.1,166.0 118.1,165.8 119.0,165.5 120.0,165.2 121.0,165.0 121.9,164.7 122.9,164.4 123.8,164.2 124.8,163.9 125.7,163.7 126.7,163.4 127.6,163.1 128.6,162.9 129.6,162.6 130.5,162.4 131.5,162.1 132.4,161.9 133.4,161.6 134.3,161.3 135.3,161.1 136.2,160.8 137.2,160.6 138.2,160.3 139.1,160.1 140.1,159.8 141.0,159.6 142.0,159.3 142.9,159.1 143.9,158.8 144.8,158.6 145.8,158.3 146.8,158.1 147.7,157.8 148.7,157.6 149.6,157.3 150.6,157.1 151.5,156.8 152.5,156.6 153.4,156.3 154.4,156.1 155.4,155.8 156.3,155.6 157.3,155.4 158.2,155.1 159.2,154.9 160.1,154.6 161.1,154.4 162.1,154.1 163.0,153.9 164.0,153.7 164.9,153.4 165.9,153.2 166.8,153.0 167.8,152.7 168.7,152.5 169.7,152.3 170.7,152.0 171.6,151.8 172.6,151.6 173.5,151.3 174.5,151.1 175.4,150.9 176.4,150.7 177.3,150.4 178.3,150.2 179.3,150.0 180.2,149.8 181.2,149.6 182.1,149.3 183.1,149.1 184.0,148.9 185.0,148.7 185.9,148.5 186.9,148.3 187.9,148.1 188.8,147.9 189.8,147.7 190.7,147.5 191.7,147.3 192.6,147.1 193.6,146.9 194.6,146.7 195.5,146.5 196.5,146.3 197.4,146.1 198.4,145.9 199.3,145.7 200.3,145.5 201.2,145.3 202.2,145.2 203.2,145.0 204.1,144.8 205.1,144.7 206.0,144.5 207.0,144.3 207.9,144.2 208.9,144.0 209.8,143.8 210.8,143.7 211.8,143.5 212.7,143.4 213.7,143.3 214.6,143.1 215.6,143.0 216.5,142.9 217.5,142.8 218.4,142.6 219.4,142.5 220.4,142.4 221.3,142.3 222.3,142.2 223.2,142.1 224.2,142.0 225.1,142.0 226.1,141.9 227.0,141.8 228.0,141.8 229.0,141.7 229.9,141.7 230.9,141.7 231.8,141.6 232.8,141.6 233.7,141.6 234.7,141.6 235.7,141.7 236.6,141.7 237.6,141.7 238.5,141.8 239.5,141.9 240.4,142.0 241.4,142.1 242.3,142.2 243.3,142.3 244.3,142.5 245.2,142.7 246.2,142.9 247.1,143.1 248.1,143.4 249.0,143.7 250.0,144.0 250.9,144.3 251.9,144.7 252.9,145.2 253.8,145.6 254.8,146.2 255.7,146.7 256.7,147.4 257.6,148.1 258.6,148.8 259.5,149.7 260.5,150.6 261.5,151.6 262.4,152.8 263.4,154.0 264.3,155.4 265.3,157.0 266.2,158.7 267.2,160.7 268.1,162.9 269.1,165.4 270.1,168.3 271.0,171.5 272.0,175.3 272.9,179.7 273.9,184.9 274.8,191.0 275.8,198.5 276.8,207.6 277.7,219.1 278.7,233.9\" stroke=\"#B43123\" stroke-width=\"2.3\"></polyline><polyline fill=\"none\" points=\"295.6,25.8 296.2,30.7 296.9,34.9 297.6,38.7 298.3,42.1 299.0,45.1 299.6,47.8 300.3,50.3 301.0,52.5 301.7,54.5 302.4,56.3 303.0,58.0 303.7,59.5 304.4,60.9 305.1,62.2 305.8,63.4 306.4,64.5 307.1,65.5 307.8,66.4 308.5,67.3 309.2,68.1 309.8,68.9 310.5,69.6 311.2,70.3 311.9,70.9 312.6,71.4 313.2,72.0 313.9,72.5 314.6,72.9 315.3,73.4 316.0,73.8 316.6,74.2 317.3,74.5 318.0,74.8 318.7,75.2 319.4,75.4 320.0,75.7 320.7,76.0 321.4,76.2 322.1,76.4 322.8,76.6 323.5,76.8 324.1,77.0 324.8,77.1 325.5,77.3 326.2,77.4 326.9,77.6 327.5,77.7 328.2,77.8 328.9,77.9 329.6,77.9 330.3,78.0 330.9,78.1 331.6,78.2 332.3,78.2 333.0,78.2 333.7,78.3 334.3,78.3 335.0,78.3 335.7,78.4 336.4,78.4 337.1,78.4 337.7,78.4 338.4,78.4 339.1,78.4 339.8,78.3 340.5,78.3 341.1,78.3 341.8,78.3 342.5,78.2 343.2,78.2 343.9,78.2 344.5,78.1 345.2,78.1 345.9,78.0 346.6,78.0 347.3,77.9 347.9,77.8 348.6,77.8 349.3,77.7 350.0,77.6 350.7,77.6 351.3,77.5 352.0,77.4 352.7,77.3 353.4,77.2 354.1,77.2 354.7,77.1 355.4,77.0 356.1,76.9 356.8,76.8 357.5,76.7 358.2,76.6 358.8,76.5 359.5,76.4 360.2,76.3 360.9,76.2 361.6,76.1 362.2,76.0 362.9,75.8 363.6,75.7 364.3,75.6 365.0,75.5 365.6,75.4 366.3,75.3 367.0,75.1 367.7,75.0 368.4,74.9 369.0,74.8 369.7,74.6 370.4,74.5 371.1,74.4 371.8,74.2 372.4,74.1 373.1,74.0 373.8,73.8 374.5,73.7 375.2,73.6 375.8,73.4 376.5,73.3 377.2,73.2 377.9,73.0 378.6,72.9 379.2,72.7 379.9,72.6 380.6,72.4 381.3,72.3 382.0,72.1 382.6,72.0 383.3,71.9 384.0,71.7 384.7,71.6 385.4,71.4 386.0,71.3 386.7,71.1 387.4,70.9 388.1,70.8 388.8,70.6 389.4,70.5 390.1,70.3 390.8,70.2 391.5,70.0 392.2,69.9 392.8,69.7 393.5,69.5 394.2,69.4 394.9,69.2 395.6,69.1 396.3,68.9 396.9,68.7 397.6,68.6 398.3,68.4 399.0,68.3 399.7,68.1 400.3,67.9 401.0,67.8 401.7,67.6 402.4,67.4 403.1,67.3 403.7,67.1 404.4,66.9 405.1,66.8 405.8,66.6 406.5,66.4 407.1,66.3 407.8,66.1 408.5,65.9 409.2,65.8 409.9,65.6 410.5,65.4 411.2,65.2 411.9,65.1 412.6,64.9 413.3,64.7 413.9,64.6 414.6,64.4 415.3,64.2 416.0,64.0 416.7,63.9 417.3,63.7 418.0,63.5 418.7,63.3 419.4,63.2 420.1,63.0 420.7,62.8 421.4,62.6 422.1,62.5 422.8,62.3 423.5,62.1 424.1,61.9 424.8,61.7 425.5,61.6 426.2,61.4 426.9,61.2 427.5,61.0 428.2,60.9 428.9,60.7 429.6,60.5 430.3,60.3 430.9,60.1 431.6,60.0 432.3,59.8 433.0,59.6 433.7,59.4 434.4,59.2 435.0,59.0 435.7,58.9 436.4,58.7 437.1,58.5 437.8,58.3 438.4,58.1 439.1,58.0 439.8,57.8 440.5,57.6 441.2,57.4 441.8,57.2 442.5,57.0 443.2,56.9 443.9,56.7 444.6,56.5 445.2,56.3 445.9,56.1 446.6,55.9 447.3,55.7 448.0,55.6 448.6,55.4 449.3,55.2 450.0,55.0\" stroke=\"#B43123\" stroke-width=\"2.3\"></polyline><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"445\" y=\"142.0\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"227.6\" y=\"37\">y</text></svg></span>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -46562,7 +46562,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_asymptoter__skissa_grafer_och_asymptoter",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -46626,7 +46626,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "sneda_asymptoter__asymptoter_med_polynomdivision",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -46679,7 +46679,7 @@ window.BANKMATO2 = [
       "numeriskt"
     ],
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Tangentens lutning är \\(f'(x_P)\\). Lutar den uppåt eller nedåt?</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Figuren visar en kurva och en tangent i punkten \\(P\\).</p><span class=\"fig\"><svg aria-label=\"Kurva med tangenten utritad i punkten P\" height=\"245\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 450 245\" width=\"450\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"243\" rx=\"10\" stroke=\"#E4E3E6\" width=\"448\" x=\"1\" y=\"1\"></rect><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"45\" x2=\"415\" y1=\"190\" y2=\"190\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"85\" x2=\"85\" y1=\"25\" y2=\"220\"></line><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"412\" y=\"182\">x</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"11\" x=\"93\" y=\"37\">y</text><polyline fill=\"none\" points=\"47.6,183.5 49,179 50.5,174.6 51.9,170.3 53.3,166.2 54.8,162.1 56.2,158.1 57.6,154.2 59,150.4 60.5,146.6 61.9,143 63.3,139.5 64.8,136 66.2,132.7 67.6,129.4 69.1,126.2 70.5,123.1 71.9,120.1 73.4,117.2 74.8,114.3 76.2,111.6 77.6,108.9 79.1,106.3 80.5,103.8 81.9,101.3 83.4,99 84.8,96.7 86.2,94.5 87.7,92.4 89.1,90.3 90.5,88.3 92,86.4 93.4,84.6 94.8,82.8 96.2,81.2 97.7,79.5 99.1,78 100.5,76.5 102,75.1 103.4,73.8 104.8,72.5 106.3,71.3 107.7,70.1 109.1,69.1 110.6,68 112,67.1 113.4,66.2 114.8,65.4 116.3,64.6 117.7,63.9 119.1,63.2 120.6,62.6 122,62.1 123.4,61.6 124.9,61.2 126.3,60.8 127.7,60.5 129.2,60.2 130.6,60 132,59.9 133.5,59.7 134.9,59.7 136.3,59.7 137.7,59.7 139.2,59.8 140.6,59.9 142,60.1 143.5,60.3 144.9,60.6 146.3,60.9 147.8,61.2 149.2,61.6 150.6,62 152.1,62.5 153.5,63 154.9,63.6 156.3,64.1 157.8,64.8 159.2,65.4 160.6,66.1 162.1,66.8 163.5,67.6 164.9,68.4 166.4,69.2 167.8,70.1 169.2,71 170.7,71.9 172.1,72.8 173.5,73.8 174.9,74.8 176.4,75.8 177.8,76.9 179.2,77.9 180.7,79 182.1,80.1 183.5,81.3 185,82.5 186.4,83.6 187.8,84.8 189.3,86.1 190.7,87.3 192.1,88.6 193.5,89.8 195,91.1 196.4,92.4 197.8,93.7 199.3,95.1 200.7,96.4 202.1,97.8 203.6,99.1 205,100.5 206.4,101.9 207.9,103.3 209.3,104.7 210.7,106.1 212.1,107.5 213.6,108.9 215,110.4 216.4,111.8 217.9,113.2 219.3,114.6 220.7,116.1 222.2,117.5 223.6,118.9 225,120.4 226.5,121.8 227.9,123.2 229.3,124.6 230.7,126 232.2,127.4 233.6,128.8 235,130.2 236.5,131.6 237.9,133 239.3,134.4 240.8,135.7 242.2,137.1 243.6,138.4 245.1,139.7 246.5,141.1 247.9,142.4 249.3,143.6 250.8,144.9 252.2,146.1 253.6,147.4 255.1,148.6 256.5,149.8 257.9,150.9 259.4,152.1 260.8,153.2 262.2,154.3 263.7,155.4 265.1,156.5 266.5,157.5 267.9,158.5 269.4,159.5 270.8,160.4 272.2,161.4 273.7,162.3 275.1,163.1 276.5,164 278,164.8 279.4,165.5 280.8,166.3 282.3,167 283.7,167.7 285.1,168.3 286.5,168.9 288,169.4 289.4,170 290.8,170.5 292.3,170.9 293.7,171.3 295.1,171.7 296.6,172 298,172.3 299.4,172.5 300.9,172.7 302.3,172.8 303.7,172.9 305.2,173 306.6,173 308,173 309.4,172.9 310.9,172.7 312.3,172.5 313.7,172.3 315.2,172 316.6,171.6 318,171.2 319.5,170.8 320.9,170.2 322.3,169.7 323.8,169 325.2,168.3 326.6,167.6 328,166.8 329.5,165.9 330.9,165 332.3,164 333.8,162.9 335.2,161.8 336.6,160.6 338.1,159.4 339.5,158.1 340.9,156.7 342.4,155.2 343.8,153.7 345.2,152.1 346.6,150.5 348.1,148.7 349.5,146.9 350.9,145.1 352.4,143.1 353.8,141.1 355.2,139 356.7,136.8 358.1,134.6 359.5,132.2 361,129.8 362.4,127.3 363.8,124.8 365.2,122.1 366.7,119.4 368.1,116.6 369.5,113.7 371,110.7 372.4,107.6 373.8,104.5 375.3,101.2 376.7,97.9 378.1,94.5 379.6,91 381,87.4 382.4,83.7 383.8,79.9 385.3,76.1 386.7,72.1 388.1,68.1 389.6,63.9 391,59.7\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.4\"></polyline><line stroke=\"#268FA3\" stroke-width=\"2\" x1=\"210.8\" x2=\"302.6\" y1=\"113.2\" y2=\"186.7\"></line><circle cx=\"259\" cy=\"151.8\" fill=\"#B43123\" r=\"4.5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"268\" y=\"143.8\">P</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"268\" y=\"143.8\">P</text></svg></span>",
     "spelDelar": [
@@ -46741,7 +46741,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "sneda_asymptoter__asymptoter_med_polynomdivision",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Lodräta asymptoter finns där nämnaren är noll men täljaren inte är det. Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -46773,7 +46773,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor. Grafen kan bara skära asymptoten om resttermen kan bli noll.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -46804,7 +46804,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Lodräta asymptoter finns där nämnaren är noll men täljaren inte är det. För stora \\(|x|\\) går kvoten mot förhållandet mellan termerna med högst grad i täljare och nämnare.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -46846,7 +46846,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera två gånger. Gör sedan en teckentabell för \\(f''(x)\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För \\(f(x)=x^4-4x^2\\):</p>",
     "spelDelar": [
@@ -47026,7 +47026,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Faktorisera täljaren och förkorta. Vad händer med funktionen nära \\(x=2\\)?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -47057,7 +47057,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig. För extrempunkterna löser du \\(f'(x)=0\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -47088,7 +47088,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera med produktregeln och bryt ut \\(-e^{-x}\\). Vilket tecken har det som blir kvar?</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -47120,7 +47120,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -47151,7 +47151,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -47181,7 +47181,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Lodräta asymptoter finns där nämnaren är noll men täljaren inte är det. För stora \\(|x|\\) går kvoten mot förhållandet mellan termerna med högst grad i täljare och nämnare.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -47211,7 +47211,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -47242,7 +47242,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>\\(f'(x)=3x^2-3a\\). Hur många nollställen har derivatan när \\(a>0\\), \\(a=0\\) och \\(a<0\\)?</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -47281,7 +47281,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor. För extrempunkterna löser du \\(f'(x)=0\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Funktionen \\(f(x)=\\frac{x^2+1}{x-1}\\).</p>",
     "spelDelar": [
@@ -47342,7 +47342,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -47372,7 +47372,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera, sätt \\(f'(x)=0\\) och gör en teckentabell för att avgöra typen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -47485,7 +47485,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -47516,7 +47516,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Grafen saknar extrempunkter om \\(f'(x)\\) aldrig byter tecken. Derivatan är ett andragradsuttryck. När saknar det två olika nollställen?</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -47546,7 +47546,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "sneda_asymptoter__asymptoter_med_polynomdivision",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>En funktion på formen \\(2x+1+\\frac{c}{x-1}\\) har just dessa asymptoter.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -47578,7 +47578,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -47610,7 +47610,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Gör polynomdivision med \\(x-2\\) och jämför kvoten med \\(x+5\\).</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -47654,7 +47654,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>f växer där \\(f'(x)>0\\) och avtar där \\(f'(x)<0\\). Där \\(f'\\) byter tecken från plus till minus har f ett maximum, och från minus till plus ett minimum.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen till \\(f'\\) visas i figuren.</p><span class=\"fig\"><svg aria-label=\"Grafen till derivatan f prim\" height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 480 300\" width=\"480\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"478\" x=\"1\" y=\"1\"></rect><line stroke=\"#E6ECEF\" x1=\"45.0\" x2=\"45.0\" y1=\"25\" y2=\"260\"></line><line stroke=\"#E6ECEF\" x1=\"90.0\" x2=\"90.0\" y1=\"25\" y2=\"260\"></line><line stroke=\"#E6ECEF\" x1=\"135.0\" x2=\"135.0\" y1=\"25\" y2=\"260\"></line><line stroke=\"#E6ECEF\" x1=\"180.0\" x2=\"180.0\" y1=\"25\" y2=\"260\"></line><line stroke=\"#E6ECEF\" x1=\"225.0\" x2=\"225.0\" y1=\"25\" y2=\"260\"></line><line stroke=\"#E6ECEF\" x1=\"270.0\" x2=\"270.0\" y1=\"25\" y2=\"260\"></line><line stroke=\"#E6ECEF\" x1=\"315.0\" x2=\"315.0\" y1=\"25\" y2=\"260\"></line><line stroke=\"#E6ECEF\" x1=\"360.0\" x2=\"360.0\" y1=\"25\" y2=\"260\"></line><line stroke=\"#E6ECEF\" x1=\"405.0\" x2=\"405.0\" y1=\"25\" y2=\"260\"></line><line stroke=\"#E6ECEF\" x1=\"450.0\" x2=\"450.0\" y1=\"25\" y2=\"260\"></line><line stroke=\"#E6ECEF\" x1=\"45\" x2=\"450\" y1=\"260.0\" y2=\"260.0\"></line><line stroke=\"#E6ECEF\" x1=\"45\" x2=\"450\" y1=\"233.9\" y2=\"233.9\"></line><line stroke=\"#E6ECEF\" x1=\"45\" x2=\"450\" y1=\"207.8\" y2=\"207.8\"></line><line stroke=\"#E6ECEF\" x1=\"45\" x2=\"450\" y1=\"181.7\" y2=\"181.7\"></line><line stroke=\"#E6ECEF\" x1=\"45\" x2=\"450\" y1=\"155.6\" y2=\"155.6\"></line><line stroke=\"#E6ECEF\" x1=\"45\" x2=\"450\" y1=\"129.4\" y2=\"129.4\"></line><line stroke=\"#E6ECEF\" x1=\"45\" x2=\"450\" y1=\"103.3\" y2=\"103.3\"></line><line stroke=\"#E6ECEF\" x1=\"45\" x2=\"450\" y1=\"77.2\" y2=\"77.2\"></line><line stroke=\"#E6ECEF\" x1=\"45\" x2=\"450\" y1=\"51.1\" y2=\"51.1\"></line><line stroke=\"#E6ECEF\" x1=\"45\" x2=\"450\" y1=\"25.0\" y2=\"25.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"45\" x2=\"450\" y1=\"155.6\" y2=\"155.6\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"225.0\" x2=\"225.0\" y1=\"25\" y2=\"260\"></line><polyline fill=\"none\" points=\"85.6,16.0 87.0,18.8 88.3,21.6 89.7,24.4 91.1,27.1 92.4,29.9 93.8,32.5 95.1,35.2 96.5,37.9 97.8,40.5 99.2,43.1 100.5,45.7 101.9,48.2 103.2,50.8 104.6,53.3 106.0,55.8 107.3,58.2 108.7,60.7 110.0,63.1 111.4,65.5 112.7,67.8 114.1,70.2 115.4,72.5 116.8,74.8 118.1,77.0 119.5,79.3 120.9,81.5 122.2,83.7 123.6,85.9 124.9,88.1 126.3,90.2 127.6,92.3 129.0,94.4 130.3,96.4 131.7,98.5 133.0,100.5 134.4,102.5 135.8,104.4 137.1,106.4 138.5,108.3 139.8,110.2 141.2,112.0 142.5,113.9 143.9,115.7 145.2,117.5 146.6,119.3 147.9,121.0 149.3,122.8 150.7,124.5 152.0,126.1 153.4,127.8 154.7,129.4 156.1,131.0 157.4,132.6 158.8,134.2 160.1,135.7 161.5,137.2 162.8,138.7 164.2,140.2 165.6,141.6 166.9,143.1 168.3,144.4 169.6,145.8 171.0,147.2 172.3,148.5 173.7,149.8 175.0,151.1 176.4,152.3 177.7,153.6 179.1,154.8 180.5,155.9 181.8,157.1 183.2,158.2 184.5,159.4 185.9,160.4 187.2,161.5 188.6,162.5 189.9,163.6 191.3,164.6 192.6,165.5 194.0,166.5 195.4,167.4 196.7,168.3 198.1,169.2 199.4,170.0 200.8,170.9 202.1,171.7 203.5,172.4 204.8,173.2 206.2,173.9 207.5,174.6 208.9,175.3 210.3,176.0 211.6,176.6 213.0,177.2 214.3,177.8 215.7,178.4 217.0,178.9 218.4,179.5 219.7,180.0 221.1,180.4 222.4,180.9 223.8,181.3 225.2,181.7 226.5,182.1 227.9,182.4 229.2,182.8 230.6,183.1 231.9,183.4 233.3,183.6 234.6,183.9 236.0,184.1 237.3,184.3 238.7,184.4 240.1,184.6 241.4,184.7 242.8,184.8 244.1,184.9 245.5,184.9 246.8,184.9 248.2,184.9 249.5,184.9 250.9,184.9 252.2,184.8 253.6,184.7 254.9,184.6 256.3,184.4 257.7,184.3 259.0,184.1 260.4,183.9 261.7,183.6 263.1,183.4 264.4,183.1 265.8,182.8 267.1,182.4 268.5,182.1 269.8,181.7 271.2,181.3 272.6,180.9 273.9,180.4 275.3,180.0 276.6,179.5 278.0,178.9 279.3,178.4 280.7,177.8 282.0,177.2 283.4,176.6 284.7,176.0 286.1,175.3 287.5,174.6 288.8,173.9 290.2,173.2 291.5,172.4 292.9,171.7 294.2,170.9 295.6,170.0 296.9,169.2 298.3,168.3 299.6,167.4 301.0,166.5 302.4,165.5 303.7,164.6 305.1,163.6 306.4,162.5 307.8,161.5 309.1,160.4 310.5,159.4 311.8,158.2 313.2,157.1 314.5,155.9 315.9,154.8 317.3,153.6 318.6,152.3 320.0,151.1 321.3,149.8 322.7,148.5 324.0,147.2 325.4,145.8 326.7,144.4 328.1,143.1 329.4,141.6 330.8,140.2 332.2,138.7 333.5,137.2 334.9,135.7 336.2,134.2 337.6,132.6 338.9,131.0 340.3,129.4 341.6,127.8 343.0,126.1 344.3,124.5 345.7,122.8 347.1,121.0 348.4,119.3 349.8,117.5 351.1,115.7 352.5,113.9 353.8,112.0 355.2,110.2 356.5,108.3 357.9,106.4 359.2,104.4 360.6,102.5 362.0,100.5 363.3,98.5 364.7,96.4 366.0,94.4 367.4,92.3 368.7,90.2 370.1,88.1 371.4,85.9 372.8,83.7 374.1,81.5 375.5,79.3 376.9,77.0 378.2,74.8 379.6,72.5 380.9,70.2 382.3,67.8 383.6,65.5 385.0,63.1 386.3,60.7 387.7,58.2 389.0,55.8 390.4,53.3 391.8,50.8 393.1,48.2 394.5,45.7 395.8,43.1 397.2,40.5 398.5,37.9 399.9,35.2 401.2,32.5 402.6,29.9 403.9,27.1 405.3,24.4 406.7,21.6 408.0,18.8 409.4,16.0\" stroke=\"#B43123\" stroke-width=\"2.4\"></polyline><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"395\" y=\"55\">f '(x)</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"395\" y=\"55\">f '(x)</text><text font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"180.0\" y=\"171.6\">-1</text><text font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"315.0\" y=\"171.6\">2</text></svg></span>",
     "spelDelar": [
@@ -47727,7 +47727,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_asymptoter__skissa_grafer_och_asymptoter",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Rita asymptoterna först. Undersök tecknet på bråktermen till höger och till vänster om \\(x=2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -47825,7 +47825,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Derivera och sätt \\(f'(x)=0\\). Minimum ligger vid \\(x=\\sqrt a\\). Sätt minsta värdet lika med 10.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -47868,7 +47868,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
-    "ledtrad": "<p>Bestäm nollställen och tecken för \\(f'\\). Om konkavitet eller inflexionspunkter efterfrågas undersöker du även \\(f''\\).</p>",
+    "ledtrad": "<p>Gör en teckentabell för \\((x-1)(x-4)\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-1)(x-4)\\).</p>",
     "spelDelar": [
@@ -47942,7 +47942,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Den sneda asymptoten är \\(ax+b\\). Jämför med \\(y=-2x+5\\). Den lodräta finns där nämnaren är noll.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -47973,7 +47973,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Uttrycket är redan uppdelat: bråktermen ger den lodräta asymptoten, och resten är den linje grafen närmar sig.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -48098,7 +48098,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sneda_asymptoter__asymptoter_med_polynomdivision",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -48129,7 +48129,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sneda_asymptoter__asymptoter_med_polynomdivision",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -48160,7 +48160,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sneda_asymptoter__asymptoter_med_polynomdivision",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -54378,7 +54378,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Kurvorna skär varandra vid \\(x=\\pi/4\\) och byter plats där. Dela integralen vid den punkten.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -54460,7 +54460,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "grafiska_metoder__geometrisk_area_och_area_fran_graf_med_integral",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Integrera funktionen över intervallet. Du kan kontrollera a) och b) med areaformler för trapets och triangel.</p>",
     "spelIntro": "<p>Beräkna arean mellan grafen och x-axeln på det angivna intervallet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -54491,7 +54491,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Sinus är positiv på hela intervallet. Integrera från 0 till \\(\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -54681,7 +54681,7 @@ window.BANKMATO2 = [
     "rättSvar": 8,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Integrera \\(x\\) från 0 till 4, eller räkna triangelns area.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -54714,7 +54714,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Kurvorna skär varandra vid \\(x=0\\) och \\(x=k\\). Beräkna arean uttryckt i k och sätt den lika med 4,5.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -54827,7 +54827,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på intervallet? Integrera den övre minus den undre. Skärningspunkterna och integralen bestäms numeriskt.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -54857,7 +54857,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "grafiska_metoder__geometrisk_area_och_area_fran_graf_med_integral",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Integralen är arean ovanför x-axeln minus arean under. Dela upp området i trianglar och rektanglar.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -54920,7 +54920,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Var skär kurvan x-axeln? Nollställena blir integrationsgränser. Den primitiva funktionen till \\(\\cos3x\\) är \\(\\frac13\\sin3x\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -54950,7 +54950,7 @@ window.BANKMATO2 = [
     "rättSvar": 18,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Integrera \\(6-x\\) från 0 till 6, eller räkna triangelns area.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -54982,7 +54982,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Sinus är negativ mellan \\(\\pi\\) och \\(2\\pi\\). Integralen räknar den delen negativt, men den geometriska arean räknar den positivt.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -55098,7 +55098,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Alla tre funktionerna är positiva på intervallen. Integrera dem direkt.</p>",
     "spelIntro": "<p>Bestäm arean mellan grafen och x-axeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -55129,7 +55129,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Funktionen är negativ på en del av intervallet. Dela integralen där och räkna varje del som positiv. Linjen skär x-axeln vid \\(x=2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -55211,7 +55211,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på intervallet? Integrera den övre minus den undre.</p>",
     "spelIntro": "<p>Bestäm arean mellan kurvorna på det angivna intervallet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -55274,7 +55274,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Beräkna hela arean först. Bestäm sedan a så att integralen från 0 till a blir hälften.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -55304,7 +55304,7 @@ window.BANKMATO2 = [
     "rättSvar": "1/6",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på intervallet? Integrera den övre minus den undre.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -55335,7 +55335,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på intervallet? Integrera den övre minus den undre. Skärningspunkterna och integralen bestäms numeriskt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -55493,7 +55493,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkterna, som blir integrationsgränser. Integrera sedan den övre kurvan minus den undre.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -55575,7 +55575,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på intervallet? Integrera den övre minus den undre.</p>",
     "spelIntro": "<p>Beräkna arean mellan kurvorna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -55605,7 +55605,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Kurvorna skär varandra vid \\(x=\\pi/4\\) och byter plats där. Dela integralen vid den punkten.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -55718,7 +55718,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkterna, som blir integrationsgränser. Integrera sedan den övre kurvan minus den undre.</p>",
     "spelIntro": "<p>Bestäm arean mellan kurvorna. Börja med att bestämma deras skärningspunkter.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -55751,7 +55751,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Var skär kurvan x-axeln? Nollställena blir integrationsgränser. Beräkna arean uttryckt i a och sätt den lika med 32/3.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -55813,7 +55813,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafiska_metoder__geometrisk_area_och_area_fran_graf_med_integral",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Linjen skär x-axeln vid \\(x=2\\). Integrera \\(2-x\\) från 0 till 2.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -55843,7 +55843,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkterna, som blir integrationsgränser. Integrera sedan den övre kurvan minus den undre. Skärningspunkterna och integralen bestäms numeriskt.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -55872,7 +55872,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Kurvorna skär varandra första gången vid \\(x=\\pi/4\\). Integrera \\(\\cos x-\\sin x\\) från 0 dit.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -55935,7 +55935,7 @@ window.BANKMATO2 = [
     "rättSvar": "32/3",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Var skär kurvan x-axeln? Nollställena blir integrationsgränser.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -55965,7 +55965,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på intervallet? Integrera den övre minus den undre.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -55997,7 +55997,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Parabeln når linjen \\(y=c\\) vid \\(x=\\sqrt c\\). Integrera \\(c-x^2\\) från 0 dit och sätt arean lika med 18.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56049,7 +56049,7 @@ window.BANKMATO2 = [
       null
     ],
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>När \\(f(x)\\ge0\\) är arean lika med integralen. Om f är negativ på en del räknas den delen positivt i arean.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Det skuggade området ligger mellan grafen \\(y=f(x)\\), x-axeln, y-axeln och linjen \\(x=4\\).</p><span class=\"fig\"><svg aria-label=\"Graf med skuggat område under kurvan\" height=\"235\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 450 235\" width=\"450\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"233\" rx=\"10\" stroke=\"#E4E3E6\" width=\"448\" x=\"1\" y=\"1\"></rect><line stroke=\"#2B2527\" x1=\"50\" x2=\"410\" y1=\"190\" y2=\"190\"></line><line stroke=\"#2B2527\" x1=\"85\" x2=\"85\" y1=\"25\" y2=\"220\"></line><path d=\"M85 190 C130 70,205 55,260 110 C315 165,350 170,395 95\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.5\"></path><path d=\"M85 190 C130 70,205 55,260 110 C285 135,305 152,330 160 L330 190 L85 190 Z\" fill=\"#DCEEF1\" opacity=\"0.75\"></path><line stroke=\"#B43123\" stroke-dasharray=\"6 4\" x1=\"330\" x2=\"330\" y1=\"55\" y2=\"190\"></line><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"330\" y=\"210\">x=4</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"160\" y=\"78\">y=f(x)</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" x=\"160\" y=\"78\">y=f(x)</text></svg></span>",
     "spelDelar": [
@@ -56148,7 +56148,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Integranden är positiv mellan sina nollställen. Integralen blir störst när intervallet är just mellan nollställena.</p>",
     "spelIntro": "<p>För \\(a&lt;b\\) definieras</p><p>\\[C=\\int_a^b\\left(4-(x-2)^2\\right)dx.\\]</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -56209,7 +56209,7 @@ window.BANKMATO2 = [
     "rättSvar": 2,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Sinus är positiv på hela intervallet. Integrera från 0 till \\(\\pi\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -56240,7 +56240,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkterna, som blir integrationsgränser. Integrera sedan den övre kurvan minus den undre.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56270,7 +56270,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på intervallet? Integrera den övre minus den undre. Skärningspunkterna och integralen bestäms numeriskt.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56363,7 +56363,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkterna, som blir integrationsgränser. Integrera sedan den övre kurvan minus den undre.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56395,7 +56395,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Kurvorna skär varandra vid \\(x=0\\) och \\(x=a\\). Beräkna arean uttryckt i a och sätt den lika med 9/2.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56459,7 +56459,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.5,
     "tolerans": 0.001,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Funktionen är negativ på en del av intervallet. Dela integralen där och räkna varje del som positiv. Funktionen är udda, så de två delarna är lika stora.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -56489,7 +56489,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Sinus är positiv på hela intervallet. Integrera från 0 till \\(\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56518,7 +56518,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "grafiska_metoder__geometrisk_area_och_area_fran_graf_med_integral",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Funktionen är positiv på intervallet, så arean är integralen från 0 till 2.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56548,7 +56548,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "grafiska_metoder__geometrisk_area_och_area_fran_graf_med_integral",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkterna, som blir integrationsgränser. Integrera sedan den övre kurvan minus den undre.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56613,7 +56613,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Nollställena är \\(x=\\pm\\sqrt a\\). Funktionen är negativ mellan dem. Beräkna arean uttryckt i a.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56643,7 +56643,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkterna, som blir integrationsgränser. Integrera sedan den övre kurvan minus den undre.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56673,7 +56673,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Bestäm var kurvan och linjen skär varandra uttryckt i k. Ställ upp den totala arean och lös ekvationen numeriskt.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -56704,7 +56704,7 @@ window.BANKMATO2 = [
     "rättSvar": 6,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Arean är \\(\\int_0^ax\\,dx\\). Sätt den lika med 18.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -56737,7 +56737,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Var skär kurvan x-axeln? Nollställena blir integrationsgränser. Beräkna arean uttryckt i k och sätt den lika med 36.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56767,7 +56767,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkterna, som blir integrationsgränser. Integrera sedan den övre kurvan minus den undre.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56799,7 +56799,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Var skär kurvan x-axeln? Nollställena blir integrationsgränser. Kurvan skär x-axeln vid \\(x=0\\) och \\(x=a\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56862,7 +56862,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Funktionen är negativ på en del av intervallet. Dela integralen där och räkna varje del som positiv. Kurvan skär x-axeln vid \\(x=\\pm1\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56892,7 +56892,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkterna, som blir integrationsgränser. Integrera sedan den övre kurvan minus den undre.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -56923,7 +56923,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Kurvorna skär varandra vid \\(x=0\\) och \\(x=k\\). Integrera \\(kx-x^2\\) mellan dem.</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 2,
@@ -56954,7 +56954,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Var skär kurvan x-axeln? Nollställena blir integrationsgränser.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -57017,7 +57017,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "areor_mellan_kurvor__area_mellan_kurvor_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkterna, som blir integrationsgränser. Integrera sedan den övre kurvan minus den undre.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -57048,7 +57048,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Arean är \\(\\int_0^2ax\\,dx\\). Sätt den lika med 4.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -57079,7 +57079,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
+    "ledtrad": "<p>Arean är \\(\\int_0^3kx\\,dx\\). Sätt den lika med 9.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -61045,7 +61045,7 @@ window.BANKMATO2 = [
       "b"
     ],
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. Sedan är \\(P(X<1)\\) integralen från 0 till 1.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -61132,7 +61132,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. För medianen löser du \\(\\int_0^m a(1-x)^2\\,dx=0{,}5\\).</p>",
     "spelIntro": "<p>För \\(a&gt;0\\) definieras</p><p>\\[f_a(x)=a(1-x)^2,\\qquad 0\\le x\\le1,\\]</p><p>och \\(f_a(x)=0\\) annars.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -61164,7 +61164,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Arean av triangeln ska vara 1, så \\(\\frac12\\cdot6\\cdot k=1\\). \\(P(X\\le3)\\) är arean av triangeln till vänster om \\(x=3\\).</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -61195,7 +61195,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.25,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Rektangeln under grafen ska ha arean 1.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -61293,7 +61293,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Sannolikheten är arean under täthetsfunktionen över intervallet, alltså integralen mellan gränserna. För en kontinuerlig slumpvariabel är sannolikheten för ett enda värde noll.</p>",
     "spelIntro": "<p>En kontinuerlig slumpvariabel har täthetsfunktionen \\(f(x)=\\frac{x}{8}\\) för \\(0\\le x\\le4\\), och \\(f(x)=0\\) annars. Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -61325,7 +61325,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Sannolikheten är arean under täthetsfunktionen över intervallet, alltså integralen mellan gränserna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -61355,7 +61355,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.25,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Sannolikheten är arean under täthetsfunktionen över intervallet, alltså integralen mellan gränserna.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -61423,7 +61423,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. Sedan är \\(P(1\\le X\\le3)\\) integralen från 1 till 3.</p>",
     "spelIntro": "<p>En slumpvariabel \\(X\\) har täthetsfunktionen</p><p>\\[f(x)=kx(4-x),\\qquad 0\\le x\\le4,\\]</p><p>och \\(f(x)=0\\) annars.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -61493,7 +61493,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. \\(P(X>2{,}5)\\) är integralen från 2,5 till 4.</p>",
     "spelIntro": "<p>En kontinuerlig slumpvariabel \\(X\\) har täthetsfunktionen</p><p>\\[f(x)=ke^{-0{,}5x},\\qquad0\\le x\\le4,\\]</p><p>och \\(f(x)=0\\) annars.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -61548,7 +61548,7 @@ window.BANKMATO2 = [
       "c"
     ],
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Bestäm \\(P(X<1/2)\\) uttryckt i a och sätt den lika med 1/8. Väntevärdet är \\(\\int_0^1x\\,f(x)\\,dx\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För varje \\(a&gt;0\\) ges täthetsfunktionen</p><p>\\[f_a(x)=ax^{a-1},\\qquad0&lt;x&lt;1.\\]</p><p>För ett visst värde på \\(a\\) gäller \\(P(X&lt;1/2)=1/8\\).</p>",
     "spelDelar": [
@@ -61606,7 +61606,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.33333333,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Täthetsfunktionen är konstant, så sannolikheten är intervallets längd delad med hela intervallets längd.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -61674,7 +61674,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. Medianen m är det tal där arean till vänster är 0,5. Ställ upp integralen från intervallets början till m och sätt den lika med 0,5.</p>",
     "spelIntro": "<p>En väntetid \\(X\\) har täthetsfunktionen</p><p>\\[f(x)=k(1+x),\\qquad 0\\le x\\le2.\\]</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -61715,7 +61715,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. \\(P(X>1{,}5)\\) är integralen från 1,5 till 2.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En kontinuerlig slumpvariabel \\(X\\) har täthetsfunktionen</p><p>\\[ f(x)=kx,\\qquad 0\\le x\\le2, \\]</p><p>och \\(f(x)=0\\) utanför intervallet.</p>",
     "spelDelar": [
@@ -61774,7 +61774,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. \\(P(X\\le1)\\) är integralen från 0 till 1.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -61804,7 +61804,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.28,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean är 1. Arean till höger om 4 är resten.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -61836,7 +61836,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>En täthetsfunktion får inte vara negativ, och hela arean under den ska vara 1. Stämmer det här?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -61897,7 +61897,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.5,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Symmetrin gör att arean till vänster om 0 är lika stor som arean till höger.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -61965,7 +61965,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. Medianen m är det tal där arean till vänster är 0,5. Ställ upp integralen från intervallets början till m och sätt den lika med 0,5. Lös ekvationen numeriskt.</p>",
     "spelIntro": "<p>En kontinuerlig slumpvariabel har täthetsfunktionen</p><p>\\[f(x)=k(1+x^2),\\qquad0\\le x\\le2,\\]</p><p>och \\(f(x)=0\\) annars.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -62034,7 +62034,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. Sedan är sannolikheten integralen från 0,5 till 1,5.</p>",
     "spelIntro": "<p>En kontinuerlig slumpvariabel \\(X\\) har täthetsfunktionen</p><p>\\[f(x)=kx(2-x),\\qquad 0\\le x\\le2,\\]</p><p>och \\(f(x)=0\\) annars.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -62118,7 +62118,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. Sannolikheterna är integraler över respektive intervall.</p>",
     "spelIntro": "<p>Funktionen \\(f(x)=kx\\) för \\(0\\le x\\le2\\) och \\(f(x)=0\\) annars ska vara en täthetsfunktion.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -62149,7 +62149,7 @@ window.BANKMATO2 = [
     "rättSvar": 50,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Normalfördelningen är symmetrisk kring medelvärdet.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -62233,7 +62233,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. Symmetrin kring \\(x=2\\) avgör medianen utan räkning.</p>",
     "spelIntro": "<p>En täthetsfunktion är symmetrisk kring \\(x=2\\) och ges på intervallet \\(0\\le x\\le4\\) av</p><p>\\[f(x)=k\\left(4-(x-2)^2\\right),\\]</p><p>och är 0 annars.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -62301,7 +62301,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. \\(P(X>1)\\) är integralen från 1 till 2.</p>",
     "spelIntro": "<p>Funktionen \\(f(x)=kx\\) för \\(0\\le x\\le2\\), och \\(f(x)=0\\) annars, ska vara en täthetsfunktion.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -62369,7 +62369,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. \\(P(X>1{,}5)\\) är integralen från 1,5 till 2.</p>",
     "spelIntro": "<p>En täthetsfunktion ges av</p><p>\\[f(x)=k x(2-x),\\qquad 0\\le x\\le2.\\]</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -62468,7 +62468,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Triangeln ska ha arean 1. \\(P(|X|<0{,}5)\\) är arean mellan \\(-0{,}5\\) och 0,5.</p>",
     "spelIntro": "<p>Grafen visar en symmetrisk, triangelformad täthetsfunktion på intervallet \\(-1\\le x\\le 1\\).</p><p>Funktionen kan skrivas \\(f(x)=a(1-|x|)\\) för \\(-1\\le x\\le1\\).</p><span class=\"fig\"><svg aria-label=\"Triangelformad täthetsfunktion på intervallet minus ett till ett\" height=\"250\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 420 250\" width=\"420\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"248\" rx=\"10\" stroke=\"#E4E3E6\" width=\"418\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"55\" x2=\"380\" y1=\"190\" y2=\"190\"></line><path d=\"M380 190 l-8 -4 v8 z\" fill=\"#2B2527\"></path>\n<line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"210\" x2=\"210\" y1=\"210\" y2=\"35\"></line><path d=\"M210 35 l-5 9 h10 z\" fill=\"#2B2527\"></path>\n<polygon fill=\"#E8F3F5\" points=\"95,190 210,70 325,190\" stroke=\"#268FA3\" stroke-width=\"2.4\"></polygon>\n<line stroke=\"#B43123\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"152.5\" x2=\"152.5\" y1=\"190\" y2=\"130\"></line><line stroke=\"#B43123\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"267.5\" x2=\"267.5\" y1=\"190\" y2=\"130\"></line>\n<text font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"95\" y=\"208\">−1</text><text font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"325\" y=\"208\">1</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"152.5\" y=\"208\">−0,5</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"267.5\" y=\"208\">0,5</text>\n<text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" x=\"217\" y=\"67\">f(x)</text>\n</svg></span>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -62500,7 +62500,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Bestäm q så att \\(\\int_0^q\\frac12\\sin x\\,dx=0{,}75\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -62530,7 +62530,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.11111111,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -62562,7 +62562,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Medianen m är det tal där arean till vänster är 0,5. Ställ upp integralen från intervallets början till m och sätt den lika med 0,5.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -62594,7 +62594,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Täthetsfunktionen är konstant, så sannolikheten är intervallets längd delad med hela intervallets längd.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -62647,7 +62647,7 @@ window.BANKMATO2 = [
       "c"
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. I c) löser du \\(\\int_0^a kx^2\\,dx=1/8\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En kontinuerlig slumpvariabel \\(X\\) har täthetsfunktionen</p><p>\\[f(x)=kx^2,\\qquad0\\le x\\le2,\\]</p><p>och \\(f(x)=0\\) annars.</p>",
     "spelDelar": [
@@ -62708,7 +62708,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.75,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Sannolikheten är arean under täthetsfunktionen över intervallet, alltså integralen mellan gränserna.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -62792,7 +62792,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Kontrollera att hela arean är 1. Sannolikheterna är integraler över respektive intervall.</p>",
     "spelIntro": "<p>En kontinuerlig slumpvariabel har täthetsfunktionen \\(f(x)=2x\\)<br>för \\(0\\le x\\le1\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -62842,7 +62842,7 @@ window.BANKMATO2 = [
       "b"
     ],
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Bestäm \\(P(X<1/2)\\) uttryckt i a och sätt den lika med 1/8.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För \\(a&gt;0\\) ges en familj av täthetsfunktioner av</p><p>\\[f_a(x)=a x^{a-1},\\qquad 0&lt;x\\le1,\\]</p><p>För en viss funktion i familjen gäller</p><p>\\[P\\left(X&lt;\\frac12\\right)=\\frac18.\\]</p>",
     "spelDelar": [
@@ -62892,7 +62892,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.29289322,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Medianen m är det tal där arean till vänster är 0,5. Ställ upp integralen från intervallets början till m och sätt den lika med 0,5. Lös ekvationen numeriskt.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -62924,7 +62924,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Sannolikheten är \\(\\int_0^50{,}2e^{-0{,}2t}\\,dt\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -62993,7 +62993,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Använd normalfördelningen med \\(\\mu=72\\) och \\(\\sigma=8\\) i ett digitalt verktyg. I b) söker du värdet där arean till vänster är 0,90.</p>",
     "spelIntro": "<p>En mätstorhet är normalfördelad med medelvärdet 72 och standardavvikelsen 8.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -63077,7 +63077,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Sannolikheten är arean under täthetsfunktionen över intervallet, alltså integralen mellan gränserna.</p>",
     "spelIntro": "<p>En slumpvariabel har täthetsfunktionen \\(f(x)=2x\\) för \\(0\\le x\\le1\\).</p><p>Bestäm</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -63108,7 +63108,7 @@ window.BANKMATO2 = [
     "rättSvar": 68.27,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>I en normalfördelning ligger ungefär 68 % inom en standardavvikelse från medelvärdet och ungefär 95 % inom två.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -63143,7 +63143,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Sannolikheten är integralen av täthetsfunktionen över intervallet. Den primitiva funktionen till \\(0{,}25e^{-0{,}25t}\\) är \\(-e^{-0{,}25t}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Väntetiden \\(T\\) i minuter till en kundtjänst modelleras med täthetsfunktionen</p><p>\\[ f(t)=0{,}25e^{-0{,}25t},\\qquad t\\ge0. \\]</p>",
     "spelDelar": [{"etikett": "a", "fraga": "<p>Bestäm sannolikheten att väntetiden är högst 5 minuter.</p>", "s": "<div class=\"facit-v2\"><p>Sannolikheten är arean under tätheten mellan 0 och 5 minuter:</p><p>\\[P(T\\le5)=\\int_0^5 0{,}25e^{-0{,}25t}\\,dt.\\]</p><p>En primitiv funktion är \\(-e^{-0{,}25t}\\), så \\[P(T\\le5)=1-e^{-1{,}25}\\]\\[\\approx0{,}713495.\\]</p><p><strong>Svar:</strong> cirka 0,71, alltså cirka 71 %.</p></div>", "niva": "C", "poang": "0/1/0", "traningsniva": 3, "arbetsinsats": 1}, {"etikett": "b", "fraga": "<p>Bestäm sannolikheten att väntetiden överstiger 6 minuter.</p>", "s": "<div class=\"facit-v2\"><p>Sannolikheten är svansarean efter 6 minuter. Fördelningens totala area är 1:</p><p>\\[P(T\\gt6)=1-P(T\\le6)\\]\\[=e^{-0{,}25\\cdot6}=e^{-1{,}5}\\]\\[\\approx0{,}223130.\\]</p><p><strong>Svar:</strong> cirka 0,22, alltså cirka 22 %.</p></div>", "niva": "C", "poang": "0/1/0", "traningsniva": 3, "arbetsinsats": 1}],
@@ -63235,7 +63235,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. Sannolikheterna är integraler över respektive intervall.</p>",
     "spelIntro": "<p>Funktionen \\(f(x)=k(4-x)\\) för \\(0\\le x\\le4\\) och 0 annars ska vara en täthetsfunktion.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -63320,7 +63320,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k.</p>",
     "spelIntro": "<p>För funktionen anges att \\(f(x)=kx^n\\) på intervallet och \\(f(x)=0\\) utanför. Bestäm \\(k\\) så att \\(f\\) blir en täthetsfunktion.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -63351,7 +63351,7 @@ window.BANKMATO2 = [
     "rättSvar": 1.5,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>z-värdet anger hur många standardavvikelser x ligger från medelvärdet: \\(z=\\frac{x-\\mu}{\\sigma}\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -63420,7 +63420,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. Sannolikheten är integralen från 1 till 2.</p>",
     "spelIntro": "<p>En kontinuerlig slumpvariabel \\(X\\) har täthetsfunktionen</p><p>\\[f(x)=\\begin{cases}kx, &amp; 0\\le x\\le2,\\\\0, &amp; \\text{annars.}\\end{cases}\\]</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -63454,7 +63454,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>I en normalfördelning ligger ungefär 68 % inom en standardavvikelse från medelvärdet och ungefär 95 % inom två.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -63486,7 +63486,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.75,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -63554,7 +63554,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k. Integralerna beräknas numeriskt.</p>",
     "spelIntro": "<p>En kontinuerlig slumpvariabel har täthetsfunktionen</p><p>\\[f(x)=ke^{-x^2/2},\\qquad-2\\le x\\le2,\\]</p><p>och \\(f(x)=0\\) annars.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -63588,7 +63588,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hur många standardavvikelser ligger 46 och 58 från medelvärdet? Använd andelarna i normalfördelningen och multiplicera med 1 200.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -63620,7 +63620,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>En större standardavvikelse ger en lägre och bredare kurva.</p>",
     "spel": false,
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -63652,7 +63652,7 @@ window.BANKMATO2 = [
     "rättSvar": 1,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Bestäm \\(P(X<1/2)\\) uttryckt i a och sätt den lika med 1/4.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -63685,7 +63685,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hur många standardavvikelser ligger 65 och 80 från medelvärdet? Läs av andelarna i normalfördelningskurvan.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -63716,7 +63716,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -63747,7 +63747,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Täthetsfunktionen är konstant, så sannolikheten är intervallets längd delad med hela intervallets längd. Konstanten bestäms av att rektangeln ska ha arean 1.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -63778,7 +63778,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.1,
     "tolerans": 0.001,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Symmetrin kring 3 gör att arean till vänster om 1 är lika stor som arean till höger om 5.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -63812,7 +63812,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hur många standardavvikelser ligger 42 och 58 från medelvärdet? I en normalfördelning ligger ungefär 68 % inom en standardavvikelse från medelvärdet och ungefär 95 % inom två.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -63843,7 +63843,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -63874,7 +63874,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Sannolikheten är en area, inte ett funktionsvärde. Hur stor kan arean bli om intervallet är mycket kort?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -63906,7 +63906,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -63937,7 +63937,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Hela arean under täthetsfunktionen är 1. Integrera över intervallet och sätt integralen lika med 1 för att bestämma k.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67742,7 +67742,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Dela exponenten med 4 och titta på resten. I d) multiplicerar du ut och använder att \\(i^2=-1\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -67842,7 +67842,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Dela exponenten med 4 och titta på resten.</p>",
     "spelIntro": "<p>Förenkla.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -68359,7 +68359,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Dela exponenten med 4 och titta på resten.</p>",
     "spelIntro": "<p>Förenkla.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -68445,7 +68445,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Dela exponenten med 4 och titta på resten.</p>",
     "spelIntro": "<p>Förenkla.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -69050,7 +69050,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Dela exponenten med 4 och titta på resten.</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -69181,7 +69181,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Dela exponenten med 4 och titta på resten.</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -69587,7 +69587,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Ersätt \\(i^2\\) med −1 och \\(i^3\\) med \\(-i\\), och samla sedan realdel och imaginärdel.</p>",
     "spelIntro": "<p>Förenkla uttrycket till formen \\(a+bi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -70349,7 +70349,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Ersätt \\(i^2\\) med −1 och \\(i^3\\) med \\(-i\\), och samla sedan realdel och imaginärdel. I d) är \\((2i)^4=2^4i^4\\).</p>",
     "spelIntro": "<p>Förenkla.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -70449,7 +70449,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Dela exponenten med 4 och titta på resten. För \\(1/i\\) förlänger du med i.</p>",
     "spelIntro": "<p>Förenkla.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -70678,7 +70678,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Dela exponenten med 4 och titta på resten.</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -71199,7 +71199,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Ersätt \\(i^2\\) med −1 och \\(i^3\\) med \\(-i\\), och samla sedan realdel och imaginärdel. I d) är faktorerna varandras konjugat.</p>",
     "spelIntro": "<p>Förenkla.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -73825,7 +73825,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Dela exponenten med 4 och titta på resten.</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -74105,7 +74105,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Dela exponenten med 4 och titta på resten.</p>",
     "spelIntro": "<p>Bestäm.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -78277,7 +78277,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "spelIntro": "<p>Skriv på polär form.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -78348,7 +78348,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv på polär form med \\(0\\le v&lt;2\\pi\\).</p>",
     "spelDelar": [
@@ -78421,7 +78421,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\). Skriv \\(e^{-iv}\\) på samma sätt och använd att \\(\\cos(-v)=\\cos v\\) och \\(\\sin(-v)=-\\sin v\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -78465,7 +78465,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Räkna ut cosinus och sinus för vinkeln och multiplicera med beloppet.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv på formen \\(a+bi\\).</p>",
     "spelDelar": [
@@ -78614,7 +78614,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "spelIntro": "<p>Skriv i polär form \\(r(\\cos v+i\\sin v)\\), med \\(0\\le v&lt;2\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -78741,7 +78741,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Vid multiplikation multipliceras beloppen och argumenten adderas. Vid division delas beloppen och argumenten subtraheras.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm absolutbelopp och argument utan att gå över till rektangulär form.</p><p>\\[z_1=3\\left(\\cos20^\\circ+i\\sin20^\\circ\\right),\\qquad z_2=2\\left(\\cos40^\\circ+i\\sin40^\\circ\\right).\\]</p>",
     "spelDelar": [
@@ -78890,7 +78890,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Räkna ut cosinus och sinus för vinkeln och multiplicera med beloppet.</p>",
     "spelIntro": "<p>Skriv på formen \\(a+bi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -78920,7 +78920,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Multiplicera beloppen och addera argumenten. Räkna sedan ut cosinus och sinus för den nya vinkeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -78962,7 +78962,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\). Ett minustecken framför ändrar argumentet med \\(\\pi\\), men beloppet är positivt.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Använd Eulers formel \\(e^{iv}=\\cos v+i\\sin v\\).</p>",
     "spelDelar": [
@@ -79035,7 +79035,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\). Skriv \\(e^{-ix}\\) på samma sätt och addera. För sinus subtraherar du i stället.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -79103,7 +79103,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>\\(|e^{a+ib}|=e^a\\), eftersom \\(|e^{ib}|=1\\). En faktor framför multiplicerar beloppet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -79269,7 +79269,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "spelIntro": "<p>Skriv på polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -79300,7 +79300,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -79358,7 +79358,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -79389,7 +79389,7 @@ window.BANKMATO2 = [
     "rättSvar": "2*(cos(2*pi/3)+i*sin(2*pi/3))",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -79435,7 +79435,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv i polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
     "spelDelar": [
@@ -79571,7 +79571,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\).</p>",
     "spelIntro": "<p>Skriv på formen \\(a+bi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -79641,7 +79641,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger. Vid en potens upphöjs beloppet och argumentet multipliceras.</p>",
     "spelIntro": "<p>Det komplexa talet är \\(z=-1+\\sqrt3\\,i\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -79672,7 +79672,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n. Undersök \\(z^n\\) för n = 1, 2, 3, … med ett digitalt verktyg.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -79725,7 +79725,7 @@ window.BANKMATO2 = [
       "numeriskt"
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Skriv talet på polär form. Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n. För \\(1/z\\) förlänger du med konjugatet.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Det komplexa talet är \\(z=1+i\\sqrt3\\).</p>",
     "spelDelar": [
@@ -79839,7 +79839,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "spelIntro": "<p>Skriv talen på polär form med argument i intervallet \\(0\\le v&lt;2\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -79957,7 +79957,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\). Termerna är varandras konjugat, så imaginärdelarna tar ut varandra.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -80019,7 +80019,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>\\(|e^{a+ib}|=e^a\\), eftersom \\(|e^{ib}|=1\\). En faktor framför multiplicerar beloppet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -80093,7 +80093,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\). Räkna ut cosinus och sinus för vinkeln och multiplicera med beloppet.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv på formen \\(a+bi\\) med hjälp av Eulers formel.</p>",
     "spelDelar": [
@@ -80176,7 +80176,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -80206,7 +80206,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>\\(|e^{a+ib}|=e^a\\), eftersom \\(|e^{ib}|=1\\). En faktor framför multiplicerar beloppet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -80236,7 +80236,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>\\(|e^{a+ib}|=e^a\\), eftersom \\(|e^{ib}|=1\\). En faktor framför multiplicerar beloppet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -80266,7 +80266,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>\\(|e^{a+ib}|=e^a\\), eftersom \\(|e^{ib}|=1\\). En faktor framför multiplicerar beloppet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -80295,7 +80295,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n. Beräkna \\(z,z^2,\\ldots,z^{12}\\) med ett digitalt verktyg och jämför avstånden till \\(-2+i\\).</p>",
     "traningsniva": 5,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -80324,7 +80324,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -80368,7 +80368,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv i polär form.</p>",
     "spelDelar": [
@@ -80465,7 +80465,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Talen ligger på någon av axlarna. Beloppet är avståndet till origo och argumentet är 0, \\(\\pi/2\\), \\(\\pi\\) eller \\(3\\pi/2\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv i polär form.</p>",
     "spelDelar": [
@@ -80562,7 +80562,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Räkna ut cosinus och sinus för vinkeln och multiplicera med beloppet.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv på formen \\(a+bi\\).</p>",
     "spelDelar": [
@@ -80858,7 +80858,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>I \\(re^{iv}\\) är r beloppet och v argumentet. Ett negativt argument kan också skrivas med \\(+2\\pi\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm absolutbelopp och ett argument.</p>",
     "spelDelar": [
@@ -80955,7 +80955,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\). Räkna ut cosinus och sinus för vinkeln och multiplicera med beloppet.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv på formen \\(a+bi\\).</p>",
     "spelDelar": [
@@ -81052,7 +81052,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger. Skriv sedan \\(re^{iv}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv i exponentiell form.</p>",
     "spelDelar": [
@@ -81173,7 +81173,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Skriv \\(1+i\\) och \\(-1+i\\) på polär form först. Multiplicera eller dividera sedan beloppen och addera eller subtrahera argumenten.</p>",
     "spelIntro": "<p>Beräkna och svara i polär form.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -81216,7 +81216,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Lägg till eller dra bort ett helt varv, \\(2\\pi\\), tills argumentet hamnar i intervallet.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skriv om så att argumentet ligger i intervallet \\(-\\pi&lt;v\\le\\pi\\).</p>",
     "spelDelar": [
@@ -81287,7 +81287,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>\\(|z^n|=1{,}35^n\\). Vilket är det minsta n som gör potensen större än 10?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81329,7 +81329,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet av en produkt är produkten av beloppen, och beloppet av en kvot är kvoten av beloppen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beräkna absolutbeloppet av produkten eller kvoten utan att först skriva på formen \\(a+bi\\).</p>",
     "spelDelar": [
@@ -81413,7 +81413,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Polär form är \\(r(\\cos v+i\\sin v)\\) med beloppet r och argumentet v.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm \\(z\\) i polär form om</p>",
     "spelDelar": [
@@ -81485,7 +81485,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81515,7 +81515,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81545,7 +81545,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81575,7 +81575,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Talet ligger på den positiva imaginära axeln. Vilket argument har det?</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81605,7 +81605,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Talet ligger på den positiva reella axeln. Vilket argument har det?</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81635,7 +81635,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81784,7 +81784,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beräkna belopp och argument för \\(z^n\\) för n = 1, 2, 3, …. Tredje kvadranten betyder argument mellan \\(\\pi\\) och \\(3\\pi/2\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -81901,7 +81901,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Talet ligger på den negativa imaginära axeln. Vilket argument har det?</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81960,7 +81960,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>\\(z^3\\) har argumentet \\(3v\\). Ett negativt reellt tal har argumentet \\(\\pi\\) plus hela varv.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -82056,7 +82056,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger.</p>",
     "spelIntro": "<p>Skriv talen i polär form \\(r(\\cos v+i\\sin v)\\). Ange \\(0\\le v&lt;2\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -82250,7 +82250,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\). Rita talet för att se i vilken kvadrant argumentet ligger. Skriv sedan \\(re^{iv}\\).</p>",
     "spelIntro": "<p>Skriv i exponentiell form \\(re^{iv}\\), där \\(0\\le v&lt;2\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -82347,7 +82347,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polar_form__vaxla_mellan_former_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Vinklarna 0, \\(\\pi/2\\), \\(\\pi\\) och \\(3\\pi/2\\) pekar längs axlarna.</p>",
     "spelIntro": "<p>Skriv i rektangulär form.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -82408,7 +82408,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "grader",
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Talet ligger i andra kvadranten, och \\(|a|=|b|\\).</p>",
     "svarEnhet": "°",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -82438,7 +82438,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Både realdelen och imaginärdelen är negativa. Vilken kvadrant är det?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -82470,7 +82470,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\). Realdelen är \\(\\cos(\\pi/3)\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -82544,7 +82544,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Beloppet är \\(\\sqrt{a^2+b^2}\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -82651,7 +82651,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\). Realdelen är \\(\\cos(5\\pi/3)\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -82682,7 +82682,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "eulers_formel__eulers_formel",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "ledtrad": "<p>Eulers formel: \\(e^{iv}=\\cos v+i\\sin v\\). Imaginärdelen är \\(\\sin(3\\pi/2)\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -83190,7 +83190,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 64 på polär form. Rötterna har beloppet \\(\\sqrt[6]{r}\\), och argumenten skiljer sig med \\(2\\pi/6\\) från varandra. Summan blir 0 eftersom rötterna är symmetriskt placerade kring origo.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Rötterna till \\(z^6=64\\) bildar en regelbunden sexhörning i det komplexa talplanet.</p>",
     "spelDelar": [
@@ -83272,7 +83272,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Rötterna ligger jämnt fördelade på en cirkel. Välj en rot som inte ligger på den reella axeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -83302,7 +83302,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Rötterna har beloppet \\(\\sqrt[4]{81}=3\\), och argumenten är \\((120^\\circ+k\\cdot360^\\circ)/4\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -83332,7 +83332,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -83362,7 +83362,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 8 på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -83391,7 +83391,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv talet på polär form. Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -83420,7 +83420,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv \\(8i\\) på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra. Vilket argument har 8i?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -83450,7 +83450,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv −16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra. Vilket argument har −16?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -83546,7 +83546,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "spelIntro": "<p>Använd de Moivres formel.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -83576,7 +83576,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv \\(32i\\) på polär form. Rötterna har beloppet \\(\\sqrt[5]{r}\\), och argumenten skiljer sig med \\(2\\pi/5\\) från varandra. Jämför sedan avståndet från varje rot till \\(2+2i\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -83605,7 +83605,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv talet på polär form. Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -83646,7 +83646,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>I a) och b) räcker det att dra roten ur, med båda tecknen. I c) skriver du 8 på polär form.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös ekvationen och ange alla komplexa lösningar.</p>",
     "spelDelar": [
@@ -83717,7 +83717,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Rötterna ligger jämnt fördelade på en cirkel. Välj en rot som inte ligger på den reella axeln. Vilket argument har −1?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -83746,7 +83746,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -83777,7 +83777,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -83807,7 +83807,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Rötterna ligger jämnt fördelade på en cirkel. Välj en rot som inte ligger på den reella axeln. Vilket argument har −16?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -83838,7 +83838,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 64 på polär form. Rötterna har beloppet \\(\\sqrt[6]{r}\\), och argumenten skiljer sig med \\(2\\pi/6\\) från varandra. Rötterna ligger symmetriskt kring origo.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -83925,7 +83925,7 @@ window.BANKMATO2 = [
     }
   ],
   "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-  "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+  "ledtrad": "<p>Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n. Räkna sedan ut cosinus och sinus för den nya vinkeln.</p>",
   "spelIntro": "<p>Använd de Moivres formel och skriv varje svar exakt på formen \\(a+bi\\).</p>",
   "traningsniva": 1,
   "arbetsinsats": 2,
@@ -83994,7 +83994,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv talet på polär form. Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "spelIntro": "<p>Beräkna exakt med de Moivres formel.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -84025,7 +84025,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 16 på polär form. Rötterna har beloppet \\(\\sqrt[8]{r}\\), och argumenten skiljer sig med \\(2\\pi/8\\) från varandra. Räkna ut realdelen för varje rot.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84056,7 +84056,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 32 på polär form. Rötterna har beloppet \\(\\sqrt[5]{r}\\), och argumenten skiljer sig med \\(2\\pi/5\\) från varandra. Rötterna ligger symmetriskt kring origo.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -84086,7 +84086,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Rötterna ligger jämnt fördelade på en cirkel. Välj en rot som inte ligger på den reella axeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -84115,7 +84115,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv \\(-8i\\) på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra. Vilket argument har −8i?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84144,7 +84144,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84188,7 +84188,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv högerledet på polär form. Antalet rötter är lika med exponenten, och de ligger jämnt fördelade på en cirkel.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös och ange alla komplexa rötter i polär form.</p>",
     "spelDelar": [
@@ -84270,7 +84270,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Rötterna ligger jämnt fördelade på en cirkel. Välj en rot som inte ligger på den reella axeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -84299,7 +84299,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv \\(16i\\) på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra. Vilket argument har 16i?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84343,7 +84343,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n. Räkna sedan ut cosinus och sinus.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Använd de Moivres formel och skriv svaret på formen \\(a+bi\\).</p>",
     "spelDelar": [
@@ -84425,7 +84425,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv talet på polär form. Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84463,7 +84463,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv −64 på polär form. Rötterna har beloppet \\(\\sqrt[6]{r}\\), och argumenten skiljer sig med \\(2\\pi/6\\) från varandra. Arean kan delas upp i sex liksidiga trianglar.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Rötterna till ekvationen</p><p>\\[z^6=-64\\]</p><p>markeras i det komplexa talplanet.</p>",
     "spelDelar": [
@@ -84525,7 +84525,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv \\(-8i\\) på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -84555,7 +84555,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv talet på polär form. Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84584,7 +84584,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84625,7 +84625,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beräkna med de Moivres formel.</p>",
     "spelDelar": [
@@ -84708,7 +84708,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv talet på polär form. Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beräkna och skriv på formen \\(a+bi\\).</p>",
     "spelDelar": [
@@ -84779,7 +84779,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv \\(4i\\) på polär form. Rötterna har beloppet \\(\\sqrt[2]{r}\\), och argumenten skiljer sig med \\(2\\pi/2\\) från varandra.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84808,7 +84808,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 8 på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84837,7 +84837,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv \\(-8i\\) på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84866,7 +84866,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84895,7 +84895,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv \\(8i\\) på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84924,7 +84924,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Lös båda ekvationerna, eller tänk på vilka tal som är rötter till båda. Vad är \\(|z|\\)?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84953,7 +84953,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv −16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -84982,7 +84982,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Rötterna ligger jämnt fördelade på en cirkel. Välj en rot som inte ligger på den reella axeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -85011,7 +85011,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv 32 på polär form. Rötterna har beloppet \\(\\sqrt[5]{r}\\), och argumenten skiljer sig med \\(2\\pi/5\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85040,7 +85040,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 8 på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85069,7 +85069,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85100,7 +85100,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Alla rötter har beloppet 1, och argumenten skiljer sig med \\(2\\pi/n\\). Vad betyder det för deras placering?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -85130,7 +85130,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv −8 på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85159,7 +85159,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv −16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85188,7 +85188,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv talet på polär form. Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85218,7 +85218,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv \\(3-4i\\) på polär form. Rötterna har beloppet \\(\\sqrt[7]{r}\\), och argumenten skiljer sig med \\(2\\pi/7\\) från varandra. Argumentet för \\(3-4i\\) räknas ut med en räknare.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -85247,7 +85247,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Skriv talet på polär form. Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85276,7 +85276,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -85305,7 +85305,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv \\(8i\\) på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85336,7 +85336,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra. Rötterna bildar en kvadrat.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85432,7 +85432,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+    "ledtrad": "<p>Vid en n:te potens upphöjs beloppet till n och argumentet multipliceras med n.</p>",
     "spelIntro": "<p>Beräkna med de Moivres formel.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -85462,7 +85462,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv \\(-8i\\) på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85491,7 +85491,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv −16 på polär form. Rötterna har beloppet \\(\\sqrt[4]{r}\\), och argumenten skiljer sig med \\(2\\pi/4\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85520,7 +85520,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Skriv 8 på polär form. Rötterna har beloppet \\(\\sqrt[3]{r}\\), och argumenten skiljer sig med \\(2\\pi/3\\) från varandra. Skriv rötterna med cosinus och sinus.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85549,7 +85549,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "ekvationen_zn__komplexa_rotter_med_de_moivres_formel",
-    "ledtrad": "<p>Skriv talet på polär form. För n:te rötter delas argumentet θ+2πk med n så att alla olika rötter kommer med.</p>",
+    "ledtrad": "<p>Dra roten ur −9. Talen ligger på den imaginära axeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85903,7 +85903,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Med reella koefficienter är konjugatet också en rot. Multiplicera \\((z-r)(z-\\bar r)\\) och få en reell andragradsfaktor. Polynomet är produkten av två sådana faktorer.</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -85938,7 +85938,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Med reella koefficienter är konjugatet också en rot. Multiplicera \\((z-r)(z-\\bar r)\\) och få en reell andragradsfaktor. Dividera sedan polynomet med den faktorn.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -85970,7 +85970,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86001,7 +86001,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Sätt \\(t=x^2\\). Då får du en andragradsekvation i t. En dubbel rot kräver att diskriminanten är noll eller att t = 0 är en rot.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -86033,7 +86033,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86062,7 +86062,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "andragradsekv_komplexa__andragradsekvationer_med_komplexa_losningar",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Använd pq-formeln. Talet under rottecknet blir negativt, och roten ur ett negativt tal ger en imaginär del.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86096,7 +86096,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Med reella koefficienter är konjugatet också en rot. Multiplicera \\((z-r)(z-\\bar r)\\) och få en reell andragradsfaktor. Multiplicera faktorn med \\(z+3\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86246,7 +86246,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Bryt ut x där det går. I c) sätter du \\(t=x^2\\), och i d) grupperar du termerna parvis.</p>",
     "spelIntro": "<p>Lös ekvationen genom faktorisering.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -86289,7 +86289,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Polynomet \\(p\\) ges av</p><p>\\[p(x)=x^3-2x^2-5x+6.\\]</p>",
     "spelDelar": [
@@ -86354,7 +86354,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Med reella koefficienter är konjugatet också en rot. Multiplicera \\((z-r)(z-\\bar r)\\) och få en reell andragradsfaktor. Multiplicera med \\((x+1)^2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86387,7 +86387,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0. Kontrollera genom att multiplicera kvoten med \\(x-2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86417,7 +86417,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Sätt \\(t=x^2\\). Då får du en andragradsekvation i t. Båda rötterna för t blir negativa.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86462,7 +86462,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För \\(p(x)=x^3+2x^2-5x-6\\):</p>",
     "spelDelar": [
@@ -86536,7 +86536,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Rita polynomets graf och läs av var den skär x-axeln. Använd ett digitalt verktyg för tre decimaler.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86568,7 +86568,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Dividera med den kända faktorn. Kvoten blir ett andragradspolynom som du löser med pq-formeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86601,7 +86601,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera med den kända faktorn. Kvoten blir ett andragradspolynom som du löser med pq-formeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86646,7 +86646,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Använd faktorsatsen och avgör om den angivna faktorn verkligen är en faktor.</p>",
     "spelDelar": [
@@ -86731,7 +86731,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "andragradsekv_komplexa__andragradsekvationer_med_komplexa_losningar",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Använd pq-formeln. Talet under rottecknet blir negativt, och roten ur ett negativt tal ger en imaginär del.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86763,7 +86763,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Dividera med den kända faktorn. Kvoten blir ett andragradspolynom som du löser med pq-formeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -86796,7 +86796,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet. Dividera sedan med \\(x-2\\).</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -86866,7 +86866,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Dividera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -86897,7 +86897,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -86932,7 +86932,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet. Dividera sedan med \\(x-2\\).</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -86976,7 +86976,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet. Sätt \\(p(2)=0\\) för att bestämma a.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För \\(p(x)=x^3+ax^2-5x-6\\) är \\(x-2\\) en faktor.</p>",
     "spelDelar": [
@@ -87064,7 +87064,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet. Sätt \\(p(2)=0\\) och \\(p(-1)=0\\). Det ger två ekvationer för a och b.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Polynomet</p><p>\\[p(z)=z^3+az^2+bz-6\\]</p><p>är delbart med både \\(z-2\\) och \\(z+1\\).</p>",
     "spelDelar": [
@@ -87204,7 +87204,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför polynomdivision.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -87236,7 +87236,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Sätt in \\(z=2+i\\) och sätt realdel och imaginärdel lika med noll. Konjugatet \\(2-i\\) är också en rot.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -87336,7 +87336,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet.</p>",
     "spelIntro": "<p>Avgör med faktorsatsen om den angivna faktorn är en faktor.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -87399,7 +87399,7 @@ window.BANKMATO2 = [
       null
     ],
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Läs av de reella nollställena i grafen. Dividera sedan bort motsvarande faktorer och lös andragradsekvationen som blir kvar.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Polynomet ges av</p><p>\\[P(x)=x^5-4x^3+x+1.\\]</p>",
     "spelDelar": [
@@ -87453,7 +87453,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Med reella koefficienter är konjugatet också en rot. Multiplicera \\((z-r)(z-\\bar r)\\) och få en reell andragradsfaktor. Polynomet är \\((z^2+az+b)(z+2)(z-c)\\). Använd \\(p(0)=30\\) för att bestämma c.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -87540,7 +87540,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet. Sätt polynomets värde lika med 0 och lös ut a.</p>",
     "spelIntro": "<p>Bestäm konstanten \\(a\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -87585,7 +87585,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Bryt ut x eller gruppera termerna. I c) sätter du \\(t=x^2\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Faktorisera fullständigt och lös.</p>",
     "spelDelar": [
@@ -87726,7 +87726,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför polynomdivision och ange kvot och rest.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -87758,7 +87758,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Konjugatet \\(1-i\\) är också en rot. Produkten av alla tre rötterna är \\(-2\\), vilket ger den tredje roten.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -87802,7 +87802,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Dividera med den kända faktorn. Kvoten blir ett andragradspolynom som du löser med pq-formeln.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Polynomet \\(p(x)=x^3-2x^2-5x+6\\) har roten \\(x=1\\).</p>",
     "spelDelar": [
@@ -87878,7 +87878,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Konjugatet \\(1-2i\\) är den tredje roten. Multiplicera ihop de tre faktorerna.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -87912,7 +87912,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Sätt \\(t=x^2\\). Då får du en andragradsekvation i t. Lös sedan \\(z^2=t\\) för varje komplext t.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -88004,7 +88004,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet. Dividera sedan med \\(x-2\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Polynomet är</p><p>\\[ p(x)=x^3-3x^2-4x+12. \\]</p>",
     "spelDelar": [
@@ -88103,7 +88103,7 @@ window.BANKMATO2 = [
       null
     ],
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Med reella koefficienter är konjugatet också en rot. Multiplicera \\((z-r)(z-\\bar r)\\) och få en reell andragradsfaktor.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ett polynom med reella koefficienter har roten \\(2+3i\\).</p>",
     "spelDelar": [
@@ -88166,7 +88166,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -88262,7 +88262,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför polynomdivision.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -88292,7 +88292,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "andragradsekv_komplexa__andragradsekvationer_med_komplexa_losningar",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Använd pq-formeln. Talet under rottecknet blir negativt, och roten ur ett negativt tal ger en imaginär del.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -88324,7 +88324,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Bestäm nollställena genom att pröva enkla heltal och faktorisera. Gör sedan en teckentabell.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -88386,7 +88386,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "andragradsekv_komplexa__andragradsekvationer_med_komplexa_losningar",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Använd pq-formeln. Talet under rottecknet blir negativt, och roten ur ett negativt tal ger en imaginär del.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös ekvationen.</p>",
     "spelDelar": [
@@ -88508,7 +88508,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Använd pq-formeln. Talet under rottecknet blir negativt, och roten ur ett negativt tal ger en imaginär del. I c) delar du först med 2.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös andragradsekvationerna.</p>",
     "spelDelar": [
@@ -88607,7 +88607,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Konjugatet \\(1-i\\) måste vara en rot, och dubbelroten 2 räknas två gånger.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -88707,7 +88707,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför polynomdivision.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -88737,7 +88737,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Följ stegen i divisionen: dividera ledande termer, multiplicera tillbaka och subtrahera. Varje ruta är resultatet av ett sådant steg.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -88781,7 +88781,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Utför polynomdivision och ange både kvot och rest.</p>",
     "spelDelar": [
@@ -88916,7 +88916,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0. Skriv sedan \\(P(x)=(x-a)Q(x)+r\\).</p>",
     "spelIntro": "<p>Skriv resultatet på formen \\(P(x)=(x-a)Q(x)+r\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -88947,7 +88947,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera med varje faktor i tur och ordning. En faktor ger resten 0.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -88996,7 +88996,7 @@ window.BANKMATO2 = [
       "b"
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet. Sätt \\(P(2)=0\\) för att bestämma a.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Polynomet</p><p>\\[P(x)=x^3+ax^2-5x-6\\]</p><p>är delbart med \\(x-2\\).</p>",
     "spelDelar": [
@@ -89086,7 +89086,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför polynomdivision.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -89116,7 +89116,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Följ stegen i divisionen: dividera ledande termer, multiplicera tillbaka och subtrahera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89146,7 +89146,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera med den kända faktorn. Kvoten blir ett andragradspolynom som du löser med pq-formeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89228,7 +89228,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför divisionerna. Skriv in saknade termer med koefficienten 0 innan du börjar.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -89260,7 +89260,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Polynomet är divisorn gånger kvoten plus resten: \\(P(x)=(x-2)(3x^2+x-4)+5\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89337,7 +89337,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet. Sätt \\(P(2)=0\\) för att bestämma k.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89367,7 +89367,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Skriv \\(x^3+0x^2-7x+6\\) innan du börjar dividera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89398,7 +89398,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Multiplicera \\(x^2+3x+1\\) med \\(x-2\\) och lägg till 3. Får du tillbaka polynomet?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89474,7 +89474,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera med den kända faktorn. Kvoten blir ett andragradspolynom som du löser med pq-formeln. Om andragradsfaktorn går att faktorisera vidare får du fler rötter.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89542,7 +89542,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför polynomdivision.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -89574,7 +89574,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0. Börja med \\(6x^3/(2x)=3x^2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89603,7 +89603,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89634,7 +89634,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Multiplicera \\((x+1)(2x^2-5x+c)\\) och jämför koefficienterna med \\(P(x)\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89716,7 +89716,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför polynomdivision.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -89748,7 +89748,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Med reella koefficienter är konjugatet också en rot. Multiplicera \\((z-r)(z-\\bar r)\\) och få en reell andragradsfaktor. Multiplicera med \\(x-2\\).</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -89781,7 +89781,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89811,7 +89811,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Dividera med den kända faktorn. Kvoten blir ett andragradspolynom som du löser med pq-formeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89845,7 +89845,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet. Sätt \\(P(-1)=0\\) för att bestämma a.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89877,7 +89877,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Bestäm de tre reella nollställena numeriskt och dividera bort dem. Kvar blir andragradsfaktorn.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -89909,7 +89909,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Dividera med den kända faktorn. Kvoten blir ett andragradspolynom som du löser med pq-formeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -89943,7 +89943,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Med reella koefficienter är konjugatet också en rot. Multiplicera \\((z-r)(z-\\bar r)\\) och få en reell andragradsfaktor. Multiplicera med \\((x+1)^2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -90028,7 +90028,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför polynomdivision.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -90059,7 +90059,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Dividera med den kända faktorn. Kvoten blir ett andragradspolynom som du löser med pq-formeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -90093,7 +90093,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Med reella koefficienter är konjugatet också en rot. Multiplicera \\((z-r)(z-\\bar r)\\) och få en reell andragradsfaktor. Multiplicera med \\(x+3\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -90126,7 +90126,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Resten vid division med \\(x-2\\) är \\(P(2)\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -90278,7 +90278,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför polynomdivision och ange kvot och rest.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -90308,7 +90308,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera med den kända faktorn. Kvoten blir ett andragradspolynom som du löser med pq-formeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -90338,7 +90338,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Sätt \\(t=x^2\\). Då får du en andragradsekvation i t.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -90480,7 +90480,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0. Skriv ut saknade termer.</p>",
     "spelIntro": "<p>Utför polynomdivision.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -90512,7 +90512,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
+    "ledtrad": "<p>Med reella koefficienter är konjugatet också en rot. Multiplicera \\((z-r)(z-\\bar r)\\) och få en reell andragradsfaktor. Multiplicera med \\((x-3)^2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -90609,7 +90609,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Skriv ut saknade termer med koefficienten 0.</p>",
     "spelIntro": "<p>Utför polynomdivision.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -90640,7 +90640,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
+    "ledtrad": "<p>Faktorsatsen: \\(x-a\\) är en faktor precis när \\(P(a)=0\\). Sätt in a i polynomet. Dividera sedan med \\(x+1\\) och faktorisera kvoten.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -90670,7 +90670,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "andragradsekv_komplexa__andragradsekvationer_med_komplexa_losningar",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>\\(x^2=-4\\). Vilket tal i kvadrat blir −4?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -90704,7 +90704,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "andragradsekv_komplexa__andragradsekvationer_med_komplexa_losningar",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Använd pq-formeln. Talet under rottecknet blir negativt, och roten ur ett negativt tal ger en imaginär del. Realdelen är \\(-p/2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -90738,7 +90738,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Faktorisera \\(x^3-8=(x-2)(x^2+2x+4)\\). Har andragradsfaktorn reella rötter?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -90771,7 +90771,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "polynomekv_hogre__polynomekvationer_och_komplexa_rotter",
-    "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
+    "ledtrad": "<p>Sätt \\(t=x^2\\). Då får du en andragradsekvation i t. Vilka tecken får t?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [

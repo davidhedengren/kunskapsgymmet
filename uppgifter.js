@@ -52876,7 +52876,7 @@ window.BANK = [
     "typ": "rörelsemängdens belopp",
     "poang": "(1/0/0)",
     "t": "<p>En boll med massan 0,20 kg rör sig med farten 8,0 m/s. Hur stor rörelsemängd har bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p=0{,}20\\cdot 8{,}0=1{,}6\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,6 kg·m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[p=0{,}20\\cdot8{,}0=1{,}6\\ \\mathrm{kg\\cdot m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,6 kg·m/s</p></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
       "procedur"
@@ -52904,7 +52904,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En vagn som väger 2,0 kg rullar med farten 3,0 m/s. Hur stor rörelsemängd har vagnen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p=2{,}0\\cdot 3{,}0=6{,}0\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 kg·m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[p=2{,}0\\cdot3{,}0=6{,}0\\ \\mathrm{kg\\cdot m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 kg·m/s</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Rörelsemängd p = mv",
@@ -52935,7 +52935,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En fotboll med massan 0,45 kg flyger med farten 20 m/s. Beräkna bollens rörelsemängd.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p=0{,}45\\cdot 20=9{,}0\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 9 kg·m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[p=0{,}45\\cdot20=9{,}0\\ \\mathrm{kg\\cdot m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9,0 kg·m/s</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Rörelsemängd p = mv",
@@ -52966,7 +52966,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En cyklist och cykeln väger tillsammans 90 kg. Cyklisten håller farten 5,0 m/s. Hur stor rörelsemängd har cyklisten och cykeln tillsammans?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p=90\\cdot 5{,}0=450\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 450 kg·m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[p=90\\cdot5{,}0=450\\ \\mathrm{kg\\cdot m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 450 kg·m/s</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Rörelsemängd p = mv",
@@ -53136,7 +53136,7 @@ window.BANK = [
     "typ": "rörelsemängd med enhetsbyte",
     "poang": "(2/0/0)",
     "t": "<p>En boll som väger 250 g rullar med farten 10 m/s. Hur stor rörelsemängd har bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">250 g = 0,250 kg.</p><div class=\"facit-matte\">\\[p=0{,}250\\cdot 10=2{,}5\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 kg·m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Sökt: rörelsemängden p.</p><div class=\"facit-matte\">\\[m=250\\ \\mathrm g=0{,}250\\ \\mathrm{kg},\\quad v=10\\ \\mathrm{m/s}\\]</div></li><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[p=0{,}250\\cdot10=2{,}5\\ \\mathrm{kg\\cdot m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 kg·m/s</p></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
       "procedur"
@@ -53387,7 +53387,7 @@ window.BANK = [
     "typ": "fart från rörelsemängd",
     "poang": "(1/0/0)",
     "t": "<p>En boll med massan 0,30 kg har rörelsemängden 3,6 kg·m/s. Vilken fart har bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{3{,}6}{0{,}30}=12\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12 m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[v=\\frac pm=\\frac{3{,}6}{0{,}30}=12\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 m/s</p></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
       "procedur"
@@ -53415,7 +53415,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En låda som väger 5,0 kg skjuts över golvet. Lådan har rörelsemängden 20 kg·m/s. Hur stor är lådans fart?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{20}{5{,}0}=4{,}0\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4 m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[v=\\frac pm=\\frac{20}{5{,}0}=4{,}0\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,0 m/s</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Rörelsemängd p = mv",
@@ -53446,7 +53446,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En liten gummiboll med massan 0,20 kg har rörelsemängden 3,0 kg·m/s. Beräkna bollens fart.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">p = mv ger</p><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{3{,}0}{0{,}20}=15\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 15 m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[v=\\frac pm=\\frac{3{,}0}{0{,}20}=15\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 m/s</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Rörelsemängd p = mv",
@@ -54373,7 +54373,7 @@ window.BANK = [
     "typ": "massa från rörelsemängd",
     "poang": "(1/0/0)",
     "t": "<p>En boll kastas med farten 14 m/s och har då rörelsemängden 4,9 kg·m/s. Hur stor massa har bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{p}{v}=\\frac{4{,}9}{14}=0{,}35\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,35 kg.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[m=\\frac pv=\\frac{4{,}9}{14}=0{,}35\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,35 kg</p></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
       "procedur"
@@ -54401,7 +54401,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>Ett föremål har rörelsemängden 18 kg·m/s och farten 6,0 m/s. Beräkna föremålets massa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\frac{18}{6{,}0}=3{,}0\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3 kg.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[m=\\frac pv=\\frac{18}{6{,}0}=3{,}0\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,0 kg</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Rörelsemängd p = mv",
@@ -55062,7 +55062,7 @@ window.BANK = [
     "omr": "rorelsemangd",
     "t": "<p>En vagn med massan 0,50 kg rullar med farten 6,0 m/s och bromsas tills den står still. Hur stor impuls får vagnen?</p>",
     "kgInstruktion": "Vagnens rörelseriktning räknas som positiv.",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=0{,}50 \\left(0-6{,}0\\right)=-3{,}0\\,\\mathrm{N\\,s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> -3 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Rörelseriktningen räknas som positiv. Sökt: impulsen I.</p><div class=\"facit-matte\">\\[m=0{,}50\\ \\mathrm{kg},\\quad v_0=6{,}0\\ \\mathrm{m/s},\\quad v=0\\]</div></li><li><p class=\"facit-rubrik\">Impulslagen: \\(I=\\Delta p=m\\Delta v\\)</p><div class=\"facit-matte\">\\[I=m(v-v_0)=0{,}50\\cdot(0-6{,}0)=-3{,}0\\ \\mathrm{Ns}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3,0 Ns (riktad mot rörelseriktningen)</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Impuls och medelkraft",
@@ -55625,7 +55625,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En vagn har rörelsemängden 4,0 kg·m/s. Den får en knuff framåt med impulsen 3,0 Ns. Hur stor rörelsemängd har vagnen efter knuffen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[p_{\\mathrm{efter}}=4{,}0+3{,}0=+7{,}0\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 7 kg·m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Impulsen ändrar rörelsemängden: \\(p_{\\text{efter}}=p_{\\text{före}}+I\\)</p><div class=\"facit-matte\">\\[p_{\\text{efter}}=4{,}0+3{,}0=7{,}0\\ \\mathrm{kg\\cdot m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,0 kg·m/s</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Impuls och medelkraft",
@@ -63022,7 +63022,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En baseboll som väger 150 g kastas med farten 12 m/s. Hur stor rörelsemängd har bollen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">150 g = 0,150 kg.</p><div class=\"facit-matte\">\\[p=0{,}150\\cdot 12=1{,}8\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,8 kg·m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Sökt: rörelsemängden p.</p><div class=\"facit-matte\">\\[m=150\\ \\mathrm g=0{,}150\\ \\mathrm{kg},\\quad v=12\\ \\mathrm{m/s}\\]</div></li><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[p=0{,}150\\cdot12=1{,}8\\ \\mathrm{kg\\cdot m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,8 kg·m/s</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Rörelsemängd p = mv",
@@ -63053,7 +63053,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En bil som väger 1000 kg kör i 36 km/h. Beräkna bilens rörelsemängd.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">36 km/h = 10 m/s.</p><div class=\"facit-matte\">\\[p=1000\\cdot 10=10\\,000\\, \\mathrm{kg\\,m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 10000 kg·m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Sökt: rörelsemängden p.</p><div class=\"facit-matte\">\\[m=1\\,000\\ \\mathrm{kg},\\quad v=36\\ \\mathrm{km/h}=\\frac{36}{3{,}6}\\ \\mathrm{m/s}=10\\ \\mathrm{m/s}\\]</div></li><li><p class=\"facit-rubrik\">Rörelsemängd: \\(p=mv\\)</p><div class=\"facit-matte\">\\[p=1\\,000\\cdot10=10\\,000\\ \\mathrm{kg\\cdot m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,0·10⁴ kg·m/s</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Rörelsemängd p = mv",
@@ -64376,7 +64376,7 @@ window.BANK = [
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
     "t": "<p>En kraft på 400 N verkar vinkelrätt och jämnt över 0,020 m².<br></p><p>Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\">\\[p=\\frac{400}{0{,}020}=20\\,000\\, \\mathrm{Pa}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 20000 Pa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryck: \\(p=\\frac FA\\)</p><div class=\"facit-matte\">\\[p=\\frac{400}{0{,}020}=20\\,000\\ \\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 000 Pa</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
       "procedur"
@@ -64786,7 +64786,7 @@ window.BANK = [
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
     "t": "<p>En kraft på 450 N verkar vinkelrätt och jämnt över 0,025 m².<br></p><p>Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\">\\[p=\\frac{450}{0{,}025}=18\\,000\\, \\mathrm{Pa}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 18000 Pa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryck: \\(p=\\frac FA\\)</p><div class=\"facit-matte\">\\[p=\\frac{450}{0{,}025}=18\\,000\\ \\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18 000 Pa</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
       "procedur"
@@ -65792,7 +65792,7 @@ window.BANK = [
     "typ": "volym från lyftkraft",
     "poang": "(1/0/0)",
     "t": "<p>Ett föremål är helt nedsänkt i vatten med densiteten 1000 kg/m³. Lyftkraften är 19,64 N.</p><p>Bestäm den undanträngda volymen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>V = F<sub>L</sub>/(ρg) = 19,64/(1000 · 9,82) = 0,0020 m³ = 2,0 liter.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2 liter.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arkimedes princip: \\(F_L=\\rho_{\\text{vätska}}\\cdot V\\cdot g\\)</p><div class=\"facit-matte\">\\[V=\\frac{F_L}{\\rho g}=\\frac{19{,}64}{1\\,000\\cdot9{,}82}=0{,}0020\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till liter</p><div class=\"facit-matte\">\\[0{,}0020\\ \\mathrm{m^3}=2{,}0\\ \\mathrm{dm^3}=2{,}0\\ \\text{liter}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 liter</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
       "procedur"
@@ -65820,7 +65820,7 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "t": "<p>En kropp är helt nedsänkt i vatten med densiteten 1000 kg/m³. Lyftkraften är 4,91 N.</p><p>Bestäm kroppens volym.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{4{,}91}{1000\\cdot 9{,}82}=0{,}0005 m^{3}=500\\, \\mathrm{cm^3}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 500 cm³.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arkimedes princip: \\(F_L=\\rho_{\\text{vätska}}\\cdot V\\cdot g\\)</p><div class=\"facit-matte\">\\[V=\\frac{F_L}{\\rho g}=\\frac{4{,}91}{1\\,000\\cdot9{,}82}=0{,}000500\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till kubikcentimeter</p><div class=\"facit-matte\">\\[0{,}000500\\ \\mathrm{m^3}=500\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 500 cm³</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Lyftkraft och undanträngd volym",
@@ -66282,7 +66282,7 @@ window.BANK = [
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
     "t": "<p>En kraft på 600 N ska fördelas över en yta så att trycket är 15 kPa.</p><p>Bestäm arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\">\\[A=\\frac{F}{p}=\\frac{600}{15\\,000}=0{,}040\\, \\mathrm{m^2}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 0,04 m².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Sökt: arean A.</p><div class=\"facit-matte\">\\[F=600\\ \\mathrm N,\\quad p=15\\ \\mathrm{kPa}=15\\,000\\ \\mathrm{Pa}\\]</div></li><li><p class=\"facit-rubrik\">Tryck: \\(p=\\frac FA\\)</p><div class=\"facit-matte\">\\[A=\\frac Fp=\\frac{600}{15\\,000}=0{,}040\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,040 m²</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
       "procedur"
@@ -66539,7 +66539,7 @@ window.BANK = [
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
     "t": "<p>Trycket mot en yta på 0,020 m² är 35 000 Pa.<br></p><p>Bestäm den vinkelräta kraften.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\">\\[F=35\\,000\\cdot 0{,}020=700\\, \\mathrm{N}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 700 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryck: \\(p=\\frac FA\\)</p><div class=\"facit-matte\">\\[F=pA=35\\,000\\cdot0{,}020=700\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 700 N</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
       "procedur"
@@ -66630,7 +66630,7 @@ window.BANK = [
     "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
     "t": "<p>En kraft på 400 N ger trycket 16 000 Pa.<br></p><p>Bestäm den belastade arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\">\\[A=\\frac{400}{16\\,000}=0{,}025\\, \\mathrm{m^2}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 0,025 m².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryck: \\(p=\\frac FA\\)</p><div class=\"facit-matte\">\\[A=\\frac Fp=\\frac{400}{16\\,000}=0{,}025\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,025 m²</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
       "procedur"
@@ -67177,7 +67177,7 @@ window.BANK = [
     "typ": "förändrad lyftkraft",
     "poang": "(1/0/0)",
     "t": "<p>Ett helt nedsänkt föremål med volymen 2,5 liter flyttas från vatten med densiteten 1000 kg/m³ till saltvatten med densiteten 1040 kg/m³.</p><p>Hur mycket ökar lyftkraften?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>ΔF<sub>L</sub> = (1040−1000) · 9,82 · 0,0025 = 0,982 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,982 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Sökt: ökningen av lyftkraften.</p><div class=\"facit-matte\">\\[V=2{,}5\\ \\text{liter}=0{,}0025\\ \\mathrm{m^3},\\quad\\Delta\\rho=1\\,040-1\\,000=40\\ \\mathrm{kg/m^3}\\]</div></li><li><p class=\"facit-rubrik\">Arkimedes princip: \\(F_L=\\rho_{\\text{vätska}}\\cdot V\\cdot g\\)</p><div class=\"facit-matte\">\\[\\Delta F_L=\\Delta\\rho\\cdot V\\cdot g=40\\cdot0{,}0025\\cdot9{,}82\\approx0{,}982\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,982 N</p></div>",
     "familj": "Lyftkraft och undanträngd volym",
     "formaga": [
       "procedur"
@@ -68332,7 +68332,7 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "t": "<p>En yta på 0,050 m² belastas vinkelrätt av 250 N.<br></p><p>Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\">\\[p=\\frac{250}{0{,}050}=5000\\, \\mathrm{Pa}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 5000 Pa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryck: \\(p=\\frac FA\\)</p><div class=\"facit-matte\">\\[p=\\frac{250}{0{,}050}=5\\,000\\ \\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 000 Pa</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Tryck p = F/A",
@@ -68363,7 +68363,7 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "t": "<p>En kraft på 90 N ger trycket 3000 Pa.<br></p><p>Bestäm arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\">\\[A=\\frac{90}{3000}=0{,}030\\, \\mathrm{m^2}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 0,03 m².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryck: \\(p=\\frac FA\\)</p><div class=\"facit-matte\">\\[A=\\frac Fp=\\frac{90}{3\\,000}=0{,}030\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,030 m²</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Tryck p = F/A",
@@ -103560,7 +103560,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Aktiviteten är 150 Bq efter två halveringstider. Vilken var aktiviteten från början?</p>",
-    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[A_0=150\\cdot2^2=600\\ \\mathrm{Bq}\\]</p><p></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två halveringstider halverar aktiviteten två gånger</p><div class=\"facit-matte\">\\[A=\\frac{A_0}{2^2}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut startaktiviteten</p><div class=\"facit-matte\">\\[A_0=150\\cdot2^2=600\\ \\mathrm{Bq}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 600 Bq</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -104377,7 +104377,7 @@ window.BANK = [
     "typ": "balansera masstal och atomnummer i kärnreaktion",
     "poang": "(1/0/0)",
     "t": "<p>I kärnreaktionen \\(^{235}_{92}U+n\\rightarrow {}^{141}_{56}Ba+{}^{92}_{36}Kr+x n\\). Hur många neutroner frigörs?</p>",
-    "s": "<div class=\"facit-v2\"><p>Summan av masstalen bevaras.</p><p>\\[235+1=141+92+x\\]</p><p>\\[x=3\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Masstalet och atomnumret bevaras i en kärnreaktion</p><p>Varje neutron har masstalet 1.</p><div class=\"facit-matte\">\\[235+1=141+92+x\\quad\\Rightarrow\\quad x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 neutroner</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
       "procedur"
@@ -104540,7 +104540,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Aktiviteten minskar från 600 Bq till 300 Bq på 4,5 timmar. Bestäm halveringstiden i timmar.</p>",
-    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[T=4{,}5\\ \\mathrm h\\]</p><p></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halveringstiden är tiden det tar för aktiviteten att halveras</p><div class=\"facit-matte\">\\[600\\ \\mathrm{Bq}\\to300\\ \\mathrm{Bq}:\\quad T_{1/2}=4{,}5\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,5 h</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -104947,7 +104947,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En vävnad får den ekvivalenta dosen 4,5 mSv. Strålningens viktfaktor är 1. Bestäm den absorberade dosen i mGy.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[D=4{,}5/1\\]</p><p>\\[D\\approx4{,}5\\ \\mathrm{mGy}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvivalent dos: \\(H=w_R\\cdot D\\)</p><div class=\"facit-matte\">\\[D=\\frac{H}{w_R}=\\frac{4{,}5}{1}=4{,}5\\ \\mathrm{mGy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,5 mGy</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
@@ -105010,7 +105010,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En vävnad får den ekvivalenta dosen 10 mSv. Strålningens viktfaktor är 20. Bestäm den absorberade dosen i mGy.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[D=10/20\\]</p><p>\\[D\\approx0{,}5\\ \\mathrm{mGy}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvivalent dos: \\(H=w_R\\cdot D\\)</p><div class=\"facit-matte\">\\[D=\\frac{H}{w_R}=\\frac{10}{20}=0{,}50\\ \\mathrm{mGy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,50 mGy</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
@@ -105095,7 +105095,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vilken enhet används för ekvivalent dos?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ekvivalent dos mäts i sievert.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> sievert (Sv).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvivalent dos tar hänsyn till strålslagets skadlighet</p><p>Den mäts i sievert. Gray används för absorberad dos och becquerel för aktivitet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> sievert (Sv)</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "begrepp"
@@ -105302,7 +105302,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Dosen per timme är 20 µSv. Hur stor dos får en person på 3 timmar?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[H=20\\cdot3\\]</p><p>\\[H\\approx60\\ \\mathrm{\\mu Sv}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dos = dos per timme gånger tiden: \\(H=\\dot H\\cdot t\\)</p><div class=\"facit-matte\">\\[H=20\\cdot3=60\\ \\mathrm{\\mu Sv}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 µSv</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "procedur"
@@ -105333,7 +105333,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En person får dosen 75 µSv på 3,5 timmar. Hur stor är dosen per timme?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[\\dot H=75/3{,}5\\]</p><p>\\[\\dot H\\approx21{,}4\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dos = dos per timme gånger tiden: \\(H=\\dot H\\cdot t\\)</p><div class=\"facit-matte\">\\[\\dot H=\\frac Ht=\\frac{75}{3{,}5}\\approx21{,}4\\ \\mathrm{\\mu Sv/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21,4 µSv/h</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "procedur"
@@ -105837,7 +105837,7 @@ window.BANK = [
     "typ": "protonantal från nuklidnotation",
     "poang": "(1/0/0)",
     "t": "<p>Hur många protoner finns i kärnan hos \\(^{12}_{6}\\mathrm C\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det undre talet är atomnumret och anger antalet protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Z=6\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 protoner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nuklidbeteckning \\({}^A_Z\\mathrm X\\): masstalet är \\(A=Z+N\\)</p><p>Det nedre talet är atomnumret, alltså antalet protoner.</p><div class=\"facit-matte\">\\[Z=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 protoner</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -105867,7 +105867,7 @@ window.BANK = [
     "typ": "neutronantal från nuklidnotation",
     "poang": "(1/0/0)",
     "t": "<p>Hur många neutroner finns i kärnan hos \\(^{16}_{8}\\mathrm O\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronantalet är masstal minus atomnummer.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=A-Z=16-8=8\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 8 neutroner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal neutroner: \\(N=A-Z\\)</p><div class=\"facit-matte\">\\[N=16-8=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 neutroner</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -105990,7 +105990,7 @@ window.BANK = [
     "typ": "masstal från protoner och neutroner",
     "poang": "(1/0/0)",
     "t": "<p>En kärna har 11 protoner och 12 neutroner. Bestäm masstalet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet är summan av protoner och neutroner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=11+12=23\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 23.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nuklidbeteckning \\({}^A_Z\\mathrm X\\): masstalet är \\(A=Z+N\\)</p><div class=\"facit-matte\">\\[A=11+12=23\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 23</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -106020,7 +106020,7 @@ window.BANK = [
     "typ": "antal nukleoner från masstal",
     "poang": "(1/0/0)",
     "t": "<p>Nukliden \\(^{40}_{20}\\mathrm{Ca}\\) har masstalet 40. Hur många nukleoner finns i kärnan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet är antalet nukleoner i kärnan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=40\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 40 nukleoner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nuklidbeteckning \\({}^A_Z\\mathrm X\\): masstalet är \\(A=Z+N\\)</p><p>Masstalet är antalet nukleoner.</p><div class=\"facit-matte\">\\[A=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 nukleoner</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -106433,7 +106433,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vilka två nuklider är isotoper av samma grundämne?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Isotoper har samma atomnummer men olika masstal.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isotoper har samma atomnummer men olika masstal</p><p>Bara \\({}^{12}_6\\mathrm C\\) och \\({}^{14}_6\\mathrm C\\) har samma undre tal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\({}^{12}_6\\mathrm C\\) och \\({}^{14}_6\\mathrm C\\)</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "begrepp"
@@ -106952,7 +106952,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett preparat har aktiviteten 40 Bq. Hur många sönderfall sker i genomsnitt på 5 sekunder?</p>",
-    "s": "<div class=\"facit-v2\"><p>Aktiviteten anger 40 sönderfall per sekund i genomsnitt.</p><p>\\[N=A t=40\\cdot5=200\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Aktivitet = sönderfall per sekund: \\(N=A\\cdot t\\)</p><div class=\"facit-matte\">\\[N=40\\cdot5=200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 200 sönderfall</p></div>",
     "familj": "Aktivitet och antal kärnor",
     "formaga": [
       "procedur"
@@ -107476,7 +107476,7 @@ window.BANK = [
     "typ": "neutronantal från masstal och protonantal",
     "poang": "(1/0/0)",
     "t": "<p>En kärna har masstalet 31 och innehåller 15 protoner. Hur många neutroner har den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronantalet fås genom masstal minus protonantal.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=31-15=16\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 16 neutroner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal neutroner: \\(N=A-Z\\)</p><div class=\"facit-matte\">\\[N=31-15=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 neutroner</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -107507,7 +107507,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vad bestämmer vilket grundämne en atom tillhör?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Grundämnet bestäms av antalet protoner i kärnan, alltså atomnumret.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Atomnumret avgör grundämnet</p><p>Antalet protoner i kärnan bestämmer vilket grundämne det är.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Antalet protoner.</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "begrepp"
@@ -107675,7 +107675,7 @@ window.BANK = [
     "typ": "neutronantal i klor-37",
     "poang": "(1/0/0)",
     "t": "<p>Hur många neutroner har nukliden \\(^{37}_{17}\\mathrm{Cl}\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Subtrahera atomnumret från masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=37-17=20\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 20 neutroner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal neutroner: \\(N=A-Z\\)</p><div class=\"facit-matte\">\\[N=37-17=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 neutroner</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -107705,7 +107705,7 @@ window.BANK = [
     "typ": "masstal från kärnans beståndsdelar",
     "poang": "(1/0/0)",
     "t": "<p>En kärna innehåller 27 protoner och 32 neutroner. Bestäm masstalet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet är summan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=27+32=59\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 59.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nuklidbeteckning \\({}^A_Z\\mathrm X\\): masstalet är \\(A=Z+N\\)</p><div class=\"facit-matte\">\\[A=27+32=59\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 59</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -107905,7 +107905,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vad är en nukleon?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Protoner och neutroner kallas gemensamt nukleoner.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nukleon är det gemensamma namnet på kärnans partiklar</p><p>Både protoner och neutroner kallas nukleoner.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En proton eller neutron i kärnan.</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "begrepp"
@@ -107955,7 +107955,7 @@ window.BANK = [
     "typ": "neutronantal i uran-238",
     "poang": "(1/0/0)",
     "t": "<p>Uran-238 har atomnumret 92. Hur många neutroner har kärnan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronantalet är masstal minus atomnummer.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=238-92=146\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 146 neutroner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal neutroner: \\(N=A-Z\\)</p><div class=\"facit-matte\">\\[N=238-92=146\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 146 neutroner</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -108254,7 +108254,7 @@ window.BANK = [
     "typ": "elektronantal från protonantal",
     "poang": "(1/0/0)",
     "t": "<p>En neutral atom har 19 protoner. Hur många elektroner har den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En neutral atom har lika många elektroner som protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N_e=19\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 19 elektroner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En neutral atom har lika många elektroner som protoner</p><div class=\"facit-matte\">\\[N_e=Z=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19 elektroner</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -108285,7 +108285,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Två isotoper av samma grundämne skiljer sig åt i...</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Isotoper har samma antal protoner men olika antal neutroner.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isotoper har samma antal protoner</p><p>Samma grundämne betyder samma atomnummer, så det är antalet neutroner som skiljer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> antal neutroner.</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "begrepp"
@@ -108428,7 +108428,7 @@ window.BANK = [
     "typ": "neutronantal från masstal",
     "poang": "(1/0/0)",
     "t": "<p>En kärna har 12 protoner och masstalet 24. Hur många neutroner har den?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronantalet är masstal minus protonantal.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=24-12=12\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12 neutroner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal neutroner: \\(N=A-Z\\)</p><div class=\"facit-matte\">\\[N=24-12=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 neutroner</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur"
@@ -109801,7 +109801,7 @@ window.BANK = [
     "typ": "balansera masstal och atomnummer i kärnreaktion",
     "poang": "(1/0/0)",
     "t": "<p>I kärnreaktionen \\(^{2}_{1}H+{}^{3}_{1}H\\rightarrow{}^{4}_{2}He+x n\\). Hur många neutroner frigörs?</p>",
-    "s": "<div class=\"facit-v2\"><p>Summan av masstalen bevaras.</p><p>\\[2+3=4+x\\]</p><p>\\[x=1\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Masstalet och atomnumret bevaras i en kärnreaktion</p><div class=\"facit-matte\">\\[2+3=4+x\\quad\\Rightarrow\\quad x=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 neutron</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
       "procedur"
@@ -109939,7 +109939,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En gammal träbit har hälften så hög kol-14-aktivitet per gram kol som levande trä. Kol-14 har halveringstiden 5 730 år. Hur gammal är träbiten?</p>",
-    "s": "<div class=\"facit-v2\"><p>Hälften återstår efter en halveringstid. Träbiten är därför cirka 5 730 år gammal.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Efter en halveringstid återstår hälften</p><p>Halva aktiviteten betyder att en halveringstid har gått sedan trädet dog.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 5 730 år</p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
       "procedur"
@@ -111455,7 +111455,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett preparat har aktiviteten 12 kBq från början och halveringstiden 8 dygn. Bestäm aktiviteten efter 20 dygn.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[t/T=20/8\\]</p><p><div class=\"facit-v2\"><p>\\[A=12\\cdot2^{-20/8}\\]</p><p>\\[A\\approx2{,}12\\ \\mathrm{kBq}\\]</p></div></p><p></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sönderfallslagen: \\(A=A_0\\cdot\\left(\\frac12\\right)^{t/T_{1/2}}\\)</p><div class=\"facit-matte\">\\[A=12\\cdot\\left(\\frac12\\right)^{20/8}=12\\cdot2^{-2{,}5}\\]</div></li><li><p class=\"facit-rubrik\">Beräkna</p><div class=\"facit-matte\">\\[A\\approx2{,}12\\ \\mathrm{kBq}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,12 kBq</p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
       "procedur"
@@ -111810,7 +111810,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En natrium-23-kärna har 23 nukleoner och bindningsenergin 7,85 MeV per nukleon. Bestäm kärnans totala bindningsenergi i MeV.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[E_b=23\\cdot7{,}85\\approx180{,}5\\ \\mathrm{MeV}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bindningsenergi: \\(E_b=A\\cdot\\frac{E_b}{A}\\)</p><div class=\"facit-matte\">\\[E_b=23\\cdot7{,}85\\approx181\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 181 MeV</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
       "procedur"
@@ -111958,7 +111958,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En kärna har bindningsenergin 127,6 MeV. Bestäm massdefekten i u.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=127{,}6/931{,}5\\approx0{,}1370\\ \\mathrm{u}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massdefekt ur bindningsenergi: \\(\\Delta m=\\frac{E_b}{931{,}5\\ \\mathrm{MeV/u}}\\)</p><div class=\"facit-matte\">\\[\\Delta m=\\frac{127{,}6}{931{,}5}\\approx0{,}1370\\ \\mathrm u\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,1370 u</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
       "procedur"
@@ -112160,7 +112160,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En kärna har den totala bindningsenergin 236 MeV. Bindningsenergin per nukleon är 7,375 MeV. Hur många nukleoner har kärnan?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[A=236/7{,}375=32\\]</p><p>Kärnan innehåller 32 nukleoner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bindningsenergi: \\(E_b=A\\cdot\\frac{E_b}{A}\\)</p><div class=\"facit-matte\">\\[A=\\frac{236}{7{,}375}=32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32 nukleoner</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
       "procedur"
@@ -112338,7 +112338,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En kärna har bindningsenergin 492,3 MeV. Bestäm massdefekten i u.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[\\Delta m=492{,}3/931{,}5\\approx0{,}5285\\ \\mathrm{u}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massdefekt ur bindningsenergi: \\(\\Delta m=\\frac{E_b}{931{,}5\\ \\mathrm{MeV/u}}\\)</p><div class=\"facit-matte\">\\[\\Delta m=\\frac{492{,}3}{931{,}5}\\approx0{,}5285\\ \\mathrm u\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5285 u</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
       "procedur"
@@ -112369,7 +112369,7 @@ window.BANK = [
     "typ": "bindningsenergi och isotopjämförelse",
     "poang": "(1/0/0)",
     "t": "<p>Kol-12 och kol-14 är isotoper. Hur stor är skillnaden i neutronantal mellan kärnorna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda har atomnummer 6.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Jämför därför \\(A-Z\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(14-6)-(12-6)=2\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal neutroner: \\(N=A-Z\\)</p><div class=\"facit-matte\">\\[N_{14}=14-6=8,\\qquad N_{12}=12-6=6\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden</p><div class=\"facit-matte\">\\[8-6=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "formaga": [
       "procedur",
@@ -112548,7 +112548,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Två kärnor har bindningsenergin 7,65 respektive 8,55 MeV per nukleon. Hur stor är skillnaden?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[8{,}55-7{,}65=0{,}90\\ \\mathrm{MeV}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnaden i bindningsenergi per nukleon</p><div class=\"facit-matte\">\\[8{,}55-7{,}65=0{,}90\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,90 MeV</p></div>",
     "familj": "Massdefekt och bindningsenergi",
     "formaga": [
       "procedur"
@@ -114099,7 +114099,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>I en kärnreaktion minskar massan med 0,24 u. Hur mycket energi frigörs i MeV?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[E=0{,}24\\cdot931{,}5\\]</p><p>\\[E\\approx224\\ \\mathrm{MeV}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi ur massminskning: \\(E=\\Delta m\\cdot931{,}5\\ \\mathrm{MeV/u}\\)</p><div class=\"facit-matte\">\\[E=0{,}24\\cdot931{,}5\\approx224\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 224 MeV</p></div>",
     "familj": "Energi i kärnreaktioner",
     "formaga": [
       "procedur"
@@ -114750,7 +114750,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Halveringstiden är 6,0 timmar. Hur många procent av startaktiviteten återstår efter 27 timmar?</p>",
-    "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[f=2^{-27/6}\\]</p><p>\\[f\\approx0{,}0442\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[p=100f\\]</p><p>\\[p\\approx4{,}42\\ \\%\\]</p></div></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sönderfallslagen: \\(A=A_0\\cdot\\left(\\frac12\\right)^{t/T_{1/2}}\\)</p><div class=\"facit-matte\">\\[\\frac{A}{A_0}=\\left(\\frac12\\right)^{27/6{,}0}=2^{-4{,}5}\\approx0{,}0442\\]</div></li><li><p class=\"facit-rubrik\">Omvandla till procent</p><div class=\"facit-matte\">\\[0{,}0442=4{,}42\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,42 %</p></div>",
     "familj": "Sönderfallslagen och datering",
     "formaga": [
       "procedur"
@@ -115360,7 +115360,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Aktiviteten är 600 Bq vid tiden 3,5 timmar och 300 Bq vid tiden 9,0 timmar. Bestäm halveringstiden i timmar.</p>",
-    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[T=9{,}0-3{,}5=5{,}5\\ \\mathrm h\\]</p><p></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halveringstiden är tiden det tar för aktiviteten att halveras</p><p>600 Bq har blivit 300 Bq, alltså en halvering.</p><div class=\"facit-matte\">\\[T_{1/2}=9{,}0-3{,}5=5{,}5\\ \\mathrm h\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,5 h</p></div>",
     "familj": "Halveringstid ur diagram och mätdata",
     "formaga": [
       "procedur"
@@ -115546,7 +115546,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Ett preparat har startaktiviteten 6,4 kBq och halveringstiden 3,0 timmar.</p><p>a) Hur många halveringstider är 12 timmar?</p><p>b) Bestäm aktiviteten efter 12 timmar.</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[n=12/3{,}0=4\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[12/3{,}0=4\\]</p><p>\\[A=6{,}4/2^4=0{,}40\\ \\mathrm{kBq}\\]</p></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Antal halveringstider</p><div class=\"facit-matte\">\\[n=\\frac{t}{T_{1/2}}=\\frac{12}{3{,}0}=4\\]</div></li><li><p class=\"facit-rubrik\">b) Sönderfallslagen: \\(A=A_0\\cdot\\left(\\frac12\\right)^{t/T_{1/2}}\\)</p><div class=\"facit-matte\">\\[A=6{,}4\\cdot\\left(\\frac12\\right)^4=\\frac{6{,}4}{16}=0{,}40\\ \\mathrm{kBq}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 4 b) 0,40 kBq</p></div>",
     "familj": "Halveringstid i hela steg",
     "formaga": [
       "procedur"
@@ -115573,7 +115573,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Halveringstiden är 3,0 timmar. Hur många halveringstider är 12 timmar?",
-        "s": "<div class=\"facit-v2\"><p>\\[n=12/3{,}0=4\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal halveringstider</p><div class=\"facit-matte\">\\[n=\\frac{t}{T_{1/2}}=\\frac{12}{3{,}0}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4,
         "självrättning": true,
@@ -115592,7 +115592,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Ett preparat har aktiviteten 6,4 kBq från början och halveringstiden 3,0 timmar. Bestäm aktiviteten efter 12 timmar.",
-        "s": "<div class=\"facit-v2\"><p>\\[12/3{,}0=4\\]</p><p>\\[A=6{,}4/2^4=0{,}40\\ \\mathrm{kBq}\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sönderfallslagen: \\(A=A_0\\cdot\\left(\\frac12\\right)^{t/T_{1/2}}\\)</p><div class=\"facit-matte\">\\[A=6{,}4\\cdot\\left(\\frac12\\right)^{12/3{,}0}=\\frac{6{,}4}{2^4}=0{,}40\\ \\mathrm{kBq}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,40 kBq</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.4,
         "självrättning": true,
@@ -116258,7 +116258,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Gammastrålning ger den ekvivalenta dosen 3,6 mSv. Strålningens viktfaktor är 1. Bestäm den absorberade dosen i mGy.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[D=3{,}6/1\\]</p><p>\\[D\\approx3{,}6\\ \\mathrm{mGy}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvivalent dos: \\(H=w_R\\cdot D\\)</p><div class=\"facit-matte\">\\[D=\\frac{H}{w_R}=\\frac{3{,}6}{1}=3{,}6\\ \\mathrm{mGy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,6 mGy</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
@@ -116455,7 +116455,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En vävnad får den absorberade dosen 4,0 mGy och den ekvivalenta dosen 80 mSv. Bestäm strålningens viktfaktor.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[w=80/4{,}0\\]</p><p>\\[w\\approx20\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvivalent dos: \\(H=w_R\\cdot D\\)</p><div class=\"facit-matte\">\\[w_R=\\frac HD=\\frac{80}{4{,}0}=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
@@ -116651,7 +116651,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Samma vävnad får gammastrålning vid två undersökningar. De absorberade doserna är 1,2 mGy och 1,3 mGy. Viktfaktorn är 1. Hur stor är den totala ekvivalenta dosen?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[D=1{,}2+1{,}3=2{,}5\\ \\mathrm{mGy}\\]</p><p>\\[H=wD=1\\cdot2{,}5=2{,}5\\ \\mathrm{mSv}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">De absorberade doserna läggs ihop</p><div class=\"facit-matte\">\\[D=1{,}2+1{,}3=2{,}5\\ \\mathrm{mGy}\\]</div></li><li><p class=\"facit-rubrik\">Ekvivalent dos: \\(H=w_R\\cdot D\\)</p><div class=\"facit-matte\">\\[H=1\\cdot2{,}5=2{,}5\\ \\mathrm{mSv}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 mSv</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
@@ -116682,7 +116682,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Dosen per timme är 35 µSv. Hur stor dos får en person på 2,5 timmar?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[H=35\\cdot2{,}5\\]</p><p>\\[H\\approx87{,}5\\ \\mathrm{\\mu Sv}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dos = dos per timme gånger tiden: \\(H=\\dot H\\cdot t\\)</p><div class=\"facit-matte\">\\[H=35\\cdot2{,}5=87{,}5\\ \\mathrm{\\mu Sv}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 87,5 µSv</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "formaga": [
       "procedur"
@@ -116744,7 +116744,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Alfastrålningens viktfaktor är 20. Vilken absorberad dos i mGy ger den ekvivalenta dosen 70 mSv?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[D=70/20\\]</p><p>\\[D\\approx3{,}5\\ \\mathrm{mGy}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ekvivalent dos: \\(H=w_R\\cdot D\\)</p><div class=\"facit-matte\">\\[D=\\frac{H}{w_R}=\\frac{70}{20}=3{,}5\\ \\mathrm{mGy}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,5 mGy</p></div>",
     "familj": "Ekvivalent dos (Sv)",
     "formaga": [
       "procedur"
@@ -116955,7 +116955,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En skärm släpper igenom 12 % av strålningen. Utan skärmen är dosen per timme 250 µSv. Hur stor är den bakom skärmen?</p>",
-    "s": "<div class=\"facit-v2\"><p>12 % motsvarar andelen 0,12.</p><p>\\[\\dot H=0{,}12\\cdot250=30\\ \\mathrm{\\mu Sv/h}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andelen som passerar: \\(\\dot H=\\text{andel}\\cdot\\dot H_0\\)</p><div class=\"facit-matte\">\\[\\dot H=0{,}12\\cdot250=30\\ \\mathrm{\\mu Sv/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 µSv/h</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
       "procedur"
@@ -117332,7 +117332,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Gammastrålningen halveras för varje 0,90 cm skärmmaterial. Hur många procent passerar en 2,7 cm tjock skärm?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[n=2{,}7/0{,}90=3\\]</p><p>\\[p=100\\cdot2^{-3}=12{,}5\\ \\%\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halveringstjocklek: andelen som passerar är \\(\\left(\\frac12\\right)^{n}\\), där \\(n=\\frac{x}{x_{1/2}}\\)</p><div class=\"facit-matte\">\\[n=\\frac{2{,}7}{0{,}90}=3\\]</div></li><li><p class=\"facit-rubrik\">Andelen som passerar</p><div class=\"facit-matte\">\\[\\left(\\frac12\\right)^3=0{,}125=12{,}5\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5 %</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
       "procedur"
@@ -122568,7 +122568,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En konstant resulterande kraft på 12 N verkar på en vagn i 0,50 s. Hur stor impuls får vagnen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=12\\cdot 0{,}50=+6{,}0\\,\\mathrm{N\\,s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Impuls: \\(I=F\\cdot\\Delta t\\)</p><div class=\"facit-matte\">\\[I=12\\cdot0{,}50=6{,}0\\ \\mathrm{Ns}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 Ns</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Impuls och medelkraft",
@@ -122599,7 +122599,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En fotbollsspelare sparkar en boll. Medelkraften på bollen är 100 N och sparken varar i 0,020 s. Beräkna impulsen på bollen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=100\\cdot 0{,}020=+2{,}0\\,\\mathrm{N\\,s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Impuls: \\(I=F\\cdot\\Delta t\\)</p><div class=\"facit-matte\">\\[I=100\\cdot0{,}020=2{,}0\\ \\mathrm{Ns}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 Ns</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Impuls och medelkraft",
@@ -122630,7 +122630,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En vagn får impulsen 15 Ns under 0,30 s. Hur stor är den resulterande medelkraften på vagnen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[F_{\\mathrm{medel}}=\\frac{15}{0{,}30}=+50\\, \\mathrm{N}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 50 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Impuls: \\(I=F\\cdot\\Delta t\\)</p><div class=\"facit-matte\">\\[F=\\frac{I}{\\Delta t}=\\frac{15}{0{,}30}=50\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 N</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Impuls och medelkraft",
@@ -122661,7 +122661,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>En konstant resulterande kraft på 20 N ska ge en vagn impulsen 8,0 Ns. Hur länge måste kraften verka?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta t=\\frac{8{,}0}{20}=0{,}40\\, \\mathrm{s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,4 s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Impuls: \\(I=F\\cdot\\Delta t\\)</p><div class=\"facit-matte\">\\[\\Delta t=\\frac IF=\\frac{8{,}0}{20}=0{,}40\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,40 s</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Impuls och medelkraft",
@@ -122692,7 +122692,7 @@ window.BANK = [
     "kap": 5,
     "omr": "rorelsemangd",
     "t": "<p>Ett föremål med massan 2,0 kg ökar sin hastighet med 3,0 m/s. Hur stor impuls har föremålet fått?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[I=2{,}0\\cdot 3{,}0=+6{,}0\\,\\mathrm{N\\,s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 Ns.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Impulslagen: \\(I=\\Delta p=m\\Delta v\\)</p><div class=\"facit-matte\">\\[I=2{,}0\\cdot3{,}0=6{,}0\\ \\mathrm{Ns}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 Ns</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Impuls och medelkraft",
@@ -122724,7 +122724,7 @@ window.BANK = [
     "omr": "rorelsemangd",
     "t": "<p>En vagn med massan 3,0 kg får impulsen 6,0 Ns bakåt. Hur mycket ändras vagnens hastighet?</p>",
     "kgInstruktion": "Framåt räknas som positiv riktning.",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\Delta v=\\frac{-6{,}0}{3{,}0}=-2{,}0\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> -2 m/s.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Framåt räknas som positiv riktning, så impulsen bakåt är negativ. Sökt: Δv.</p><div class=\"facit-matte\">\\[m=3{,}0\\ \\mathrm{kg},\\quad I=-6{,}0\\ \\mathrm{Ns}\\]</div></li><li><p class=\"facit-rubrik\">Impulslagen: \\(I=\\Delta p=m\\Delta v\\)</p><div class=\"facit-matte\">\\[\\Delta v=\\frac Im=\\frac{-6{,}0}{3{,}0}=-2{,}0\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2,0 m/s (hastigheten minskar med 2,0 m/s)</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Impuls och medelkraft",
@@ -127836,7 +127836,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vattenånga blir flytande vatten. Vad kallas förändringen?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När gas blir vätska kallas det kondensation.</p><p class=\"facit-svar\"><strong>Svar:</strong> Kondensation.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gas till vätska kallas kondensation</p><p>Vattenångan avger energi och blir flytande vatten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kondensation</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "formaga": [
       "begrepp"
@@ -127881,7 +127881,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Flytande vatten blir is. Vad kallas förändringen?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När flytande vatten blir is fryser det.</p><p class=\"facit-svar\"><strong>Svar:</strong> Frysning.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vätska till fast form kallas frysning (stelning)</p><p>Vattnet avger energi och blir is.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Frysning</p></div>",
     "familj": "Fasövergångar och värmekurvor",
     "formaga": [
       "begrepp"
@@ -150157,7 +150157,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En proton består av två uppkvarkar och en nedkvark. Visa att deras totala laddning blir +e.</p>",
-    "s": "<div class=\"facit-v2\"><p>Lägg ihop de två uppkvarkarnas och nedkvarkens laddningar.</p><p>\\[Q=(2/3+2/3-1/3)e=+e\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvarkarnas laddning: \\(u=+\\frac23e\\), \\(d=-\\frac13e\\); en antikvark har motsatt tecken</p><p>Protonen är uud.</p></li><li><p class=\"facit-rubrik\">Summera laddningarna</p><div class=\"facit-matte\">\\[Q=\\left(\\frac23+\\frac23-\\frac13\\right)e=\\frac33e=+e\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(Q=+e\\)</p></div>",
     "familj": "Elementarpartiklar och kvarkar",
     "formaga": [
       "begrepp",
@@ -158709,7 +158709,7 @@ window.BANK = [
     "poang": "1/0/0",
     "typ": "atomnummer efter alfasönderfall",
     "t": "<p>Polonium-210 har atomnumret 84 och sönderfaller med alfasönderfall. Vilket atomnummer får dotterkärnan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Z_{dotter}=84-2=82\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Atomnumret blir \\(82\\), alltså bly.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alfasönderfall: en \\({}^4_2\\mathrm{He}\\)-kärna lämnar, så \\(A\\) minskar med 4 och \\(Z\\) med 2</p><div class=\"facit-matte\">\\[Z_{\\text{dotter}}=84-2=82\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 82 (bly)</p></div>",
     "ledtrad": "<p>Subtrahera 2 från atomnumret.</p>",
     "svarstyp": "numeriskt",
     "rättSvar": 82,
@@ -158786,7 +158786,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/1/0)",
     "t": "<p>Uran-238 med atomnummer 92 blir bly-206 med atomnummer 82 genom en serie alfa- och beta-minus-sönderfall. Hur många sönderfall av varje sort sker?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[238-4n_\\alpha=206\\]</p><p>\\[n_\\alpha=8\\]</p><p>\\[92-2\\cdot8+n_{\\beta^-}=82\\]</p><p>\\[n_{\\beta^-}=6\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bara alfasönderfallen ändrar masstalet</p><div class=\"facit-matte\">\\[238-4n_\\alpha=206\\quad\\Rightarrow\\quad n_\\alpha=8\\]</div></li><li><p class=\"facit-rubrik\">Atomnumret: alfa minskar Z med 2, beta-minus ökar Z med 1</p><div class=\"facit-matte\">\\[92-2\\cdot8+n_{\\beta}=82\\quad\\Rightarrow\\quad n_{\\beta}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 alfasönderfall och 6 beta-minus-sönderfall</p></div>",
     "ledtrad": "<p>Använd först masstalen, sedan atomnumren.</p>",
     "formaga": [
       "procedur",
@@ -158823,7 +158823,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Uran-238 med atomnummer 92 blir bly-206 med atomnummer 82 genom alfa- och beta-minus-sönderfall. Hur många alfasönderfall och hur många beta-minus-sönderfall sker?",
-        "s": "<div class=\"facit-v2\"><p>\\[238-4n_\\alpha=206\\]</p><p>\\[n_\\alpha=8\\]</p><p>\\[92-2\\cdot8+n_{\\beta^-}=82\\]</p><p>\\[n_{\\beta^-}=6\\]</p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bara alfasönderfallen ändrar masstalet</p><div class=\"facit-matte\">\\[238-4n_\\alpha=206\\quad\\Rightarrow\\quad n_\\alpha=8\\]</div></li><li><p class=\"facit-rubrik\">Atomnumret: alfa minskar Z med 2, beta-minus ökar Z med 1</p><div class=\"facit-matte\">\\[92-2\\cdot8+n_{\\beta}=82\\quad\\Rightarrow\\quad n_{\\beta}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 alfasönderfall och 6 beta-minus-sönderfall</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": [
           8,
@@ -158876,7 +158876,7 @@ window.BANK = [
     "poang": "1/0/0",
     "typ": "atomnummer efter beta-minus",
     "t": "<p>Jod-131 har atomnumret 53 och beta-minus-sönderfaller. Vilket atomnummer får dotterkärnan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Z_{dotter}=53+1=54\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Atomnumret blir \\(54\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beta-minus: en neutron blir en proton, så \\(Z\\) ökar med 1 och \\(A\\) är oförändrat</p><div class=\"facit-matte\">\\[Z_{\\text{dotter}}=53+1=54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 54</p></div>",
     "ledtrad": "<p>Vid beta-minus ökar Z med 1.</p>",
     "svarstyp": "numeriskt",
     "rättSvar": 54,
@@ -158985,7 +158985,7 @@ window.BANK = [
     "poang": "1/0/0",
     "typ": "atomnummer efter beta-plus",
     "t": "<p>Natrium-22 har atomnumret 11 och beta-plus-sönderfaller. Vilket atomnummer får dotterkärnan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Z_{dotter}=11-1=10\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Atomnumret blir \\(10\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beta-plus: en proton blir en neutron, så \\(Z\\) minskar med 1 och \\(A\\) är oförändrat</p><div class=\"facit-matte\">\\[Z_{\\text{dotter}}=11-1=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "ledtrad": "<p>Vid beta-plus minskar Z med 1.</p>",
     "svarstyp": "numeriskt",
     "rättSvar": 10,
@@ -159185,7 +159185,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Kol har atomnumret 6. Hur många protoner har en kolkärna?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Atomnumret är antalet protoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Z=6\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 protoner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Atomnumret är antalet protoner</p><div class=\"facit-matte\">\\[Z=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 protoner</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "familjNyckel": "nuklider__nuklider_och_isotoper",
     "formaga": [
@@ -159215,7 +159215,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Vilket masstal har \\(^{14}_{6}\\mathrm C\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det övre talet i nuklidnotationen är masstalet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=14\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 14.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nuklidbeteckning \\({}^A_Z\\mathrm X\\): masstalet är \\(A=Z+N\\)</p><p>Det övre talet är masstalet.</p><div class=\"facit-matte\">\\[A=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "familjNyckel": "nuklider__nuklider_och_isotoper",
     "formaga": [
@@ -159245,7 +159245,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Syre-18 har 8 protoner. Hur många neutroner har kärnan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet 18 är summan av protoner och neutroner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=18-8=10\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 10 neutroner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal neutroner: \\(N=A-Z\\)</p><div class=\"facit-matte\">\\[N=18-8=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 neutroner</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "familjNyckel": "nuklider__nuklider_och_isotoper",
     "formaga": [
@@ -159276,7 +159276,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vilken del av en atom innehåller protoner och neutroner?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Protoner och neutroner finns i atomkärnan.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Protoner och neutroner bildar atomkärnan</p><p>Elektronerna finns i skalen runt kärnan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Atomkärnan.</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
     "familjNyckel": "nuklider__nuklider_och_isotoper",
     "formaga": [
@@ -160290,7 +160290,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En kärna med masstalet 210 alfasönderfaller. Vilket masstal får dotterkärnan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En alfapartikel har masstalet 4.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A_{dotter}=210-4=206\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 206.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alfasönderfall: en \\({}^4_2\\mathrm{He}\\)-kärna lämnar, så \\(A\\) minskar med 4 och \\(Z\\) med 2</p><div class=\"facit-matte\">\\[A_{\\text{dotter}}=210-4=206\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 206</p></div>",
     "familj": "Alfasönderfall",
     "familjNyckel": "karnreaktioner__radioaktiva_sonderfall_och_karnreaktioner",
     "formaga": [
@@ -160404,7 +160404,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vilken beskrivning passar bäst på fission?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid fission delas en tung kärna i mindre kärnor och energi frigörs.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fission betyder klyvning</p><p>En tung kärna delas i två mindre kärnor och några neutroner, och energi frigörs. Två lätta kärnor som slås ihop är fusion.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En tung kärna delas i mindre kärnor.</p></div>",
     "familj": "Fission och energiutvinning",
     "familjNyckel": "karnreaktioner__radioaktiva_sonderfall_och_karnreaktioner",
     "formaga": [
@@ -161399,7 +161399,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vilken enhet används för radioaktiv aktivitet?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Aktivitet mäts i becquerel, Bq.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Aktivitet är antalet sönderfall per sekund</p><p>Enheten är becquerel: 1 Bq = 1 sönderfall per sekund.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> becquerel (Bq)</p></div>",
     "familj": "Aktivitet och antal kärnor",
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "formaga": [
@@ -161449,7 +161449,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett preparat har aktiviteten 30 Bq. Hur många sönderfall sker i genomsnitt på 2 sekunder?</p>",
-    "s": "<div class=\"facit-v2\"><p>Aktiviteten anger 30 sönderfall per sekund i genomsnitt.</p><p>\\[N=A t=30\\cdot2=60\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Aktivitet = sönderfall per sekund: \\(N=A\\cdot t\\)</p><div class=\"facit-matte\">\\[N=30\\cdot2=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 sönderfall</p></div>",
     "familj": "Aktivitet och antal kärnor",
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "formaga": [
@@ -161479,7 +161479,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Halveringstiden är 8 minuter. Hur lång tid tar två halveringstider?</p>",
-    "s": "<div class=\"facit-v2\"><p>Följ hur aktiviteten eller antalet kärnor halveras.</p><p>\\[t=2\\cdot8=16\\ \\mathrm{min}\\]</p><p></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje halveringstid är lika lång</p><div class=\"facit-matte\">\\[t=2\\cdot8=16\\ \\mathrm{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 min</p></div>",
     "familj": "Halveringstid i hela steg",
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "formaga": [
@@ -161509,7 +161509,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Aktiviteten är från början \\(1000\\,\\mathrm{Bq}\\). Vad är aktiviteten efter tre halveringstider?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halvera tre gånger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\frac{1000}{2^3}=125\\ \\mathrm{Bq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(125\\ \\mathrm{Bq}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sönderfallslagen: \\(A=A_0\\cdot\\left(\\frac12\\right)^{t/T_{1/2}}\\)</p><div class=\"facit-matte\">\\[A=1\\,000\\cdot\\left(\\frac12\\right)^3=\\frac{1\\,000}{8}=125\\ \\mathrm{Bq}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 125 Bq</p></div>",
     "familj": "Halveringstid i hela steg",
     "familjNyckel": "aktivitet__radioaktivt_sonderfall_aktivitet_och_halveringstid",
     "formaga": [
@@ -162199,7 +162199,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett radium-226-prov innehåller 2,65·10¹⁸ radioaktiva kärnor. Sönderfallskonstanten är 1,38·10⁻¹¹ s⁻¹. Bestäm aktiviteten.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[A=1{,}38\\cdot10^{-11}\\cdot2{,}65\\cdot10^{18}\\]</p><p>\\[A\\approx36600000\\ \\mathrm{Bq}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Aktivitet: \\(A=\\lambda N\\)</p><div class=\"facit-matte\">\\[A=1{,}38\\cdot10^{-11}\\cdot2{,}65\\cdot10^{18}\\approx3{,}66\\cdot10^{7}\\ \\mathrm{Bq}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}66\\cdot10^{7}\\) Bq</p></div>",
     "id": "9.343",
     "miniräknare": true,
     "geogebra": false,
@@ -163497,7 +163497,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vilket strålslag stoppas lättast av ett tunt papper?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfastrålning har mycket kort räckvidd i materia och stoppas av papper.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alfapartiklar har mycket kort räckvidd i materia</p><p>De är tunga och laddade och stoppas redan av ett papper.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alfastrålning.</p></div>",
     "familj": "Joniserande strålning och genomträngning",
     "familjNyckel": "stralning__joniserande_stralning_och_stralskydd",
     "formaga": [
@@ -163549,7 +163549,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vilket av alfa, beta och gamma är normalt mest genomträngande?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammastrålning är normalt mest genomträngande av de tre.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gammastrålning är oladdad och växelverkar minst med materia</p><p>Alfa stoppas av papper och beta av några millimeter metall, men gamma kräver tjock bly eller betong.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gamma.</p></div>",
     "familj": "Joniserande strålning och genomträngning",
     "familjNyckel": "stralning__joniserande_stralning_och_stralskydd",
     "formaga": [
@@ -163601,7 +163601,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vilken åtgärd minskar normalt dosen från en liten extern strålkälla?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Större avstånd minskar normalt dosraten från en liten källa.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dosen från en liten källa minskar snabbt med avståndet</p><p>Avstånd, kort tid och skärmning minskar dosen. Att öka avståndet är det alternativ som hjälper.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Öka avståndet till källan.</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "familjNyckel": "stralning__joniserande_stralning_och_stralskydd",
     "formaga": [
@@ -163652,7 +163652,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Dosen per timme är 15 µSv. Hur stor dos får en person på 2 timmar?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[H=15\\cdot2\\]</p><p>\\[H\\approx30\\ \\mathrm{\\mu Sv}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dos = dos per timme gånger tiden: \\(H=\\dot H\\cdot t\\)</p><div class=\"facit-matte\">\\[H=15\\cdot2=30\\ \\mathrm{\\mu Sv}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 µSv</p></div>",
     "familj": "Dosrat, avstånd och strålskydd",
     "familjNyckel": "stralning__joniserande_stralning_och_stralskydd",
     "formaga": [
@@ -165509,7 +165509,7 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "t": "<p>Ett föremål tränger undan 0,0040 m³ vatten med densiteten 1000 kg/m³.</p><p>Bestäm massan av det undanträngda vattnet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m_{\\mathrm{v}}=1000\\cdot 0{,}0040=4{,}0\\, \\mathrm{kg}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4 kg.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m=1\\,000\\cdot0{,}0040=4{,}0\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,0 kg</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Lyftkraft och undanträngd volym",
@@ -165540,7 +165540,7 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "t": "<p>Ett föremål hänger stilla i en kraftmätare. I luft visar den 8,0 N och helt under vatten 5,5 N.</p><div class=\"fig smal\"><svg width=\"460\" height=\"320\" viewBox=\"0 0 460 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett föremål vägs med kraftmätare i luft och nedsänkt i vatten\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"40\" y1=\"18\" x2=\"420\" y2=\"18\" stroke=\"#24262b\" stroke-width=\"3\"/><line x1=\"40\" y1=\"18\" x2=\"48\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"52\" y1=\"18\" x2=\"60\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"64\" y1=\"18\" x2=\"72\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"76\" y1=\"18\" x2=\"84\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"88\" y1=\"18\" x2=\"96\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"100\" y1=\"18\" x2=\"108\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"112\" y1=\"18\" x2=\"120\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"18\" x2=\"132\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"136\" y1=\"18\" x2=\"144\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"148\" y1=\"18\" x2=\"156\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"160\" y1=\"18\" x2=\"168\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"172\" y1=\"18\" x2=\"180\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"184\" y1=\"18\" x2=\"192\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"196\" y1=\"18\" x2=\"204\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"208\" y1=\"18\" x2=\"216\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"220\" y1=\"18\" x2=\"228\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"232\" y1=\"18\" x2=\"240\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"244\" y1=\"18\" x2=\"252\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"256\" y1=\"18\" x2=\"264\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"268\" y1=\"18\" x2=\"276\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"280\" y1=\"18\" x2=\"288\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"292\" y1=\"18\" x2=\"300\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"304\" y1=\"18\" x2=\"312\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"316\" y1=\"18\" x2=\"324\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"328\" y1=\"18\" x2=\"336\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"340\" y1=\"18\" x2=\"348\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"352\" y1=\"18\" x2=\"360\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"364\" y1=\"18\" x2=\"372\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"376\" y1=\"18\" x2=\"384\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"388\" y1=\"18\" x2=\"396\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"400\" y1=\"18\" x2=\"408\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"412\" y1=\"18\" x2=\"420\" y2=\"10\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"18\" x2=\"120\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"106\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"124\" y1=\"48.7\" x2=\"132\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"65.3\" x2=\"132\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"82.0\" x2=\"132\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"98.7\" x2=\"132\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"124\" y1=\"115.3\" x2=\"132\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"120\" y1=\"132\" x2=\"120\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"168\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">8,0 N</text><rect x=\"100\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"120\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">i luft</text><line x1=\"320\" y1=\"18\" x2=\"320\" y2=\"32\" stroke=\"#24262b\" stroke-width=\"2\"/><rect x=\"306\" y=\"32\" width=\"28\" height=\"100\" rx=\"5\" fill=\"#f3f4f6\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"324\" y1=\"48.7\" x2=\"332\" y2=\"48.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"65.3\" x2=\"332\" y2=\"65.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"82.0\" x2=\"332\" y2=\"82.0\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"98.7\" x2=\"332\" y2=\"98.7\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"324\" y1=\"115.3\" x2=\"332\" y2=\"115.3\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"320\" y1=\"132\" x2=\"320\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"368\" y=\"89\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">5,5 N</text><rect x=\"260\" y=\"140\" width=\"120\" height=\"130\" fill=\"#cfe8f7\"/><line x1=\"260\" y1=\"140\" x2=\"380\" y2=\"140\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M260 120 L260 270 L380 270 L380 120\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><rect x=\"300\" y=\"150\" width=\"40\" height=\"40\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><text x=\"320\" y=\"296\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">helt nedsänkt i vatten</text></svg></div><p>Bestäm vattnets lyftkraft.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Lyftkraften avlastar kraftmätaren: F<sub>L</sub> = 8,0−5,5 = 2,5 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lyftkraften avlastar kraftmätaren</p><p>Under vatten visar mätaren tyngden minus lyftkraften.</p></li><li><p class=\"facit-rubrik\">Lyftkraften är skillnaden mellan mätarens utslag: \\(F_L=F_{\\text{luft}}-F_{\\text{vatten}}\\)</p><div class=\"facit-matte\">\\[F_L=8{,}0-5{,}5=2{,}5\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 N</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Vägning i vätska",
@@ -165860,7 +165860,7 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "t": "<p>En ideal gas har trycket 100 kPa, volymen 10,0 liter och temperaturen 300 K.</p><p>Bestäm substansmängden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>n=100 000·0,0100/(8,31·300)≈0,40112 mol.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,401 mol.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Sökt: substansmängden n.</p><div class=\"facit-matte\">\\[p=100\\ \\mathrm{kPa}=100\\,000\\ \\mathrm{Pa},\\quad V=10{,}0\\ \\text{liter}=0{,}0100\\ \\mathrm{m^3},\\quad T=300\\ \\mathrm K\\]</div></li><li><p class=\"facit-rubrik\">Allmänna gaslagen: \\(pV=nRT\\)</p><div class=\"facit-matte\">\\[n=\\frac{pV}{RT}=\\frac{100\\,000\\cdot0{,}0100}{8{,}31\\cdot300}\\approx0{,}401\\ \\mathrm{mol}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,401 mol</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Ideala gaslagen och gasmängd",
@@ -165891,7 +165891,7 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "t": "<p>Omvandla 2,50 bar till kPa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\">\\[2{,}50\\,\\mathrm{bar}=2{,}50\\cdot100=250\\,\\mathrm{kPa}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\,\\mathrm{kPa}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(1\\ \\mathrm{bar}=100\\ \\mathrm{kPa}\\)</p><div class=\"facit-matte\">\\[2{,}50\\ \\mathrm{bar}=2{,}50\\cdot100\\ \\mathrm{kPa}=250\\ \\mathrm{kPa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 250 kPa</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Kelvin, tryck- och volymenheter",
@@ -165953,7 +165953,7 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "t": "<p>En tryckmätare visar övertrycket 220 kPa. Lufttrycket utanför är 100 kPa. Absoluttrycket är övertrycket plus lufttrycket.</p><p>Bestäm det absoluta trycket.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\">\\[p_{\\mathrm{abs}}=220+100=320\\,\\mathrm{kPa}.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(320\\,\\mathrm{kPa}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Absoluttryck: \\(p_{\\text{abs}}=p_{\\text{över}}+p_{\\text{luft}}\\)</p><div class=\"facit-matte\">\\[p_{\\text{abs}}=220+100=320\\ \\mathrm{kPa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 320 kPa</p></div>",
     "niva": "E",
     "traningsniva": 1,
     "familj": "Kelvin, tryck- och volymenheter",
@@ -166046,7 +166046,7 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "t": "<p>Två styva behållare innehåller samma idealgas vid samma temperatur. Behållare A har volymen 2,00 liter och trycket 200 kPa. Behållare B har volymen 3,00 liter och trycket 100 kPa. Behållarna är lufttäta. Alla tryck är absoluta. Bortse från volymen i röret mellan behållarna. De kopplas ihop och temperaturen blir åter densamma som från början.</p><p>Bestäm sluttrycket.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>p<sub>slut</sub>=(200·2,00+100·3,00)/(2,00+3,00)=700/5,00=140 kPa.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 140 kPa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma temperatur: varje gas uppfyller \\(pV=\\text{konstant}\\)</p><p>Gasen i A breder ut sig över båda behållarna, och likaså gasen i B. Sluttrycket är summan av deras tryck.</p></li><li><p class=\"facit-rubrik\">Summan av \\(pV\\) bevaras: \\(p_AV_A+p_BV_B=p(V_A+V_B)\\)</p><div class=\"facit-matte\">\\[p=\\frac{200\\cdot2{,}00+100\\cdot3{,}00}{2{,}00+3{,}00}=\\frac{700}{5{,}00}=140\\ \\mathrm{kPa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 140 kPa</p></div>",
     "niva": "E",
     "traningsniva": 2,
     "familj": "Boyles lag",
@@ -166142,7 +166142,7 @@ window.BANK = [
     "typ": "tryck från kraft och area",
     "poang": "(1/0/0)",
     "t": "<p>En låda trycker mot golvet med kraften 600 N. Kontaktytan är 0,30 m².</p><p>Bestäm trycket mot golvet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tryck är kraft per area.</p>\\[p=600/0{,}30=2000\\ \\mathrm{Pa}\\].<p class=\"facit-svar\"><strong>Svar:</strong> 2000 Pa.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryck: \\(p=\\frac FA\\)</p><div class=\"facit-matte\">\\[p=\\frac{600}{0{,}30}=2\\,000\\ \\mathrm{Pa}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 000 Pa</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
       "procedur"
@@ -166172,7 +166172,7 @@ window.BANK = [
     "typ": "kraft från tryck och area",
     "poang": "(1/0/0)",
     "t": "<p>Ett tryck på 3,0 kPa verkar över arean 0,20 m².</p><p>Bestäm kraften.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>3,0 kPa = 3000 Pa.</p>\\[F=pA=3000\\cdot0{,}20=600\\ \\mathrm N\\].<p class=\"facit-svar\"><strong>Svar:</strong> 600 N.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Sökt: kraften F.</p><div class=\"facit-matte\">\\[p=3{,}0\\ \\mathrm{kPa}=3\\,000\\ \\mathrm{Pa},\\quad A=0{,}20\\ \\mathrm{m^2}\\]</div></li><li><p class=\"facit-rubrik\">Tryck: \\(p=\\frac FA\\)</p><div class=\"facit-matte\">\\[F=pA=3\\,000\\cdot0{,}20=600\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 600 N</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
       "procedur"
@@ -166202,7 +166202,7 @@ window.BANK = [
     "typ": "area från tryck och kraft",
     "poang": "(1/0/0)",
     "t": "<p>En kraft på 500 N ger trycket 2500 Pa mot en yta.</p><p>Bestäm ytans area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\">\\[A=F/p=500/2500=0{,}20\\ \\mathrm{m^2}\\].<p class=\"facit-svar\"><strong>Svar:</strong> 0,20 m².</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tryck: \\(p=\\frac FA\\)</p><div class=\"facit-matte\">\\[A=\\frac Fp=\\frac{500}{2\\,500}=0{,}20\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,20 m²</p></div>",
     "familj": "Tryck p = F/A",
     "formaga": [
       "procedur"
@@ -169232,7 +169232,7 @@ window.BANK = [
     "typ": "resultant av lyftkraft och tyngdkraft",
     "poang": "(1/0/0)",
     "t": "<p>På en nedsänkt kropp verkar lyftkraften 18 N uppåt och tyngdkraften 25 N nedåt. Inga andra krafter verkar.</p><div class=\"fig smal\"><svg width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kropp under vattenytan med kraftpilar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"60\" y=\"60\" width=\"300\" height=\"230\" fill=\"#cfe8f7\"/><line x1=\"60\" y1=\"60\" x2=\"360\" y2=\"60\" stroke=\"#5aa5d6\" stroke-width=\"2\"/><path d=\"M60 20 L60 290 L360 290 L360 20\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"170\" r=\"32\" fill=\"#e8c99a\" stroke=\"#24262b\" stroke-width=\"2\"/><line x1=\"200.0\" y1=\"138.0\" x2=\"200.0\" y2=\"93.0\" stroke=\"#2b6cb0\" stroke-width=\"3\"/>\n<path d=\"M200.0 82.0 L206.0 93.0 L194.0 93.0 Z\" fill=\"#2b6cb0\"/>\n<text x=\"148\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">Fₗ = 18 N</text><line x1=\"220.0\" y1=\"202.0\" x2=\"220.0\" y2=\"269.0\" stroke=\"#c0392b\" stroke-width=\"3\"/>\n<path d=\"M220.0 280.0 L214.0 269.0 L226.0 269.0 Z\" fill=\"#c0392b\"/>\n<text x=\"272\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"15\">mg = 25 N</text></svg></div><p>Hur stor är den resulterande kraften? Ange också om den är riktad uppåt eller nedåt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Krafterna verkar åt motsatta håll.</p></div><div class=\"facit-stycke\"><p>Skillnaden är \\(25-18=7\\ \\mathrm N\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 7 N nedåt.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Krafterna är motriktade</p><p>Den resulterande kraften är skillnaden och pekar åt samma håll som den större kraften.</p></li><li><p class=\"facit-rubrik\">Resultant: \\(F_R=F_g-F_L\\)</p><div class=\"facit-matte\">\\[F_R=25-18=7\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 N nedåt</p></div>",
     "familj": "Lyftkraft och kraftjämvikt",
     "formaga": [
       "begrepp",
@@ -184126,7 +184126,7 @@ window.BANK = [
     "typ": "koppla amperemeter",
     "poang": "(1/0/0)",
     "t": "<p>Du vill mäta strömmen genom lampan. Vilket kopplingsschema visar rätt inkoppling av mätaren?</p><p><strong>A</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><circle cx=\"170\" cy=\"60\" r=\"25\"/><path d=\"M153 43L187 77\"/><path d=\"M153 77L187 43\"/><path d=\"M280 60V105\"/><path d=\"M280 145V190\"/><circle cx=\"280\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"280\" y=\"131\">A</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span><p><strong>B</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><circle cx=\"170\" cy=\"60\" r=\"25\"/><path d=\"M153 43L187 77\"/><path d=\"M153 77L187 43\"/><path d=\"M280 60V190\"/><path d=\"M120 60V125H150\"/><path d=\"M190 125H220V60\"/><circle cx=\"120\" cy=\"60\" r=\"3\" fill=\"#172033\"/><circle cx=\"220\" cy=\"60\" r=\"3\" fill=\"#172033\"/><circle cx=\"170\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"170\" y=\"131\">A</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span><p><strong>C</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><circle cx=\"170\" cy=\"60\" r=\"25\"/><path d=\"M153 43L187 77\"/><path d=\"M153 77L187 43\"/><path d=\"M280 60V190\"/><path d=\"M120 60V125H150\"/><path d=\"M190 125H220\"/><circle cx=\"220\" cy=\"125\" r=\"3\"/><circle cx=\"170\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"170\" y=\"131\">A</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Amperemetern kopplas i serie. Då går samma ström genom mätaren och lampan.</p><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En amperemeter kopplas i serie med lampan</p><p>Då går samma ström genom mätaren och lampan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div>",
     "familj": "Kretsar och mätinstrument",
     "formaga": [
       "begrepp"
@@ -184767,7 +184767,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En proton består av två uppkvarkar och en nedkvark. Bestäm protonens laddning.</p>",
-    "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=2/3+2/3-1/3=1\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvarkarnas laddning: \\(u=+\\frac23e\\), \\(d=-\\frac13e\\); en antikvark har motsatt tecken</p><div class=\"facit-matte\">\\[\\frac Qe=\\frac23+\\frac23-\\frac13=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +1 e</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur"
@@ -184793,7 +184793,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En neutron består av en uppkvark och två nedkvarkar. Bestäm neutronens laddning.</p>",
-    "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=2/3-1/3-1/3=0\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvarkarnas laddning: \\(u=+\\frac23e\\), \\(d=-\\frac13e\\); en antikvark har motsatt tecken</p><div class=\"facit-matte\">\\[\\frac Qe=\\frac23-\\frac13-\\frac13=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur"
@@ -184819,7 +184819,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En partikel består av tre uppkvarkar. Bestäm partikelns laddning.</p>",
-    "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=3\\cdot2/3=2\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvarkarnas laddning: \\(u=+\\frac23e\\), \\(d=-\\frac13e\\); en antikvark har motsatt tecken</p><div class=\"facit-matte\">\\[\\frac Qe=3\\cdot\\frac23=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +2 e</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur"
@@ -184845,7 +184845,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En antiproton består av två anti-uppkvarkar och en anti-nedkvark. Bestäm antiprotonens laddning.</p>",
-    "s": "<div class=\"facit-v2\"><p>Byt först tecken för antikvarkarna och summera sedan.</p><p>\\[Q/e=-2/3-2/3+1/3=-1\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvarkarnas laddning: \\(u=+\\frac23e\\), \\(d=-\\frac13e\\); en antikvark har motsatt tecken</p><div class=\"facit-matte\">\\[\\frac Qe=-\\frac23-\\frac23+\\frac13=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1 e</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur"
@@ -184871,7 +184871,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>En positiv pion består av en uppkvark och en anti-nedkvark. Bestäm pionens laddning.</p>",
-    "s": "<div class=\"facit-v2\"><p>Byt först tecken för antikvarkarna och summera sedan.</p><p>\\[Q/e=2/3+1/3=1\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvarkarnas laddning: \\(u=+\\frac23e\\), \\(d=-\\frac13e\\); en antikvark har motsatt tecken</p><p>Anti-nedkvarken har laddningen +⅓ e.</p><div class=\"facit-matte\">\\[\\frac Qe=\\frac23+\\frac13=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> +1 e</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur"
@@ -185086,7 +185086,7 @@ window.BANK = [
     "typ": "kvarkar i en baryon",
     "poang": "(1/0/0)",
     "t": "<p>Protoner och neutroner kallas baryoner.</p><p>Hur många kvarkar består en baryon av?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En baryon består av tre kvarkar.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Protonen är till exempel uppbyggd av uud.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En baryon består av tre kvarkar</p><div class=\"facit-matte\">\\[\\text{proton}=uud,\\quad\\text{neutron}=udd\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
     "familj": "Elementarpartiklar och kvarkar",
     "formaga": [
       "procedur"
@@ -185389,7 +185389,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>I standardmodellen förmedlas krafter av partiklar.</p><p>Vilken partikel förmedlar den elektromagnetiska kraften?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektromagnetiska kraften förmedlas av fotoner.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Ljus är också fotoner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fotonen.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje kraft har en förmedlande partikel</p><p>Den elektromagnetiska kraften förmedlas av fotonen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Fotonen</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
       "begrepp"
@@ -185578,7 +185578,7 @@ window.BANK = [
     "poang": "(1/0/0)",
     "t": "<p>Vilka partiklar förmedlar den svaga kraften?</p>",
     "visaAlternativ": true,
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den svaga kraften förmedlas av W⁺-, W⁻- och Z⁰-bosonerna.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> W- och Z-bosonerna.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje kraft har en förmedlande partikel</p><p>Den svaga kraften förmedlas av W⁺-, W⁻- och Z⁰-bosonerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> W- och Z-bosonerna</p></div>",
     "familj": "De fyra fundamentala krafterna",
     "formaga": [
       "begrepp"
@@ -185867,7 +185867,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>För en viss strålning är halveringstjockleken 1 cm. Skärmen är 3 cm tjock. Hur många procent av strålningen passerar?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[n=3/1=3\\]</p><p>\\[p=100\\cdot2^{-3}=12{,}5\\ \\%\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halveringstjocklek: andelen som passerar är \\(\\left(\\frac12\\right)^{n}\\), där \\(n=\\frac{x}{x_{1/2}}\\)</p><div class=\"facit-matte\">\\[n=\\frac{3}{1}=3\\]</div></li><li><p class=\"facit-rubrik\">Andelen som passerar</p><div class=\"facit-matte\">\\[\\left(\\frac12\\right)^3=0{,}125=12{,}5\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5 %</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
       "procedur"
@@ -185919,7 +185919,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>För en viss strålning är halveringstjockleken 0,5 mm. Skärmen är 2 mm tjock. Hur många procent av strålningen passerar?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[n=2/0{,}5=4\\]</p><p>\\[p=100\\cdot2^{-4}=6{,}25\\ \\%\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halveringstjocklek: andelen som passerar är \\(\\left(\\frac12\\right)^{n}\\), där \\(n=\\frac{x}{x_{1/2}}\\)</p><div class=\"facit-matte\">\\[n=\\frac{2}{0{,}5}=4\\]</div></li><li><p class=\"facit-rubrik\">Andelen som passerar</p><div class=\"facit-matte\">\\[\\left(\\frac12\\right)^4=0{,}0625=6{,}25\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,25 %</p></div>",
     "familj": "Skärmning och halveringstjocklek",
     "formaga": [
       "procedur"
@@ -186040,7 +186040,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Vid D–T-fusion minskar massan med 0,018883 u per reaktion. Hur mycket energi frigörs i MeV?</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[E=0{,}018883\\cdot931{,}5\\]</p><p>\\[E\\approx17{,}6\\ \\mathrm{MeV}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi ur massminskning: \\(E=\\Delta m\\cdot931{,}5\\ \\mathrm{MeV/u}\\)</p><div class=\"facit-matte\">\\[E=0{,}018883\\cdot931{,}5\\approx17{,}6\\ \\mathrm{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17,6 MeV</p></div>",
     "familj": "Fusion och energi",
     "formaga": [
       "procedur"
@@ -187369,7 +187369,7 @@ window.BANK = [
     "niva": "E",
     "poang": "(1/0/0)",
     "t": "<p>Ett wifi-nätverk använder frekvensen 2,4 GHz. Bestäm våglängden i cm.</p>",
-    "s": "<div class=\"facit-v2\"><p>\\[f=2{,}4\\cdot10^9\\ \\mathrm{Hz}\\]</p><p>\\[\\lambda=c/f=0{,}125\\ \\mathrm m=12{,}5\\ \\mathrm{cm}\\]</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Sökt: våglängden λ. Ljusfarten c finns i formelsamlingen.</p><div class=\"facit-matte\">\\[f=2{,}4\\ \\mathrm{GHz}=2{,}4\\cdot10^9\\ \\mathrm{Hz}\\]</div></li><li><p class=\"facit-rubrik\">Vågekvationen: \\(c=f\\lambda\\)</p><div class=\"facit-matte\">\\[\\lambda=\\frac cf=\\frac{3{,}00\\cdot10^8}{2{,}4\\cdot10^9}=0{,}125\\ \\mathrm m=12{,}5\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5 cm</p></div>",
     "familj": "Det elektromagnetiska spektrumet",
     "formaga": [
       "procedur"
@@ -187708,7 +187708,7 @@ window.BANK = [
     "typ": "masstal efter beta-minus",
     "poang": "(1/0/0)",
     "t": "<p>Jod-131 har masstalet 131 och sönderfaller med beta-minus-sönderfall.</p><p>Vilket masstal får dotterkärnan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet nukleoner ändras inte.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En neutron blir en proton.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 131.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beta-minus: en neutron blir en proton, så \\(Z\\) ökar med 1 och \\(A\\) är oförändrat</p><div class=\"facit-matte\">\\[A_{\\text{dotter}}=131\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 131</p></div>",
     "familj": "Beta-minus-sönderfall",
     "formaga": [
       "procedur"
@@ -187733,7 +187733,7 @@ window.BANK = [
     "typ": "neutronantal efter beta-minus",
     "poang": "(1/0/0)",
     "t": "<p>Fosfor-32 har atomnumret 15 och beta-minus-sönderfaller. Hur många neutroner har dotterkärnan?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dotterkärnan har masstalet 32 och atomnumret 16.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=A-Z=32-16=16\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 16 neutroner.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beta-minus: en neutron blir en proton, så \\(Z\\) ökar med 1 och \\(A\\) är oförändrat</p><div class=\"facit-matte\">\\[Z=15+1=16,\\quad A=32\\]</div></li><li><p class=\"facit-rubrik\">Antal neutroner: \\(N=A-Z\\)</p><div class=\"facit-matte\">\\[N=32-16=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 neutroner</p></div>",
     "familj": "Beta-minus-sönderfall",
     "formaga": [
       "procedur"
@@ -194638,7 +194638,7 @@ window.BANK = [
     "typ": "masstal i neutroninfångning",
     "poang": "(1/0/0)",
     "t": "<p>Bor används i kärnkraftverkens styrstavar eftersom borkärnor fångar neutroner: ¹⁰₅B + ¹₀n → ⁷₃Li + X.</p><p>Vilket masstal har partikeln X?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet bevaras.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[10+1=7+A\\Rightarrow A=4\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4. X är en alfapartikel, ⁴₂He.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Masstalet och atomnumret bevaras i en kärnreaktion</p><div class=\"facit-matte\">\\[10+1=7+A\\quad\\Rightarrow\\quad A=4\\]</div></li><li><p class=\"facit-rubrik\">Atomnumret ger vilken partikel det är</p><div class=\"facit-matte\">\\[5+0=3+Z\\quad\\Rightarrow\\quad Z=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 (X är en alfapartikel, \\({}^4_2\\mathrm{He}\\))</p></div>",
     "familj": "Reaktionsformler och bevarandelagar",
     "formaga": [
       "procedur"
@@ -200171,7 +200171,7 @@ window.BANK = [
   "poang": "(1/0/0)",
   "t": "<p>Sladdarna sitter rätt för spänningsmätning. Du ska mäta spänningen över ett 4,5 V-batteri. Vart ska vredet peka?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 520\" role=\"img\" aria-label=\"Multimeter med display, knapparna HOLD, RANGE, REL, Hz% och SELECT, ett vred med lägena OFF, V, Ω, diod, kapacitans, Hz, 4000 µA, 400 mA, 10 A och OFF samt uttagen 10A, COM och µA mA V Ω Hz. Vredet står på OFF. En sladd sitter i COM och en i µA mA V Ω Hz.\" style=\"width:100%;max-width:240px\"><rect x=\"8\" y=\"6\" width=\"304\" height=\"428\" rx=\"34\" fill=\"#f2b705\"/><rect x=\"24\" y=\"22\" width=\"272\" height=\"396\" rx=\"22\" fill=\"#2b2e34\"/><rect x=\"52\" y=\"38\" width=\"216\" height=\"66\" rx=\"8\" fill=\"#c7d1bd\" stroke=\"#11151a\" stroke-width=\"3\"/><text x=\"64\" y=\"124\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10\" fill=\"#f4f4f4\">HOLD</text><rect x=\"49\" y=\"130\" width=\"30\" height=\"16\" rx=\"3\" fill=\"#a9adb4\"/><text x=\"112\" y=\"124\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10\" fill=\"#f4f4f4\">RANGE</text><rect x=\"97\" y=\"130\" width=\"30\" height=\"16\" rx=\"3\" fill=\"#a9adb4\"/><text x=\"160\" y=\"124\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10\" fill=\"#f4f4f4\">REL</text><rect x=\"145\" y=\"130\" width=\"30\" height=\"16\" rx=\"3\" fill=\"#a9adb4\"/><text x=\"208\" y=\"124\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10\" fill=\"#f4f4f4\">Hz%</text><rect x=\"193\" y=\"130\" width=\"30\" height=\"16\" rx=\"3\" fill=\"#a9adb4\"/><text x=\"256\" y=\"124\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10\" fill=\"#7fb6ff\">SELECT</text><rect x=\"241\" y=\"130\" width=\"30\" height=\"16\" rx=\"3\" fill=\"#8fb8ef\"/><g font-family=\"Arial,sans-serif\" fill=\"#f4f4f4\"><circle cx=\"103.6\" cy=\"272.5\" r=\"2.6\" fill=\"#f4f4f4\"/><text x=\"84.8\" y=\"284.4\" text-anchor=\"end\" font-size=\"13\" font-weight=\"bold\">OFF</text><circle cx=\"102.6\" cy=\"234.5\" r=\"2.6\" fill=\"#f4f4f4\"/><text x=\"83.5\" y=\"233.6\" text-anchor=\"end\" font-size=\"15\" font-weight=\"bold\">V</text><circle cx=\"119.9\" cy=\"207.4\" r=\"2.6\" fill=\"#f4f4f4\"/><text x=\"106.5\" y=\"197.5\" text-anchor=\"end\" font-size=\"15\" font-weight=\"bold\">Ω</text><circle cx=\"139.5\" cy=\"195.6\" r=\"2.6\" fill=\"#f4f4f4\"/><text x=\"132.6\" y=\"179.8\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\">→|</text><circle cx=\"160.0\" cy=\"192.0\" r=\"2.6\" fill=\"#f4f4f4\"/><text x=\"160.0\" y=\"175.0\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\">⊣⊢</text><circle cx=\"180.5\" cy=\"195.6\" r=\"2.6\" fill=\"#f4f4f4\"/><text x=\"187.4\" y=\"179.8\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\">Hz</text><circle cx=\"201.7\" cy=\"208.8\" r=\"2.6\" fill=\"#f4f4f4\"/><text x=\"215.6\" y=\"199.5\" text-anchor=\"start\" font-size=\"13\" font-weight=\"bold\">4000 µA</text><circle cx=\"216.4\" cy=\"231.5\" r=\"2.6\" fill=\"#f4f4f4\"/><text x=\"235.2\" y=\"229.6\" text-anchor=\"start\" font-size=\"13\" font-weight=\"bold\">400 mA</text><circle cx=\"219.7\" cy=\"258.3\" r=\"2.6\" fill=\"#f4f4f4\"/><text x=\"239.6\" y=\"265.4\" text-anchor=\"start\" font-size=\"13\" font-weight=\"bold\">10 A</text><circle cx=\"212.0\" cy=\"282.0\" r=\"2.6\" fill=\"#f4f4f4\"/><text x=\"229.3\" y=\"297.0\" text-anchor=\"start\" font-size=\"13\" font-weight=\"bold\">OFF</text></g><circle cx=\"160\" cy=\"252\" r=\"50\" fill=\"#16181c\" stroke=\"#555b65\" stroke-width=\"3\"/><line x1=\"175.0\" y1=\"246.5\" x2=\"118.7\" y2=\"267.0\" stroke=\"#d9dde3\" stroke-width=\"12\" stroke-linecap=\"round\"/><polygon points=\"107.4,271.2 129.8,271.6 124.3,256.4\" fill=\"#f2b705\"/><g font-family=\"Arial,sans-serif\" font-weight=\"bold\" fill=\"#f4f4f4\" text-anchor=\"middle\"><text x=\"80\" y=\"366\" font-size=\"15\">10A</text><text x=\"160\" y=\"366\" font-size=\"15\">COM</text><text x=\"240\" y=\"350\" font-size=\"13\">µA mA</text><text x=\"240\" y=\"366\" font-size=\"13\">V Ω Hz</text></g><circle cx=\"80\" cy=\"392\" r=\"15\" fill=\"#0d0e10\" stroke=\"#d6463c\" stroke-width=\"3\"/><circle cx=\"80\" cy=\"392\" r=\"5\" fill=\"#55595f\"/><circle cx=\"160\" cy=\"392\" r=\"15\" fill=\"#0d0e10\" stroke=\"#c9c9c9\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"392\" r=\"5\" fill=\"#55595f\"/><circle cx=\"240\" cy=\"392\" r=\"15\" fill=\"#0d0e10\" stroke=\"#d6463c\" stroke-width=\"3\"/><circle cx=\"240\" cy=\"392\" r=\"5\" fill=\"#55595f\"/><circle cx=\"160\" cy=\"392\" r=\"13\" fill=\"#1a1a1a\" stroke=\"#777\" stroke-width=\"1.5\"/><path d=\"M160 400 C 160 462, 124 432, 124 498\" fill=\"none\" stroke=\"#1a1a1a\" stroke-width=\"9\" stroke-linecap=\"round\"/><rect x=\"117\" y=\"494\" width=\"14\" height=\"22\" rx=\"3\" fill=\"#1a1a1a\" stroke=\"#777\"/><circle cx=\"240\" cy=\"392\" r=\"13\" fill=\"#c8372d\" stroke=\"#777\" stroke-width=\"1.5\"/><path d=\"M240 400 C 240 462, 276 432, 276 498\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"9\" stroke-linecap=\"round\"/><rect x=\"269\" y=\"494\" width=\"14\" height=\"22\" rx=\"3\" fill=\"#c8372d\" stroke=\"#777\"/></svg></span>",
   "visaAlternativ": true,
-  "s": "<div class=\"facit-v2\"><p>Spänning mäts i läget V. Sladdarna sitter redan i rätt uttag.</p><p class=\"facit-svar\"><strong>Svar:</strong> V.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Spänning mäts i läget V</p><p>Sladdarna sitter redan i rätt uttag, så bara vredet behöver ställas om.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> V</p></div>",
   "familj": "Välja funktion och mätområde",
   "familjNyckel": "multimeter__valja_matomrade",
   "formaga": [
@@ -201234,7 +201234,7 @@ window.BANK = [
   "poang": "(1/0/0)",
   "t": "<p>Du ska mäta spänningen över ett 1,5 V-batteri. Sladdarna sitter som i bilden. Vilket läge ska vredet stå i?</p><span class=\"fig\"><svg style=\"width:100%;max-width:300px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 665\" role=\"img\" aria-label=\"Multimeter med gul ram, mörk front och tre uttag: 10A, COM och µA mA V Ω Hz. Vredet pekar på OFF. En sladd i COM. En sladd i µA mA V Ω Hz.\"><rect width=\"480\" height=\"665\" fill=\"white\"/><rect x=\"55\" y=\"18\" width=\"370\" height=\"535\" rx=\"42\" fill=\"#f5b900\"/><rect x=\"74\" y=\"37\" width=\"332\" height=\"497\" rx=\"28\" fill=\"#292d31\"/><rect x=\"99\" y=\"60\" width=\"282\" height=\"85\" rx=\"9\" fill=\"#c6d1bc\" stroke=\"#11171b\" stroke-width=\"4\"/><text x=\"118\" y=\"83\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172a30\"></text><text x=\"118\" y=\"132\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172a30\"></text><text x=\"357\" y=\"115\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"39\" font-weight=\"700\" fill=\"#172a30\"></text><text x=\"112\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10\" fill=\"#f3f5f7\">HOLD</text><rect x=\"93\" y=\"175\" width=\"38\" height=\"21\" rx=\"3\" fill=\"#aeb4bc\"/><text x=\"176\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10\" fill=\"#f3f5f7\">RANGE</text><rect x=\"157\" y=\"175\" width=\"38\" height=\"21\" rx=\"3\" fill=\"#aeb4bc\"/><text x=\"240\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10\" fill=\"#f3f5f7\">REL</text><rect x=\"221\" y=\"175\" width=\"38\" height=\"21\" rx=\"3\" fill=\"#aeb4bc\"/><text x=\"304\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10\" fill=\"#f3f5f7\">Hz %</text><rect x=\"285\" y=\"175\" width=\"38\" height=\"21\" rx=\"3\" fill=\"#aeb4bc\"/><text x=\"368\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"10\" fill=\"#9bc6ff\">SELECT</text><rect x=\"349\" y=\"175\" width=\"38\" height=\"21\" rx=\"3\" fill=\"#8eb8ee\"/><circle cx=\"155.96\" cy=\"317.48\" r=\"2.7\" fill=\"#f3f5f7\"/><circle cx=\"178.48\" cy=\"278.48\" r=\"2.7\" fill=\"#f3f5f7\"/><circle cx=\"213.12\" cy=\"257.26\" r=\"2.7\" fill=\"#f3f5f7\"/><circle cx=\"243.04\" cy=\"253.05\" r=\"2.7\" fill=\"#f3f5f7\"/><circle cx=\"272.59\" cy=\"259.34\" r=\"2.7\" fill=\"#f3f5f7\"/><circle cx=\"301.52\" cy=\"278.48\" r=\"2.7\" fill=\"#f3f5f7\"/><circle cx=\"324.04\" cy=\"317.48\" r=\"2.7\" fill=\"#f3f5f7\"/><circle cx=\"324.04\" cy=\"362.52\" r=\"2.7\" fill=\"#f3f5f7\"/><circle cx=\"155.96\" cy=\"362.52\" r=\"2.7\" fill=\"#f3f5f7\"/><circle cx=\"308.56\" cy=\"393.56\" r=\"2.7\" fill=\"#f3f5f7\"/><text x=\"121\" y=\"310\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#f3f5f7\">V</text><text x=\"144\" y=\"266\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#f3f5f7\">Ω</text><line x1=\"177\" y1=\"236\" x2=\"187\" y2=\"236\" stroke=\"#f3f5f7\" stroke-width=\"2\"/><path d=\"M187 229L198 236L187 243Z M200 229V243 M200 236H208\" fill=\"none\" stroke=\"#f3f5f7\" stroke-width=\"2\"/><line x1=\"227\" y1=\"225\" x2=\"237\" y2=\"225\" stroke=\"#f3f5f7\" stroke-width=\"2\"/><line x1=\"237\" y1=\"217\" x2=\"237\" y2=\"233\" stroke=\"#f3f5f7\" stroke-width=\"2\"/><line x1=\"243\" y1=\"217\" x2=\"243\" y2=\"233\" stroke=\"#f3f5f7\" stroke-width=\"2\"/><line x1=\"243\" y1=\"225\" x2=\"253\" y2=\"225\" stroke=\"#f3f5f7\" stroke-width=\"2\"/><text x=\"281\" y=\"239\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#f3f5f7\">Hz</text><text x=\"341\" y=\"264\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#f3f5f7\">4000 µA</text><text x=\"359\" y=\"308\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#f3f5f7\">400 mA</text><text x=\"358\" y=\"365\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#f3f5f7\">10 A</text><text x=\"119\" y=\"384\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#f3f5f7\">OFF</text><text x=\"353\" y=\"411\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#f3f5f7\">OFF</text><circle cx=\"240\" cy=\"340\" r=\"63\" fill=\"#15191e\" stroke=\"#626a74\" stroke-width=\"3\"/><line x1=\"261.25\" y1=\"334.31\" x2=\"198.47\" y2=\"351.13\" stroke=\"#e1e5ea\" stroke-width=\"13\" stroke-linecap=\"round\"/><polygon points=\"182.04,355.53 196.39,343.40 200.54,358.86\" fill=\"#f5bd18\"/><text x=\"140\" y=\"469\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#f3f5f7\">10A</text><text x=\"240\" y=\"469\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#f3f5f7\">COM</text><text x=\"340\" y=\"450\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#f3f5f7\">µA mA</text><text x=\"340\" y=\"470\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#f3f5f7\">V Ω Hz</text><circle cx=\"140\" cy=\"495\" r=\"18\" fill=\"#15191e\" stroke=\"#c55449\" stroke-width=\"4\"/><circle cx=\"140\" cy=\"495\" r=\"6\" fill=\"#080b0e\"/><circle cx=\"240\" cy=\"495\" r=\"18\" fill=\"#15191e\" stroke=\"#b7bfc7\" stroke-width=\"4\"/><circle cx=\"240\" cy=\"495\" r=\"6\" fill=\"#080b0e\"/><circle cx=\"340\" cy=\"495\" r=\"18\" fill=\"#15191e\" stroke=\"#c55449\" stroke-width=\"4\"/><circle cx=\"340\" cy=\"495\" r=\"6\" fill=\"#080b0e\"/><path d=\"M240 495 C240 554 211 553 211 610\" fill=\"none\" stroke=\"#181c20\" stroke-width=\"9\" stroke-linecap=\"round\"/><rect x=\"201\" y=\"602\" width=\"20\" height=\"35\" rx=\"4\" fill=\"#252a31\"/><line x1=\"211\" y1=\"637\" x2=\"211\" y2=\"651\" stroke=\"#6f7881\" stroke-width=\"4\"/><path d=\"M340 495 C340 555 379 558 379 610\" fill=\"none\" stroke=\"#cf3931\" stroke-width=\"9\" stroke-linecap=\"round\"/><rect x=\"369\" y=\"602\" width=\"20\" height=\"35\" rx=\"4\" fill=\"#ba302b\"/><line x1=\"379\" y1=\"637\" x2=\"379\" y2=\"651\" stroke=\"#6f7881\" stroke-width=\"4\"/></svg></span>",
   "visaAlternativ": true,
-  "s": "<div class=\"facit-v2\"><p>Vredet ska stå på V när du mäter spänning. Sladdarna sitter redan i rätt uttag.</p><p class=\"facit-svar\"><strong>Svar:</strong> V.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Spänning mäts i läget V</p><p>Sladdarna sitter redan i rätt uttag, så bara vredet behöver ställas om.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> V</p></div>",
   "familj": "Välja funktion och mätområde",
   "familjNyckel": "multimeter__valja_matomrade",
   "formaga": [
@@ -214273,7 +214273,7 @@ window.BANK = [
   "typ": "neutroner ur masstal",
   "poang": "(1/0/0)",
   "t": "<p>En klyvning kan skrivas \\[{}^{235}_{92}\\mathrm U+{}^{1}_{0}\\mathrm n\\rightarrow{}^{140}_{54}\\mathrm{Xe}+{}^{94}_{38}\\mathrm{Sr}+x\\,{}^{1}_{0}\\mathrm n.\\] Hur många neutroner frigörs?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet bevaras.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[235+1=140+94+x\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[x=236-234=2\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2 neutroner.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Masstalet och atomnumret bevaras i en kärnreaktion</p><div class=\"facit-matte\">\\[235+1=140+94+x\\quad\\Rightarrow\\quad x=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 neutroner</p></div>",
   "familj": "Fission och energiutvinning",
   "formaga": [
     "procedur"
@@ -214579,7 +214579,7 @@ window.BANK = [
   "typ": "kedjereaktion i generationer",
   "poang": "(1/0/0)",
   "t": "<p>Figuren visar en kedjereaktion där varje klyvning ger två neutroner som var och en klyver en ny kärna.</p><span class=\"fig smal\"><svg viewBox=\"0 0 440.00 250.00\" width=\"440\" height=\"250\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"En kedjereaktion. Generation 1 har en klyvning, generation 2 har två och generation 3 har fyra. Varje klyvning sänder ut två neutroner som klyver nya kärnor.\"><rect x=\"0\" y=\"0\" width=\"440.00\" height=\"250.00\" fill=\"#FFFFFF\"/><text x=\"14.0\" y=\"49.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">gen. 1</text><text x=\"14.0\" y=\"124.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">gen. 2</text><text x=\"14.0\" y=\"199.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">gen. 3</text><line x1=\"220.0\" y1=\"59.0\" x2=\"166.4\" y2=\"99.2\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"160.0,104.0 165.3,94.4 170.7,101.6\" fill=\"#2A5D9E\"/><line x1=\"220.0\" y1=\"59.0\" x2=\"322.6\" y2=\"101.0\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"330.0,104.0 319.0,104.4 322.4,96.0\" fill=\"#2A5D9E\"/><line x1=\"160.0\" y1=\"134.0\" x2=\"115.9\" y2=\"173.6\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"110.0,179.0 114.4,169.0 120.4,175.7\" fill=\"#2A5D9E\"/><line x1=\"160.0\" y1=\"134.0\" x2=\"191.6\" y2=\"172.8\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"196.7,179.0 186.9,174.1 193.8,168.4\" fill=\"#2A5D9E\"/><line x1=\"330.0\" y1=\"134.0\" x2=\"289.1\" y2=\"173.4\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"283.3,179.0 287.4,168.8 293.7,175.3\" fill=\"#2A5D9E\"/><line x1=\"330.0\" y1=\"134.0\" x2=\"364.7\" y2=\"173.0\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"370.0,179.0 360.0,174.5 366.7,168.5\" fill=\"#2A5D9E\"/><circle cx=\"220.0\" cy=\"45\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"160.0\" cy=\"120\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"330.0\" cy=\"120\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"110.0\" cy=\"195\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"196.7\" cy=\"195\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"283.3\" cy=\"195\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"370.0\" cy=\"195\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><rect x=\"321.7\" y=\"222.0\" width=\"96.7\" height=\"16\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"370.0\" y=\"232.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">pil = neutron</text></svg></span><p>Hur många klyvningar sker i generation 4 om mönstret fortsätter?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet klyvningar fördubblas i varje generation: 1, 2, 4, 8.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 8 klyvningar.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje generation har dubbelt så många klyvningar</p><div class=\"facit-matte\">\\[1,\\ 2,\\ 4,\\ 8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 klyvningar</p></div>",
   "familj": "Fission och energiutvinning",
   "formaga": [
     "begrepp"
@@ -215030,7 +215030,7 @@ window.BANK = [
   "typ": "okänt område i spektrumet",
   "poang": "(1/0/0)",
   "t": "<p>Figuren visar det elektromagnetiska spektrumet ordnat efter frekvens. Ett område är markerat med ett frågetecken.</p><span class=\"fig smal\"><svg viewBox=\"0 0 560.00 120.00\" width=\"560\" height=\"120\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Det elektromagnetiska spektrumet ordnat efter ökande frekvens: radiovågor, ett okänt område markerat med frågetecken, IR, synligt ljus, UV, röntgen och gamma.\"><rect x=\"0\" y=\"0\" width=\"560.00\" height=\"120.00\" fill=\"#FFFFFF\"/><rect x=\"18.0\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#DCE8F5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"55.4\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Radiovågor</text><rect x=\"92.8\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#FFF4D6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"130.2\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">?</text><rect x=\"167.6\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#F7D9CF\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"205.0\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">IR</text><rect x=\"242.4\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E3F1E6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"279.8\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Synligt</text><rect x=\"317.2\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E8DFF5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"354.6\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">UV</text><rect x=\"392.0\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E4E3E6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"429.4\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Röntgen</text><rect x=\"466.8\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#F2DCE4\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"504.2\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Gamma</text><line x1=\"18.0\" y1=\"98.0\" x2=\"533.6\" y2=\"98.0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"541.6,98.0 531.6,102.5 531.6,93.5\" fill=\"#5C575E\"/><text x=\"279.8\" y=\"116.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">ökande frekvens</text></svg></span><p>Vilken typ av strålning ska stå där frågetecknet är?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan radiovågor och infraröd strålning ligger mikrovågor.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mikrovågor.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Spektrumet i frekvensordning</p><p>Radiovågor, mikrovågor, infrarött, synligt ljus, ultraviolett, röntgen, gamma. Mellan radiovågor och infrarött ligger mikrovågor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mikrovågor</p></div>",
   "familj": "Det elektromagnetiska spektrumet",
   "formaga": [
     "begrepp"
@@ -215231,7 +215231,7 @@ window.BANK = [
   "poang": "(1/0/0)",
   "t": "<p>Frekvensen hos en foton fördubblas. Vad händer med fotonens energi?</p>",
   "visaAlternativ": true,
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">\\(E=hf\\), så energin är proportionell mot frekvensen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Energin fördubblas.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fotonens energi: \\(E=hf\\)</p><p>Energin är proportionell mot frekvensen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den fördubblas</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
     "begrepp"
@@ -215329,7 +215329,7 @@ window.BANK = [
   "typ": "en halveringstjocklek",
   "poang": "(1/0/0)",
   "t": "<p>För en viss gammastrålning är halveringstjockleken 2,0 cm betong. Hur många procent av strålningen passerar en 2,0 cm tjock betongvägg?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skärmen är exakt en halveringstjocklek. Då passerar hälften.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 50 %.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halveringstjocklek: andelen som passerar är \\(\\left(\\frac12\\right)^{n}\\), där \\(n=\\frac{x}{x_{1/2}}\\)</p><div class=\"facit-matte\">\\[n=\\frac{2{,}0}{2{,}0}=1\\quad\\Rightarrow\\quad\\left(\\frac12\\right)^1=50\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 %</p></div>",
   "familj": "Skärmning och halveringstjocklek",
   "formaga": [
     "begrepp"
@@ -215772,7 +215772,7 @@ window.BANK = [
   "typ": "neutroner i dotterkärnan",
   "poang": "(1/0/0)",
   "t": "<p>Kobolt-60 har atomnumret 27 och beta-minus-sönderfaller till nickel-60. Hur många neutroner har dotterkärnan?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dotterkärnan har atomnumret 28 och masstalet 60.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=60-28=32\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 32 neutroner.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beta-minus: en neutron blir en proton, så \\(Z\\) ökar med 1 och \\(A\\) är oförändrat</p><div class=\"facit-matte\">\\[Z=27+1=28,\\quad A=60\\]</div></li><li><p class=\"facit-rubrik\">Antal neutroner: \\(N=A-Z\\)</p><div class=\"facit-matte\">\\[N=60-28=32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32 neutroner</p></div>",
   "familj": "Beta-minus-sönderfall",
   "formaga": [
     "procedur"
@@ -216522,7 +216522,7 @@ window.BANK = [
   "typ": "masstal efter tre alfasönderfall",
   "poang": "(1/0/0)",
   "t": "<p>Radon-222 sänder ut tre alfapartiklar efter varandra. Inga andra sönderfall sker. Vilket masstal har kärnan efter det tredje sönderfallet?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje alfasönderfall minskar masstalet med 4.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[222-3\\cdot4=210\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 210.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Alfasönderfall: en \\({}^4_2\\mathrm{He}\\)-kärna lämnar, så \\(A\\) minskar med 4 och \\(Z\\) med 2</p><div class=\"facit-matte\">\\[A=222-3\\cdot4=210\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 210</p></div>",
   "familj": "Alfasönderfall",
   "formaga": [
     "procedur"
@@ -218312,7 +218312,7 @@ window.BANK = [
   "typ": "medelmasstal för klor",
   "poang": "(1/0/0)",
   "t": "<p>Naturligt klor består av 75,8 % klor-35 och 24,2 % klor-37. Bestäm det genomsnittliga masstalet.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Väg masstalen med andelarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}758\\cdot35+0{,}242\\cdot37\\approx35{,}5\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 35,5.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medelvärde viktat med andelarna: \\(\\bar A=a_1A_1+a_2A_2\\)</p><div class=\"facit-matte\">\\[\\bar A=0{,}758\\cdot35+0{,}242\\cdot37\\approx35{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 35,5</p></div>",
   "familj": "Nuklidbeteckning och isotoper",
   "formaga": [
     "procedur"

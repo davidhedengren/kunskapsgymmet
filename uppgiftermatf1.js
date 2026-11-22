@@ -48,7 +48,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
+    "ledtrad": "<p>Skriv villkoret efter ett lodrätt streck: \\(\\{x\\in\\mathbb R\\mid\\ldots\\}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "mangder_venn"
@@ -106,7 +106,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
+    "ledtrad": "<p>\\(|n|<4\\) betyder att n ligger strikt mellan −4 och 4.</p>",
     "traningsniva": 2,
     "svarFormat": "mängd",
     "omrTidigare": [
@@ -135,7 +135,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
+    "ledtrad": "<p>Lista elementen inom klammerparenteser. Finns det några heltal strikt mellan 1 och 2?</p>",
     "traningsniva": 1,
     "spel": false,
     "omrTidigare": [
@@ -166,7 +166,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>Antalet i A men inte i B är \\(|A|-|A\\cap B|\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -226,7 +226,7 @@ window.BANKMATF1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>Snittet \\(A\\cap B\\) är de element som finns i båda mängderna, och unionen \\(A\\cup B\\) de som finns i minst en av dem.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "mangder_venn"
@@ -254,7 +254,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
+    "ledtrad": "<p>Läs av antalen i de områden som ingår. \\(A\\setminus B\\) är den del av A som ligger utanför B.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -285,7 +285,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "mangder_venn"
@@ -367,7 +367,7 @@ window.BANKMATF1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>Snittet \\(A\\cap B\\) är de element som finns i båda mängderna, och unionen \\(A\\cup B\\) de som finns i minst en av dem. Snittet med den tomma mängden är tomt.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -396,7 +396,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "spel": false,
-    "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
+    "ledtrad": "<p>Gå igenom området del för del: ligger det i A, i B, i C, eller utanför? Använd snitt, union, differens och komplement.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -474,7 +474,7 @@ window.BANKMATF1 = [
         "niva": "E"
       }
     ],
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>Snittet \\(A\\cap B\\) är de element som finns i båda mängderna, och unionen \\(A\\cup B\\) de som finns i minst en av dem. Komplementet är de element i grundmängden som inte finns i mängden. \\(A\\setminus B\\) är de element i A som inte finns i B.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -502,7 +502,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
+    "ledtrad": "<p>Gå igenom området del för del: ligger det i A, i B, i C, eller utanför? Använd snitt, union, differens och komplement.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -531,7 +531,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>Bestäm \\(A\\cup B\\) och \\(A\\cap B\\) först, och ta sedan bort snittet från unionen.</p>",
     "traningsniva": 3,
     "svarFormat": "mängd",
     "omrTidigare": [
@@ -618,7 +618,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
+    "ledtrad": "<p>Skriv villkoret efter ett lodrätt streck, till exempel med \\(n=2k\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "mangder_venn"
@@ -646,7 +646,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
+    "ledtrad": "<p>Gå igenom talen ett i taget och kontrollera om de uppfyller villkoret. Se upp med om gränserna ingår.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -704,7 +704,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
+    "ledtrad": "<p>Skriv \\(\\{x\\in\\mathbb Z\\mid\\ldots\\}\\) med olikheten efter strecket.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -762,7 +762,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
+    "ledtrad": "<p>Gå igenom området del för del: ligger det i A, i B, i C, eller utanför? Använd snitt, union, differens och komplement.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -792,7 +792,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>Antalet i A men inte i B är \\(|A|-|A\\cap B|\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -820,7 +820,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>Gå igenom området del för del: ligger det i A, i B, i C, eller utanför? Använd snitt, union, differens och komplement.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "mangder_venn"
@@ -848,7 +848,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
+    "ledtrad": "<p>Gå igenom området del för del: ligger det i A, i B, i C, eller utanför? Använd snitt, union, differens och komplement.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -877,7 +877,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "spel": false,
-    "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
+    "ledtrad": "<p>Gå igenom området del för del: ligger det i A, i B, i C, eller utanför? Använd snitt, union, differens och komplement.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -908,7 +908,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "mangder_venn"
@@ -973,7 +973,7 @@ window.BANKMATF1 = [
         "niva": "E"
       }
     ],
-    "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
+    "ledtrad": "<p>Läs av antalen i varje område och addera de områden som efterfrågas.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -1004,7 +1004,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\). De som inte talar något språk är de som blir kvar av 80.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "mangder_venn"
@@ -1049,7 +1049,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [{"etikett": "a", "t": "<span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"139\" y=\"94\" font-size=\"18\">A</text>\n<text x=\"279\" y=\"94\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\(A\\cap B\\).</div>", "s": "<div class=\"facit-v2\"><p>Snittet innehåller talen som ligger i båda cirklarna.</p><p><strong>Svar:</strong> \\(\\{5,7\\}\\).</p></div>", "niva": "E"}, {"etikett": "b", "t": "<span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"139\" y=\"94\" font-size=\"18\">A</text>\n<text x=\"279\" y=\"94\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\(A\\setminus B\\).</div>", "s": "<div class=\"facit-v2\"><p>Ta talen som ligger i A men utanför B.</p><p><strong>Svar:</strong> \\(\\{1,3\\}\\).</p></div>", "niva": "E"}, {"etikett": "c", "t": "<span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"139\" y=\"94\" font-size=\"18\">A</text>\n<text x=\"279\" y=\"94\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\((A\\cup B)^c\\).</div>", "s": "<div class=\"facit-v2\"><p>Komplementet består av talen utanför båda cirklarna, men innanför grundmängdens ram.</p><p><strong>Svar:</strong> \\(\\{11\\}\\).</p></div>", "niva": "E"}],
-    "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
+    "ledtrad": "<p>Läs av vilka element som ligger i varje område.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "mangder_venn"
@@ -1077,7 +1077,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
+    "ledtrad": "<p>Gå igenom området del för del: ligger det i A, i B, i C, eller utanför? Använd snitt, union, differens och komplement.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -1105,7 +1105,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>Gå igenom området del för del: ligger det i A, i B, i C, eller utanför? Använd snitt, union, differens och komplement. Ett område kan ofta skrivas både med differens och med snitt och komplement.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "mangder_venn"
@@ -1133,7 +1133,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>Gå igenom området del för del: ligger det i A, i B, i C, eller utanför? Använd snitt, union, differens och komplement.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "mangder_venn"
@@ -1249,7 +1249,7 @@ window.BANKMATF1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>Snittet \\(A\\cap B\\) är de element som finns i båda mängderna, och unionen \\(A\\cup B\\) de som finns i minst en av dem.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "mangder_venn"
@@ -1309,7 +1309,7 @@ window.BANKMATF1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>\\(A\\setminus B\\) är de element i A som inte finns i B. Komplementet är de element i grundmängden som inte finns i mängden.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -1339,7 +1339,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>Antalet i A men inte i B är \\(|A|-|A\\cap B|\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -1368,7 +1368,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>Bestäm \\(A\\cup B\\) och \\(A\\cap B\\) först, och ta sedan bort snittet från unionen.</p>",
     "traningsniva": 3,
     "svarFormat": "mängd",
     "omrTidigare": [
@@ -1442,7 +1442,7 @@ window.BANKMATF1 = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>|A| är summan av alla områden inne i A. Sätt summan lika med 45 och lös ut x.</p>",
     "traningsniva": 3,
     "spelIntro": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder där mittenområdet är okänt och betecknas x\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"m167_A\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m167_B\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"m167_C\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<text x=\"112\" y=\"105\" font-size=\"16\" text-anchor=\"middle\">19</text><text x=\"215\" y=\"98\" font-size=\"16\" text-anchor=\"middle\">12</text><text x=\"318\" y=\"105\" font-size=\"16\" text-anchor=\"middle\">14</text><text x=\"163\" y=\"168\" font-size=\"16\" text-anchor=\"middle\">8</text><text x=\"215\" y=\"132\" font-size=\"17\" text-anchor=\"middle\" fill=\"#B23A2E\" font-weight=\"700\">x</text><text x=\"268\" y=\"168\" font-size=\"16\" text-anchor=\"middle\">6</text><text x=\"215\" y=\"222\" font-size=\"16\" text-anchor=\"middle\">11</text>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>I diagrammet är antalet i mittenområdet okänt och betecknas \\(x\\). Det är känt att \\(|A|=45\\).</p>",
     "spelDelning": "deluppgifter",
@@ -1531,7 +1531,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
+    "ledtrad": "<p>\\(|A\\cup B|=|A|+|B|-|A\\cap B|\\), eftersom snittet annars räknas två gånger.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "mangder_venn"
@@ -1561,7 +1561,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "spel": false,
-    "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
+    "ledtrad": "<p>Bestäm \\(A\\setminus B\\) och \\(B\\setminus A\\) och slå ihop dem.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "mangder_venn"
@@ -1621,7 +1621,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>\\(|A\\cup B|=|A|+|B|-|A\\cap B|\\), eftersom snittet annars räknas två gånger.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -1651,7 +1651,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\) och lös sambandet för snittet. Om antalet utanför båda är känt, bestäm unionen först.</p>",
+    "ledtrad": "<p>Dra bort dem som inte tillhör någon mängd från hela gruppen. Då har du \\(|A\\cup B|\\), och sedan ger formeln snittet.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -1681,7 +1681,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>\\(|A\\cup B|=|A|+|B|-|A\\cap B|\\), eftersom snittet annars räknas två gånger.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -1711,7 +1711,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
+    "ledtrad": "<p>Exakt en av mängderna är unionen minus snittet. Rita gärna ett Venndiagram och fyll i snittet först.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -1741,7 +1741,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -1771,7 +1771,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\). Unionen är hela gruppen minus de 7 som inte deltar. Lös ut x.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -1801,7 +1801,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\). Lös ut trippelsnittet.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -1861,7 +1861,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -1892,7 +1892,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
+    "ledtrad": "<p>Exakt en av mängderna är unionen minus snittet. Rita gärna ett Venndiagram och fyll i snittet först.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -1923,7 +1923,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>De som ligger i exakt två mängder är de parvisa snitten minus de som ligger i alla tre, en gång för varje snitt.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2042,7 +2042,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\) och lös sambandet för snittet. Om antalet utanför båda är känt, bestäm unionen först.</p>",
+    "ledtrad": "<p>Dra bort dem som inte tillhör någon mängd från hela gruppen. Då har du \\(|A\\cup B|\\), och sedan ger formeln snittet.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2072,7 +2072,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
+    "ledtrad": "<p>Exakt en av mängderna är unionen minus snittet. Rita gärna ett Venndiagram och fyll i snittet först.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2160,7 +2160,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2190,7 +2190,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\). Lös ut trippelsnittet.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2249,7 +2249,7 @@ window.BANKMATF1 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>Läs av antalen i diagrammet. Exakt två mängder är de tre områden där två cirklar överlappar utan den tredje.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2280,7 +2280,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>Räkna talen delbara med 3 och med 5 och dra bort dem som är delbara med båda, alltså med 15.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2322,7 +2322,7 @@ window.BANKMATF1 = [
       "a",
       "b"
     ],
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>Använd inklusion och exklusion för tre mängder: addera de enskilda, dra bort parvisa snitt och lägg tillbaka trippelsnittet.</p>",
     "traningsniva": 4,
     "spelIntro": "<span class=\"fig smal\"><svg width=\"400\" height=\"285\" viewBox=\"0 0 430 305\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre mängder för tal delbara med 2, 3 respektive 5\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"112\" y=\"52\" font-size=\"16\" fill=\"#2C62A8\">T&#8322;</text>\n<text x=\"308\" y=\"52\" font-size=\"16\" fill=\"#2E7D52\">T&#8323;</text>\n<text x=\"208\" y=\"258\" font-size=\"16\" fill=\"#B48A18\">T&#8325;</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">1–1000</text>\n<text x=\"30\" y=\"288\" font-size=\"14\" fill=\"#777\">T&#8322;, T&#8323; och T&#8325; = talen delbara med 2, 3 respektive 5.</text>\n</svg></span><p>Låt \\(T_2\\), \\(T_3\\) och \\(T_5\\) vara mängderna av de tal bland \\(1{,}2,\\ldots,1000\\) som är delbara med 2, 3 respektive 5.</p>",
     "spelDelning": "deluppgifter",
@@ -2372,7 +2372,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>\\(|A\\cup B|=|A|+|B|-|A\\cap B|\\), eftersom snittet annars räknas två gånger.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2402,7 +2402,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\) och lös sambandet för snittet. Om antalet utanför båda är känt, bestäm unionen först.</p>",
+    "ledtrad": "<p>Dra bort dem som inte tillhör någon mängd från hela gruppen. Då har du \\(|A\\cup B|\\), och sedan ger formeln snittet.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2433,7 +2433,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
+    "ledtrad": "<p>Exakt en av mängderna är unionen minus snittet. Rita gärna ett Venndiagram och fyll i snittet först.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2494,7 +2494,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>\\(|A\\cup B|=|A|+|B|-|A\\cap B|\\), eftersom snittet annars räknas två gånger.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2524,7 +2524,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2554,7 +2554,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
+    "ledtrad": "<p>Exakt en av mängderna är unionen minus snittet. Rita gärna ett Venndiagram och fyll i snittet först.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2584,7 +2584,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2615,7 +2615,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\) och lös sambandet för snittet. Om antalet utanför båda är känt, bestäm unionen först.</p>",
+    "ledtrad": "<p>\\(|A\\cup B|=|A|+|B|-|A\\cap B|\\), eftersom snittet annars räknas två gånger. Lös ut snittet.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2645,7 +2645,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>För tre mängder: \\(|A\\cup B\\cup C|=|A|+|B|+|C|-|A\\cap B|-|A\\cap C|-|B\\cap C|+|A\\cap B\\cap C|\\). Lös ut trippelsnittet.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2675,7 +2675,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
+    "ledtrad": "<p>\\(|A\\cup B|=|A|+|B|-|A\\cap B|\\), eftersom snittet annars räknas två gånger.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2705,7 +2705,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\) och lös sambandet för snittet. Om antalet utanför båda är känt, bestäm unionen först.</p>",
+    "ledtrad": "<p>Dra bort dem som inte tillhör någon mängd från hela gruppen. Då har du \\(|A\\cup B|\\), och sedan ger formeln snittet.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2764,7 +2764,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
+    "ledtrad": "<p>Exakt en av mängderna är unionen minus snittet. Rita gärna ett Venndiagram och fyll i snittet först. De som inte provar någon är de som blir kvar av 110.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "additionsprincipen_mangder"
@@ -2823,7 +2823,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -2852,7 +2852,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Vilka är lådorna och vilka är föremålen? Om n föremål läggs i k lådor hamnar minst \\(\\lceil n/k\\rceil\\) i någon låda.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -2879,7 +2879,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -2909,7 +2909,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "antal_satt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Varje position har 10 möjligheter.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -2939,7 +2939,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "antal_satt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -2968,7 +2968,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3028,7 +3028,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Tänk på det värsta fallet: hur många kan du ta utan att få tillräckligt många av samma sort? Ett föremål till räcker då.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3054,7 +3054,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Dela in talen i par som hör ihop. Hur många par finns det, och hur många tal väljs? Par: \\(\\{1,2\\},\\{3,4\\},\\ldots\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3080,7 +3080,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3136,7 +3136,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
+    "ledtrad": "<p>Tänk på det värsta fallet: hur många kan du ta utan att få tillräckligt många av samma sort? Ett föremål till räcker då.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3162,7 +3162,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
+    "ledtrad": "<p>Vilka är lådorna och vilka är föremålen? Om n föremål läggs i k lådor hamnar minst \\(\\lceil n/k\\rceil\\) i någon låda.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3188,7 +3188,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
+    "ledtrad": "<p>Lådorna är de möjliga resterna. Hur många olika rester finns vid division med det talet?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3214,7 +3214,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
+    "ledtrad": "<p>Vilka är lådorna och vilka är föremålen? Om n föremål läggs i k lådor hamnar minst \\(\\lceil n/k\\rceil\\) i någon låda. Hur många heltal finns från 150 till 159?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3240,7 +3240,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
+    "ledtrad": "<p>Dela in talen i par som hör ihop. Hur många par finns det, och hur många tal väljs? Par: \\(\\{1,12\\},\\{2,11\\},\\ldots\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3266,7 +3266,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
+    "ledtrad": "<p>Dela in talen i par som hör ihop. Hur många par finns det, och hur många tal väljs? Par: \\(\\{1,2\\},\\{3,4\\},\\ldots\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3292,7 +3292,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
+    "ledtrad": "<p>Vilka är lådorna och vilka är föremålen? Om n föremål läggs i k lådor hamnar minst \\(\\lceil n/k\\rceil\\) i någon låda.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3318,7 +3318,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Dela kvadraten i fyra lika stora kvadrater. Två punkter hamnar i samma lilla kvadrat. Hur lång är dess diagonal?</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3344,7 +3344,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
+    "ledtrad": "<p>Det finns bara n möjliga rester vid division med n. Vad säger lådprincipen om \\(n+1\\) tal?</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3373,7 +3373,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
+    "ledtrad": "<p>Vilka är lådorna och vilka är föremålen? Om n föremål läggs i k lådor hamnar minst \\(\\lceil n/k\\rceil\\) i någon låda.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3400,7 +3400,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Första siffran har 8 val och varje övrig plats 7.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3429,7 +3429,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Vilka är lådorna och vilka är föremålen? Om n föremål läggs i k lådor hamnar minst \\(\\lceil n/k\\rceil\\) i någon låda.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3483,7 +3483,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Tänk på det värsta fallet: hur många kan du ta utan att få tillräckligt många av samma sort? Ett föremål till räcker då.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3509,7 +3509,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Lådorna är de möjliga resterna. Hur många olika rester finns vid division med det talet?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3536,7 +3536,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Första siffran har 8 val och varje övrig plats 8.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3566,7 +3566,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Tänk på det värsta fallet: hur många kan du ta utan att få tillräckligt många av samma sort? Ett föremål till räcker då.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3593,7 +3593,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Tänk på det värsta fallet: hur många kan du ta utan att få tillräckligt många av samma sort? Ett föremål till räcker då.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3619,7 +3619,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Dela in talen i par som hör ihop. Hur många par finns det, och hur många tal väljs? Par: \\(\\{1,2\\},\\{3,4\\},\\ldots,\\{19,20\\}\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3647,7 +3647,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Läs villkoret för den första bokstaven noga.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3677,7 +3677,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Bokstäverna ska vara olika, så andra bokstaven har ett val mindre.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3707,7 +3707,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3738,7 +3738,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Räkna alla kombinationer och dra bort de förbjudna med chokladbotten.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3768,7 +3768,7 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Lådorna är de möjliga resterna. Hur många olika rester finns vid division med det talet?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3796,7 +3796,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
+    "ledtrad": "<p>Första fältet har 5 val. Varje följande fält får inte ha samma färg som fältet bredvid.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3826,7 +3826,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3857,7 +3857,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3887,7 +3887,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3918,7 +3918,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Första siffran har 9 val.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3948,7 +3948,7 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
+    "ledtrad": "<p>Lådorna är de möjliga resterna. Hur många olika rester finns vid division med det talet?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -3976,7 +3976,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Paketen är av två olika slag. Räkna varje slag med multiplikationsprincipen och addera.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -4006,7 +4006,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -4037,7 +4037,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Bokstäverna och siffrorna ska vara olika, så antalet val minskar för varje steg.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -4068,7 +4068,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
+    "ledtrad": "<p>Räkna alla sätt att fördela uppgifterna och dra bort dem där någon elev blir utan, med inklusion och exklusion.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "kombinatoriska_principer"
@@ -4097,7 +4097,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Ordningen spelar roll och 5 av 16 väljs. Hur många kan slå första straffen, hur många den andra och så vidare?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4144,7 +4144,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "antal_satt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4197,7 +4197,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "antal_satt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4223,7 +4223,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>\\(\\binom nk\\) är antalet sätt att välja k föremål bland n när ordningen inte spelar roll.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4256,7 +4256,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Använd \\(\\binom nk=\\frac{n!}{k!(n-k)!}\\). Förkorta innan du räknar, och tänk på att \\(\\binom{17}{13}=\\binom{17}{4}\\).</p>",
     "traningsniva": 2,
     "svarFormat": [
       "numeriskt",
@@ -4354,7 +4354,7 @@ window.BANKMATF1 = [
         "niva": "E"
       }
     ],
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Köordningar: ordningen spelar roll. Grupper: ordningen spelar ingen roll, så dela med \\(9!\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4387,7 +4387,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Använd att \\(\\binom nk=\\binom n{n-k}\\), så att du räknar med det mindre talet.</p>",
     "traningsniva": 2,
     "svarFormat": [
       "numeriskt",
@@ -4479,7 +4479,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Ordningen spelar roll och bara några väljs. Det första valet kan göras på n sätt, nästa på \\(n-1\\) sätt och så vidare.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4505,7 +4505,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "antal_satt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Alla ska ordnas, så antalet ordningar är \\(n!\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4531,7 +4531,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Räkna alla ordningar. I precis hälften av dem kommer A före B.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4557,7 +4557,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "antal_satt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Se de som ska stå tillsammans som ett enda block. Ordna blocken och multiplicera med antalet ordningar inne i blocket.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4585,7 +4585,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Fallen är 2, 3 eller 4 av de fyra.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4665,7 +4665,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Lärarna kan stå på de yttersta platserna på 2 sätt. Hur många sätt kan de övriga fem ordnas?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4744,7 +4744,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Första siffran kan väljas på 9 sätt. Därefter finns 9, 8, 7 och 6 siffror kvar.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4770,7 +4770,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Alla ska ordnas, så antalet ordningar är \\(n!\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -4808,7 +4808,7 @@ window.BANKMATF1 = [
       "antal ord",
       "KNOTAF:s nummer"
     ],
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Alla ska ordnas, så antalet ordningar är \\(n!\\). Räkna sedan hur många ord som kommer före KNOTAF, bokstav för bokstav.</p>",
     "traningsniva": 5,
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bokstäverna i ordet AFKNOT ska ordnas på alla möjliga sätt.</p>",
@@ -4855,7 +4855,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Räkna alla urval och dra bort dem som bryter mot villkoret. Räkna ordningarna där A och B står bredvid varandra med ett block.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5044,7 +5044,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Fallen är 3, 4 eller 5 kvinnor.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5070,7 +5070,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Välj först 3 personer till första bilen, sedan 4 av de återstående till den andra. Resten får plats i den tredje.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5122,7 +5122,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Fallen är 2 NA och 3 TE eller 3 NA och 2 TE.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5149,7 +5149,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5176,7 +5176,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5202,7 +5202,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Fallen är 2–4 från grupp A.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5228,7 +5228,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
+    "ledtrad": "<p>Välj 1 målvakt och 4 utespelare och multiplicera antalen.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5255,7 +5255,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
+    "ledtrad": "<p>Räkna alla urval och dra bort dem som bryter mot villkoret. Dra bort de prov som bara har algebra och de som bara har kombinatorik.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5281,7 +5281,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
+    "ledtrad": "<p>Räkna alla urval och dra bort dem som bryter mot villkoret. Dra bort de team där varken A eller B ingår.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5307,7 +5307,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Räkna alla urval och dra bort dem som bryter mot villkoret. Dra bort urvalen där både A och B ingår.</p>",
     "traningsniva": 3,
     "omrTidigare": ["permutationer_kombinationer", "permutationer"],
       "familjTidigare": ["Permutationer och ordningar med placeringsvillkor"]
@@ -5334,7 +5334,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Räkna alla urval och dra bort dem som bryter mot villkoret. Dra bort de prov där något område saknas. Se upp så att du inte drar bort något två gånger.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5388,7 +5388,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5414,7 +5414,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Välj ur varje grupp för sig med \\(\\binom nk\\) och multiplicera antalen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5440,7 +5440,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Fallen är 0 eller 1 vattenprov.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5466,7 +5466,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
+    "ledtrad": "<p>Lika många av varje typ betyder 3 av varje. Välj ur varje grupp för sig med \\(\\binom nk\\) och multiplicera antalen.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5494,7 +5494,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Fördela de sex platserna så att alla villkor uppfylls och räkna varje fall för sig.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5520,7 +5520,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Antingen ingår A men inte B, eller B men inte A. Räkna ett fall och dubbla.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5573,7 +5573,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>De två bestämda uppgifterna är redan med. Hur många fler ska väljas, och bland hur många?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5599,7 +5599,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5638,7 +5638,7 @@ window.BANKMATF1 = [
       "a",
       "b"
     ],
-    "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
+    "ledtrad": "<p>Tänk på föremålen som stjärnor och skiljeväggar mellan grupperna. Antalet sätt är \\(\\binom{n+k-1}{k-1}\\) för n föremål i k grupper. I andra delen ska varje smak väljas minst en gång, så dela ut en av varje först.</p>",
     "traningsniva": 4,
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Du köper 12 burkar läsk. Butiken har fyra smaker och tillräckligt många burkar av varje. Bara antalet av varje smak spelar roll.</p>",
@@ -5690,7 +5690,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Fallen är 2–5 ekonomer, eller räkna alla och dra bort fallen med 0 eller 1 ekonom.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5716,7 +5716,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5742,7 +5742,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Räkna alla urval och dra bort dem som bryter mot villkoret. Dra bort grupperna där både A och B ingår.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer",
@@ -5876,7 +5876,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
+    "ledtrad": "<p>Se de som ska stå tillsammans som ett enda block. Ordna blocken och multiplicera med antalet ordningar inne i blocket.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5903,7 +5903,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
+    "ledtrad": "<p>Räkna alla urval och dra bort dem som bryter mot villkoret. Räkna ordningarna där de två står bredvid varandra med ett block.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5929,7 +5929,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
+    "ledtrad": "<p>Placera först de andra och sätt sedan in de som inte får stå bredvid varandra i luckorna mellan dem.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5957,7 +5957,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Fallen är 2, 3 eller 4 av de fyra.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -5985,7 +5985,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
+    "ledtrad": "<p>Tänk på föremålen som stjärnor och skiljeväggar mellan grupperna. Antalet sätt är \\(\\binom{n+k-1}{k-1}\\) för n föremål i k grupper. Dra sedan bort lösningarna där \\(x\\ge6\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6016,7 +6016,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
+    "ledtrad": "<p>Ge först ett kanel- och ett chokladbakverk. Fördela sedan resten fritt. Tänk på föremålen som stjärnor och skiljeväggar mellan grupperna. Antalet sätt är \\(\\binom{n+k-1}{k-1}\\) för n föremål i k grupper.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6047,7 +6047,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
+    "ledtrad": "<p>Ge först varje delområde 2 poäng. Fördela sedan resten och dra bort de fall där första delområdet får för mycket. Tänk på föremålen som stjärnor och skiljeväggar mellan grupperna. Antalet sätt är \\(\\binom{n+k-1}{k-1}\\) för n föremål i k grupper.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6076,7 +6076,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Fallen är 2 från A och 3 från B eller 3 från A och 2 från B.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6104,7 +6104,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Gå igenom de möjliga antalen kombinatorik- och talteoriuppgifter.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6130,7 +6130,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
+    "ledtrad": "<p>Se de som ska stå tillsammans som ett enda block. Ordna blocken och multiplicera med antalet ordningar inne i blocket. Tänk på att flera bokstäver förekommer två gånger.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6157,7 +6157,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
+    "ledtrad": "<p>Se de som ska stå tillsammans som ett enda block. Ordna blocken och multiplicera med antalet ordningar inne i blocket. Här finns två block.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6185,7 +6185,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
+    "ledtrad": "<p>Välj först fyra stolar så att inga två ligger bredvid varandra. Ordna sedan eleverna på dem.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6212,7 +6212,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Placera först de andra och sätt sedan in de som inte får stå bredvid varandra i luckorna mellan dem. De fem nollorna bildar sex luckor.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6293,7 +6293,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Placera först A:na så att de inte står bredvid varandra. De övriga fyra platserna får B, C eller D.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6320,7 +6320,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
+    "ledtrad": "<p>Räkna alla urval och dra bort dem som bryter mot villkoret. Dra bort prispallarna där både A och B finns med.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6374,7 +6374,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
+    "ledtrad": "<p>Dela upp i fall efter hur många som väljs ur varje grupp, multiplicera inom varje fall och addera fallen. Fallen är 1 eller 2 chefer.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -6401,7 +6401,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
+    "ledtrad": "<p>Tänk på föremålen som stjärnor och skiljeväggar mellan grupperna. Antalet sätt är \\(\\binom{n+k-1}{k-1}\\) för n föremål i k grupper.</p>",
     "traningsniva": 4,
     "typ": "fördela identiska objekt mellan märkta lådor",
     "omrTidigare": [
@@ -6432,7 +6432,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
+    "ledtrad": "<p>Ge först varje barn en bit. Fördela sedan resten fritt. Tänk på föremålen som stjärnor och skiljeväggar mellan grupperna. Antalet sätt är \\(\\binom{n+k-1}{k-1}\\) för n föremål i k grupper.</p>",
     "traningsniva": 4,
     "typ": "fördela identiska objekt med minst ett i varje grupp",
     "omrTidigare": [
@@ -6463,7 +6463,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>",
     "traningsniva": 1
   },
   {
@@ -6535,7 +6535,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>",
     "traningsniva": 2
   },
   {
@@ -6728,7 +6728,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>",
     "traningsniva": 3
   },
   {
@@ -6777,7 +6777,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>",
     "traningsniva": 3
   },
   {
@@ -6801,7 +6801,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>",
     "traningsniva": 3
   },
   {
@@ -6825,7 +6825,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>",
     "traningsniva": 2
   },
   {
@@ -6898,7 +6898,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
+    "ledtrad": "<p>Koefficienten framför \\(x^2\\) i \\((1+x)^n\\) är \\(\\binom n2=\\frac{n(n-1)}{2}\\). Sätt den lika med 45.</p>",
     "traningsniva": 3
   },
   {
@@ -6922,7 +6922,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>",
     "traningsniva": 2
   },
   {
@@ -6993,7 +6993,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>",
     "traningsniva": 3,
     "svarFormat": "uttryck"
   },
@@ -7018,7 +7018,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en allmän term i binomialutvecklingen och välj det index som ger den efterfrågade potensen.</p>",
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>",
     "traningsniva": 3
   },
   {
@@ -7246,7 +7246,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\). För minst 3 rätt delar du upp i 3, 4 och 5 rätt.</p>",
     "traningsniva": 3
   },
   {
@@ -7378,7 +7378,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\). Om A och B båda väljs ska bara två till väljas bland de övriga åtta.</p>",
     "traningsniva": 2
   },
   {
@@ -7403,7 +7403,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\). Exakt en defekt betyder 1 av 3 defekta och 3 av 9 hela.</p>",
     "traningsniva": 3
   },
   {
@@ -7428,7 +7428,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
     "traningsniva": 3
   },
   {
@@ -7453,7 +7453,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
     "traningsniva": 3
   },
   {
@@ -7557,7 +7557,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\). Exakt 4 rätt betyder 4 av de 6 vinnarnumren och 2 av de 24 övriga.</p>",
     "traningsniva": 4
   },
   {
@@ -7582,7 +7582,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Använd komplementet: P(båda färgerna) = 1 − P(bara en färg). Räkna sannolikheten för bara röda och bara blå.</p>",
     "traningsniva": 3
   },
   {
@@ -7634,7 +7634,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
     "traningsniva": 2
   },
   {
@@ -7743,7 +7743,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
     "traningsniva": 3
   },
   {
@@ -7795,7 +7795,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
     "traningsniva": 2
   },
   {
@@ -7820,7 +7820,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
     "traningsniva": 2
   },
   {
@@ -7845,7 +7845,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
     "traningsniva": 2
   },
   {
@@ -7870,7 +7870,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\). Om Alex väljs ska två till väljas bland de övriga nio.</p>",
     "traningsniva": 1
   },
   {
@@ -7895,7 +7895,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
     "traningsniva": 3
   },
   {
@@ -7947,7 +7947,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
     "traningsniva": 3
   },
   {
@@ -8000,7 +8000,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Räkna alla lika sannolika urval med kombinationstal. För exakt \\(k\\) av en viss typ väljs \\(k\\) från den typen och resten från de övriga.</p>",
+    "ledtrad": "<p>Dela upp efter om hjärter kung är med eller inte, och räkna varje fall för sig.</p>",
     "traningsniva": 4
   },
   {
@@ -8846,7 +8846,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
+    "ledtrad": "<p>Antalet paket är SGD av 180 och 252. Primtalsfaktorisera talen. SGD är produkten av de gemensamma primfaktorerna med den minsta exponenten.</p>",
     "traningsniva": 2,
     "svarFormat": [
       "numeriskt",
@@ -8918,7 +8918,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
+    "ledtrad": "<p>Plattans sida ska dela båda måtten. Primtalsfaktorisera talen. SGD är produkten av de gemensamma primfaktorerna med den minsta exponenten.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "delbarhet"
@@ -8978,7 +8978,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD är produkten av de gemensamma primfaktorerna med den minsta exponenten.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "delbarhet"
@@ -9069,7 +9069,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD är produkten av de gemensamma primfaktorerna med den minsta exponenten.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "delbarhet"
@@ -9229,7 +9229,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
+    "ledtrad": "<p>Antalet kassar är SGD av de tre talen. Primtalsfaktorisera talen. SGD är produkten av de gemensamma primfaktorerna med den minsta exponenten.</p>",
     "traningsniva": 3,
     "svarFormat": [
       "numeriskt",
@@ -9271,7 +9271,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
+    "ledtrad": "<p>Visa att varje tal som delar a och b också delar a och \\(a+b\\), och omvänt.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "delbarhet"
@@ -9395,7 +9395,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
+    "ledtrad": "<p>Plattans sida ska dela båda måtten. Primtalsfaktorisera talen. SGD är produkten av de gemensamma primfaktorerna med den minsta exponenten.</p>",
     "traningsniva": 3,
     "svarFormat": [
       "numeriskt",
@@ -9480,7 +9480,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Multiplicera varje siffra med basen upphöjd till platsens nummer, räknat från 0 längst till höger, och addera.</p>",
     "traningsniva": 1
   },
   {
@@ -9504,7 +9504,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Multiplicera varje siffra med basen upphöjd till platsens nummer, räknat från 0 längst till höger, och addera.</p>",
     "traningsniva": 2
   },
   {
@@ -9622,7 +9622,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Multiplicera varje siffra med basen upphöjd till platsens nummer, räknat från 0 längst till höger, och addera.</p>",
     "traningsniva": 1
   },
   {
@@ -9645,7 +9645,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Multiplicera varje siffra med basen upphöjd till platsens nummer, räknat från 0 längst till höger, och addera.</p>",
     "traningsniva": 1
   },
   {
@@ -9693,7 +9693,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Multiplicera varje siffra med basen upphöjd till platsens nummer, räknat från 0 längst till höger, och addera.</p>",
     "traningsniva": 2
   },
   {
@@ -9717,7 +9717,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Dela upprepat med den nya basen och skriv upp resterna. Resterna läst nedifrån och upp ger siffrorna.</p>",
     "traningsniva": 2
   },
   {
@@ -9741,7 +9741,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Multiplicera varje siffra med basen upphöjd till platsens nummer, räknat från 0 längst till höger, och addera.</p>",
     "traningsniva": 2
   },
   {
@@ -9763,7 +9763,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Räkna som vanligt kolumn för kolumn, men en tiotalsövergång sker när summan når basen, inte 10.</p>",
     "traningsniva": 3,
     "svarFormat": "numeriskt"
   },
@@ -9860,7 +9860,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Multiplicera varje siffra med basen upphöjd till platsens nummer, räknat från 0 längst till höger, och addera.</p>",
     "traningsniva": 1
   },
   {
@@ -9884,7 +9884,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Dela upprepat med den nya basen och skriv upp resterna. Resterna läst nedifrån och upp ger siffrorna.</p>",
     "traningsniva": 2
   },
   {
@@ -9958,7 +9958,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Dela upprepat med den nya basen och skriv upp resterna. Resterna läst nedifrån och upp ger siffrorna.</p>",
     "traningsniva": 2
   },
   {
@@ -10006,7 +10006,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Dela upprepat med den nya basen och skriv upp resterna. Resterna läst nedifrån och upp ger siffrorna.</p>",
     "traningsniva": 2
   },
   {
@@ -10052,7 +10052,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Räkna som vanligt kolumn för kolumn, men en tiotalsövergång sker när summan når basen, inte 10.</p>",
     "traningsniva": 3,
     "svarFormat": "numeriskt"
   },
@@ -10197,7 +10197,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Utveckla talet med platsvärden: siffran längst till höger multipliceras med \\(\\text{bas}^0\\), nästa med \\(\\text{bas}^1\\) och så vidare.</p>",
+    "ledtrad": "<p>Räkna kolumn för kolumn. När du lånar från nästa kolumn får du 6, inte 10.</p>",
     "traningsniva": 3,
     "svarFormat": "numeriskt"
   },
@@ -10608,7 +10608,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>Beräkna de första potenserna av 2 modulo 7 tills resten upprepar sig. Använd sedan mönstret för den stora exponenten.</p>",
     "traningsniva": 3
   },
   {
@@ -10632,7 +10632,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Två heltal är kongruenta modulo \\(m\\) precis när deras differens är delbar med \\(m\\). Du kan också jämföra deras rester.</p>",
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>",
     "traningsniva": 1
   },
   {
@@ -10656,7 +10656,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
     "traningsniva": 1
   },
   {
@@ -10703,7 +10703,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Två heltal är kongruenta modulo \\(m\\) precis när deras differens är delbar med \\(m\\). Du kan också jämföra deras rester.</p>",
+    "ledtrad": "<p>\\(a\\equiv b\\pmod m\\) betyder att \\(a-b\\) är delbart med m, alltså att a och b ger samma rest vid division med m. Lägg till eller dra bort multiplar av 9.</p>",
     "traningsniva": 2
   },
   {
@@ -10727,7 +10727,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
     "traningsniva": 1
   },
   {
@@ -10751,7 +10751,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>",
     "traningsniva": 1
   },
   {
@@ -10821,7 +10821,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Två heltal är kongruenta modulo \\(m\\) precis när deras differens är delbar med \\(m\\). Du kan också jämföra deras rester.</p>",
+    "ledtrad": "<p>\\(a\\equiv b\\pmod m\\) betyder att \\(a-b\\) är delbart med m, alltså att a och b ger samma rest vid division med m.</p>",
     "traningsniva": 2
   },
   {
@@ -10868,7 +10868,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>",
     "traningsniva": 1
   },
   {
@@ -10892,7 +10892,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Två heltal är kongruenta modulo \\(m\\) precis när deras differens är delbar med \\(m\\). Du kan också jämföra deras rester.</p>",
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>",
     "traningsniva": 1
   },
   {
@@ -10914,7 +10914,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Två heltal är kongruenta modulo \\(m\\) precis när deras differens är delbar med \\(m\\). Du kan också jämföra deras rester.</p>",
+    "ledtrad": "<p>\\(a\\equiv b\\pmod m\\) betyder att \\(a-b\\) är delbart med m, alltså att a och b ger samma rest vid division med m.</p>",
     "traningsniva": 2
   },
   {
@@ -10937,7 +10937,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Två heltal är kongruenta modulo \\(m\\) precis när deras differens är delbar med \\(m\\). Du kan också jämföra deras rester.</p>",
+    "ledtrad": "<p>\\(a\\equiv b\\pmod m\\) betyder att \\(a-b\\) är delbart med m, alltså att a och b ger samma rest vid division med m. Dra bort 7 tills talet blir negativt.</p>",
     "traningsniva": 2
   },
   {
@@ -10959,7 +10959,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Två heltal är kongruenta modulo \\(m\\) precis när deras differens är delbar med \\(m\\). Du kan också jämföra deras rester.</p>",
+    "ledtrad": "<p>\\(a\\equiv b\\pmod m\\) betyder att \\(a-b\\) är delbart med m, alltså att a och b ger samma rest vid division med m. Lägg till multiplar av 6.</p>",
     "traningsniva": 2
   },
   {
@@ -11007,7 +11007,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
     "traningsniva": 3
   },
   {
@@ -11089,7 +11089,7 @@ window.BANKMATF1 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna. För potenserna letar du efter ett mönster i resterna.</p>",
     "traningsniva": 3
   },
   {
@@ -11113,7 +11113,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>Slutsiffran är resten modulo 10. Undersök slutsiffrorna i de första potenserna och leta efter ett mönster.</p>",
     "traningsniva": 3
   },
   {
@@ -11236,7 +11236,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>Slutsiffran är resten modulo 10. Undersök slutsiffrorna i de första potenserna och leta efter ett mönster.</p>",
     "traningsniva": 2
   },
   {
@@ -11311,7 +11311,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>Beräkna de första potenserna av 3 modulo 7 tills resten upprepar sig. Använd sedan mönstret för den stora exponenten. Gör likadant med 5 och addera resterna.</p>",
     "traningsniva": 4
   },
   {
@@ -11335,7 +11335,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
     "traningsniva": 1
   },
   {
@@ -11359,7 +11359,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
     "traningsniva": 1
   },
   {
@@ -11383,7 +11383,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>Beräkna de första potenserna av 2 modulo 3 tills resten upprepar sig. Använd sedan mönstret för den stora exponenten.</p>",
     "traningsniva": 2
   },
   {
@@ -11407,7 +11407,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
     "traningsniva": 1
   },
   {
@@ -11432,7 +11432,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>Slutsiffran är resten modulo 10. Undersök slutsiffrorna i de första potenserna och leta efter ett mönster.</p>",
     "traningsniva": 3
   },
   {
@@ -11456,7 +11456,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna. Om resten blir negativ lägger du till 5.</p>",
     "traningsniva": 2
   },
   {
@@ -11480,7 +11480,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>\\(3^2\\equiv-1\\) och \\(4\\equiv-1\\pmod5\\). Vad blir då \\(3^{50}\\) och \\(4^{50}\\)?</p>",
     "traningsniva": 4
   },
   {
@@ -11504,7 +11504,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Lägg till multiplar av 7 till −23 tills du får ett tal mellan 0 och 6.</p>",
     "traningsniva": 2
   },
   {
@@ -11528,7 +11528,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>",
     "traningsniva": 1
   },
   {
@@ -11552,7 +11552,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt talen med deras rester modulo det givna talet innan du adderar, subtraherar eller multiplicerar.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
     "traningsniva": 1
   },
   {
@@ -11576,7 +11576,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna. Byt först 17 mot dess rest.</p>",
     "traningsniva": 2
   },
   {
@@ -11625,7 +11625,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>De två sista siffrorna är resten modulo 100. Beräkna \\(3^{10}\\) först och kvadrera sedan.</p>",
     "traningsniva": 4
   },
   {
@@ -11647,7 +11647,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna. Byt först 7 mot dess rest.</p>",
     "traningsniva": 2,
     "typ": "beräkna potens modulo ett heltal"
   },
@@ -11670,7 +11670,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>\\(23\\equiv-1\\pmod8\\). Vad blir då \\(23^7\\)?</p>",
     "traningsniva": 2,
     "typ": "beräkna potens modulo ett heltal"
   },
@@ -11693,7 +11693,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Reducera basen modulo talet och skriv de första potensresterna. När ett värde återkommer har du hittat en period.</p>",
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna. Byt först 2026 mot dess rest modulo 11.</p>",
     "traningsniva": 2,
     "typ": "beräkna kvadrat modulo ett heltal"
   },
@@ -11717,7 +11717,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Summan av en aritmetisk talföljd är antalet termer gånger medelvärdet av första och sista termen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -11743,7 +11743,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Sätt in k = 1, 2, 3, … i uttrycket och addera termerna.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -11796,7 +11796,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
+    "ledtrad": "<p>Skillnaden mellan termerna är konstant. Använd \\(a_n=a_1+(n-1)d\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -11823,7 +11823,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Sätt in k = 1, 2, 3, … i uttrycket och addera termerna. Termerna bildar en geometrisk talföljd.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -11884,7 +11884,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
+    "ledtrad": "<p>Jämför termerna med kvadrattalen 1, 4, 9, 16, 25.</p>",
     "traningsniva": 3,
     "svarFormat": [
       "uttryck",
@@ -11955,7 +11955,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
+    "ledtrad": "<p>Skillnaden mellan termerna är densamma hela tiden.</p>",
     "traningsniva": 1,
     "svarFormat": [
       [
@@ -12039,7 +12039,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
+    "ledtrad": "<p>Jämför termerna med \\(1^2,2^2,3^2,\\ldots\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12065,7 +12065,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Summan av en aritmetisk talföljd är antalet termer gånger medelvärdet av första och sista termen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12093,7 +12093,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
+    "ledtrad": "<p>Jämför termerna med kvadrattalen. Hur mycket större är varje term än \\(n^2\\)?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12120,7 +12120,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Använd formeln \\(\\sum_{k=1}^nk^2=\\frac{n(n+1)(2n+1)}{6}\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12147,7 +12147,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
+    "ledtrad": "<p>Skillnaden mellan termerna är konstant. Använd \\(a_n=a_1+(n-1)d\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12175,7 +12175,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
+    "ledtrad": "<p>Dela upp summan i \\(5\\sum k\\) och \\(\\sum2\\), och använd att \\(\\sum_{k=1}^nk=\\frac{n(n+1)}{2}\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12201,7 +12201,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
+    "ledtrad": "<p>Sätt in k = 1, 2, 3, … i uttrycket och addera termerna.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12227,7 +12227,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
+    "ledtrad": "<p>Hitta ett uttryck för term nummer k och skriv summan som \\(\\sum\\) med rätt start- och slutindex.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12254,7 +12254,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Använd formeln \\(\\sum_{k=1}^nk^2=\\frac{n(n+1)(2n+1)}{6}\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12280,7 +12280,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
+    "ledtrad": "<p>Sätt in k = 1, 2, 3, … i uttrycket och addera termerna. Här börjar k på 0.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12307,7 +12307,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
+    "ledtrad": "<p>Skillnaden mellan termerna är konstant. Använd \\(a_n=a_1+(n-1)d\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12333,7 +12333,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
+    "ledtrad": "<p>Hitta ett uttryck för term nummer k och skriv summan som \\(\\sum\\) med rätt start- och slutindex.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12360,7 +12360,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Summan av en aritmetisk talföljd är antalet termer gånger medelvärdet av första och sista termen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12388,7 +12388,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Skriv ut termerna från \\(k=3\\) till \\(k=7\\) och addera dem.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12506,7 +12506,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Summan av en aritmetisk talföljd är antalet termer gånger medelvärdet av första och sista termen. Räkna antalet termer från \\(k=3\\) till \\(k=12\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12532,7 +12532,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Summan av en aritmetisk talföljd är antalet termer gånger medelvärdet av första och sista termen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12559,7 +12559,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Summan av en aritmetisk talföljd är antalet termer gånger medelvärdet av första och sista termen. Räkna antalet termer från \\(k=2\\) till \\(k=6\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12585,7 +12585,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
+    "ledtrad": "<p>Hitta ett uttryck för term nummer k och skriv summan som \\(\\sum\\) med rätt start- och slutindex. Hur många termer finns det?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12626,7 +12626,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
+    "ledtrad": "<p>Sätt in n = 1, 2, 3 och 4 i formeln.</p>",
     "traningsniva": 2,
     "svarFormat": [
       "numeriskt",
@@ -12692,7 +12692,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Dela upp summan i \\(2\\sum k-\\sum1\\) och använd att \\(\\sum_{k=1}^nk=\\frac{n(n+1)}{2}\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12719,7 +12719,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
+    "ledtrad": "<p>Använd att \\(\\sum_{k=1}^nk=\\frac{n(n+1)}{2}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -12746,7 +12746,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
+    "ledtrad": "<p>Skillnaden mellan termerna är konstant. Använd \\(a_n=a_1+(n-1)d\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "talfoljder_sigma"
@@ -18730,7 +18730,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Ett induktionsbevis har ett basfall och ett induktionssteg. Varför räcker de tillsammans för att nå varje heltal?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "bevismetoder"
@@ -18755,7 +18755,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Lägg till nästa term på båda sidor av antagandet.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "bevismetoder"
@@ -18780,7 +18780,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Skriv uttrycket för \\(k+1\\) så att uttrycket för k syns. Utveckla \\((k+1)^3+2(k+1)\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "bevismetoder"
@@ -18805,7 +18805,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Lägg till nästa term på båda sidor av antagandet.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "bevismetoder"
@@ -18830,7 +18830,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Exempel visar bara att påståendet gäller för just de talen. Vad måste visas för att det ska gälla för alla?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "bevismetoder"
@@ -18855,7 +18855,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Här behövs att formeln gäller för två föregående index. Visa två basfall och använd rekursionen i steget.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "bevismetoder"
@@ -18880,7 +18880,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Lägg till nästa term på båda sidor av antagandet.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "bevismetoder"
@@ -18905,7 +18905,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Använd rekursionen \\(F_{k+3}=F_{k+2}+F_{k+1}\\).</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "bevismetoder"
@@ -18930,7 +18930,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Lägg till nästa term på båda sidor av antagandet.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "bevismetoder"
@@ -18955,7 +18955,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Använd att \\(2^{k+1}=2\\cdot2^k\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "bevismetoder"
@@ -18980,7 +18980,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Undersök steget från \\(k=1\\) till \\(k=2\\). Överlappar mängderna då?</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "bevismetoder"
@@ -19008,7 +19008,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Skriv uttrycket för \\(k+1\\) så att uttrycket för k syns. Skriv \\(5^{2(k+1)}=25\\cdot5^{2k}\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "bevismetoder"
@@ -19034,7 +19034,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Lägg till nästa term på båda sidor av antagandet.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "bevismetoder"
@@ -19059,7 +19059,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Skriv uttrycket för \\(k+1\\) så att uttrycket för k syns. Skriv \\(7^{2(k+1)}=49\\cdot7^{2k}\\).</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "bevismetoder"
@@ -19084,7 +19084,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Lägg till nästa term på båda sidor av antagandet.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "bevismetoder"
@@ -19109,7 +19109,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Skriv uttrycket för \\(k+1\\) så att uttrycket för k syns. Skriv \\(4^{k+1}=4\\cdot4^k\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "bevismetoder"
@@ -19134,7 +19134,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
+    "ledtrad": "<p>Visa basfallet. Anta sedan att påståendet gäller för \\(n=k\\) och visa att det då gäller för \\(n=k+1\\). Lägg till nästa term på båda sidor av antagandet.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "bevismetoder"
@@ -19160,7 +19160,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och visa att det leder till något orimligt. Anta att \\(\\sqrt2=p/q\\) i förkortad form och kvadrera.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "bevismetoder"
@@ -19186,7 +19186,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och visa att det leder till något orimligt. Multiplicera alla primtal och lägg till 1.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "bevismetoder"
@@ -19212,7 +19212,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och visa att det leder till något orimligt. Anta att \\(\\sqrt2+\\sqrt3=r\\) är rationellt och kvadrera.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "bevismetoder"
@@ -19264,7 +19264,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och visa att det leder till något orimligt. Om n är jämnt, vad blir då \\(n^2\\)?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "bevismetoder"
@@ -19290,7 +19290,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och visa att det leder till något orimligt. Om q är det minsta positiva rationella talet, vad är då \\(q/2\\)?</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "bevismetoder"
@@ -19315,7 +19315,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
+    "ledtrad": "<p>Skriv jämna tal som \\(2a\\) och udda tal som \\(2a+1\\), där a är ett heltal.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "bevismetoder"
@@ -19343,7 +19343,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
+    "ledtrad": "<p>Skriv jämna tal som \\(2a\\) och udda tal som \\(2a+1\\), där a är ett heltal.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "bevismetoder"
@@ -19371,7 +19371,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
+    "ledtrad": "<p>Skriv talen som \\(\\frac ab\\) och \\(\\frac cd\\) med heltal och addera.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "bevismetoder"
@@ -19400,7 +19400,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
+    "ledtrad": "<p>Visa det kontrapositiva påståendet: om n inte har egenskapen, så har inte \\(n^2\\) det heller.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "bevismetoder"
@@ -19457,7 +19457,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
+    "ledtrad": "<p>\\(a\\mid b\\) betyder att \\(b=a\\cdot k\\) för något heltal k. Skriv b och c på det sättet och sätt in.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "bevismetoder"
@@ -19485,7 +19485,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
+    "ledtrad": "<p>Skriv det udda talet som \\(2k+1\\) och kvadrera. Ett av talen k och \\(k+1\\) är jämnt.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "bevismetoder"
@@ -19514,7 +19514,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
+    "ledtrad": "<p>Visa det kontrapositiva påståendet: om n inte har egenskapen, så har inte \\(n^2\\) det heller. Skriv n som \\(3k+1\\) eller \\(3k+2\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "bevismetoder"
@@ -19571,7 +19571,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
+    "ledtrad": "<p>Bland tre på varandra följande heltal finns alltid ett jämnt tal och ett som är delbart med 3.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "bevismetoder"
@@ -19599,7 +19599,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Motsägelsebeviset börjar med motsatsen till det som ska visas.</p>",
     "traningsniva": 1,
     "typ": "välja startantagande i motsägelsebevis",
     "omrTidigare": [
@@ -19626,7 +19626,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Motsägelsebeviset börjar med motsatsen till det som ska visas.</p>",
     "traningsniva": 1,
     "typ": "välja startantagande i motsägelsebevis",
     "omrTidigare": [
@@ -19653,7 +19653,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Vad betyder det att ett antagande leder till en motsägelse?</p>",
     "traningsniva": 1,
     "typ": "tolka motsägelse i bevis",
     "omrTidigare": [
@@ -19680,7 +19680,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Motsägelsebeviset börjar med motsatsen till det som ska visas.</p>",
     "traningsniva": 1,
     "typ": "välja antagande i motsägelsebevis",
     "omrTidigare": [
@@ -19707,7 +19707,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
+    "ledtrad": "<p>Det är svårt att gå direkt från \\(n^2\\) till n. Kan du gå åt andra hållet?</p>",
     "traningsniva": 1,
     "typ": "välja bevismetod",
     "omrTidigare": [
@@ -19767,7 +19767,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och visa att det leder till något orimligt. Om N är det största jämna talet, vad är då \\(N+2\\)?</p>",
     "traningsniva": 2,
     "typ": "enkelt motsägelsebevis",
     "omrTidigare": [
@@ -19792,7 +19792,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
+    "ledtrad": "<p>Anta motsatsen till det som ska visas och visa att det leder till något orimligt. Skriv de udda talen som \\(2a+1\\) och \\(2b+1\\), där a och b är heltal.</p>",
     "traningsniva": 2,
     "typ": "enkelt motsägelsebevis med jämn/udda",
     "omrTidigare": [
@@ -19817,7 +19817,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
+    "ledtrad": "<p>\\(a\\mid b\\) betyder att \\(b=a\\cdot k\\) för något heltal k. Skriv talen som \\(5a\\) och \\(5b\\).</p>",
     "traningsniva": 2,
     "typ": "direkt bevis – delbarhet",
     "omrTidigare": [
@@ -19845,7 +19845,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
+    "ledtrad": "<p>Visa det kontrapositiva påståendet: om n inte har egenskapen, så har inte \\(n^2\\) det heller.</p>",
     "traningsniva": 2,
     "typ": "kontraposition – jämn/udda",
     "omrTidigare": [
@@ -19903,7 +19903,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
+    "ledtrad": "<p>\\(a\\mid b\\) betyder att \\(b=a\\cdot k\\) för något heltal k. Skriv b och c som multipler av a och sätt in i \\(3b-2c\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "bevismetoder"
@@ -20726,7 +20726,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
     "traningsniva": 1
   },
   {
@@ -20751,7 +20751,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "intervall",
-    "ledtrad": "<p>Skriv den generaliserade integralen som ett gränsvärde. Efter integreringen avgör exponenten i gränsuttrycket för vilka parametervärden gränsvärdet blir ändligt.</p>",
+    "ledtrad": "<p>Beräkna integralen med en variabel som gräns och undersök när gränsvärdet blir ändligt. Jämför exponenten med 1.</p>",
     "traningsniva": 4
   },
   {
@@ -20774,7 +20774,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
     "traningsniva": 1
   },
   {
@@ -20821,7 +20821,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
     "traningsniva": 2
   },
   {
@@ -20871,7 +20871,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "intervall",
-    "ledtrad": "<p>Skriv den generaliserade integralen som ett gränsvärde. Efter integreringen avgör exponenten i gränsuttrycket för vilka parametervärden gränsvärdet blir ändligt.</p>",
+    "ledtrad": "<p>Beräkna integralen med en variabel som gräns och undersök när gränsvärdet blir ändligt. Jämför exponenten med 1.</p>",
     "traningsniva": 4
   },
   {
@@ -20895,7 +20895,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv den generaliserade integralen som ett gränsvärde. Efter integreringen avgör exponenten i gränsuttrycket för vilka parametervärden gränsvärdet blir ändligt.</p>",
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten. Jämför sedan \\(I(2a)\\) med \\(I(a)\\).</p>",
     "traningsniva": 5
   },
   {
@@ -20919,7 +20919,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Arean är \\(\\int_1^\\infty\\frac1{x^2}\\,dx\\). Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
     "traningsniva": 1
   },
   {
@@ -20945,7 +20945,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "intervall",
-    "ledtrad": "<p>Skriv den generaliserade integralen som ett gränsvärde. Efter integreringen avgör exponenten i gränsuttrycket för vilka parametervärden gränsvärdet blir ändligt.</p>",
+    "ledtrad": "<p>Beräkna integralen med en variabel som gräns och undersök när gränsvärdet blir ändligt. Jämför exponenten med 1. Problemet ligger vid \\(x=2\\).</p>",
     "traningsniva": 5
   },
   {
@@ -20969,7 +20969,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
     "traningsniva": 2
   },
   {
@@ -20993,7 +20993,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
     "traningsniva": 1
   },
   {
@@ -21017,7 +21017,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
     "traningsniva": 1
   },
   {
@@ -21066,7 +21066,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Integranden är inte definierad vid gränsen. Ersätt gränsen med en variabel, beräkna integralen och undersök gränsvärdet.</p>",
     "traningsniva": 3
   },
   {
@@ -21091,7 +21091,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Beräkna integralen med en variabel som gräns och undersök när gränsvärdet blir ändligt. Jämför exponenten med 1.</p>",
     "traningsniva": 3
   },
   {
@@ -21115,7 +21115,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
     "traningsniva": 2
   },
   {
@@ -21192,7 +21192,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Integranden är inte definierad vid \\(x=0\\), som ligger inne i intervallet. Dela integralen där och undersök varje del.</p>",
     "traningsniva": 4
   },
   {
@@ -21218,7 +21218,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "intervall",
-    "ledtrad": "<p>Skriv den generaliserade integralen som ett gränsvärde. Efter integreringen avgör exponenten i gränsuttrycket för vilka parametervärden gränsvärdet blir ändligt.</p>",
+    "ledtrad": "<p>Beräkna integralen med en variabel som gräns och undersök när gränsvärdet blir ändligt. Jämför exponenten med 1.</p>",
     "traningsniva": 4
   },
   {
@@ -21267,7 +21267,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Integranden är inte definierad vid gränsen. Ersätt gränsen med en variabel, beräkna integralen och undersök gränsvärdet.</p>",
     "traningsniva": 3
   },
   {
@@ -21293,7 +21293,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "intervall",
-    "ledtrad": "<p>Skriv den generaliserade integralen som ett gränsvärde. Efter integreringen avgör exponenten i gränsuttrycket för vilka parametervärden gränsvärdet blir ändligt.</p>",
+    "ledtrad": "<p>Beräkna integralen med en variabel som gräns och undersök när gränsvärdet blir ändligt. Jämför exponenten med 1.</p>",
     "traningsniva": 4
   },
   {
@@ -21317,7 +21317,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
     "traningsniva": 2
   },
   {
@@ -21341,7 +21341,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
     "traningsniva": 1
   },
   {
@@ -21365,7 +21365,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Ersätt \\(\\infty\\) eller den problematiska ändpunkten med en parameter, beräkna en vanlig bestämd integral och ta sedan gränsvärdet.</p>",
+    "ledtrad": "<p>Integranden är inte definierad vid gränsen. Ersätt gränsen med en variabel, beräkna integralen och undersök gränsvärdet. Den primitiva funktionen till \\(\\ln x\\) är \\(x\\ln x-x\\).</p>",
     "traningsniva": 4
   },
   {
@@ -21545,7 +21545,7 @@ window.BANKMATF1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21732,7 +21732,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Likformighet ger radien uttryckt i djupet. Skriv konens volym med bara h och derivera med avseende på tiden.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21853,7 +21853,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Avståndet ges av Pythagoras sats. Derivera sambandet med avseende på tiden och sätt in värdena först efteråt. Tänk på enheterna km/h och m.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21884,7 +21884,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Avståndet ges av Pythagoras sats. Derivera sambandet med avseende på tiden och sätt in värdena först efteråt.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21915,7 +21915,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Likformighet ger radien uttryckt i djupet. Skriv konens volym med bara h och derivera med avseende på tiden. Tänk på enheterna: 50 liter är 0,050 m³.</p>",
     "traningsniva": 5,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21946,7 +21946,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Pythagoras sats ger \\(x^2+y^2=L^2\\). Derivera med avseende på tiden: \\(2x\\frac{dx}{dt}+2y\\frac{dy}{dt}=0\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -21976,7 +21976,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22032,7 +22032,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Arean är \\(A=s^2\\), så \\(\\frac{dA}{dt}=2s\\frac{ds}{dt}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22061,7 +22061,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Skriv arean med diametern: \\(A=\\frac{\\pi d^2}{4}\\). Derivera med avseende på tiden.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22090,7 +22090,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\), så \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22119,7 +22119,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Volymen är \\(V=s^3\\), så \\(\\frac{dV}{dt}=3s^2\\frac{ds}{dt}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22148,7 +22148,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Pythagoras sats ger \\(x^2+y^2=L^2\\). Derivera med avseende på tiden: \\(2x\\frac{dx}{dt}+2y\\frac{dy}{dt}=0\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22177,7 +22177,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Skriv konens volym med bara h, eftersom \\(r=h/3\\). Derivera med avseende på tiden.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22204,7 +22204,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Arean är \\(A=lb\\). Derivera med produktregeln med avseende på tiden.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22233,7 +22233,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant r. Derivera med avseende på tiden.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22264,7 +22264,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Likformiga trianglar ger ett samband mellan personens avstånd till lyktan och skuggans längd. Derivera det med avseende på tiden.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22293,7 +22293,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\), så \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\). Lös ut \\(dr/dt\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22322,7 +22322,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Omkretsen är \\(O=2\\pi r\\), så \\(\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22352,7 +22352,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Omkretsen är \\(O=2\\pi r\\), så \\(\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}\\). Använd det för att bestämma \\(dr/dt\\) och sedan \\(dA/dt\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22410,7 +22410,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Avståndet ges av Pythagoras sats. Derivera sambandet med avseende på tiden och sätt in värdena först efteråt. Repets längd är hypotenusan och kajens höjd är konstant.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22440,7 +22440,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\), så \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\). Lös ut \\(dr/dt\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22470,7 +22470,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Kvadratens area är \\(A=d^2/2\\), uttryckt med diagonalen. Derivera med avseende på tiden.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22499,7 +22499,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant r. Derivera med avseende på tiden. Lös ut \\(dh/dt\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22530,7 +22530,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Avståndet ges av Pythagoras sats. Derivera sambandet med avseende på tiden och sätt in värdena först efteråt. Tänk på enheterna km/h och m.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22560,7 +22560,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Skriv konens volym med bara h, eftersom \\(r=2h\\). Derivera med avseende på tiden.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22591,7 +22591,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>\\(\\tan v=\\frac{y}{12}\\), där y är höjden på väggen. Derivera båda leden med avseende på tiden.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22622,7 +22622,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Avståndet ges av Pythagoras sats. Derivera sambandet med avseende på tiden och sätt in värdena först efteråt. Höjden är konstant, så bara den vågräta sträckan ändras.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22678,7 +22678,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\). Bestäm \\(dr/dt\\) och använd sedan \\(\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -22790,7 +22790,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
+    "ledtrad": "<p>Likformighet ger radien uttryckt i djupet. Skriv konens volym med bara h och derivera med avseende på tiden.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
@@ -25920,7 +25920,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "andra_ordningen"
@@ -25949,7 +25949,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "andra_ordningen"
@@ -25980,7 +25980,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. Två olika reella rötter ger \\(y=C_1e^{r_1x}+C_2e^{r_2x}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "andra_ordningen"
@@ -26006,7 +26006,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. Två olika reella rötter ger \\(y=C_1e^{r_1x}+C_2e^{r_2x}\\). Välj till exempel \\(C_2=0\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "andra_ordningen"
@@ -26037,7 +26037,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. Två olika reella rötter ger \\(y=C_1e^{r_1x}+C_2e^{r_2x}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "andra_ordningen"
@@ -26064,7 +26064,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. Två olika reella rötter ger \\(y=C_1e^{r_1x}+C_2e^{r_2x}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "andra_ordningen"
@@ -26090,7 +26090,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. Två olika reella rötter ger \\(y=C_1e^{r_1x}+C_2e^{r_2x}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "andra_ordningen"
@@ -26116,7 +26116,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. Två olika reella rötter ger \\(y=C_1e^{r_1x}+C_2e^{r_2x}\\).</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "andra_ordningen"
@@ -26142,7 +26142,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "andra_ordningen"
@@ -26172,7 +26172,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. En dubbelrot r ger \\(y=(C_1+C_2x)e^{rx}\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -26198,7 +26198,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Den första är av första ordningen: \\(y=Ce^{8x}\\). Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. Komplexa rötter \\(a\\pm bi\\) ger \\(y=e^{ax}(C_1\\cos bx+C_2\\sin bx)\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "andra_ordningen"
@@ -26253,7 +26253,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna. Den karakteristiska ekvationen har en dubbelrot.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "andra_ordningen"
@@ -26283,7 +26283,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Lösningen har formen för en dubbelrot \\(r=-3\\). Den karakteristiska ekvationen är alltså \\((r+3)^2=0\\).</p>",
     "traningsniva": 3,
     "spel": false,
     "omrTidigare": [
@@ -26311,7 +26311,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. En dubbelrot r ger \\(y=(C_1+C_2x)e^{rx}\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -26338,7 +26338,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. En dubbelrot r ger \\(y=(C_1+C_2x)e^{rx}\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -26393,7 +26393,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. En dubbelrot r ger \\(y=(C_1+C_2x)e^{rx}\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -26420,7 +26420,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "andra_ordningen"
@@ -26480,7 +26480,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. Komplexa rötter \\(a\\pm bi\\) ger \\(y=e^{ax}(C_1\\cos bx+C_2\\sin bx)\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -26507,7 +26507,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. Komplexa rötter \\(a\\pm bi\\) ger \\(y=e^{ax}(C_1\\cos bx+C_2\\sin bx)\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -26620,7 +26620,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Sätt \\(y=e^{rx}\\). Då får du den karakteristiska ekvationen \\(r^2+ar+b=0\\), som du löser med pq-formeln. Komplexa rötter \\(a\\pm bi\\) ger \\(y=e^{ax}(C_1\\cos bx+C_2\\sin bx)\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -26646,7 +26646,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "andra_ordningen"
@@ -26677,7 +26677,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Ett konstant högerled ger en konstant ansats \\(y_p=A\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -26928,7 +26928,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Ett konstant högerled ger en konstant ansats \\(y_p=A\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -26954,7 +26954,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
+    "ledtrad": "<p>Högerledet är ett förstagradspolynom, så pröva \\(y_p=Ax+B\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -26980,7 +26980,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Den homogena lösningen innehåller redan \\(\\sin2x\\) och \\(\\cos2x\\). Då måste ansatsen multipliceras med x.</p>",
     "traningsniva": 4,
     "spel": false,
     "omrTidigare": [
@@ -27008,7 +27008,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Pröva \\(y_p=Ae^{2x}\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -27038,7 +27038,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
+    "ledtrad": "<p>Pröva \\(y_p=A\\cos2x+B\\sin2x\\) och sätt in i ekvationen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -27125,7 +27125,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Ett konstant högerled ger en konstant ansats \\(y_p=A\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -27152,7 +27152,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Ett konstant högerled ger en konstant ansats \\(y_p=A\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -27179,7 +27179,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "diffekv_losning",
-    "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Pröva \\(y_p=Ae^{4x}\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "andra_ordningen"
@@ -27319,7 +27319,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -27378,7 +27378,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -27445,7 +27445,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Integrera två gånger. Begynnelsevillkoren bestämmer de två konstanterna.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -27474,7 +27474,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -27503,7 +27503,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -27533,7 +27533,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -27591,7 +27591,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Ett konstant högerled ger en konstant ansats \\(y_p=A\\). Sätt sedan in begynnelsevillkoren.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -27621,7 +27621,7 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna. Skriv sedan \\(C_1\\cos3x+C_2\\sin3x\\) som \\(A\\cos(3x+\\varphi)\\) med \\(A=\\sqrt{C_1^2+C_2^2}\\).</p>",
     "traningsniva": 5,
     "spel": false,
     "omrTidigare": [
@@ -27999,7 +27999,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -28029,7 +28029,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -28059,7 +28059,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -28117,7 +28117,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Ett konstant högerled ger en konstant ansats \\(y_p=A\\). Sätt sedan in begynnelsevillkoren.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -28240,7 +28240,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in \\(y(0)\\) och \\(y'(0)\\) och lös ut konstanterna.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -28323,7 +28323,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Ett konstant högerled ger en konstant ansats \\(y_p=A\\). Sätt sedan in begynnelsevillkoren.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "begynnelsevillkor"
@@ -28353,7 +28353,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget.</p>",
     "traningsniva": 2
   },
   {
@@ -28377,7 +28377,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget.</p>",
     "traningsniva": 2,
     "svarFormat": "numeriskt"
   },
@@ -28402,7 +28402,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget.</p>",
     "traningsniva": 1
   },
   {
@@ -28426,7 +28426,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget.</p>",
     "traningsniva": 2
   },
   {
@@ -28450,7 +28450,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget.</p>",
     "traningsniva": 2
   },
   {
@@ -28474,7 +28474,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
+    "ledtrad": "<p>Jämför felen för de två steglängderna. Hur ändras felet när steget halveras?</p>",
     "traningsniva": 3,
     "spel": false
   },
@@ -28499,7 +28499,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
+    "ledtrad": "<p>Lutningen i en punkt får du genom att sätta in punktens koordinater i högerledet. Fältet är horisontellt där \\(x-y=0\\).</p>",
     "traningsniva": 3,
     "spel": false
   },
@@ -28522,7 +28522,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
+    "ledtrad": "<p>Var är linjeelementen horisontella i figuren? Där är högerledet noll.</p>",
     "traningsniva": 2,
     "alternativ": [{"txt": "\\(y'=x-y\\)", "ratt": true}, {"txt": "\\(y'=x+y\\)", "ratt": false, "kommentar": "Med y′ = x + y blir lutningen 0 på linjen y = −x, inte på y = x."}, {"txt": "\\(y'=xy\\)", "ratt": false, "kommentar": "Med y′ = xy blir lutningen 0 på axlarna, inte på linjen y = x."}, {"txt": "\\(y'=y-x\\)", "ratt": false, "kommentar": "Med y′ = y − x blir lutningen positiv ovanför y = x, men i fältet är den negativ där."}]
   },
@@ -28546,7 +28546,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
+    "ledtrad": "<p>Sätt in punkten \\((0,1)\\) i den allmänna lösningen och bestäm C.</p>",
     "traningsniva": 2,
     "svarFormat": "uttryck"
   },
@@ -28569,7 +28569,7 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
+    "ledtrad": "<p>Lutningen i en punkt får du genom att sätta in punktens koordinater i högerledet.</p>",
     "traningsniva": 1,
     "svarFormat": "numeriskt"
   },
@@ -28593,7 +28593,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
+    "ledtrad": "<p>\\(y'=2-y\\) är negativ när \\(y>2\\) och positiv när \\(y<2\\). Vad händer då med lösningarna?</p>",
     "traningsniva": 3,
     "spel": false
   },
@@ -28646,7 +28646,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
+    "ledtrad": "<p>Lutningen i en punkt får du genom att sätta in punktens koordinater i högerledet. Vid \\((0,3)\\) är \\(y'=-3\\). Vad händer med lutningen när kurvan närmar sig \\(y=x-1\\)?</p>",
     "traningsniva": 3,
     "spel": false
   },
@@ -28671,7 +28671,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget. Den exakta lösningen är \\(y=e^{-2x}\\).</p>",
     "traningsniva": 4,
     "spel": false
   },
@@ -28696,7 +28696,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget.</p>",
     "traningsniva": 1
   },
   {
@@ -28720,7 +28720,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget.</p>",
     "traningsniva": 2
   },
   {
@@ -28760,7 +28760,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [{"etikett": "a", "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkten</p><div class=\"spel-en-del\">\\((0,1)\\)</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[2\\cdot0-1=-1.\\]</div>", "niva": "E", "poang": "1/0/0"}, {"etikett": "b", "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkten</p><div class=\"spel-en-del\">\\((1,0)\\)</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[2\\cdot1-0=2.\\]</div>", "niva": "E", "poang": "1/0/0"}, {"etikett": "c", "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkten</p><div class=\"spel-en-del\">\\((2,3)\\).</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[2\\cdot2-3=1.\\]</div>", "niva": "E", "poang": "1/0/0"}],
-    "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
+    "ledtrad": "<p>Lutningen i en punkt får du genom att sätta in punktens koordinater i högerledet.</p>",
     "traningsniva": 1
   },
   {
@@ -28854,7 +28854,7 @@ window.BANKMATF1 = [
         "niva": "C"
       }
     ],
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget. Jämför sedan båda värdena med det exakta.</p>",
     "traningsniva": 3
   },
   {
@@ -28877,7 +28877,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
+    "ledtrad": "<p>Lutningen i en punkt får du genom att sätta in punktens koordinater i högerledet. Högerledet är noll där \\(x-2y=0\\).</p>",
     "traningsniva": 3,
     "spel": false
   },
@@ -28952,7 +28952,7 @@ window.BANKMATF1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget.</p>",
     "traningsniva": 3
   },
   {
@@ -28992,7 +28992,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [{"etikett": "a", "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkten</p><div class=\"spel-en-del\">\\((0,2)\\)</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[2-0^2=2.\\]</div>", "niva": "E", "poang": "1/0/0"}, {"etikett": "b", "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkten</p><div class=\"spel-en-del\">\\((1,1)\\)</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[1-1^2=0.\\]</div>", "niva": "E", "poang": "1/0/0"}, {"etikett": "c", "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkten</p><div class=\"spel-en-del\">\\((2,3)\\).</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[3-2^2=-1.\\]</div>", "niva": "E", "poang": "1/0/0"}],
-    "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
+    "ledtrad": "<p>Lutningen i en punkt får du genom att sätta in punktens koordinater i högerledet.</p>",
     "traningsniva": 1
   },
   {
@@ -29016,7 +29016,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv upp \\(y_{n+1}=y_n+h f(x_n,y_n)\\). Beräkna lutningen i startpunkten för varje steg innan du uppdaterar \\(x\\) och \\(y\\).</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget.</p>",
     "traningsniva": 2
   },
   {
@@ -29087,7 +29087,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>\\(P'=kP\\) ger \\(P=P_0e^{kt}\\). Sätt \\(e^{-0{,}00012t}=0{,}52\\) och lös ut t.</p>",
     "traningsniva": 3,
     "spel": false,
     "omrTidigare": [
@@ -29117,7 +29117,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Newtons avsvalningslag ger \\(T=T_{\\text{rum}}+Ce^{-kt}\\). Startvärdet bestämmer C och ett mätvärde bestämmer k.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "modellering_digitalt"
@@ -29144,7 +29144,7 @@ window.BANKMATF1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Sätt in \\(t=9\\) i lösningen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "modellering_digitalt"
@@ -29175,7 +29175,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Mängden ändras som inflöde minus utflöde: \\(M'=\\) (koncentration in)·(flöde in) − \\(\\frac{M}{V}\\)·(flöde ut).</p>",
     "traningsniva": 4,
     "spel": false,
     "omrTidigare": [
@@ -29204,7 +29204,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Lös \\(v'=9{,}82-0{,}40v\\) med \\(v(0)=0\\). Sträckan är integralen av hastigheten.</p>",
     "traningsniva": 4,
     "spel": false,
     "omrTidigare": [
@@ -29233,7 +29233,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Gränshastigheten nås när accelerationen är noll. Sätt \\(v'=0\\) och lös ut v.</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "modellering_digitalt"
@@ -29261,7 +29261,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Mängden ändras som inflöde minus utflöde: \\(M'=\\) (koncentration in)·(flöde in) − \\(\\frac{M}{V}\\)·(flöde ut).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "modellering_digitalt"
@@ -29289,7 +29289,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Newtons andra lag ger \\(y''+9y=6\\cos2t\\). Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Pröva \\(y_p=A\\cos2t+B\\sin2t\\).</p>",
     "traningsniva": 5,
     "spel": false,
     "omrTidigare": [
@@ -29319,7 +29319,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Modellen \\(P'=kP\\) växer obegränsat. Vad begränsar en verklig population?</p>",
     "traningsniva": 5,
     "spel": false,
     "omrTidigare": [
@@ -29352,7 +29352,7 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Lös först den homogena ekvationen. Lägg sedan till en partikulärlösning av samma typ som högerledet. Ett konstant högerled ger en konstant ansats \\(y_p=A\\). När t blir stor går de homogena termerna mot 0.</p>",
     "traningsniva": 5,
     "spel": false,
     "omrTidigare": [
@@ -29384,7 +29384,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Mängden ändras som inflöde minus utflöde: \\(M'=\\) (koncentration in)·(flöde in) − \\(\\frac{M}{V}\\)·(flöde ut). Läs noga om volymen är konstant.</p>",
     "traningsniva": 5,
     "spel": false,
     "omrTidigare": [
@@ -29440,7 +29440,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Avsvalningen är proportionell mot temperaturskillnaden: \\(T'=-k(T-20)\\).</p>",
     "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
@@ -29468,7 +29468,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Proportionell mot storleken betyder \\(P'=kP\\).</p>",
     "traningsniva": 1,
     "spel": false,
     "omrTidigare": [
@@ -29497,7 +29497,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Nedbrytningen ger termen \\(-kM\\) och tillförseln \\(+20\\). Skriv \\(M'=20-kM\\).</p>",
     "traningsniva": 3,
     "spel": false,
     "omrTidigare": [
@@ -29525,7 +29525,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Mängden ändras som inflöde minus utflöde: \\(M'=\\) (koncentration in)·(flöde in) − \\(\\frac{M}{V}\\)·(flöde ut).</p>",
     "traningsniva": 3,
     "spel": false,
     "omrTidigare": [
@@ -29554,7 +29554,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>\\(T(0)=80\\) ger C. Sätt sedan \\(T(10)=50\\) och lös ut k.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "modellering_digitalt"
@@ -29582,7 +29582,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Kontrollera genom att derivera den givna lösningen och sätta in den i differentialekvationen. Kontrollera också att \\(y(0)=1\\).</p>",
     "traningsniva": 3,
     "spel": false,
     "omrTidigare": [
@@ -29611,7 +29611,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Eulers metod: \\(y_{n+1}=y_n+h\\cdot f(x_n,y_n)\\), där lutningen räknas i den gamla punkten. Gör ett steg i taget. Jämför sedan med det exakta värdet e.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "modellering_digitalt"
@@ -29639,7 +29639,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Kontrollera genom att derivera den givna lösningen och sätta in den i differentialekvationen. Termerna med \\(C_1\\) och \\(C_2\\) löser den homogena ekvationen.</p>",
     "traningsniva": 4,
     "spel": false,
     "omrTidigare": [
@@ -29667,7 +29667,7 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Sätt in \\(x=1\\) och \\(y=6\\) i \\(y=Ce^{4x}\\) och lös ut C.</p>",
     "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
@@ -29696,7 +29696,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Kontrollera genom att derivera den givna lösningen och sätta in den i differentialekvationen. Kontrollera att vänsterledet blir 10.</p>",
     "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
@@ -29723,7 +29723,7 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Tolka \\(y(5)\\approx3{,}84\\) med enheterna: vad är y och vad är t?</p>",
     "traningsniva": 1,
     "spel": false,
     "omrTidigare": [
@@ -29750,7 +29750,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Modellen förutsätter konstant rumstemperatur. Vad händer om \\(T_r\\) i stället är en funktion av tiden?</p>",
     "traningsniva": 5,
     "spel": false,
     "omrTidigare": [
@@ -29778,7 +29778,7 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Det absoluta felet är skillnaden mellan det exakta och det approximativa värdet.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "modellering_digitalt"
@@ -29805,7 +29805,7 @@ window.BANKMATF1 = [
       "modellering",
       "problemlösning"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Mängden ändras som inflöde minus utflöde: \\(M'=\\) (koncentration in)·(flöde in) − \\(\\frac{M}{V}\\)·(flöde ut).</p>",
     "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
@@ -29832,7 +29832,7 @@ window.BANKMATF1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Vad händer med \\(T(t)\\) när t blir mycket stort?</p>",
     "traningsniva": 1,
     "spel": false,
     "omrTidigare": [
@@ -29862,7 +29862,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Vid jämvikt är förändringshastigheten noll. Sätt högerledet lika med 0.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "modellering_digitalt"
@@ -29891,7 +29891,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>\\(P'=kP\\) ger \\(P=P_0e^{kt}\\). Fördubbling betyder \\(e^{10k}=2\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "modellering_digitalt"
@@ -29920,7 +29920,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Sätt \\(T(5)=50\\) och lös ut k med logaritmer.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "modellering_digitalt"
@@ -30005,7 +30005,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>\\(P'=kP\\) ger \\(P=P_0e^{kt}\\).</p>",
     "traningsniva": 2,
     "omrTidigare": [
       "modellering_digitalt"
@@ -30031,7 +30031,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Låt bärförmågan vara en funktion av tiden, \\(K(t)\\), som minskar.</p>",
     "traningsniva": 5,
     "spel": false,
     "omrTidigare": [
@@ -30075,7 +30075,7 @@ window.BANKMATF1 = [
       "M(t)",
       "tid"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Jämviktsvärdet är 60 mg, så \\(M=60+Ce^{-0{,}3t}\\). \\(M(0)=0\\) ger C.</p>",
     "traningsniva": 4,
     "omrTidigare": [
       "modellering_digitalt"
@@ -30101,7 +30101,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Vid hög fart växer luftmotståndet snabbare än linjärt. Pröva en modell med \\(kv^2\\).</p>",
     "traningsniva": 5,
     "spel": false,
     "omrTidigare": [
@@ -30127,7 +30127,7 @@ window.BANKMATF1 = [
       "modellering",
       "begrepp"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Avsvalningen är proportionell mot temperaturskillnaden, och temperaturen minskar när föremålet är varmare än rummet.</p>",
     "traningsniva": 1,
     "typ": "välja differentialekvation för Newtons avsvalningslag",
     "omrTidigare": [
@@ -30155,7 +30155,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>\\(P'=kP\\) ger \\(P=P_0e^{kt}\\). Fördubbling betyder \\(e^{6k}=2\\).</p>",
     "traningsniva": 3,
     "typ": "bestämma tillväxtkonstant från fördubblingstid",
     "omrTidigare": [
@@ -30182,7 +30182,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Vid jämvikt är förändringshastigheten noll. Sätt högerledet lika med 0. Den positiva jämvikten är när parentesen är noll.</p>",
     "traningsniva": 2,
     "typ": "bestämma positiv jämviktsnivå i logistisk modell",
     "omrTidigare": [
@@ -30239,7 +30239,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>När inflödet är större än utflödet ändras volymen med tiden. Då måste V i utflödestermen bytas mot \\(V(t)\\).</p>",
     "traningsniva": 5,
     "spel": false,
     "omrTidigare": [
@@ -30266,7 +30266,7 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
+    "ledtrad": "<p>Om resultatet ändras mycket när steget halveras är felet stort. Vad säger det om hur säker approximationen är?</p>",
     "traningsniva": 4,
     "spel": false,
     "omrTidigare": [
@@ -30296,7 +30296,7 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
+    "ledtrad": "<p>Skriv talen som n och \\(n+1\\), kvadrera och addera. Är summan av formen \\(2k+1\\)?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -30471,7 +30471,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>Snittet \\(A\\cap B\\) är de element som finns i båda mängderna, och unionen \\(A\\cup B\\) de som finns i minst en av dem.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30500,7 +30500,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>Snittet \\(A\\cap B\\) är de element som finns i båda mängderna, och unionen \\(A\\cup B\\) de som finns i minst en av dem.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30530,7 +30530,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>\\(A\\setminus B\\) är de element i A som inte finns i B.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30590,7 +30590,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>Gå igenom talen ett i taget och kontrollera om de uppfyller villkoret. Se upp med om gränserna ingår.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30621,7 +30621,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>\\(A\\subset B\\) betyder att varje element i A också finns i B.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30650,7 +30650,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>Kardinaltalet är antalet element i mängden.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30680,7 +30680,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "ledtrad": "<p>\\(|A\\cup B|=|A|+|B|-|A\\cap B|\\), eftersom snittet annars räknas två gånger.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -30950,7 +30950,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -30980,7 +30980,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -31010,7 +31010,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -31040,7 +31040,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -31070,7 +31070,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -31100,7 +31100,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -31130,7 +31130,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Varje kast har 2 utfall.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -31160,7 +31160,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Varje fråga har 2 svar.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -31190,7 +31190,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -31220,7 +31220,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -31250,7 +31250,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>",
+    "ledtrad": "<p>Det finns 10 möjliga entalssiffror. Vilka är lådorna och vilka är föremålen? Om n föremål läggs i k lådor hamnar minst \\(\\lceil n/k\\rceil\\) i någon låda.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ]
@@ -31277,7 +31277,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>",
+    "ledtrad": "<p>Vilka är lådorna och vilka är föremålen? Om n föremål läggs i k lådor hamnar minst \\(\\lceil n/k\\rceil\\) i någon låda.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ]
@@ -31304,7 +31304,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>",
+    "ledtrad": "<p>Tänk på det värsta fallet: hur många kan du ta utan att få tillräckligt många av samma sort? Ett föremål till räcker då.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ]
@@ -31331,7 +31331,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>",
+    "ledtrad": "<p>Vilka är lådorna och vilka är föremålen? Om n föremål läggs i k lådor hamnar minst \\(\\lceil n/k\\rceil\\) i någon låda.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ]
@@ -31358,7 +31358,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>",
+    "ledtrad": "<p>Vilka är lådorna och vilka är föremålen? Om n föremål läggs i k lådor hamnar minst \\(\\lceil n/k\\rceil\\) i någon låda.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ]
@@ -31385,7 +31385,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "antal_satt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "ledtrad": "<p>Alla ska ordnas, så antalet ordningar är \\(n!\\).</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31412,7 +31412,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "antal_satt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "ledtrad": "<p>Alla ska ordnas, så antalet ordningar är \\(n!\\).</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31439,7 +31439,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "antal_satt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "ledtrad": "<p>Alla ska ordnas, så antalet ordningar är \\(n!\\).</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31466,7 +31466,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "ledtrad": "<p>Ordningen spelar roll och bara några väljs. Det första valet kan göras på n sätt, nästa på \\(n-1\\) sätt och så vidare.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31493,7 +31493,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "ledtrad": "<p>Ordningen spelar roll och bara några väljs. Det första valet kan göras på n sätt, nästa på \\(n-1\\) sätt och så vidare.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31520,7 +31520,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "ledtrad": "<p>Ordningen spelar roll och bara några väljs. Det första valet kan göras på n sätt, nästa på \\(n-1\\) sätt och så vidare.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31547,7 +31547,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "ledtrad": "<p>Alla ska ordnas, så antalet ordningar är \\(n!\\).</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31574,7 +31574,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "ledtrad": "<p>Om en bokstav förekommer flera gånger delar du \\(n!\\) med fakulteten av antalet likadana bokstäver.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31601,7 +31601,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "ledtrad": "<p>Om en bokstav förekommer flera gånger delar du \\(n!\\) med fakulteten av antalet likadana bokstäver.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31628,7 +31628,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "ledtrad": "<p>\\(6!=6\\cdot5\\cdot4\\cdot3\\cdot2\\cdot1\\).</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31709,7 +31709,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31736,7 +31736,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31763,7 +31763,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31790,7 +31790,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31817,7 +31817,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs. Tänk på att \\(\\binom{10}{7}=\\binom{10}{3}\\).</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31844,7 +31844,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31871,7 +31871,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31898,7 +31898,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31925,7 +31925,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>En linje bestäms av två punkter. Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31952,7 +31952,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>En triangel bestäms av tre punkter. Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -31979,7 +31979,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -32006,7 +32006,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -32033,7 +32033,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd Pascals triangel/binomialkoefficienterna. Exponenterna på de två termerna ska tillsammans bli binomets exponent.</p>"
+    "ledtrad": "<p>Använd binomialsatsen eller Pascals triangel: \\((a+b)^n=\\sum\\binom nk a^{n-k}b^k\\).</p>"
   },
   {
     "kap": 1,
@@ -32057,7 +32057,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd Pascals triangel/binomialkoefficienterna. Exponenterna på de två termerna ska tillsammans bli binomets exponent.</p>"
+    "ledtrad": "<p>Använd binomialsatsen eller Pascals triangel: \\((a+b)^n=\\sum\\binom nk a^{n-k}b^k\\).</p>"
   },
   {
     "kap": 1,
@@ -32081,7 +32081,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd Pascals triangel/binomialkoefficienterna. Exponenterna på de två termerna ska tillsammans bli binomets exponent.</p>"
+    "ledtrad": "<p>Använd binomialsatsen eller Pascals triangel: \\((a+b)^n=\\sum\\binom nk a^{n-k}b^k\\).</p>"
   },
   {
     "kap": 1,
@@ -32153,7 +32153,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd Pascals triangel/binomialkoefficienterna. Exponenterna på de två termerna ska tillsammans bli binomets exponent.</p>"
+    "ledtrad": "<p>Använd binomialsatsen eller Pascals triangel: \\((a+b)^n=\\sum\\binom nk a^{n-k}b^k\\).</p>"
   },
   {
     "kap": 1,
@@ -32274,7 +32274,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd Pascals triangel/binomialkoefficienterna. Exponenterna på de två termerna ska tillsammans bli binomets exponent.</p>"
+    "ledtrad": "<p>Använd binomialsatsen eller Pascals triangel: \\((a+b)^n=\\sum\\binom nk a^{n-k}b^k\\).</p>"
   },
   {
     "kap": 1,
@@ -32322,7 +32322,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd Pascals triangel/binomialkoefficienterna. Exponenterna på de två termerna ska tillsammans bli binomets exponent.</p>"
+    "ledtrad": "<p>Använd binomialsatsen eller Pascals triangel: \\((a+b)^n=\\sum\\binom nk a^{n-k}b^k\\). Tecknen växlar eftersom \\(-1\\) upphöjs.</p>"
   },
   {
     "kap": 1,
@@ -32395,7 +32395,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
+    "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\).</p>"
   },
   {
     "kap": 1,
@@ -32420,7 +32420,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
+    "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\).</p>"
   },
   {
     "kap": 1,
@@ -32445,7 +32445,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
+    "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\).</p>"
   },
   {
     "kap": 1,
@@ -32595,7 +32595,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
+    "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\).</p>"
   },
   {
     "kap": 1,
@@ -32620,7 +32620,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
+    "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\).</p>"
   },
   {
     "kap": 1,
@@ -32645,7 +32645,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
+    "ledtrad": "<p>Varje kast ger ingen etta med sannolikheten 5/6. Kasten är oberoende.</p>"
   },
   {
     "kap": 1,
@@ -32695,7 +32695,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>"
   },
   {
     "kap": 1,
@@ -32720,7 +32720,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>"
   },
   {
     "kap": 1,
@@ -32745,7 +32745,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Identifiera först vad som räknas som ett gynnsamt utfall. Använd kombinationstal när ordningen inte spelar roll.</p>"
+    "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>"
   },
   {
     "id": "1.619",
@@ -33312,7 +33312,7 @@ window.BANKMATF1 = [
         "t": "<p>Ett mynt kastas flera gånger. Krona och klave är lika sannolika.</p><p>Myntet kastas fyra gånger. Hur stor är sannolikheten för minst en krona?</p>",
         "kgInstruktion": "Du kan svara med exakt bråk, decimaltal eller procent.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ingen krona:</p><div class=\"facit-matte\">\\[\\left(\\tfrac12\\right)^4=\\tfrac1{16}\\]</div><p>Minst en:</p><div class=\"facit-matte\">\\[1-\\tfrac1{16}=\\tfrac{15}{16}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{15}{16}\\approx0{,}938\\), alltså cirka \\(93{,}8\\,\\%\\)</p></div>",
-        "ledtrad": "<p>Använd komplementet.</p>",
+        "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\). Sannolikheten för krona är 1/2.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2
@@ -33466,7 +33466,7 @@ window.BANKMATF1 = [
         "t": "<p>En påse innehåller 5 vita och 8 blå bollar. Man drar en boll, noterar färgen och lägger tillbaka den. Detta görs tre gånger.</p><p>Hur stor är sannolikheten att minst en boll är vit?</p>",
         "kgInstruktion": "Du kan svara med exakt bråk, decimaltal eller procent.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Komplementet är att alla tre är blå. Vid varje dragning är den sannolikheten 8/13. Ingen vit:</p><div class=\"facit-matte\">\\[\\left(\\dfrac{8}{13}\\right)^3=\\dfrac{512}{2\\,197}\\]</div><p>Minst en vit:</p><div class=\"facit-matte\">\\[1-\\dfrac{512}{2\\,197}=\\dfrac{1\\,685}{2\\,197}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{1685}{2197}\\approx0{,}767\\), alltså cirka \\(76{,}7\\,\\%\\)</p></div>",
-        "ledtrad": "<p>Använd komplementet.</p>",
+        "ledtrad": "<p>Med återläggning är dragningarna oberoende. Multiplicera sannolikheterna för varje dragning.</p>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3
@@ -33893,7 +33893,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>Använd komplementet.</p>",
+    "ledtrad": "<p>Använd komplementet: P(minst en) = 1 − P(ingen). Ingen av första märket betyder att alla fyra är av det andra.</p>",
     "traningsniva": 3
   },
   {
@@ -34135,7 +34135,7 @@ window.BANKMATF1 = [
         "t": "<p>Man drar två kort ur en vanlig kortlek med 52 kort utan återläggning.</p><p>Hur stor är sannolikheten att minst ett av korten är en spader?</p>",
         "kgInstruktion": "Du kan svara med exakt bråk, decimaltal eller procent.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ingen spader:</p><div class=\"facit-matte\">\\[\\dfrac{\\binom{39}{2}}{\\binom{52}{2}}=\\dfrac{741}{1\\,326}\\]</div><p>Minst en spader:</p><div class=\"facit-matte\">\\[1-\\dfrac{741}{1\\,326}=\\dfrac{585}{1\\,326}=\\dfrac{15}{34}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{15}{34}\\approx0{,}441\\), alltså cirka \\(44{,}1\\,\\%\\)</p></div>",
-        "ledtrad": "<p>Använd komplementet.</p>",
+        "ledtrad": "<p>Använd komplementet: P(minst en) = 1 − P(ingen). Räkna sannolikheten att inget kort är en kung.</p>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3
@@ -34442,7 +34442,7 @@ window.BANKMATF1 = [
         "t": "<p>Du kastar en vanlig tärning två gånger. Det finns 36 lika sannolika utfall.</p><p>Hur stor är sannolikheten att minst en tärning visar 4?</p>",
         "kgInstruktion": "Du kan svara med exakt bråk, decimaltal eller procent.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ingen fyra: \\(5\\cdot5=25\\) utfall. Minst en fyra:</p><div class=\"facit-matte\">\\[36-25=11\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{11}{36}\\approx0{,}306\\), alltså cirka \\(30{,}6\\,\\%\\)</p></div>",
-        "ledtrad": "<p>Använd komplementet.</p>",
+        "ledtrad": "<p>Räkna de gynnsamma utfallen bland de 36. För minst en fyra kan du använda komplementet.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2
@@ -34679,7 +34679,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Använd komplementet.</p>",
+    "ledtrad": "<p>Använd komplementet: P(minst en) = 1 − P(ingen). För en tärning är P(ingen sexa) \\(=(5/6)^4\\), och för två tärningar är P(ingen dubbelsexa) \\(=(35/36)^{24}\\).</p>",
     "traningsniva": 3
   },
   {
@@ -34856,7 +34856,7 @@ window.BANKMATF1 = [
         "traningsniva": 5
       }
     ],
-    "ledtrad": "<p>Använd komplementet.</p>",
+    "ledtrad": "<p>Två skor: hur många av de 11 återstående skorna passar ihop med den första? Fyra skor: räkna sannolikheten att inget par bildas och använd komplementet.</p>",
     "traningsniva": 5
   },
   {
@@ -34949,7 +34949,7 @@ window.BANKMATF1 = [
         "traningsniva": 4
       }
     ],
-    "ledtrad": "<p>Använd komplementet.</p>",
+    "ledtrad": "<p>Använd komplementet: P(minst en) = 1 − P(ingen). Sannolikheten att alla har olika födelsedag är \\(\\frac{366}{366}\\cdot\\frac{365}{366}\\cdot\\frac{364}{366}\\cdots\\).</p>",
     "traningsniva": 4
   },
   {
@@ -35327,7 +35327,7 @@ window.BANKMATF1 = [
         "t": "<p>En vanlig tärning kastas 10 gånger.</p><p>Hur stor är sannolikheten att få exakt 2 sexor?</p>",
         "kgInstruktion": "Du kan svara med exakt bråk, decimaltal eller procent.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj de två positionerna för sexor. Övriga åtta kast ska inte vara sexor.</p><div class=\"facit-matte\">\\[\\binom{10}{2}\\left(\\dfrac16\\right)^2\\left(\\dfrac56\\right)^8\\approx0{,}291\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}291\\)</p></div>",
-        "ledtrad": "<p>Använd binomialformeln.</p>",
+        "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\). Här är \\(n=10\\) och \\(p=1/6\\).</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2
@@ -35491,7 +35491,7 @@ window.BANKMATF1 = [
         "t": "<p>En bågskytt träffar mitten av tavlan med sannolikheten 80 % per pil, oberoende av de andra pilarna. Hon skjuter 7 pilar.</p><p>Hur stor är sannolikheten att hon träffar mitten minst en gång?</p>",
         "kgInstruktion": "Du kan svara med exakt bråk, decimaltal eller procent.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Komplementet till minst en träff är sju missar. Varje miss har sannolikheten 0,2.</p><div class=\"facit-matte\">\\[1-0{,}2^7\\approx0{,}99999\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{78124}{78125}\\approx0{,}9999872\\)</p></div>",
-        "ledtrad": "<p>Använd komplementet.</p>",
+        "ledtrad": "<p>Använd komplementet: P(minst en) = 1 − P(ingen). Varje pil missar med sannolikheten 0,2.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2
@@ -35580,7 +35580,7 @@ window.BANKMATF1 = [
         "t": "<p>En skadad person behöver blod från minst 4 givare med blodgrupp 0. På platsen finns 10 personer. Andelen med blodgrupp 0 är 38 %. Antag att personernas blodgrupper är oberoende.</p><p>Hur stor är sannolikheten att exakt 4 av de 10 har blodgrupp 0?</p>",
         "kgInstruktion": "Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj de fyra positionerna för blodgrupp 0. De sex övriga ska ha en annan blodgrupp.</p><div class=\"facit-matte\">\\[\\binom{10}{4}0{,}38^4\\,0{,}62^6\\approx0{,}249\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}249\\)</p></div>",
-        "ledtrad": "<p>Använd binomialformeln.</p>",
+        "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\). Minst 4 givare: räkna komplementet, alltså 0–3 givare.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2
@@ -35655,7 +35655,7 @@ window.BANKMATF1 = [
         "t": "<p>I ett land är sannolikheten 0,52 att ett nyfött barn är en pojke. En familj har 10 barn. Antag att barnens kön är oberoende.</p><p>Hur stor är sannolikheten att det är fem pojkar och fem flickor?</p>",
         "kgInstruktion": "Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj vilka fem av de tio barnen som är pojkar. En bestämd följd med fem pojkar och fem flickor har sannolikheten 0,52⁵·0,48⁵.</p><div class=\"facit-matte\">\\[\\binom{10}{5}0{,}52^5\\,0{,}48^5\\approx0{,}244\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}244\\)</p></div>",
-        "ledtrad": "<p>Använd binomialformeln.</p>",
+        "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\). Alla flickor betyder att ingen är pojke.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2
@@ -35847,7 +35847,7 @@ window.BANKMATF1 = [
         "t": "<p>Ett läkemedel mot sjösjuka gör att 75 % slipper bli sjösjuka. Sex personer som brukar bli sjösjuka tar medlet och åker båt. Antag att personerna blir sjösjuka oberoende av varandra.</p><p>Hur stor är sannolikheten att minst 2 blir sjösjuka?</p>",
         "kgInstruktion": "Du kan svara med exakt bråk, decimaltal eller procent.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Komplementet är noll eller en sjösjuk person. Dessa händelser överlappar inte och kan subtraheras från 1.</p><div class=\"facit-matte\">\\[1-P(0)-P(1)=1-0{,}75^6-6\\cdot0{,}25\\cdot0{,}75^5\\approx0{,}466\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{1909}{4096}\\approx0{,}466\\)</p></div>",
-        "ledtrad": "<p>Använd komplementet.</p>",
+        "ledtrad": "<p>Använd komplementet: P(minst en) = 1 − P(ingen). Varje person blir sjösjuk med sannolikheten 0,25.</p>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3
@@ -35990,7 +35990,7 @@ window.BANKMATF1 = [
         "t": "<p>En skytt träffar 95 % av lerduvorna, oberoende av varandra. En serie har 25 lerduvor.</p><p>Hur stor är sannolikheten att skytten missar exakt två?</p>",
         "kgInstruktion": "Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj de två positionerna för missar. Alla övriga 23 skott ska träffa.</p><div class=\"facit-matte\">\\[\\binom{25}{2}0{,}05^2\\,0{,}95^{23}\\approx0{,}231\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}231\\)</p></div>",
-        "ledtrad": "<p>Använd binomialformeln.</p>",
+        "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\). Här är \\(n=25\\) och \\(p=0{,}95\\).</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2
@@ -36139,7 +36139,7 @@ window.BANKMATF1 = [
         "t": "<p>På Stryktipset tippar man 13 matcher med 1, X eller 2. Antag att man tippar helt slumpmässigt, så att varje match blir rätt med sannolikheten \\(\\tfrac13\\).</p><p>Hur stor är sannolikheten att få exakt 10 rätt?</p>",
         "kgInstruktion": "Du kan svara med ett exakt uttryck, ett decimaltal eller procent. Avrundade svar ska ha minst två värdesiffror.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Välj de tio rätta matchernas positioner. De tre övriga ska bli fel.</p><div class=\"facit-matte\">\\[\\binom{13}{10}\\left(\\tfrac13\\right)^{10}\\left(\\tfrac23\\right)^3=\\dfrac{286\\cdot8}{1\\,594\\,323}=\\dfrac{2\\,288}{1\\,594\\,323}\\approx0{,}0014\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx0{,}00144\\)</p></div>",
-        "ledtrad": "<p>Använd binomialformeln.</p>",
+        "ledtrad": "<p>Binomialfördelningen: \\(P(X=k)=\\binom nk p^k(1-p)^{n-k}\\). Här är \\(n=13\\) och \\(p=1/3\\).</p>",
         "niva": "C",
         "poang": "1/1/0",
         "traningsniva": 3
@@ -36298,7 +36298,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Primtalsfaktorisera båda talen.</p>",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD är produkten av de gemensamma primfaktorerna med den minsta exponenten.</p>",
     "svarstyp": "numeriskt",
     "rättSvar": 30,
     "tolerans": 0,
@@ -36540,7 +36540,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Primtalsfaktorisera båda talen.</p>",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD är produkten av de gemensamma primfaktorerna med den minsta exponenten.</p>",
     "svarstyp": "numeriskt",
     "rättSvar": 30,
     "tolerans": 0,
@@ -36605,7 +36605,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut varje tal mot dess rest och räkna sedan modulo den givna modulen.</p>"
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>"
   },
   {
     "kap": 2,
@@ -36629,7 +36629,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut varje tal mot dess rest och räkna sedan modulo den givna modulen.</p>"
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>"
   },
   {
     "kap": 2,
@@ -36653,7 +36653,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut varje tal mot dess rest och räkna sedan modulo den givna modulen.</p>"
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>"
   },
   {
     "kap": 2,
@@ -36677,7 +36677,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut varje tal mot dess rest och räkna sedan modulo den givna modulen.</p>"
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>"
   },
   {
     "kap": 2,
@@ -36701,7 +36701,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut varje tal mot dess rest och räkna sedan modulo den givna modulen.</p>"
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>"
   },
   {
     "kap": 2,
@@ -36725,7 +36725,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut varje tal mot dess rest och räkna sedan modulo den givna modulen.</p>"
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>"
   },
   {
     "kap": 2,
@@ -36749,7 +36749,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut varje tal mot dess rest och räkna sedan modulo den givna modulen.</p>"
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>"
   },
   {
     "kap": 2,
@@ -36773,7 +36773,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut varje tal mot dess rest och räkna sedan modulo den givna modulen.</p>"
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>"
   },
   {
     "kap": 2,
@@ -36797,7 +36797,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut varje tal mot dess rest och räkna sedan modulo den givna modulen.</p>"
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>"
   },
   {
     "kap": 2,
@@ -36821,7 +36821,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut varje tal mot dess rest och räkna sedan modulo den givna modulen.</p>"
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>"
   },
   {
     "kap": 2,
@@ -36940,7 +36940,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 1,
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "ledtrad": "<p>Hur skrivs ett jämnt heltal med en heltalsvariabel?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -36970,7 +36970,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 1,
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "ledtrad": "<p>Hur skrivs ett udda heltal med en heltalsvariabel?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -37000,7 +37000,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
+    "ledtrad": "<p>Det är svårt att gå direkt från \\(n^2\\) till n. Kan du gå åt andra hållet?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -37030,7 +37030,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 1,
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "ledtrad": "<p>\\(a\\mid b\\) betyder att \\(b=a\\cdot k\\) för något heltal k.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -37060,7 +37060,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "ledtrad": "<p>Motsägelsebeviset börjar med motsatsen till det som ska visas.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -37087,7 +37087,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 1,
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "ledtrad": "<p>Vad måste vara sant innan induktionssteget kan användas?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -37114,7 +37114,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "ledtrad": "<p>Induktionssteget ska ta dig ett steg vidare.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -37141,7 +37141,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "ledtrad": "<p>Talen n och \\(n+1\\) följer direkt på varandra. Vad vet du om två sådana tal?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -37171,7 +37171,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 1,
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "ledtrad": "<p>Ett enda fall där påståendet inte stämmer räcker.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -37201,7 +37201,7 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "ledtrad": "<p>Det finns bara 10 möjliga entalssiffror.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -37232,7 +37232,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37261,7 +37261,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37290,7 +37290,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37319,7 +37319,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Arean är \\(A=s^2\\), så \\(\\frac{dA}{dt}=2s\\frac{ds}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37348,7 +37348,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Arean är \\(A=s^2\\), så \\(\\frac{dA}{dt}=2s\\frac{ds}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37377,7 +37377,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Arean är \\(A=s^2\\), så \\(\\frac{dA}{dt}=2s\\frac{ds}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37406,7 +37406,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Volymen är \\(V=s^3\\), så \\(\\frac{dV}{dt}=3s^2\\frac{ds}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37435,7 +37435,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Volymen är \\(V=s^3\\), så \\(\\frac{dV}{dt}=3s^2\\frac{ds}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37464,7 +37464,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Volymen är \\(V=s^3\\), så \\(\\frac{dV}{dt}=3s^2\\frac{ds}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37493,7 +37493,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\), så \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37522,7 +37522,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\), så \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37551,7 +37551,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant r. Derivera med avseende på tiden.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37580,7 +37580,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant r. Derivera med avseende på tiden.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37609,7 +37609,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Omkretsen är \\(O=2\\pi r\\), så \\(\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37638,7 +37638,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "ledtrad": "<p>Omkretsen är \\(O=2\\pi r\\), så \\(\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -37667,7 +37667,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "ledtrad": "<p>Kardinaltalet är antalet element i mängden.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -37697,7 +37697,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "ledtrad": "<p>Kardinaltalet är antalet element i mängden.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -37817,7 +37817,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "ledtrad": "<p>Snittet \\(A\\cap B\\) är de element som finns i båda mängderna, och unionen \\(A\\cup B\\) de som finns i minst en av dem.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -37847,7 +37847,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "ledtrad": "<p>Snittet \\(A\\cap B\\) är de element som finns i båda mängderna, och unionen \\(A\\cup B\\) de som finns i minst en av dem.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -37877,7 +37877,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "ledtrad": "<p>\\(A\\setminus B\\) är de element i A som inte finns i B.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -37907,7 +37907,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "ledtrad": "<p>Komplementet är de element i grundmängden som inte finns i mängden.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -38388,7 +38388,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "ledtrad": "<p>Den tomma mängden har inga element.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -38418,7 +38418,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "ledtrad": "<p>Lista heltalen från −1 till 3 och räkna dem.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -38449,7 +38449,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "ledtrad": "<p>\\(A\\subset B\\) betyder att varje element i A också finns i B.</p>",
     "omrTidigare": [
       "mangder_venn"
     ],
@@ -38834,7 +38834,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Alla fem siffror ska användas en gång, så antalet är \\(5!\\).</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -38864,7 +38864,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Varje position har 5 möjligheter.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -38894,7 +38894,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Ett udda tal måste sluta på en udda siffra. Hur många sådana finns? Fyll sedan de andra platserna.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -38924,7 +38924,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Varje position har 29 möjligheter.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -38954,7 +38954,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Antalet val minskar med en för varje bokstav.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -38984,7 +38984,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -39015,7 +39015,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Jämför antalet koder med antalet skåp.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -39045,7 +39045,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Varje fråga har 4 möjligheter.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -39075,7 +39075,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Första siffran har 8 val.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -39105,7 +39105,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Första siffran har 9 val.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -39135,7 +39135,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -39165,7 +39165,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "ledtrad": "<p>Man väljer antingen det ena eller det andra, så antalen ska adderas.</p>",
     "omrTidigare": [
       "kombinatoriska_principer"
     ],
@@ -39334,7 +39334,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd multiplikationsprincipen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
     "traningsniva": 1
   },
   {
@@ -39479,7 +39479,7 @@ window.BANKMATF1 = [
         "traningsniva": 1
       }
     ],
-    "ledtrad": "<p>Använd multiplikationsprincipen.</p>",
+    "ledtrad": "<p>Utan upprepning minskar antalet val för varje siffra. Med upprepning har varje position 5 möjligheter.</p>",
     "traningsniva": 1
   },
   {
@@ -39672,7 +39672,7 @@ window.BANKMATF1 = [
         "traningsniva": 2
       }
     ],
-    "ledtrad": "<p>Använd multiplikationsprincipen.</p>",
+    "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Jämför antalet bokstäver i de två fallen.</p>",
     "traningsniva": 2
   },
   {
@@ -39757,7 +39757,7 @@ window.BANKMATF1 = [
         "traningsniva": 2
       }
     ],
-    "ledtrad": "<p>Använd multiplikationsprincipen.</p>",
+    "ledtrad": "<p>Mynten kan ordnas på \\(4!\\) sätt. Varje mynt kan dessutom ligga på 2 sätt.</p>",
     "traningsniva": 2
   },
   {
@@ -40081,7 +40081,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "ledtrad": "<p>Alla ska ordnas, så antalet ordningar är \\(n!\\).</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -40108,7 +40108,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "ledtrad": "<p>Ordningen spelar roll och bara några väljs. Det första valet kan göras på n sätt, nästa på \\(n-1\\) sätt och så vidare.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -40135,7 +40135,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "ledtrad": "<p>Ordningen spelar roll och bara några väljs. Det första valet kan göras på n sätt, nästa på \\(n-1\\) sätt och så vidare.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -40162,7 +40162,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "ledtrad": "<p>Ordningen spelar roll och bara några väljs. Det första valet kan göras på n sätt, nästa på \\(n-1\\) sätt och så vidare.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -40189,7 +40189,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "ledtrad": "<p>Alla ska ordnas, så antalet ordningar är \\(n!\\).</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -40216,7 +40216,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "ledtrad": "<p>Om en bokstav förekommer flera gånger delar du \\(n!\\) med fakulteten av antalet likadana bokstäver.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -40243,7 +40243,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "ledtrad": "<p>Om en bokstav förekommer flera gånger delar du \\(n!\\) med fakulteten av antalet likadana bokstäver.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -40270,7 +40270,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "ledtrad": "<p>Om en bokstav förekommer flera gånger delar du \\(n!\\) med fakulteten av antalet likadana bokstäver.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -40297,7 +40297,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 4,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "ledtrad": "<p>Om en bokstav förekommer flera gånger delar du \\(n!\\) med fakulteten av antalet likadana bokstäver.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -40516,7 +40516,7 @@ window.BANKMATF1 = [
         "traningsniva": 1
       }
     ],
-    "ledtrad": "<p>Använd multiplikationsprincipen.</p>",
+    "ledtrad": "<p>Utan upprepning minskar antalet val för varje bokstav. Med upprepning har varje position 8 möjligheter.</p>",
     "traningsniva": 1
   },
   {
@@ -40925,7 +40925,7 @@ window.BANKMATF1 = [
         "fraga": "På hur många sätt kan de ställa upp sig om Mia och Per inte ska stå bredvid varandra?",
         "t": "<p>Tio personer i en familj ställer upp sig på en rad för ett foto. Bland dem finns Mia, Per, Stina och Pelle.</p><p>På hur många sätt kan de ställa upp sig om Mia och Per inte ska stå bredvid varandra?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Komplementet är placeringarna där Mia och Per står tillsammans. Dra dessa från alla 10! ordningar.</p><div class=\"facit-matte\">\\[10!-2\\cdot9!=3\\,628\\,800-725\\,760=2\\,903\\,040\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2 903 040 sätt</p></div>",
-        "ledtrad": "<p>Använd komplementet.</p>",
+        "ledtrad": "<p>Se Mia och Per som ett block. Om de inte får stå bredvid varandra räknar du alla ordningar och drar bort blockfallen.</p>",
         "niva": "C",
         "poang": "0/2/0",
         "traningsniva": 3
@@ -41378,7 +41378,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -41405,7 +41405,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "ledtrad": "<p>Välj ur varje grupp för sig med \\(\\binom nk\\) och multiplicera antalen.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -41432,7 +41432,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -41459,7 +41459,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "ledtrad": "<p>Välj 2 från Sverige och 1 av de övriga sju. Välj ur varje grupp för sig med \\(\\binom nk\\) och multiplicera antalen.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -41486,7 +41486,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "ledtrad": "<p>Välj ur varje grupp för sig med \\(\\binom nk\\) och multiplicera antalen.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -41513,7 +41513,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "ledtrad": "<p>Välj två män och två kvinnor. Välj ur varje grupp för sig med \\(\\binom nk\\) och multiplicera antalen.</p>",
     "omrTidigare": [
       "permutationer_kombinationer"
     ]
@@ -41722,7 +41722,7 @@ window.BANKMATF1 = [
         "traningsniva": 2
       }
     ],
-    "ledtrad": "<p>Använd kombinationer.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs. Om puttern måste vara med väljer du bara de övriga fyra.</p>",
     "traningsniva": 2
   },
   {
@@ -41919,7 +41919,7 @@ window.BANKMATF1 = [
         "traningsniva": 2
       }
     ],
-    "ledtrad": "<p>Använd kombinationer.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs. Dela upp efter hur många flickor och pojkar som ska vara med.</p>",
     "traningsniva": 2
   },
   {
@@ -42148,7 +42148,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Använd kombinationer.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs. Om A måste vara med väljer du bara de övriga två bokstäverna.</p>",
     "traningsniva": 3
   },
   {
@@ -42313,7 +42313,7 @@ window.BANKMATF1 = [
         "traningsniva": 2
       }
     ],
-    "ledtrad": "<p>Använd kombinationer.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs. Om Lisa måste vara med väljer du bara de övriga två.</p>",
     "traningsniva": 2
   },
   {
@@ -42489,7 +42489,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Använd kombinationer.</p>",
+    "ledtrad": "<p>Ordningen spelar ingen roll, så antalet är \\(\\binom nk\\), där n är antalet att välja bland och k antalet som väljs. Om Stina och Olle ska vara med väljer du bara de övriga tre.</p>",
     "traningsniva": 3
   },
   {
@@ -42680,7 +42680,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>"
   },
   {
     "kap": 1,
@@ -42728,7 +42728,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>"
   },
   {
     "kap": 1,
@@ -42752,7 +42752,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 3,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>"
   },
   {
     "kap": 1,
@@ -42776,7 +42776,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
+    "ledtrad": "<p>Den konstanta termen är den utan x.</p>"
   },
   {
     "kap": 1,
@@ -42800,7 +42800,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
+    "ledtrad": "<p>Den allmänna termen i \\((a+b)^n\\) är \\(\\binom nk a^{n-k}b^k\\). Välj k så att x får rätt exponent och glöm inte konstanterna och tecknen.</p>"
   },
   {
     "kap": 1,
@@ -42824,7 +42824,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
+    "ledtrad": "<p>Binomialkoefficienterna \\(\\binom6k\\) är störst i mitten av Pascals triangel.</p>"
   },
   {
     "kap": 1,
@@ -42848,7 +42848,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv den relevanta binomialtermen: \\(\\binom nk a^{n-k}b^k\\). Välj \\(k\\) så att rätt potens av \\(x\\) uppstår.</p>"
+    "ledtrad": "<p>Utvecklingen av \\((a+b)^n\\) har en term för varje k från 0 till n.</p>"
   },
   {
     "id": "1.637",
@@ -44146,7 +44146,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Primtalsfaktorisera båda talen.</p>",
+    "ledtrad": "<p>Primtalsfaktorisera talen. SGD är produkten av de gemensamma primfaktorerna med den minsta exponenten.</p>",
     "svarstyp": "numeriskt",
     "rättSvar": 42,
     "tolerans": 0,
@@ -44273,7 +44273,7 @@ window.BANKMATF1 = [
         "fraga": "SGD(56, 42)",
         "t": "<p>Bestäm den största gemensamma delaren genom att primtalsfaktorisera talen.</p><p>SGD(56, 42)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[56=2^3\\cdot7\\],</div></li><li><div class=\"facit-matte\">\\[42=2\\cdot3\\cdot7\\].</div></li><li><div class=\"facit-berakning\"><p>Gemensamt:</p><div class=\"facit-matte\">\\[2\\cdot7=14\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
-        "ledtrad": "<p>Primtalsfaktorisera båda talen.</p>",
+        "ledtrad": "<p>Primtalsfaktorisera talen. SGD är produkten av de gemensamma primfaktorerna med den minsta exponenten.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1
@@ -44358,7 +44358,7 @@ window.BANKMATF1 = [
         "fraga": "MGM(36, 27)",
         "t": "<p>Bestäm den minsta gemensamma multipeln genom att primtalsfaktorisera talen.</p><p>MGM(36, 27)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[36=2^2\\cdot3^2\\],</div></li><li><div class=\"facit-matte\">\\[27=3^3\\].</div></li><li><div class=\"facit-berakning\"><p>MGM:</p><div class=\"facit-matte\">\\[2^2\\cdot3^3=108\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 108</p></div>",
-        "ledtrad": "<p>Primtalsfaktorisera båda talen.</p>",
+        "ledtrad": "<p>Primtalsfaktorisera talen. MGM är produkten av alla primfaktorer med den största exponenten.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1
@@ -44834,7 +44834,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>"
   },
   {
     "kap": 2,
@@ -44858,7 +44858,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>"
   },
   {
     "kap": 2,
@@ -44882,7 +44882,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Beräkna de första potenserna av 2 modulo 6 tills resten upprepar sig. Använd sedan mönstret för den stora exponenten.</p>"
   },
   {
     "kap": 2,
@@ -44906,7 +44906,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Beräkna de första potenserna av 3 modulo 7 tills resten upprepar sig. Använd sedan mönstret för den stora exponenten.</p>"
   },
   {
     "kap": 2,
@@ -44930,7 +44930,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Slutsiffran är resten modulo 10. Undersök slutsiffrorna i de första potenserna och leta efter ett mönster.</p>"
   },
   {
     "kap": 2,
@@ -44954,7 +44954,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Slutsiffran är resten modulo 10. Undersök slutsiffrorna i de första potenserna och leta efter ett mönster.</p>"
   },
   {
     "kap": 2,
@@ -44978,7 +44978,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>"
   },
   {
     "kap": 2,
@@ -45002,7 +45002,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>"
   },
   {
     "kap": 2,
@@ -45026,7 +45026,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>"
   },
   {
     "kap": 2,
@@ -45050,7 +45050,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Talet minus 1 ska vara delbart med 3, 5 och 7. Vilket är det minsta sådana tal som är större än 0?</p>"
   },
   {
     "kap": 2,
@@ -45074,7 +45074,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>Beräkna de första potenserna av 10 modulo 7 tills resten upprepar sig. Använd sedan mönstret för den stora exponenten.</p>"
   },
   {
     "kap": 2,
@@ -45098,7 +45098,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Byt ut stora tal mot enklare kongruenta tal. För potenser: skriv några första rester och leta efter en period.</p>"
+    "ledtrad": "<p>\\(10\\equiv1\\pmod9\\). Vad blir då \\(10^4\\)?</p>"
   },
   {
     "id": "2.586",
@@ -46426,7 +46426,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 1,
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "ledtrad": "<p>Hur skrivs ett jämnt heltal med en heltalsvariabel?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -46456,7 +46456,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "ledtrad": "<p>Hur skrivs ett udda heltal med en heltalsvariabel?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -46486,7 +46486,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "ledtrad": "<p>Vilka rester kan ett tal ge vid division med 3 om resten inte är 0?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -46516,7 +46516,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
+    "ledtrad": "<p>Ett indirekt bevis vänder och negerar båda leden i implikationen.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -46546,7 +46546,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "ledtrad": "<p>Motsägelsebeviset börjar med motsatsen till det som ska visas.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -46573,7 +46573,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 1,
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "ledtrad": "<p>\\(a\\mid b\\) betyder att \\(b=a\\cdot k\\) för något heltal k.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -46603,7 +46603,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "ledtrad": "<p>Talen n och \\(n+1\\) följer direkt på varandra. Vad vet du om två sådana tal?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -46681,7 +46681,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "ledtrad": "<p>Ett enda fall där påståendet inte stämmer räcker.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -46711,7 +46711,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
+    "ledtrad": "<p>Ett indirekt bevis vänder och negerar båda leden i implikationen.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -46741,7 +46741,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "ledtrad": "<p>Vad betyder det att ett antagande leder till en motsägelse?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
@@ -46769,7 +46769,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -46798,7 +46798,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "ledtrad": "<p>Arean är \\(A=s^2\\), så \\(\\frac{dA}{dt}=2s\\frac{ds}{dt}\\). Skriv om mm/s till cm/s först.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -46827,7 +46827,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "ledtrad": "<p>Volymen är \\(V=s^3\\), så \\(\\frac{dV}{dt}=3s^2\\frac{ds}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -46856,7 +46856,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\), så \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -46885,7 +46885,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant r. Derivera med avseende på tiden. Lös ut \\(dh/dt\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -46914,7 +46914,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant h. Derivera med avseende på tiden och skriv om mm/s till cm/s.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -46944,7 +46944,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "ledtrad": "<p>\\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\). Vad händer med \\(\\frac{dr}{dt}\\) när r växer men \\(\\frac{dA}{dt}\\) är konstant?</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -46972,7 +46972,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "ledtrad": "<p>\\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\). Vad händer med \\(\\frac{dr}{dt}\\) när r ändras men \\(\\frac{dV}{dt}\\) är konstant?</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -47695,7 +47695,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt den problematiska gränsen med en parameter. Beräkna först en vanlig bestämd integral och ta sedan gränsvärdet.</p>"
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>"
   },
   {
     "kap": 3,
@@ -47719,7 +47719,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt den problematiska gränsen med en parameter. Beräkna först en vanlig bestämd integral och ta sedan gränsvärdet.</p>"
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>"
   },
   {
     "kap": 3,
@@ -47743,7 +47743,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "bråk",
-    "ledtrad": "<p>Ersätt den problematiska gränsen med en parameter. Beräkna först en vanlig bestämd integral och ta sedan gränsvärdet.</p>"
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>"
   },
   {
     "kap": 3,
@@ -47767,7 +47767,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Ersätt den problematiska gränsen med en parameter. Beräkna först en vanlig bestämd integral och ta sedan gränsvärdet.</p>"
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten. Den primitiva funktionen är \\(\\ln x\\).</p>"
   },
   {
     "kap": 3,
@@ -47791,7 +47791,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Ersätt den problematiska gränsen med en parameter. Beräkna först en vanlig bestämd integral och ta sedan gränsvärdet.</p>"
+    "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>"
   },
   {
     "kap": 3,
@@ -47815,7 +47815,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt den problematiska gränsen med en parameter. Beräkna först en vanlig bestämd integral och ta sedan gränsvärdet.</p>"
+    "ledtrad": "<p>Integranden är inte definierad vid gränsen. Ersätt gränsen med en variabel, beräkna integralen och undersök gränsvärdet.</p>"
   },
   {
     "kap": 3,
@@ -47863,7 +47863,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Ersätt den problematiska gränsen med en parameter. Beräkna först en vanlig bestämd integral och ta sedan gränsvärdet.</p>"
+    "ledtrad": "<p>Integranden är inte definierad vid gränsen. Ersätt gränsen med en variabel, beräkna integralen och undersök gränsvärdet.</p>"
   },
   {
     "kap": 3,
@@ -48521,7 +48521,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "ledtrad": "<p>I den logistiska modellen \\(P'=kP\\left(1-\\frac PK\\right)\\) är K den största populationen, och tillväxten är störst vid \\(P=K/2\\).</p>",
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -48552,7 +48552,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "ledtrad": "<p>I den logistiska modellen \\(P'=kP\\left(1-\\frac PK\\right)\\) är K den största populationen, och tillväxten är störst vid \\(P=K/2\\).</p>",
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -48583,7 +48583,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "ledtrad": "<p>Sätt in \\(P=40\\) i högerledet.</p>",
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -48614,7 +48614,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "ledtrad": "<p>Tillväxthastigheten är symmetrisk kring \\(K/2\\). Vilket värde ligger lika långt från 80 som 40?</p>",
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -48645,7 +48645,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "ledtrad": "<p>I den logistiska modellen \\(P'=kP\\left(1-\\frac PK\\right)\\) är K den största populationen, och tillväxten är störst vid \\(P=K/2\\).</p>",
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -48676,7 +48676,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "ledtrad": "<p>I den logistiska modellen \\(P'=kP\\left(1-\\frac PK\\right)\\) är K den största populationen, och tillväxten är störst vid \\(P=K/2\\).</p>",
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -48707,7 +48707,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "ledtrad": "<p>Sätt in \\(P=250\\) i högerledet.</p>",
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -48738,7 +48738,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "ledtrad": "<p>Sätt in värdena i \\(P'=kP(1-P/K)\\) och lös ut k.</p>",
     "omrTidigare": [
       "forsta_ordningen"
     ],
@@ -49170,7 +49170,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\frac{K}{1+Ce^{-kt}}\\), där C bestäms av startvärdet.</p>",
     "traningsniva": 3
   },
   {
@@ -49246,7 +49246,7 @@ window.BANKMATF1 = [
         "traningsniva": 2
       }
     ],
-    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\frac{K}{1+Ce^{-kt}}\\), där C bestäms av startvärdet. Den största tillväxthastigheten fås vid halva bärförmågan.</p>",
     "traningsniva": 3
   },
   {
@@ -49333,7 +49333,7 @@ window.BANKMATF1 = [
         "traningsniva": 4
       }
     ],
-    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\frac{K}{1+Ce^{-kt}}\\), där C bestäms av startvärdet. Bestäm k med hjälp av värdet efter 5 dygn.</p>",
     "traningsniva": 4
   },
   {
@@ -49395,7 +49395,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\frac{K}{1+Ce^{-kt}}\\), där C bestäms av startvärdet.</p>",
     "traningsniva": 3
   },
   {
@@ -49471,7 +49471,7 @@ window.BANKMATF1 = [
         "traningsniva": 2
       }
     ],
-    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\frac{K}{1+Ce^{-kt}}\\), där C bestäms av startvärdet.</p>",
     "traningsniva": 3
   },
   {
@@ -49547,7 +49547,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\frac{K}{1+Ce^{-kt}}\\), där C bestäms av startvärdet.</p>",
     "traningsniva": 3
   },
   {
@@ -49609,7 +49609,7 @@ window.BANKMATF1 = [
         "traningsniva": 3
       }
     ],
-    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\dfrac{M}{1+\\left(\\frac{M}{y_0}-1\\right)e^{-kt}}\\).</p>",
+    "ledtrad": "<p>Den logistiska lösningen är \\(y=\\frac{K}{1+Ce^{-kt}}\\), där C bestäms av startvärdet.</p>",
     "traningsniva": 3
   },
   {
@@ -49801,7 +49801,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "ledtrad": "<p>Sätt in \\(T=50\\) i högerledet.</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -49829,7 +49829,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "ledtrad": "<p>Sätt in \\(T=10\\) i högerledet.</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -49857,7 +49857,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "ledtrad": "<p>Vid jämvikt är förändringshastigheten noll. Sätt högerledet lika med 0.</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -49885,7 +49885,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "ledtrad": "<p>Sätt in \\(t=0\\): \\(80=20+C\\).</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -49914,7 +49914,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "ledtrad": "<p>Sätt in \\(t=10\\) i modellen.</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -49943,7 +49943,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "ledtrad": "<p>Sätt \\(20+60e^{-0{,}10t}=50\\) och lös ut t med logaritmer.</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -49972,7 +49972,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "ledtrad": "<p>Kan \\(Ce^{-kt}\\) bli negativ om C är positiv?</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -50000,7 +50000,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "ledtrad": "<p>Vad händer med \\(Ce^{-kt}\\) när t blir mycket stort?</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -50028,7 +50028,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "ledtrad": "<p>Integrera accelerationen. Starthastigheten är 0.</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -50056,7 +50056,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "ledtrad": "<p>Sträckan är integralen av hastigheten \\(v=9{,}82t\\).</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -50084,7 +50084,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "ledtrad": "<p>Gränshastigheten nås när accelerationen är noll. Sätt \\(v'=0\\) och lös ut v.</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -50112,7 +50112,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "ledtrad": "<p>Gränshastigheten nås när accelerationen är noll. Sätt \\(v'=0\\) och lös ut v.</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]
@@ -50140,7 +50140,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "ledtrad": "<p>Newtons andra lag: \\(mv'=mg-0{,}030v\\). Dela med massan.</p>",
     "omrTidigare": [
       "modellering_digitalt"
     ]

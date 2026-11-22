@@ -4155,7 +4155,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-20-facit-mallrader-2b";
+const BANK_VERSION="2026-11-22-felrapporter-1935";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11537,7 +11537,19 @@ function formatRatt(anv,facit,meta){
       {
       const unit=String(meta.enhet||"");
       const strip=x=>unit&&x.trim().endsWith(unit)?x.trim().slice(0,-unit.length).trim():x;
-      return sammaForenkladePolynom(strip(hogerled(a)),strip(hogerled(f)));
+      if(sammaForenkladePolynom(strip(hogerled(a)),strip(hogerled(f)))) return true;
+      /* Utbruten gemensam faktor godtas också, t.ex. h(2x+h) för 2xh+h^2 (felrapport 2026-11-22, Ma3c 1.1131).
+         Formen är en enkel faktor gånger en enda parentes med ett förenklat polynom, och värdet ska vara lika.
+         Ett outvecklat uttryck som (x+h)^2-x^2 godtas inte. */
+      const ut=strip(hogerled(a)).replace(/\s+/g,"").replace(/[·⋅*]/g,"");
+      const fak="([+-]?(?:\\d+(?:[.,]\\d+)?)?(?:[a-zåäö](?:\\^\\d+)?)*)";
+      const m=ut.match(new RegExp("^"+fak+"\\(([^()]+)\\)$","i")) || ut.match(new RegExp("^\\(([^()]+)\\)"+fak+"$","i"));
+      if(m){
+        const [faktor,inre]=ut.startsWith("(")?[m[2],m[1]]:[m[1],m[2]];
+        if(faktor && !/^[+-]$/.test(faktor) && forenklatPolynom(inre)
+           && algebraisktLika(ut,strip(hogerled(f)))===true) return true;
+      }
+      return false;
       }
     case "decimalform": case "omvandling": {
       // Kontrollera representationen och, om den anges, just den begärda enheten.

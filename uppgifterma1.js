@@ -119783,7 +119783,7 @@ window.BANKMA1 = [
         "etikett": "a",
         "t": "<p>Gör om enheterna.</p><div class=\"spel-en-del\">1,5 liter till milliliter</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>1 500 ml</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 liter = 1 000 ml.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -119791,7 +119791,7 @@ window.BANKMA1 = [
         "etikett": "b",
         "t": "<p>Gör om enheterna.</p><div class=\"spel-en-del\">250 ml till liter</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>0,25 liter</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 000 ml = 1 liter, så dela med 1 000.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -119799,7 +119799,7 @@ window.BANKMA1 = [
         "etikett": "c",
         "t": "<p>Gör om enheterna.</p><div class=\"spel-en-del\">0,8 kg till gram</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>800 g</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 kg = 1 000 g.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -122136,7 +122136,7 @@ window.BANKMA1 = [
         "etikett": "a",
         "t": "<p>En dunk innehåller 18 liter.</p><div class=\"spel-en-del\">Hur många milliliter?</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>18 000 ml</strong>.</p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 liter = 1 000 ml.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -122144,7 +122144,7 @@ window.BANKMA1 = [
         "etikett": "b",
         "t": "<p>En dunk innehåller 18 liter.</p><div class=\"spel-en-del\">Hur många kubikmeter?</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>0,018 m³</strong>.</p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 m³ = 1 000 liter, så dela med 1 000.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -124278,7 +124278,7 @@ window.BANKMA1 = [
         "etikett": "a",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">1,8 m² till cm²</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>18 000 cm²</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 m = 100 cm, så 1 m² = 100 · 100 cm².</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -124286,7 +124286,7 @@ window.BANKMA1 = [
         "etikett": "b",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">35 000 cm² till m²</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>3,5 m²</strong>.</p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 m² = 10 000 cm², så dela med 10 000.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -124354,7 +124354,7 @@ window.BANKMA1 = [
         "etikett": "a",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">3,45 m till cm</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>345 cm</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 m = 100 cm.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -124362,7 +124362,7 @@ window.BANKMA1 = [
         "etikett": "b",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">620 mm till m</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>0,620 m</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 m = 1 000 mm, så dela med 1 000.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -124370,7 +124370,7 @@ window.BANKMA1 = [
         "etikett": "c",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">2,8 km till m</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>2800 m</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 km = 1 000 m.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -124412,7 +124412,7 @@ window.BANKMA1 = [
         "etikett": "a",
         "t": "<p>Gör om enheterna.</p><div class=\"spel-en-del\">\\(0{,}85\\) m³ till liter</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li><li><p>\\(1\\) m³ \\(=1\\,000\\) liter och \\(1\\) liter \\(=1\\,000\\) cm³.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}85\\cdot1\\,000=\\)<strong>850 liter</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 m³ = 1 000 liter.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -124420,7 +124420,7 @@ window.BANKMA1 = [
         "etikett": "b",
         "t": "<p>Gör om enheterna.</p><div class=\"spel-en-del\">\\(2\\,400\\) cm³ till liter</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li><li><p>\\(1\\) m³ \\(=1\\,000\\) liter och \\(1\\) liter \\(=1\\,000\\) cm³.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2\\,400}{1\\,000}=\\)<strong>2,4 liter</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 liter = 1 dm³ = 1 000 cm³.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -124428,7 +124428,7 @@ window.BANKMA1 = [
         "etikett": "c",
         "t": "<p>Gör om enheterna.</p><div class=\"spel-en-del\">\\(45\\) minuter till timmar</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li><li><p>\\(1\\) m³ \\(=1\\,000\\) liter och \\(1\\) liter \\(=1\\,000\\) cm³.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{45}{60}=\\)<strong>0,75 timmar</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>En timme är 60 minuter. Hur stor del av en timme är 45 minuter?</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -124522,7 +124522,7 @@ window.BANKMA1 = [
         "etikett": "a",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">2,5 kg till g</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>2500 g</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 kg = 1 000 g.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -124530,7 +124530,7 @@ window.BANKMA1 = [
         "etikett": "b",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">840 g till kg</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>0,84 kg</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 000 g = 1 kg, så dela med 1 000.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -124538,7 +124538,7 @@ window.BANKMA1 = [
         "etikett": "c",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">0,006 ton till kg</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>6 kg</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 ton = 1 000 kg.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -124580,7 +124580,7 @@ window.BANKMA1 = [
         "etikett": "a",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">4,2 L till ml</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>4200 ml</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 liter = 1 000 ml.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -124588,7 +124588,7 @@ window.BANKMA1 = [
         "etikett": "b",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">750 ml till L</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>0,75 L</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 000 ml = 1 liter, så dela med 1 000.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -124596,7 +124596,7 @@ window.BANKMA1 = [
         "etikett": "c",
         "t": "<p>Omvandla:</p><div class=\"spel-en-del\">0,035 m³ till liter</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen.</p></li><li><p>Genomför sedan beräkningen och skriv enheten i slutsvaret.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>35 L</strong></p></div></div>",
-        "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+        "ledtrad": "<p>1 m³ = 1 000 liter.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -132098,7 +132098,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "V",
-    "ledtrad": "<p>Sätt in de kända värdena i formeln och kontrollera enheterna.</p>",
+    "ledtrad": "<p>Sätt in R och I i formeln och multiplicera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -132129,7 +132129,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "W",
-    "ledtrad": "<p>Sätt in de kända värdena i formeln och kontrollera enheterna.</p>",
+    "ledtrad": "<p>Sätt in U och I i formeln och multiplicera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -132160,7 +132160,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "km/h",
-    "ledtrad": "<p>Sätt in de kända värdena i formeln och kontrollera enheterna.</p>",
+    "ledtrad": "<p>Dela sträckan med tiden.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -132190,7 +132190,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Sätt in de kända värdena i formeln och kontrollera enheterna.</p>",
+    "ledtrad": "<p>Kvadrera radien först och multiplicera sedan med \\(\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -132221,7 +132221,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "A",
-    "ledtrad": "<p>Sätt in de kända värdena i formeln och kontrollera enheterna.</p>",
+    "ledtrad": "<p>Dela spänningen med resistansen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -132251,7 +132251,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Sätt in de kända värdena i formeln och kontrollera enheterna.</p>",
+    "ledtrad": "<p>Kvadrera längden först och dela sedan massan med den.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -132282,7 +132282,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "mm",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>Tiondels millimeter är första decimalen. Titta på siffran efter den.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -132313,7 +132313,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "g",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>1 kg = 1 000 g. Skriv om till gram och avrunda till heltal.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -132344,7 +132344,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "mm",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>1 m = 1 000 mm och 1 cm = 10 mm. Addera delarna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -132374,7 +132374,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>Temperaturen steg från −4,6 °C till 3,8 °C. Hur långt är det mellan talen på tallinjen?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -132405,7 +132405,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "ml",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>1 liter = 1 000 ml.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -132436,7 +132436,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "mA",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>1 A = 1 000 mA.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -132466,7 +132466,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>Multiplicera antalet med priset.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -132497,7 +132497,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "kWh",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>Förbrukningen är skillnaden mellan de två mätarställningarna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -132528,7 +132528,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "liter",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>Räkna skillnaden mellan mätarställningarna. 1 m³ = 1 000 liter.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -132559,7 +132559,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "mm",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>Höjdskillnaden är 2 mm för varje meter. Multiplicera med antalet meter.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -132590,7 +132590,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "m²",
-    "ledtrad": "<p>Läs av noggrant och avrunda till den noggrannhet som efterfrågas.</p>",
+    "ledtrad": "<p>Arean är längden gånger bredden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -142520,7 +142520,7 @@ window.BANKMA1 = [
     "omvandling",
     "omvandling"
   ],
-  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "ledtrad": "<p>1 m = 100 cm och 1 dl = 100 ml.</p>",
   "traningsniva": 2,
   "arbetsinsats": 2,
   "spel": true,
@@ -142586,7 +142586,7 @@ window.BANKMA1 = [
     "omvandling",
     "omvandling"
   ],
-  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "ledtrad": "<p>1 m = 100 cm och 1 dl = 100 ml.</p>",
   "traningsniva": 2,
   "arbetsinsats": 2,
   "spel": true,
@@ -142652,7 +142652,7 @@ window.BANKMA1 = [
     "omvandling",
     "omvandling"
   ],
-  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "ledtrad": "<p>1 km = 1 000 m och 1 liter = 1 000 ml.</p>",
   "traningsniva": 2,
   "arbetsinsats": 2,
   "spel": true,
@@ -142718,7 +142718,7 @@ window.BANKMA1 = [
     "omvandling",
     "omvandling"
   ],
-  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "ledtrad": "<p>Kilo betyder 1 000. Milli betyder en tusendel, så \\(10^{-2}\\) s är 10 ms.</p>",
   "traningsniva": 2,
   "arbetsinsats": 2,
   "spel": true,
@@ -142784,7 +142784,7 @@ window.BANKMA1 = [
     "omvandling",
     "omvandling"
   ],
-  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "ledtrad": "<p>Kilo betyder 1 000. Milli betyder en tusendel, så \\(10^{-2}\\) s är 10 ms.</p>",
   "traningsniva": 2,
   "arbetsinsats": 2,
   "spel": true,
@@ -142850,7 +142850,7 @@ window.BANKMA1 = [
     "omvandling",
     "omvandling"
   ],
-  "ledtrad": "<p>Använd sambandet mellan enheterna.</p>",
+  "ledtrad": "<p>1 MW = 1 000 kW. Milli betyder en tusendel, så \\(10^{-3}\\) s är 1 ms.</p>",
   "traningsniva": 2,
   "arbetsinsats": 2,
   "spel": true,

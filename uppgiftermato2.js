@@ -6189,7 +6189,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>",
+    "ledtrad": "<p>Vad är \\(1-\\cos^2x\\) enligt trigonometriska ettan?</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -6474,7 +6474,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>",
+    "ledtrad": "<p>Använd trigonometriska ettan, \\(\\sin^2x+\\cos^2x=1\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -8928,7 +8928,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sinus har två lösningar per varv: v och \\(180^\\circ-v\\). Cosinus har två lösningar per varv: v och \\(360^\\circ-v\\). Tangens upprepar sig efter \\(180^\\circ\\).</p>",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -9019,7 +9019,7 @@ window.BANKMATO2 = [
       null
     ],
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Ange alla lösningar med perioden: \\(+n\\cdot360^\\circ\\) för sinus och cosinus och \\(+n\\cdot180^\\circ\\) för tangens. Sinus har två lösningar per varv: v och \\(180^\\circ-v\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös ekvationen. Ange alla lösningar.</p>",
     "spelDelar": [
@@ -9212,7 +9212,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sätt det som står inne i parentesen lika med en grundlösning, och lägg till perioden innan du delar. Vinkeln \\(2x\\) ska gå två varv och \\(3x\\) tre varv.</p>",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
@@ -9378,7 +9378,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sinus har två lösningar per varv: v och \\(180^\\circ-v\\). Cosinus har två lösningar per varv: v och \\(360^\\circ-v\\). Tangens upprepar sig efter \\(180^\\circ\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös i intervallet \\(0^\\circ\\le x&lt;360^\\circ\\).</p>",
     "spelDelar": [
@@ -9494,7 +9494,7 @@ window.BANKMATO2 = [
       null
     ],
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>En produkt är noll när någon av faktorerna är noll. I b) och c) får du två tecken när du drar roten ur.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös algebraiskt.</p>",
     "spelDelar": [
@@ -9578,7 +9578,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Använd enhetscirkeln: var är y-koordinaten 0, x-koordinaten 0 och så vidare? Ange alla lösningar med perioden.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ange alla lösningar i grader.</p>",
     "spelDelar": [
@@ -9693,7 +9693,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sinus har två lösningar per varv: v och \\(180^\\circ-v\\). Cosinus har två lösningar per varv: v och \\(360^\\circ-v\\). Tangens upprepar sig efter \\(180^\\circ\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
     "spelDelar": [
@@ -9936,7 +9936,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sätt det som står inne i parentesen lika med en grundlösning, och lägg till perioden innan du löser ut x.</p>",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
@@ -10059,7 +10059,7 @@ window.BANKMATO2 = [
     "rättSvar": "{30,150}",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Dela båda leden med 2. Sinus har två lösningar per varv: v och \\(180^\\circ-v\\).</p>",
     "svarFormat": "lösningsmängd",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -10264,7 +10264,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Isolera sinus, cosinus eller tangens först. Sinus har två lösningar per varv: v och \\(180^\\circ-v\\). Cosinus har två lösningar per varv: v och \\(360^\\circ-v\\). Tangens upprepar sig efter \\(180^\\circ\\).</p>",
     "spelIntro": "<p>Lös i intervallet \\(0^\\circ\\le x&lt;360^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -10326,7 +10326,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Dela båda leden med \\(\\cos x\\). Då får du en ekvation med \\(\\tan x\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -10378,7 +10378,7 @@ window.BANKMATO2 = [
       null
     ],
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>I b) delar du med 4 och löser för \\(2x-60^\\circ\\). I c) är en produkt noll när någon av faktorerna är noll.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ange alla lösningar. Vinkeln \\(x\\) mäts i grader.</p>",
     "spelDelar": [
@@ -10504,7 +10504,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Dela med talet framför sinus, cosinus eller tangens först. Cosinus har två lösningar per varv: v och \\(360^\\circ-v\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös i intervallet \\(0^\\circ\\le x&lt;360^\\circ\\).</p>",
     "spelDelar": [
@@ -10683,7 +10683,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Isolera \\(\\cos x\\) i a). Var på enhetscirkeln är y-koordinaten −1?</p>",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -10734,7 +10734,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sinus har två lösningar per varv: v och \\(180^\\circ-v\\). Cosinus har två lösningar per varv: v och \\(360^\\circ-v\\). Tangens upprepar sig efter \\(180^\\circ\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
     "spelDelar": [
@@ -10802,7 +10802,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Skriv \\(\\sin2x=2\\sin x\\cos x\\), flytta allt till ett led och bryt ut \\(\\cos x\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -10877,7 +10877,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sinus har två lösningar per varv: v och \\(180^\\circ-v\\). Lägg till \\(n\\cdot360^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -10906,7 +10906,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Cosinus har två lösningar per varv: v och \\(360^\\circ-v\\). Lägg till \\(n\\cdot360^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -10967,7 +10967,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>\\(\\tan60^\\circ=\\sqrt3\\). Tangens upprepar sig efter \\(180^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -11043,7 +11043,7 @@ window.BANKMATO2 = [
     "rättSvar": "{45,135,225,315}",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Lös först för 2x och dela sedan med 2. Gå två varv, alltså upp till \\(720^\\circ\\), innan du delar.</p>",
     "svarFormat": "lösningsmängd",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -11246,7 +11246,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>En produkt är noll när någon av faktorerna är noll. Var är \\(\\sin x=0\\), och var är \\(\\cos x=0\\)?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -11444,7 +11444,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "sinus_cosinuskurvor__sinus_och_cosinuskurvor_i_grader",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Ekvationen går inte att lösa för hand. Rita vänsterledet och linjen \\(y=0{,}7\\) och läs av skärningspunkterna i intervallet.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -12129,7 +12129,7 @@ window.BANKMATO2 = [
     ],
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__trigonometriska_ekvationer_i_radianer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Rita \\(y=\\tan(0{,}8x)\\) och \\(y=0{,}3x\\) i samma koordinatsystem och läs av skärningspunkterna för \\(0\\le x\\le8\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "numeriskt",
@@ -12169,7 +12169,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Lös ut \\(\\sin x\\) först. Sinus har två lösningar per varv: v och \\(180^\\circ-v\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12208,7 +12208,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Lös ut \\(\\cos^2x\\) och dra roten ur. Glöm inte att cosinus kan vara negativ.</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12287,7 +12287,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sätt \\(t=\\cos x\\). Då får du en andragradsekvation i t.</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12327,7 +12327,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Skriv \\(\\sin2x=2\\sin x\\cos x\\), flytta allt till ett led och bryt ut \\(\\sin x\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12368,7 +12368,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Skriv \\(\\sin2x=2\\sin x\\cos x\\), flytta allt till ett led och bryt ut \\(\\cos x\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12408,7 +12408,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Skriv \\(\\cos2x=2\\cos^2x-1\\). Då får du en andragradsekvation i \\(\\cos x\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12446,7 +12446,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Dela båda leden med \\(\\cos x\\). Då får du en ekvation med \\(\\tan x\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12485,7 +12485,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Vänsterledet är \\(\\sin2x\\). Lös för 2x och gå två varv innan du delar med 2.</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12526,7 +12526,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>\\(\\sin^2x-\\cos^2x=-\\cos2x\\). Lös för 2x och gå två varv innan du delar med 2.</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12563,7 +12563,7 @@ window.BANKMATO2 = [
     "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Varje helt varv ger två lösningar eftersom 0,4 ligger mellan −1 och 1. Hur många hela varv ryms i intervallet, och vad händer i resten?</p>",
     "spel": false,
     "svarFormat": "heltal",
     "traningsniva": 3,
@@ -12599,7 +12599,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>\\(1+\\tan^2x=\\frac{1}{\\cos^2x}\\), så vänsterledet är \\(\\cos^2x\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12635,7 +12635,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Dela med 3. Var på enhetscirkeln är y-koordinaten 1?</p>",
     "svarFormat": "uttryck",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -12668,7 +12668,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Lös ut \\(\\cos x\\) först. Cosinus har två lösningar per varv: v och \\(360^\\circ-v\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12762,7 +12762,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Dela båda leden med \\(\\cos^2x\\). Då får du \\(\\tan^2x=1\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12804,7 +12804,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_problemlosning_1__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Rita linjen \\(y=a\\) tillsammans med sinuskurvan för ett varv. För vilka a träffar linjen kurvan bara en gång?</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "numeriskt",
@@ -12875,7 +12875,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Skriv \\(\\cos2x=2\\cos^2x-1\\). Då får du en andragradsekvation i \\(\\cos x\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -12949,7 +12949,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sinus har två lösningar per varv: v och \\(180^\\circ-v\\). Cosinus har två lösningar per varv: v och \\(360^\\circ-v\\). Tangens upprepar sig efter \\(180^\\circ\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Lös ekvationen. Ange alla lösningar i det angivna intervallet.</p>",
     "spelDelar": [
@@ -13209,7 +13209,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Isolera sinus, cosinus eller tangens först. I d) får du två tecken när du drar roten ur.</p>",
     "spelIntro": "<p>Lös ekvationen. Ange alla lösningar i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
@@ -13285,7 +13285,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Skriv \\(\\cos^2x=1-\\sin^2x\\). Då får du en ekvation med bara \\(\\sin x\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -13326,7 +13326,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekv_formler__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Skriv ekvationen som \\(\\sin3x=\\sin(-x)\\). När är två sinusvärden lika?</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -13465,7 +13465,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Isolera sinus, cosinus eller tangens först. Sinus har två lösningar per varv: v och \\(180^\\circ-v\\).</p>",
     "spelIntro": "<p>Lös. Ange alla lösningar i \\(0\\le x&lt;360^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -13498,7 +13498,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Lös först för \\(x+30^\\circ\\) och dra sedan bort \\(30^\\circ\\). Sinus har två lösningar per varv: v och \\(180^\\circ-v\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "uttryck",
@@ -13617,7 +13617,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_grundekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Använd enhetscirkeln: var är y-koordinaten 0, x-koordinaten 1 och så vidare?</p>",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -13652,7 +13652,7 @@ window.BANKMATO2 = [
     ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Skriv \\(\\cos2x=1-2\\sin^2x\\). Då får du en andragradsekvation i \\(\\sin x\\).</p>",
     "spel": false,
     "svarsstruktur": "mängd",
     "svarFormat": [
@@ -13772,7 +13772,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_problemlosning_1__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Rita linjen \\(y=a\\) tillsammans med sinuskurvan för ett varv. För vilka a skär linjen kurvan två gånger?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -13803,7 +13803,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "trig_problemlosning_1__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Var på enhetscirkeln är x-koordinaten 1? Tänk på att \\(360^\\circ\\) inte ingår i intervallet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -13834,7 +13834,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "trig_problemlosning_1__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>\\(\\sin x=2/3\\). Hur många gånger når sinuskurvan höjden 2/3 under ett varv?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -13865,7 +13865,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "trig_problemlosning_1__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>\\(\\sin x=\\pm0{,}5\\). Hur många lösningar ger varje tecken?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -13935,7 +13935,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>\\(\\tan45^\\circ=1\\). Tangens upprepar sig efter \\(180^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -13986,7 +13986,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Var på enhetscirkeln är x-koordinaten 0? De punkterna ligger \\(180^\\circ\\) från varandra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -14037,7 +14037,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sinus har två lösningar per varv: v och \\(180^\\circ-v\\). Lägg till \\(n\\cdot360^\\circ\\) till båda.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -14121,7 +14121,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sinus är noll vid \\(0^\\circ\\) och \\(180^\\circ\\). Lös \\(2x=n\\cdot180^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -14172,7 +14172,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sinus är 1 vid \\(90^\\circ\\). Lös \\(2x=90^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -14246,7 +14246,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Cosinus är 0 vid \\(90^\\circ\\). Lös \\(3x=90^\\circ\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -14276,7 +14276,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sinus är noll vid \\(n\\cdot180^\\circ\\). Vilket n ger det minsta icke-negativa x?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -14350,7 +14350,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>För vilken spetsig vinkel är \\(\\sin x=\\frac12\\)?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -14380,7 +14380,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Var på enhetscirkeln är x-koordinaten −1?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -14410,7 +14410,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>För vilken spetsig vinkel är \\(\\tan x=\\sqrt3\\)?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -14846,7 +14846,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>a) Var är \\(\\cos x=0\\) för första gången? b) Faktorn 2 framför x halverar perioden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -14877,7 +14877,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>a) \\(\\sin2x=0\\) när \\(2x\\) är en multipel av \\(\\pi\\). b) Minus \\(\\pi/2\\) inne i parentesen flyttar grafen \\(\\pi/2\\) åt höger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -14922,7 +14922,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där \\(2x=\\pm\\pi/2\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För \\(f(x)=\\tan(2x)\\):</p>",
     "spelDelar": [
@@ -14999,7 +14999,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan 5 och 1, och amplituden är halva skillnaden. Från ett maximum till nästa minimum är det en halv period.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -15048,7 +15048,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Läs av största och minsta värdet för A och B och avståndet mellan två maximipunkter för perioden. Bestäm v sist med en punkt där grafen passerar medellinjen uppåt.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -15191,7 +15191,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Rita den rätvinkliga triangeln med strålkastaren, väggen och sträckan 8 m. Vilken trigonometrisk kvot innehåller motstående och närliggande katet?</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 2,
@@ -15234,7 +15234,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Jämför med \\(y=\\sin x\\): ett tal inne i parentesen flyttar grafen i sidled, en faktor framför ändrar amplituden och ett tal efteråt flyttar den uppåt eller nedåt.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beskriv hur grafen till \\(y=\\sin x\\) förändras för funktionen.</p>",
     "spelDelar": [
@@ -15382,7 +15382,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där \\(2x=\\pm\\pi/2\\). En udda funktion uppfyller \\(f(-x)=-f(x)\\).</p>",
     "spelIntro": "<p>För \\(y=\\tan(2x)\\), bestäm</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -15414,7 +15414,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>",
+    "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -15461,7 +15461,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "sinus_cosinuskurvor__sinus_och_cosinuskurvor_i_grader",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Sinus och cosinus varierar mellan −1 och 1. Vad blir uttrycket när sinus- eller cosinusdelen är 1, och när den är −1?</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm största och minsta värde.</p>",
     "spelDelar": [
@@ -15598,7 +15598,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden är \\(2\\pi/k\\), där k är faktorn framför x. Det minsta värdet får du när sinus är −1.</p>",
     "spelIntro": "<p>Funktionen ges av \\(f(x)=-1+4\\sin(x/2)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -15668,7 +15668,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden är \\(2\\pi/k\\) med \\(k=4\\). Det minsta värdet får du när sinus är −1.</p>",
     "spelIntro": "<p>Funktionen ges av \\(f(x)=1+6\\sin(4x)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -15703,7 +15703,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Medellinjen ligger mitt emellan största och minsta värdet. Fasförskjutningen c är x-värdet där grafen passerar medellinjen uppåt.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -15750,7 +15750,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Skriv argumentet på formen \\(k(x-c)\\). Då är c förskjutningen åt höger.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beskriv fasförskjutningen jämfört med \\(y=\\sin x\\).</p>",
     "spelDelar": [
@@ -15839,7 +15839,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>",
+    "ledtrad": "<p>Minus inne i parentesen flyttar grafen åt höger.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -15940,7 +15940,7 @@ window.BANKMATO2 = [
     ],
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Ekvationen går inte att lösa för hand. Rita båda graferna och läs av skärningspunkterna för \\(0\\le x\\le8\\).</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "numeriskt",
@@ -15993,7 +15993,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Läs av största och minsta värdet för A och B och perioden för k. Lös sedan \\(A\\cos(kx)+B=0\\) med dina värden.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen visar en funktion \\(f(x)=A\\cos(kx)+B\\).</p><span class=\"fig\"><svg height=\"250\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 450 250\" width=\"450\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"248\" rx=\"10\" stroke=\"#E4E3E6\" width=\"448\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"147.0\" x2=\"147.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"242.0\" x2=\"242.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"337.0\" x2=\"337.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"432.0\" x2=\"432.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"188.0\" y2=\"188.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"164.0\" y2=\"164.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"116.0\" y2=\"116.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"44.0\" y2=\"44.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52\" x2=\"432\" y1=\"164.0\" y2=\"164.0\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"52.0\" y=\"236\">0</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"147.0\" y=\"236\">π</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"242.0\" y=\"236\">2π</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"337.0\" y=\"236\">3π</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"432.0\" y=\"236\">4π</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"192.0\">−1</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"120.0\">2</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"48.0\">5</text>\n<path d=\"M52.0,44.0 L53.6,44.0 L55.2,44.1 L56.8,44.2 L58.3,44.4 L59.9,44.6 L61.5,44.9 L63.1,45.2 L64.7,45.6 L66.2,46.0 L67.8,46.5 L69.4,47.0 L71.0,47.5 L72.6,48.1 L74.2,48.8 L75.8,49.5 L77.3,50.2 L78.9,51.0 L80.5,51.8 L82.1,52.7 L83.7,53.6 L85.2,54.6 L86.8,55.6 L88.4,56.7 L90.0,57.8 L91.6,58.9 L93.2,60.0 L94.8,61.3 L96.3,62.5 L97.9,63.8 L99.5,65.1 L101.1,66.4 L102.7,67.8 L104.2,69.2 L105.8,70.7 L107.4,72.2 L109.0,73.7 L110.6,75.2 L112.2,76.8 L113.8,78.4 L115.3,80.0 L116.9,81.6 L118.5,83.3 L120.1,85.0 L121.7,86.7 L123.2,88.4 L124.8,90.2 L126.4,92.0 L128.0,93.8 L129.6,95.6 L131.2,97.4 L132.8,99.2 L134.3,101.0 L135.9,102.9 L137.5,104.7 L139.1,106.6 L140.7,108.5 L142.2,110.4 L143.8,112.2 L145.4,114.1 L147.0,116.0 L148.6,117.9 L150.2,119.8 L151.8,121.6 L153.3,123.5 L154.9,125.4 L156.5,127.3 L158.1,129.1 L159.7,131.0 L161.2,132.8 L162.8,134.6 L164.4,136.4 L166.0,138.2 L167.6,140.0 L169.2,141.8 L170.8,143.6 L172.3,145.3 L173.9,147.0 L175.5,148.7 L177.1,150.4 L178.7,152.0 L180.2,153.6 L181.8,155.2 L183.4,156.8 L185.0,158.3 L186.6,159.8 L188.2,161.3 L189.8,162.8 L191.3,164.2 L192.9,165.6 L194.5,166.9 L196.1,168.2 L197.7,169.5 L199.2,170.7 L200.8,172.0 L202.4,173.1 L204.0,174.2 L205.6,175.3 L207.2,176.4 L208.8,177.4 L210.3,178.4 L211.9,179.3 L213.5,180.2 L215.1,181.0 L216.7,181.8 L218.2,182.5 L219.8,183.2 L221.4,183.9 L223.0,184.5 L224.6,185.0 L226.2,185.5 L227.8,186.0 L229.3,186.4 L230.9,186.8 L232.5,187.1 L234.1,187.4 L235.7,187.6 L237.2,187.8 L238.8,187.9 L240.4,188.0 L242.0,188.0 L243.6,188.0 L245.2,187.9 L246.7,187.8 L248.3,187.6 L249.9,187.4 L251.5,187.1 L253.1,186.8 L254.7,186.4 L256.2,186.0 L257.8,185.5 L259.4,185.0 L261.0,184.5 L262.6,183.9 L264.2,183.2 L265.8,182.5 L267.3,181.8 L268.9,181.0 L270.5,180.2 L272.1,179.3 L273.7,178.4 L275.2,177.4 L276.8,176.4 L278.4,175.3 L280.0,174.2 L281.6,173.1 L283.2,172.0 L284.8,170.7 L286.3,169.5 L287.9,168.2 L289.5,166.9 L291.1,165.6 L292.7,164.2 L294.2,162.8 L295.8,161.3 L297.4,159.8 L299.0,158.3 L300.6,156.8 L302.2,155.2 L303.8,153.6 L305.3,152.0 L306.9,150.4 L308.5,148.7 L310.1,147.0 L311.7,145.3 L313.2,143.6 L314.8,141.8 L316.4,140.0 L318.0,138.2 L319.6,136.4 L321.2,134.6 L322.7,132.8 L324.3,131.0 L325.9,129.1 L327.5,127.3 L329.1,125.4 L330.7,123.5 L332.2,121.6 L333.8,119.8 L335.4,117.9 L337.0,116.0 L338.6,114.1 L340.2,112.2 L341.8,110.4 L343.3,108.5 L344.9,106.6 L346.5,104.7 L348.1,102.9 L349.7,101.0 L351.3,99.2 L352.8,97.4 L354.4,95.6 L356.0,93.8 L357.6,92.0 L359.2,90.2 L360.7,88.4 L362.3,86.7 L363.9,85.0 L365.5,83.3 L367.1,81.6 L368.7,80.0 L370.2,78.4 L371.8,76.8 L373.4,75.2 L375.0,73.7 L376.6,72.2 L378.2,70.7 L379.8,69.2 L381.3,67.8 L382.9,66.4 L384.5,65.1 L386.1,63.8 L387.7,62.5 L389.2,61.3 L390.8,60.0 L392.4,58.9 L394.0,57.8 L395.6,56.7 L397.2,55.6 L398.8,54.6 L400.3,53.6 L401.9,52.7 L403.5,51.8 L405.1,51.0 L406.7,50.2 L408.2,49.5 L409.8,48.8 L411.4,48.1 L413.0,47.5 L414.6,47.0 L416.2,46.5 L417.8,46.0 L419.3,45.6 L420.9,45.2 L422.5,44.9 L424.1,44.6 L425.7,44.4 L427.2,44.2 L428.8,44.1 L430.4,44.0 L432.0,44.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"></path>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"423\" y=\"224\">x</text>\n</svg></span>",
     "spelDelar": [
@@ -16065,7 +16065,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Amplituden är halva skillnaden mellan 5,5 och 1,5, och B ligger mitt emellan. Perioden är 8,0 s, och \\(k=2\\pi/\\text{perioden}\\).</p>",
     "svarFormat": [
       "numeriskt",
       "uttryck",
@@ -16158,7 +16158,7 @@ window.BANKMATO2 = [
       null
     ],
     "självrättning": true,
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Amplituden är faktorn framför sinus. Perioden är \\(2\\pi/k\\).</p>",
     "svarFormat": [
       "numeriskt",
       "uttryck"
@@ -16294,7 +16294,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>",
+    "ledtrad": "<p>Tangens har asymptoter där argumentet är \\(\\pi/2+n\\pi\\). Sätt \\(x-\\pi/4=\\pi/2\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -16378,7 +16378,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Läs av största och minsta värdet. Medellinjen ligger mitt emellan, och perioden är avståndet mellan två maximipunkter.</p>",
     "spelIntro": "<p>Grafen visar en sinusfunktion.</p><span class=\"fig\"><svg aria-label=\"Periodisk graf\" height=\"270\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 270\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><line stroke=\"#E8ECEF\" x1=\"151.8\" x2=\"151.8\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"151.8\" y=\"250\">1</text><line stroke=\"#E8ECEF\" x1=\"200.1\" x2=\"200.1\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"200.1\" y=\"250\">2</text><line stroke=\"#E8ECEF\" x1=\"248.5\" x2=\"248.5\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"248.5\" y=\"250\">3</text><line stroke=\"#E8ECEF\" x1=\"296.9\" x2=\"296.9\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"296.9\" y=\"250\">4</text><line stroke=\"#E8ECEF\" x1=\"345.2\" x2=\"345.2\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"345.2\" y=\"250\">5</text><line stroke=\"#E8ECEF\" x1=\"393.6\" x2=\"393.6\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"393.6\" y=\"250\">6</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"206.1\" y2=\"206.1\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"210.1\">-1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"154.4\" y2=\"154.4\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"158.4\">1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"128.5\" y2=\"128.5\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"132.5\">2</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"102.6\" y2=\"102.6\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"106.6\">3</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"76.8\" y2=\"76.8\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"80.8\">4</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"50.9\" y2=\"50.9\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"54.9\">5</text><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><polyline fill=\"none\" points=\"55.0,128.5 56.8,132.9 58.5,137.3 60.3,141.7 62.0,146.1 63.8,150.4 65.6,154.6 67.3,158.7 69.1,162.7 70.8,166.7 72.6,170.5 74.3,174.1 76.1,177.6 77.9,181.0 79.6,184.2 81.4,187.2 83.1,190.0 84.9,192.6 86.7,195.0 88.4,197.2 90.2,199.1 91.9,200.8 93.7,202.3 95.5,203.6 97.2,204.6 99.0,205.3 100.7,205.8 102.5,206.1 104.3,206.1 106.0,205.8 107.8,205.3 109.5,204.6 111.3,203.6 113.0,202.3 114.8,200.8 116.6,199.1 118.3,197.2 120.1,195.0 121.8,192.6 123.6,190.0 125.4,187.2 127.1,184.2 128.9,181.0 130.6,177.6 132.4,174.1 134.2,170.5 135.9,166.7 137.7,162.7 139.4,158.7 141.2,154.6 143.0,150.4 144.7,146.1 146.5,141.7 148.2,137.3 150.0,132.9 151.8,128.5 153.5,124.1 155.3,119.7 157.0,115.3 158.8,110.9 160.5,106.6 162.3,102.4 164.1,98.3 165.8,94.3 167.6,90.3 169.3,86.5 171.1,82.9 172.9,79.4 174.6,76.0 176.4,72.8 178.1,69.8 179.9,67.0 181.7,64.4 183.4,62.0 185.2,59.8 186.9,57.9 188.7,56.2 190.4,54.7 192.2,53.4 194.0,52.4 195.7,51.7 197.5,51.2 199.2,50.9 201.0,50.9 202.8,51.2 204.5,51.7 206.3,52.4 208.0,53.4 209.8,54.7 211.6,56.2 213.3,57.9 215.1,59.8 216.8,62.0 218.6,64.4 220.4,67.0 222.1,69.8 223.9,72.8 225.6,76.0 227.4,79.4 229.2,82.9 230.9,86.5 232.7,90.3 234.4,94.3 236.2,98.3 237.9,102.4 239.7,106.6 241.5,110.9 243.2,115.3 245.0,119.7 246.7,124.1 248.5,128.5 250.3,132.9 252.0,137.3 253.8,141.7 255.5,146.1 257.3,150.4 259.1,154.6 260.8,158.7 262.6,162.7 264.3,166.7 266.1,170.5 267.9,174.1 269.6,177.6 271.4,181.0 273.1,184.2 274.9,187.2 276.6,190.0 278.4,192.6 280.2,195.0 281.9,197.2 283.7,199.1 285.4,200.8 287.2,202.3 289.0,203.6 290.7,204.6 292.5,205.3 294.2,205.8 296.0,206.1 297.8,206.1 299.5,205.8 301.3,205.3 303.0,204.6 304.8,203.6 306.6,202.3 308.3,200.8 310.1,199.1 311.8,197.2 313.6,195.0 315.3,192.6 317.1,190.0 318.9,187.2 320.6,184.2 322.4,181.0 324.1,177.6 325.9,174.1 327.7,170.5 329.4,166.7 331.2,162.7 332.9,158.7 334.7,154.6 336.5,150.4 338.2,146.1 340.0,141.7 341.7,137.3 343.5,132.9 345.2,128.5 347.0,124.1 348.8,119.7 350.5,115.3 352.3,110.9 354.0,106.6 355.8,102.4 357.6,98.3 359.3,94.3 361.1,90.3 362.8,86.5 364.6,82.9 366.4,79.4 368.1,76.0 369.9,72.8 371.6,69.8 373.4,67.0 375.2,64.4 376.9,62.0 378.7,59.8 380.4,57.9 382.2,56.2 383.9,54.7 385.7,53.4 387.5,52.4 389.2,51.7 391.0,51.2 392.7,50.9 394.5,50.9 396.3,51.2 398.0,51.7 399.8,52.4 401.5,53.4 403.3,54.7 405.1,56.2 406.8,57.9 408.6,59.8 410.3,62.0 412.1,64.4 413.9,67.0 415.6,69.8 417.4,72.8 419.1,76.0 420.9,79.4 422.6,82.9 424.4,86.5 426.2,90.3 427.9,94.3 429.7,98.3 431.4,102.4 433.2,106.6 435.0,110.9 436.7,115.3 438.5,119.7 440.2,124.1 442.0,128.5\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\"></polyline><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" text-anchor=\"end\" x=\"411.0\" y=\"55.0\">f</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"440\" y=\"172.2\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"111.4\" y=\"37\">y</text></svg></span>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -16448,7 +16448,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden är \\(2\\pi/k\\) med \\(k=\\pi/4\\). Det minsta värdet får du när cosinus är −1.</p>",
     "spelIntro": "<p>Funktionen ges av \\(f(x)=-3+2\\cos(\\pi x/4)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -16586,7 +16586,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där \\(2x=\\pm\\pi/2\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För funktionen \\(f(x)=\\tan(2x)\\), bestäm</p>",
     "spelDelar": [
@@ -16648,7 +16648,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>B ligger mitt emellan 7 och −1, och A är halva skillnaden. Att \\(f(0)=3\\) och att grafen växer där betyder att den passerar medellinjen uppåt vid \\(x=0\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -16683,7 +16683,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Avståndet mellan två maximipunkter är en period. Medellinjen ligger mitt emellan 5 och 1. Cosinus har sitt maximum där argumentet är 0, och det bestämmer c.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -17038,7 +17038,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Amplituden är beloppet av faktorn framför sinus eller cosinus. Perioden är \\(2\\pi/k\\), och medellinjen är det konstanta tillägget.</p>",
     "spelIntro": "<p>Ange funktionens amplitud, period och medellinje.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -17178,7 +17178,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden är \\(2\\pi/k\\) med \\(k=3\\). Det står minus framför cosinus, så det minsta värdet får du när \\(\\cos3x=1\\).</p>",
     "spelIntro": "<p>Funktionen ges av \\(f(x)=5-2\\cos(3x)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -17210,7 +17210,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>a) Var är \\(\\sin x=0\\)? b) Faktorn \\(1/2\\) framför x gör perioden dubbelt så lång.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -17240,7 +17240,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Rita grafen och linjen \\(y=1{,}5\\) och läs av var grafen ligger över linjen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -17271,7 +17271,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>a) Var är \\(\\cos(x/2)=0\\) för första gången? b) \\(\\cos(x/4)\\) har dubbelt så lång period som \\(\\cos(x/2)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -17354,7 +17354,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>A är amplituden och B medellinjen. k bestäms av perioden: \\(k=2\\pi/\\text{perioden}\\).</p>",
     "spelIntro": "<p>Skriv en möjlig funktion av formen \\(y=A\\sin(kx)+B\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -17474,7 +17474,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
+    "ledtrad": "<p>Skriv \\(5\\sin x-12\\cos x\\) som \\(R\\sin(x+v)\\). R får du ur \\(R^2=5^2+12^2\\).</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -17605,7 +17605,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Skriv argumentet på formen \\(k(x-c)\\). Då är c förskjutningen i positiv x-riktning.</p>",
     "spelIntro": "<p>Ange fasförskjutningen i positiv x-riktning.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
@@ -17640,7 +17640,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Läs av största och minsta värdet för A och B och perioden för k.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -17717,7 +17717,7 @@ window.BANKMATO2 = [
       0
     ],
     "självrättning": true,
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Medellinjen är det konstanta tillägget. Perioden är \\(2\\pi/k\\) med \\(k=\\pi/3\\).</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -17823,7 +17823,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Bryt ut faktorn framför x ur parentesen: \\(kx-a=k(x-a/k)\\).</p>",
     "spelIntro": "<p>Skriv om så att fasförskjutningen syns i formen \\(A\\sin(k(x-x_0))+B\\) eller \\(A\\cos(k(x-x_0))+B\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -17859,7 +17859,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Avståndet mellan två maximipunkter är perioden. Medellinjen ligger mitt emellan 7 och −1. Cosinus har sitt maximum där argumentet är 0.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -17934,7 +17934,7 @@ window.BANKMATO2 = [
       "uttryck"
     ],
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>\\(\\tan x=\\sin x/\\cos x\\). Asymptoterna ligger där \\(\\cos x=0\\) och nollställena där \\(\\sin x=0\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen visar \\(y=\\tan x\\).</p><span class=\"fig\"><svg aria-label=\"Graf till tangensfunktionen med lodräta asymptoter\" height=\"245\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 245\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"243\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"205.0\" y2=\"205.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"182.5\" y2=\"182.5\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"160.0\" y2=\"160.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"137.5\" y2=\"137.5\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"115.0\" y2=\"115.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"92.5\" y2=\"92.5\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"70.0\" y2=\"70.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"47.5\" y2=\"47.5\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"25.0\" y2=\"25.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60.0\" x2=\"60.0\" y1=\"25\" y2=\"205\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"60.0\" y=\"132.0\">-π</text>\n<line stroke=\"#D9E6E9\" x1=\"155.0\" x2=\"155.0\" y1=\"25\" y2=\"205\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"155.0\" y=\"132.0\">-π/2</text>\n<line stroke=\"#D9E6E9\" x1=\"250.0\" x2=\"250.0\" y1=\"25\" y2=\"205\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"240.0\" y=\"132.0\">0</text>\n<line stroke=\"#D9E6E9\" x1=\"345.0\" x2=\"345.0\" y1=\"25\" y2=\"205\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"345.0\" y=\"132.0\">π/2</text>\n<line stroke=\"#D9E6E9\" x1=\"440.0\" x2=\"440.0\" y1=\"25\" y2=\"205\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"440.0\" y=\"132.0\">π</text>\n<line stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"60\" x2=\"440\" y1=\"115.0\" y2=\"115.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"250.0\" x2=\"250.0\" y1=\"25\" y2=\"205\"></line>\n<line stroke=\"#268FA3\" stroke-dasharray=\"6 4\" stroke-width=\"1.4\" x1=\"155.0\" x2=\"155.0\" y1=\"25\" y2=\"205\"></line>\n<line stroke=\"#268FA3\" stroke-dasharray=\"6 4\" stroke-width=\"1.4\" x1=\"345.0\" x2=\"345.0\" y1=\"25\" y2=\"205\"></line>\n<polyline fill=\"none\" points=\"60.00,115.00 60.72,114.73 61.43,114.47 62.15,114.20 62.87,113.93 63.58,113.67 64.30,113.40 65.02,113.13 65.73,112.86 66.45,112.59 67.17,112.32 67.88,112.05 68.60,111.78 69.32,111.51 70.04,111.23 70.75,110.96 71.47,110.68 72.19,110.40 72.90,110.13 73.62,109.85 74.34,109.56 75.05,109.28 75.77,109.00 76.49,108.71 77.20,108.42 77.92,108.13 78.64,107.84 79.35,107.54 80.07,107.25 80.79,106.95 81.50,106.64 82.22,106.34 82.94,106.03 83.65,105.72 84.37,105.41 85.09,105.09 85.81,104.77 86.52,104.45 87.24,104.12 87.96,103.79 88.67,103.45 89.39,103.12 90.11,102.77 90.82,102.42 91.54,102.07 92.26,101.72 92.97,101.35 93.69,100.99 94.41,100.61 95.12,100.23 95.84,99.85 96.56,99.46 97.27,99.06 97.99,98.66 98.71,98.25 99.42,97.83 100.14,97.40 100.86,96.97 101.58,96.53 102.29,96.08 103.01,95.62 103.73,95.15 104.44,94.67 105.16,94.18 105.88,93.68 106.59,93.17 107.31,92.64 108.03,92.10 108.74,91.56 109.46,90.99 110.18,90.41 110.89,89.82 111.61,89.21 112.33,88.59 113.04,87.94 113.76,87.28 114.48,86.60 115.19,85.90 115.91,85.18 116.63,84.43 117.35,83.66 118.06,82.86 118.78,82.03 119.50,81.18 120.21,80.30 120.93,79.38 121.65,78.42 122.36,77.43 123.08,76.40 123.80,75.33 124.51,74.21 125.23,73.04 125.95,71.82 126.66,70.54 127.38,69.21 128.10,67.80 128.81,66.32 129.53,64.77 130.25,63.13 130.96,61.40 131.68,59.57 132.40,57.62 133.11,55.56 133.83,53.36 134.55,51.02 135.27,48.51 135.98,45.82 136.70,42.93 137.42,39.81 138.13,36.43 138.85,32.76 139.57,28.75 140.28,24.37\" stroke=\"#268FA3\" stroke-width=\"2.4\"></polyline>\n<polyline fill=\"none\" points=\"169.72,205.63 171.15,197.24 172.58,190.19 174.02,184.18 175.45,178.98 176.89,174.44 178.32,170.43 179.75,166.87 181.19,163.68 182.62,160.79 184.05,158.18 185.49,155.79 186.92,153.60 188.35,151.58 189.79,149.70 191.22,147.97 192.65,146.34 194.09,144.82 195.52,143.40 196.96,142.06 198.39,140.79 199.82,139.59 201.26,138.44 202.69,137.36 204.12,136.32 205.56,135.33 206.99,134.38 208.42,133.47 209.86,132.60 211.29,131.75 212.73,130.94 214.16,130.15 215.59,129.39 217.03,128.65 218.46,127.93 219.89,127.23 221.33,126.55 222.76,125.88 224.19,125.23 225.63,124.59 227.06,123.97 228.50,123.36 229.93,122.75 231.36,122.16 232.80,121.58 234.23,121.00 235.66,120.44 237.10,119.87 238.53,119.32 239.96,118.77 241.40,118.22 242.83,117.68 244.27,117.14 245.70,116.60 247.13,116.07 248.57,115.53 250.00,115.00 251.43,114.47 252.87,113.93 254.30,113.40 255.73,112.86 257.17,112.32 258.60,111.78 260.04,111.23 261.47,110.68 262.90,110.13 264.34,109.56 265.77,109.00 267.20,108.42 268.64,107.84 270.07,107.25 271.50,106.64 272.94,106.03 274.37,105.41 275.81,104.77 277.24,104.12 278.67,103.45 280.11,102.77 281.54,102.07 282.97,101.35 284.41,100.61 285.84,99.85 287.27,99.06 288.71,98.25 290.14,97.40 291.58,96.53 293.01,95.62 294.44,94.67 295.88,93.68 297.31,92.64 298.74,91.56 300.18,90.41 301.61,89.21 303.04,87.94 304.48,86.60 305.91,85.18 307.35,83.66 308.78,82.03 310.21,80.30 311.65,78.42 313.08,76.40 314.51,74.21 315.95,71.82 317.38,69.21 318.81,66.32 320.25,63.13 321.68,59.57 323.11,55.56 324.55,51.02 325.98,45.82 327.42,39.81 328.85,32.76 330.28,24.37\" stroke=\"#268FA3\" stroke-width=\"2.4\"></polyline>\n<polyline fill=\"none\" points=\"359.72,205.63 360.43,201.25 361.15,197.24 361.87,193.57 362.58,190.19 363.30,187.07 364.02,184.18 364.73,181.49 365.45,178.98 366.17,176.64 366.89,174.44 367.60,172.38 368.32,170.43 369.04,168.60 369.75,166.87 370.47,165.23 371.19,163.68 371.90,162.20 372.62,160.79 373.34,159.46 374.05,158.18 374.77,156.96 375.49,155.79 376.20,154.67 376.92,153.60 377.64,152.57 378.35,151.58 379.07,150.62 379.79,149.70 380.50,148.82 381.22,147.97 381.94,147.14 382.65,146.34 383.37,145.57 384.09,144.82 384.81,144.10 385.52,143.40 386.24,142.72 386.96,142.06 387.67,141.41 388.39,140.79 389.11,140.18 389.82,139.59 390.54,139.01 391.26,138.44 391.97,137.90 392.69,137.36 393.41,136.83 394.12,136.32 394.84,135.82 395.56,135.33 396.27,134.85 396.99,134.38 397.71,133.92 398.42,133.47 399.14,133.03 399.86,132.60 400.58,132.17 401.29,131.75 402.01,131.34 402.73,130.94 403.44,130.54 404.16,130.15 404.88,129.77 405.59,129.39 406.31,129.01 407.03,128.65 407.74,128.28 408.46,127.93 409.18,127.58 409.89,127.23 410.61,126.88 411.33,126.55 412.04,126.21 412.76,125.88 413.48,125.55 414.19,125.23 414.91,124.91 415.63,124.59 416.35,124.28 417.06,123.97 417.78,123.66 418.50,123.36 419.21,123.05 419.93,122.75 420.65,122.46 421.36,122.16 422.08,121.87 422.80,121.58 423.51,121.29 424.23,121.00 424.95,120.72 425.66,120.44 426.38,120.15 427.10,119.87 427.81,119.60 428.53,119.32 429.25,119.04 429.96,118.77 430.68,118.49 431.40,118.22 432.12,117.95 432.83,117.68 433.55,117.41 434.27,117.14 434.98,116.87 435.70,116.60 436.42,116.33 437.13,116.07 437.85,115.80 438.57,115.53 439.28,115.27 440.00,115.00\" stroke=\"#268FA3\" stroke-width=\"2.4\"></polyline>\n</svg></span>",
     "spelDelar": [
@@ -18119,7 +18119,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där argumentet är \\(\\pi/2+n\\pi\\). Talen framför och efter tangens påverkar inte asymptoterna.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ange funktionens period och alla lodräta asymptoter.</p>",
     "spelDelar": [
@@ -18203,7 +18203,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Läs av A och B ur största och minsta värdet och k ur perioden. Villkoret \\(-\\pi<v\\le\\pi\\) gör att bara ett värde på v passar en punkt där grafen passerar medellinjen uppåt.</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -18329,7 +18329,7 @@ window.BANKMATO2 = [
     ],
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Rita grafen och linjen \\(y=2\\) och läs av de två första skärningspunkterna med positivt x.</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "numeriskt",
@@ -18561,7 +18561,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Amplituden är beloppet av faktorn framför sinus eller cosinus. Perioden är \\(2\\pi/k\\), och medellinjen är talet som läggs till.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ange funktionens amplitud, period och medellinje.</p>",
     "spelDelar": [
@@ -18665,7 +18665,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Amplituden är faktorn framför cosinus och perioden \\(2\\pi/k\\). Största och minsta värdet får du när cosinus är 1 respektive −1.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För funktionen \\(f(x)=3\\cos(2x-\\pi)+1\\), bestäm</p>",
     "spelDelar": [
@@ -18749,7 +18749,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>a) \\(\\sin3x=0\\) när \\(3x\\) är en multipel av \\(\\pi\\). b) Faktorn 2 framför sinus dubblar amplituden men ändrar inte perioden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -18783,7 +18783,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Läs av största och minsta värdet och perioden. Börjar grafen i ett maximum eller ett minimum vid \\(x=0\\)?</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -18968,7 +18968,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
+    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför med \\(\\sqrt3\\sin x+\\cos x\\).</p>",
     "spelIntro": "<p>Uttrycket är</p><p>\\[E(x)=\\sqrt3\\sin x+\\cos x.\\]</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -19007,7 +19007,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Amplitud och medellinje läser du direkt i formeln. Perioden är \\(2\\pi/k\\) med \\(k=1/2\\). Cosinus har sitt maximum där argumentet är 0.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Funktionen</p><p>\\[ f(x)=3\\cos\\left(\\frac{x}{2}-\\frac{\\pi}{3}\\right)+2 \\]</p><p>är given, där \\(x\\) är i radianer.</p>",
     "spelDelar": [
@@ -19117,7 +19117,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Cosinus har sitt maximum där argumentet är 0 eller en multipel av \\(2\\pi\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -19148,7 +19148,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Funktionen \\(A\\sin(k(x-c))+B\\) passerar medellinjen uppåt vid \\(x=c\\). k bestäms av perioden.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -19179,7 +19179,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Sinus passerar medellinjen uppåt där argumentet är 0. Skriv funktionen som \\(A\\sin(x-c)+B\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19271,7 +19271,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där \\(3x=\\pm\\pi/2\\) och nollställena där \\(3x=n\\pi\\).</p>",
     "spelIntro": "<p>För funktionen \\(f(x)=2\\tan(3x)\\):</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -19304,7 +19304,7 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>",
+    "ledtrad": "<p>Perioden för \\(\\tan(bx)\\) är \\(\\pi/b\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -19420,7 +19420,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där argumentet är \\(\\pm\\pi/2\\).</p>",
     "spelIntro": "<p>Bestäm.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -19453,7 +19453,7 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>",
+    "ledtrad": "<p>Modellen blir odefinierad där tangens har en asymptot, alltså där argumentet är \\(\\pi/2\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -19485,7 +19485,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn 2 framför x halverar perioden. Markera var en hel period slutar och var maximum och minimum ligger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19516,7 +19516,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn \\(1/2\\) framför x dubblar perioden till \\(4\\pi\\). Markera var maximum, nollställen och minimum ligger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19547,7 +19547,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn 2 framför sinus dubblar amplituden. Perioden är fortfarande \\(2\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19577,7 +19577,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Skärningspunkterna går inte att räkna fram för hand. Rita båda graferna och läs av alla skärningar för \\(0\\le x\\le12\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19608,7 +19608,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Kurvan svänger med amplituden 2 kring medellinjen \\(y=1\\). Var ligger den högsta punkten?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19639,7 +19639,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Minus \\(\\pi/3\\) inne i parentesen flyttar sinuskurvan \\(\\pi/3\\) åt höger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19670,7 +19670,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Minustecknet speglar kurvan i x-axeln, och faktorn 2 framför x halverar perioden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19701,7 +19701,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Bestäm period, amplitud och medellinje ur formeln innan du ritar.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19732,7 +19732,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Rita medellinjen \\(y=1\\) först. Plus \\(\\pi/4\\) inne i parentesen flyttar kurvan åt vänster.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19763,7 +19763,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn 2 framför x halverar perioden, så kurvan hinner två hela perioder på \\(0\\le x\\le2\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19794,7 +19794,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn \\(1/2\\) framför x dubblar perioden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19825,7 +19825,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn 2 framför sinus ger största värdet 2 och minsta värdet −2.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19856,7 +19856,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn 3 ger amplituden 3, och −1 flyttar kurvan ett steg nedåt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19887,7 +19887,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn 2 framför x halverar perioden. Amplituden är fortfarande 1.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19918,7 +19918,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Perioden är \\(2\\pi/3\\) och amplituden 2.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19949,7 +19949,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Minustecknet speglar sinuskurvan i medellinjen \\(y=1\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19980,7 +19980,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Minustecknet gör att kurvan börjar i ett minimum. Faktorn 2 framför x halverar perioden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20010,7 +20010,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Jämför var kurvorna passerar x-axeln uppåt. Vad gör minus \\(\\pi/3\\) inne i parentesen?</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -20043,7 +20043,7 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>",
+    "ledtrad": "<p>Cosinus har sitt maximum där argumentet är 0. Var ska maximum ligga?</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -20075,7 +20075,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Minus \\(\\pi/2\\) inne i parentesen flyttar kurvan \\(\\pi/2\\) åt höger. Amplituden är 3.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20106,7 +20106,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Rita medellinjen \\(y=1\\). Plus \\(\\pi/3\\) inne i parentesen flyttar kurvan \\(\\pi/3\\) åt vänster.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20137,7 +20137,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn \\(1/2\\) framför x gör perioden \\(4\\pi\\). Rita minst så långt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20167,7 +20167,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
+    "ledtrad": "<p>Uttrycket går inte att skriva som en enda sinusfunktion, eftersom vinklarna är x och 1,7x. Rita grafen och läs av den högsta punkten.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20199,7 +20199,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "kurvor_radianer__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
+    "ledtrad": "<p>Skriv \\(y_1+y_2\\) som \\(R\\sin(x+v)\\). Jämför koefficienterna framför \\(\\sin x\\) och \\(\\cos x\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -20231,7 +20231,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Skriv argumentet som \\(2(x-\\pi/2)\\). Perioden är \\(\\pi\\) och medellinjen \\(y=1\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20262,7 +20262,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Minustecknet speglar sinuskurvan i medellinjen \\(y=2\\). Perioden är \\(\\pi\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20293,7 +20293,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Medellinjen är \\(y=-2\\), amplituden 4 och perioden \\(4\\pi\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20323,7 +20323,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>a är halva skillnaden mellan största och minsta värdet, och d ligger mitt emellan. b bestäms av perioden.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20353,7 +20353,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__trigonometriska_ekvationer_i_radianer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sätt funktionerna lika med varandra. Var i enhetscirkeln är sinus och cosinus lika stora?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20386,7 +20386,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>a är amplituden. Perioden \\(2\\pi/b\\) ska vara \\(\\pi/2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20417,7 +20417,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn 2 framför x halverar perioden. Största och minsta värdet får du när cosinus är 1 respektive −1.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20528,7 +20528,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Amplituden är faktorn framför sinus, perioden \\(2\\pi/k\\) och medellinjen talet som läggs till. Största och minsta värdet ligger en amplitud från medellinjen.</p>",
     "spelIntro": "<p>För funktionen \\(f(x)=3\\sin(2x-\\pi/2)-1\\), bestäm</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -20560,7 +20560,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>m ligger mitt emellan 7 och 1, och \\(|A|\\) är halva skillnaden. \\(f(0)=7\\) avgör tecknet på A. k bestäms av perioden.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20591,7 +20591,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn 2 framför sinus dubblar avståndet till x-axeln i varje punkt. Nollställena ligger kvar.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20622,7 +20622,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "kurvor_radianer__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Faktorn 2 framför x halverar perioden, så kurvan hinner två hela perioder på \\(0\\le x\\le2\\pi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20733,7 +20733,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Amplituden är beloppet av −2. Perioden är \\(2\\pi/3\\). Största och minsta värdet ligger en amplitud från medellinjen.</p>",
     "spelIntro": "<p>För \\(f(x)=-2\\cos(3x)+4\\), bestäm</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -20764,7 +20764,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Funktionen \\(A\\sin(kx)+B\\) växer genom medellinjen vid \\(x=0\\). k bestäms av perioden.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20794,7 +20794,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>a är medellinjen, mitt emellan 11 och 3. \\(|b|\\) är halva skillnaden. Perioden är \\(2\\pi/k\\) med \\(k=\\pi/6\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -20824,7 +20824,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Läs av största och minsta värdet för a och b och perioden för k. Börjar grafen i ett maximum eller ett minimum vid \\(x=0\\)?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -30895,7 +30895,7 @@ window.BANKMATO2 = [
     "rättSvar": 13,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
+    "ledtrad": "<p>Funktionen är en produkt. Derivera med produktregeln och sätt sedan in \\(x=1\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -31973,7 +31973,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
-    "ledtrad": "<p>Skriv \\(u\\) och \\(v\\) med deras derivator. Välj sedan \\((uv)'=u'v+uv'\\) eller \\((u/v)'=(u'v-uv')/v^2\\).</p>",
+    "ledtrad": "<p>Använd produktregeln med \\(u=x^2\\) och \\(v=e^x\\). Sätt sedan in \\(x=1\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -36645,7 +36645,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\sin(kx)\\) är \\(k\\cos(kx)\\) och av \\(\\cos(kx)\\) är den \\(-k\\sin(kx)\\). Derivatan av \\(\\tan x\\) är \\(\\frac{1}{\\cos^2x}\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -36774,7 +36774,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\tan x\\) är \\(\\frac{1}{\\cos^2x}\\). Glöm inte den inre derivatan i b) och c).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -37303,7 +37303,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\sin x\\) är \\(\\cos x\\) och av \\(\\cos x\\) är den \\(-\\sin x\\). Multiplicera med den inre derivatan i c) och d).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -37336,7 +37336,7 @@ window.BANKMATO2 = [
     "tolerans": 1e-10,
     "självrättning": true,
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>",
+    "ledtrad": "<p>Derivera term för term. Vilka värden har sinus och cosinus för \\(\\pi/4\\)?</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -37745,7 +37745,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Förändringshastigheten är \\(T'(x)\\). Den inre derivatan av \\(0{,}26x\\) är 0,26.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Temperaturen under en del av ett dygn modelleras med</p><p>\\[ T(x)=15+5\\sin(0,26x), \\]</p><p>där \\(T\\) mäts i °C och \\(x\\) i timmar efter klockan 08.00.</p>",
     "spelDelar": [
@@ -38057,7 +38057,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Derivera och sätt \\(f'(x)=0\\). Skriv \\(\\sin2x\\) som \\(2\\sin x\\cos x\\) och bryt ut \\(\\cos x\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -38089,7 +38089,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Rita triangeln eller enhetscirkeln och markera tecknet i rätt kvadrant. Välj sedan sinus, cosinus eller tangens.</p>",
+    "ledtrad": "<p>Funktionen är en kvot. Använd kvotregeln med \\(u=\\sin x\\) och \\(v=x\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -38311,7 +38311,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
+    "ledtrad": "<p>Derivera med produktregeln och sätt derivatan lika med 0.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -38589,7 +38589,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\sin x\\) är \\(\\cos x\\) och av \\(\\cos x\\) är den \\(-\\sin x\\). Konstanten 7 försvinner.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -38621,7 +38621,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "trig_problemlosning_2__tangenter_och_optimering_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Skriv upp den centrala formeln eller definitionen först och kontrollera därefter varje algebra- eller beräkningssteg.</p>",
+    "ledtrad": "<p>Tangentens lutning är \\(f'(\\pi/4)\\). Derivera sinus och cosinus och sätt in \\(x=\\pi/4\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -38785,7 +38785,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
+    "ledtrad": "<p>Skriv \\(\\ln\\sqrt x\\) som \\(\\frac12\\ln x\\) innan du deriverar.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -39174,7 +39174,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\tan x\\) är \\(\\frac{1}{\\cos^2x}\\). Multiplicera med den inre derivatan i b)–d).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -39238,7 +39238,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Skriv \\(\\tan x=\\frac{\\sin x}{\\cos x}\\) och använd kvotregeln. Täljaren blir \\(\\cos^2x+\\sin^2x\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -39334,7 +39334,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "derivatan_sin_cos__derivering_av_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Derivatan av \\(\\tan x\\) är \\(\\frac{1}{\\cos^2x}\\). Derivatan av \\(\\cos x\\) är \\(-\\sin x\\).</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -41433,7 +41433,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_problemlosning_2__tangenter_och_optimering_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Förändringshastigheten är \\(T'(t)\\). Glöm inte den inre derivatan av \\(0{,}4t\\). Vad betyder det om \\(T'(5)\\) är negativ?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42080,7 +42080,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_problemlosning_2__tangenter_och_optimering_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Formulera först storheten som ska maximeras eller minimeras som en funktion av en variabel. Derivera sedan och kontrollera att extrempunkten verkligen ger rätt typ av extremvärde.</p>",
+    "ledtrad": "<p>Förändringshastigheten är \\(P'(t)\\). Vilket är det största värde cosinus kan anta?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -48927,7 +48927,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Skriv \\(2/x^2\\), \\(\\sqrt x\\) och \\(x^{-3}\\) som potenser av x innan du använder att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\).</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -49024,7 +49024,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>I d) behövs en inre faktor: \\(e^{2x}\\) har den primitiva funktionen \\(\\frac12e^{2x}\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -49121,7 +49121,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Vilken funktion har derivatan \\(e^{2x}\\)? Tänk på att derivatan av \\(\\cos x\\) är \\(-\\sin x\\).</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -49166,7 +49166,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Använd att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\). En primitiv funktion till \\(1/x\\) är \\(\\ln x\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "spelDelar": [
@@ -49315,7 +49315,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Konstanten −2 ger termen \\(-2x\\). Vilken funktion har derivatan \\(\\sin x\\)?</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -49398,7 +49398,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Bestäm först en primitiv funktion med en konstant C. Sätt sedan in villkoret för att bestämma C.</p>",
     "spelIntro": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -49495,7 +49495,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion och beräkna \\(F(b)-F(a)\\). Skriv \\(\\sqrt x\\) som \\(x^{1/2}\\) i d).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -49526,7 +49526,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Trigonometriska ettan gör att \\(\\sin^2x+\\cos^2x\\) kan ersättas med 1.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -49570,7 +49570,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>I c) och d) behövs en inre faktor. Kontrollera genom att derivera ditt svar.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm en primitiv funktion och kontrollera genom derivering.</p>",
     "spelDelar": [
@@ -49719,7 +49719,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Vilken funktion har derivatan \\(e^x\\), \\(1/x\\), \\(\\cos x\\) respektive \\(\\sin x\\)? Beräkna sedan \\(F(b)-F(a)\\).</p>",
     "spelIntro": "<p>Beräkna exakt.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -49816,7 +49816,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion till varje integrand och beräkna \\(F(b)-F(a)\\). \\(\\ln e=1\\) och \\(\\ln1=0\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -49847,7 +49847,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integralen saknar en primitiv funktion som går att skriva upp. Beräkna den numeriskt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -49877,7 +49877,7 @@ window.BANKMATO2 = [
     "rättSvar": "3*sin(x)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Vilken funktion har derivatan \\(\\cos x\\)?</p>",
     "svarFormat": "uttryck",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -49908,7 +49908,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integranden är derivatan av produkten \\(g(x)h(x)\\) enligt produktregeln.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -49938,7 +49938,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Trigonometriska ettan gör att \\(\\sin^2x+\\cos^2x\\) kan ersättas med 1.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -50034,7 +50034,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Den primitiva funktionen till \\(\\cos(kx)\\) är \\(\\frac1k\\sin(kx)\\), och till \\(\\sin(kx)\\) är den \\(-\\frac1k\\cos(kx)\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -50079,7 +50079,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>I b) och c) behövs en inre faktor: dela med talet framför x.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm en primitiv funktion \\(F\\) till \\(f\\).</p>",
     "spelDelar": [
@@ -50228,7 +50228,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>I d) är \\(2e^{2x}\\) derivatan av \\(e^{2x}\\).</p>",
     "spelIntro": "<p>Beräkna integralen exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -50259,7 +50259,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Den primitiva funktionen till \\(e^{-x}\\) är \\(-e^{-x}\\). Använd att \\(e^{\\ln2}=2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -50307,7 +50307,7 @@ window.BANKMATO2 = [
       "b"
     ],
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Dela upp området i trianglar och rektanglar. Areor under x-axeln räknas negativt i a) men positivt i b).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen är linjär mellan de markerade punkterna.</p><span class=\"fig\"><svg aria-label=\"Styckvis linjär graf med markerade brytpunkter\" height=\"260\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 260\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"258\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><g stroke=\"#E8ECEF\"><line x1=\"55\" x2=\"55\" y1=\"25\" y2=\"225\"></line><line x1=\"100\" x2=\"100\" y1=\"25\" y2=\"225\"></line><line x1=\"145\" x2=\"145\" y1=\"25\" y2=\"225\"></line><line x1=\"190\" x2=\"190\" y1=\"25\" y2=\"225\"></line><line x1=\"235\" x2=\"235\" y1=\"25\" y2=\"225\"></line><line x1=\"280\" x2=\"280\" y1=\"25\" y2=\"225\"></line><line x1=\"325\" x2=\"325\" y1=\"25\" y2=\"225\"></line><line x1=\"370\" x2=\"370\" y1=\"25\" y2=\"225\"></line><line x1=\"415\" x2=\"415\" y1=\"25\" y2=\"225\"></line><line x1=\"55\" x2=\"415\" y1=\"225\" y2=\"225\"></line><line x1=\"55\" x2=\"415\" y1=\"200\" y2=\"200\"></line><line x1=\"55\" x2=\"415\" y1=\"175\" y2=\"175\"></line><line x1=\"55\" x2=\"415\" y1=\"150\" y2=\"150\"></line><line x1=\"55\" x2=\"415\" y1=\"125\" y2=\"125\"></line><line x1=\"55\" x2=\"415\" y1=\"100\" y2=\"100\"></line><line x1=\"55\" x2=\"415\" y1=\"75\" y2=\"75\"></line><line x1=\"55\" x2=\"415\" y1=\"50\" y2=\"50\"></line><line x1=\"55\" x2=\"415\" y1=\"25\" y2=\"25\"></line></g><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"415\" y1=\"125\" y2=\"125\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"55\" y1=\"25\" y2=\"225\"></line><polyline fill=\"none\" points=\"55,125 145,75 280,175 415,100\" stroke=\"#B43123\" stroke-width=\"2.5\"></polyline><text font-family=\"sans-serif\" font-size=\"11\" x=\"145\" y=\"64\">(2,2)</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"280\" y=\"192\">(5,-2)</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"405\" y=\"92\">(8,1)</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"405\" y=\"117\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"64\" y=\"38\">f(x)</text></svg></span>",
     "spelDelar": [
@@ -50359,7 +50359,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "bråk",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integranden är derivatan av produkten \\(g(x)h(x)\\) enligt produktregeln.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -50389,7 +50389,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>\\(1+\\tan^2x\\) är derivatan av \\(\\tan x\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -50419,7 +50419,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Integranden är derivatan av produkten \\(g(x)h(x)\\) enligt produktregeln.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -50449,7 +50449,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integralen saknar en primitiv funktion som går att skriva upp. Beräkna den numeriskt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -50479,7 +50479,7 @@ window.BANKMATO2 = [
     "rättSvar": "e^(2x)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Vilken funktion har derivatan \\(2e^{2x}\\)?</p>",
     "svarFormat": "uttryck",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -50576,7 +50576,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion med en konstant C och använd funktionsvärdet för att bestämma C.</p>",
     "spelIntro": "<p>Bestäm \\(F(x)\\) om \\(F'\\) och ett funktionsvärde är givna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -50673,7 +50673,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion till varje integrand och beräkna \\(F(b)-F(a)\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -50704,7 +50704,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integralen är noll när arean över x-axeln är lika stor som arean under. Var är \\(9-x^2\\) positiv?</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -50801,7 +50801,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Dela med talet framför x i a)–c). I d) är \\(\\frac{(3x+1)^3}{9}\\) en primitiv funktion, eller så multiplicerar du ut först.</p>",
     "spelIntro": "<p>Beräkna exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -50834,7 +50834,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Beräkna integralen uttryckt i k och sätt den lika med 10.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -50930,7 +50930,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Skriv \\(\\sqrt x\\) som \\(x^{1/2}\\) och använd att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\).</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -51027,7 +51027,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Vilken funktion har derivatan \\(\\sin x\\)? I c) är \\(2e^{2x}\\) derivatan av \\(e^{2x}\\).</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -51124,7 +51124,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Den primitiva funktionen till \\(\\sin x\\) är \\(-\\cos x\\) och till \\(\\cos x\\) är den \\(\\sin x\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -51155,7 +51155,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Skriv \\(\\sin x\\cos x\\) som \\(\\frac12\\sin2x\\) med formeln för dubbla vinkeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -51185,7 +51185,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Integranden är derivatan av produkten \\(g(x)h(x)\\) enligt produktregeln.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -51215,7 +51215,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integranden är derivatan av produkten \\(g(x)h(x)\\) enligt produktregeln.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -51245,7 +51245,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integralen saknar en primitiv funktion som går att skriva upp. Beräkna den numeriskt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -51275,7 +51275,7 @@ window.BANKMATO2 = [
     "rättSvar": 3,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Den primitiva funktionen till \\(\\sin x\\) är \\(-\\cos x\\) och till \\(\\cos x\\) är den \\(\\sin x\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -51320,7 +51320,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Använd att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\). En primitiv funktion till \\(1/x\\) är \\(\\ln x\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "spelDelar": [
@@ -51469,7 +51469,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>I b) är funktionen udda. I c) skriver du \\(1/\\sqrt x\\) som \\(x^{-1/2}\\).</p>",
     "spelIntro": "<p>Beräkna exakt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -51552,7 +51552,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion till varje integrand och beräkna \\(F(b)-F(a)\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -51649,7 +51649,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>I b) och c) behövs en inre faktor: dela med talet framför x.</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -51718,7 +51718,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Medelvärdet är integralen över intervallet delad med intervallets längd.</p>",
     "spelIntro": "<p>Bestäm medelvärdet av funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -51815,7 +51815,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion till varje integrand. I d) är \\(e^{\\ln3}=3\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -51846,7 +51846,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion med en konstant C och använd \\(F(1)=5\\) för att bestämma C.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -51942,7 +51942,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion term för term och beräkna \\(F(b)-F(a)\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -52039,7 +52039,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Använd att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\). En primitiv funktion till \\(1/x\\) är \\(\\ln x\\).</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -52136,7 +52136,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Använd att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\). Skriv \\(x^{-2}\\) på samma sätt.</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -52233,7 +52233,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Vilken funktion har derivatan \\(\\sin x\\), \\(\\cos x\\), \\(e^x\\) respektive \\(1/x\\)?</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -52264,7 +52264,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integralen saknar en primitiv funktion som går att skriva upp. Beräkna den numeriskt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -52295,7 +52295,7 @@ window.BANKMATO2 = [
     "rättSvar": 6,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Beräkna integralen uttryckt i a och sätt den lika med 4.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -52392,7 +52392,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Använd att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\). En primitiv funktion till \\(1/x\\) är \\(\\ln x\\).</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -52489,7 +52489,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Alla fyra har en inre funktion av formen \\(kx+m\\). Dela med k när du bildar den primitiva funktionen.</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -52586,7 +52586,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Använd att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\). Konstanten 7 ger termen 7x.</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -52683,7 +52683,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Vilken funktion har derivatan \\(\\sin x\\)? Konstanten framför följer med.</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -52780,7 +52780,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Använd att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\). Vilken funktion har derivatan \\(\\sin x\\)?</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -52877,7 +52877,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Alla fyra har en inre funktion av formen \\(kx+m\\). Dela med k när du bildar den primitiva funktionen.</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -52974,7 +52974,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Skriv \\(x^{-1/2}\\) och \\(\\frac2{x^2}\\) som potenser och använd att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\).</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -53071,7 +53071,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Dela med talet framför x. Den primitiva funktionen till \\(e^{-x}\\) är \\(-e^{-x}\\).</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -53168,7 +53168,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion term för term. Konstanten −2 ger termen \\(-2x\\).</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -53265,7 +53265,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Alla fyra har en inre funktion av formen \\(kx+m\\). Dela med k när du bildar den primitiva funktionen.</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion till funktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -53297,7 +53297,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Rita \\(y=\\sin x\\) och \\(y=0{,}2x\\) och se var de skär varandra. Där byter uttrycket i absolutbeloppet tecken.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -53329,7 +53329,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Beräkna \\(\\int_a^bf(x)\\,dx\\) med G. Vad händer med konstanten 7 när du räknar \\(G(b)-G(a)\\)?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -53362,7 +53362,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Beräkna integralen uttryckt i a och sätt den lika med 8.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -53458,7 +53458,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion till varje integrand och beräkna \\(F(b)-F(a)\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -53489,7 +53489,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Beräkna integralen uttryckt i a och sätt den lika med 15.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -53519,7 +53519,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion med en konstant C och använd \\(f(0)=5\\) för att bestämma C.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -53615,7 +53615,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>I c) behövs en inre faktor: dela med 2. Vilken funktion har derivatan \\(\\sin x\\)?</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -53712,7 +53712,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>I d) är \\(4e^{2x}\\) två gånger derivatan av \\(e^{2x}\\).</p>",
     "spelIntro": "<p>Beräkna integralen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -53809,7 +53809,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Skriv \\(x^{-1/2}\\) som en potens och använd att \\(x^n\\) har den primitiva funktionen \\(\\frac{x^{n+1}}{n+1}\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -53906,7 +53906,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestam_primitiva_funktioner",
-    "ledtrad": "<p>Arbeta baklänges från deriveringsreglerna. Glöm inte \\(+C\\) när ingen bestämd integral eller begynnelsepunkt bestämmer konstanten.</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion term för term. Vilken funktion har derivatan \\(\\sin x\\)?</p>",
     "spelIntro": "<p>Bestäm en primitiv funktion.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -53939,7 +53939,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Beräkna integralen uttryckt i a och sätt den lika med 10.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -54035,7 +54035,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_primitiva__bestamda_integraler_med_trigonometriska_funktioner",
-    "ledtrad": "<p>Använd att en inre faktor måste kompenseras i den primitiva funktionen, till exempel \\(\\int\\cos(kx)dx=\\sin(kx)/k\\).</p>",
+    "ledtrad": "<p>Bestäm en primitiv funktion till varje integrand och beräkna \\(F(b)-F(a)\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -54068,7 +54068,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Beräkna integralen uttryckt i a och sätt den lika med 9.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -54620,7 +54620,7 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "grafiska_metoder__geometrisk_area_och_area_fran_graf_med_integral",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Var skär linjen x-axeln? Integrera \\(4-2x\\) från 0 dit.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -55462,7 +55462,7 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "grafiska_metoder__geometrisk_area_och_area_fran_graf_med_integral",
-    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
+    "ledtrad": "<p>Dela upp intervallet vid \\(x=2\\). Till vänster är \\(|x-2|=2-x\\) och till höger \\(x-2\\).</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "m²",
     "traningsniva": 2,
@@ -55904,7 +55904,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Funktionen är negativ mellan 0 och 2. Dela integralen vid \\(x=2\\) och räkna båda delarna som positiva areor.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -56580,7 +56580,7 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "grafiska_metoder__geometrisk_area_och_area_fran_graf_med_integral",
-    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
+    "ledtrad": "<p>En udda funktion är symmetrisk kring origo. Hur stor är arean på \\(-2\\le x\\le0\\) jämfört med den på \\(0\\le x\\le2\\)?</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -56831,7 +56831,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "integraler_areor__parameterproblem_med_area_och_integral",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Hela arean är \\(\\int_0^4x\\,dx\\). Bestäm c så att \\(\\int_0^c x\\,dx\\) blir hälften så stor.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -56986,7 +56986,7 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Sinus är negativ mellan \\(\\pi\\) och \\(2\\pi\\). Dela integralen vid \\(x=\\pi\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -57775,7 +57775,7 @@ window.BANKMATO2 = [
       "uttryck"
     ],
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten över tiden. Med effekt i kW och tid i h blir enheten kWh.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En maskins effekt varierar enligt \\(P(t)=2t+5\\) kW under \\(0\\le t\\le4\\) h.</p>",
     "spelDelar": [
@@ -57847,7 +57847,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Volymen är arean under flödesgrafen. Dela upp området i trianglar och rektanglar. Medelflödet är volymen delad med tiden.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen visar ett vattenflöde in i en tank under 10 minuter. Mellan markerade punkter ändras flödet linjärt.</p><span class=\"fig\"><svg height=\"260\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 260\" width=\"440\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"258\" rx=\"10\" stroke=\"#E4E3E6\" width=\"438\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"126.0\" x2=\"126.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"200.0\" x2=\"200.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"274.0\" x2=\"274.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"348.0\" x2=\"348.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"422.0\" x2=\"422.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"422\" y1=\"222.0\" y2=\"222.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"422\" y1=\"164.3\" y2=\"164.3\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"422\" y1=\"106.6\" y2=\"106.6\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"422\" y1=\"48.9\" y2=\"48.9\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52\" x2=\"422\" y1=\"222.0\" y2=\"222.0\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"52.0\" y=\"246\">0</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"126.0\" y=\"246\">2</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"274.0\" y=\"246\">6</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"422.0\" y=\"246\">10</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"168.3\">4</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"110.6\">8</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"52.9\">12</text>\n<polyline fill=\"none\" points=\"52,222 126,49 274,49 422,164\" stroke=\"#B43123\" stroke-width=\"3\"></polyline><circle cx=\"52\" cy=\"222\" fill=\"#B43123\" r=\"4\"></circle><circle cx=\"126\" cy=\"49\" fill=\"#B43123\" r=\"4\"></circle><circle cx=\"274\" cy=\"49\" fill=\"#B43123\" r=\"4\"></circle><circle cx=\"422\" cy=\"165\" fill=\"#B43123\" r=\"4\"></circle><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" x=\"65\" y=\"35\">flöde (L/min)</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"11\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" text-anchor=\"end\" x=\"415\" y=\"225\">tid (min)</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"415\" y=\"225\">tid (min)</text>\n</svg></span>",
     "spelDelar": [
@@ -57944,7 +57944,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>a) Effekten är som störst där \\(P'(t)=0\\). b) Energin är integralen av effekten över tiden. Med effekt i kW och tid i h blir enheten kWh.</p>",
     "spelIntro": "<p>Effekten från en solcellsanläggning modelleras under sex timmar av</p><p>\\[P(t)=4{,}2t(6-t)\\quad\\text{kW},\\qquad0\\le t\\le6.\\]</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -57977,7 +57977,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Sträckan är integralen av hastigheten över tiden. Hastigheten är positiv hela tiden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58008,7 +58008,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Bestäm först \\(v(t)\\) genom att integrera accelerationen och använda \\(v(0)=9\\). Byter v tecken under de 4 sekunderna?</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -58038,7 +58038,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integralen är noll när arean över x-axeln är lika stor som arean under. Rita grafen till \\(f\\) och se var den är positiv.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -58068,7 +58068,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Beräkna \\(F(a)\\) som ett uttryck i a. Derivera sedan och sätt \\(F'(a)=0\\).</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -58152,7 +58152,7 @@ window.BANKMATO2 = [
     }
   ],
   "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-  "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+  "ledtrad": "<p>Vattenmängden är minst när \\(q(t)\\) byter tecken från negativ till positiv. Mängden vid en tidpunkt är 120 plus integralen av q fram dit.</p>",
   "spelIntro": "<p>En reservoar innehåller från början 120 m³ vatten. Skillnaden mellan inflödet och utflödet är</p><p>\\[q(t)=3t-6\\quad\\text{m}^3/\\text{h},\\qquad0\\le t\\le8.\\]</p>",
   "traningsniva": 3,
   "arbetsinsats": 2,
@@ -58184,7 +58184,7 @@ window.BANKMATO2 = [
     "rättSvar": 60,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Sträckan är integralen av hastigheten över tiden.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -58217,7 +58217,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Den totala regnmängden är integralen av intensiteten över de tio timmarna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58317,7 +58317,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Förflyttningen är integralen av v. För den totala sträckan delar du intervallet där v byter tecken och räknar varje del som positiv.</p>",
     "spelIntro": "<p>En partikel rör sig längs en rät linje med hastigheten</p><p>\\[ v(t)=3t^2-12t+9 \\]</p><p>meter per sekund under intervallet \\(0\\le t\\le5\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -58350,7 +58350,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Volymen är integralen av flödet över tiden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58383,7 +58383,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten. Med effekt i W och tid i h får du Wh, som du sedan skriver om till kWh.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58416,7 +58416,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Förflyttningen är integralen av hastigheten över intervallet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58456,7 +58456,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten. Med effekt i W och tid i h får du energin i Wh.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En funktion \\(P(t)=200+50t\\) anger effekt i watt under tidsintervallet \\(0\\le t\\le4\\) timmar.</p>",
     "spelDelar": [
@@ -58554,7 +58554,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integralen är noll när arean över x-axeln är lika stor som arean under. Var är \\((x-1)(5-x)\\) positiv?</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -58585,7 +58585,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Nettoflödet är inflödet minus utflödet. Tanken innehåller mest vatten när nettoflödet byter tecken från positivt till negativt.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58655,7 +58655,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>a) Volymen är integralen av flödet över tiden. b) Lägg till de 200 liter som fanns från början.</p>",
     "spelIntro": "<p>Inflödet till en tank är \\(q(t)=30-2t\\) liter/minut<br>för \\(0\\le t\\le10\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -58687,7 +58687,7 @@ window.BANKMATO2 = [
     "rättSvar": 64,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Volymen är integralen av flödet över tiden.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -58720,7 +58720,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten över de åtta timmarna. Beräkna den numeriskt eller term för term.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58754,7 +58754,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten. Den primitiva funktionen till \\(\\sin(kt)\\) är \\(-\\frac1k\\cos(kt)\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58789,7 +58789,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Volymen är arean under flödesgrafen: en rektangel de första 4 minuterna och en parallelltrapets därefter.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58819,7 +58819,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Förflyttningen är integralen av v. För den totala sträckan delar du intervallet där v byter tecken och räknar varje del som positiv.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58902,7 +58902,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Förflyttningen är integralen av hastigheten. Du kan också räkna arean under v-t-grafen.</p>",
     "spelIntro": "<p>En hastighet \\(v(t)\\) anges i m/s. Bestäm förflyttningen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -58936,7 +58936,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Volymen är arean under flödesgrafen. Dela upp området i enkla figurer.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -58968,7 +58968,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Volymen är arean under flödesgrafen. Dela upp området i trianglar och rektanglar.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -59000,7 +59000,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Volymen efter t minuter är 50 plus integralen av \\(q(t)-12\\). Sätt uttrycket lika med den sökta volymen och lös ekvationen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -59031,7 +59031,7 @@ window.BANKMATO2 = [
     "rättSvar": 24,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten över tiden. Med effekt i kW och tid i h blir enheten kWh.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -59064,7 +59064,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Massan är integralen av massan per meter över stångens längd.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -59096,7 +59096,7 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
+    "ledtrad": "<p>Nettoflödet är inflödet minus utflödet. Integrera nettoflödet från 0 till 5.</p>",
     "svarFormat": "numeriskt",
     "svarEnhet": "L",
     "traningsniva": 2,
@@ -59131,7 +59131,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Antalet fordon är integralen av trafikflödet över de sex timmarna. Integralen saknar en enkel primitiv funktion. Beräkna den numeriskt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -59175,7 +59175,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Förändringen av vattenmängden är integralen av q. Reservoaren fylls där \\(q>0\\) och töms där \\(q<0\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Skillnaden mellan inflödet och utflödet i en vattenreservoar kan under sex timmar beskrivas av</p><p>\\[q(t)=t^2-6t+5,\\qquad 0\\le t\\le6,\\]</p><p>där \\(q\\) mäts i m³/h. Positivt \\(q\\) betyder att reservoaren fylls och negativt \\(q\\) att den töms. Vid \\(t=0\\) finns 30 m³ vatten.</p><span class=\"fig\"><svg aria-label=\"Graf av skillnaden mellan inflöde och utflöde, q lika med t kvadrat minus 6t plus 5, med nollställen vid t 1 och t 5\" height=\"285\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 490 285\" width=\"490\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"283\" rx=\"10\" stroke=\"#E4E3E6\" width=\"488\" x=\"1\" y=\"1\"></rect>\n<g stroke=\"#E2E6EA\" stroke-width=\"1\"><line x1=\"70\" x2=\"70\" y1=\"35\" y2=\"245\"></line><line x1=\"133.33333333333331\" x2=\"133.33333333333331\" y1=\"35\" y2=\"245\"></line><line x1=\"196.66666666666666\" x2=\"196.66666666666666\" y1=\"35\" y2=\"245\"></line><line x1=\"260\" x2=\"260\" y1=\"35\" y2=\"245\"></line><line x1=\"323.3333333333333\" x2=\"323.3333333333333\" y1=\"35\" y2=\"245\"></line><line x1=\"386.6666666666667\" x2=\"386.6666666666667\" y1=\"35\" y2=\"245\"></line><line x1=\"450\" x2=\"450\" y1=\"35\" y2=\"245\"></line><line x1=\"65\" x2=\"455\" y1=\"225.9090909090909\" y2=\"225.9090909090909\"></line><line x1=\"65\" x2=\"455\" y1=\"187.72727272727275\" y2=\"187.72727272727275\"></line><line x1=\"65\" x2=\"455\" y1=\"149.54545454545456\" y2=\"149.54545454545456\"></line><line x1=\"65\" x2=\"455\" y1=\"111.36363636363637\" y2=\"111.36363636363637\"></line><line x1=\"65\" x2=\"455\" y1=\"73.18181818181816\" y2=\"73.18181818181816\"></line></g>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"65\" x2=\"465\" y1=\"149.54545454545456\" y2=\"149.54545454545456\"></line><path d=\"M465 149.54545454545456 l-9 -5 v10 z\" fill=\"#2B2527\"></path>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"70\" x2=\"70\" y1=\"250\" y2=\"28\"></line>\n<polyline fill=\"none\" points=\"70.0,54.1 72.1,57.9 74.2,61.6 76.3,65.4 78.4,69.0 80.6,72.7 82.7,76.2 84.8,79.8 86.9,83.3 89.0,86.7 91.1,90.2 93.2,93.5 95.3,96.9 97.4,100.1 99.6,103.4 101.7,106.6 103.8,109.8 105.9,112.9 108.0,115.9 110.1,119.0 112.2,122.0 114.3,124.9 116.4,127.8 118.6,130.7 120.7,133.5 122.8,136.3 124.9,139.0 127.0,141.7 129.1,144.4 131.2,147.0 133.3,149.5 135.4,152.1 137.6,154.6 139.7,157.0 141.8,159.4 143.9,161.7 146.0,164.1 148.1,166.3 150.2,168.6 152.3,170.7 154.4,172.9 156.6,175.0 158.7,177.0 160.8,179.1 162.9,181.0 165.0,183.0 167.1,184.8 169.2,186.7 171.3,188.5 173.4,190.3 175.6,192.0 177.7,193.6 179.8,195.3 181.9,196.9 184.0,198.4 186.1,199.9 188.2,201.4 190.3,202.8 192.4,204.2 194.6,205.5 196.7,206.8 198.8,208.1 200.9,209.3 203.0,210.4 205.1,211.6 207.2,212.7 209.3,213.7 211.4,214.7 213.6,215.6 215.7,216.6 217.8,217.4 219.9,218.3 222.0,219.0 224.1,219.8 226.2,220.5 228.3,221.1 230.4,221.8 232.6,222.3 234.7,222.9 236.8,223.3 238.9,223.8 241.0,224.2 243.1,224.6 245.2,224.9 247.3,225.1 249.4,225.4 251.6,225.6 253.7,225.7 255.8,225.8 257.9,225.9 260.0,225.9 262.1,225.9 264.2,225.8 266.3,225.7 268.4,225.6 270.6,225.4 272.7,225.1 274.8,224.9 276.9,224.6 279.0,224.2 281.1,223.8 283.2,223.3 285.3,222.9 287.4,222.3 289.6,221.8 291.7,221.1 293.8,220.5 295.9,219.8 298.0,219.0 300.1,218.3 302.2,217.4 304.3,216.6 306.4,215.6 308.6,214.7 310.7,213.7 312.8,212.7 314.9,211.6 317.0,210.4 319.1,209.3 321.2,208.1 323.3,206.8 325.4,205.5 327.6,204.2 329.7,202.8 331.8,201.4 333.9,199.9 336.0,198.4 338.1,196.9 340.2,195.3 342.3,193.6 344.4,192.0 346.6,190.3 348.7,188.5 350.8,186.7 352.9,184.8 355.0,183.0 357.1,181.0 359.2,179.1 361.3,177.0 363.4,175.0 365.6,172.9 367.7,170.7 369.8,168.6 371.9,166.3 374.0,164.1 376.1,161.7 378.2,159.4 380.3,157.0 382.4,154.6 384.6,152.1 386.7,149.5 388.8,147.0 390.9,144.4 393.0,141.7 395.1,139.0 397.2,136.3 399.3,133.5 401.4,130.7 403.6,127.8 405.7,124.9 407.8,122.0 409.9,119.0 412.0,115.9 414.1,112.9 416.2,109.8 418.3,106.6 420.4,103.4 422.6,100.1 424.7,96.9 426.8,93.5 428.9,90.2 431.0,86.7 433.1,83.3 435.2,79.8 437.3,76.2 439.4,72.7 441.6,69.0 443.7,65.4 445.8,61.6 447.9,57.9 450.0,54.1\" stroke=\"#B43123\" stroke-linejoin=\"round\" stroke-width=\"3\"></polyline>\n<circle cx=\"133.33333333333331\" cy=\"149.54545454545456\" fill=\"#B43123\" r=\"4\"></circle><circle cx=\"386.6666666666667\" cy=\"149.54545454545456\" fill=\"#B43123\" r=\"4\"></circle><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"133.33333333333331\" y=\"169.54545454545456\">1</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"386.6666666666667\" y=\"169.54545454545456\">5</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"468\" y=\"144.54545454545456\">t</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"78\" y=\"30\">q</text>\n</svg></span>",
     "spelDelar": [
@@ -59255,7 +59255,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Volymen är arean under flödesgrafen. Dela upp området i enkla figurer.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -59322,7 +59322,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Förflyttningen är integralen av v. För den totala sträckan delar du intervallet där v byter tecken och räknar varje del som positiv.</p>",
     "spelIntro": "<p>En partikels hastighet är</p><p>\\[v(t)=3t^2-12t+9,\\qquad0\\le t\\le4.\\]</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -59356,7 +59356,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten. Med effekt i W och tid i h får du Wh. Dela med 1 000 för kWh.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -59389,7 +59389,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Beräkna integralen av T över de 12 timmarna och dela med 12.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -59481,7 +59481,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>a) Den totala förändringen är integralen av r. b) Mängden varken ökar eller minskar där \\(r(t)=0\\).</p>",
     "spelIntro": "<p>En mängds förändringshastighet ges av \\(r(t)=t^2-4t+3\\) enheter per timme under \\(0\\le t\\le5\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -59513,7 +59513,7 @@ window.BANKMATO2 = [
     "rättSvar": 1.3333333333333333,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Förflyttningen är integralen av hastigheten. Här räknas delar under t-axeln negativt.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -59546,7 +59546,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten. Med effekt i W och tid i h får du Wh.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -59665,7 +59665,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>a) Förflyttningen är integralen av v från 1 till 4. c) \\(s(4)=s(1)+\\) förflyttningen.</p>",
     "spelIntro": "<p>En partikels hastighet är \\(v(t)=4t-2\\) m/s.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -59733,7 +59733,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Förflyttningen är integralen av v. För den totala sträckan delar du intervallet där v byter tecken och räknar varje del som positiv.</p>",
     "spelIntro": "<p>En partikels hastighet ges av</p><p>\\[v(t)=t^2-4t+3,\\qquad 0\\le t\\le4.\\]</p><span class=\"fig\"><svg height=\"260\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 420 260\" width=\"420\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"258\" rx=\"10\" stroke=\"#E4E3E6\" width=\"418\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"139.5\" x2=\"139.5\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"227.0\" x2=\"227.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"314.5\" x2=\"314.5\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"402.0\" x2=\"402.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"402\" y1=\"188.3\" y2=\"188.3\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"402\" y1=\"154.7\" y2=\"154.7\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"402\" y1=\"121.0\" y2=\"121.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"402\" y1=\"87.3\" y2=\"87.3\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"402\" y1=\"53.7\" y2=\"53.7\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"222\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52\" x2=\"402\" y1=\"154.7\" y2=\"154.7\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"52.0\" y=\"246\">0</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"139.5\" y=\"246\">1</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"227.0\" y=\"246\">2</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"314.5\" y=\"246\">3</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"402.0\" y=\"246\">4</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"192.3\">−1</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"158.7\">0</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"57.7\">3</text>\n<path d=\"M52.0,53.7 L53.5,55.9 L54.9,58.1 L56.4,60.3 L57.8,62.5 L59.3,64.7 L60.8,66.8 L62.2,68.9 L63.7,71.0 L65.1,73.1 L66.6,75.2 L68.0,77.2 L69.5,79.3 L71.0,81.3 L72.4,83.3 L73.9,85.2 L75.3,87.2 L76.8,89.1 L78.2,91.0 L79.7,92.9 L81.2,94.8 L82.6,96.7 L84.1,98.5 L85.5,100.3 L87.0,102.1 L88.5,103.9 L89.9,105.7 L91.4,107.4 L92.8,109.2 L94.3,110.9 L95.8,112.6 L97.2,114.3 L98.7,115.9 L100.1,117.5 L101.6,119.2 L103.0,120.8 L104.5,122.3 L106.0,123.9 L107.4,125.5 L108.9,127.0 L110.3,128.5 L111.8,130.0 L113.2,131.4 L114.7,132.9 L116.2,134.3 L117.6,135.7 L119.1,137.1 L120.5,138.5 L122.0,139.9 L123.5,141.2 L124.9,142.5 L126.4,143.8 L127.8,145.1 L129.3,146.4 L130.8,147.6 L132.2,148.8 L133.7,150.0 L135.1,151.2 L136.6,152.4 L138.0,153.5 L139.5,154.7 L141.0,155.8 L142.4,156.9 L143.9,157.9 L145.3,159.0 L146.8,160.0 L148.2,161.1 L149.7,162.1 L151.2,163.0 L152.6,164.0 L154.1,165.0 L155.5,165.9 L157.0,166.8 L158.5,167.7 L159.9,168.5 L161.4,169.4 L162.8,170.2 L164.3,171.0 L165.8,171.8 L167.2,172.6 L168.7,173.4 L170.1,174.1 L171.6,174.8 L173.0,175.5 L174.5,176.2 L176.0,176.9 L177.4,177.5 L178.9,178.1 L180.3,178.8 L181.8,179.3 L183.2,179.9 L184.7,180.5 L186.2,181.0 L187.6,181.5 L189.1,182.0 L190.5,182.5 L192.0,182.9 L193.5,183.4 L194.9,183.8 L196.4,184.2 L197.8,184.6 L199.3,185.0 L200.8,185.3 L202.2,185.6 L203.7,185.9 L205.1,186.2 L206.6,186.5 L208.0,186.8 L209.5,187.0 L211.0,187.2 L212.4,187.4 L213.9,187.6 L215.3,187.7 L216.8,187.9 L218.2,188.0 L219.7,188.1 L221.2,188.2 L222.6,188.2 L224.1,188.3 L225.5,188.3 L227.0,188.3 L228.5,188.3 L229.9,188.3 L231.4,188.2 L232.8,188.2 L234.3,188.1 L235.8,188.0 L237.2,187.9 L238.7,187.7 L240.1,187.6 L241.6,187.4 L243.0,187.2 L244.5,187.0 L246.0,186.8 L247.4,186.5 L248.9,186.2 L250.3,185.9 L251.8,185.6 L253.2,185.3 L254.7,185.0 L256.2,184.6 L257.6,184.2 L259.1,183.8 L260.5,183.4 L262.0,182.9 L263.5,182.5 L264.9,182.0 L266.4,181.5 L267.8,181.0 L269.3,180.5 L270.8,179.9 L272.2,179.3 L273.7,178.8 L275.1,178.1 L276.6,177.5 L278.0,176.9 L279.5,176.2 L281.0,175.5 L282.4,174.8 L283.9,174.1 L285.3,173.4 L286.8,172.6 L288.2,171.8 L289.7,171.0 L291.2,170.2 L292.6,169.4 L294.1,168.5 L295.5,167.7 L297.0,166.8 L298.5,165.9 L299.9,165.0 L301.4,164.0 L302.8,163.0 L304.3,162.1 L305.8,161.1 L307.2,160.0 L308.7,159.0 L310.1,157.9 L311.6,156.9 L313.0,155.8 L314.5,154.7 L316.0,153.5 L317.4,152.4 L318.9,151.2 L320.3,150.0 L321.8,148.8 L323.2,147.6 L324.7,146.4 L326.2,145.1 L327.6,143.8 L329.1,142.5 L330.5,141.2 L332.0,139.9 L333.5,138.5 L334.9,137.1 L336.4,135.7 L337.8,134.3 L339.3,132.9 L340.8,131.4 L342.2,130.0 L343.7,128.5 L345.1,127.0 L346.6,125.5 L348.0,123.9 L349.5,122.3 L351.0,120.8 L352.4,119.2 L353.9,117.5 L355.3,115.9 L356.8,114.3 L358.2,112.6 L359.7,110.9 L361.2,109.2 L362.6,107.4 L364.1,105.7 L365.5,103.9 L367.0,102.1 L368.5,100.3 L369.9,98.5 L371.4,96.7 L372.8,94.8 L374.3,92.9 L375.8,91.0 L377.2,89.1 L378.7,87.2 L380.1,85.2 L381.6,83.3 L383.0,81.3 L384.5,79.3 L386.0,77.2 L387.4,75.2 L388.9,73.1 L390.3,71.0 L391.8,68.9 L393.2,66.8 L394.7,64.7 L396.2,62.5 L397.6,60.3 L399.1,58.1 L400.5,55.9 L402.0,53.7\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"></path>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" x=\"60\" y=\"34\">v(t)</text>\n</svg></span>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -59802,7 +59802,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>a) Mängden är integralen av r över de åtta timmarna. b) Lös ekvationen där integralen från 0 till T är hälften av mängden.</p>",
     "spelIntro": "<p>Ett läkemedel tillförs kroppen med hastigheten</p><p>\\[r(t)=12te^{-0{,}6t},\\qquad0\\le t\\le8,\\]</p><p>där \\(r\\) mäts i mg/h.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -59879,7 +59879,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Volymen är integralen av flödet över tiden. Du kan också räkna arean under grafen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ett inflöde \\(q(t)\\) mäts i liter per minut. Bestäm den tillförda volymen.</p>",
     "spelDelar": [
@@ -59953,7 +59953,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Sträckan är integralen av hastigheten över tiden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -59985,7 +59985,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Integrera flödet över de 10 minuterna och lägg till de 80 liter som fanns från början.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60015,7 +60015,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Hastigheten byter tecken under intervallet. Var är \\(v(t)=0\\)? Räkna varje del som positiv.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60046,7 +60046,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Volymen är integralen av flödet över tiden. Den primitiva funktionen till \\(e^{-0{,}2t}\\) är \\(-5e^{-0{,}2t}\\).</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -60079,7 +60079,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Flödet blir 0 när \\(12-2t=0\\). Integrera flödet fram till den tidpunkten.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60110,7 +60110,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Arbetet är integralen av kraften över sträckan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60140,7 +60140,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Förflyttningen är integralen av v. För den totala sträckan delar du intervallet där v byter tecken och räknar varje del som positiv.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60171,7 +60171,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>\\(P(5)\\) är 5000 plus integralen av \\(P'(t)\\) från 0 till 5.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60202,7 +60202,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Vattenmängden ökar så länge nettoflödet är positivt. Rita q och se var den byter tecken.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -60268,7 +60268,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Den tillförda volymen efter T minuter är \\(\\int_0^T(6t-t^2)\\,dt\\). Sätt den lika med 18.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60340,7 +60340,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>a) Mängden efter 10 minuter är 120 plus integralen av flödet från 0 till 10.</p>",
     "spelIntro": "<p>Vatten rinner in i en tank. Flödet \\(q(t)\\), i liter per minut, ges av</p><p>\\[q(t)=18+6\\sin(\\pi t/10).\\]</p><p>Modellen gäller \\(0\\le t\\le20\\).</p><p>Tanken innehåller 120 liter från början.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -60373,7 +60373,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten över tiden. Med effekt i kW och tid i h blir enheten kWh.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60407,7 +60407,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Sträckan är integralen av hastigheten över tiden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60438,7 +60438,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Hastigheten byter tecken vid \\(t=6\\). Dela integralen där och räkna båda delarna som positiva.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -60471,7 +60471,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Antalet detaljer är integralen av produktionshastigheten över de 10 timmarna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60504,7 +60504,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>a) Volymen är integralen av flödet över de 6 minuterna. b) Medelflödet är volymen delad med tiden.</p>",
     "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 3,
@@ -60536,7 +60536,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__stracka_som_integral_av_hastighet",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Hastighetsändringen är integralen av accelerationen. Lägg till starthastigheten 8 m/s.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60589,7 +60589,7 @@ window.BANKMATO2 = [
       null
     ],
     "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>a) Mängden efter 8 timmar är 500 plus integralen av q. b) Mängden ökar där \\(q(t)>0\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En reservoar innehåller 500 m³ vatten. Under de följande 8 timmarna är nettotillflödet</p><p>\\[q(t)=20-3t\\]</p><p>m³/h.</p>",
     "spelDelar": [
@@ -60639,7 +60639,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten. Med effekt i W och tid i s blir enheten J.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -60669,7 +60669,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten. Den primitiva funktionen till \\(e^{-0{,}2t}\\) är \\(-5e^{-0{,}2t}\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -60699,7 +60699,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+    "ledtrad": "<p>Energin är integralen av effekten över tiden. Med effekt i kW och tid i h blir enheten kWh.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -65342,7 +65342,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Tvärsnitten är brickor med ytterradien \\(2\\) och innerradien \\(x\\). Volymen är \\(\\pi\\int(R^2-r^2)\\,dx\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -65373,7 +65373,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -65403,7 +65403,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Lägg klotets medelpunkt i origo. Tvärsnitten vinkelrätt mot x-axeln är cirklar med radien \\(\\sqrt{25-x^2}\\). Integrera från 3 till 5.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -65433,7 +65433,7 @@ window.BANKMATO2 = [
     "rättSvar": 1.04719755,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -65465,7 +65465,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Tvärsnitten är brickor. Volymen är \\(\\pi\\int_a^b(R^2-r^2)\\,dx\\), där R är ytterradien och r innerradien.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -65496,7 +65496,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på \\(0\\le x\\le1\\)? Den ger ytterradien och den andra innerradien.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -65527,7 +65527,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Avståndet från kurvan till rotationsaxeln \\(y=4\\) är \\(4-x^2\\). Det är skivans radie.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -65557,7 +65557,7 @@ window.BANKMATO2 = [
     "rättSvar": 4.1887902,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -65590,7 +65590,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vid rotation kring y-axeln är skivans radie x. Lös ut x som funktion av y, så blir \\(g(y)=x^2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -65621,7 +65621,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Integralen beräknas numeriskt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -65652,7 +65652,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Rotationsaxeln är \\(y=5\\). Ytterradien är avståndet från axeln till x-axeln och innerradien avståndet från axeln till kurvan.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -65682,7 +65682,7 @@ window.BANKMATO2 = [
     "rättSvar": 8.37758041,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -65715,7 +65715,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Tvärsnitten är brickor. Volymen är \\(\\pi\\int_a^b(R^2-r^2)\\,dx\\), där R är ytterradien och r innerradien.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -65768,7 +65768,7 @@ window.BANKMATO2 = [
       "kort_text"
     ],
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Vilken kropp får du när en rät linje genom origo roteras?</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Området under \\(y=x\\) från \\(x=0\\) till \\(x=3\\) roteras kring x-axeln.</p>",
     "spelDelar": [
@@ -65829,7 +65829,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Avståndet från kurvan till rotationsaxeln \\(y=4\\) är \\(4-x^2\\). Det är skivans radie.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -65859,7 +65859,7 @@ window.BANKMATO2 = [
     "rättSvar": 9.42477796,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -65891,7 +65891,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Rotationsaxeln är \\(y=-1\\), så radierna blir \\(\\sqrt x+1\\) och \\(x/2+1\\). Vilken är ytterradien?</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -65921,7 +65921,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vid rotation kring y-axeln är radien x. Lös ut x ur båda kurvorna och avgör vilken som ligger längst från y-axeln.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -65951,7 +65951,7 @@ window.BANKMATO2 = [
     "rättSvar": 33.51032164,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -65983,7 +65983,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Integralen beräknas numeriskt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66014,7 +66014,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Rotationsaxeln är \\(y=5\\). Ytterradien är avståndet från axeln till parabeln och innerradien avståndet till linjen \\(y=4\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -66044,7 +66044,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Här är \\(y^2=x\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66074,7 +66074,7 @@ window.BANKMATO2 = [
     "rättSvar": 16.75516082,
     "tolerans": 0.05,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Tvärsnitten är brickor med ytterradien \\(2\\) och innerradien \\(x\\). Volymen är \\(\\pi\\int(R^2-r^2)\\,dx\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -66114,7 +66114,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Här är \\(y^2=x^4\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Området under \\(y=x^2\\) från \\(x=0\\) till \\(x=3\\) roteras kring x-axeln.</p><span class=\"fig\"><svg aria-label=\"Område under parabel\" height=\"270\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 450 270\" width=\"450\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"10\" stroke=\"#E4E3E6\" width=\"448\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"55.0\" x2=\"55.0\" y1=\"25\" y2=\"232\"></line><line stroke=\"#E8ECEF\" x1=\"177.3\" x2=\"177.3\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"177.3\" y=\"250\">1</text><line stroke=\"#E8ECEF\" x1=\"299.7\" x2=\"299.7\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"299.7\" y=\"250\">2</text><line stroke=\"#E8ECEF\" x1=\"422.0\" x2=\"422.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"422.0\" y=\"250\">3</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"422\" y1=\"232.0\" y2=\"232.0\"></line><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"422\" y1=\"190.6\" y2=\"190.6\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"194.6\">2</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"422\" y1=\"149.2\" y2=\"149.2\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"153.2\">4</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"422\" y1=\"107.8\" y2=\"107.8\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"111.8\">6</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"422\" y1=\"66.4\" y2=\"66.4\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"70.4\">8</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"422\" y1=\"25.0\" y2=\"25.0\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"29.0\">10</text><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"422\" y1=\"232.0\" y2=\"232.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55.0\" x2=\"55.0\" y1=\"25\" y2=\"232\"></line><line stroke=\"#B43123\" stroke-dasharray=\"6 4\" stroke-width=\"1.5\" x1=\"422.0\" x2=\"422.0\" y1=\"25\" y2=\"232\"></line><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11\" x=\"427.0\" y=\"39\">x=3</text><polyline fill=\"none\" points=\"55.0,232.0 56.7,232.0 58.3,232.0 60.0,232.0 61.7,231.9 63.3,231.9 65.0,231.9 66.7,231.8 68.3,231.8 70.0,231.7 71.7,231.6 73.3,231.5 75.0,231.4 76.7,231.3 78.4,231.2 80.0,231.1 81.7,231.0 83.4,230.9 85.0,230.8 86.7,230.6 88.4,230.5 90.0,230.3 91.7,230.1 93.4,230.0 95.0,229.8 96.7,229.6 98.4,229.4 100.0,229.2 101.7,229.0 103.4,228.8 105.0,228.5 106.7,228.3 108.4,228.1 110.0,227.8 111.7,227.6 113.4,227.3 115.1,227.0 116.7,226.7 118.4,226.4 120.1,226.1 121.7,225.8 123.4,225.5 125.1,225.2 126.7,224.9 128.4,224.5 130.1,224.2 131.7,223.9 133.4,223.5 135.1,223.1 136.7,222.8 138.4,222.4 140.1,222.0 141.7,221.6 143.4,221.2 145.1,220.8 146.8,220.4 148.4,219.9 150.1,219.5 151.8,219.1 153.4,218.6 155.1,218.1 156.8,217.7 158.4,217.2 160.1,216.7 161.8,216.2 163.4,215.7 165.1,215.2 166.8,214.7 168.4,214.2 170.1,213.7 171.8,213.1 173.4,212.6 175.1,212.0 176.8,211.5 178.4,210.9 180.1,210.3 181.8,209.8 183.5,209.2 185.1,208.6 186.8,208.0 188.5,207.4 190.1,206.7 191.8,206.1 193.5,205.5 195.1,204.8 196.8,204.2 198.5,203.5 200.1,202.9 201.8,202.2 203.5,201.5 205.1,200.8 206.8,200.1 208.5,199.4 210.1,198.7 211.8,198.0 213.5,197.3 215.1,196.5 216.8,195.8 218.5,195.0 220.2,194.3 221.8,193.5 223.5,192.7 225.2,192.0 226.8,191.2 228.5,190.4 230.2,189.6 231.8,188.8 233.5,187.9 235.2,187.1 236.8,186.3 238.5,185.4 240.2,184.6 241.8,183.7 243.5,182.8 245.2,182.0 246.8,181.1 248.5,180.2 250.2,179.3 251.8,178.4 253.5,177.5 255.2,176.6 256.8,175.6 258.5,174.7 260.2,173.8 261.9,172.8 263.5,171.9 265.2,170.9 266.9,169.9 268.5,168.9 270.2,167.9 271.9,166.9 273.5,165.9 275.2,164.9 276.9,163.9 278.5,162.9 280.2,161.8 281.9,160.8 283.5,159.8 285.2,158.7 286.9,157.6 288.5,156.6 290.2,155.5 291.9,154.4 293.6,153.3 295.2,152.2 296.9,151.1 298.6,150.0 300.2,148.8 301.9,147.7 303.6,146.5 305.2,145.4 306.9,144.2 308.6,143.1 310.2,141.9 311.9,140.7 313.6,139.5 315.2,138.3 316.9,137.1 318.6,135.9 320.2,134.7 321.9,133.5 323.6,132.2 325.2,131.0 326.9,129.7 328.6,128.5 330.2,127.2 331.9,125.9 333.6,124.7 335.3,123.4 336.9,122.1 338.6,120.8 340.3,119.4 341.9,118.1 343.6,116.8 345.3,115.5 346.9,114.1 348.6,112.8 350.3,111.4 351.9,110.0 353.6,108.7 355.3,107.3 356.9,105.9 358.6,104.5 360.3,103.1 361.9,101.7 363.6,100.3 365.3,98.8 366.9,97.4 368.6,96.0 370.3,94.5 372.0,93.0 373.6,91.6 375.3,90.1 377.0,88.6 378.6,87.1 380.3,85.6 382.0,84.1 383.6,82.6 385.3,81.1 387.0,79.6 388.6,78.0 390.3,76.5 392.0,74.9 393.6,73.4 395.3,71.8 397.0,70.2 398.6,68.7 400.3,67.1 402.0,65.5 403.7,63.9 405.3,62.3 407.0,60.6 408.7,59.0 410.3,57.4 412.0,55.7 413.7,54.1 415.3,52.4 417.0,50.7 418.7,49.1 420.3,47.4 422.0,45.7\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\"></polyline><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" text-anchor=\"end\" x=\"392.6\" y=\"66.3\">y=x²</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"420\" y=\"224.0\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"63.0\" y=\"37\">y</text></svg></span>",
     "spelDelar": [
@@ -66175,7 +66175,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vid rotation kring y-axeln är skivans radie x. Lös ut x som funktion av y, så blir \\(g(y)=x^2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66207,7 +66207,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vid rotation kring y-axeln är skivans radie x. Lös ut x som funktion av y, så blir \\(g(y)=x^2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66237,7 +66237,7 @@ window.BANKMATO2 = [
     "rättSvar": 25.13274123,
     "tolerans": 0.05,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Här är \\(y^2=x\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -66289,7 +66289,7 @@ window.BANKMATO2 = [
     "spelDelning": "deluppgifter",
     "spelDelar": [{"etikett": "a", "fraga": "<p>\\(y=x+1\\) för \\(0\\le x\\le2\\).</p><p>Figuren hör till del a.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"250\" viewBox=\"0 0 390 250\" role=\"img\" aria-label=\"y = x + 1\" style=\"color:#243247;max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"248\" rx=\"8\" fill=\"#fff\" stroke=\"#dce1e7\"/><polygon points=\"46,204 46.00,157.14 49.88,155.97 53.75,154.80 57.62,153.63 61.50,152.46 65.38,151.29 69.25,150.11 73.12,148.94 77.00,147.77 80.88,146.60 84.75,145.43 88.62,144.26 92.50,143.09 96.38,141.91 100.25,140.74 104.12,139.57 108.00,138.40 111.88,137.23 115.75,136.06 119.62,134.89 123.50,133.71 127.38,132.54 131.25,131.37 135.12,130.20 139.00,129.03 142.88,127.86 146.75,126.69 150.62,125.51 154.50,124.34 158.38,123.17 162.25,122.00 166.12,120.83 170.00,119.66 173.88,118.49 177.75,117.31 181.62,116.14 185.50,114.97 189.38,113.80 193.25,112.63 197.12,111.46 201.00,110.29 204.88,109.11 208.75,107.94 212.62,106.77 216.50,105.60 220.38,104.43 224.25,103.26 228.12,102.09 232.00,100.91 235.88,99.74 239.75,98.57 243.62,97.40 247.50,96.23 251.38,95.06 255.25,93.89 259.12,92.71 263.00,91.54 266.88,90.37 270.75,89.20 274.62,88.03 278.50,86.86 282.38,85.69 286.25,84.51 290.12,83.34 294.00,82.17 297.88,81.00 301.75,79.83 305.62,78.66 309.50,77.49 313.38,76.31 317.25,75.14 321.12,73.97 325.00,72.80 328.88,71.63 332.75,70.46 336.62,69.29 340.50,68.11 344.38,66.94 348.25,65.77 352.12,64.60 356.00,63.43 356,204\" fill=\"#e4eef5\"/><path d=\"M46 18 V204 H370\" fill=\"none\" stroke=\"#243247\" stroke-width=\"1.5\"/><text x=\"35\" y=\"220\" font-size=\"12\" fill=\"#243247\">0</text><text x=\"373\" y=\"208\" font-size=\"12\" fill=\"#243247\">x</text><text x=\"14\" y=\"25\" font-size=\"12\" fill=\"#243247\">y</text><polyline points=\"46.00,157.14 49.88,155.97 53.75,154.80 57.62,153.63 61.50,152.46 65.38,151.29 69.25,150.11 73.12,148.94 77.00,147.77 80.88,146.60 84.75,145.43 88.62,144.26 92.50,143.09 96.38,141.91 100.25,140.74 104.12,139.57 108.00,138.40 111.88,137.23 115.75,136.06 119.62,134.89 123.50,133.71 127.38,132.54 131.25,131.37 135.12,130.20 139.00,129.03 142.88,127.86 146.75,126.69 150.62,125.51 154.50,124.34 158.38,123.17 162.25,122.00 166.12,120.83 170.00,119.66 173.88,118.49 177.75,117.31 181.62,116.14 185.50,114.97 189.38,113.80 193.25,112.63 197.12,111.46 201.00,110.29 204.88,109.11 208.75,107.94 212.62,106.77 216.50,105.60 220.38,104.43 224.25,103.26 228.12,102.09 232.00,100.91 235.88,99.74 239.75,98.57 243.62,97.40 247.50,96.23 251.38,95.06 255.25,93.89 259.12,92.71 263.00,91.54 266.88,90.37 270.75,89.20 274.62,88.03 278.50,86.86 282.38,85.69 286.25,84.51 290.12,83.34 294.00,82.17 297.88,81.00 301.75,79.83 305.62,78.66 309.50,77.49 313.38,76.31 317.25,75.14 321.12,73.97 325.00,72.80 328.88,71.63 332.75,70.46 336.62,69.29 340.50,68.11 344.38,66.94 348.25,65.77 352.12,64.60 356.00,63.43\" fill=\"none\" stroke=\"#b43123\" stroke-width=\"2.5\"/><text x=\"356\" y=\"223\" text-anchor=\"middle\" fill=\"#243247\" font-size=\"12\">2</text><text x=\"160\" y=\"35\" fill=\"#243247\" font-size=\"12\">y = x + 1</text></svg></span>", "s": "<div class=\"facit-v2\"><p>Vid rotation kring x-axeln är skivornas radie \\(x+1\\). Tvärsnittsarean är därför \\(\\pi(x+1)^2\\).</p><p>Volymen blir \\[V=\\pi\\int_0^2(x+1)^2\\,dx.\\]</p><p>En primitiv funktion är \\((x+1)^3/3\\). Därför är \\[V=\\frac{\\pi}{3}(3^3-1^3)=\\frac{26\\pi}{3}.\\]</p></div>", "niva": "E", "poang": "1/0/0", "traningsniva": 2, "arbetsinsats": 1}, {"etikett": "b", "fraga": "<p>\\(y=\\sqrt{x}\\)<br>för \\(0\\le x\\le4\\).</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}\\].</div></li></ol></div></div>", "niva": "E", "poang": "1/0/0", "traningsniva": 2, "arbetsinsats": 1}, {"etikett": "c", "fraga": "<p>\\(y=2\\)<br>för \\(0\\le x\\le3\\).</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^34dx=\\boxed{12\\pi}\\].</div></li></ol></div></div>", "niva": "E", "poang": "1/0/0", "traningsniva": 1, "arbetsinsats": 1}],
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). I c) blir kroppen en cylinder.</p>",
     "spelIntro": "<p>Området under grafen roteras kring x-axeln. Bestäm volymen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -66321,7 +66321,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Rotationsaxeln är \\(y=3\\). Ytterradien är avståndet från axeln till x-axeln och innerradien avståndet från axeln till linjen \\(y=x\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66352,7 +66352,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Var skär \\(y=\\sin x\\) linjen \\(y=0{,}3\\)? Mellan skärningspunkterna är tvärsnitten brickor med radierna \\(\\sin x\\) och 0,3. Integralen beräknas numeriskt.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66382,7 +66382,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.62831853,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Här är \\(y^2=x^4\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -66425,7 +66425,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Tvärsnitten är brickor med ytterradien \\(2x\\) och innerradien \\(x\\). Volymen är \\(\\pi\\int(R^2-r^2)\\,dx\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Området mellan \\(y=2x\\) och \\(y=x\\)<br>för \\(0\\le x\\le2\\) roteras kring x-axeln.</p><div class=\"fig smal\"><svg width=\"257\" height=\"312\" viewBox=\"0 0 257 312\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Området som roteras kring x-axeln och den rotationskropp som bildas\"><rect x=\"1\" y=\"1\" width=\"255\" height=\"310\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><line x1=\"31.4\" y1=\"26\" x2=\"31.4\" y2=\"286\" stroke=\"#eceef2\"/><line x1=\"31.4\" y1=\"153.0\" x2=\"31.4\" y2=\"159.0\" stroke=\"#24262b\"/><text x=\"31.4\" y=\"171.0\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">−0,5</text><line x1=\"58.4\" y1=\"26\" x2=\"58.4\" y2=\"286\" stroke=\"#eceef2\"/><line x1=\"85.3\" y1=\"26\" x2=\"85.3\" y2=\"286\" stroke=\"#eceef2\"/><line x1=\"85.3\" y1=\"153.0\" x2=\"85.3\" y2=\"159.0\" stroke=\"#24262b\"/><text x=\"85.3\" y=\"171.0\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">0,5</text><line x1=\"112.3\" y1=\"26\" x2=\"112.3\" y2=\"286\" stroke=\"#eceef2\"/><line x1=\"112.3\" y1=\"153.0\" x2=\"112.3\" y2=\"159.0\" stroke=\"#24262b\"/><text x=\"112.3\" y=\"171.0\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">1</text><line x1=\"139.3\" y1=\"26\" x2=\"139.3\" y2=\"286\" stroke=\"#eceef2\"/><line x1=\"139.3\" y1=\"153.0\" x2=\"139.3\" y2=\"159.0\" stroke=\"#24262b\"/><text x=\"139.3\" y=\"171.0\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">1,5</text><line x1=\"166.3\" y1=\"26\" x2=\"166.3\" y2=\"286\" stroke=\"#eceef2\"/><line x1=\"166.3\" y1=\"153.0\" x2=\"166.3\" y2=\"159.0\" stroke=\"#24262b\"/><text x=\"166.3\" y=\"171.0\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">2</text><line x1=\"193.2\" y1=\"26\" x2=\"193.2\" y2=\"286\" stroke=\"#eceef2\"/><line x1=\"220.2\" y1=\"26\" x2=\"220.2\" y2=\"286\" stroke=\"#eceef2\"/><line x1=\"26\" y1=\"254.1\" x2=\"231\" y2=\"254.1\" stroke=\"#eceef2\"/><line x1=\"55.4\" y1=\"254.1\" x2=\"61.4\" y2=\"254.1\" stroke=\"#24262b\"/><text x=\"52.4\" y=\"258.1\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">−4</text><line x1=\"26\" y1=\"205.1\" x2=\"231\" y2=\"205.1\" stroke=\"#eceef2\"/><line x1=\"55.4\" y1=\"205.1\" x2=\"61.4\" y2=\"205.1\" stroke=\"#24262b\"/><text x=\"52.4\" y=\"209.1\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">−2</text><line x1=\"26\" y1=\"156.0\" x2=\"231\" y2=\"156.0\" stroke=\"#eceef2\"/><line x1=\"26\" y1=\"106.9\" x2=\"231\" y2=\"106.9\" stroke=\"#eceef2\"/><line x1=\"55.4\" y1=\"106.9\" x2=\"61.4\" y2=\"106.9\" stroke=\"#24262b\"/><text x=\"52.4\" y=\"110.9\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">2</text><line x1=\"26\" y1=\"57.9\" x2=\"231\" y2=\"57.9\" stroke=\"#eceef2\"/><line x1=\"55.4\" y1=\"57.9\" x2=\"61.4\" y2=\"57.9\" stroke=\"#24262b\"/><text x=\"52.4\" y=\"61.9\" text-anchor=\"end\" font-family=\"Arial\" font-size=\"11\" fill=\"#5b6270\">4</text><line x1=\"20\" y1=\"156.0\" x2=\"237\" y2=\"156.0\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M244 156.0 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><text x=\"235\" y=\"147.0\" font-family=\"Arial\" font-size=\"14\" font-style=\"italic\">x</text><line x1=\"58.4\" y1=\"292\" x2=\"58.4\" y2=\"20\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M58.4 13 l-4.5 9 h9 Z\" fill=\"#24262b\"/><text x=\"67.4\" y=\"22\" font-family=\"Arial\" font-size=\"14\" font-style=\"italic\">y</text><polygon points=\"58.4,156.0 59.0,155.4 59.7,154.8 60.4,154.2 61.1,153.5 61.7,152.9 62.4,152.3 63.1,151.7 63.8,151.1 64.4,150.5 65.1,149.9 65.8,149.3 66.5,148.6 67.1,148.0 67.8,147.4 68.5,146.8 69.2,146.2 69.8,145.6 70.5,145.0 71.2,144.3 71.9,143.7 72.5,143.1 73.2,142.5 73.9,141.9 74.6,141.3 75.2,140.7 75.9,140.1 76.6,139.4 77.2,138.8 77.9,138.2 78.6,137.6 79.3,137.0 79.9,136.4 80.6,135.8 81.3,135.2 82.0,134.5 82.6,133.9 83.3,133.3 84.0,132.7 84.7,132.1 85.3,131.5 86.0,130.9 86.7,130.2 87.4,129.6 88.0,129.0 88.7,128.4 89.4,127.8 90.1,127.2 90.7,126.6 91.4,126.0 92.1,125.3 92.8,124.7 93.4,124.1 94.1,123.5 94.8,122.9 95.5,122.3 96.1,121.7 96.8,121.0 97.5,120.4 98.2,119.8 98.8,119.2 99.5,118.6 100.2,118.0 100.9,117.4 101.5,116.8 102.2,116.1 102.9,115.5 103.5,114.9 104.2,114.3 104.9,113.7 105.6,113.1 106.2,112.5 106.9,111.8 107.6,111.2 108.3,110.6 108.9,110.0 109.6,109.4 110.3,108.8 111.0,108.2 111.6,107.6 112.3,106.9 113.0,106.3 113.7,105.7 114.3,105.1 115.0,104.5 115.7,103.9 116.4,103.3 117.0,102.7 117.7,102.0 118.4,101.4 119.1,100.8 119.7,100.2 120.4,99.6 121.1,99.0 121.8,98.4 122.4,97.7 123.1,97.1 123.8,96.5 124.5,95.9 125.1,95.3 125.8,94.7 126.5,94.1 127.2,93.5 127.8,92.8 128.5,92.2 129.2,91.6 129.8,91.0 130.5,90.4 131.2,89.8 131.9,89.2 132.5,88.5 133.2,87.9 133.9,87.3 134.6,86.7 135.2,86.1 135.9,85.5 136.6,84.9 137.3,84.3 137.9,83.6 138.6,83.0 139.3,82.4 140.0,81.8 140.6,81.2 141.3,80.6 142.0,80.0 142.7,79.3 143.3,78.7 144.0,78.1 144.7,77.5 145.4,76.9 146.0,76.3 146.7,75.7 147.4,75.1 148.1,74.4 148.7,73.8 149.4,73.2 150.1,72.6 150.8,72.0 151.4,71.4 152.1,70.8 152.8,70.2 153.5,69.5 154.1,68.9 154.8,68.3 155.5,67.7 156.1,67.1 156.8,66.5 157.5,65.9 158.2,65.2 158.8,64.6 159.5,64.0 160.2,63.4 160.9,62.8 161.5,62.2 162.2,61.6 162.9,61.0 163.6,60.3 164.2,59.7 164.9,59.1 165.6,58.5 166.3,57.9 166.3,106.9 165.6,107.2 164.9,107.6 164.2,107.9 163.6,108.2 162.9,108.5 162.2,108.8 161.5,109.1 160.9,109.4 160.2,109.7 159.5,110.0 158.8,110.3 158.2,110.6 157.5,110.9 156.8,111.2 156.1,111.5 155.5,111.8 154.8,112.2 154.1,112.5 153.5,112.8 152.8,113.1 152.1,113.4 151.4,113.7 150.8,114.0 150.1,114.3 149.4,114.6 148.7,114.9 148.1,115.2 147.4,115.5 146.7,115.8 146.0,116.1 145.4,116.4 144.7,116.8 144.0,117.1 143.3,117.4 142.7,117.7 142.0,118.0 141.3,118.3 140.6,118.6 140.0,118.9 139.3,119.2 138.6,119.5 137.9,119.8 137.3,120.1 136.6,120.4 135.9,120.7 135.2,121.0 134.6,121.4 133.9,121.7 133.2,122.0 132.5,122.3 131.9,122.6 131.2,122.9 130.5,123.2 129.8,123.5 129.2,123.8 128.5,124.1 127.8,124.4 127.2,124.7 126.5,125.0 125.8,125.3 125.1,125.6 124.5,126.0 123.8,126.3 123.1,126.6 122.4,126.9 121.8,127.2 121.1,127.5 120.4,127.8 119.7,128.1 119.1,128.4 118.4,128.7 117.7,129.0 117.0,129.3 116.4,129.6 115.7,129.9 115.0,130.2 114.3,130.6 113.7,130.9 113.0,131.2 112.3,131.5 111.6,131.8 111.0,132.1 110.3,132.4 109.6,132.7 108.9,133.0 108.3,133.3 107.6,133.6 106.9,133.9 106.2,134.2 105.6,134.5 104.9,134.8 104.2,135.2 103.5,135.5 102.9,135.8 102.2,136.1 101.5,136.4 100.9,136.7 100.2,137.0 99.5,137.3 98.8,137.6 98.2,137.9 97.5,138.2 96.8,138.5 96.1,138.8 95.5,139.1 94.8,139.4 94.1,139.8 93.4,140.1 92.8,140.4 92.1,140.7 91.4,141.0 90.7,141.3 90.1,141.6 89.4,141.9 88.7,142.2 88.0,142.5 87.4,142.8 86.7,143.1 86.0,143.4 85.3,143.7 84.7,144.0 84.0,144.3 83.3,144.7 82.6,145.0 82.0,145.3 81.3,145.6 80.6,145.9 79.9,146.2 79.3,146.5 78.6,146.8 77.9,147.1 77.2,147.4 76.6,147.7 75.9,148.0 75.2,148.3 74.6,148.6 73.9,148.9 73.2,149.3 72.5,149.6 71.9,149.9 71.2,150.2 70.5,150.5 69.8,150.8 69.2,151.1 68.5,151.4 67.8,151.7 67.1,152.0 66.5,152.3 65.8,152.6 65.1,152.9 64.4,153.2 63.8,153.5 63.1,153.9 62.4,154.2 61.7,154.5 61.1,154.8 60.4,155.1 59.7,155.4 59.0,155.7 58.4,156.0\" fill=\"#f6d3cf\" stroke=\"none\" opacity=\"0.95\"/><polygon points=\"58.4,156.0 59.0,156.6 59.7,157.2 60.4,157.8 61.1,158.5 61.7,159.1 62.4,159.7 63.1,160.3 63.8,160.9 64.4,161.5 65.1,162.1 65.8,162.7 66.5,163.4 67.1,164.0 67.8,164.6 68.5,165.2 69.2,165.8 69.8,166.4 70.5,167.0 71.2,167.7 71.9,168.3 72.5,168.9 73.2,169.5 73.9,170.1 74.6,170.7 75.2,171.3 75.9,171.9 76.6,172.6 77.2,173.2 77.9,173.8 78.6,174.4 79.3,175.0 79.9,175.6 80.6,176.2 81.3,176.8 82.0,177.5 82.6,178.1 83.3,178.7 84.0,179.3 84.7,179.9 85.3,180.5 86.0,181.1 86.7,181.8 87.4,182.4 88.0,183.0 88.7,183.6 89.4,184.2 90.1,184.8 90.7,185.4 91.4,186.0 92.1,186.7 92.8,187.3 93.4,187.9 94.1,188.5 94.8,189.1 95.5,189.7 96.1,190.3 96.8,191.0 97.5,191.6 98.2,192.2 98.8,192.8 99.5,193.4 100.2,194.0 100.9,194.6 101.5,195.2 102.2,195.9 102.9,196.5 103.5,197.1 104.2,197.7 104.9,198.3 105.6,198.9 106.2,199.5 106.9,200.2 107.6,200.8 108.3,201.4 108.9,202.0 109.6,202.6 110.3,203.2 111.0,203.8 111.6,204.4 112.3,205.1 113.0,205.7 113.7,206.3 114.3,206.9 115.0,207.5 115.7,208.1 116.4,208.7 117.0,209.3 117.7,210.0 118.4,210.6 119.1,211.2 119.7,211.8 120.4,212.4 121.1,213.0 121.8,213.6 122.4,214.3 123.1,214.9 123.8,215.5 124.5,216.1 125.1,216.7 125.8,217.3 126.5,217.9 127.2,218.5 127.8,219.2 128.5,219.8 129.2,220.4 129.8,221.0 130.5,221.6 131.2,222.2 131.9,222.8 132.5,223.5 133.2,224.1 133.9,224.7 134.6,225.3 135.2,225.9 135.9,226.5 136.6,227.1 137.3,227.7 137.9,228.4 138.6,229.0 139.3,229.6 140.0,230.2 140.6,230.8 141.3,231.4 142.0,232.0 142.7,232.7 143.3,233.3 144.0,233.9 144.7,234.5 145.4,235.1 146.0,235.7 146.7,236.3 147.4,236.9 148.1,237.6 148.7,238.2 149.4,238.8 150.1,239.4 150.8,240.0 151.4,240.6 152.1,241.2 152.8,241.8 153.5,242.5 154.1,243.1 154.8,243.7 155.5,244.3 156.1,244.9 156.8,245.5 157.5,246.1 158.2,246.8 158.8,247.4 159.5,248.0 160.2,248.6 160.9,249.2 161.5,249.8 162.2,250.4 162.9,251.0 163.6,251.7 164.2,252.3 164.9,252.9 165.6,253.5 166.3,254.1 166.3,205.1 165.6,204.8 164.9,204.4 164.2,204.1 163.6,203.8 162.9,203.5 162.2,203.2 161.5,202.9 160.9,202.6 160.2,202.3 159.5,202.0 158.8,201.7 158.2,201.4 157.5,201.1 156.8,200.8 156.1,200.5 155.5,200.2 154.8,199.8 154.1,199.5 153.5,199.2 152.8,198.9 152.1,198.6 151.4,198.3 150.8,198.0 150.1,197.7 149.4,197.4 148.7,197.1 148.1,196.8 147.4,196.5 146.7,196.2 146.0,195.9 145.4,195.6 144.7,195.2 144.0,194.9 143.3,194.6 142.7,194.3 142.0,194.0 141.3,193.7 140.6,193.4 140.0,193.1 139.3,192.8 138.6,192.5 137.9,192.2 137.3,191.9 136.6,191.6 135.9,191.3 135.2,191.0 134.6,190.6 133.9,190.3 133.2,190.0 132.5,189.7 131.9,189.4 131.2,189.1 130.5,188.8 129.8,188.5 129.2,188.2 128.5,187.9 127.8,187.6 127.2,187.3 126.5,187.0 125.8,186.7 125.1,186.4 124.5,186.0 123.8,185.7 123.1,185.4 122.4,185.1 121.8,184.8 121.1,184.5 120.4,184.2 119.7,183.9 119.1,183.6 118.4,183.3 117.7,183.0 117.0,182.7 116.4,182.4 115.7,182.1 115.0,181.8 114.3,181.4 113.7,181.1 113.0,180.8 112.3,180.5 111.6,180.2 111.0,179.9 110.3,179.6 109.6,179.3 108.9,179.0 108.3,178.7 107.6,178.4 106.9,178.1 106.2,177.8 105.6,177.5 104.9,177.2 104.2,176.8 103.5,176.5 102.9,176.2 102.2,175.9 101.5,175.6 100.9,175.3 100.2,175.0 99.5,174.7 98.8,174.4 98.2,174.1 97.5,173.8 96.8,173.5 96.1,173.2 95.5,172.9 94.8,172.6 94.1,172.2 93.4,171.9 92.8,171.6 92.1,171.3 91.4,171.0 90.7,170.7 90.1,170.4 89.4,170.1 88.7,169.8 88.0,169.5 87.4,169.2 86.7,168.9 86.0,168.6 85.3,168.3 84.7,168.0 84.0,167.7 83.3,167.3 82.6,167.0 82.0,166.7 81.3,166.4 80.6,166.1 79.9,165.8 79.3,165.5 78.6,165.2 77.9,164.9 77.2,164.6 76.6,164.3 75.9,164.0 75.2,163.7 74.6,163.4 73.9,163.1 73.2,162.7 72.5,162.4 71.9,162.1 71.2,161.8 70.5,161.5 69.8,161.2 69.2,160.9 68.5,160.6 67.8,160.3 67.1,160.0 66.5,159.7 65.8,159.4 65.1,159.1 64.4,158.8 63.8,158.5 63.1,158.1 62.4,157.8 61.7,157.5 61.1,157.2 60.4,156.9 59.7,156.6 59.0,156.3 58.4,156.0\" fill=\"#f6d3cf\" opacity=\"0.35\" stroke=\"none\"/><polyline points=\"58.4,156.0 59.0,156.6 59.7,157.2 60.4,157.8 61.1,158.5 61.7,159.1 62.4,159.7 63.1,160.3 63.8,160.9 64.4,161.5 65.1,162.1 65.8,162.7 66.5,163.4 67.1,164.0 67.8,164.6 68.5,165.2 69.2,165.8 69.8,166.4 70.5,167.0 71.2,167.7 71.9,168.3 72.5,168.9 73.2,169.5 73.9,170.1 74.6,170.7 75.2,171.3 75.9,171.9 76.6,172.6 77.2,173.2 77.9,173.8 78.6,174.4 79.3,175.0 79.9,175.6 80.6,176.2 81.3,176.8 82.0,177.5 82.6,178.1 83.3,178.7 84.0,179.3 84.7,179.9 85.3,180.5 86.0,181.1 86.7,181.8 87.4,182.4 88.0,183.0 88.7,183.6 89.4,184.2 90.1,184.8 90.7,185.4 91.4,186.0 92.1,186.7 92.8,187.3 93.4,187.9 94.1,188.5 94.8,189.1 95.5,189.7 96.1,190.3 96.8,191.0 97.5,191.6 98.2,192.2 98.8,192.8 99.5,193.4 100.2,194.0 100.9,194.6 101.5,195.2 102.2,195.9 102.9,196.5 103.5,197.1 104.2,197.7 104.9,198.3 105.6,198.9 106.2,199.5 106.9,200.2 107.6,200.8 108.3,201.4 108.9,202.0 109.6,202.6 110.3,203.2 111.0,203.8 111.6,204.4 112.3,205.1 113.0,205.7 113.7,206.3 114.3,206.9 115.0,207.5 115.7,208.1 116.4,208.7 117.0,209.3 117.7,210.0 118.4,210.6 119.1,211.2 119.7,211.8 120.4,212.4 121.1,213.0 121.8,213.6 122.4,214.3 123.1,214.9 123.8,215.5 124.5,216.1 125.1,216.7 125.8,217.3 126.5,217.9 127.2,218.5 127.8,219.2 128.5,219.8 129.2,220.4 129.8,221.0 130.5,221.6 131.2,222.2 131.9,222.8 132.5,223.5 133.2,224.1 133.9,224.7 134.6,225.3 135.2,225.9 135.9,226.5 136.6,227.1 137.3,227.7 137.9,228.4 138.6,229.0 139.3,229.6 140.0,230.2 140.6,230.8 141.3,231.4 142.0,232.0 142.7,232.7 143.3,233.3 144.0,233.9 144.7,234.5 145.4,235.1 146.0,235.7 146.7,236.3 147.4,236.9 148.1,237.6 148.7,238.2 149.4,238.8 150.1,239.4 150.8,240.0 151.4,240.6 152.1,241.2 152.8,241.8 153.5,242.5 154.1,243.1 154.8,243.7 155.5,244.3 156.1,244.9 156.8,245.5 157.5,246.1 158.2,246.8 158.8,247.4 159.5,248.0 160.2,248.6 160.9,249.2 161.5,249.8 162.2,250.4 162.9,251.0 163.6,251.7 164.2,252.3 164.9,252.9 165.6,253.5 166.3,254.1\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"1.6\" opacity=\"0.6\" stroke-dasharray=\"6 4\"/><polyline points=\"58.4,156.0 59.0,156.3 59.7,156.6 60.4,156.9 61.1,157.2 61.7,157.5 62.4,157.8 63.1,158.1 63.8,158.5 64.4,158.8 65.1,159.1 65.8,159.4 66.5,159.7 67.1,160.0 67.8,160.3 68.5,160.6 69.2,160.9 69.8,161.2 70.5,161.5 71.2,161.8 71.9,162.1 72.5,162.4 73.2,162.7 73.9,163.1 74.6,163.4 75.2,163.7 75.9,164.0 76.6,164.3 77.2,164.6 77.9,164.9 78.6,165.2 79.3,165.5 79.9,165.8 80.6,166.1 81.3,166.4 82.0,166.7 82.6,167.0 83.3,167.3 84.0,167.7 84.7,168.0 85.3,168.3 86.0,168.6 86.7,168.9 87.4,169.2 88.0,169.5 88.7,169.8 89.4,170.1 90.1,170.4 90.7,170.7 91.4,171.0 92.1,171.3 92.8,171.6 93.4,171.9 94.1,172.2 94.8,172.6 95.5,172.9 96.1,173.2 96.8,173.5 97.5,173.8 98.2,174.1 98.8,174.4 99.5,174.7 100.2,175.0 100.9,175.3 101.5,175.6 102.2,175.9 102.9,176.2 103.5,176.5 104.2,176.8 104.9,177.2 105.6,177.5 106.2,177.8 106.9,178.1 107.6,178.4 108.3,178.7 108.9,179.0 109.6,179.3 110.3,179.6 111.0,179.9 111.6,180.2 112.3,180.5 113.0,180.8 113.7,181.1 114.3,181.4 115.0,181.8 115.7,182.1 116.4,182.4 117.0,182.7 117.7,183.0 118.4,183.3 119.1,183.6 119.7,183.9 120.4,184.2 121.1,184.5 121.8,184.8 122.4,185.1 123.1,185.4 123.8,185.7 124.5,186.0 125.1,186.4 125.8,186.7 126.5,187.0 127.2,187.3 127.8,187.6 128.5,187.9 129.2,188.2 129.8,188.5 130.5,188.8 131.2,189.1 131.9,189.4 132.5,189.7 133.2,190.0 133.9,190.3 134.6,190.6 135.2,191.0 135.9,191.3 136.6,191.6 137.3,191.9 137.9,192.2 138.6,192.5 139.3,192.8 140.0,193.1 140.6,193.4 141.3,193.7 142.0,194.0 142.7,194.3 143.3,194.6 144.0,194.9 144.7,195.2 145.4,195.6 146.0,195.9 146.7,196.2 147.4,196.5 148.1,196.8 148.7,197.1 149.4,197.4 150.1,197.7 150.8,198.0 151.4,198.3 152.1,198.6 152.8,198.9 153.5,199.2 154.1,199.5 154.8,199.8 155.5,200.2 156.1,200.5 156.8,200.8 157.5,201.1 158.2,201.4 158.8,201.7 159.5,202.0 160.2,202.3 160.9,202.6 161.5,202.9 162.2,203.2 162.9,203.5 163.6,203.8 164.2,204.1 164.9,204.4 165.6,204.8 166.3,205.1\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"1.6\" opacity=\"0.6\" stroke-dasharray=\"6 4\"/><ellipse cx=\"85.3\" cy=\"156.0\" rx=\"5.4\" ry=\"24.5\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><ellipse cx=\"112.3\" cy=\"156.0\" rx=\"10.8\" ry=\"49.1\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><ellipse cx=\"139.3\" cy=\"156.0\" rx=\"16.2\" ry=\"73.6\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><ellipse cx=\"166.3\" cy=\"156.0\" rx=\"21.6\" ry=\"98.1\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"1.8\"/><ellipse cx=\"166.3\" cy=\"156.0\" rx=\"10.8\" ry=\"49.1\" fill=\"#fff\" stroke=\"#8a63c9\" stroke-width=\"1.6\"/><polyline points=\"26.0,185.4 26.5,185.0 27.0,184.5 27.5,184.0 28.1,183.6 28.6,183.1 29.1,182.6 29.6,182.2 30.1,181.7 30.6,181.2 31.1,180.8 31.6,180.3 32.1,179.8 32.7,179.4 33.2,178.9 33.7,178.4 34.2,178.0 34.7,177.5 35.2,177.0 35.7,176.6 36.2,176.1 36.8,175.6 37.3,175.2 37.8,174.7 38.3,174.2 38.8,173.8 39.3,173.3 39.8,172.9 40.3,172.4 40.9,171.9 41.4,171.5 41.9,171.0 42.4,170.5 42.9,170.1 43.4,169.6 43.9,169.1 44.5,168.7 45.0,168.2 45.5,167.7 46.0,167.3 46.5,166.8 47.0,166.3 47.5,165.9 48.0,165.4 48.5,164.9 49.1,164.5 49.6,164.0 50.1,163.5 50.6,163.1 51.1,162.6 51.6,162.1 52.1,161.7 52.7,161.2 53.2,160.7 53.7,160.3 54.2,159.8 54.7,159.3 55.2,158.9 55.7,158.4 56.2,157.9 56.8,157.5 57.3,157.0 57.8,156.5 58.3,156.1 58.8,155.6 59.3,155.1 59.8,154.7 60.3,154.2 60.9,153.7 61.4,153.3 61.9,152.8 62.4,152.3 62.9,151.9 63.4,151.4 63.9,150.9 64.4,150.5 64.9,150.0 65.5,149.5 66.0,149.1 66.5,148.6 67.0,148.2 67.5,147.7 68.0,147.2 68.5,146.8 69.1,146.3 69.6,145.8 70.1,145.4 70.6,144.9 71.1,144.4 71.6,144.0 72.1,143.5 72.6,143.0 73.2,142.6 73.7,142.1 74.2,141.6 74.7,141.2 75.2,140.7 75.7,140.2 76.2,139.8 76.7,139.3 77.2,138.8 77.8,138.4 78.3,137.9 78.8,137.4 79.3,137.0 79.8,136.5 80.3,136.0 80.8,135.6 81.3,135.1 81.9,134.6 82.4,134.2 82.9,133.7 83.4,133.2 83.9,132.8 84.4,132.3 84.9,131.8 85.4,131.4 86.0,130.9 86.5,130.4 87.0,130.0 87.5,129.5 88.0,129.0 88.5,128.6 89.0,128.1 89.5,127.6 90.1,127.2 90.6,126.7 91.1,126.2 91.6,125.8 92.1,125.3 92.6,124.8 93.1,124.4 93.6,123.9 94.2,123.5 94.7,123.0 95.2,122.5 95.7,122.1 96.2,121.6 96.7,121.1 97.2,120.7 97.8,120.2 98.3,119.7 98.8,119.3 99.3,118.8 99.8,118.3 100.3,117.9 100.8,117.4 101.3,116.9 101.8,116.5 102.4,116.0 102.9,115.5 103.4,115.1 103.9,114.6 104.4,114.1 104.9,113.7 105.4,113.2 106.0,112.7 106.5,112.3 107.0,111.8 107.5,111.3 108.0,110.9 108.5,110.4 109.0,109.9 109.5,109.5 110.0,109.0 110.6,108.5 111.1,108.1 111.6,107.6 112.1,107.1 112.6,106.7 113.1,106.2 113.6,105.7 114.2,105.3 114.7,104.8 115.2,104.3 115.7,103.9 116.2,103.4 116.7,102.9 117.2,102.5 117.7,102.0 118.2,101.5 118.8,101.1 119.3,100.6 119.8,100.1 120.3,99.7 120.8,99.2 121.3,98.8 121.8,98.3 122.4,97.8 122.9,97.4 123.4,96.9 123.9,96.4 124.4,96.0 124.9,95.5 125.4,95.0 125.9,94.6 126.5,94.1 127.0,93.6 127.5,93.2 128.0,92.7 128.5,92.2 129.0,91.8 129.5,91.3 130.0,90.8 130.6,90.4 131.1,89.9 131.6,89.4 132.1,89.0 132.6,88.5 133.1,88.0 133.6,87.6 134.1,87.1 134.7,86.6 135.2,86.2 135.7,85.7 136.2,85.2 136.7,84.8 137.2,84.3 137.7,83.8 138.2,83.4 138.8,82.9 139.3,82.4 139.8,82.0 140.3,81.5 140.8,81.0 141.3,80.6 141.8,80.1 142.3,79.6 142.9,79.2 143.4,78.7 143.9,78.2 144.4,77.8 144.9,77.3 145.4,76.8 145.9,76.4 146.4,75.9 146.9,75.4 147.5,75.0 148.0,74.5 148.5,74.1 149.0,73.6 149.5,73.1 150.0,72.7 150.5,72.2 151.1,71.7 151.6,71.3 152.1,70.8 152.6,70.3 153.1,69.9 153.6,69.4 154.1,68.9 154.6,68.5 155.2,68.0 155.7,67.5 156.2,67.1 156.7,66.6 157.2,66.1 157.7,65.7 158.2,65.2 158.7,64.7 159.2,64.3 159.8,63.8 160.3,63.3 160.8,62.9 161.3,62.4 161.8,61.9 162.3,61.5 162.8,61.0 163.3,60.5 163.9,60.1 164.4,59.6 164.9,59.1 165.4,58.7 165.9,58.2 166.4,57.7 166.9,57.3 167.5,56.8 168.0,56.3 168.5,55.9 169.0,55.4 169.5,54.9 170.0,54.5 170.5,54.0 171.0,53.5 171.5,53.1 172.1,52.6 172.6,52.1 173.1,51.7 173.6,51.2 174.1,50.7 174.6,50.3 175.1,49.8 175.7,49.4 176.2,48.9 176.7,48.4 177.2,48.0 177.7,47.5 178.2,47.0 178.7,46.6 179.2,46.1 179.8,45.6 180.3,45.2 180.8,44.7 181.3,44.2 181.8,43.8 182.3,43.3 182.8,42.8 183.3,42.4 183.8,41.9 184.4,41.4 184.9,41.0 185.4,40.5 185.9,40.0 186.4,39.6 186.9,39.1 187.4,38.6 188.0,38.2 188.5,37.7 189.0,37.2 189.5,36.8 190.0,36.3 190.5,35.8 191.0,35.4 191.5,34.9 192.1,34.4 192.6,34.0 193.1,33.5 193.6,33.0 194.1,32.6 194.6,32.1 195.1,31.6 195.6,31.2 196.2,30.7 196.7,30.2 197.2,29.8 197.7,29.3 198.2,28.8 198.7,28.4 199.2,27.9 199.7,27.4 200.2,27.0 200.8,26.5 201.3,26.0 201.8,25.6 202.3,25.1 202.8,24.7 203.3,24.2 203.8,23.7 204.3,23.3 204.9,22.8 205.4,22.3 205.9,21.9 206.4,21.4 206.9,20.9\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><text x=\"154.5\" y=\"36.9\" font-family=\"Arial\" font-size=\"14\" font-style=\"italic\" fill=\"#c0392b\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">y = 2x</text><polyline points=\"26.0,170.7 26.5,170.5 27.0,170.3 27.5,170.0 28.1,169.8 28.6,169.6 29.1,169.3 29.6,169.1 30.1,168.9 30.6,168.6 31.1,168.4 31.6,168.2 32.1,167.9 32.7,167.7 33.2,167.5 33.7,167.2 34.2,167.0 34.7,166.8 35.2,166.5 35.7,166.3 36.2,166.1 36.8,165.8 37.3,165.6 37.8,165.4 38.3,165.1 38.8,164.9 39.3,164.7 39.8,164.4 40.3,164.2 40.9,164.0 41.4,163.7 41.9,163.5 42.4,163.3 42.9,163.0 43.4,162.8 43.9,162.6 44.5,162.3 45.0,162.1 45.5,161.9 46.0,161.6 46.5,161.4 47.0,161.2 47.5,160.9 48.0,160.7 48.5,160.5 49.1,160.2 49.6,160.0 50.1,159.8 50.6,159.5 51.1,159.3 51.6,159.1 52.1,158.8 52.7,158.6 53.2,158.4 53.7,158.1 54.2,157.9 54.7,157.7 55.2,157.4 55.7,157.2 56.2,157.0 56.8,156.7 57.3,156.5 57.8,156.3 58.3,156.0 58.8,155.8 59.3,155.6 59.8,155.3 60.3,155.1 60.9,154.9 61.4,154.6 61.9,154.4 62.4,154.2 62.9,153.9 63.4,153.7 63.9,153.5 64.4,153.2 64.9,153.0 65.5,152.8 66.0,152.5 66.5,152.3 67.0,152.1 67.5,151.8 68.0,151.6 68.5,151.4 69.1,151.1 69.6,150.9 70.1,150.7 70.6,150.4 71.1,150.2 71.6,150.0 72.1,149.7 72.6,149.5 73.2,149.3 73.7,149.0 74.2,148.8 74.7,148.6 75.2,148.3 75.7,148.1 76.2,147.9 76.7,147.6 77.2,147.4 77.8,147.2 78.3,146.9 78.8,146.7 79.3,146.5 79.8,146.2 80.3,146.0 80.8,145.8 81.3,145.6 81.9,145.3 82.4,145.1 82.9,144.9 83.4,144.6 83.9,144.4 84.4,144.2 84.9,143.9 85.4,143.7 86.0,143.5 86.5,143.2 87.0,143.0 87.5,142.8 88.0,142.5 88.5,142.3 89.0,142.1 89.5,141.8 90.1,141.6 90.6,141.4 91.1,141.1 91.6,140.9 92.1,140.7 92.6,140.4 93.1,140.2 93.6,140.0 94.2,139.7 94.7,139.5 95.2,139.3 95.7,139.0 96.2,138.8 96.7,138.6 97.2,138.3 97.8,138.1 98.3,137.9 98.8,137.6 99.3,137.4 99.8,137.2 100.3,136.9 100.8,136.7 101.3,136.5 101.8,136.2 102.4,136.0 102.9,135.8 103.4,135.5 103.9,135.3 104.4,135.1 104.9,134.8 105.4,134.6 106.0,134.4 106.5,134.1 107.0,133.9 107.5,133.7 108.0,133.4 108.5,133.2 109.0,133.0 109.5,132.7 110.0,132.5 110.6,132.3 111.1,132.0 111.6,131.8 112.1,131.6 112.6,131.3 113.1,131.1 113.6,130.9 114.2,130.6 114.7,130.4 115.2,130.2 115.7,129.9 116.2,129.7 116.7,129.5 117.2,129.2 117.7,129.0 118.2,128.8 118.8,128.5 119.3,128.3 119.8,128.1 120.3,127.8 120.8,127.6 121.3,127.4 121.8,127.1 122.4,126.9 122.9,126.7 123.4,126.4 123.9,126.2 124.4,126.0 124.9,125.7 125.4,125.5 125.9,125.3 126.5,125.0 127.0,124.8 127.5,124.6 128.0,124.3 128.5,124.1 129.0,123.9 129.5,123.6 130.0,123.4 130.6,123.2 131.1,122.9 131.6,122.7 132.1,122.5 132.6,122.2 133.1,122.0 133.6,121.8 134.1,121.5 134.7,121.3 135.2,121.1 135.7,120.9 136.2,120.6 136.7,120.4 137.2,120.2 137.7,119.9 138.2,119.7 138.8,119.5 139.3,119.2 139.8,119.0 140.3,118.8 140.8,118.5 141.3,118.3 141.8,118.1 142.3,117.8 142.9,117.6 143.4,117.4 143.9,117.1 144.4,116.9 144.9,116.7 145.4,116.4 145.9,116.2 146.4,116.0 146.9,115.7 147.5,115.5 148.0,115.3 148.5,115.0 149.0,114.8 149.5,114.6 150.0,114.3 150.5,114.1 151.1,113.9 151.6,113.6 152.1,113.4 152.6,113.2 153.1,112.9 153.6,112.7 154.1,112.5 154.6,112.2 155.2,112.0 155.7,111.8 156.2,111.5 156.7,111.3 157.2,111.1 157.7,110.8 158.2,110.6 158.7,110.4 159.2,110.1 159.8,109.9 160.3,109.7 160.8,109.4 161.3,109.2 161.8,109.0 162.3,108.7 162.8,108.5 163.3,108.3 163.9,108.0 164.4,107.8 164.9,107.6 165.4,107.3 165.9,107.1 166.4,106.9 166.9,106.6 167.5,106.4 168.0,106.2 168.5,105.9 169.0,105.7 169.5,105.5 170.0,105.2 170.5,105.0 171.0,104.8 171.5,104.5 172.1,104.3 172.6,104.1 173.1,103.8 173.6,103.6 174.1,103.4 174.6,103.1 175.1,102.9 175.7,102.7 176.2,102.4 176.7,102.2 177.2,102.0 177.7,101.7 178.2,101.5 178.7,101.3 179.2,101.0 179.8,100.8 180.3,100.6 180.8,100.3 181.3,100.1 181.8,99.9 182.3,99.6 182.8,99.4 183.3,99.2 183.8,98.9 184.4,98.7 184.9,98.5 185.4,98.2 185.9,98.0 186.4,97.8 186.9,97.5 187.4,97.3 188.0,97.1 188.5,96.8 189.0,96.6 189.5,96.4 190.0,96.2 190.5,95.9 191.0,95.7 191.5,95.5 192.1,95.2 192.6,95.0 193.1,94.8 193.6,94.5 194.1,94.3 194.6,94.1 195.1,93.8 195.6,93.6 196.2,93.4 196.7,93.1 197.2,92.9 197.7,92.7 198.2,92.4 198.7,92.2 199.2,92.0 199.7,91.7 200.2,91.5 200.8,91.3 201.3,91.0 201.8,90.8 202.3,90.6 202.8,90.3 203.3,90.1 203.8,89.9 204.3,89.6 204.9,89.4 205.4,89.2 205.9,88.9 206.4,88.7 206.9,88.5 207.4,88.2 207.9,88.0 208.5,87.8 209.0,87.5 209.5,87.3 210.0,87.1 210.5,86.8 211.0,86.6 211.5,86.4 212.0,86.1 212.6,85.9 213.1,85.7 213.6,85.4 214.1,85.2 214.6,85.0 215.1,84.7 215.6,84.5 216.1,84.3 216.7,84.0 217.2,83.8 217.7,83.6 218.2,83.3 218.7,83.1 219.2,82.9 219.7,82.6 220.2,82.4 220.8,82.2 221.3,81.9 221.8,81.7 222.3,81.5 222.8,81.2 223.3,81.0 223.8,80.8 224.3,80.5 224.9,80.3 225.4,80.1 225.9,79.8 226.4,79.6 226.9,79.4 227.4,79.1 227.9,78.9 228.4,78.7 229.0,78.4 229.5,78.2 230.0,78.0 230.5,77.7 231.0,77.5\" fill=\"none\" stroke=\"#8a63c9\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><text x=\"186.0\" y=\"93.5\" font-family=\"Arial\" font-size=\"14\" font-style=\"italic\" fill=\"#8a63c9\" paint-order=\"stroke\" stroke=\"#fff\" stroke-width=\"4\">y = x</text><line x1=\"58.4\" y1=\"156.0\" x2=\"58.4\" y2=\"156.0\" stroke=\"#c0392b\" stroke-width=\"1.6\"/><line x1=\"166.3\" y1=\"106.9\" x2=\"166.3\" y2=\"57.9\" stroke=\"#c0392b\" stroke-width=\"1.6\"/><path d=\"M196.9 141.0 A 7 15 0 1 0 204.9 170.0\" fill=\"none\" stroke=\"#4b5563\" stroke-width=\"1.6\"/><path d=\"M204.9 170.0 l-7 3 l2 -7 Z\" fill=\"#4b5563\"/></svg></div>",
     "spelDelar": [
@@ -66499,7 +66499,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vid rotation kring y-axeln är skivans radie x. Lös ut x som funktion av y, så blir \\(g(y)=x^2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66531,7 +66531,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vid rotation kring y-axeln är skivans radie x. Lös ut x som funktion av y, så blir \\(g(y)=x^2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66561,7 +66561,7 @@ window.BANKMATO2 = [
     "rättSvar": 125.66370614,
     "tolerans": 0.5,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Tvärsnitten är brickor med ytterradien \\(3\\) och innerradien \\(1\\). Volymen är \\(\\pi\\int(R^2-r^2)\\,dx\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -66593,7 +66593,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Rotationsaxeln är \\(y=3\\). Ytterradien är avståndet till x-axeln och innerradien avståndet till kurvan, \\(3-\\sqrt x\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66623,7 +66623,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Tvärsnitten vinkelrätt mot y-axeln är brickor med radierna \\(3\\pm\\sqrt{1-y^2}\\). Integralen av \\(\\sqrt{1-y^2}\\) kan tolkas som en halvcirkels area.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -66706,7 +66706,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\).</p>",
     "spelIntro": "<p>Bestäm volymen när området under kurvan roterar ett varv kring x-axeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -66737,7 +66737,7 @@ window.BANKMATO2 = [
     "rättSvar": 4.9348022,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Skriv \\(\\sin^2x\\) med formeln för dubbla vinkeln.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -66769,7 +66769,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vid rotation kring y-axeln är skivans radie \\(x=y^2\\). Volymen är \\(\\pi\\int_0^2x^2\\,dy\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66800,7 +66800,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Integralen beräknas numeriskt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66831,7 +66831,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Här är \\(y^2=x\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66862,7 +66862,7 @@ window.BANKMATO2 = [
     "rättSvar": 6,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Beräkna volymen uttryckt i k och sätt den lika med \\(12\\pi\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -66894,7 +66894,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Tvärsnitten är brickor med ytterradien \\(2\\) och innerradien \\(x^2\\). Volymen är \\(\\pi\\int(R^2-r^2)\\,dx\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66924,7 +66924,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Vilken kropp bildas?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -66955,7 +66955,7 @@ window.BANKMATO2 = [
     "rättSvar": 0.41887902,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på \\(0\\le x\\le1\\)? Den ger ytterradien och den andra innerradien.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -66987,7 +66987,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Här är \\(y^2=x^4\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67018,7 +67018,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på \\(0\\le x\\le1\\)? Den ger ytterradien och den andra innerradien.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67049,7 +67049,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67080,7 +67080,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkel med radien \\(f(x)\\). Vilken area har en sådan cirkel?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -67112,7 +67112,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Bestäm skärningspunkten numeriskt. Tvärsnitten är brickor med radierna \\(e^{-x}\\) och \\(0{,}2x\\). Integralen beräknas numeriskt.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67143,7 +67143,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Här är \\(y^2=x^4\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67174,7 +67174,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vid rotation kring y-axeln är skivans radie \\(x=\\sqrt y\\). Volymen är \\(\\pi\\int_0^4x^2\\,dy\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67205,7 +67205,7 @@ window.BANKMATO2 = [
     "rättSvar": 2,
     "tolerans": 0.02,
     "självrättning": true,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Beräkna volymen uttryckt i a och sätt den lika med \\(32\\pi\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -67237,7 +67237,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Kurvorna skär varandra vid \\(x=0\\) och \\(x=4\\). Vilken kurva ligger överst? Den ger ytterradien.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67268,7 +67268,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\). Vilken kropp bildas?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67299,7 +67299,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vilken kurva ligger överst på \\(0\\le x\\le4\\)? Den ger ytterradien och den andra innerradien.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67330,7 +67330,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en bricka. Vilken area har en cirkelring med ytterradien f och innerradien g?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -67362,7 +67362,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Varje tvärsnitt är en cirkelskiva med radien \\(y\\). Volymen är \\(\\pi\\int_a^by^2\\,dx\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67393,7 +67393,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "skivmetoden__rotationsvolymer",
-    "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
+    "ledtrad": "<p>Vid rotation kring y-axeln är skivans radie \\(x=y/2\\). Volymen är \\(\\pi\\int_0^6x^2\\,dy\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -67942,7 +67942,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>I b) är faktorerna varandras konjugat. I c) kan du räkna \\((1-i)^2\\) först. I d) förlänger du med \\(1-i\\).</p>",
     "spelIntro": "<p>Beräkna och skriv på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -68039,7 +68039,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera eller subtrahera realdelarna för sig och imaginärdelarna för sig.</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -68069,7 +68069,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>\\(|z|=\\sqrt{a^2+b^2}=5\\) med \\(a=4\\). Vilka värden kan b ha?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -68165,7 +68165,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Multiplicera ut som vanliga parenteser och använd att \\(i^2=-1\\).</p>",
     "spelIntro": "<p>Multiplicera och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -68262,7 +68262,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng varje bråk med nämnarens konjugat. I d) räcker det att förlänga med i.</p>",
     "spelIntro": "<p>Dividera och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -68545,7 +68545,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Multiplicera ut som vanliga parenteser och använd att \\(i^2=-1\\). I c) förlänger du med \\(1+i\\).</p>",
     "spelIntro": "<p>Beräkna och svara på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -68628,7 +68628,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Konjugatet byter tecken på imaginärdelen. Absolutbeloppet av \\(a+bi\\) är \\(\\sqrt{a^2+b^2}\\). Jämför \\(z\\bar z\\) med \\(|z|^2\\).</p>",
     "spelIntro": "<p>Låt \\(z=-3+4i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -68711,7 +68711,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Lös ut z som i en vanlig ekvation. I c) dividerar du med \\(1+i\\) och förlänger med konjugatet.</p>",
     "spelIntro": "<p>Lös ekvationen och skriv \\(z\\) på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -68742,7 +68742,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng bråket med nämnarens konjugat, \\(1-i\\). Då blir nämnaren ett reellt tal.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -68773,7 +68773,7 @@ window.BANKMATO2 = [
     "rättSvar": "3+4i",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Lös ut z genom att subtrahera \\(2-i\\) från båda leden.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -68870,7 +68870,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Multiplicera ut som vanliga parenteser och använd att \\(i^2=-1\\).</p>",
     "spelIntro": "<p>Multiplicera och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -68953,7 +68953,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Konjugatet byter tecken på imaginärdelen. Absolutbeloppet av \\(a+bi\\) är \\(\\sqrt{a^2+b^2}\\).</p>",
     "spelIntro": "<p>För \\(z=5-12i\\), bestäm</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -69085,7 +69085,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Argumentet 45° betyder att realdelen och imaginärdelen är lika stora och positiva. Förläng med \\(2+i\\) och jämför delarna.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -69229,7 +69229,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Konjugatet byter tecken på imaginärdelen. Absolutbeloppet av \\(a+bi\\) är \\(\\sqrt{a^2+b^2}\\). För \\(1/z\\) förlänger du med \\(\\bar z\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För \\(z=-3+4i\\), bestäm</p>",
     "spelDelar": [
@@ -69378,7 +69378,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>\\(z\\bar z=a^2+b^2\\). Absolutbeloppet av \\(a+bi\\) är \\(\\sqrt{a^2+b^2}\\).</p>",
     "spelIntro": "<p>Förenkla.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -69475,7 +69475,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Multiplicera ut som vanliga parenteser och använd att \\(i^2=-1\\).</p>",
     "spelIntro": "<p>Beräkna och svara på formen \\(a+bi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -69505,7 +69505,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>\\(z+\\bar z=2a\\). Sätt in a i \\(a^2+b^2=25\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -69734,7 +69734,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera eller subtrahera realdelarna för sig och imaginärdelarna för sig.</p>",
     "spelIntro": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -69831,7 +69831,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Lös ut z som i en vanlig ekvation. I c) dividerar du och förlänger med konjugatet. I d) multiplicerar du med \\(2-i\\).</p>",
     "spelIntro": "<p>Lös ekvationen och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -69863,7 +69863,7 @@ window.BANKMATO2 = [
     "rättSvar": "5/sqrt(2)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Absolutbeloppet av en kvot är kvoten av absolutbeloppen.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -69960,7 +69960,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng varje bråk med nämnarens konjugat.</p>",
     "spelIntro": "<p>Dividera och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -70057,7 +70057,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Multiplicera ut som vanliga parenteser och använd att \\(i^2=-1\\). I d) räcker det att förlänga med i.</p>",
     "spelIntro": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -70154,7 +70154,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Multiplicera ut som vanliga parenteser och använd att \\(i^2=-1\\). I d) förlänger du med \\(1-i\\).</p>",
     "spelIntro": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -70200,7 +70200,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Konjugatet byter tecken på imaginärdelen. Absolutbeloppet av \\(a+bi\\) är \\(\\sqrt{a^2+b^2}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm talets konjugat och absolutbelopp.</p>",
     "spelDelar": [
@@ -70498,7 +70498,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Konjugatet byter tecken på imaginärdelen. Absolutbeloppet av \\(a+bi\\) är \\(\\sqrt{a^2+b^2}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm konjugat och absolutbelopp.</p>",
     "spelDelar": [
@@ -70581,7 +70581,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Konjugatet är talets spegelbild i den reella axeln. Avståndet till origo ändras inte vid en spegling.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -70778,7 +70778,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera eller subtrahera realdelarna för sig och imaginärdelarna för sig.</p>",
     "spelIntro": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -70875,7 +70875,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Multiplicera ut som vanliga parenteser och använd att \\(i^2=-1\\).</p>",
     "spelIntro": "<p>Multiplicera och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -70921,7 +70921,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Konjugatet byter tecken på imaginärdelen. Absolutbeloppet av \\(a+bi\\) är \\(\\sqrt{a^2+b^2}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm konjugatet och absolutbeloppet.</p>",
     "spelDelar": [
@@ -71070,7 +71070,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng varje bråk med nämnarens konjugat.</p>",
     "spelIntro": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -71102,7 +71102,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>\\(z+\\bar z=2a\\). Sätt in a i \\(a^2+b^2=25\\).</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -71299,7 +71299,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Lös ut z som i en vanlig ekvation, med realdel och imaginärdel för sig.</p>",
     "spelIntro": "<p>Bestäm \\(z\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -71396,7 +71396,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Dividera med talet framför z och förläng med dess konjugat.</p>",
     "spelIntro": "<p>Bestäm \\(z\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -71493,7 +71493,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Räkna \\((1+i)^2\\) först och använd resultatet för de högre potenserna.</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -71590,7 +71590,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Konjugatet är \\(3+4i\\). För \\(1/z\\) förlänger du med \\(\\bar z\\).</p>",
     "spelIntro": "<p>Låt \\(z=3-4i\\). Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -71635,7 +71635,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Två komplexa tal är lika när realdelarna är lika och imaginärdelarna är lika. I d) multiplicerar du först ut vänsterledet.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm de reella talen \\(a\\) och \\(b\\).</p>",
     "spelDelar": [
@@ -71733,7 +71733,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>I \\(a+bi\\) är a realdelen och b imaginärdelen. Absolutbeloppet är \\(\\sqrt{a^2+b^2}\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För vart och ett av talen, bestäm realdel, imaginärdel och absolutbelopp.</p>",
     "spelDelar": [
@@ -71882,7 +71882,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=2+3i\\) och \\(z_2=1-2i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -71979,7 +71979,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=4-i\\) och \\(z_2=-2+3i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -72076,7 +72076,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=-3+2i\\) och \\(z_2=5+i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -72173,7 +72173,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=1+4i\\) och \\(z_2=2-i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -72270,7 +72270,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=3+3i\\) och \\(z_2=-1+2i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -72367,7 +72367,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=5-2i\\) och \\(z_2=2+2i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -72399,7 +72399,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Skriv \\(\\bar z=a-bi\\) och multiplicera ut \\((a+bi)(a-bi)\\).</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -72496,7 +72496,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=2-5i\\) och \\(z_2=-3+i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -72593,7 +72593,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=6+i\\) och \\(z_2=1+3i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -72690,7 +72690,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=1-2i\\) och \\(z_2=3+4i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -72787,7 +72787,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=-4+i\\) och \\(z_2=2-3i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -72884,7 +72884,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=5+3i\\) och \\(z_2=-2+i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -72981,7 +72981,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=2+2i\\) och \\(z_2=4-i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -73078,7 +73078,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=-1+5i\\) och \\(z_2=3+2i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -73175,7 +73175,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=7-2i\\) och \\(z_2=1-4i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -73272,7 +73272,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=3-6i\\) och \\(z_2=-2-i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -73369,7 +73369,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Addera och subtrahera realdelar och imaginärdelar var för sig. Vid multiplikationen använder du att \\(i^2=-1\\), och konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>Låt \\(z_1=4+5i\\) och \\(z_2=2+3i\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -73400,7 +73400,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng bråket med nämnarens konjugat, \\(1-i\\). Då blir nämnaren ett reellt tal.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -73430,7 +73430,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng bråket med nämnarens konjugat, \\(2+i\\). Då blir nämnaren ett reellt tal.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -73504,7 +73504,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Sätt \\(z=a+bi\\) och \\(\\bar z=a-bi\\), multiplicera ut och samla realdel och imaginärdel.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -73535,7 +73535,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng bråket med nämnarens konjugat, \\(1+2i\\). Då blir nämnaren ett reellt tal.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -73565,7 +73565,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng bråket med nämnarens konjugat, \\(2-i\\). Då blir nämnaren ett reellt tal.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -73595,7 +73595,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng bråket med nämnarens konjugat, \\(1+i\\). Då blir nämnaren ett reellt tal.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -73625,7 +73625,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng bråket med nämnarens konjugat, \\(2-2i\\). Då blir nämnaren ett reellt tal.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -73655,7 +73655,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng bråket med nämnarens konjugat, \\(1-2i\\). Då blir nämnaren ett reellt tal.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -73685,7 +73685,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "familjNyckel": "konjugat_raknesatt__division_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Förläng bråket med nämnarens konjugat, \\(3+i\\). Då blir nämnaren ett reellt tal.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -73911,7 +73911,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__konjugat_och_absolutbelopp_av_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Konjugatet byter tecken på imaginärdelen. Absolutbeloppet av \\(a+bi\\) är \\(\\sqrt{a^2+b^2}\\).</p>",
     "spelIntro": "<p>Bestäm för \\(z=3-4i\\):</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -74008,7 +74008,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Multiplicera ut som vanliga parenteser och använd att \\(i^2=-1\\). I d) förlänger du med \\(1+i\\).</p>",
     "spelIntro": "<p>Beräkna och skriv svaret på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -74141,7 +74141,7 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "imaginara_tal__imaginara_tal_och_potenser_av_i",
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
+    "ledtrad": "<p>Potenserna av i upprepas med perioden 4: \\(i,\\,-1,\\,-i,\\,1\\). Vilken rest får 2026 vid division med 4?</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -74241,7 +74241,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>Multiplicera ut som vanliga parenteser och använd att \\(i^2=-1\\). I d) förlänger du med \\(1-i\\).</p>",
     "spelIntro": "<p>Beräkna och skriv på formen \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -74338,7 +74338,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "konjugat_raknesatt__rakna_med_komplexa_tal",
-    "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
+    "ledtrad": "<p>I c) är faktorerna varandras konjugat. I d) förlänger du med \\(1-i\\).</p>",
     "spelIntro": "<p>Beräkna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -74766,7 +74766,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(|z-z_0|=r\\) betyder att avståndet från z till punkten \\(z_0\\) är r. Vilken figur bildar alla sådana punkter?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -74815,7 +74815,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(|z-z_0|=r\\) betyder att avståndet från z till punkten \\(z_0\\) är r. Vilken figur bildar alla sådana punkter? På den reella axeln är \\(z=x\\), så lös \\((x-2)^2+1=9\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm alla komplexa tal \\(z\\) som uppfyller</p><p>\\[|z-(2+i)|=3.\\]</p><span class=\"fig\"><svg height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 420 300\" width=\"420\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"418\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"101.0\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"131.6\" x2=\"131.6\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"162.2\" x2=\"162.2\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"192.9\" x2=\"192.9\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"223.5\" x2=\"223.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"254.1\" x2=\"254.1\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"284.8\" x2=\"284.8\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"315.4\" x2=\"315.4\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"346.0\" x2=\"346.0\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"265.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"234.4\" y2=\"234.4\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"203.8\" y2=\"203.8\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"173.1\" y2=\"173.1\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"111.9\" y2=\"111.9\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"81.2\" y2=\"81.2\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"50.6\" y2=\"50.6\"></line>\n<line stroke=\"#E8EEF0\" x1=\"101.0\" x2=\"346.0\" y1=\"20.0\" y2=\"20.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"101.0\" x2=\"346.0\" y1=\"173.1\" y2=\"173.1\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"162.2\" x2=\"162.2\" y1=\"20.0\" y2=\"265.0\"></line>\n<circle cx=\"223.5\" cy=\"142.5\" fill=\"none\" r=\"91.9\" stroke=\"#B43123\" stroke-width=\"2\"></circle>\n<circle cx=\"223.5\" cy=\"142.5\" fill=\"#B43123\" r=\"4.5\"></circle>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"230.5\" y=\"135.5\">2+i</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"343.0\" y=\"166.1\">Re</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"169.2\" y=\"32.0\">Im</text>\n</svg></span>",
     "spelDelar": [
@@ -74882,7 +74882,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt \\(z=x+iy\\), skriv båda absolutbeloppen med Pythagoras sats och kvadrera båda leden. Kvadratkomplettera sedan.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -74916,7 +74916,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(|z-z_0|=r\\) betyder att avståndet från z till punkten \\(z_0\\) är r. Vilken figur bildar alla sådana punkter? På den reella axeln är imaginärdelen 0.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -74951,7 +74951,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt \\(z=x+iy\\), skriv båda absolutbeloppen med Pythagoras sats och kvadrera båda leden. Kvadratkomplettera sedan.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -74984,7 +74984,7 @@ window.BANKMATO2 = [
     "rättSvar": "sqrt(13)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Avståndet till origo är \\(|z|=\\sqrt{a^2+b^2}\\).</p>",
     "svarFormat": "uttryck",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -75020,7 +75020,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "komplexa_vektorer__komplexa_tal_som_punkter_och_vektorer",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Addera realdelarna och imaginärdelarna var för sig. Absolutbeloppet är avståndet till origo.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -75062,7 +75062,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt in hörnen ett i taget. Multiplikation med \\(1+i\\) vrider \\(45^\\circ\\) och förstorar med faktorn \\(|1+i|=\\sqrt2\\). Därefter flyttas allt två steg åt vänster.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Varje komplext tal räknas om med regeln</p><p>\\[w=(1+i)z-2.\\]</p><p>Triangelns hörn är \\(z_1=0\\), \\(z_2=2\\) och \\(z_3=2i\\).</p><span class=\"fig\"><svg height=\"320\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 450 320\" width=\"450\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"318\" rx=\"10\" stroke=\"#E4E3E6\" width=\"448\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" x1=\"61.8\" x2=\"61.8\" y1=\"20.0\" y2=\"285.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"106.0\" x2=\"106.0\" y1=\"20.0\" y2=\"285.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"150.2\" x2=\"150.2\" y1=\"20.0\" y2=\"285.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"194.3\" x2=\"194.3\" y1=\"20.0\" y2=\"285.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"238.5\" x2=\"238.5\" y1=\"20.0\" y2=\"285.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"282.7\" x2=\"282.7\" y1=\"20.0\" y2=\"285.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"326.8\" x2=\"326.8\" y1=\"20.0\" y2=\"285.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"371.0\" x2=\"371.0\" y1=\"20.0\" y2=\"285.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"415.2\" x2=\"415.2\" y1=\"20.0\" y2=\"285.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.8\" x2=\"415.2\" y1=\"285.0\" y2=\"285.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.8\" x2=\"415.2\" y1=\"240.8\" y2=\"240.8\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.8\" x2=\"415.2\" y1=\"196.7\" y2=\"196.7\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.8\" x2=\"415.2\" y1=\"152.5\" y2=\"152.5\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.8\" x2=\"415.2\" y1=\"108.3\" y2=\"108.3\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.8\" x2=\"415.2\" y1=\"64.2\" y2=\"64.2\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.8\" x2=\"415.2\" y1=\"20.0\" y2=\"20.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"61.8\" x2=\"415.2\" y1=\"196.7\" y2=\"196.7\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"282.7\" x2=\"282.7\" y1=\"20.0\" y2=\"285.0\"></line>\n<line stroke=\"#7B858A\" stroke-width=\"2\" x1=\"282.7\" x2=\"371.0\" y1=\"196.7\" y2=\"196.7\"></line>\n<line stroke=\"#7B858A\" stroke-width=\"2\" x1=\"371.0\" x2=\"282.7\" y1=\"196.7\" y2=\"108.3\"></line>\n<line stroke=\"#7B858A\" stroke-width=\"2\" x1=\"282.7\" x2=\"282.7\" y1=\"108.3\" y2=\"196.7\"></line>\n<line stroke=\"#B43123\" stroke-width=\"2\" x1=\"194.3\" x2=\"282.7\" y1=\"196.7\" y2=\"108.3\"></line>\n<line stroke=\"#B43123\" stroke-width=\"2\" x1=\"282.7\" x2=\"106.0\" y1=\"108.3\" y2=\"108.3\"></line>\n<line stroke=\"#B43123\" stroke-width=\"2\" x1=\"106.0\" x2=\"194.3\" y1=\"108.3\" y2=\"196.7\"></line>\n<circle cx=\"282.7\" cy=\"196.7\" fill=\"#2B2527\" r=\"4.5\"></circle>\n<circle cx=\"371.0\" cy=\"196.7\" fill=\"#2B2527\" r=\"4.5\"></circle>\n<circle cx=\"282.7\" cy=\"108.3\" fill=\"#B43123\" r=\"4.5\"></circle>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"289.7\" y=\"101.3\">z₃ = w₂</text>\n<circle cx=\"194.3\" cy=\"196.7\" fill=\"#B43123\" r=\"4.5\"></circle>\n<circle cx=\"106.0\" cy=\"108.3\" fill=\"#B43123\" r=\"4.5\"></circle>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"113.0\" y=\"101.3\">w₃</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"412.2\" y=\"189.7\">Re</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"289.7\" y=\"32.0\">Im</text>\n<text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"201.3\" y=\"189.7\">w₁</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"201.3\" y=\"189.7\">w₁</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"289.7\" y=\"189.7\">z₁</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"289.7\" y=\"189.7\">z₁</text><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.6\" x=\"378.0\" y=\"189.7\">z₂</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"378.0\" y=\"189.7\">z₂</text></svg></span>",
     "spelDelar": [
@@ -75121,7 +75121,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Skriv \\(z=x+0{,}5xi\\) och sätt in i cirkelns ekvation \\((x-1)^2+(y-1)^2=4\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -75186,7 +75186,7 @@ window.BANKMATO2 = [
       "uttryck"
     ],
     "familjNyckel": "komplexa_vektorer__komplexa_tal_som_punkter_och_vektorer",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Realdelen är x-koordinaten och imaginärdelen y-koordinaten. Konjugatet är spegelbilden i den reella axeln.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
@@ -75255,7 +75255,7 @@ window.BANKMATO2 = [
     "rättSvar": "2+i",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Vid spegling i realaxeln byter imaginärdelen tecken.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -75291,7 +75291,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Läs av \\(z_1\\) och \\(z_2\\) i figuren. Argumentet är vinkeln från positiva reella axeln till punkten.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -75326,7 +75326,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Läs av \\(z_1\\) och \\(z_2\\) i figuren. Argumentet är vinkeln från positiva reella axeln till punkten.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -75371,7 +75371,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt in hörnen ett i taget. Multiplikation med \\(1+i\\) vrider \\(45^\\circ\\) och förstorar med faktorn \\(|1+i|=\\sqrt2\\). Därefter flyttas allt med \\(2-i\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Varje komplext tal \\(z\\) förändras enligt</p><p>\\[T(z)=(1+i)z+(2-i)\\]</p><p>Triangeln i det komplexa talplanet har hörn \\(0,2,2i\\).</p><span class=\"fig\"><svg aria-label=\"Triangel i komplext talplan före och efter förändringen T av z lika med ett plus i gånger z plus två minus i\" height=\"285\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 520 285\" width=\"520\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"283\" rx=\"10\" stroke=\"#E4E3E6\" width=\"518\" x=\"1\" y=\"1\"></rect><text font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"125\" y=\"28\">före</text><line stroke=\"#2B2527\" x1=\"30\" x2=\"220\" y1=\"150\" y2=\"150\"></line><line stroke=\"#2B2527\" x1=\"100\" x2=\"100\" y1=\"245\" y2=\"45\"></line><polygon fill=\"#F8E2DE\" points=\"100,150 170,150 100,80\" stroke=\"#B43123\" stroke-width=\"2\"></polygon><text font-family=\"sans-serif\" font-size=\"10\" x=\"100\" y=\"166\">0</text><text font-family=\"sans-serif\" font-size=\"10\" x=\"170\" y=\"166\">2</text><text font-family=\"sans-serif\" font-size=\"10\" x=\"88\" y=\"84\">2i</text><text font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"385\" y=\"28\">efter</text><line stroke=\"#2B2527\" x1=\"250\" x2=\"505\" y1=\"150\" y2=\"150\"></line><line stroke=\"#2B2527\" x1=\"290\" x2=\"290\" y1=\"245\" y2=\"45\"></line><polygon fill=\"#DCEFF2\" points=\"360,185 430,115 290,115\" stroke=\"#268FA3\" stroke-width=\"2\"></polygon></svg></span>",
     "spelDelar": [
@@ -75442,7 +75442,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Läs av \\(z_1\\) och \\(z_2\\) i figuren. Argumentet är vinkeln från positiva reella axeln till punkten.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -75490,7 +75490,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Multiplikation med i vrider en punkt \\(90^\\circ\\) moturs kring origo. Räkna \\(i(a+bi)=-b+ai\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Multiplikation med \\(i\\) motsvarar en rotation \\(90^\\circ\\) moturs i det komplexa talplanet.</p><p>Bestäm \\(iz\\).</p>",
     "spelDelar": [
@@ -75573,7 +75573,7 @@ window.BANKMATO2 = [
     "rättSvar": -2,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Räkna \\(i(1+2i)\\) och använd att \\(i^2=-1\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -75608,7 +75608,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "komplexa_vektorer__komplexa_tal_som_punkter_och_vektorer",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Talet \\(a+bi\\) motsvarar punkten \\((a,b)\\). Konjugatet är spegelbilden i den reella axeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -75642,7 +75642,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Punkterna ligger lika långt från två givna punkter. Vilken linje består av sådana punkter? Skär den linjen med cirkeln \\(|z|=3\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -75684,7 +75684,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt in hörnen ett i taget. Multiplikation med \\(1+i\\) vrider \\(45^\\circ\\) och förstorar med faktorn \\(|1+i|=\\sqrt2\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Triangelns hörn representerar de komplexa talen \\(z_1=1\\), \\(z_2=3\\) och \\(z_3=1+2i\\).</p><p>Varje hörn förändras enligt \\(w=(1+i)z\\).</p><span class=\"fig\"><svg aria-label=\"Triangel i det komplexa talplanet med hörnen 1, 3 och 1+2i\" height=\"340\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 340\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"338\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"73.0\" x2=\"73.0\" y1=\"30.0\" y2=\"300.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"127.0\" x2=\"127.0\" y1=\"30.0\" y2=\"300.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"181.0\" x2=\"181.0\" y1=\"30.0\" y2=\"300.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"235.0\" x2=\"235.0\" y1=\"30.0\" y2=\"300.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"289.0\" x2=\"289.0\" y1=\"30.0\" y2=\"300.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"343.0\" x2=\"343.0\" y1=\"30.0\" y2=\"300.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"397.0\" x2=\"397.0\" y1=\"30.0\" y2=\"300.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"73.0\" x2=\"397.0\" y1=\"300.0\" y2=\"300.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"73.0\" x2=\"397.0\" y1=\"246.0\" y2=\"246.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"73.0\" x2=\"397.0\" y1=\"192.0\" y2=\"192.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"73.0\" x2=\"397.0\" y1=\"138.0\" y2=\"138.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"73.0\" x2=\"397.0\" y1=\"84.0\" y2=\"84.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"73.0\" x2=\"397.0\" y1=\"30.0\" y2=\"30.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"73.0\" x2=\"397.0\" y1=\"246.0\" y2=\"246.0\"></line><path d=\"M397.0 246.0 l-8 -4 v8 z\" fill=\"#2B2527\"></path><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"127.0\" x2=\"127.0\" y1=\"300.0\" y2=\"30.0\"></line><path d=\"M127.0 30.0 l-4 8 h8 z\" fill=\"#2B2527\"></path><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"399.0\" y=\"237.0\">Re</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"136.0\" y=\"41.0\">Im</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"73.0\" x2=\"73.0\" y1=\"242.5\" y2=\"249.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"73.0\" y=\"261.0\">−1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"73.0\" y=\"261.0\">−1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"181.0\" x2=\"181.0\" y1=\"242.5\" y2=\"249.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"181.0\" y=\"261.0\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"181.0\" y=\"261.0\">1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"235.0\" x2=\"235.0\" y1=\"242.5\" y2=\"249.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"235.0\" y=\"261.0\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"235.0\" y=\"261.0\">2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"289.0\" x2=\"289.0\" y1=\"242.5\" y2=\"249.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"289.0\" y=\"261.0\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"289.0\" y=\"261.0\">3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"343.0\" x2=\"343.0\" y1=\"242.5\" y2=\"249.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"343.0\" y=\"261.0\">4</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"343.0\" y=\"261.0\">4</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"123.5\" x2=\"130.5\" y1=\"300.0\" y2=\"300.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"119.0\" y=\"303.5\">−1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"119.0\" y=\"303.5\">−1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"123.5\" x2=\"130.5\" y1=\"192.0\" y2=\"192.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"119.0\" y=\"195.5\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"119.0\" y=\"195.5\">1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"123.5\" x2=\"130.5\" y1=\"138.0\" y2=\"138.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"119.0\" y=\"141.5\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"119.0\" y=\"141.5\">2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"123.5\" x2=\"130.5\" y1=\"84.0\" y2=\"84.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"119.0\" y=\"87.5\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"119.0\" y=\"87.5\">3</text><path d=\"M 181.00,246.00 L 289.00,246.00 L 181.00,138.00 Z\" fill=\"#DCEFF2\" fill-opacity=\".7\" stroke=\"#268FA3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.4\"></path><circle cx=\"181.0\" cy=\"246.0\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"173.0\" y=\"264.0\">z₁ = 1</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"173.0\" y=\"264.0\">z₁ = 1</text><circle cx=\"289.0\" cy=\"246.0\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"297.0\" y=\"264.0\">z₂ = 3</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"297.0\" y=\"264.0\">z₂ = 3</text><circle cx=\"181.0\" cy=\"138.0\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" x=\"187.0\" y=\"126.0\">z₃ = 1 + 2i</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"187.0\" y=\"126.0\">z₃ = 1 + 2i</text></svg></span>",
     "spelDelar": [
@@ -75748,7 +75748,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
+    "ledtrad": "<p>En rotation 90° moturs kring origo motsvarar multiplikation med i.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -75789,7 +75789,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Läs av \\(z_1\\) och \\(z_2\\) i figuren. Argumentet är vinkeln från positiva reella axeln till punkten.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -75822,7 +75822,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Multiplikation med i vrider en punkt \\(90^\\circ\\) moturs kring origo. Räkna \\(i(a+bi)=-b+ai\\) för varje hörn.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -75852,7 +75852,7 @@ window.BANKMATO2 = [
     "rättSvar": 5,
     "tolerans": 0.01,
     "självrättning": true,
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Avståndet är \\(|z_2-z_1|\\).</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -75887,7 +75887,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Skriv \\(z=x+2xi\\) och sätt in i cirkelns ekvation \\((x-1)^2+(y-1)^2=5\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -75921,7 +75921,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Punkterna ligger lika långt från två givna punkter. Vilken linje består av sådana punkter?</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -75968,7 +75968,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(|z-z_0|=r\\) betyder att avståndet från z till punkten \\(z_0\\) är r. Vilken figur bildar alla sådana punkter? Sätt in \\(\\operatorname{Re}z=2\\) i cirkelns ekvation.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>De komplexa tal som uppfyller</p><p>\\[ |z-(2-i)|=3 \\]</p><p>bildar en geometrisk figur i det komplexa talplanet.</p><span class=\"fig\"><svg aria-label=\"Cirkel i det komplexa talplanet med centrum i 2 − i och radie 3, numrerade axlar\" height=\"380\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 380\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"378\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"80.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"111.0\" x2=\"111.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"142.0\" x2=\"142.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"173.0\" x2=\"173.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"204.0\" x2=\"204.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"235.0\" x2=\"235.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"266.0\" x2=\"266.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"297.0\" x2=\"297.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"328.0\" x2=\"328.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"359.0\" x2=\"359.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"390.0\" x2=\"390.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"340.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"309.0\" y2=\"309.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"278.0\" y2=\"278.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"247.0\" y2=\"247.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"216.0\" y2=\"216.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"185.0\" y2=\"185.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"154.0\" y2=\"154.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"123.0\" y2=\"123.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"92.0\" y2=\"92.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"61.0\" y2=\"61.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"30.0\" y2=\"30.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"80.0\" x2=\"390.0\" y1=\"154.0\" y2=\"154.0\"></line><path d=\"M390.0 154.0 l-8 -4 v8 z\" fill=\"#2B2527\"></path><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"173.0\" x2=\"173.0\" y1=\"340.0\" y2=\"30.0\"></line><path d=\"M173.0 30.0 l-4 8 h8 z\" fill=\"#2B2527\"></path><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"392.0\" y=\"145.0\">Re</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"182.0\" y=\"41.0\">Im</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"80.0\" x2=\"80.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"80.0\" y=\"169.0\">−3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"80.0\" y=\"169.0\">−3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"111.0\" x2=\"111.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"111.0\" y=\"169.0\">−2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"111.0\" y=\"169.0\">−2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"142.0\" x2=\"142.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"142.0\" y=\"169.0\">−1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"142.0\" y=\"169.0\">−1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"204.0\" x2=\"204.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"204.0\" y=\"169.0\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"204.0\" y=\"169.0\">1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"235.0\" x2=\"235.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"235.0\" y=\"169.0\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"235.0\" y=\"169.0\">2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"266.0\" x2=\"266.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"266.0\" y=\"169.0\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"266.0\" y=\"169.0\">3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"297.0\" x2=\"297.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"297.0\" y=\"169.0\">4</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"297.0\" y=\"169.0\">4</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"328.0\" x2=\"328.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"328.0\" y=\"169.0\">5</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"328.0\" y=\"169.0\">5</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"359.0\" x2=\"359.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"359.0\" y=\"169.0\">6</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"359.0\" y=\"169.0\">6</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"340.0\" y2=\"340.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"343.5\">−6</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"343.5\">−6</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"309.0\" y2=\"309.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"312.5\">−5</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"312.5\">−5</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"278.0\" y2=\"278.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"281.5\">−4</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"281.5\">−4</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"247.0\" y2=\"247.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"250.5\">−3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"250.5\">−3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"216.0\" y2=\"216.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"219.5\">−2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"219.5\">−2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"185.0\" y2=\"185.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"188.5\">−1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"188.5\">−1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"123.0\" y2=\"123.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"126.5\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"126.5\">1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"92.0\" y2=\"92.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"95.5\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"95.5\">2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"61.0\" y2=\"61.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"64.5\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"64.5\">3</text><circle cx=\"235.0\" cy=\"185.0\" fill=\"none\" r=\"93.0\" stroke=\"#C93A2B\" stroke-width=\"2.2\"></circle><circle cx=\"235.0\" cy=\"185.0\" fill=\"#2B2527\" r=\"4.5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" x=\"244.0\" y=\"200.0\">2 − i</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"244.0\" y=\"200.0\">2 − i</text></svg></span>",
     "spelDelar": [
@@ -76045,7 +76045,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt \\(z=x+iy\\), skriv båda absolutbeloppen med Pythagoras sats och kvadrera båda leden. Kvadratkomplettera sedan.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -76078,7 +76078,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(|z-z_0|=r\\) betyder att avståndet från z till punkten \\(z_0\\) är r. Vilken figur bildar alla sådana punkter?</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -76124,7 +76124,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "komplexa_vektorer__komplexa_tal_som_punkter_och_vektorer",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Konjugatet är spegelbilden i den reella axeln. Multiplikation med i vrider en punkt \\(90^\\circ\\) moturs kring origo.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Det komplexa talet \\(z=2+3i\\) visas i talplanet tillsammans med två relaterade tal.</p><span class=\"fig\"><svg aria-label=\"Komplext talplan med lika skala på axlarna\" height=\"330\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 420 330\" width=\"420\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"328\" rx=\"10\" stroke=\"#E4E3E6\" width=\"418\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"85.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"285.0\" y2=\"285.0\"></line><line stroke=\"#E8ECEF\" x1=\"110.0\" x2=\"110.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"260.0\" y2=\"260.0\"></line><line stroke=\"#E8ECEF\" x1=\"135.0\" x2=\"135.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"235.0\" y2=\"235.0\"></line><line stroke=\"#E8ECEF\" x1=\"160.0\" x2=\"160.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"210.0\" y2=\"210.0\"></line><line stroke=\"#E8ECEF\" x1=\"185.0\" x2=\"185.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"185.0\" y2=\"185.0\"></line><line stroke=\"#E8ECEF\" x1=\"210.0\" x2=\"210.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"160.0\" y2=\"160.0\"></line><line stroke=\"#E8ECEF\" x1=\"235.0\" x2=\"235.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"135.0\" y2=\"135.0\"></line><line stroke=\"#E8ECEF\" x1=\"260.0\" x2=\"260.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"110.0\" y2=\"110.0\"></line><line stroke=\"#E8ECEF\" x1=\"285.0\" x2=\"285.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"85.0\" y2=\"85.0\"></line><line stroke=\"#E8ECEF\" x1=\"310.0\" x2=\"310.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"60.0\" y2=\"60.0\"></line><line stroke=\"#E8ECEF\" x1=\"335.0\" x2=\"335.0\" y1=\"35\" y2=\"285\"></line><line stroke=\"#E8ECEF\" x1=\"85.0\" x2=\"335.0\" y1=\"35.0\" y2=\"35.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"85.0\" x2=\"335.0\" y1=\"160.0\" y2=\"160.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"210.0\" x2=\"210.0\" y1=\"35\" y2=\"285\"></line><circle cx=\"260.0\" cy=\"85.0\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" x=\"267.0\" y=\"78.0\">z</text><circle cx=\"260.0\" cy=\"235.0\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" x=\"267.0\" y=\"252.0\">konj z</text><circle cx=\"135.0\" cy=\"110.0\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" x=\"142.0\" y=\"103.0\">iz</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"332.0\" y=\"152.0\">Re</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"218.0\" y=\"47\">Im</text></svg></span>",
     "spelDelar": [
@@ -76208,7 +76208,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt in hörnen ett i taget. Multiplikation med \\(1+i\\) vrider \\(45^\\circ\\) och förstorar med faktorn \\(|1+i|=\\sqrt2\\). Därefter flyttas allt två steg åt vänster. Arean förstoras med faktorn \\(|1+i|^2\\).</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Triangeln i det komplexa talplanet har hörnen</p><p>\\[z_1=0,\\qquad z_2=2,\\qquad z_3=1+2i.\\]</p><p>Varje punkt avbildas enligt</p><p>\\[w=(1+i)z-2.\\]</p>",
     "spelDelar": [
@@ -76278,7 +76278,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "komplexa_vektorer__komplexa_tal_som_punkter_och_vektorer",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sidlängderna är avstånden \\(|z_2-z_1|\\), \\(|z_3-z_2|\\) och \\(|z_3-z_1|\\). Arean kan du räkna med bas och höjd.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Tre punkter i det komplexa talplanet motsvarar</p><p>\\(z_1=1+i\\), \\(z_2=5+i\\) och \\(z_3=3+4i\\).</p><span class=\"fig\"><svg aria-label=\"Triangel i det komplexa talplanet med hörnen 1+i, 5+i och 3+4i\" height=\"360\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 360\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"358\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"65.8\" x2=\"65.8\" y1=\"30.0\" y2=\"320.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"114.2\" x2=\"114.2\" y1=\"30.0\" y2=\"320.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"162.5\" x2=\"162.5\" y1=\"30.0\" y2=\"320.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"210.8\" x2=\"210.8\" y1=\"30.0\" y2=\"320.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"259.2\" x2=\"259.2\" y1=\"30.0\" y2=\"320.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"307.5\" x2=\"307.5\" y1=\"30.0\" y2=\"320.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"355.8\" x2=\"355.8\" y1=\"30.0\" y2=\"320.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"404.2\" x2=\"404.2\" y1=\"30.0\" y2=\"320.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"65.8\" x2=\"404.2\" y1=\"320.0\" y2=\"320.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"65.8\" x2=\"404.2\" y1=\"271.7\" y2=\"271.7\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"65.8\" x2=\"404.2\" y1=\"223.3\" y2=\"223.3\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"65.8\" x2=\"404.2\" y1=\"175.0\" y2=\"175.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"65.8\" x2=\"404.2\" y1=\"126.7\" y2=\"126.7\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"65.8\" x2=\"404.2\" y1=\"78.3\" y2=\"78.3\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"65.8\" x2=\"404.2\" y1=\"30.0\" y2=\"30.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"65.8\" x2=\"404.2\" y1=\"271.7\" y2=\"271.7\"></line><path d=\"M404.2 271.7 l-8 -4 v8 z\" fill=\"#2B2527\"></path><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"114.2\" x2=\"114.2\" y1=\"320.0\" y2=\"30.0\"></line><path d=\"M114.2 30.0 l-4 8 h8 z\" fill=\"#2B2527\"></path><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"406.2\" y=\"262.7\">Re</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"123.2\" y=\"41.0\">Im</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"65.8\" x2=\"65.8\" y1=\"268.2\" y2=\"275.2\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"65.8\" y=\"286.7\">−1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"65.8\" y=\"286.7\">−1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"162.5\" x2=\"162.5\" y1=\"268.2\" y2=\"275.2\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"162.5\" y=\"286.7\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"162.5\" y=\"286.7\">1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"210.8\" x2=\"210.8\" y1=\"268.2\" y2=\"275.2\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"210.8\" y=\"286.7\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"210.8\" y=\"286.7\">2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"259.2\" x2=\"259.2\" y1=\"268.2\" y2=\"275.2\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"259.2\" y=\"286.7\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"259.2\" y=\"286.7\">3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"307.5\" x2=\"307.5\" y1=\"268.2\" y2=\"275.2\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"307.5\" y=\"286.7\">4</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"307.5\" y=\"286.7\">4</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"355.8\" x2=\"355.8\" y1=\"268.2\" y2=\"275.2\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"355.8\" y=\"286.7\">5</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"355.8\" y=\"286.7\">5</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"110.7\" x2=\"117.7\" y1=\"320.0\" y2=\"320.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"106.2\" y=\"323.5\">−1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"106.2\" y=\"323.5\">−1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"110.7\" x2=\"117.7\" y1=\"223.3\" y2=\"223.3\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"106.2\" y=\"226.8\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"106.2\" y=\"226.8\">1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"110.7\" x2=\"117.7\" y1=\"175.0\" y2=\"175.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"106.2\" y=\"178.5\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"106.2\" y=\"178.5\">2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"110.7\" x2=\"117.7\" y1=\"126.7\" y2=\"126.7\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"106.2\" y=\"130.2\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"106.2\" y=\"130.2\">3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"110.7\" x2=\"117.7\" y1=\"78.3\" y2=\"78.3\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"106.2\" y=\"81.8\">4</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"106.2\" y=\"81.8\">4</text><path d=\"M 162.50,223.33 L 355.83,223.33 L 259.17,78.33 Z\" fill=\"#DCEFF2\" fill-opacity=\".7\" stroke=\"#268FA3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.4\"></path><circle cx=\"162.5\" cy=\"223.3\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"152.5\" y=\"239.3\">z₁</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"152.5\" y=\"239.3\">z₁</text><circle cx=\"355.8\" cy=\"223.3\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"365.8\" y=\"239.3\">z₂</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"365.8\" y=\"239.3\">z₂</text><circle cx=\"259.2\" cy=\"78.3\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"259.2\" y=\"66.3\">z₃</text><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"259.2\" y=\"66.3\">z₃</text></svg></span>",
     "spelDelar": [
@@ -76341,7 +76341,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(\\arg(z-1)=\\pi/4\\) betyder att z ligger på en stråle från 1 med lutningen 1. Skriv \\(z=1+t+ti\\) med \\(t>0\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -76376,7 +76376,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Läs av \\(z_1\\) och \\(z_2\\) i figuren. Argumentet är vinkeln från positiva reella axeln till punkten.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -76409,7 +76409,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt \\(z=x\\) och lös \\((x-1)^2+1=5\\).</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -76510,7 +76510,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Talet \\(a+bi\\) motsvarar punkten \\((a,b)\\).</p>",
     "spelIntro": "<p>Ange koordinaterna \\((a,b)\\) i det komplexa talplanet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -76594,7 +76594,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "komplexa_vektorer__komplexa_tal_som_punkter_och_vektorer",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Punkten \\((a,b)\\) motsvarar talet \\(a+bi\\). Absolutbeloppet är avståndet till origo.</p>",
     "spelIntro": "<p>I det komplexa talplanet motsvarar \\(z\\) punkten \\((-3,4)\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -76629,7 +76629,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Punkterna ligger lika långt från två givna punkter. Vilken linje består av sådana punkter?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -76662,7 +76662,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Punkten \\((a,b)\\) motsvarar talet \\(a+bi\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -76697,7 +76697,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
+    "ledtrad": "<p>Multiplicera beloppen och behåll argumentet \\(-\\pi/3\\). Skriv sedan om med cosinus och sinus.</p>",
     "svarFormat": [
       "uttryck",
       "uttryck"
@@ -76736,7 +76736,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Skriv \\(2i\\) med belopp och argument. Beloppet ger en förstoring och argumentet en vridning.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -76768,7 +76768,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Punkterna ligger lika långt från två givna punkter. Vilken linje består av sådana punkter? Skär den linjen med cirkeln \\(|z|=4\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -76802,7 +76802,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(|z-z_0|=r\\) betyder att avståndet från z till punkten \\(z_0\\) är r. Vilken figur bildar alla sådana punkter?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -76835,7 +76835,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt \\(z=x+iy\\). Då är \\(\\operatorname{Im}(z+2i)=y+2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -76877,7 +76877,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Multiplikation med i vrider en punkt \\(90^\\circ\\) moturs kring origo.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ett komplext tal förändras enligt \\(T(z)=iz\\).</p>",
     "spelDelar": [
@@ -76939,7 +76939,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(|z-z_0|=r\\) betyder att avståndet från z till punkten \\(z_0\\) är r. Vilken figur bildar alla sådana punkter?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -76973,7 +76973,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(|z-1|\\le2\\) är en cirkelskiva. Beräkna avståndet från \\(2+2i\\) till 1 och jämför med radien.</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -77009,7 +77009,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt \\(z=x+iy\\), skriv båda absolutbeloppen med Pythagoras sats och kvadrera båda leden. Kvadratkomplettera sedan.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -77043,7 +77043,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(\\operatorname{Re}z=2\\) betyder att x-koordinaten är 2 medan y kan vara vad som helst.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -77077,7 +77077,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Skriv \\(|z+2-i|\\) som \\(|z-(-2+i)|\\). Olikheten beskriver punkter som ligger närmare än 3 från en punkt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -77111,7 +77111,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Skriv båda cirklarnas ekvationer med x och y och subtrahera dem. Då får du en rät linje som du skär med en av cirklarna.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -77145,7 +77145,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Läs av cirkelns medelpunkt och radie i figuren och skriv \\(|z-z_0|=r\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -77179,7 +77179,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(\\operatorname{Re}z=3\\) ger \\(z=3+yi\\). Sätt in i \\(|z|=5\\).</p>",
     "spel": false,
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -77269,7 +77269,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "komplexa_vektorer__komplexa_tal_som_punkter_och_vektorer",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Sätt in hörnen ett i taget. Multiplikation med \\(1+i\\) vrider \\(45^\\circ\\) och förstorar med faktorn \\(|1+i|=\\sqrt2\\). Därefter flyttas allt två steg åt höger.</p>",
     "spelIntro": "<p>För varje komplext tal \\(z\\) bildas ett nytt tal</p><p>\\[w=(1+i)z+2.\\]</p><p>Tre punkter i det komplexa talplanet motsvarar \\(z=0\\), \\(z=2\\) och \\(z=2i\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -77304,7 +77304,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Punkterna ligger lika långt från två givna punkter. Vilken linje består av sådana punkter?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -77338,7 +77338,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Skriv \\(z=x+(x-1)i\\) och sätt in i cirkelns ekvation \\((x-1)^2+y^2=4\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -77372,7 +77372,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>\\(|z+3|\\) är avståndet från z till −3. Vilken punkt på cirkeln \\(|z|=2\\) ligger längst från −3?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -77406,7 +77406,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Punkterna ligger lika långt från två givna punkter. Vilken linje består av sådana punkter? Sätt \\(|z-2|=|z-2i|\\) och kvadrera.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -77507,7 +77507,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "avlasa_rita__ortslinjer_och_omraden_i_komplexa_talplanet",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Realdelen är x-koordinaten och imaginärdelen y-koordinaten. Konjugatet byter tecken på imaginärdelen.</p>",
     "spelIntro": "<p>För \\(z=-4+3i\\), bestäm</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -77543,7 +77543,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "komplexa_vektorer__komplexa_tal_som_punkter_och_vektorer",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Hörnen ligger lika långt från centrum och vrids \\(90^\\circ\\) i taget. Vrid vektorn från 1 till \\(1+i\\) med multiplikation med i.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -77577,7 +77577,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Räkna \\(-i(2+3i)\\) och använd att \\(i^2=-1\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -77607,7 +77607,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "grader",
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "ledtrad": "<p>Vilket argument har talet i?</p>",
     "svarEnhet": "°",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -77643,7 +77643,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "mult_div_polar__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
+    "ledtrad": "<p>Lös ut z genom att dividera med \\(1+i\\). Förläng bråket med konjugatet \\(1-i\\).</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -78064,7 +78064,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Vid multiplikation multipliceras beloppen och argumenten adderas. Vid division delas beloppen och argumenten subtraheras.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>De komplexa talen är</p><p>\\[ z_1=2(\\cos30^\\circ+i\\sin30^\\circ) \\]</p><p>och</p><p>\\[ z_2=3(\\cos(-45^\\circ)+i\\sin(-45^\\circ)). \\]</p><p>Bestäm i polär form</p>",
     "spelDelar": [
@@ -78138,7 +78138,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Vid multiplikation multipliceras beloppen och argumenten adderas. Vid division delas beloppen och argumenten subtraheras.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beräkna i polär form.</p>",
     "spelDelar": [
@@ -78307,7 +78307,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Vid multiplikation multipliceras beloppen och argumenten adderas. Vid division delas beloppen och argumenten subtraheras.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -78695,7 +78695,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Vid multiplikation multipliceras beloppen och argumenten adderas. Vid division delas beloppen och argumenten subtraheras. Omvandla till rektangulär form med exakta värden på cosinus och sinus.</p>",
     "spelIntro": "<p>De komplexa talen är</p><p>\\[z_1=3\\left(\\cos\\frac\\pi6+i\\sin\\frac\\pi6\\right),\\qquad z_2=2\\left(\\cos\\frac\\pi3+i\\sin\\frac\\pi3\\right).\\]</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -79185,7 +79185,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Vid multiplikation multipliceras beloppen och argumenten adderas. Vid division delas beloppen och argumenten subtraheras.</p>",
     "spelIntro": "<p>Beräkna i polär form.</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -79329,7 +79329,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Vid multiplikation multipliceras beloppen och argumenten adderas. Vid division delas beloppen och argumenten subtraheras.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -79926,7 +79926,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Vid multiplikation multipliceras beloppen och argumenten adderas. Vid division delas beloppen och argumenten subtraheras. Vid en potens upphöjs beloppet och argumentet multipliceras.</p>",
     "spelIntro": "<p>Beräkna i polär form.</p><p>\\[z_1=4e^{i\\pi/6},\\qquad z_2=2e^{i\\pi/3}.\\]</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
@@ -80646,7 +80646,7 @@ window.BANKMATO2 = [
     "rättSvar": "6*e^(-i*pi/12)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Multiplicera beloppen och addera exponenterna.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -80688,7 +80688,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Multiplicera beloppen och addera argumenten.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beräkna i polär form.</p>",
     "spelDelar": [
@@ -80771,7 +80771,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Dela beloppen och subtrahera argumenten.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beräkna i polär form.</p>",
     "spelDelar": [
@@ -81664,7 +81664,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Multiplicera beloppen och addera argumenten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81693,7 +81693,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Dela beloppen och subtrahera argumenten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81722,7 +81722,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Multiplicera beloppen och addera exponenterna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81753,7 +81753,7 @@ window.BANKMATO2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Att argumenten skiljer sig med \\(\\pi\\) betyder att talen pekar åt motsatta håll från origo.</p>",
     "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -81813,7 +81813,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Dela beloppen och subtrahera exponenterna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81842,7 +81842,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Multiplicera beloppen och addera argumenten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81871,7 +81871,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Dela beloppen och subtrahera exponenterna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -81930,7 +81930,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Multiplicera beloppen och addera exponenterna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -82153,7 +82153,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Vid multiplikation multipliceras beloppen och argumenten adderas. Vid division delas beloppen och argumenten subtraheras.</p>",
     "spelIntro": "<p>Beräkna i polär form.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
@@ -82377,7 +82377,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "mult_div_polar__multiplikation_och_division_i_polar_form",
-    "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
+    "ledtrad": "<p>Dela beloppen och subtrahera argumenten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -105627,7 +105627,7 @@ window.BANKMATO2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
+    "ledtrad": "<p>Derivera och lös \\(f'(x)=0\\) i intervallet. Största och minsta värde kan också ligga i intervallets ändpunkter.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": false,
@@ -105809,7 +105809,7 @@ window.BANKMATO2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
+    "ledtrad": "<p>Derivera med produktregeln och lös \\(f'(x)=0\\). Jämför sedan med värdena i intervallets ändpunkter.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": false,
@@ -105847,7 +105847,7 @@ window.BANKMATO2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
+    "ledtrad": "<p>Derivera med produktregeln, där \\(\\sqrt{x+5}\\) deriveras med kedjeregeln. Lös \\(f'(x)=0\\) och jämför med ändpunkterna.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": false,

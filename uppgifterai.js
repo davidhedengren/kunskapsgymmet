@@ -30664,7 +30664,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax i två nivåer"
+    "familjTidigare": "Minimax i två nivåer",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.02",
@@ -30831,7 +30832,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax i tre nivåer"
+    "familjTidigare": "Minimax i tre nivåer",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.03",
@@ -31450,7 +31452,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "MIN i roten"
+    "familjTidigare": "MIN i roten",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.07",
@@ -31587,7 +31590,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Ett okänt lövvärde"
+    "familjTidigare": "Ett okänt lövvärde",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.08",
@@ -31786,7 +31790,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Ojämnt spelträd med negativa värden"
+    "familjTidigare": "Ojämnt spelträd med negativa värden",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.09",
@@ -32219,7 +32224,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Ett löv ändras"
+    "familjTidigare": "Ett löv ändras",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.12",
@@ -32382,7 +32388,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Vägen genom trädet vid bästa spel"
+    "familjTidigare": "Vägen genom trädet vid bästa spel",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.13",
@@ -34287,7 +34294,8 @@ window.BANKAI = [
       "a",
       "b"
     ],
-    "familjTidigare": "Minimax – träd att lösa"
+    "familjTidigare": "Minimax – träd att lösa",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.28",
@@ -34470,7 +34478,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax – träd att lösa"
+    "familjTidigare": "Minimax – träd att lösa",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.29",
@@ -34703,7 +34712,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax – träd att lösa"
+    "familjTidigare": "Minimax – träd att lösa",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.30",
@@ -34878,7 +34888,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax – träd att lösa"
+    "familjTidigare": "Minimax – träd att lösa",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.31",
@@ -35009,7 +35020,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax med direkt rättning"
+    "familjTidigare": "Minimax med direkt rättning",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.32",
@@ -35135,7 +35147,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax med direkt rättning"
+    "familjTidigare": "Minimax med direkt rättning",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.33",
@@ -35261,7 +35274,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax med direkt rättning"
+    "familjTidigare": "Minimax med direkt rättning",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.34",
@@ -35777,7 +35791,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax med direkt rättning"
+    "familjTidigare": "Minimax med direkt rättning",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.38",
@@ -35903,7 +35918,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax med direkt rättning"
+    "familjTidigare": "Minimax med direkt rättning",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.39",
@@ -36013,7 +36029,8 @@ window.BANKAI = [
       "a",
       "b"
     ],
-    "familjTidigare": "Lövet där spelet slutar"
+    "familjTidigare": "Lövet där spelet slutar",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.40",
@@ -36560,7 +36577,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax i teorin"
+    "familjTidigare": "Minimax i teorin",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.44",
@@ -36738,7 +36756,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Spelagentens träd"
+    "familjTidigare": "Spelagentens träd",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.45",
@@ -36870,7 +36889,8 @@ window.BANKAI = [
       "a",
       "b"
     ],
-    "familjTidigare": "Rotvärdet som garanti"
+    "familjTidigare": "Rotvärdet som garanti",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.46",
@@ -36981,7 +37001,8 @@ window.BANKAI = [
       "a",
       "b"
     ],
-    "familjTidigare": "Varför inte det högsta lövet?"
+    "familjTidigare": "Varför inte det högsta lövet?",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.47",
@@ -37112,7 +37133,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax med direkt rättning"
+    "familjTidigare": "Minimax med direkt rättning",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.48",
@@ -37238,7 +37260,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Minimax med direkt rättning"
+    "familjTidigare": "Minimax med direkt rättning",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.49",
@@ -37348,7 +37371,8 @@ window.BANKAI = [
       "a",
       "b"
     ],
-    "familjTidigare": "Vägen till lövet"
+    "familjTidigare": "Vägen till lövet",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.50",
@@ -37485,7 +37509,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Stickspelet"
+    "familjTidigare": "Stickspelet",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.51",
@@ -37621,7 +37646,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Fyra drag för MAX"
+    "familjTidigare": "Fyra drag för MAX",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.52",
@@ -37752,7 +37778,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Ett löv byter värde"
+    "familjTidigare": "Ett löv byter värde",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.53",
@@ -37884,7 +37911,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "Läs spelträdet"
+    "familjTidigare": "Läs spelträdet",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.54",
@@ -37995,7 +38023,8 @@ window.BANKAI = [
       "a",
       "b"
     ],
-    "familjTidigare": "Två lika bra drag"
+    "familjTidigare": "Två lika bra drag",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.55",
@@ -38110,7 +38139,8 @@ window.BANKAI = [
       "b",
       "c"
     ],
-    "familjTidigare": "MIN i roten, tre nivåer"
+    "familjTidigare": "MIN i roten, tre nivåer",
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.56",
@@ -39002,7 +39032,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.63",
@@ -39127,7 +39158,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.64",
@@ -39252,7 +39284,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.65",
@@ -39377,7 +39410,8 @@ window.BANKAI = [
       "a",
       "b",
       "c"
-    ]
+    ],
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.66",
@@ -41148,15 +41182,14 @@ window.BANKAI = [
     "id": "3.79",
     "kap": 3,
     "omr": "minimax",
-    "niva": "C",
-    "poang": "2/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "familj": "Tolka och resonera om minimax",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
-    "traningsniva": 3,
-    "arbetsinsats": 2,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
     "spel": true,
@@ -41164,16 +41197,14 @@ window.BANKAI = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       -1,
-      "Draget till B",
-      "Med de andra dragen kan O vinna direkt, och minimax räknar med att O spelar sitt bästa drag"
+      "Draget till B"
     ],
     "tolerans": [
       0,
-      null,
       null
     ],
-    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 188 188\" role=\"img\" aria-label=\"Luffarschack: X i övre vänstra, mellersta vänstra och nedre mittersta rutan. O i mellersta högra, nedre vänstra och nedre högra rutan. Tomma rutor: A, B och C.\" style=\"width:100%;max-width:188px;height:auto\"><title>Luffarschack: X i övre vänstra, mellersta vänstra och nedre mittersta rutan. O i mellersta högra, nedre vänstra och nedre högra rutan. Tomma rutor: A, B och C.</title><rect x=\"10\" y=\"10\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"38.0\" y=\"49\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#1d4ed8\">X</text><rect x=\"66\" y=\"10\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"94.0\" y=\"46\" text-anchor=\"middle\" font-size=\"22\" fill=\"#6b7280\">A</text><rect x=\"122\" y=\"10\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150.0\" y=\"46\" text-anchor=\"middle\" font-size=\"22\" fill=\"#6b7280\">B</text><rect x=\"10\" y=\"66\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"38.0\" y=\"105\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#1d4ed8\">X</text><rect x=\"66\" y=\"66\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"94.0\" y=\"102\" text-anchor=\"middle\" font-size=\"22\" fill=\"#6b7280\">C</text><rect x=\"122\" y=\"66\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150.0\" y=\"105\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#b91c1c\">O</text><rect x=\"10\" y=\"122\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"38.0\" y=\"161\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#b91c1c\">O</text><rect x=\"66\" y=\"122\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"94.0\" y=\"161\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#1d4ed8\">X</text><rect x=\"122\" y=\"122\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150.0\" y=\"161\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#b91c1c\">O</text></svg><p>En dator spelar luffarschack som X mot en människa som spelar O. Det är datorns tur. De tomma rutorna heter A, B och C. Datorn räknar igenom alla möjliga fortsättningar med minimax. Ett slutläge får värdet +1 om X vinner, 0 vid oavgjort och −1 om O vinner.</p><div style=\"overflow-x:auto\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 368\" role=\"img\" aria-label=\"Spelträd. Uppåtriktad triangel är MAX, nedåtriktad är MIN.\" style=\"width:100%;max-width:520px;min-width:420px;height:auto\"><title>Spelträd för de tre tomma rutorna. Roten är datorns drag, nästa nivå människans och sist datorns igen.</title><line x1=\"140.0\" y1=\"236\" x2=\"140.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"100.0\" y1=\"148\" x2=\"60.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"100.0\" y1=\"148\" x2=\"140.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"220.0\" y1=\"236\" x2=\"220.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"300.0\" y1=\"236\" x2=\"300.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"148\" x2=\"220.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"148\" x2=\"300.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"380.0\" y1=\"236\" x2=\"380.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"420.0\" y1=\"148\" x2=\"380.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"420.0\" y1=\"148\" x2=\"460.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"60\" x2=\"100.0\" y2=\"148\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"60\" x2=\"260.0\" y2=\"148\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"60\" x2=\"420.0\" y2=\"148\" stroke=\"#64748b\" stroke-width=\"1.8\"/><polygon points=\"140.0,217 162.0,252 118.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"167.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">D</text><polygon points=\"78.0,132 122.0,132 100.0,167\" fill=\"#fff0d9\" stroke=\"#b86b16\" stroke-width=\"2.5\"/><text x=\"127.0\" y=\"154\" font-size=\"17\" fill=\"#334155\">A</text><polygon points=\"220.0,217 242.0,252 198.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"247.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">E</text><polygon points=\"300.0,217 322.0,252 278.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"327.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">F</text><polygon points=\"238.0,132 282.0,132 260.0,167\" fill=\"#fff0d9\" stroke=\"#b86b16\" stroke-width=\"2.5\"/><text x=\"287.0\" y=\"154\" font-size=\"17\" fill=\"#334155\">B</text><polygon points=\"380.0,217 402.0,252 358.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"407.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">G</text><polygon points=\"398.0,132 442.0,132 420.0,167\" fill=\"#fff0d9\" stroke=\"#b86b16\" stroke-width=\"2.5\"/><text x=\"447.0\" y=\"154\" font-size=\"17\" fill=\"#334155\">C</text><polygon points=\"260.0,41 282.0,76 238.0,76\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"287.0\" y=\"66\" font-size=\"17\" fill=\"#334155\">R</text><rect x=\"42.0\" y=\"220\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"60.0\" y=\"243\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">−1</text><text x=\"60.0\" y=\"270\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L1</text><rect x=\"122.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"140.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">1</text><text x=\"140.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L2</text><rect x=\"202.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"220.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">0</text><text x=\"220.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L3</text><rect x=\"282.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"300.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">1</text><text x=\"300.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L4</text><rect x=\"362.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"380.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">0</text><text x=\"380.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L5</text><rect x=\"442.0\" y=\"220\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"460.0\" y=\"243\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">−1</text><text x=\"460.0\" y=\"270\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L6</text><polygon points=\"20,7 29,23 11,23\" fill=\"#dbf5f1\" stroke=\"#14857f\"/><text x=\"38\" y=\"22\" font-size=\"14\" fill=\"#334155\">MAX</text><polygon points=\"110,7 128,7 119,23\" fill=\"#fff0d9\" stroke=\"#b86b16\"/><text x=\"137\" y=\"22\" font-size=\"14\" fill=\"#334155\">MIN</text></svg></div><p>a) Vilket värde får noden A, alltså draget där X lägger i ruta A?</p><p>b) Vilket drag väljer datorn? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Draget till A</p><p class=\"ul-alt\"><strong>B.</strong> Draget till B</p><p class=\"ul-alt\"><strong>C.</strong> Draget till C</p><p>c) Datorn väljer ett drag som bara leder till oavgjort, värdet 0. Varför försöker den inte vinna i stället?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Efter X i A har O två val</p><p>O i B ger tre O i högra kolumnen, så O vinner: −1.</p></li><li><p class=\"facit-rubrik\">A är en MIN-nod</p><p>O väljer det sämsta för X, alltså −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdena</p><p>A = −1, B = 0, C = −1.</p></li><li><p class=\"facit-rubrik\">MAX tar högst</p><p>B har högst värde, 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Draget till B.</p><ul><li><strong>A:</strong> A har värdet −1. O kan då vinna.</li><li><strong>B:</strong> B har värdet 0. Det är det högsta, eftersom det stoppar O.</li><li><strong>C:</strong> C har värdet −1. O kan då vinna.</li></ul></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">O hotar att vinna</p><p>O har två i den högra kolumnen. Om X inte lägger i B vinner O direkt.</p></li><li><p class=\"facit-rubrik\">Minimax räknar med bästa motspel</p><p>Med A eller C kan O vinna. Bästa X kan garantera är oavgjort.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Med de andra dragen kan O vinna direkt, och minimax räknar med att O spelar sitt bästa drag.</p></div></div></div></div>",
+    "t": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 188 188\" role=\"img\" aria-label=\"Luffarschack: X i övre vänstra, mellersta vänstra och nedre mittersta rutan. O i mellersta högra, nedre vänstra och nedre högra rutan. Tomma rutor: A, B och C.\" style=\"width:100%;max-width:188px;height:auto\"><title>Luffarschack: X i övre vänstra, mellersta vänstra och nedre mittersta rutan. O i mellersta högra, nedre vänstra och nedre högra rutan. Tomma rutor: A, B och C.</title><rect x=\"10\" y=\"10\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"38.0\" y=\"49\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#1d4ed8\">X</text><rect x=\"66\" y=\"10\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"94.0\" y=\"46\" text-anchor=\"middle\" font-size=\"22\" fill=\"#6b7280\">A</text><rect x=\"122\" y=\"10\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150.0\" y=\"46\" text-anchor=\"middle\" font-size=\"22\" fill=\"#6b7280\">B</text><rect x=\"10\" y=\"66\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"38.0\" y=\"105\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#1d4ed8\">X</text><rect x=\"66\" y=\"66\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"94.0\" y=\"102\" text-anchor=\"middle\" font-size=\"22\" fill=\"#6b7280\">C</text><rect x=\"122\" y=\"66\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150.0\" y=\"105\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#b91c1c\">O</text><rect x=\"10\" y=\"122\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"38.0\" y=\"161\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#b91c1c\">O</text><rect x=\"66\" y=\"122\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"94.0\" y=\"161\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#1d4ed8\">X</text><rect x=\"122\" y=\"122\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150.0\" y=\"161\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#b91c1c\">O</text></svg><p>En dator spelar luffarschack som X mot en människa som spelar O. Det är datorns tur. De tomma rutorna heter A, B och C. Datorn räknar igenom alla möjliga fortsättningar med minimax. Ett slutläge får värdet +1 om X vinner, 0 vid oavgjort och −1 om O vinner.</p><div style=\"overflow-x:auto\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 368\" role=\"img\" aria-label=\"Spelträd. Uppåtriktad triangel är MAX, nedåtriktad är MIN.\" style=\"width:100%;max-width:520px;min-width:420px;height:auto\"><title>Spelträd för de tre tomma rutorna. Roten är datorns drag, nästa nivå människans och sist datorns igen.</title><line x1=\"140.0\" y1=\"236\" x2=\"140.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"100.0\" y1=\"148\" x2=\"60.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"100.0\" y1=\"148\" x2=\"140.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"220.0\" y1=\"236\" x2=\"220.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"300.0\" y1=\"236\" x2=\"300.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"148\" x2=\"220.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"148\" x2=\"300.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"380.0\" y1=\"236\" x2=\"380.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"420.0\" y1=\"148\" x2=\"380.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"420.0\" y1=\"148\" x2=\"460.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"60\" x2=\"100.0\" y2=\"148\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"60\" x2=\"260.0\" y2=\"148\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"60\" x2=\"420.0\" y2=\"148\" stroke=\"#64748b\" stroke-width=\"1.8\"/><polygon points=\"140.0,217 162.0,252 118.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"167.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">D</text><polygon points=\"78.0,132 122.0,132 100.0,167\" fill=\"#fff0d9\" stroke=\"#b86b16\" stroke-width=\"2.5\"/><text x=\"127.0\" y=\"154\" font-size=\"17\" fill=\"#334155\">A</text><polygon points=\"220.0,217 242.0,252 198.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"247.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">E</text><polygon points=\"300.0,217 322.0,252 278.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"327.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">F</text><polygon points=\"238.0,132 282.0,132 260.0,167\" fill=\"#fff0d9\" stroke=\"#b86b16\" stroke-width=\"2.5\"/><text x=\"287.0\" y=\"154\" font-size=\"17\" fill=\"#334155\">B</text><polygon points=\"380.0,217 402.0,252 358.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"407.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">G</text><polygon points=\"398.0,132 442.0,132 420.0,167\" fill=\"#fff0d9\" stroke=\"#b86b16\" stroke-width=\"2.5\"/><text x=\"447.0\" y=\"154\" font-size=\"17\" fill=\"#334155\">C</text><polygon points=\"260.0,41 282.0,76 238.0,76\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"287.0\" y=\"66\" font-size=\"17\" fill=\"#334155\">R</text><rect x=\"42.0\" y=\"220\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"60.0\" y=\"243\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">−1</text><text x=\"60.0\" y=\"270\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L1</text><rect x=\"122.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"140.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">1</text><text x=\"140.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L2</text><rect x=\"202.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"220.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">0</text><text x=\"220.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L3</text><rect x=\"282.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"300.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">1</text><text x=\"300.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L4</text><rect x=\"362.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"380.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">0</text><text x=\"380.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L5</text><rect x=\"442.0\" y=\"220\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"460.0\" y=\"243\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">−1</text><text x=\"460.0\" y=\"270\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L6</text><polygon points=\"20,7 29,23 11,23\" fill=\"#dbf5f1\" stroke=\"#14857f\"/><text x=\"38\" y=\"22\" font-size=\"14\" fill=\"#334155\">MAX</text><polygon points=\"110,7 128,7 119,23\" fill=\"#fff0d9\" stroke=\"#b86b16\"/><text x=\"137\" y=\"22\" font-size=\"14\" fill=\"#334155\">MIN</text></svg></div><p>a) Vilket värde får noden A, alltså draget där X lägger i ruta A?</p><p>b) Vilket drag väljer datorn? Välj ett alternativ.</p><p class=\"ul-alt\"><strong>A.</strong> Draget till A</p><p class=\"ul-alt\"><strong>B.</strong> Draget till B</p><p class=\"ul-alt\"><strong>C.</strong> Draget till C</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Efter X i A har O två val</p><p>O i B ger tre O i högra kolumnen, så O vinner: −1.</p></li><li><p class=\"facit-rubrik\">A är en MIN-nod</p><p>O väljer det sämsta för X, alltså −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värdena</p><p>A = −1, B = 0, C = −1.</p></li><li><p class=\"facit-rubrik\">MAX tar högst</p><p>B har högst värde, 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Draget till B.</p><ul><li><strong>A:</strong> A har värdet −1. O kan då vinna.</li><li><strong>B:</strong> B har värdet 0. Det är det högsta, eftersom det stoppar O.</li><li><strong>C:</strong> C har värdet −1. O kan då vinna.</li></ul></div></div></div></div>",
     "ledtrad": "<p>Minimax räknar med att motspelaren spelar sitt bästa drag.</p>",
     "spelIntro": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 188 188\" role=\"img\" aria-label=\"Luffarschack: X i övre vänstra, mellersta vänstra och nedre mittersta rutan. O i mellersta högra, nedre vänstra och nedre högra rutan. Tomma rutor: A, B och C.\" style=\"width:100%;max-width:188px;height:auto\"><title>Luffarschack: X i övre vänstra, mellersta vänstra och nedre mittersta rutan. O i mellersta högra, nedre vänstra och nedre högra rutan. Tomma rutor: A, B och C.</title><rect x=\"10\" y=\"10\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"38.0\" y=\"49\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#1d4ed8\">X</text><rect x=\"66\" y=\"10\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"94.0\" y=\"46\" text-anchor=\"middle\" font-size=\"22\" fill=\"#6b7280\">A</text><rect x=\"122\" y=\"10\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150.0\" y=\"46\" text-anchor=\"middle\" font-size=\"22\" fill=\"#6b7280\">B</text><rect x=\"10\" y=\"66\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"38.0\" y=\"105\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#1d4ed8\">X</text><rect x=\"66\" y=\"66\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"94.0\" y=\"102\" text-anchor=\"middle\" font-size=\"22\" fill=\"#6b7280\">C</text><rect x=\"122\" y=\"66\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150.0\" y=\"105\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#b91c1c\">O</text><rect x=\"10\" y=\"122\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"38.0\" y=\"161\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#b91c1c\">O</text><rect x=\"66\" y=\"122\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"94.0\" y=\"161\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#1d4ed8\">X</text><rect x=\"122\" y=\"122\" width=\"56\" height=\"56\" fill=\"#fff\" stroke=\"#334155\" stroke-width=\"2\"/><text x=\"150.0\" y=\"161\" text-anchor=\"middle\" font-size=\"32\" font-weight=\"bold\" fill=\"#b91c1c\">O</text></svg><p>En dator spelar luffarschack som X mot en människa som spelar O. Det är datorns tur. De tomma rutorna heter A, B och C. Datorn räknar igenom alla möjliga fortsättningar med minimax. Ett slutläge får värdet +1 om X vinner, 0 vid oavgjort och −1 om O vinner.</p><div style=\"overflow-x:auto\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 368\" role=\"img\" aria-label=\"Spelträd. Uppåtriktad triangel är MAX, nedåtriktad är MIN.\" style=\"width:100%;max-width:520px;min-width:420px;height:auto\"><title>Spelträd för de tre tomma rutorna. Roten är datorns drag, nästa nivå människans och sist datorns igen.</title><line x1=\"140.0\" y1=\"236\" x2=\"140.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"100.0\" y1=\"148\" x2=\"60.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"100.0\" y1=\"148\" x2=\"140.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"220.0\" y1=\"236\" x2=\"220.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"300.0\" y1=\"236\" x2=\"300.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"148\" x2=\"220.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"148\" x2=\"300.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"380.0\" y1=\"236\" x2=\"380.0\" y2=\"324\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"420.0\" y1=\"148\" x2=\"380.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"420.0\" y1=\"148\" x2=\"460.0\" y2=\"236\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"60\" x2=\"100.0\" y2=\"148\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"60\" x2=\"260.0\" y2=\"148\" stroke=\"#64748b\" stroke-width=\"1.8\"/><line x1=\"260.0\" y1=\"60\" x2=\"420.0\" y2=\"148\" stroke=\"#64748b\" stroke-width=\"1.8\"/><polygon points=\"140.0,217 162.0,252 118.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"167.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">D</text><polygon points=\"78.0,132 122.0,132 100.0,167\" fill=\"#fff0d9\" stroke=\"#b86b16\" stroke-width=\"2.5\"/><text x=\"127.0\" y=\"154\" font-size=\"17\" fill=\"#334155\">A</text><polygon points=\"220.0,217 242.0,252 198.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"247.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">E</text><polygon points=\"300.0,217 322.0,252 278.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"327.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">F</text><polygon points=\"238.0,132 282.0,132 260.0,167\" fill=\"#fff0d9\" stroke=\"#b86b16\" stroke-width=\"2.5\"/><text x=\"287.0\" y=\"154\" font-size=\"17\" fill=\"#334155\">B</text><polygon points=\"380.0,217 402.0,252 358.0,252\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"407.0\" y=\"242\" font-size=\"17\" fill=\"#334155\">G</text><polygon points=\"398.0,132 442.0,132 420.0,167\" fill=\"#fff0d9\" stroke=\"#b86b16\" stroke-width=\"2.5\"/><text x=\"447.0\" y=\"154\" font-size=\"17\" fill=\"#334155\">C</text><polygon points=\"260.0,41 282.0,76 238.0,76\" fill=\"#dbf5f1\" stroke=\"#14857f\" stroke-width=\"2.5\"/><text x=\"287.0\" y=\"66\" font-size=\"17\" fill=\"#334155\">R</text><rect x=\"42.0\" y=\"220\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"60.0\" y=\"243\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">−1</text><text x=\"60.0\" y=\"270\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L1</text><rect x=\"122.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"140.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">1</text><text x=\"140.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L2</text><rect x=\"202.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"220.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">0</text><text x=\"220.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L3</text><rect x=\"282.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"300.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">1</text><text x=\"300.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L4</text><rect x=\"362.0\" y=\"308\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"380.0\" y=\"331\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">0</text><text x=\"380.0\" y=\"358\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L5</text><rect x=\"442.0\" y=\"220\" width=\"36\" height=\"32\" rx=\"3\" fill=\"#fff\" stroke=\"#64748b\"/><text x=\"460.0\" y=\"243\" text-anchor=\"middle\" font-size=\"18\" fill=\"#111827\">−1</text><text x=\"460.0\" y=\"270\" text-anchor=\"middle\" font-size=\"12\" fill=\"#475569\">L6</text><polygon points=\"20,7 29,23 11,23\" fill=\"#dbf5f1\" stroke=\"#14857f\"/><text x=\"38\" y=\"22\" font-size=\"14\" fill=\"#334155\">MAX</text><polygon points=\"110,7 128,7 119,23\" fill=\"#fff0d9\" stroke=\"#b86b16\"/><text x=\"137\" y=\"22\" font-size=\"14\" fill=\"#334155\">MIN</text></svg></div>",
     "spelDelning": "deluppgifter",
@@ -41235,66 +41266,22 @@ window.BANKAI = [
         "svarFormat": null,
         "svarEnhet": null,
         "etikett": "b"
-      },
-      {
-        "fraga": "<p>Datorn väljer ett drag som bara leder till oavgjort, värdet 0. Varför försöker den inte vinna i stället? Välj ett alternativ.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">O hotar att vinna</p><p>O har två i den högra kolumnen. Om X inte lägger i B vinner O direkt.</p></li><li><p class=\"facit-rubrik\">Minimax räknar med bästa motspel</p><p>Med A eller C kan O vinna. Bästa X kan garantera är oavgjort.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Med de andra dragen kan O vinna direkt, och minimax räknar med att O spelar sitt bästa drag.</p><ul><li><strong>Med de andra dragen kan O vinna direkt, och minimax räknar med att O spelar sitt bästa drag:</strong> Att blockera ger 0, de andra dragen ger −1.</li><li><strong>Datorn vill hellre spela oavgjort än vinna:</strong> Minimax väljer +1 om det finns. Här finns inget drag som garanterar vinst.</li><li><strong>Datorn räknar bara ett drag framåt:</strong> Datorn räknar igenom alla fortsättningar till spelets slut.</li><li><strong>Ruta B ger flest egna möjligheter att vinna:</strong> B ger ingen egen vinst. Den stoppar O:s vinst.</li></ul></div>",
-        "ledtrad": "<p>Vad händer om datorn inte lägger i B?</p>",
-        "alternativ": [
-          {
-            "txt": "Med de andra dragen kan O vinna direkt, och minimax räknar med att O spelar sitt bästa drag",
-            "ratt": true,
-            "kommentar": "Att blockera ger 0, de andra dragen ger −1."
-          },
-          {
-            "txt": "Datorn vill hellre spela oavgjort än vinna",
-            "ratt": false,
-            "kommentar": "Minimax väljer +1 om det finns. Här finns inget drag som garanterar vinst."
-          },
-          {
-            "txt": "Datorn räknar bara ett drag framåt",
-            "ratt": false,
-            "kommentar": "Datorn räknar igenom alla fortsättningar till spelets slut."
-          },
-          {
-            "txt": "Ruta B ger flest egna möjligheter att vinna",
-            "ratt": false,
-            "kommentar": "B ger ingen egen vinst. Den stoppar O:s vinst."
-          }
-        ],
-        "visaAlternativ": true,
-        "traningsniva": 3,
-        "arbetsinsats": 1,
-        "niva": "C",
-        "poang": "0/1/0",
-        "miniräknare": true,
-        "geogebra": false,
-        "självrättning": true,
-        "spel": true,
-        "svarstyp": "alternativ",
-        "rättSvar": "Med de andra dragen kan O vinna direkt, och minimax räknar med att O spelar sitt bästa drag",
-        "tolerans": null,
-        "svarFormat": null,
-        "svarEnhet": null,
-        "etikett": "c"
       }
     ],
     "svarFormat": [
       "numeriskt",
-      null,
       null
     ],
     "svarEnhet": [
-      null,
       null,
       null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
-      "b",
-      "c"
-    ]
+      "b"
+    ],
+    "kgFristaendeDelar": true
   },
   {
     "id": "3.80",

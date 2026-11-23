@@ -4155,7 +4155,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-23-felrapporter-1345";
+const BANK_VERSION="2026-11-23-felrapporter-1431";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10205,6 +10205,9 @@ function kedjaSyskon(t){
   if(!t?.ursprungsId || !state.data) return [];
   const foralder=state.data.bank.find(x=>String(x.id)===String(t.ursprungsId));
   if(!foralder) return [];
+  /* kgFristaendeDelar:true (AI-banken, minimax, felrapport 2026-11-23): delkorten visas som egna,
+     fristående kort utan a) → b) → c) i samma kort. Varje delkort har inledningen och figuren själv. */
+  if(foralder.kgFristaendeDelar===true) return [];
   let syskon=[]; try{ syskon=expandGameTask(foralder); }catch(_){ return []; }
   return syskon.length>1 && syskon.some(x=>x.id===t.id) ? syskon : [];
 }

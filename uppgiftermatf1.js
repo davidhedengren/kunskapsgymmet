@@ -23071,15 +23071,21 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bestämma stationära punkter symboliskt",
     "poang": "2/0/0",
-    "t": "<p>Funktionen \\(f(x)=x^3-9x+4\\).</p><p>Bestäm de \\(x\\)-värden där grafen har horisontell tangent.</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=x^3-9x+4\\).</p><p>Bestäm de \\(x\\)-värden där grafen har horisontell tangent.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera funktionen</p>\\[f^{\\prime}(x)=3x^2-9\\]</li><li><p class=\"facit-rubrik\">Sätt lutningen lika med noll</p>\\[3x^2-9=0\\]\\[3x^2=9\\quad\\Rightarrow\\quad x^2=3\\]</li><li><p class=\"facit-rubrik\">Ta med både den positiva och den negativa roten</p>\\[x=-\\sqrt3\\quad\\text{eller}\\quad x=\\sqrt3\\]<p>Båda ger derivatan 3·3−9=0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-\\sqrt3\\) och \\(x=\\sqrt3\\).</p></div>",
     "id": "3.207",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "flera_svar",
-    "rättSvar": [-1.7320508075688772, 1.7320508075688772],
-    "tolerans": [1e-10, 1e-10],
+    "rättSvar": [
+      -1.7320508075688772,
+      1.7320508075688772
+    ],
+    "tolerans": [
+      1e-10,
+      1e-10
+    ],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -23087,17 +23093,21 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Vilket värde har derivatan när tangenten är horisontell? Tänk på att en kvadratekvation kan ha två lösningar.</p>",
     "traningsniva": 2,
-    "svarFormat": ["numeriskt", "numeriskt"],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
     "omrTidigare": [
       "fordjupad_analys"
     ],
     "familjTidigare": [
       "Fördjupad analys med derivata och integral"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "x",
+      "x"
     ]
-  ,
-    "svarsstruktur": "mängd"
-  ,
-    "svarEtiketter": ["x", "x"]
   },
   {
     "kap": 3,
@@ -23225,7 +23235,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bestämma stationära punkter symboliskt",
     "poang": "2/0/0",
-    "t": "<p>Funktionen \\(f(x)=x^3-12x+4\\).</p><p>Bestäm de \\(x\\)-värden där grafen har horisontell tangent.</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=x^3-12x+4\\).</p><p>Bestäm de \\(x\\)-värden där grafen har horisontell tangent.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna tangentens lutning som funktion av x</p>\\[f^{\\prime}(x)=3x^2-12\\]</li><li><p class=\"facit-rubrik\">Lös ekvationen för horisontell tangent</p>\\[3x^2-12=0\\]\\[x^2=4\\quad\\Rightarrow\\quad x=\\pm2\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\) och \\(x=2\\).</p></div>",
     "id": "3.212",
     "miniräknare": true,
@@ -23236,7 +23246,10 @@ window.BANKMATF1 = [
       -2,
       2
     ],
-    "tolerans": [0, 0],
+    "tolerans": [
+      0,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -23253,11 +23266,12 @@ window.BANKMATF1 = [
     ],
     "familjTidigare": [
       "Fördjupad analys med derivata och integral"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "x",
+      "x"
     ]
-  ,
-    "svarsstruktur": "mängd"
-  ,
-    "svarEtiketter": ["x", "x"]
   },
   {
     "kap": 3,
@@ -23809,7 +23823,8 @@ window.BANKMATF1 = [
   "omr": "repetition_derivator",
   "niva": "A",
   "poang": "0/1/2",
-  "t": "<p>Bestäm alla \\(x\\) där tangenten till kurvan \\(y=x^3-2x\\) har en lutning som är lika med funktionsvärdet.</p><p>Svara exakt eller med tre decimaler.</p>",
+  "t": "<p>Bestäm alla \\(x\\) där tangenten till kurvan \\(y=x^3-2x\\) har en lutning som är lika med funktionsvärdet.</p>",
+  "kgInstruktion": "Svara exakt eller med tre decimaler.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Översätt villkoret till en ekvation</p>\\[f(x)=x^3-2x\\]\\[f^{\\prime}(x)=3x^2-2\\]\\[3x^2-2=x^3-2x\\]\\[x^3-3x^2-2x+2=0\\]</li><li><p class=\"facit-rubrik\">Hitta en rot och faktorisera</p><p>Ett digitalt verktyg visar en rot nära −1. Insättning ger −1−3+2+2=0, så x+1 är en faktor.</p>\\[x^3-3x^2-2x+2\\]\\[=(x+1)(x^2-4x+2)\\]</li><li><p class=\"facit-rubrik\">Lös den återstående andragradsekvationen</p>\\[x^2-4x+2=0\\]\\[(x-2)^2=2\\]\\[x=2\\pm\\sqrt2\\]</li><li><p class=\"facit-rubrik\">Samla alla lösningar</p><p>Faktorn x+1 ger också x=−1. Faktoriseringen visar att inga fler reella lösningar finns.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\), \\(x=2-\\sqrt2\\approx0{,}586\\) och \\(x=2+\\sqrt2\\approx3{,}414\\).</p></div>",
   "familj": "Derivata och ekvationer med digitala verktyg",
   "formaga": [

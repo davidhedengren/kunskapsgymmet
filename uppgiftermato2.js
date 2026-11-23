@@ -14901,7 +14901,7 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För \\(f(x)=\\tan(2x)\\):</p><p>a) ange perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) ange två närliggande lodräta asymptoter kring origo<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) bestäm \\(f(\\pi/8)\\).</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\tan(2x)\\).</p><p>a) Ange perioden.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Ange två närliggande lodräta asymptoter kring origo.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(f(\\pi/8)\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\).</p></li><li><p>Lodräta asymptoter fås när vinkeln i tangensuttrycket är \\(\\pi/2+n\\pi\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\pi/2\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\].</div></li><li><p>De två närmast origo är \\(\\boxed{x=-\\pi/4}\\) och \\(\\boxed{x=\\pi/4}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(\\pi/8)=\\tan(2\\cdot\\pi/8)=\\tan(\\pi/4)=\\boxed{1}\\].</div></li></ol></div></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
@@ -14930,11 +14930,11 @@ window.BANKMATO2 = [
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
     "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där \\(2x=\\pm\\pi/2\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För \\(f(x)=\\tan(2x)\\):</p>",
+    "spelIntro": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\tan(2x)\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>ange perioden</p>",
+        "fraga": "<p>Ange perioden.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\).</p></li><li><p>Lodräta asymptoter fås när vinkeln i tangensuttrycket är \\(\\pi/2+n\\pi\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\pi/2\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -14943,7 +14943,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>ange två närliggande lodräta asymptoter kring origo</p>",
+        "fraga": "<p>Ange två närliggande lodräta asymptoter kring origo.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\).</p></li><li><p>Lodräta asymptoter fås när vinkeln i tangensuttrycket är \\(\\pi/2+n\\pi\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\].</div></li><li><p>De två närmast origo är \\(\\boxed{x=-\\pi/4}\\) och \\(\\boxed{x=\\pi/4}\\).</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -14952,7 +14952,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>bestäm \\(f(\\pi/8)\\).</p>",
+        "fraga": "<p>Bestäm \\(f(\\pi/8)\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\).</p></li><li><p>Lodräta asymptoter fås när vinkeln i tangensuttrycket är \\(\\pi/2+n\\pi\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(\\pi/8)=\\tan(2\\cdot\\pi/8)=\\tan(\\pi/4)=\\boxed{1}\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -15301,7 +15301,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För \\(y=\\tan(2x)\\), bestäm</p><p>a) perioden i radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) ett nollställe<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) de två lodräta asymptoter som ligger närmast origo<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) om funktionen är udda, jämn eller varken eller.</p>",
+    "t": "<p>Funktionen ges av \\(y=\\tan(2x)\\).</p><p>a) Bestäm perioden i radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm ett nollställe.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm de två lodräta asymptoter som ligger närmast origo.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Är funktionen udda, jämn eller varken eller?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\pi/2\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Till exempel <strong>\\(x=0\\)</strong>; generellt \\(x=n\\pi/2\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2x=\\pm\\pi/2\\Rightarrow\\)<strong>\\(x=\\pm\\pi/4\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\tan(2(-x))=-\\tan(2x)\\), alltså är funktionen <strong>udda</strong>.</p></li></ol></div></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
@@ -15353,7 +15353,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>perioden i radianer</p>",
+        "fraga": "<p>Bestäm perioden i radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\pi/2\\].</div></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -15362,7 +15362,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>ett nollställe</p>",
+        "fraga": "<p>Bestäm ett nollställe.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Till exempel \\(x=0\\) ; generellt \\(x=n\\pi/2\\).</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -15371,7 +15371,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>de två lodräta asymptoter som ligger närmast origo</p>",
+        "fraga": "<p>Bestäm de två lodräta asymptoter som ligger närmast origo.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2x=\\pm\\pi/2\\Rightarrow\\) \\(x=\\pm\\pi/4\\) .</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -15380,7 +15380,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>om funktionen är udda, jämn eller varken eller.</p>",
+        "fraga": "<p>Är funktionen udda, jämn eller varken eller?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\tan(2(-x))=-\\tan(2x)\\), alltså är funktionen udda .</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -15390,7 +15390,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
     "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där \\(2x=\\pm\\pi/2\\). En udda funktion uppfyller \\(f(-x)=-f(x)\\).</p>",
-    "spelIntro": "<p>För \\(y=\\tan(2x)\\), bestäm</p>",
+    "spelIntro": "<p>Funktionen ges av \\(y=\\tan(2x)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -15972,7 +15972,7 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Grafen visar en funktion \\(f(x)=A\\cos(kx)+B\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"450\" height=\"250\" viewBox=\"0 0 450 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"448\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"147.0\" y1=\"20\" x2=\"147.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"242.0\" y1=\"20\" x2=\"242.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"337.0\" y1=\"20\" x2=\"337.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"432.0\" y1=\"20\" x2=\"432.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"188.0\" x2=\"432\" y2=\"188.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"164.0\" x2=\"432\" y2=\"164.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"116.0\" x2=\"432\" y2=\"116.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"44.0\" x2=\"432\" y2=\"44.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"212\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"52\" y1=\"164.0\" x2=\"432\" y2=\"164.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<text x=\"52.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">0</text>\n<text x=\"147.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">π</text>\n<text x=\"242.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">2π</text>\n<text x=\"337.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">3π</text>\n<text x=\"432.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">4π</text>\n<text x=\"44\" y=\"192.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">−1</text>\n<text x=\"44\" y=\"120.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">2</text>\n<text x=\"44\" y=\"48.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">5</text>\n<path d=\"M52.0,44.0 L53.6,44.0 L55.2,44.1 L56.8,44.2 L58.3,44.4 L59.9,44.6 L61.5,44.9 L63.1,45.2 L64.7,45.6 L66.2,46.0 L67.8,46.5 L69.4,47.0 L71.0,47.5 L72.6,48.1 L74.2,48.8 L75.8,49.5 L77.3,50.2 L78.9,51.0 L80.5,51.8 L82.1,52.7 L83.7,53.6 L85.2,54.6 L86.8,55.6 L88.4,56.7 L90.0,57.8 L91.6,58.9 L93.2,60.0 L94.8,61.3 L96.3,62.5 L97.9,63.8 L99.5,65.1 L101.1,66.4 L102.7,67.8 L104.2,69.2 L105.8,70.7 L107.4,72.2 L109.0,73.7 L110.6,75.2 L112.2,76.8 L113.8,78.4 L115.3,80.0 L116.9,81.6 L118.5,83.3 L120.1,85.0 L121.7,86.7 L123.2,88.4 L124.8,90.2 L126.4,92.0 L128.0,93.8 L129.6,95.6 L131.2,97.4 L132.8,99.2 L134.3,101.0 L135.9,102.9 L137.5,104.7 L139.1,106.6 L140.7,108.5 L142.2,110.4 L143.8,112.2 L145.4,114.1 L147.0,116.0 L148.6,117.9 L150.2,119.8 L151.8,121.6 L153.3,123.5 L154.9,125.4 L156.5,127.3 L158.1,129.1 L159.7,131.0 L161.2,132.8 L162.8,134.6 L164.4,136.4 L166.0,138.2 L167.6,140.0 L169.2,141.8 L170.8,143.6 L172.3,145.3 L173.9,147.0 L175.5,148.7 L177.1,150.4 L178.7,152.0 L180.2,153.6 L181.8,155.2 L183.4,156.8 L185.0,158.3 L186.6,159.8 L188.2,161.3 L189.8,162.8 L191.3,164.2 L192.9,165.6 L194.5,166.9 L196.1,168.2 L197.7,169.5 L199.2,170.7 L200.8,172.0 L202.4,173.1 L204.0,174.2 L205.6,175.3 L207.2,176.4 L208.8,177.4 L210.3,178.4 L211.9,179.3 L213.5,180.2 L215.1,181.0 L216.7,181.8 L218.2,182.5 L219.8,183.2 L221.4,183.9 L223.0,184.5 L224.6,185.0 L226.2,185.5 L227.8,186.0 L229.3,186.4 L230.9,186.8 L232.5,187.1 L234.1,187.4 L235.7,187.6 L237.2,187.8 L238.8,187.9 L240.4,188.0 L242.0,188.0 L243.6,188.0 L245.2,187.9 L246.7,187.8 L248.3,187.6 L249.9,187.4 L251.5,187.1 L253.1,186.8 L254.7,186.4 L256.2,186.0 L257.8,185.5 L259.4,185.0 L261.0,184.5 L262.6,183.9 L264.2,183.2 L265.8,182.5 L267.3,181.8 L268.9,181.0 L270.5,180.2 L272.1,179.3 L273.7,178.4 L275.2,177.4 L276.8,176.4 L278.4,175.3 L280.0,174.2 L281.6,173.1 L283.2,172.0 L284.8,170.7 L286.3,169.5 L287.9,168.2 L289.5,166.9 L291.1,165.6 L292.7,164.2 L294.2,162.8 L295.8,161.3 L297.4,159.8 L299.0,158.3 L300.6,156.8 L302.2,155.2 L303.8,153.6 L305.3,152.0 L306.9,150.4 L308.5,148.7 L310.1,147.0 L311.7,145.3 L313.2,143.6 L314.8,141.8 L316.4,140.0 L318.0,138.2 L319.6,136.4 L321.2,134.6 L322.7,132.8 L324.3,131.0 L325.9,129.1 L327.5,127.3 L329.1,125.4 L330.7,123.5 L332.2,121.6 L333.8,119.8 L335.4,117.9 L337.0,116.0 L338.6,114.1 L340.2,112.2 L341.8,110.4 L343.3,108.5 L344.9,106.6 L346.5,104.7 L348.1,102.9 L349.7,101.0 L351.3,99.2 L352.8,97.4 L354.4,95.6 L356.0,93.8 L357.6,92.0 L359.2,90.2 L360.7,88.4 L362.3,86.7 L363.9,85.0 L365.5,83.3 L367.1,81.6 L368.7,80.0 L370.2,78.4 L371.8,76.8 L373.4,75.2 L375.0,73.7 L376.6,72.2 L378.2,70.7 L379.8,69.2 L381.3,67.8 L382.9,66.4 L384.5,65.1 L386.1,63.8 L387.7,62.5 L389.2,61.3 L390.8,60.0 L392.4,58.9 L394.0,57.8 L395.6,56.7 L397.2,55.6 L398.8,54.6 L400.3,53.6 L401.9,52.7 L403.5,51.8 L405.1,51.0 L406.7,50.2 L408.2,49.5 L409.8,48.8 L411.4,48.1 L413.0,47.5 L414.6,47.0 L416.2,46.5 L417.8,46.0 L419.3,45.6 L420.9,45.2 L422.5,44.9 L424.1,44.6 L425.7,44.4 L427.2,44.2 L428.8,44.1 L430.4,44.0 L432.0,44.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/>\n<text x=\"423\" y=\"224\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">x</text>\n</svg></span><p>a) Bestäm \\(A\\), \\(k\\) och \\(B\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm funktionens nollställen i intervallet \\(0\\le x\\le4\\pi\\). Svara med \\(\\arccos\\) eller med tre decimaler.</p>",
+    "t": "<p>Grafen visar en funktion \\(f(x)=A\\cos(kx)+B\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"450\" height=\"250\" viewBox=\"0 0 450 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"448\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"147.0\" y1=\"20\" x2=\"147.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"242.0\" y1=\"20\" x2=\"242.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"337.0\" y1=\"20\" x2=\"337.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"432.0\" y1=\"20\" x2=\"432.0\" y2=\"212\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"188.0\" x2=\"432\" y2=\"188.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"164.0\" x2=\"432\" y2=\"164.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"116.0\" x2=\"432\" y2=\"116.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52\" y1=\"44.0\" x2=\"432\" y2=\"44.0\" stroke=\"#E8EEF0\" stroke-width=\"1\"/>\n<line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"212\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"52\" y1=\"164.0\" x2=\"432\" y2=\"164.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<text x=\"52.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">0</text>\n<text x=\"147.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">π</text>\n<text x=\"242.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">2π</text>\n<text x=\"337.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">3π</text>\n<text x=\"432.0\" y=\"236\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">4π</text>\n<text x=\"44\" y=\"192.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">−1</text>\n<text x=\"44\" y=\"120.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">2</text>\n<text x=\"44\" y=\"48.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">5</text>\n<path d=\"M52.0,44.0 L53.6,44.0 L55.2,44.1 L56.8,44.2 L58.3,44.4 L59.9,44.6 L61.5,44.9 L63.1,45.2 L64.7,45.6 L66.2,46.0 L67.8,46.5 L69.4,47.0 L71.0,47.5 L72.6,48.1 L74.2,48.8 L75.8,49.5 L77.3,50.2 L78.9,51.0 L80.5,51.8 L82.1,52.7 L83.7,53.6 L85.2,54.6 L86.8,55.6 L88.4,56.7 L90.0,57.8 L91.6,58.9 L93.2,60.0 L94.8,61.3 L96.3,62.5 L97.9,63.8 L99.5,65.1 L101.1,66.4 L102.7,67.8 L104.2,69.2 L105.8,70.7 L107.4,72.2 L109.0,73.7 L110.6,75.2 L112.2,76.8 L113.8,78.4 L115.3,80.0 L116.9,81.6 L118.5,83.3 L120.1,85.0 L121.7,86.7 L123.2,88.4 L124.8,90.2 L126.4,92.0 L128.0,93.8 L129.6,95.6 L131.2,97.4 L132.8,99.2 L134.3,101.0 L135.9,102.9 L137.5,104.7 L139.1,106.6 L140.7,108.5 L142.2,110.4 L143.8,112.2 L145.4,114.1 L147.0,116.0 L148.6,117.9 L150.2,119.8 L151.8,121.6 L153.3,123.5 L154.9,125.4 L156.5,127.3 L158.1,129.1 L159.7,131.0 L161.2,132.8 L162.8,134.6 L164.4,136.4 L166.0,138.2 L167.6,140.0 L169.2,141.8 L170.8,143.6 L172.3,145.3 L173.9,147.0 L175.5,148.7 L177.1,150.4 L178.7,152.0 L180.2,153.6 L181.8,155.2 L183.4,156.8 L185.0,158.3 L186.6,159.8 L188.2,161.3 L189.8,162.8 L191.3,164.2 L192.9,165.6 L194.5,166.9 L196.1,168.2 L197.7,169.5 L199.2,170.7 L200.8,172.0 L202.4,173.1 L204.0,174.2 L205.6,175.3 L207.2,176.4 L208.8,177.4 L210.3,178.4 L211.9,179.3 L213.5,180.2 L215.1,181.0 L216.7,181.8 L218.2,182.5 L219.8,183.2 L221.4,183.9 L223.0,184.5 L224.6,185.0 L226.2,185.5 L227.8,186.0 L229.3,186.4 L230.9,186.8 L232.5,187.1 L234.1,187.4 L235.7,187.6 L237.2,187.8 L238.8,187.9 L240.4,188.0 L242.0,188.0 L243.6,188.0 L245.2,187.9 L246.7,187.8 L248.3,187.6 L249.9,187.4 L251.5,187.1 L253.1,186.8 L254.7,186.4 L256.2,186.0 L257.8,185.5 L259.4,185.0 L261.0,184.5 L262.6,183.9 L264.2,183.2 L265.8,182.5 L267.3,181.8 L268.9,181.0 L270.5,180.2 L272.1,179.3 L273.7,178.4 L275.2,177.4 L276.8,176.4 L278.4,175.3 L280.0,174.2 L281.6,173.1 L283.2,172.0 L284.8,170.7 L286.3,169.5 L287.9,168.2 L289.5,166.9 L291.1,165.6 L292.7,164.2 L294.2,162.8 L295.8,161.3 L297.4,159.8 L299.0,158.3 L300.6,156.8 L302.2,155.2 L303.8,153.6 L305.3,152.0 L306.9,150.4 L308.5,148.7 L310.1,147.0 L311.7,145.3 L313.2,143.6 L314.8,141.8 L316.4,140.0 L318.0,138.2 L319.6,136.4 L321.2,134.6 L322.7,132.8 L324.3,131.0 L325.9,129.1 L327.5,127.3 L329.1,125.4 L330.7,123.5 L332.2,121.6 L333.8,119.8 L335.4,117.9 L337.0,116.0 L338.6,114.1 L340.2,112.2 L341.8,110.4 L343.3,108.5 L344.9,106.6 L346.5,104.7 L348.1,102.9 L349.7,101.0 L351.3,99.2 L352.8,97.4 L354.4,95.6 L356.0,93.8 L357.6,92.0 L359.2,90.2 L360.7,88.4 L362.3,86.7 L363.9,85.0 L365.5,83.3 L367.1,81.6 L368.7,80.0 L370.2,78.4 L371.8,76.8 L373.4,75.2 L375.0,73.7 L376.6,72.2 L378.2,70.7 L379.8,69.2 L381.3,67.8 L382.9,66.4 L384.5,65.1 L386.1,63.8 L387.7,62.5 L389.2,61.3 L390.8,60.0 L392.4,58.9 L394.0,57.8 L395.6,56.7 L397.2,55.6 L398.8,54.6 L400.3,53.6 L401.9,52.7 L403.5,51.8 L405.1,51.0 L406.7,50.2 L408.2,49.5 L409.8,48.8 L411.4,48.1 L413.0,47.5 L414.6,47.0 L416.2,46.5 L417.8,46.0 L419.3,45.6 L420.9,45.2 L422.5,44.9 L424.1,44.6 L425.7,44.4 L427.2,44.2 L428.8,44.1 L430.4,44.0 L432.0,44.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/>\n<text x=\"423\" y=\"224\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">x</text>\n</svg></span><p>a) Bestäm \\(A\\), \\(k\\) och \\(B\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm funktionens nollställen i intervallet \\(0\\le x\\le4\\pi\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen har största värdet 5 och minsta värdet −1.</p></li><li><p>Alltså</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=\\frac{5-(-1)}2=3,\\qquad B=\\frac{5+(-1)}2=2.\\]</p></li><li><p>Avståndet mellan två toppar är \\(4\\pi\\), så perioden är \\(4\\pi\\).</p></li><li><p>Därför</p></li><li><p>\\[k=\\frac{2\\pi}{4\\pi}=\\frac12.\\]</p></li><li><p>Eftersom grafen har en topp vid \\(x=0\\) blir</p></li><li><p>\\[\\boxed{f(x)=3\\cos(x/2)+2}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nollställen fås ur</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[3\\cos(x/2)+2=0\\Rightarrow \\cos(x/2)=-\\frac23.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[\\alpha=\\arccos(-2/3)\\].</div></div></li><li><p>Då ligger \\(x/2\\) i intervallet \\(0\\le \\frac{x}{2}\\le 2\\pi\\), och lösningarna är</p></li><li><p>\\[\\frac x2=\\alpha\\quad\\text{eller}\\quad \\frac x2=2\\pi-\\alpha.\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\boxed{x=2\\alpha\\ \\text{eller}\\ x=4\\pi-2\\alpha}.\\]</p></li><li><p>Numeriskt: \\(x\\approx4{,}601\\) och \\(x\\approx7{,}965\\).</p></li></ol></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
@@ -16015,11 +16015,12 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>För denna del gäller \\(f(x)=3\\cos(x/2)+2\\). Bestäm funktionens nollställen i intervallet \\(0\\le x\\le4\\pi\\). Svara med \\(\\arccos\\) eller med tre decimaler.</p>",
+        "fraga": "<p>För denna del gäller \\(f(x)=3\\cos(x/2)+2\\). Bestäm funktionens nollställen i intervallet \\(0\\le x\\le4\\pi\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nollställen fås ur</p></li><li><p>\\[3\\cos(x/2)+2=0\\Rightarrow \\cos(x/2)=-\\frac23.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[\\alpha=\\arccos(-2/3)\\].</div></div></li><li><p>Då ligger \\(x/2\\) i intervallet \\(0\\le \\frac{x}{2}\\le 2\\pi\\), och lösningarna är</p></li><li><p>\\[\\frac x2=\\alpha\\quad\\text{eller}\\quad \\frac x2=2\\pi-\\alpha.\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\boxed{x=2\\alpha\\ \\text{eller}\\ x=4\\pi-2\\alpha}.\\]</p></li><li><p>Numeriskt: \\(x\\approx4{,}601\\) och \\(x\\approx7{,}965\\).</p></li></ol></div>",
         "niva": "C",
         "traningsniva": 4,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "kgInstruktion": "Svara med \\(\\arccos\\) eller med tre decimaler."
       }
     ],
     "svarFormat": [
@@ -16148,7 +16149,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Funktionen \\(f(x)=3\\sin(2x)-1\\). Bestäm amplitud och period. Ange perioden i radianer.</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=3\\sin(2x)-1\\). Bestäm amplitud och period. Ange perioden i radianer.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> I \\(A\\sin(Bx)+D\\) är amplituden \\(|A|\\) och perioden \\(2\\pi/|B|\\).</p></li><li><p>Här är \\(A=3\\) och \\(B=2\\), alltså amplitud 3 och period \\(\\pi\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{3,\\ \\pi}\\).</p></div>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
@@ -16574,7 +16575,7 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För funktionen \\(f(x)=\\tan(2x)\\), bestäm</p><p>a) perioden i radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) två lodräta asymptoter närmast origo.</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\tan(2x)\\).</p><p>a) Bestäm perioden i radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm två lodräta asymptoter närmast origo.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Metod:</strong> Tangens har grundperiod \\(\\pi\\).</p></li><li><p class=\"facit-metod\">För \\(\\tan(bx+c)\\) är perioden \\(\\pi/|b|\\), och asymptoter fås när argumentet är \\(\\pi/2+n\\pi\\).</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har period \\(\\pi\\).</p></li><li><p>Faktorn 2 framför \\(x\\) halverar perioden, så \\(T=\\boxed{\\pi/2}\\).</p></li><li><p>Asymptoter fås när \\(2x=\\pi/2+n\\pi\\), alltså \\(x=\\pi/4+n\\pi/2\\).</p></li><li><p>De två närmast origo är \\(\\boxed{x=-\\pi/4}\\) och \\(\\boxed{x=\\pi/4}\\).</p></li></ol></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
@@ -16594,11 +16595,11 @@ window.BANKMATO2 = [
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
     "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där \\(2x=\\pm\\pi/2\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För funktionen \\(f(x)=\\tan(2x)\\), bestäm</p>",
+    "spelIntro": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\tan(2x)\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>perioden i radianer</p>",
+        "fraga": "<p>Bestäm perioden i radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens har period \\(\\pi\\).</p></li><li><p>Faktorn 2 framför \\(x\\) halverar perioden:</p></li><li><p>\\[T=\\frac{\\pi}{2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\pi/2\\)</strong></p></div>",
         "niva": "E",
         "traningsniva": 2,
@@ -16606,7 +16607,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>två lodräta asymptoter närmast origo.</p>",
+        "fraga": "<p>Bestäm två lodräta asymptoter närmast origo.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Asymptoter för \\(\\tan(2x)\\) fås när \\(2x=\\pi/2+n\\pi\\), alltså \\(x=\\pi/4+n\\pi/2\\).</p></li><li><p>De två närmast origo är <strong>\\(x=-\\pi/4\\)</strong> och <strong>\\(x=\\pi/4\\)</strong>.</p></li></ol></div>",
         "niva": "E",
         "traningsniva": 2,
@@ -17295,7 +17296,7 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skriv en möjlig funktion av formen \\(y=A\\sin(kx)+B\\).</p><p>a) amplitud 3, period \\(2\\pi\\), medellinje \\(y=4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) amplitud 5, period \\(\\pi\\), medellinje \\(y=-1\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) amplitud 2, period \\(4\\pi\\), medellinje \\(y=0\\).</p>",
+    "t": "<p>Skriv en möjlig funktion av formen \\(y=A\\sin(kx)+B\\).</p><p>a) Funktionen ska ha amplituden 3, perioden \\(2\\pi\\) och medellinjen \\(y=4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Funktionen ska ha amplituden 5, perioden \\(\\pi\\) och medellinjen \\(y=-1\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Funktionen ska ha amplituden 2, perioden \\(4\\pi\\) och medellinjen \\(y=0\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exempel: <strong>\\(y=3\\sin x+4\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(k=2\\), exempel: <strong>\\(y=5\\sin2x-1\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(k=1/2\\), exempel: <strong>\\(y=2\\sin(x/2)\\)</strong>.</p></li></ol></div></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
@@ -17333,7 +17334,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>amplitud 3, period \\(2\\pi\\), medellinje \\(y=4\\).</p>",
+        "fraga": "<p>Funktionen ska ha amplituden 3, perioden \\(2\\pi\\) och medellinjen \\(y=4\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Exempel:</p><div class=\"facit-matte\">\\[y=3\\sin x+4\\].</div></div></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -17342,7 +17343,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>amplitud 5, period \\(\\pi\\), medellinje \\(y=-1\\).</p>",
+        "fraga": "<p>Funktionen ska ha amplituden 5, perioden \\(\\pi\\) och medellinjen \\(y=-1\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(k=2\\), exempel: \\(y=5\\sin2x-1\\) .</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -17351,7 +17352,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>amplitud 2, period \\(4\\pi\\), medellinje \\(y=0\\).</p>",
+        "fraga": "<p>Funktionen ska ha amplituden 2, perioden \\(4\\pi\\) och medellinjen \\(y=0\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(k=1/2\\), exempel: \\(y=2\\sin(x/2)\\) .</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -17704,7 +17705,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Funktionen \\(g(x)=4\\cos(\\pi x/3)+2\\). Bestäm medellinje och period.</p>",
+    "t": "<p>För funktionen \\(g\\) gäller att \\(g(x)=4\\cos(\\pi x/3)+2\\). Bestäm medellinje och period.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Konstanten utanför cosinus är medellinjen.</p></li><li><p>Perioden bestäms av hur mycket x måste öka för att argumentet ska öka med \\(2\\pi\\).</p></li><li><div class=\"facit-berakning\"><p>Medellinjen är 2 och</p><div class=\"facit-matte\">\\[(\\pi/3)T=2\\pi\\Rightarrow T=6\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{2,\\ 6}\\).</p></div>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
@@ -17989,7 +17990,7 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Funktionen \\(f(x)=\\tan(x/2)\\). Bestäm perioden i radianer.</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\tan(x/2)\\). Bestäm perioden i radianer.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Metod:</strong> Tangens har grundperiod \\(\\pi\\).</p></li><li><p class=\"facit-metod\">För \\(\\tan(bx+c)\\) är perioden \\(\\pi/|b|\\), och asymptoter fås när argumentet är \\(\\pi/2+n\\pi\\).</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens grundperiod är \\(\\pi\\).</p></li><li><p>Här byts \\(x\\) mot \\(x/2\\), så argumentet förändras bara hälften så snabbt.</p></li><li><p>Grafen sträcks därför ut horisontellt med faktor 2.</p></li><li><p>Algebraiskt:</p></li><li><p>\\[T=\\frac{\\pi}{1/2}=2\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\pi\\).</p></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
@@ -18653,7 +18654,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För funktionen \\(f(x)=3\\cos(2x-\\pi)+1\\), bestäm</p><p>a) amplituden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden i radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) största värdet<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) minsta värdet.</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=3\\cos(2x-\\pi)+1\\).</p><p>a) Bestäm amplituden.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm perioden i radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm funktionens största värde.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm funktionens minsta värde.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li><li><p>Eftersom \\(f(x)=3\\cos(2x-\\pi)+1\\) är amplituden 3 och medellinjen \\(y=1\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>3</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(T=2\\pi/2=\\)<strong>\\(\\pi\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>4</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>−2</strong>.</p></li></ol></div></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
@@ -18672,11 +18673,11 @@ window.BANKMATO2 = [
     "familjNyckel": "kurvor_radianer__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
     "ledtrad": "<p>Amplituden är faktorn framför cosinus och perioden \\(2\\pi/k\\). Största och minsta värdet får du när cosinus är 1 respektive −1.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För funktionen \\(f(x)=3\\cos(2x-\\pi)+1\\), bestäm</p>",
+    "spelIntro": "<p>För funktionen \\(f\\) gäller att \\(f(x)=3\\cos(2x-\\pi)+1\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>amplituden</p>",
+        "fraga": "<p>Bestäm amplituden.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li><li><p>Eftersom \\(f(x)=3\\cos(2x-\\pi)+1\\) är amplituden 3 och medellinjen \\(y=1\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>3</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -18685,7 +18686,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>perioden i radianer</p>",
+        "fraga": "<p>Bestäm perioden i radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li><li><p>Eftersom \\(f(x)=3\\cos(2x-\\pi)+1\\) är amplituden 3 och medellinjen \\(y=1\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T=2\\pi/2=\\)\\(\\pi\\)</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -18694,7 +18695,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>största värdet</p>",
+        "fraga": "<p>Bestäm funktionens största värde.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li><li><p>Eftersom \\(f(x)=3\\cos(2x-\\pi)+1\\) är amplituden 3 och medellinjen \\(y=1\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>4</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -18703,7 +18704,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>minsta värdet.</p>",
+        "fraga": "<p>Bestäm funktionens minsta värde.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: Läs av amplitud och medellinje direkt.</p></li><li><p>Perioden fås från faktorn framför \\(x\\).</p></li><li><p>Eftersom \\(f(x)=3\\cos(2x-\\pi)+1\\) är amplituden 3 och medellinjen \\(y=1\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>−2.</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -19202,7 +19203,7 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För funktionen \\(f(x)=2\\tan(3x)\\):</p><p>a) bestäm perioden i radianer,<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) ange två lodräta asymptoter som ligger närmast origo,<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) bestäm alla nollställen.</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=2\\tan(3x)\\).</p><p>a) Bestäm perioden i radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Ange två lodräta asymptoter som ligger närmast origo.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm alla nollställen.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\boxed{\\pi/3}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x=\\pi/2+n\\pi\\Rightarrow x=\\pi/6+n\\pi/3\\].</div></li><li><div class=\"facit-berakning\"><p>De närmaste är</p><div class=\"facit-matte\">\\[\\boxed{x=\\pm\\pi/6}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x=n\\pi\\Rightarrow\\boxed{x=n\\pi/3}\\].</div></li></ol></div></div></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
@@ -19249,7 +19250,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>bestäm perioden i radianer,</p>",
+        "fraga": "<p>Bestäm perioden i radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\boxed{\\pi/3}\\).</p></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -19258,7 +19259,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>ange två lodräta asymptoter som ligger närmast origo,</p>",
+        "fraga": "<p>Ange två lodräta asymptoter som ligger närmast origo.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x=\\pi/2+n\\pi\\Rightarrow x=\\pi/6+n\\pi/3\\].</div></li><li><div class=\"facit-berakning\"><p>De närmaste är</p><div class=\"facit-matte\">\\[\\boxed{x=\\pm\\pi/6}\\].</div></div></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -19267,7 +19268,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>bestäm alla nollställen.</p>",
+        "fraga": "<p>Bestäm alla nollställen.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(\\tan(kx)\\) är perioden \\(\\pi/|k|\\).</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x=n\\pi\\Rightarrow\\boxed{x=n\\pi/3}\\].</div></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -19277,7 +19278,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
     "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där \\(3x=\\pm\\pi/2\\) och nollställena där \\(3x=n\\pi\\).</p>",
-    "spelIntro": "<p>För funktionen \\(f(x)=2\\tan(3x)\\):</p>",
+    "spelIntro": "<p>För funktionen \\(f\\) gäller att \\(f(x)=2\\tan(3x)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -19328,7 +19329,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm.</p><p>a) perioden i radianer för \\(y=\\tan(3x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden i radianer för \\(y=\\tan(x/2)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) två lodräta asymptoter närmast origo för \\(y=\\tan x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) två lodräta asymptoter närmast origo för \\(y=\\tan(2x)\\).</p>",
+    "t": "<p>Studera tangensfunktionerna \\(y=\\tan x\\), \\(y=\\tan(2x)\\), \\(y=\\tan(3x)\\) och \\(y=\\tan(x/2)\\).</p><p>a) Bestäm perioden i radianer för \\(y=\\tan(3x)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm perioden i radianer för \\(y=\\tan(x/2)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm två lodräta asymptoter närmast origo för \\(y=\\tan x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm två lodräta asymptoter närmast origo för \\(y=\\tan(2x)\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\pi/3\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=2\\pi\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(x=-\\pi/2\\)</strong> och <strong>\\(x=\\pi/2\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\].</div></li><li><p>Närmast origo: <strong>\\(x=-\\pi/4,\\pi/4\\)</strong>.</p></li></ol></div></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
@@ -19389,7 +19390,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>perioden i radianer för \\(y=\\tan(3x)\\)</p>",
+        "fraga": "<p>Bestäm perioden i radianer för \\(y=\\tan(3x)\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\pi/3\\].</div></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -19398,7 +19399,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>perioden i radianer för \\(y=\\tan(x/2)\\)</p>",
+        "fraga": "<p>Bestäm perioden i radianer för \\(y=\\tan(x/2)\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=2\\pi\\].</div></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -19407,7 +19408,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>två lodräta asymptoter närmast origo för \\(y=\\tan x\\)</p>",
+        "fraga": "<p>Bestäm två lodräta asymptoter närmast origo för \\(y=\\tan x\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=-\\pi/2\\) och \\(x=\\pi/2\\) .</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -19416,7 +19417,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>två lodräta asymptoter närmast origo för \\(y=\\tan(2x)\\).</p>",
+        "fraga": "<p>Bestäm två lodräta asymptoter närmast origo för \\(y=\\tan(2x)\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\].</div></li><li><div class=\"facit-berakning\"><p>Närmast origo:</p><div class=\"facit-matte\">\\[x=-\\pi/4,\\pi/4\\].</div></div></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -19426,7 +19427,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "kurvor_radianer__period_och_asymptoter_for_tangensfunktioner",
     "ledtrad": "<p>Perioden för \\(\\tan(kx)\\) är \\(\\pi/k\\). Asymptoterna ligger där argumentet är \\(\\pm\\pi/2\\).</p>",
-    "spelIntro": "<p>Bestäm.</p>",
+    "spelIntro": "<p>Studera tangensfunktionerna \\(y=\\tan x\\), \\(y=\\tan(2x)\\), \\(y=\\tan(3x)\\) och \\(y=\\tan(x/2)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -19477,7 +19478,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skissa kurvan \\(y=\\sin 2x\\) i koordinatsystemet.</p><p>för \\(0\\le x\\le2\\pi\\)</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
+    "t": "<p>Skissa kurvan \\(y=\\sin 2x\\) för \\(0\\le x\\le2\\pi\\) i koordinatsystemet.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollpunkter:</strong> Perioden är \\(\\pi\\).</p></li><li><p>Nollställena är \\(0,\\pi/2,\\pi,3\\pi/2,2\\pi\\).</p></li><li><p>Maxpunkter fås vid \\(x=\\pi/4\\) och \\(5\\pi/4\\), och minpunkter vid \\(3\\pi/4\\) och \\(7\\pi/4\\).</p></li><li><p>Markera först medellinje, amplitud och period.</p></li><li><p>Placera därefter maxpunkter, minpunkter och nollställen och dra en jämn trigonometrisk kurva genom punkterna.</p></li></ol><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facit till trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text><polyline points=\"58.0,146.0 58.8,145.2 59.6,144.3 60.5,143.5 61.3,142.6 62.1,141.8 62.9,140.9 63.7,140.1 64.6,139.3 65.4,138.4 66.2,137.6 67.0,136.8 67.8,136.0 68.7,135.2 69.5,134.4 70.3,133.6 71.1,132.8 71.9,132.0 72.8,131.3 73.6,130.5 74.4,129.8 75.2,129.0 76.0,128.3 76.9,127.6 77.7,126.9 78.5,126.2 79.3,125.5 80.1,124.8 81.0,124.2 81.8,123.5 82.6,122.9 83.4,122.3 84.2,121.7 85.1,121.1 85.9,120.6 86.7,120.0 87.5,119.5 88.3,119.0 89.2,118.5 90.0,118.0 90.8,117.5 91.6,117.1 92.4,116.7 93.3,116.3 94.1,115.9 94.9,115.5 95.7,115.1 96.5,114.8 97.4,114.5 98.2,114.2 99.0,113.9 99.8,113.7 100.6,113.5 101.5,113.2 102.3,113.1 103.1,112.9 103.9,112.7 104.7,112.6 105.6,112.5 106.4,112.4 107.2,112.4 108.0,112.3 108.8,112.3 109.7,112.3 110.5,112.3 111.3,112.4 112.1,112.4 112.9,112.5 113.8,112.6 114.6,112.7 115.4,112.9 116.2,113.1 117.0,113.2 117.9,113.5 118.7,113.7 119.5,113.9 120.3,114.2 121.1,114.5 122.0,114.8 122.8,115.1 123.6,115.5 124.4,115.9 125.2,116.3 126.1,116.7 126.9,117.1 127.7,117.5 128.5,118.0 129.3,118.5 130.2,119.0 131.0,119.5 131.8,120.0 132.6,120.6 133.4,121.1 134.3,121.7 135.1,122.3 135.9,122.9 136.7,123.5 137.5,124.2 138.4,124.8 139.2,125.5 140.0,126.2 140.8,126.9 141.6,127.6 142.5,128.3 143.3,129.0 144.1,129.8 144.9,130.5 145.7,131.3 146.6,132.0 147.4,132.8 148.2,133.6 149.0,134.4 149.8,135.2 150.7,136.0 151.5,136.8 152.3,137.6 153.1,138.4 153.9,139.3 154.8,140.1 155.6,140.9 156.4,141.8 157.2,142.6 158.0,143.5 158.9,144.3 159.7,145.2 160.5,146.0 161.3,146.8 162.1,147.7 163.0,148.5 163.8,149.4 164.6,150.2 165.4,151.1 166.2,151.9 167.1,152.7 167.9,153.6 168.7,154.4 169.5,155.2 170.3,156.0 171.2,156.8 172.0,157.6 172.8,158.4 173.6,159.2 174.4,160.0 175.3,160.7 176.1,161.5 176.9,162.2 177.7,163.0 178.5,163.7 179.4,164.4 180.2,165.1 181.0,165.8 181.8,166.5 182.6,167.2 183.5,167.8 184.3,168.5 185.1,169.1 185.9,169.7 186.7,170.3 187.6,170.9 188.4,171.4 189.2,172.0 190.0,172.5 190.8,173.0 191.7,173.5 192.5,174.0 193.3,174.5 194.1,174.9 194.9,175.3 195.8,175.7 196.6,176.1 197.4,176.5 198.2,176.9 199.0,177.2 199.9,177.5 200.7,177.8 201.5,178.1 202.3,178.3 203.1,178.5 204.0,178.8 204.8,178.9 205.6,179.1 206.4,179.3 207.2,179.4 208.1,179.5 208.9,179.6 209.7,179.6 210.5,179.7 211.3,179.7 212.2,179.7 213.0,179.7 213.8,179.6 214.6,179.6 215.4,179.5 216.3,179.4 217.1,179.3 217.9,179.1 218.7,178.9 219.5,178.8 220.4,178.5 221.2,178.3 222.0,178.1 222.8,177.8 223.6,177.5 224.5,177.2 225.3,176.9 226.1,176.5 226.9,176.1 227.7,175.7 228.6,175.3 229.4,174.9 230.2,174.5 231.0,174.0 231.8,173.5 232.7,173.0 233.5,172.5 234.3,172.0 235.1,171.4 235.9,170.9 236.8,170.3 237.6,169.7 238.4,169.1 239.2,168.5 240.0,167.8 240.9,167.2 241.7,166.5 242.5,165.8 243.3,165.1 244.1,164.4 245.0,163.7 245.8,163.0 246.6,162.2 247.4,161.5 248.2,160.7 249.1,160.0 249.9,159.2 250.7,158.4 251.5,157.6 252.3,156.8 253.2,156.0 254.0,155.2 254.8,154.4 255.6,153.6 256.4,152.7 257.3,151.9 258.1,151.1 258.9,150.2 259.7,149.4 260.5,148.5 261.4,147.7 262.2,146.8 263.0,146.0 263.8,145.2 264.6,144.3 265.5,143.5 266.3,142.6 267.1,141.8 267.9,140.9 268.7,140.1 269.6,139.3 270.4,138.4 271.2,137.6 272.0,136.8 272.8,136.0 273.7,135.2 274.5,134.4 275.3,133.6 276.1,132.8 276.9,132.0 277.8,131.3 278.6,130.5 279.4,129.8 280.2,129.0 281.0,128.3 281.9,127.6 282.7,126.9 283.5,126.2 284.3,125.5 285.1,124.8 286.0,124.2 286.8,123.5 287.6,122.9 288.4,122.3 289.2,121.7 290.1,121.1 290.9,120.6 291.7,120.0 292.5,119.5 293.3,119.0 294.2,118.5 295.0,118.0 295.8,117.5 296.6,117.1 297.4,116.7 298.3,116.3 299.1,115.9 299.9,115.5 300.7,115.1 301.5,114.8 302.4,114.5 303.2,114.2 304.0,113.9 304.8,113.7 305.6,113.5 306.5,113.2 307.3,113.1 308.1,112.9 308.9,112.7 309.7,112.6 310.6,112.5 311.4,112.4 312.2,112.4 313.0,112.3 313.8,112.3 314.7,112.3 315.5,112.3 316.3,112.4 317.1,112.4 317.9,112.5 318.8,112.6 319.6,112.7 320.4,112.9 321.2,113.1 322.0,113.2 322.9,113.5 323.7,113.7 324.5,113.9 325.3,114.2 326.1,114.5 327.0,114.8 327.8,115.1 328.6,115.5 329.4,115.9 330.2,116.3 331.1,116.7 331.9,117.1 332.7,117.5 333.5,118.0 334.3,118.5 335.2,119.0 336.0,119.5 336.8,120.0 337.6,120.6 338.4,121.1 339.3,121.7 340.1,122.3 340.9,122.9 341.7,123.5 342.5,124.2 343.4,124.8 344.2,125.5 345.0,126.2 345.8,126.9 346.6,127.6 347.5,128.3 348.3,129.0 349.1,129.8 349.9,130.5 350.7,131.3 351.6,132.0 352.4,132.8 353.2,133.6 354.0,134.4 354.8,135.2 355.7,136.0 356.5,136.8 357.3,137.6 358.1,138.4 358.9,139.3 359.8,140.1 360.6,140.9 361.4,141.8 362.2,142.6 363.0,143.5 363.9,144.3 364.7,145.2 365.5,146.0 366.3,146.8 367.1,147.7 368.0,148.5 368.8,149.4 369.6,150.2 370.4,151.1 371.2,151.9 372.1,152.7 372.9,153.6 373.7,154.4 374.5,155.2 375.3,156.0 376.2,156.8 377.0,157.6 377.8,158.4 378.6,159.2 379.4,160.0 380.3,160.7 381.1,161.5 381.9,162.2 382.7,163.0 383.5,163.7 384.4,164.4 385.2,165.1 386.0,165.8 386.8,166.5 387.6,167.2 388.5,167.8 389.3,168.5 390.1,169.1 390.9,169.7 391.7,170.3 392.6,170.9 393.4,171.4 394.2,172.0 395.0,172.5 395.8,173.0 396.7,173.5 397.5,174.0 398.3,174.5 399.1,174.9 399.9,175.3 400.8,175.7 401.6,176.1 402.4,176.5 403.2,176.9 404.0,177.2 404.9,177.5 405.7,177.8 406.5,178.1 407.3,178.3 408.1,178.5 409.0,178.8 409.8,178.9 410.6,179.1 411.4,179.3 412.2,179.4 413.1,179.5 413.9,179.6 414.7,179.6 415.5,179.7 416.3,179.7 417.2,179.7 418.0,179.7 418.8,179.6 419.6,179.6 420.4,179.5 421.3,179.4 422.1,179.3 422.9,179.1 423.7,178.9 424.5,178.8 425.4,178.5 426.2,178.3 427.0,178.1 427.8,177.8 428.6,177.5 429.5,177.2 430.3,176.9 431.1,176.5 431.9,176.1 432.7,175.7 433.6,175.3 434.4,174.9 435.2,174.5 436.0,174.0 436.8,173.5 437.7,173.0 438.5,172.5 439.3,172.0 440.1,171.4 440.9,170.9 441.8,170.3 442.6,169.7 443.4,169.1 444.2,168.5 445.0,167.8 445.9,167.2 446.7,166.5 447.5,165.8 448.3,165.1 449.1,164.4 450.0,163.7 450.8,163.0 451.6,162.2 452.4,161.5 453.2,160.7 454.1,160.0 454.9,159.2 455.7,158.4 456.5,157.6 457.3,156.8 458.2,156.0 459.0,155.2 459.8,154.4 460.6,153.6 461.4,152.7 462.3,151.9 463.1,151.1 463.9,150.2 464.7,149.4 465.5,148.5 466.4,147.7 467.2,146.8 468.0,146.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/></svg></span></div>",
     "familj": "Skissa trigonometriska grafer",
     "formaga": [
@@ -19508,7 +19509,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skissa kurvan \\(y=\\cos(x/2)\\) i koordinatsystemet.</p><p>för \\(0\\le x\\le4\\pi\\)</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
+    "t": "<p>Skissa kurvan \\(y=\\cos(x/2)\\) för \\(0\\le x\\le4\\pi\\) i koordinatsystemet.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollpunkter:</strong> Perioden är \\(4\\pi\\).</p></li><li><p>Grafen börjar i \\((0,1)\\), har nollställen vid \\(x=\\pi\\) och \\(3\\pi\\), minimum vid \\(x=2\\pi\\) och återgår till maximum vid \\(x=4\\pi\\).</p></li><li><p>Markera först medellinje, amplitud och period.</p></li><li><p>Placera därefter maxpunkter, minpunkter och nollställen och dra en jämn trigonometrisk kurva genom punkterna.</p></li></ol><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facit till trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text><polyline points=\"58.0,112.3 58.8,112.3 59.6,112.3 60.5,112.3 61.3,112.3 62.1,112.4 62.9,112.4 63.7,112.4 64.6,112.5 65.4,112.5 66.2,112.6 67.0,112.6 67.8,112.7 68.7,112.7 69.5,112.8 70.3,112.9 71.1,113.0 71.9,113.1 72.8,113.1 73.6,113.2 74.4,113.3 75.2,113.5 76.0,113.6 76.9,113.7 77.7,113.8 78.5,113.9 79.3,114.1 80.1,114.2 81.0,114.4 81.8,114.5 82.6,114.7 83.4,114.8 84.2,115.0 85.1,115.1 85.9,115.3 86.7,115.5 87.5,115.7 88.3,115.9 89.2,116.1 90.0,116.3 90.8,116.5 91.6,116.7 92.4,116.9 93.3,117.1 94.1,117.3 94.9,117.5 95.7,117.8 96.5,118.0 97.4,118.2 98.2,118.5 99.0,118.7 99.8,119.0 100.6,119.2 101.5,119.5 102.3,119.8 103.1,120.0 103.9,120.3 104.7,120.6 105.6,120.9 106.4,121.1 107.2,121.4 108.0,121.7 108.8,122.0 109.7,122.3 110.5,122.6 111.3,122.9 112.1,123.2 112.9,123.5 113.8,123.9 114.6,124.2 115.4,124.5 116.2,124.8 117.0,125.2 117.9,125.5 118.7,125.8 119.5,126.2 120.3,126.5 121.1,126.9 122.0,127.2 122.8,127.6 123.6,127.9 124.4,128.3 125.2,128.7 126.1,129.0 126.9,129.4 127.7,129.8 128.5,130.1 129.3,130.5 130.2,130.9 131.0,131.3 131.8,131.6 132.6,132.0 133.4,132.4 134.3,132.8 135.1,133.2 135.9,133.6 136.7,134.0 137.5,134.4 138.4,134.8 139.2,135.2 140.0,135.6 140.8,136.0 141.6,136.4 142.5,136.8 143.3,137.2 144.1,137.6 144.9,138.0 145.7,138.4 146.6,138.9 147.4,139.3 148.2,139.7 149.0,140.1 149.8,140.5 150.7,140.9 151.5,141.4 152.3,141.8 153.1,142.2 153.9,142.6 154.8,143.0 155.6,143.5 156.4,143.9 157.2,144.3 158.0,144.7 158.9,145.2 159.7,145.6 160.5,146.0 161.3,146.4 162.1,146.8 163.0,147.3 163.8,147.7 164.6,148.1 165.4,148.5 166.2,149.0 167.1,149.4 167.9,149.8 168.7,150.2 169.5,150.6 170.3,151.1 171.2,151.5 172.0,151.9 172.8,152.3 173.6,152.7 174.4,153.1 175.3,153.6 176.1,154.0 176.9,154.4 177.7,154.8 178.5,155.2 179.4,155.6 180.2,156.0 181.0,156.4 181.8,156.8 182.6,157.2 183.5,157.6 184.3,158.0 185.1,158.4 185.9,158.8 186.7,159.2 187.6,159.6 188.4,160.0 189.2,160.4 190.0,160.7 190.8,161.1 191.7,161.5 192.5,161.9 193.3,162.2 194.1,162.6 194.9,163.0 195.8,163.3 196.6,163.7 197.4,164.1 198.2,164.4 199.0,164.8 199.9,165.1 200.7,165.5 201.5,165.8 202.3,166.2 203.1,166.5 204.0,166.8 204.8,167.2 205.6,167.5 206.4,167.8 207.2,168.1 208.1,168.5 208.9,168.8 209.7,169.1 210.5,169.4 211.3,169.7 212.2,170.0 213.0,170.3 213.8,170.6 214.6,170.9 215.4,171.1 216.3,171.4 217.1,171.7 217.9,172.0 218.7,172.2 219.5,172.5 220.4,172.8 221.2,173.0 222.0,173.3 222.8,173.5 223.6,173.8 224.5,174.0 225.3,174.2 226.1,174.5 226.9,174.7 227.7,174.9 228.6,175.1 229.4,175.3 230.2,175.5 231.0,175.7 231.8,175.9 232.7,176.1 233.5,176.3 234.3,176.5 235.1,176.7 235.9,176.9 236.8,177.0 237.6,177.2 238.4,177.3 239.2,177.5 240.0,177.6 240.9,177.8 241.7,177.9 242.5,178.1 243.3,178.2 244.1,178.3 245.0,178.4 245.8,178.5 246.6,178.7 247.4,178.8 248.2,178.9 249.1,178.9 249.9,179.0 250.7,179.1 251.5,179.2 252.3,179.3 253.2,179.3 254.0,179.4 254.8,179.4 255.6,179.5 256.4,179.5 257.3,179.6 258.1,179.6 258.9,179.6 259.7,179.7 260.5,179.7 261.4,179.7 262.2,179.7 263.0,179.7 263.8,179.7 264.6,179.7 265.5,179.7 266.3,179.7 267.1,179.6 267.9,179.6 268.7,179.6 269.6,179.5 270.4,179.5 271.2,179.4 272.0,179.4 272.8,179.3 273.7,179.3 274.5,179.2 275.3,179.1 276.1,179.0 276.9,178.9 277.8,178.9 278.6,178.8 279.4,178.7 280.2,178.5 281.0,178.4 281.9,178.3 282.7,178.2 283.5,178.1 284.3,177.9 285.1,177.8 286.0,177.6 286.8,177.5 287.6,177.3 288.4,177.2 289.2,177.0 290.1,176.9 290.9,176.7 291.7,176.5 292.5,176.3 293.3,176.1 294.2,175.9 295.0,175.7 295.8,175.5 296.6,175.3 297.4,175.1 298.3,174.9 299.1,174.7 299.9,174.5 300.7,174.2 301.5,174.0 302.4,173.8 303.2,173.5 304.0,173.3 304.8,173.0 305.6,172.8 306.5,172.5 307.3,172.2 308.1,172.0 308.9,171.7 309.7,171.4 310.6,171.1 311.4,170.9 312.2,170.6 313.0,170.3 313.8,170.0 314.7,169.7 315.5,169.4 316.3,169.1 317.1,168.8 317.9,168.5 318.8,168.1 319.6,167.8 320.4,167.5 321.2,167.2 322.0,166.8 322.9,166.5 323.7,166.2 324.5,165.8 325.3,165.5 326.1,165.1 327.0,164.8 327.8,164.4 328.6,164.1 329.4,163.7 330.2,163.3 331.1,163.0 331.9,162.6 332.7,162.2 333.5,161.9 334.3,161.5 335.2,161.1 336.0,160.7 336.8,160.4 337.6,160.0 338.4,159.6 339.3,159.2 340.1,158.8 340.9,158.4 341.7,158.0 342.5,157.6 343.4,157.2 344.2,156.8 345.0,156.4 345.8,156.0 346.6,155.6 347.5,155.2 348.3,154.8 349.1,154.4 349.9,154.0 350.7,153.6 351.6,153.1 352.4,152.7 353.2,152.3 354.0,151.9 354.8,151.5 355.7,151.1 356.5,150.6 357.3,150.2 358.1,149.8 358.9,149.4 359.8,149.0 360.6,148.5 361.4,148.1 362.2,147.7 363.0,147.3 363.9,146.8 364.7,146.4 365.5,146.0 366.3,145.6 367.1,145.2 368.0,144.7 368.8,144.3 369.6,143.9 370.4,143.5 371.2,143.0 372.1,142.6 372.9,142.2 373.7,141.8 374.5,141.4 375.3,140.9 376.2,140.5 377.0,140.1 377.8,139.7 378.6,139.3 379.4,138.9 380.3,138.4 381.1,138.0 381.9,137.6 382.7,137.2 383.5,136.8 384.4,136.4 385.2,136.0 386.0,135.6 386.8,135.2 387.6,134.8 388.5,134.4 389.3,134.0 390.1,133.6 390.9,133.2 391.7,132.8 392.6,132.4 393.4,132.0 394.2,131.6 395.0,131.3 395.8,130.9 396.7,130.5 397.5,130.1 398.3,129.8 399.1,129.4 399.9,129.0 400.8,128.7 401.6,128.3 402.4,127.9 403.2,127.6 404.0,127.2 404.9,126.9 405.7,126.5 406.5,126.2 407.3,125.8 408.1,125.5 409.0,125.2 409.8,124.8 410.6,124.5 411.4,124.2 412.2,123.9 413.1,123.5 413.9,123.2 414.7,122.9 415.5,122.6 416.3,122.3 417.2,122.0 418.0,121.7 418.8,121.4 419.6,121.1 420.4,120.9 421.3,120.6 422.1,120.3 422.9,120.0 423.7,119.8 424.5,119.5 425.4,119.2 426.2,119.0 427.0,118.7 427.8,118.5 428.6,118.2 429.5,118.0 430.3,117.8 431.1,117.5 431.9,117.3 432.7,117.1 433.6,116.9 434.4,116.7 435.2,116.5 436.0,116.3 436.8,116.1 437.7,115.9 438.5,115.7 439.3,115.5 440.1,115.3 440.9,115.1 441.8,115.0 442.6,114.8 443.4,114.7 444.2,114.5 445.0,114.4 445.9,114.2 446.7,114.1 447.5,113.9 448.3,113.8 449.1,113.7 450.0,113.6 450.8,113.5 451.6,113.3 452.4,113.2 453.2,113.1 454.1,113.1 454.9,113.0 455.7,112.9 456.5,112.8 457.3,112.7 458.2,112.7 459.0,112.6 459.8,112.6 460.6,112.5 461.4,112.5 462.3,112.4 463.1,112.4 463.9,112.4 464.7,112.3 465.5,112.3 466.4,112.3 467.2,112.3 468.0,112.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/></svg></span></div>",
     "familj": "Skissa trigonometriska grafer",
     "formaga": [
@@ -19539,7 +19540,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skissa kurvan \\(y=2\\sin x\\) i koordinatsystemet.</p><p>för \\(0\\le x\\le2\\pi\\)</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
+    "t": "<p>Skissa kurvan \\(y=2\\sin x\\) för \\(0\\le x\\le2\\pi\\) i koordinatsystemet.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollpunkter:</strong> Amplituden är 2 och perioden \\(2\\pi\\).</p></li><li><p>Grafen går genom \\((0,0)\\), har maximum \\(2\\) vid \\(x=\\pi/2\\), minimum \\(-2\\) vid \\(x=3\\pi/2\\) och nollställen vid \\(0,\\pi,2\\pi\\).</p></li><li><p>Markera först medellinje, amplitud och period.</p></li><li><p>Placera därefter maxpunkter, minpunkter och nollställen och dra en jämn trigonometrisk kurva genom punkterna.</p></li></ol><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facit till trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text><polyline points=\"58.0,146.0 58.8,145.2 59.6,144.3 60.5,143.5 61.3,142.6 62.1,141.8 62.9,140.9 63.7,140.1 64.6,139.2 65.4,138.4 66.2,137.5 67.0,136.7 67.8,135.9 68.7,135.0 69.5,134.2 70.3,133.4 71.1,132.5 71.9,131.7 72.8,130.9 73.6,130.1 74.4,129.2 75.2,128.4 76.0,127.6 76.9,126.8 77.7,126.0 78.5,125.2 79.3,124.4 80.1,123.6 81.0,122.8 81.8,122.0 82.6,121.2 83.4,120.4 84.2,119.6 85.1,118.8 85.9,118.1 86.7,117.3 87.5,116.5 88.3,115.8 89.2,115.0 90.0,114.3 90.8,113.5 91.6,112.8 92.4,112.0 93.3,111.3 94.1,110.6 94.9,109.9 95.7,109.2 96.5,108.5 97.4,107.7 98.2,107.1 99.0,106.4 99.8,105.7 100.6,105.0 101.5,104.3 102.3,103.7 103.1,103.0 103.9,102.4 104.7,101.7 105.6,101.1 106.4,100.5 107.2,99.8 108.0,99.2 108.8,98.6 109.7,98.0 110.5,97.4 111.3,96.8 112.1,96.3 112.9,95.7 113.8,95.1 114.6,94.6 115.4,94.0 116.2,93.5 117.0,93.0 117.9,92.5 118.7,92.0 119.5,91.4 120.3,91.0 121.1,90.5 122.0,90.0 122.8,89.5 123.6,89.1 124.4,88.6 125.2,88.2 126.1,87.7 126.9,87.3 127.7,86.9 128.5,86.5 129.3,86.1 130.2,85.7 131.0,85.4 131.8,85.0 132.6,84.6 133.4,84.3 134.3,84.0 135.1,83.6 135.9,83.3 136.7,83.0 137.5,82.7 138.4,82.4 139.2,82.1 140.0,81.9 140.8,81.6 141.6,81.4 142.5,81.1 143.3,80.9 144.1,80.7 144.9,80.5 145.7,80.3 146.6,80.1 147.4,79.9 148.2,79.8 149.0,79.6 149.8,79.5 150.7,79.3 151.5,79.2 152.3,79.1 153.1,79.0 153.9,78.9 154.8,78.8 155.6,78.8 156.4,78.7 157.2,78.7 158.0,78.6 158.9,78.6 159.7,78.6 160.5,78.6 161.3,78.6 162.1,78.6 163.0,78.6 163.8,78.7 164.6,78.7 165.4,78.8 166.2,78.8 167.1,78.9 167.9,79.0 168.7,79.1 169.5,79.2 170.3,79.3 171.2,79.5 172.0,79.6 172.8,79.8 173.6,79.9 174.4,80.1 175.3,80.3 176.1,80.5 176.9,80.7 177.7,80.9 178.5,81.1 179.4,81.4 180.2,81.6 181.0,81.9 181.8,82.1 182.6,82.4 183.5,82.7 184.3,83.0 185.1,83.3 185.9,83.6 186.7,84.0 187.6,84.3 188.4,84.6 189.2,85.0 190.0,85.4 190.8,85.7 191.7,86.1 192.5,86.5 193.3,86.9 194.1,87.3 194.9,87.7 195.8,88.2 196.6,88.6 197.4,89.1 198.2,89.5 199.0,90.0 199.9,90.5 200.7,91.0 201.5,91.4 202.3,92.0 203.1,92.5 204.0,93.0 204.8,93.5 205.6,94.0 206.4,94.6 207.2,95.1 208.1,95.7 208.9,96.3 209.7,96.8 210.5,97.4 211.3,98.0 212.2,98.6 213.0,99.2 213.8,99.8 214.6,100.5 215.4,101.1 216.3,101.7 217.1,102.4 217.9,103.0 218.7,103.7 219.5,104.3 220.4,105.0 221.2,105.7 222.0,106.4 222.8,107.1 223.6,107.7 224.5,108.5 225.3,109.2 226.1,109.9 226.9,110.6 227.7,111.3 228.6,112.0 229.4,112.8 230.2,113.5 231.0,114.3 231.8,115.0 232.7,115.8 233.5,116.5 234.3,117.3 235.1,118.1 235.9,118.8 236.8,119.6 237.6,120.4 238.4,121.2 239.2,122.0 240.0,122.8 240.9,123.6 241.7,124.4 242.5,125.2 243.3,126.0 244.1,126.8 245.0,127.6 245.8,128.4 246.6,129.2 247.4,130.1 248.2,130.9 249.1,131.7 249.9,132.5 250.7,133.4 251.5,134.2 252.3,135.0 253.2,135.9 254.0,136.7 254.8,137.5 255.6,138.4 256.4,139.2 257.3,140.1 258.1,140.9 258.9,141.8 259.7,142.6 260.5,143.5 261.4,144.3 262.2,145.2 263.0,146.0 263.8,146.8 264.6,147.7 265.5,148.5 266.3,149.4 267.1,150.2 267.9,151.1 268.7,151.9 269.6,152.8 270.4,153.6 271.2,154.5 272.0,155.3 272.8,156.1 273.7,157.0 274.5,157.8 275.3,158.6 276.1,159.5 276.9,160.3 277.8,161.1 278.6,161.9 279.4,162.8 280.2,163.6 281.0,164.4 281.9,165.2 282.7,166.0 283.5,166.8 284.3,167.6 285.1,168.4 286.0,169.2 286.8,170.0 287.6,170.8 288.4,171.6 289.2,172.4 290.1,173.2 290.9,173.9 291.7,174.7 292.5,175.5 293.3,176.2 294.2,177.0 295.0,177.7 295.8,178.5 296.6,179.2 297.4,180.0 298.3,180.7 299.1,181.4 299.9,182.1 300.7,182.8 301.5,183.5 302.4,184.3 303.2,184.9 304.0,185.6 304.8,186.3 305.6,187.0 306.5,187.7 307.3,188.3 308.1,189.0 308.9,189.6 309.7,190.3 310.6,190.9 311.4,191.5 312.2,192.2 313.0,192.8 313.8,193.4 314.7,194.0 315.5,194.6 316.3,195.2 317.1,195.7 317.9,196.3 318.8,196.9 319.6,197.4 320.4,198.0 321.2,198.5 322.0,199.0 322.9,199.5 323.7,200.0 324.5,200.6 325.3,201.0 326.1,201.5 327.0,202.0 327.8,202.5 328.6,202.9 329.4,203.4 330.2,203.8 331.1,204.3 331.9,204.7 332.7,205.1 333.5,205.5 334.3,205.9 335.2,206.3 336.0,206.6 336.8,207.0 337.6,207.4 338.4,207.7 339.3,208.0 340.1,208.4 340.9,208.7 341.7,209.0 342.5,209.3 343.4,209.6 344.2,209.9 345.0,210.1 345.8,210.4 346.6,210.6 347.5,210.9 348.3,211.1 349.1,211.3 349.9,211.5 350.7,211.7 351.6,211.9 352.4,212.1 353.2,212.2 354.0,212.4 354.8,212.5 355.7,212.7 356.5,212.8 357.3,212.9 358.1,213.0 358.9,213.1 359.8,213.2 360.6,213.2 361.4,213.3 362.2,213.3 363.0,213.4 363.9,213.4 364.7,213.4 365.5,213.4 366.3,213.4 367.1,213.4 368.0,213.4 368.8,213.3 369.6,213.3 370.4,213.2 371.2,213.2 372.1,213.1 372.9,213.0 373.7,212.9 374.5,212.8 375.3,212.7 376.2,212.5 377.0,212.4 377.8,212.2 378.6,212.1 379.4,211.9 380.3,211.7 381.1,211.5 381.9,211.3 382.7,211.1 383.5,210.9 384.4,210.6 385.2,210.4 386.0,210.1 386.8,209.9 387.6,209.6 388.5,209.3 389.3,209.0 390.1,208.7 390.9,208.4 391.7,208.0 392.6,207.7 393.4,207.4 394.2,207.0 395.0,206.6 395.8,206.3 396.7,205.9 397.5,205.5 398.3,205.1 399.1,204.7 399.9,204.3 400.8,203.8 401.6,203.4 402.4,202.9 403.2,202.5 404.0,202.0 404.9,201.5 405.7,201.0 406.5,200.6 407.3,200.0 408.1,199.5 409.0,199.0 409.8,198.5 410.6,198.0 411.4,197.4 412.2,196.9 413.1,196.3 413.9,195.7 414.7,195.2 415.5,194.6 416.3,194.0 417.2,193.4 418.0,192.8 418.8,192.2 419.6,191.5 420.4,190.9 421.3,190.3 422.1,189.6 422.9,189.0 423.7,188.3 424.5,187.7 425.4,187.0 426.2,186.3 427.0,185.6 427.8,184.9 428.6,184.3 429.5,183.5 430.3,182.8 431.1,182.1 431.9,181.4 432.7,180.7 433.6,180.0 434.4,179.2 435.2,178.5 436.0,177.7 436.8,177.0 437.7,176.2 438.5,175.5 439.3,174.7 440.1,173.9 440.9,173.2 441.8,172.4 442.6,171.6 443.4,170.8 444.2,170.0 445.0,169.2 445.9,168.4 446.7,167.6 447.5,166.8 448.3,166.0 449.1,165.2 450.0,164.4 450.8,163.6 451.6,162.8 452.4,161.9 453.2,161.1 454.1,160.3 454.9,159.5 455.7,158.6 456.5,157.8 457.3,157.0 458.2,156.1 459.0,155.3 459.8,154.5 460.6,153.6 461.4,152.8 462.3,151.9 463.1,151.1 463.9,150.2 464.7,149.4 465.5,148.5 466.4,147.7 467.2,146.8 468.0,146.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/></svg></span></div>",
     "familj": "Skissa trigonometriska grafer",
     "formaga": [
@@ -19601,7 +19602,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skissa kurvan \\(y=1+2\\cos x\\) i koordinatsystemet.</p><p>för \\(0\\le x\\le2\\pi\\)</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
+    "t": "<p>Skissa kurvan \\(y=1+2\\cos x\\) för \\(0\\le x\\le2\\pi\\) i koordinatsystemet.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollpunkter:</strong> Medellinjen är \\(y=1\\), amplituden 2 och perioden \\(2\\pi\\).</p></li><li><p>Maxvärdet är 3 vid \\(x=0,2\\pi\\), minvärdet är \\(-1\\) vid \\(x=\\pi\\).</p></li><li><p>Markera först medellinje, amplitud och period.</p></li><li><p>Placera därefter maxpunkter, minpunkter och nollställen och dra en jämn trigonometrisk kurva genom punkterna.</p></li></ol><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facit till trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text><polyline points=\"58.0,44.9 58.8,44.9 59.6,44.9 60.5,44.9 61.3,44.9 62.1,45.0 62.9,45.0 63.7,45.1 64.6,45.2 65.4,45.3 66.2,45.4 67.0,45.5 67.8,45.6 68.7,45.8 69.5,45.9 70.3,46.1 71.1,46.2 71.9,46.4 72.8,46.6 73.6,46.8 74.4,47.0 75.2,47.2 76.0,47.4 76.9,47.7 77.7,47.9 78.5,48.2 79.3,48.4 80.1,48.7 81.0,49.0 81.8,49.3 82.6,49.6 83.4,49.9 84.2,50.2 85.1,50.6 85.9,50.9 86.7,51.3 87.5,51.6 88.3,52.0 89.2,52.4 90.0,52.8 90.8,53.2 91.6,53.6 92.4,54.0 93.3,54.5 94.1,54.9 94.9,55.4 95.7,55.8 96.5,56.3 97.4,56.8 98.2,57.2 99.0,57.7 99.8,58.2 100.6,58.7 101.5,59.3 102.3,59.8 103.1,60.3 103.9,60.9 104.7,61.4 105.6,62.0 106.4,62.6 107.2,63.1 108.0,63.7 108.8,64.3 109.7,64.9 110.5,65.5 111.3,66.1 112.1,66.7 112.9,67.4 113.8,68.0 114.6,68.7 115.4,69.3 116.2,70.0 117.0,70.6 117.9,71.3 118.7,72.0 119.5,72.7 120.3,73.3 121.1,74.0 122.0,74.7 122.8,75.4 123.6,76.2 124.4,76.9 125.2,77.6 126.1,78.3 126.9,79.1 127.7,79.8 128.5,80.5 129.3,81.3 130.2,82.1 131.0,82.8 131.8,83.6 132.6,84.3 133.4,85.1 134.3,85.9 135.1,86.7 135.9,87.5 136.7,88.3 137.5,89.0 138.4,89.8 139.2,90.6 140.0,91.4 140.8,92.3 141.6,93.1 142.5,93.9 143.3,94.7 144.1,95.5 144.9,96.3 145.7,97.2 146.6,98.0 147.4,98.8 148.2,99.7 149.0,100.5 149.8,101.3 150.7,102.2 151.5,103.0 152.3,103.8 153.1,104.7 153.9,105.5 154.8,106.4 155.6,107.2 156.4,108.1 157.2,108.9 158.0,109.7 158.9,110.6 159.7,111.4 160.5,112.3 161.3,113.1 162.1,114.0 163.0,114.8 163.8,115.7 164.6,116.5 165.4,117.4 166.2,118.2 167.1,119.1 167.9,119.9 168.7,120.7 169.5,121.6 170.3,122.4 171.2,123.3 172.0,124.1 172.8,124.9 173.6,125.8 174.4,126.6 175.3,127.4 176.1,128.2 176.9,129.1 177.7,129.9 178.5,130.7 179.4,131.5 180.2,132.3 181.0,133.1 181.8,133.9 182.6,134.7 183.5,135.5 184.3,136.3 185.1,137.1 185.9,137.9 186.7,138.7 187.6,139.5 188.4,140.2 189.2,141.0 190.0,141.8 190.8,142.5 191.7,143.3 192.5,144.0 193.3,144.8 194.1,145.5 194.9,146.2 195.8,147.0 196.6,147.7 197.4,148.4 198.2,149.1 199.0,149.8 199.9,150.5 200.7,151.2 201.5,151.9 202.3,152.6 203.1,153.3 204.0,153.9 204.8,154.6 205.6,155.3 206.4,155.9 207.2,156.6 208.1,157.2 208.9,157.8 209.7,158.4 210.5,159.1 211.3,159.7 212.2,160.3 213.0,160.9 213.8,161.4 214.6,162.0 215.4,162.6 216.3,163.1 217.1,163.7 217.9,164.2 218.7,164.8 219.5,165.3 220.4,165.8 221.2,166.3 222.0,166.8 222.8,167.3 223.6,167.8 224.5,168.3 225.3,168.8 226.1,169.2 226.9,169.7 227.7,170.1 228.6,170.5 229.4,171.0 230.2,171.4 231.0,171.8 231.8,172.2 232.7,172.6 233.5,172.9 234.3,173.3 235.1,173.7 235.9,174.0 236.8,174.3 237.6,174.7 238.4,175.0 239.2,175.3 240.0,175.6 240.9,175.9 241.7,176.1 242.5,176.4 243.3,176.7 244.1,176.9 245.0,177.2 245.8,177.4 246.6,177.6 247.4,177.8 248.2,178.0 249.1,178.2 249.9,178.4 250.7,178.5 251.5,178.7 252.3,178.8 253.2,178.9 254.0,179.1 254.8,179.2 255.6,179.3 256.4,179.4 257.3,179.5 258.1,179.5 258.9,179.6 259.7,179.6 260.5,179.7 261.4,179.7 262.2,179.7 263.0,179.7 263.8,179.7 264.6,179.7 265.5,179.7 266.3,179.6 267.1,179.6 267.9,179.5 268.7,179.5 269.6,179.4 270.4,179.3 271.2,179.2 272.0,179.1 272.8,178.9 273.7,178.8 274.5,178.7 275.3,178.5 276.1,178.4 276.9,178.2 277.8,178.0 278.6,177.8 279.4,177.6 280.2,177.4 281.0,177.2 281.9,176.9 282.7,176.7 283.5,176.4 284.3,176.1 285.1,175.9 286.0,175.6 286.8,175.3 287.6,175.0 288.4,174.7 289.2,174.3 290.1,174.0 290.9,173.7 291.7,173.3 292.5,172.9 293.3,172.6 294.2,172.2 295.0,171.8 295.8,171.4 296.6,171.0 297.4,170.5 298.3,170.1 299.1,169.7 299.9,169.2 300.7,168.8 301.5,168.3 302.4,167.8 303.2,167.3 304.0,166.8 304.8,166.3 305.6,165.8 306.5,165.3 307.3,164.8 308.1,164.2 308.9,163.7 309.7,163.1 310.6,162.6 311.4,162.0 312.2,161.4 313.0,160.9 313.8,160.3 314.7,159.7 315.5,159.1 316.3,158.4 317.1,157.8 317.9,157.2 318.8,156.6 319.6,155.9 320.4,155.3 321.2,154.6 322.0,153.9 322.9,153.3 323.7,152.6 324.5,151.9 325.3,151.2 326.1,150.5 327.0,149.8 327.8,149.1 328.6,148.4 329.4,147.7 330.2,147.0 331.1,146.2 331.9,145.5 332.7,144.8 333.5,144.0 334.3,143.3 335.2,142.5 336.0,141.8 336.8,141.0 337.6,140.2 338.4,139.5 339.3,138.7 340.1,137.9 340.9,137.1 341.7,136.3 342.5,135.5 343.4,134.7 344.2,133.9 345.0,133.1 345.8,132.3 346.6,131.5 347.5,130.7 348.3,129.9 349.1,129.1 349.9,128.2 350.7,127.4 351.6,126.6 352.4,125.8 353.2,124.9 354.0,124.1 354.8,123.3 355.7,122.4 356.5,121.6 357.3,120.7 358.1,119.9 358.9,119.1 359.8,118.2 360.6,117.4 361.4,116.5 362.2,115.7 363.0,114.8 363.9,114.0 364.7,113.1 365.5,112.3 366.3,111.4 367.1,110.6 368.0,109.7 368.8,108.9 369.6,108.1 370.4,107.2 371.2,106.4 372.1,105.5 372.9,104.7 373.7,103.8 374.5,103.0 375.3,102.2 376.2,101.3 377.0,100.5 377.8,99.7 378.6,98.8 379.4,98.0 380.3,97.2 381.1,96.3 381.9,95.5 382.7,94.7 383.5,93.9 384.4,93.1 385.2,92.3 386.0,91.4 386.8,90.6 387.6,89.8 388.5,89.0 389.3,88.3 390.1,87.5 390.9,86.7 391.7,85.9 392.6,85.1 393.4,84.3 394.2,83.6 395.0,82.8 395.8,82.1 396.7,81.3 397.5,80.5 398.3,79.8 399.1,79.1 399.9,78.3 400.8,77.6 401.6,76.9 402.4,76.2 403.2,75.4 404.0,74.7 404.9,74.0 405.7,73.3 406.5,72.7 407.3,72.0 408.1,71.3 409.0,70.6 409.8,70.0 410.6,69.3 411.4,68.7 412.2,68.0 413.1,67.4 413.9,66.7 414.7,66.1 415.5,65.5 416.3,64.9 417.2,64.3 418.0,63.7 418.8,63.1 419.6,62.6 420.4,62.0 421.3,61.4 422.1,60.9 422.9,60.3 423.7,59.8 424.5,59.3 425.4,58.7 426.2,58.2 427.0,57.7 427.8,57.2 428.6,56.8 429.5,56.3 430.3,55.8 431.1,55.4 431.9,54.9 432.7,54.5 433.6,54.0 434.4,53.6 435.2,53.2 436.0,52.8 436.8,52.4 437.7,52.0 438.5,51.6 439.3,51.3 440.1,50.9 440.9,50.6 441.8,50.2 442.6,49.9 443.4,49.6 444.2,49.3 445.0,49.0 445.9,48.7 446.7,48.4 447.5,48.2 448.3,47.9 449.1,47.7 450.0,47.4 450.8,47.2 451.6,47.0 452.4,46.8 453.2,46.6 454.1,46.4 454.9,46.2 455.7,46.1 456.5,45.9 457.3,45.8 458.2,45.6 459.0,45.5 459.8,45.4 460.6,45.3 461.4,45.2 462.3,45.1 463.1,45.0 463.9,45.0 464.7,44.9 465.5,44.9 466.4,44.9 467.2,44.9 468.0,44.9\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/></svg></span></div>",
     "familj": "Skissa trigonometriska grafer",
     "formaga": [
@@ -19632,7 +19633,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skissa kurvan \\(y=\\sin(x-\\pi/3)\\) i koordinatsystemet.</p><p>för \\(0\\le x\\le2\\pi\\)</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
+    "t": "<p>Skissa kurvan \\(y=\\sin(x-\\pi/3)\\) för \\(0\\le x\\le2\\pi\\) i koordinatsystemet.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollpunkter:</strong> Grafen till \\(y=\\sin x\\) är förskjuten \\(\\pi/3\\) åt höger.</p></li><li><p>Nollställena i intervallet är \\(x=\\pi/3\\) och \\(4\\pi/3\\), maximum fås vid \\(5\\pi/6\\) och minimum vid \\(11\\pi/6\\).</p></li><li><p>Markera först medellinje, amplitud och period.</p></li><li><p>Placera därefter maxpunkter, minpunkter och nollställen och dra en jämn trigonometrisk kurva genom punkterna.</p></li></ol><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facit till trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text><polyline points=\"58.0,175.2 58.8,175.0 59.6,174.8 60.5,174.5 61.3,174.3 62.1,174.1 62.9,173.8 63.7,173.6 64.6,173.4 65.4,173.1 66.2,172.9 67.0,172.6 67.8,172.3 68.7,172.1 69.5,171.8 70.3,171.5 71.1,171.2 71.9,171.0 72.8,170.7 73.6,170.4 74.4,170.1 75.2,169.8 76.0,169.5 76.9,169.2 77.7,168.9 78.5,168.6 79.3,168.2 80.1,167.9 81.0,167.6 81.8,167.3 82.6,166.9 83.4,166.6 84.2,166.3 85.1,165.9 85.9,165.6 86.7,165.2 87.5,164.9 88.3,164.5 89.2,164.2 90.0,163.8 90.8,163.5 91.6,163.1 92.4,162.7 93.3,162.4 94.1,162.0 94.9,161.6 95.7,161.2 96.5,160.9 97.4,160.5 98.2,160.1 99.0,159.7 99.8,159.3 100.6,158.9 101.5,158.5 102.3,158.1 103.1,157.8 103.9,157.4 104.7,157.0 105.6,156.6 106.4,156.1 107.2,155.7 108.0,155.3 108.8,154.9 109.7,154.5 110.5,154.1 111.3,153.7 112.1,153.3 112.9,152.9 113.8,152.5 114.6,152.0 115.4,151.6 116.2,151.2 117.0,150.8 117.9,150.4 118.7,149.9 119.5,149.5 120.3,149.1 121.1,148.7 122.0,148.3 122.8,147.8 123.6,147.4 124.4,147.0 125.2,146.6 126.1,146.1 126.9,145.7 127.7,145.3 128.5,144.9 129.3,144.4 130.2,144.0 131.0,143.6 131.8,143.2 132.6,142.8 133.4,142.3 134.3,141.9 135.1,141.5 135.9,141.1 136.7,140.7 137.5,140.2 138.4,139.8 139.2,139.4 140.0,139.0 140.8,138.6 141.6,138.2 142.5,137.8 143.3,137.3 144.1,136.9 144.9,136.5 145.7,136.1 146.6,135.7 147.4,135.3 148.2,134.9 149.0,134.5 149.8,134.1 150.7,133.7 151.5,133.3 152.3,132.9 153.1,132.5 153.9,132.2 154.8,131.8 155.6,131.4 156.4,131.0 157.2,130.6 158.0,130.3 158.9,129.9 159.7,129.5 160.5,129.1 161.3,128.8 162.1,128.4 163.0,128.1 163.8,127.7 164.6,127.3 165.4,127.0 166.2,126.6 167.1,126.3 167.9,126.0 168.7,125.6 169.5,125.3 170.3,124.9 171.2,124.6 172.0,124.3 172.8,124.0 173.6,123.7 174.4,123.3 175.3,123.0 176.1,122.7 176.9,122.4 177.7,122.1 178.5,121.8 179.4,121.5 180.2,121.2 181.0,120.9 181.8,120.7 182.6,120.4 183.5,120.1 184.3,119.8 185.1,119.6 185.9,119.3 186.7,119.1 187.6,118.8 188.4,118.6 189.2,118.3 190.0,118.1 190.8,117.8 191.7,117.6 192.5,117.4 193.3,117.2 194.1,116.9 194.9,116.7 195.8,116.5 196.6,116.3 197.4,116.1 198.2,115.9 199.0,115.7 199.9,115.6 200.7,115.4 201.5,115.2 202.3,115.0 203.1,114.9 204.0,114.7 204.8,114.6 205.6,114.4 206.4,114.3 207.2,114.1 208.1,114.0 208.9,113.8 209.7,113.7 210.5,113.6 211.3,113.5 212.2,113.4 213.0,113.3 213.8,113.2 214.6,113.1 215.4,113.0 216.3,112.9 217.1,112.8 217.9,112.8 218.7,112.7 219.5,112.6 220.4,112.6 221.2,112.5 222.0,112.5 222.8,112.4 223.6,112.4 224.5,112.4 225.3,112.3 226.1,112.3 226.9,112.3 227.7,112.3 228.6,112.3 229.4,112.3 230.2,112.3 231.0,112.3 231.8,112.3 232.7,112.3 233.5,112.4 234.3,112.4 235.1,112.4 235.9,112.5 236.8,112.5 237.6,112.6 238.4,112.6 239.2,112.7 240.0,112.8 240.9,112.9 241.7,112.9 242.5,113.0 243.3,113.1 244.1,113.2 245.0,113.3 245.8,113.4 246.6,113.5 247.4,113.6 248.2,113.8 249.1,113.9 249.9,114.0 250.7,114.2 251.5,114.3 252.3,114.4 253.2,114.6 254.0,114.8 254.8,114.9 255.6,115.1 256.4,115.3 257.3,115.4 258.1,115.6 258.9,115.8 259.7,116.0 260.5,116.2 261.4,116.4 262.2,116.6 263.0,116.8 263.8,117.0 264.6,117.2 265.5,117.5 266.3,117.7 267.1,117.9 267.9,118.2 268.7,118.4 269.6,118.6 270.4,118.9 271.2,119.1 272.0,119.4 272.8,119.7 273.7,119.9 274.5,120.2 275.3,120.5 276.1,120.8 276.9,121.0 277.8,121.3 278.6,121.6 279.4,121.9 280.2,122.2 281.0,122.5 281.9,122.8 282.7,123.1 283.5,123.4 284.3,123.8 285.1,124.1 286.0,124.4 286.8,124.7 287.6,125.1 288.4,125.4 289.2,125.7 290.1,126.1 290.9,126.4 291.7,126.8 292.5,127.1 293.3,127.5 294.2,127.8 295.0,128.2 295.8,128.5 296.6,128.9 297.4,129.3 298.3,129.6 299.1,130.0 299.9,130.4 300.7,130.8 301.5,131.1 302.4,131.5 303.2,131.9 304.0,132.3 304.8,132.7 305.6,133.1 306.5,133.5 307.3,133.9 308.1,134.2 308.9,134.6 309.7,135.0 310.6,135.4 311.4,135.9 312.2,136.3 313.0,136.7 313.8,137.1 314.7,137.5 315.5,137.9 316.3,138.3 317.1,138.7 317.9,139.1 318.8,139.5 319.6,140.0 320.4,140.4 321.2,140.8 322.0,141.2 322.9,141.6 323.7,142.1 324.5,142.5 325.3,142.9 326.1,143.3 327.0,143.7 327.8,144.2 328.6,144.6 329.4,145.0 330.2,145.4 331.1,145.9 331.9,146.3 332.7,146.7 333.5,147.1 334.3,147.6 335.2,148.0 336.0,148.4 336.8,148.8 337.6,149.2 338.4,149.7 339.3,150.1 340.1,150.5 340.9,150.9 341.7,151.3 342.5,151.8 343.4,152.2 344.2,152.6 345.0,153.0 345.8,153.4 346.6,153.8 347.5,154.2 348.3,154.7 349.1,155.1 349.9,155.5 350.7,155.9 351.6,156.3 352.4,156.7 353.2,157.1 354.0,157.5 354.8,157.9 355.7,158.3 356.5,158.7 357.3,159.1 358.1,159.5 358.9,159.8 359.8,160.2 360.6,160.6 361.4,161.0 362.2,161.4 363.0,161.7 363.9,162.1 364.7,162.5 365.5,162.9 366.3,163.2 367.1,163.6 368.0,163.9 368.8,164.3 369.6,164.7 370.4,165.0 371.2,165.4 372.1,165.7 372.9,166.0 373.7,166.4 374.5,166.7 375.3,167.1 376.2,167.4 377.0,167.7 377.8,168.0 378.6,168.3 379.4,168.7 380.3,169.0 381.1,169.3 381.9,169.6 382.7,169.9 383.5,170.2 384.4,170.5 385.2,170.8 386.0,171.1 386.8,171.3 387.6,171.6 388.5,171.9 389.3,172.2 390.1,172.4 390.9,172.7 391.7,172.9 392.6,173.2 393.4,173.4 394.2,173.7 395.0,173.9 395.8,174.2 396.7,174.4 397.5,174.6 398.3,174.8 399.1,175.1 399.9,175.3 400.8,175.5 401.6,175.7 402.4,175.9 403.2,176.1 404.0,176.3 404.9,176.4 405.7,176.6 406.5,176.8 407.3,177.0 408.1,177.1 409.0,177.3 409.8,177.4 410.6,177.6 411.4,177.7 412.2,177.9 413.1,178.0 413.9,178.2 414.7,178.3 415.5,178.4 416.3,178.5 417.2,178.6 418.0,178.7 418.8,178.8 419.6,178.9 420.4,179.0 421.3,179.1 422.1,179.2 422.9,179.2 423.7,179.3 424.5,179.4 425.4,179.4 426.2,179.5 427.0,179.5 427.8,179.6 428.6,179.6 429.5,179.6 430.3,179.7 431.1,179.7 431.9,179.7 432.7,179.7 433.6,179.7 434.4,179.7 435.2,179.7 436.0,179.7 436.8,179.7 437.7,179.7 438.5,179.6 439.3,179.6 440.1,179.6 440.9,179.5 441.8,179.5 442.6,179.4 443.4,179.4 444.2,179.3 445.0,179.2 445.9,179.1 446.7,179.1 447.5,179.0 448.3,178.9 449.1,178.8 450.0,178.7 450.8,178.6 451.6,178.5 452.4,178.4 453.2,178.2 454.1,178.1 454.9,178.0 455.7,177.8 456.5,177.7 457.3,177.6 458.2,177.4 459.0,177.2 459.8,177.1 460.6,176.9 461.4,176.7 462.3,176.6 463.1,176.4 463.9,176.2 464.7,176.0 465.5,175.8 466.4,175.6 467.2,175.4 468.0,175.2\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/></svg></span></div>",
     "familj": "Skissa trigonometriska grafer",
     "formaga": [
@@ -19663,7 +19664,7 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skissa kurvan \\(y=-2\\cos 2x\\) i koordinatsystemet.</p><p>för \\(0\\le x\\le2\\pi\\)</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
+    "t": "<p>Skissa kurvan \\(y=-2\\cos 2x\\) för \\(0\\le x\\le2\\pi\\) i koordinatsystemet.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollpunkter:</strong> Amplituden är 2 och perioden \\(\\pi\\).</p></li><li><p>Minvärdet \\(-2\\) fås vid \\(x=0,\\pi,2\\pi\\) och maxvärdet 2 vid \\(x=\\pi/2,3\\pi/2\\).</p></li><li><p>Markera först medellinje, amplitud och period.</p></li><li><p>Placera därefter maxpunkter, minpunkter och nollställen och dra en jämn trigonometrisk kurva genom punkterna.</p></li></ol><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facit till trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text><polyline points=\"58.0,213.4 58.8,213.4 59.6,213.3 60.5,213.2 61.3,213.1 62.1,212.9 62.9,212.7 63.7,212.4 64.6,212.1 65.4,211.7 66.2,211.3 67.0,210.9 67.8,210.4 68.7,209.9 69.5,209.3 70.3,208.7 71.1,208.0 71.9,207.4 72.8,206.6 73.6,205.9 74.4,205.1 75.2,204.3 76.0,203.4 76.9,202.5 77.7,201.5 78.5,200.6 79.3,199.5 80.1,198.5 81.0,197.4 81.8,196.3 82.6,195.2 83.4,194.0 84.2,192.8 85.1,191.5 85.9,190.3 86.7,189.0 87.5,187.7 88.3,186.3 89.2,184.9 90.0,183.5 90.8,182.1 91.6,180.7 92.4,179.2 93.3,177.7 94.1,176.2 94.9,174.7 95.7,173.2 96.5,171.6 97.4,170.0 98.2,168.4 99.0,166.8 99.8,165.2 100.6,163.6 101.5,161.9 102.3,160.3 103.1,158.6 103.9,157.0 104.7,155.3 105.6,153.6 106.4,151.9 107.2,150.2 108.0,148.5 108.8,146.8 109.7,145.2 110.5,143.5 111.3,141.8 112.1,140.1 112.9,138.4 113.8,136.7 114.6,135.0 115.4,133.4 116.2,131.7 117.0,130.1 117.9,128.4 118.7,126.8 119.5,125.2 120.3,123.6 121.1,122.0 122.0,120.4 122.8,118.8 123.6,117.3 124.4,115.8 125.2,114.3 126.1,112.8 126.9,111.3 127.7,109.9 128.5,108.5 129.3,107.1 130.2,105.7 131.0,104.3 131.8,103.0 132.6,101.7 133.4,100.5 134.3,99.2 135.1,98.0 135.9,96.8 136.7,95.7 137.5,94.6 138.4,93.5 139.2,92.5 140.0,91.4 140.8,90.5 141.6,89.5 142.5,88.6 143.3,87.7 144.1,86.9 144.9,86.1 145.7,85.4 146.6,84.6 147.4,84.0 148.2,83.3 149.0,82.7 149.8,82.1 150.7,81.6 151.5,81.1 152.3,80.7 153.1,80.3 153.9,79.9 154.8,79.6 155.6,79.3 156.4,79.1 157.2,78.9 158.0,78.8 158.9,78.7 159.7,78.6 160.5,78.6 161.3,78.6 162.1,78.7 163.0,78.8 163.8,78.9 164.6,79.1 165.4,79.3 166.2,79.6 167.1,79.9 167.9,80.3 168.7,80.7 169.5,81.1 170.3,81.6 171.2,82.1 172.0,82.7 172.8,83.3 173.6,84.0 174.4,84.6 175.3,85.4 176.1,86.1 176.9,86.9 177.7,87.7 178.5,88.6 179.4,89.5 180.2,90.5 181.0,91.4 181.8,92.5 182.6,93.5 183.5,94.6 184.3,95.7 185.1,96.8 185.9,98.0 186.7,99.2 187.6,100.5 188.4,101.7 189.2,103.0 190.0,104.3 190.8,105.7 191.7,107.1 192.5,108.5 193.3,109.9 194.1,111.3 194.9,112.8 195.8,114.3 196.6,115.8 197.4,117.3 198.2,118.8 199.0,120.4 199.9,122.0 200.7,123.6 201.5,125.2 202.3,126.8 203.1,128.4 204.0,130.1 204.8,131.7 205.6,133.4 206.4,135.0 207.2,136.7 208.1,138.4 208.9,140.1 209.7,141.8 210.5,143.5 211.3,145.2 212.2,146.8 213.0,148.5 213.8,150.2 214.6,151.9 215.4,153.6 216.3,155.3 217.1,157.0 217.9,158.6 218.7,160.3 219.5,161.9 220.4,163.6 221.2,165.2 222.0,166.8 222.8,168.4 223.6,170.0 224.5,171.6 225.3,173.2 226.1,174.7 226.9,176.2 227.7,177.7 228.6,179.2 229.4,180.7 230.2,182.1 231.0,183.5 231.8,184.9 232.7,186.3 233.5,187.7 234.3,189.0 235.1,190.3 235.9,191.5 236.8,192.8 237.6,194.0 238.4,195.2 239.2,196.3 240.0,197.4 240.9,198.5 241.7,199.5 242.5,200.6 243.3,201.5 244.1,202.5 245.0,203.4 245.8,204.3 246.6,205.1 247.4,205.9 248.2,206.6 249.1,207.4 249.9,208.0 250.7,208.7 251.5,209.3 252.3,209.9 253.2,210.4 254.0,210.9 254.8,211.3 255.6,211.7 256.4,212.1 257.3,212.4 258.1,212.7 258.9,212.9 259.7,213.1 260.5,213.2 261.4,213.3 262.2,213.4 263.0,213.4 263.8,213.4 264.6,213.3 265.5,213.2 266.3,213.1 267.1,212.9 267.9,212.7 268.7,212.4 269.6,212.1 270.4,211.7 271.2,211.3 272.0,210.9 272.8,210.4 273.7,209.9 274.5,209.3 275.3,208.7 276.1,208.0 276.9,207.4 277.8,206.6 278.6,205.9 279.4,205.1 280.2,204.3 281.0,203.4 281.9,202.5 282.7,201.5 283.5,200.6 284.3,199.5 285.1,198.5 286.0,197.4 286.8,196.3 287.6,195.2 288.4,194.0 289.2,192.8 290.1,191.5 290.9,190.3 291.7,189.0 292.5,187.7 293.3,186.3 294.2,184.9 295.0,183.5 295.8,182.1 296.6,180.7 297.4,179.2 298.3,177.7 299.1,176.2 299.9,174.7 300.7,173.2 301.5,171.6 302.4,170.0 303.2,168.4 304.0,166.8 304.8,165.2 305.6,163.6 306.5,161.9 307.3,160.3 308.1,158.6 308.9,157.0 309.7,155.3 310.6,153.6 311.4,151.9 312.2,150.2 313.0,148.5 313.8,146.8 314.7,145.2 315.5,143.5 316.3,141.8 317.1,140.1 317.9,138.4 318.8,136.7 319.6,135.0 320.4,133.4 321.2,131.7 322.0,130.1 322.9,128.4 323.7,126.8 324.5,125.2 325.3,123.6 326.1,122.0 327.0,120.4 327.8,118.8 328.6,117.3 329.4,115.8 330.2,114.3 331.1,112.8 331.9,111.3 332.7,109.9 333.5,108.5 334.3,107.1 335.2,105.7 336.0,104.3 336.8,103.0 337.6,101.7 338.4,100.5 339.3,99.2 340.1,98.0 340.9,96.8 341.7,95.7 342.5,94.6 343.4,93.5 344.2,92.5 345.0,91.4 345.8,90.5 346.6,89.5 347.5,88.6 348.3,87.7 349.1,86.9 349.9,86.1 350.7,85.4 351.6,84.6 352.4,84.0 353.2,83.3 354.0,82.7 354.8,82.1 355.7,81.6 356.5,81.1 357.3,80.7 358.1,80.3 358.9,79.9 359.8,79.6 360.6,79.3 361.4,79.1 362.2,78.9 363.0,78.8 363.9,78.7 364.7,78.6 365.5,78.6 366.3,78.6 367.1,78.7 368.0,78.8 368.8,78.9 369.6,79.1 370.4,79.3 371.2,79.6 372.1,79.9 372.9,80.3 373.7,80.7 374.5,81.1 375.3,81.6 376.2,82.1 377.0,82.7 377.8,83.3 378.6,84.0 379.4,84.6 380.3,85.4 381.1,86.1 381.9,86.9 382.7,87.7 383.5,88.6 384.4,89.5 385.2,90.5 386.0,91.4 386.8,92.5 387.6,93.5 388.5,94.6 389.3,95.7 390.1,96.8 390.9,98.0 391.7,99.2 392.6,100.5 393.4,101.7 394.2,103.0 395.0,104.3 395.8,105.7 396.7,107.1 397.5,108.5 398.3,109.9 399.1,111.3 399.9,112.8 400.8,114.3 401.6,115.8 402.4,117.3 403.2,118.8 404.0,120.4 404.9,122.0 405.7,123.6 406.5,125.2 407.3,126.8 408.1,128.4 409.0,130.1 409.8,131.7 410.6,133.4 411.4,135.0 412.2,136.7 413.1,138.4 413.9,140.1 414.7,141.8 415.5,143.5 416.3,145.2 417.2,146.8 418.0,148.5 418.8,150.2 419.6,151.9 420.4,153.6 421.3,155.3 422.1,157.0 422.9,158.6 423.7,160.3 424.5,161.9 425.4,163.6 426.2,165.2 427.0,166.8 427.8,168.4 428.6,170.0 429.5,171.6 430.3,173.2 431.1,174.7 431.9,176.2 432.7,177.7 433.6,179.2 434.4,180.7 435.2,182.1 436.0,183.5 436.8,184.9 437.7,186.3 438.5,187.7 439.3,189.0 440.1,190.3 440.9,191.5 441.8,192.8 442.6,194.0 443.4,195.2 444.2,196.3 445.0,197.4 445.9,198.5 446.7,199.5 447.5,200.6 448.3,201.5 449.1,202.5 450.0,203.4 450.8,204.3 451.6,205.1 452.4,205.9 453.2,206.6 454.1,207.4 454.9,208.0 455.7,208.7 456.5,209.3 457.3,209.9 458.2,210.4 459.0,210.9 459.8,211.3 460.6,211.7 461.4,212.1 462.3,212.4 463.1,212.7 463.9,212.9 464.7,213.1 465.5,213.2 466.4,213.3 467.2,213.4 468.0,213.4\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/></svg></span></div>",
     "familj": "Skissa trigonometriska grafer",
     "formaga": [
@@ -19694,7 +19695,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skissa kurvan \\(y=3\\sin(x/2)-1\\) i koordinatsystemet.</p><p>för \\(0\\le x\\le4\\pi\\)</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"330\" viewBox=\"0 0 500 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"266.1\" x2=\"468\" y2=\"266.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"270.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-4</text><line x1=\"58\" y1=\"234.4\" x2=\"468\" y2=\"234.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"238.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"202.6\" x2=\"468\" y2=\"202.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"206.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"170.9\" x2=\"468\" y2=\"170.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"174.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"139.1\" x2=\"468\" y2=\"139.1\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"107.4\" x2=\"468\" y2=\"107.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"111.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"75.6\" x2=\"468\" y2=\"75.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"79.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"43.9\" x2=\"468\" y2=\"43.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"282\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"302\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"282\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"302\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"282\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"302\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"282\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"302\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"282\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"302\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4π</text><path d=\"M468 139.1 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"131.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
+    "t": "<p>Skissa kurvan \\(y=3\\sin(x/2)-1\\) för \\(0\\le x\\le4\\pi\\) i koordinatsystemet.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"330\" viewBox=\"0 0 500 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"266.1\" x2=\"468\" y2=\"266.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"270.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-4</text><line x1=\"58\" y1=\"234.4\" x2=\"468\" y2=\"234.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"238.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"202.6\" x2=\"468\" y2=\"202.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"206.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"170.9\" x2=\"468\" y2=\"170.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"174.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"139.1\" x2=\"468\" y2=\"139.1\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"107.4\" x2=\"468\" y2=\"107.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"111.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"75.6\" x2=\"468\" y2=\"75.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"79.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"43.9\" x2=\"468\" y2=\"43.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"282\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"302\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"282\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"302\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"282\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"302\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"282\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"302\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"282\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"302\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4π</text><path d=\"M468 139.1 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"131.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollpunkter:</strong> Medellinjen är \\(y=-1\\), amplituden 3 och perioden \\(4\\pi\\).</p></li><li><p>Maximum är 2 vid \\(x=\\pi\\) och minimum är \\(-4\\) vid \\(x=3\\pi\\).</p></li><li><p>Markera först medellinje, amplitud och period.</p></li><li><p>Placera därefter maxpunkter, minpunkter och nollställen och dra en jämn trigonometrisk kurva genom punkterna.</p></li></ol><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"330\" viewBox=\"0 0 500 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facit till trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"268.0\" x2=\"468\" y2=\"268.0\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"272.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-4</text><line x1=\"58\" y1=\"236.0\" x2=\"468\" y2=\"236.0\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"240.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"204.0\" x2=\"468\" y2=\"204.0\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"208.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"172.0\" x2=\"468\" y2=\"172.0\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"176.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"140.0\" x2=\"468\" y2=\"140.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"108.0\" x2=\"468\" y2=\"108.0\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"112.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"76.0\" x2=\"468\" y2=\"76.0\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"80.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.0\" x2=\"468\" y2=\"44.0\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"284\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"304\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"284\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"304\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"284\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"304\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"284\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"304\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"284\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"304\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4π</text><path d=\"M468 140.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"132.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text><polyline points=\"58.0,172.0 58.8,170.8 59.6,169.6 60.5,168.4 61.3,167.2 62.1,166.0 62.9,164.8 63.7,163.6 64.6,162.4 65.4,161.2 66.2,160.0 67.0,158.8 67.8,157.6 68.7,156.4 69.5,155.2 70.3,154.0 71.1,152.8 71.9,151.6 72.8,150.5 73.6,149.3 74.4,148.1 75.2,147.0 76.0,145.8 76.9,144.6 77.7,143.5 78.5,142.3 79.3,141.2 80.1,140.0 81.0,138.9 81.8,137.8 82.6,136.7 83.4,135.5 84.2,134.4 85.1,133.3 85.9,132.2 86.7,131.1 87.5,130.0 88.3,129.0 89.2,127.9 90.0,126.8 90.8,125.8 91.6,124.7 92.4,123.7 93.3,122.6 94.1,121.6 94.9,120.6 95.7,119.5 96.5,118.5 97.4,117.5 98.2,116.6 99.0,115.6 99.8,114.6 100.6,113.6 101.5,112.7 102.3,111.7 103.1,110.8 103.9,109.9 104.7,109.0 105.6,108.1 106.4,107.2 107.2,106.3 108.0,105.4 108.8,104.5 109.7,103.7 110.5,102.9 111.3,102.0 112.1,101.2 112.9,100.4 113.8,99.6 114.6,98.8 115.4,98.0 116.2,97.3 117.0,96.5 117.9,95.8 118.7,95.0 119.5,94.3 120.3,93.6 121.1,92.9 122.0,92.3 122.8,91.6 123.6,90.9 124.4,90.3 125.2,89.7 126.1,89.1 126.9,88.5 127.7,87.9 128.5,87.3 129.3,86.7 130.2,86.2 131.0,85.7 131.8,85.1 132.6,84.6 133.4,84.1 134.3,83.7 135.1,83.2 135.9,82.7 136.7,82.3 137.5,81.9 138.4,81.5 139.2,81.1 140.0,80.7 140.8,80.3 141.6,80.0 142.5,79.6 143.3,79.3 144.1,79.0 144.9,78.7 145.7,78.4 146.6,78.2 147.4,77.9 148.2,77.7 149.0,77.5 149.8,77.3 150.7,77.1 151.5,76.9 152.3,76.8 153.1,76.6 153.9,76.5 154.8,76.4 155.6,76.3 156.4,76.2 157.2,76.1 158.0,76.1 158.9,76.0 159.7,76.0 160.5,76.0 161.3,76.0 162.1,76.0 163.0,76.1 163.8,76.1 164.6,76.2 165.4,76.3 166.2,76.4 167.1,76.5 167.9,76.6 168.7,76.8 169.5,76.9 170.3,77.1 171.2,77.3 172.0,77.5 172.8,77.7 173.6,77.9 174.4,78.2 175.3,78.4 176.1,78.7 176.9,79.0 177.7,79.3 178.5,79.6 179.4,80.0 180.2,80.3 181.0,80.7 181.8,81.1 182.6,81.5 183.5,81.9 184.3,82.3 185.1,82.7 185.9,83.2 186.7,83.7 187.6,84.1 188.4,84.6 189.2,85.1 190.0,85.7 190.8,86.2 191.7,86.7 192.5,87.3 193.3,87.9 194.1,88.5 194.9,89.1 195.8,89.7 196.6,90.3 197.4,90.9 198.2,91.6 199.0,92.3 199.9,92.9 200.7,93.6 201.5,94.3 202.3,95.0 203.1,95.8 204.0,96.5 204.8,97.3 205.6,98.0 206.4,98.8 207.2,99.6 208.1,100.4 208.9,101.2 209.7,102.0 210.5,102.9 211.3,103.7 212.2,104.5 213.0,105.4 213.8,106.3 214.6,107.2 215.4,108.1 216.3,109.0 217.1,109.9 217.9,110.8 218.7,111.7 219.5,112.7 220.4,113.6 221.2,114.6 222.0,115.6 222.8,116.6 223.6,117.5 224.5,118.5 225.3,119.5 226.1,120.6 226.9,121.6 227.7,122.6 228.6,123.7 229.4,124.7 230.2,125.8 231.0,126.8 231.8,127.9 232.7,129.0 233.5,130.0 234.3,131.1 235.1,132.2 235.9,133.3 236.8,134.4 237.6,135.5 238.4,136.7 239.2,137.8 240.0,138.9 240.9,140.0 241.7,141.2 242.5,142.3 243.3,143.5 244.1,144.6 245.0,145.8 245.8,147.0 246.6,148.1 247.4,149.3 248.2,150.5 249.1,151.6 249.9,152.8 250.7,154.0 251.5,155.2 252.3,156.4 253.2,157.6 254.0,158.8 254.8,160.0 255.6,161.2 256.4,162.4 257.3,163.6 258.1,164.8 258.9,166.0 259.7,167.2 260.5,168.4 261.4,169.6 262.2,170.8 263.0,172.0 263.8,173.2 264.6,174.4 265.5,175.6 266.3,176.8 267.1,178.0 267.9,179.2 268.7,180.4 269.6,181.6 270.4,182.8 271.2,184.0 272.0,185.2 272.8,186.4 273.7,187.6 274.5,188.8 275.3,190.0 276.1,191.2 276.9,192.4 277.8,193.5 278.6,194.7 279.4,195.9 280.2,197.0 281.0,198.2 281.9,199.4 282.7,200.5 283.5,201.7 284.3,202.8 285.1,204.0 286.0,205.1 286.8,206.2 287.6,207.3 288.4,208.5 289.2,209.6 290.1,210.7 290.9,211.8 291.7,212.9 292.5,214.0 293.3,215.0 294.2,216.1 295.0,217.2 295.8,218.2 296.6,219.3 297.4,220.3 298.3,221.4 299.1,222.4 299.9,223.4 300.7,224.5 301.5,225.5 302.4,226.5 303.2,227.4 304.0,228.4 304.8,229.4 305.6,230.4 306.5,231.3 307.3,232.3 308.1,233.2 308.9,234.1 309.7,235.0 310.6,235.9 311.4,236.8 312.2,237.7 313.0,238.6 313.8,239.5 314.7,240.3 315.5,241.1 316.3,242.0 317.1,242.8 317.9,243.6 318.8,244.4 319.6,245.2 320.4,246.0 321.2,246.7 322.0,247.5 322.9,248.2 323.7,249.0 324.5,249.7 325.3,250.4 326.1,251.1 327.0,251.7 327.8,252.4 328.6,253.1 329.4,253.7 330.2,254.3 331.1,254.9 331.9,255.5 332.7,256.1 333.5,256.7 334.3,257.3 335.2,257.8 336.0,258.3 336.8,258.9 337.6,259.4 338.4,259.9 339.3,260.3 340.1,260.8 340.9,261.3 341.7,261.7 342.5,262.1 343.4,262.5 344.2,262.9 345.0,263.3 345.8,263.7 346.6,264.0 347.5,264.4 348.3,264.7 349.1,265.0 349.9,265.3 350.7,265.6 351.6,265.8 352.4,266.1 353.2,266.3 354.0,266.5 354.8,266.7 355.7,266.9 356.5,267.1 357.3,267.2 358.1,267.4 358.9,267.5 359.8,267.6 360.6,267.7 361.4,267.8 362.2,267.9 363.0,267.9 363.9,268.0 364.7,268.0 365.5,268.0 366.3,268.0 367.1,268.0 368.0,267.9 368.8,267.9 369.6,267.8 370.4,267.7 371.2,267.6 372.1,267.5 372.9,267.4 373.7,267.2 374.5,267.1 375.3,266.9 376.2,266.7 377.0,266.5 377.8,266.3 378.6,266.1 379.4,265.8 380.3,265.6 381.1,265.3 381.9,265.0 382.7,264.7 383.5,264.4 384.4,264.0 385.2,263.7 386.0,263.3 386.8,262.9 387.6,262.5 388.5,262.1 389.3,261.7 390.1,261.3 390.9,260.8 391.7,260.3 392.6,259.9 393.4,259.4 394.2,258.9 395.0,258.3 395.8,257.8 396.7,257.3 397.5,256.7 398.3,256.1 399.1,255.5 399.9,254.9 400.8,254.3 401.6,253.7 402.4,253.1 403.2,252.4 404.0,251.7 404.9,251.1 405.7,250.4 406.5,249.7 407.3,249.0 408.1,248.2 409.0,247.5 409.8,246.7 410.6,246.0 411.4,245.2 412.2,244.4 413.1,243.6 413.9,242.8 414.7,242.0 415.5,241.1 416.3,240.3 417.2,239.5 418.0,238.6 418.8,237.7 419.6,236.8 420.4,235.9 421.3,235.0 422.1,234.1 422.9,233.2 423.7,232.3 424.5,231.3 425.4,230.4 426.2,229.4 427.0,228.4 427.8,227.4 428.6,226.5 429.5,225.5 430.3,224.5 431.1,223.4 431.9,222.4 432.7,221.4 433.6,220.3 434.4,219.3 435.2,218.2 436.0,217.2 436.8,216.1 437.7,215.0 438.5,214.0 439.3,212.9 440.1,211.8 440.9,210.7 441.8,209.6 442.6,208.5 443.4,207.3 444.2,206.2 445.0,205.1 445.9,204.0 446.7,202.8 447.5,201.7 448.3,200.5 449.1,199.4 450.0,198.2 450.8,197.0 451.6,195.9 452.4,194.7 453.2,193.5 454.1,192.4 454.9,191.2 455.7,190.0 456.5,188.8 457.3,187.6 458.2,186.4 459.0,185.2 459.8,184.0 460.6,182.8 461.4,181.6 462.3,180.4 463.1,179.2 463.9,178.0 464.7,176.8 465.5,175.6 466.4,174.4 467.2,173.2 468.0,172.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/></svg></span></div>",
     "familj": "Skissa trigonometriska grafer",
     "formaga": [
@@ -19725,7 +19726,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skissa kurvan \\(y=1+2\\cos(x+\\pi/4)\\) i koordinatsystemet.</p><p>för \\(0\\le x\\le2\\pi\\)</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
+    "t": "<p>Skissa kurvan \\(y=1+2\\cos(x+\\pi/4)\\) för \\(0\\le x\\le2\\pi\\) i koordinatsystemet.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem för att skissa en trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kontrollpunkter:</strong> Medellinjen är \\(y=1\\), amplituden 2 och perioden \\(2\\pi\\).</p></li><li><p>Grafen är förskjuten \\(\\pi/4\\) åt vänster.</p></li><li><p>I intervallet fås minimum vid \\(x=3\\pi/4\\) och maximum vid \\(x=7\\pi/4\\).</p></li><li><p>Markera först medellinje, amplitud och period.</p></li><li><p>Placera därefter maxpunkter, minpunkter och nollställen och dra en jämn trigonometrisk kurva genom punkterna.</p></li></ol><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"310\" viewBox=\"0 0 500 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facit till trigonometrisk graf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"247.1\" x2=\"468\" y2=\"247.1\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"58\" y1=\"213.4\" x2=\"468\" y2=\"213.4\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"58\" y1=\"179.7\" x2=\"468\" y2=\"179.7\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"58\" y1=\"146.0\" x2=\"468\" y2=\"146.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"58\" y1=\"112.3\" x2=\"468\" y2=\"112.3\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"116.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"58\" y1=\"78.6\" x2=\"468\" y2=\"78.6\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"82.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"58\" y1=\"44.9\" x2=\"468\" y2=\"44.9\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"49\" y=\"48.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"58.0\" y1=\"28\" x2=\"58.0\" y2=\"264\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><text x=\"58.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">0</text><line x1=\"160.5\" y1=\"28\" x2=\"160.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"160.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π/2</text><line x1=\"263.0\" y1=\"28\" x2=\"263.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"263.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">π</text><line x1=\"365.5\" y1=\"28\" x2=\"365.5\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"365.5\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3π/2</text><line x1=\"468.0\" y1=\"28\" x2=\"468.0\" y2=\"264\" stroke=\"#DDE5E8\" stroke-width=\"1\"/><text x=\"468.0\" y=\"284\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2π</text><path d=\"M468 146.0 l-9 -5 v10 z\" fill=\"#2B2527\"/><path d=\"M58.0 28 l-5 9 h10 z\" fill=\"#2B2527\"/><text x=\"464\" y=\"138.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"67.0\" y=\"41\" font-family=\"sans-serif\" font-size=\"11\">y</text><polyline points=\"58.0,64.6 58.8,65.2 59.6,65.8 60.5,66.4 61.3,67.1 62.1,67.7 62.9,68.3 63.7,69.0 64.6,69.6 65.4,70.3 66.2,71.0 67.0,71.6 67.8,72.3 68.7,73.0 69.5,73.7 70.3,74.4 71.1,75.1 71.9,75.8 72.8,76.5 73.6,77.2 74.4,78.0 75.2,78.7 76.0,79.4 76.9,80.2 77.7,80.9 78.5,81.7 79.3,82.4 80.1,83.2 81.0,84.0 81.8,84.7 82.6,85.5 83.4,86.3 84.2,87.1 85.1,87.9 85.9,88.6 86.7,89.4 87.5,90.2 88.3,91.0 89.2,91.9 90.0,92.7 90.8,93.5 91.6,94.3 92.4,95.1 93.3,95.9 94.1,96.8 94.9,97.6 95.7,98.4 96.5,99.2 97.4,100.1 98.2,100.9 99.0,101.7 99.8,102.6 100.6,103.4 101.5,104.3 102.3,105.1 103.1,105.9 103.9,106.8 104.7,107.6 105.6,108.5 106.4,109.3 107.2,110.2 108.0,111.0 108.8,111.9 109.7,112.7 110.5,113.6 111.3,114.4 112.1,115.3 112.9,116.1 113.8,116.9 114.6,117.8 115.4,118.6 116.2,119.5 117.0,120.3 117.9,121.2 118.7,122.0 119.5,122.8 120.3,123.7 121.1,124.5 122.0,125.3 122.8,126.2 123.6,127.0 124.4,127.8 125.2,128.6 126.1,129.5 126.9,130.3 127.7,131.1 128.5,131.9 129.3,132.7 130.2,133.5 131.0,134.3 131.8,135.1 132.6,135.9 133.4,136.7 134.3,137.5 135.1,138.3 135.9,139.1 136.7,139.8 137.5,140.6 138.4,141.4 139.2,142.1 140.0,142.9 140.8,143.7 141.6,144.4 142.5,145.1 143.3,145.9 144.1,146.6 144.9,147.3 145.7,148.1 146.6,148.8 147.4,149.5 148.2,150.2 149.0,150.9 149.8,151.6 150.7,152.3 151.5,152.9 152.3,153.6 153.1,154.3 153.9,154.9 154.8,155.6 155.6,156.2 156.4,156.9 157.2,157.5 158.0,158.1 158.9,158.8 159.7,159.4 160.5,160.0 161.3,160.6 162.1,161.1 163.0,161.7 163.8,162.3 164.6,162.9 165.4,163.4 166.2,164.0 167.1,164.5 167.9,165.0 168.7,165.6 169.5,166.1 170.3,166.6 171.2,167.1 172.0,167.6 172.8,168.1 173.6,168.5 174.4,169.0 175.3,169.4 176.1,169.9 176.9,170.3 177.7,170.8 178.5,171.2 179.4,171.6 180.2,172.0 181.0,172.4 181.8,172.7 182.6,173.1 183.5,173.5 184.3,173.8 185.1,174.2 185.9,174.5 186.7,174.8 187.6,175.1 188.4,175.4 189.2,175.7 190.0,176.0 190.8,176.3 191.7,176.5 192.5,176.8 193.3,177.0 194.1,177.3 194.9,177.5 195.8,177.7 196.6,177.9 197.4,178.1 198.2,178.3 199.0,178.4 199.9,178.6 200.7,178.7 201.5,178.9 202.3,179.0 203.1,179.1 204.0,179.2 204.8,179.3 205.6,179.4 206.4,179.5 207.2,179.6 208.1,179.6 208.9,179.6 209.7,179.7 210.5,179.7 211.3,179.7 212.2,179.7 213.0,179.7 213.8,179.7 214.6,179.6 215.4,179.6 216.3,179.6 217.1,179.5 217.9,179.4 218.7,179.3 219.5,179.2 220.4,179.1 221.2,179.0 222.0,178.9 222.8,178.7 223.6,178.6 224.5,178.4 225.3,178.3 226.1,178.1 226.9,177.9 227.7,177.7 228.6,177.5 229.4,177.3 230.2,177.0 231.0,176.8 231.8,176.5 232.7,176.3 233.5,176.0 234.3,175.7 235.1,175.4 235.9,175.1 236.8,174.8 237.6,174.5 238.4,174.2 239.2,173.8 240.0,173.5 240.9,173.1 241.7,172.7 242.5,172.4 243.3,172.0 244.1,171.6 245.0,171.2 245.8,170.8 246.6,170.3 247.4,169.9 248.2,169.4 249.1,169.0 249.9,168.5 250.7,168.1 251.5,167.6 252.3,167.1 253.2,166.6 254.0,166.1 254.8,165.6 255.6,165.0 256.4,164.5 257.3,164.0 258.1,163.4 258.9,162.9 259.7,162.3 260.5,161.7 261.4,161.1 262.2,160.6 263.0,160.0 263.8,159.4 264.6,158.8 265.5,158.1 266.3,157.5 267.1,156.9 267.9,156.2 268.7,155.6 269.6,154.9 270.4,154.3 271.2,153.6 272.0,152.9 272.8,152.3 273.7,151.6 274.5,150.9 275.3,150.2 276.1,149.5 276.9,148.8 277.8,148.1 278.6,147.3 279.4,146.6 280.2,145.9 281.0,145.1 281.9,144.4 282.7,143.7 283.5,142.9 284.3,142.1 285.1,141.4 286.0,140.6 286.8,139.8 287.6,139.1 288.4,138.3 289.2,137.5 290.1,136.7 290.9,135.9 291.7,135.1 292.5,134.3 293.3,133.5 294.2,132.7 295.0,131.9 295.8,131.1 296.6,130.3 297.4,129.5 298.3,128.6 299.1,127.8 299.9,127.0 300.7,126.2 301.5,125.3 302.4,124.5 303.2,123.7 304.0,122.8 304.8,122.0 305.6,121.2 306.5,120.3 307.3,119.5 308.1,118.6 308.9,117.8 309.7,116.9 310.6,116.1 311.4,115.3 312.2,114.4 313.0,113.6 313.8,112.7 314.7,111.9 315.5,111.0 316.3,110.2 317.1,109.3 317.9,108.5 318.8,107.6 319.6,106.8 320.4,105.9 321.2,105.1 322.0,104.3 322.9,103.4 323.7,102.6 324.5,101.7 325.3,100.9 326.1,100.1 327.0,99.2 327.8,98.4 328.6,97.6 329.4,96.8 330.2,95.9 331.1,95.1 331.9,94.3 332.7,93.5 333.5,92.7 334.3,91.9 335.2,91.0 336.0,90.2 336.8,89.4 337.6,88.6 338.4,87.9 339.3,87.1 340.1,86.3 340.9,85.5 341.7,84.7 342.5,84.0 343.4,83.2 344.2,82.4 345.0,81.7 345.8,80.9 346.6,80.2 347.5,79.4 348.3,78.7 349.1,78.0 349.9,77.2 350.7,76.5 351.6,75.8 352.4,75.1 353.2,74.4 354.0,73.7 354.8,73.0 355.7,72.3 356.5,71.6 357.3,71.0 358.1,70.3 358.9,69.6 359.8,69.0 360.6,68.3 361.4,67.7 362.2,67.1 363.0,66.4 363.9,65.8 364.7,65.2 365.5,64.6 366.3,64.0 367.1,63.4 368.0,62.8 368.8,62.3 369.6,61.7 370.4,61.2 371.2,60.6 372.1,60.1 372.9,59.5 373.7,59.0 374.5,58.5 375.3,58.0 376.2,57.5 377.0,57.0 377.8,56.5 378.6,56.0 379.4,55.6 380.3,55.1 381.1,54.7 381.9,54.2 382.7,53.8 383.5,53.4 384.4,53.0 385.2,52.6 386.0,52.2 386.8,51.8 387.6,51.5 388.5,51.1 389.3,50.7 390.1,50.4 390.9,50.1 391.7,49.7 392.6,49.4 393.4,49.1 394.2,48.8 395.0,48.6 395.8,48.3 396.7,48.0 397.5,47.8 398.3,47.5 399.1,47.3 399.9,47.1 400.8,46.9 401.6,46.7 402.4,46.5 403.2,46.3 404.0,46.1 404.9,46.0 405.7,45.8 406.5,45.7 407.3,45.6 408.1,45.4 409.0,45.3 409.8,45.2 410.6,45.2 411.4,45.1 412.2,45.0 413.1,45.0 413.9,44.9 414.7,44.9 415.5,44.9 416.3,44.9 417.2,44.9 418.0,44.9 418.8,44.9 419.6,44.9 420.4,45.0 421.3,45.0 422.1,45.1 422.9,45.2 423.7,45.2 424.5,45.3 425.4,45.4 426.2,45.6 427.0,45.7 427.8,45.8 428.6,46.0 429.5,46.1 430.3,46.3 431.1,46.5 431.9,46.7 432.7,46.9 433.6,47.1 434.4,47.3 435.2,47.5 436.0,47.8 436.8,48.0 437.7,48.3 438.5,48.6 439.3,48.8 440.1,49.1 440.9,49.4 441.8,49.7 442.6,50.1 443.4,50.4 444.2,50.7 445.0,51.1 445.9,51.5 446.7,51.8 447.5,52.2 448.3,52.6 449.1,53.0 450.0,53.4 450.8,53.8 451.6,54.2 452.4,54.7 453.2,55.1 454.1,55.6 454.9,56.0 455.7,56.5 456.5,57.0 457.3,57.5 458.2,58.0 459.0,58.5 459.8,59.0 460.6,59.5 461.4,60.1 462.3,60.6 463.1,61.2 463.9,61.7 464.7,62.3 465.5,62.8 466.4,63.4 467.2,64.0 468.0,64.6\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/></svg></span></div>",
     "familj": "Skissa trigonometriska grafer",
     "formaga": [
@@ -20442,7 +20443,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För funktionen \\(f(x)=3\\sin(2x-\\pi/2)-1\\), bestäm</p><p>a) amplituden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden i radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) medellinjen<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) funktionens största och minsta värde</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=3\\sin(2x-\\pi/2)-1\\).</p><p>a) Bestäm amplituden.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm perioden i radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm medellinjen.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm funktionens största och minsta värde.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Amplituden är <strong>3</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Perioden är \\(2\\pi/2=\\)<strong>\\(\\pi\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medellinjen är <strong>\\(y=-1\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdemängden är \\(-1-3\\le f(x)\\le -1+3\\), alltså <strong>min −4 och max 2</strong>.</p></li></ol></div></div></div>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
@@ -20494,7 +20495,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>amplituden</p>",
+        "fraga": "<p>Bestäm amplituden.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Amplituden är 3 .</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -20503,7 +20504,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>perioden i radianer</p>",
+        "fraga": "<p>Bestäm perioden i radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Perioden är \\(2\\pi/2=\\) \\(\\pi\\) .</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -20512,7 +20513,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>medellinjen</p>",
+        "fraga": "<p>Bestäm medellinjen.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Medellinjen är</p><div class=\"facit-matte\">\\[y=-1\\].</div></div></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -20521,7 +20522,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>funktionens största och minsta värde</p>",
+        "fraga": "<p>Bestäm funktionens största och minsta värde.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdemängden är \\(-1-3\\le f(x)\\le -1+3\\), alltså min −4 och max 2 .</p></li></ol></div></div></div>",
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -20536,7 +20537,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
     "ledtrad": "<p>Amplituden är faktorn framför sinus, perioden \\(2\\pi/k\\) och medellinjen talet som läggs till. Största och minsta värdet ligger en amplitud från medellinjen.</p>",
-    "spelIntro": "<p>För funktionen \\(f(x)=3\\sin(2x-\\pi/2)-1\\), bestäm</p>",
+    "spelIntro": "<p>För funktionen \\(f\\) gäller att \\(f(x)=3\\sin(2x-\\pi/2)-1\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -20647,7 +20648,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För \\(f(x)=-2\\cos(3x)+4\\), bestäm</p><p>a) amplituden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden i radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) medellinjen<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) största och minsta värde</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=-2\\cos(3x)+4\\).</p><p>a) Bestäm amplituden.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm perioden i radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm medellinjen.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm funktionens största och minsta värde.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Amplituden är <strong>2</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Perioden är \\(2\\pi/3\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medellinjen är <strong>\\(y=4\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdemängden är \\(2\\le y\\le 6\\), alltså <strong>min 2 och max 6</strong>.</p></li></ol></div></div></div>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
@@ -20699,7 +20700,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>amplituden</p>",
+        "fraga": "<p>Bestäm amplituden.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Amplituden är 2 .</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -20708,7 +20709,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>perioden i radianer</p>",
+        "fraga": "<p>Bestäm perioden i radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Perioden är \\(2\\pi/3\\).</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -20717,7 +20718,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>medellinjen</p>",
+        "fraga": "<p>Bestäm medellinjen.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Medellinjen är</p><div class=\"facit-matte\">\\[y=4\\].</div></div></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -20726,7 +20727,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>största och minsta värde</p>",
+        "fraga": "<p>Bestäm funktionens största och minsta värde.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdemängden är \\(2\\le y\\le 6\\), alltså min 2 och max 6 .</p></li></ol></div></div></div>",
         "svarsstruktur": "ordnad",
         "svarEtiketter": [
@@ -20741,7 +20742,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "kurvor_radianer__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
     "ledtrad": "<p>Amplituden är beloppet av −2. Perioden är \\(2\\pi/3\\). Största och minsta värdet ligger en amplitud från medellinjen.</p>",
-    "spelIntro": "<p>För \\(f(x)=-2\\cos(3x)+4\\), bestäm</p>",
+    "spelIntro": "<p>För funktionen \\(f\\) gäller att \\(f(x)=-2\\cos(3x)+4\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -21122,7 +21123,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Omvandla.</p>\n<p>a) \\(30^\\circ\\) till radianer<br>\nb) \\(135^\\circ\\) till radianer<br>\nc) \\(\\frac{5\\pi}{6}\\) radianer till grader<br>\nd) \\(1{,}4\\) radianer till grader.</p>",
+    "t": "<p>Omvandla mellan grader och radianer.</p><p>a) Omvandla \\(30^\\circ\\) till radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Omvandla \\(135^\\circ\\) till radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Omvandla \\(\\frac{5\\pi}{6}\\) radianer till grader.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Omvandla \\(1{,}4\\) radianer till grader.</p>",
     "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(180^\\circ=\\pi\\) radianer.</p></li></ol>\n<div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[30^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\frac{\\pi}6\\].</div></li></ol></div></div>\n<div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[135^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\frac{3\\pi}4\\].</div></li></ol></div></div>\n<div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{5\\pi}6\\cdot\\frac{180^\\circ}{\\pi}=150^\\circ\\].</div></li></ol></div></div>\n<div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}4\\cdot\\frac{180^\\circ}{\\pi}\\approx 80{,}2^\\circ\\].</div></li></ol></div></div></div></div>",
     "familj": "Omvandling mellan grader och radianer",
@@ -21151,10 +21152,10 @@ window.BANKMATO2 = [
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
     "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Omvandla.</p>",
+    "spelIntro": "<p>Omvandla mellan grader och radianer.</p>",
     "spelDelar": [{
         "etikett": "a",
-        "fraga": "<p>\\(30^\\circ\\) till radianer</p>",
+        "fraga": "<p>Omvandla \\(30^\\circ\\) till radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[30^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\frac{\\pi}6\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -21164,7 +21165,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(135^\\circ\\) till radianer</p>",
+        "fraga": "<p>Omvandla \\(135^\\circ\\) till radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[135^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\frac{3\\pi}4\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -21174,7 +21175,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(\\frac{5\\pi}{6}\\) radianer till grader</p>",
+        "fraga": "<p>Omvandla \\(\\frac{5\\pi}{6}\\) radianer till grader.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{5\\pi}6\\cdot\\frac{180^\\circ}{\\pi}=150^\\circ\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -21184,7 +21185,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(1{,}4\\) radianer till grader. Avrunda till en decimal.</p>",
+        "fraga": "<p>Omvandla \\(1{,}4\\) radianer till grader.</p>",
+        "kgInstruktion": "Avrunda till en decimal.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}4\\cdot\\frac{180^\\circ}{\\pi}\\approx 80{,}2^\\circ\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -22486,7 +22488,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla.</p><p>a) \\(\\frac{7\\pi}{6}\\) rad till grader<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\frac{5\\pi}{3}\\) rad till grader<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(210^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(330^\\circ\\) till radianer</p>",
+    "t": "<p>Omvandla mellan grader och radianer.</p><p>a) Omvandla \\(\\frac{7\\pi}{6}\\) radianer till grader.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Omvandla \\(\\frac{5\\pi}{3}\\) radianer till grader.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Omvandla \\(210^\\circ\\) till radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Omvandla \\(330^\\circ\\) till radianer.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd sambandet \\(180^\\circ=\\pi\\) rad.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{7\\pi}{6}\\cdot\\frac{180^\\circ}{\\pi}=\\boxed{210^\\circ}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{5\\pi}{3}\\cdot\\frac{180^\\circ}{\\pi}=\\boxed{300^\\circ}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[210^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\boxed{7\\pi/6}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[330^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\boxed{11\\pi/6}\\].</div></li></ol></div></div></div></div>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
@@ -22528,7 +22530,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(\\frac{7\\pi}{6}\\) rad till grader</p>",
+        "fraga": "<p>Omvandla \\(\\frac{7\\pi}{6}\\) radianer till grader.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd sambandet \\(180^\\circ=\\pi\\) rad.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{7\\pi}{6}\\cdot\\frac{180^\\circ}{\\pi}=\\boxed{210^\\circ}\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -22537,7 +22539,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(\\frac{5\\pi}{3}\\) rad till grader</p>",
+        "fraga": "<p>Omvandla \\(\\frac{5\\pi}{3}\\) radianer till grader.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd sambandet \\(180^\\circ=\\pi\\) rad.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{5\\pi}{3}\\cdot\\frac{180^\\circ}{\\pi}=\\boxed{300^\\circ}\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -22546,7 +22548,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(210^\\circ\\) till radianer</p>",
+        "fraga": "<p>Omvandla \\(210^\\circ\\) till radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd sambandet \\(180^\\circ=\\pi\\) rad.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[210^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\boxed{7\\pi/6}\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -22555,7 +22557,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(330^\\circ\\) till radianer</p>",
+        "fraga": "<p>Omvandla \\(330^\\circ\\) till radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd sambandet \\(180^\\circ=\\pi\\) rad.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[330^\\circ\\cdot\\frac{\\pi}{180^\\circ}=\\boxed{11\\pi/6}\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -22565,7 +22567,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
     "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
-    "spelIntro": "<p>Omvandla.</p>",
+    "spelIntro": "<p>Omvandla mellan grader och radianer.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -23331,7 +23333,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Omvandla.</p><p>a) \\(210^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(315^\\circ\\) till radianer<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(7\\pi/10\\) radianer till grader<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(11\\pi/12\\) radianer till grader</p>",
+    "t": "<p>Omvandla mellan grader och radianer.</p><p>a) Omvandla \\(210^\\circ\\) till radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Omvandla \\(315^\\circ\\) till radianer.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Omvandla \\(7\\pi/10\\) radianer till grader.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Omvandla \\(11\\pi/12\\) radianer till grader.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formelbladet:</strong> \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(210\\pi/180=\\)<strong>\\(7\\pi/6\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(315\\pi/180=\\)<strong>\\(7\\pi/4\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(7\\cdot180/10=\\)<strong>\\(126^\\circ\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(11\\cdot180/12=\\)<strong>\\(165^\\circ\\)</strong>.</p></li></ol></div></div></div></div>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
@@ -23373,7 +23375,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(210^\\circ\\) till radianer</p>",
+        "fraga": "<p>Omvandla \\(210^\\circ\\) till radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formelbladet:</strong> \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(210\\pi/180=\\)<strong>\\(7\\pi/6\\)</strong>.</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23382,7 +23384,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(315^\\circ\\) till radianer</p>",
+        "fraga": "<p>Omvandla \\(315^\\circ\\) till radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formelbladet:</strong> \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(315\\pi/180=\\)<strong>\\(7\\pi/4\\)</strong>.</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23391,7 +23393,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(7\\pi/10\\) radianer till grader</p>",
+        "fraga": "<p>Omvandla \\(7\\pi/10\\) radianer till grader.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formelbladet:</strong> \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(7\\cdot180/10=\\)<strong>\\(126^\\circ\\)</strong>.</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23400,7 +23402,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(11\\pi/12\\) radianer till grader</p>",
+        "fraga": "<p>Omvandla \\(11\\pi/12\\) radianer till grader.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formelbladet:</strong> \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(11\\cdot180/12=\\)<strong>\\(165^\\circ\\)</strong>.</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23410,7 +23412,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "radianbegreppet__omvandling_mellan_grader_och_radianer",
     "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad. Från grader till radianer multiplicerar du med \\(\\pi/180^\\circ\\), åt andra hållet med \\(180^\\circ/\\pi\\).</p>",
-    "spelIntro": "<p>Omvandla.</p>",
+    "spelIntro": "<p>Omvandla mellan grader och radianer.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -23751,7 +23753,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>En cirkel har radien 10 cm. Bestäm båglängden för vinkeln</p><p>a) \\(\\pi/5\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\pi/2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(3\\pi/4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(1{,}2\\) rad</p>",
+    "t": "<p>En cirkel har radien 10 cm.</p><p>a) Bestäm båglängden när medelpunktsvinkeln är \\(\\pi/5\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm båglängden när medelpunktsvinkeln är \\(\\pi/2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm båglängden när medelpunktsvinkeln är \\(3\\pi/4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm båglängden när medelpunktsvinkeln är \\(1{,}2\\) radianer.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong></p><div class=\"facit-matte\">\\[b=vr\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(2\\pi\\approx6{,}28\\) cm</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(5\\pi\\approx15{,}7\\) cm</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(15\\pi/2\\approx23{,}6\\) cm</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>12 cm</strong>.</p></li></ol></div></div></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
@@ -23799,7 +23801,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(\\pi/5\\)</p>",
+        "fraga": "<p>Bestäm båglängden när medelpunktsvinkeln är \\(\\pi/5\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formelbladet:</p><div class=\"facit-matte\">\\[b=vr\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(2\\pi\\approx6{,}28\\) cm .</p></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23808,7 +23810,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(\\pi/2\\)</p>",
+        "fraga": "<p>Bestäm båglängden när medelpunktsvinkeln är \\(\\pi/2\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formelbladet:</p><div class=\"facit-matte\">\\[b=vr\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(5\\pi\\approx15{,}7\\) cm .</p></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23817,7 +23819,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(3\\pi/4\\)</p>",
+        "fraga": "<p>Bestäm båglängden när medelpunktsvinkeln är \\(3\\pi/4\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formelbladet:</p><div class=\"facit-matte\">\\[b=vr\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(15\\pi/2\\approx23{,}6\\) cm .</p></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23826,7 +23828,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(1{,}2\\) rad</p>",
+        "fraga": "<p>Bestäm båglängden när medelpunktsvinkeln är \\(1{,}2\\) radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formelbladet:</p><div class=\"facit-matte\">\\[b=vr\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>12 cm .</p></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23836,7 +23838,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
     "ledtrad": "<p>Med vinkeln v i radianer är båglängden \\(b=rv\\).</p>",
-    "spelIntro": "<p>En cirkel har radien 10 cm. Bestäm båglängden för vinkeln</p>",
+    "spelIntro": "<p>En cirkel har radien 10 cm.</p>",
     "traningsniva": 1,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -23885,7 +23887,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>En cirkel har radien 7 cm. Bestäm sektorarean när vinkeln är</p><p>a) \\(\\pi/6\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\pi/2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2\\pi/3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(1{,}5\\) rad</p>",
+    "t": "<p>En cirkel har radien 7 cm.</p><p>a) Bestäm sektorarean när medelpunktsvinkeln är \\(\\pi/6\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm sektorarean när medelpunktsvinkeln är \\(\\pi/2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm sektorarean när medelpunktsvinkeln är \\(2\\pi/3\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm sektorarean när medelpunktsvinkeln är \\(1{,}5\\) radianer.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong></p><div class=\"facit-matte\">\\[A=vr^2/2\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(49\\pi/12\\approx12{,}8\\) cm²</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(49\\pi/4\\approx38{,}5\\) cm²</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(49\\pi/3\\approx51{,}3\\) cm²</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>36,75 cm²</strong>.</p></li></ol></div></div></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
@@ -23933,7 +23935,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(\\pi/6\\)</p>",
+        "fraga": "<p>Bestäm sektorarean när medelpunktsvinkeln är \\(\\pi/6\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formelbladet:</p><div class=\"facit-matte\">\\[A=vr^2/2\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(49\\pi/12\\approx12{,}8\\) cm² .</p></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23942,7 +23944,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(\\pi/2\\)</p>",
+        "fraga": "<p>Bestäm sektorarean när medelpunktsvinkeln är \\(\\pi/2\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formelbladet:</p><div class=\"facit-matte\">\\[A=vr^2/2\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(49\\pi/4\\approx38{,}5\\) cm² .</p></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23951,7 +23953,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(2\\pi/3\\)</p>",
+        "fraga": "<p>Bestäm sektorarean när medelpunktsvinkeln är \\(2\\pi/3\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formelbladet:</p><div class=\"facit-matte\">\\[A=vr^2/2\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(49\\pi/3\\approx51{,}3\\) cm² .</p></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23960,7 +23962,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(1{,}5\\) rad</p>",
+        "fraga": "<p>Bestäm sektorarean när medelpunktsvinkeln är \\(1{,}5\\) radianer.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Formelbladet:</p><div class=\"facit-matte\">\\[A=vr^2/2\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>36,75 cm² .</p></li></ol></div></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -23970,7 +23972,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "cirkelsektorn__baglangd_sektorarea_och_radianer",
     "ledtrad": "<p>Med vinkeln v i radianer är sektorns area \\(A=\\frac{r^2v}{2}\\).</p>",
-    "spelIntro": "<p>En cirkel har radien 7 cm. Bestäm sektorarean när vinkeln är</p>",
+    "spelIntro": "<p>En cirkel har radien 7 cm.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -24591,7 +24593,7 @@ window.BANKMATO2 = [
     "niva": "E",
     "typ": "grader och radianer exakt",
     "poang": "4/0/0",
-    "t": "<p>Omvandla vinkeln.</p><ol type=\"a\"><li>\\(165^\\circ\\) till radianer</li><li>\\(-110^\\circ\\) till radianer</li><li>\\(\\dfrac{5\\pi}{12}\\) till grader</li><li>\\(-\\dfrac{33\\pi}{4}\\) till grader</li></ol>",
+    "t": "<p>Omvandla mellan grader och radianer.</p><ol type=\"a\"><li>Omvandla \\(165^\\circ\\) till radianer.</li><li>Omvandla \\(-110^\\circ\\) till radianer.</li><li>Omvandla \\(\\dfrac{5\\pi}{12}\\) radianer till grader.</li><li>Omvandla \\(-\\dfrac{33\\pi}{4}\\) radianer till grader.</li></ol>",
     "kgInstruktion": "Svara exakt.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[165\\cdot\\dfrac{\\pi}{180}=\\dfrac{11\\pi}{12}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{11\\pi}{12}\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-110\\cdot\\dfrac{\\pi}{180}=-\\dfrac{11\\pi}{18}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{11\\pi}{18}\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{5\\pi}{12}\\cdot\\dfrac{180^\\circ}{\\pi}=75^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(75^\\circ\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-\\dfrac{33\\pi}{4}\\cdot\\dfrac{180^\\circ}{\\pi}=-1\\,485^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\,485^\\circ\\)</p></li></ol></div>",
     "id": "2.588",
@@ -24629,11 +24631,12 @@ window.BANKMATO2 = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Omvandla vinkeln.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>Omvandla mellan grader och radianer.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
-        "fraga": "\\(165^\\circ\\) till radianer",
-        "t": "<p>Omvandla vinkeln.</p><p>\\(165^\\circ\\) till radianer</p>",
+        "fraga": "Omvandla \\(165^\\circ\\) till radianer.",
+        "t": "<p>Omvandla mellan grader och radianer.</p><p>Omvandla \\(165^\\circ\\) till radianer.</p>",
         "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[165\\cdot\\dfrac{\\pi}{180}=\\dfrac{11\\pi}{12}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{11\\pi}{12}\\)</p></div>",
         "ledtrad": "<p>Multiplicera med \\(\\dfrac{\\pi}{180^\\circ}\\) och förkorta.</p>",
@@ -24644,8 +24647,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "\\(-110^\\circ\\) till radianer",
-        "t": "<p>Omvandla vinkeln.</p><p>\\(-110^\\circ\\) till radianer</p>",
+        "fraga": "Omvandla \\(-110^\\circ\\) till radianer.",
+        "t": "<p>Omvandla mellan grader och radianer.</p><p>Omvandla \\(-110^\\circ\\) till radianer.</p>",
         "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-110\\cdot\\dfrac{\\pi}{180}=-\\dfrac{11\\pi}{18}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{11\\pi}{18}\\)</p></div>",
         "ledtrad": "<p>Multiplicera med \\(\\dfrac{\\pi}{180^\\circ}\\).</p>",
@@ -24656,8 +24659,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "\\(\\dfrac{5\\pi}{12}\\) till grader",
-        "t": "<p>Omvandla vinkeln.</p><p>\\(\\dfrac{5\\pi}{12}\\) till grader</p>",
+        "fraga": "Omvandla \\(\\dfrac{5\\pi}{12}\\) radianer till grader.",
+        "t": "<p>Omvandla mellan grader och radianer.</p><p>Omvandla \\(\\dfrac{5\\pi}{12}\\) radianer till grader.</p>",
         "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{5\\pi}{12}\\cdot\\dfrac{180^\\circ}{\\pi}=75^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(75^\\circ\\)</p></div>",
         "ledtrad": "<p>Multiplicera med \\(\\dfrac{180^\\circ}{\\pi}\\).</p>",
@@ -24668,8 +24671,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "\\(-\\dfrac{33\\pi}{4}\\) till grader",
-        "t": "<p>Omvandla vinkeln.</p><p>\\(-\\dfrac{33\\pi}{4}\\) till grader</p>",
+        "fraga": "Omvandla \\(-\\dfrac{33\\pi}{4}\\) radianer till grader.",
+        "t": "<p>Omvandla mellan grader och radianer.</p><p>Omvandla \\(-\\dfrac{33\\pi}{4}\\) radianer till grader.</p>",
         "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-\\dfrac{33\\pi}{4}\\cdot\\dfrac{180^\\circ}{\\pi}=-1\\,485^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\,485^\\circ\\)</p></div>",
         "ledtrad": "<p>Multiplicera med \\(\\dfrac{180^\\circ}{\\pi}\\).</p>",
@@ -24677,7 +24680,8 @@ window.BANKMATO2 = [
         "poang": "1/0/0",
         "traningsniva": 2,
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "ledtrad": "<p>\\(180^\\circ=\\pi\\) rad.</p>",
     "traningsniva": 2,
     "kurs": [
@@ -26104,7 +26108,7 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En periodisk storhet beskrivs av</p><p>\\[f(t)=7+3\\sin\\left(\\frac{\\pi}{4}(t-2)\\right).\\]</p><p>Bestäm funktionens</p><p>a) medellinje<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) amplitud<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) period.</p>",
+    "t": "<p>En periodisk storhet beskrivs av \\(f(t)=7+3\\sin\\left(\\frac{\\pi}{4}(t-2)\\right)\\).</p><p>a) Bestäm funktionens medellinje.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm funktionens amplitud.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm funktionens period.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Jämför direkt med formen \\(D+A\\sin(k(t-c))\\): \\(D\\) är medellinje, \\(|A|\\) amplitud och perioden är \\(2\\pi/|k|\\).</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Konstanten utanför sinusdelen är medellinjen:</p><div class=\"facit-matte\">\\[\\boxed{y=7}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Amplituden är \\(\\boxed{3}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(\\sin(kt)\\) är perioden \\(2\\pi/k\\).</p></li><li><p>Här är \\(k=\\pi/4\\), så</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[T=\\frac{2\\pi}{\\pi/4}=\\boxed{8}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Perioden 8 följer också av att argumentet ökar med \\(2\\pi\\) när \\(t\\) ökar med 8.</p></li></ol></div>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
@@ -26144,7 +26148,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>medellinje</p>",
+        "fraga": "<p>Bestäm funktionens medellinje.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Konstanten utanför sinusdelen är medellinjen:</p><div class=\"facit-matte\">\\[\\boxed{y=7}\\].</div></div></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -26153,7 +26157,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>amplitud</p>",
+        "fraga": "<p>Bestäm funktionens amplitud.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Amplituden är \\(\\boxed{3}\\).</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -26162,7 +26166,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>period.</p>",
+        "fraga": "<p>Bestäm funktionens period.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(\\sin(kt)\\) är perioden \\(2\\pi/k\\).</p></li><li><p>Här är \\(k=\\pi/4\\), så\n\\[T=\\frac{2\\pi}{\\pi/4}=\\boxed{8}.\\]</p></li></ol></div></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -26172,7 +26176,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "trig_problemlosning_2__tolka_och_bestamma_trigonometriska_modeller",
     "ledtrad": "<p>Medellinjen är talet som läggs till, amplituden faktorn framför sinus och perioden \\(2\\pi/k\\).</p>",
-    "spelIntro": "<p>En periodisk storhet beskrivs av</p><p>\\[f(t)=7+3\\sin\\left(\\frac{\\pi}{4}(t-2)\\right).\\]</p><p>Bestäm funktionens</p>",
+    "spelIntro": "<p>En periodisk storhet beskrivs av \\(f(t)=7+3\\sin\\left(\\frac{\\pi}{4}(t-2)\\right)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -34633,36 +34637,36 @@ window.BANKMATO2 = [
     ]
   },
   {
-  "id": "2.193",
-  "kap": 2,
-  "omr": "derivata_sammansatta",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/2/0",
-  "miniräknare": true,
-  "geogebra": false,
-  "t": "<p>Funktionen \\(h(x)=\\sqrt{1+(f(x))^2}\\). Det är känt att \\(f(2)=3\\) och \\(f'(2)=-1\\).</p><p>Bestäm \\(h'(2)\\) exakt.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln ger</p></li><li><p>\\[h'(x)=\\frac{f(x)f'(x)}{\\sqrt{1+(f(x))^2}}.\\]</p></li><li><div class=\"facit-berakning\"><p>Vid</p><div class=\"facit-matte\">\\[x=2\\]:</div></div></li><li><p>\\[h'(2)=\\frac{3(-1)}{\\sqrt{10}}=\\boxed{-\\frac3{\\sqrt{10}}}.\\]</p></li></ol></div>",
-  "familj": "Derivering med kedjeregeln",
-  "formaga": [
-    "begrepp",
-    "procedur"
-  ],
-  "svarstyp": "uttryck",
-  "rättSvar": "-3/sqrt(10)",
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "uttryck",
-  "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-  "ledtrad": "<p>Här är den inre funktionen \\(1+(f(x))^2\\). Glöm inte derivatan av \\(f(x)\\).</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "omrTidigare": [
-    "kedjeregel_sammansatta"
-  ]
-},
+    "id": "2.193",
+    "kap": 2,
+    "omr": "derivata_sammansatta",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>För funktionen \\(h\\) gäller att \\(h(x)=\\sqrt{1+(f(x))^2}\\). Det är känt att \\(f(2)=3\\) och \\(f'(2)=-1\\).</p><p>Bestäm \\(h'(2)\\) exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln ger</p></li><li><p>\\[h'(x)=\\frac{f(x)f'(x)}{\\sqrt{1+(f(x))^2}}.\\]</p></li><li><div class=\"facit-berakning\"><p>Vid</p><div class=\"facit-matte\">\\[x=2\\]:</div></div></li><li><p>\\[h'(2)=\\frac{3(-1)}{\\sqrt{10}}=\\boxed{-\\frac3{\\sqrt{10}}}.\\]</p></li></ol></div>",
+    "familj": "Derivering med kedjeregeln",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "-3/sqrt(10)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
+    "ledtrad": "<p>Här är den inre funktionen \\(1+(f(x))^2\\). Glöm inte derivatan av \\(f(x)\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "omrTidigare": [
+      "kedjeregel_sammansatta"
+    ]
+  },
   {
     "id": "2.194",
     "kap": 3,
@@ -35471,36 +35475,36 @@ window.BANKMATO2 = [
     ]
   },
   {
-  "id": "2.225",
-  "kap": 2,
-  "omr": "derivata_sammansatta",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": true,
-  "geogebra": false,
-  "t": "<p>Funktionen \\(h(x)=f(g(x))\\). Man vet att \\(g(2)=3\\), \\(g'(2)=-4\\) och \\(f'(3)=5\\). Bestäm \\(h'(2)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln för \\(h(x)=f(g(x))\\) är</p></li><li><p>\\[h'(x)=f'(g(x))g'(x).\\]</p></li><li><div class=\"facit-berakning\"><p>Eftersom</p><div class=\"facit-matte\">\\[g(2)=3\\],</div></div></li><li><p>\\(f'(3)=5\\) och \\(g'(2)=-4\\):</p></li><li><p>\\[h'(2)=5(-4)=\\boxed{-20}.\\]</p></li></ol></div>",
-  "familj": "Beräkna sammansatta funktioner",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": -20,
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "familjNyckel": "derivata_sammansatta__berakna_sammansatta_funktioner",
-  "ledtrad": "<p>Använd \\(g(2)\\) för att veta var \\(f'\\) ska avläsas.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 1,
-  "omrTidigare": [
-    "kedjeregel_sammansatta"
-  ]
-},
+    "id": "2.225",
+    "kap": 2,
+    "omr": "derivata_sammansatta",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>För funktionen \\(h\\) gäller att \\(h(x)=f(g(x))\\). Man vet att \\(g(2)=3\\), \\(g'(2)=-4\\) och \\(f'(3)=5\\). Bestäm \\(h'(2)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln för \\(h(x)=f(g(x))\\) är</p></li><li><p>\\[h'(x)=f'(g(x))g'(x).\\]</p></li><li><div class=\"facit-berakning\"><p>Eftersom</p><div class=\"facit-matte\">\\[g(2)=3\\],</div></div></li><li><p>\\(f'(3)=5\\) och \\(g'(2)=-4\\):</p></li><li><p>\\[h'(2)=5(-4)=\\boxed{-20}.\\]</p></li></ol></div>",
+    "familj": "Beräkna sammansatta funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -20,
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "derivata_sammansatta__berakna_sammansatta_funktioner",
+    "ledtrad": "<p>Använd \\(g(2)\\) för att veta var \\(f'\\) ska avläsas.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "omrTidigare": [
+      "kedjeregel_sammansatta"
+    ]
+  },
   {
     "id": "2.453",
     "kap": 2,
@@ -35900,36 +35904,36 @@ window.BANKMATO2 = [
     ]
   },
   {
-  "id": "2.263",
-  "kap": 2,
-  "omr": "derivata_sammansatta",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/1/0",
-  "miniräknare": true,
-  "geogebra": false,
-  "t": "<p>Funktionen \\(h(x)=f(2x-1)\\). Det är känt att \\(f'(5)=4\\).</p><p>Bestäm \\(h'(3)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>När x = 3 är den inre funktionens värde 2·3−1 = 5. Därför är det just det givna värdet f′(5) som behövs.</p><p>Kedjeregeln multiplicerar den yttre derivatan med den inre derivatan, som är 2.</p><div class=\"facit-matte\">\\[h'(x)=f'(2x-1)\\cdot2\\]</div><div class=\"facit-matte\">\\[h'(3)=f'(5)\\cdot2=4\\cdot2=8\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\).</p></div>",
-  "familj": "Derivering med kedjeregeln",
-  "formaga": [
-    "procedur",
-    "begrepp"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 8,
-  "tolerans": null,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-  "ledtrad": "<p>Glöm inte derivatan av den inre funktionen \\(2x-1\\).</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 1,
-  "omrTidigare": [
-    "kedjeregel_sammansatta"
-  ]
-},
+    "id": "2.263",
+    "kap": 2,
+    "omr": "derivata_sammansatta",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>För funktionen \\(h\\) gäller att \\(h(x)=f(2x-1)\\). Det är känt att \\(f'(5)=4\\).</p><p>Bestäm \\(h'(3)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>När x = 3 är den inre funktionens värde 2·3−1 = 5. Därför är det just det givna värdet f′(5) som behövs.</p><p>Kedjeregeln multiplicerar den yttre derivatan med den inre derivatan, som är 2.</p><div class=\"facit-matte\">\\[h'(x)=f'(2x-1)\\cdot2\\]</div><div class=\"facit-matte\">\\[h'(3)=f'(5)\\cdot2=4\\cdot2=8\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\).</p></div>",
+    "familj": "Derivering med kedjeregeln",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
+    "ledtrad": "<p>Glöm inte derivatan av den inre funktionen \\(2x-1\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "omrTidigare": [
+      "kedjeregel_sammansatta"
+    ]
+  },
   {
     "id": "2.507",
     "kap": 2,
@@ -36980,7 +36984,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>För \\(f(x)=\\ln(x-3)+2\\), bestäm</p><p>a) definitionsmängd<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) den lodräta asymptoten<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(f(4)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(x\\) då \\(f(x)=2\\).</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\ln(x-3)+2\\).</p><p>a) Bestäm definitionsmängden.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm den lodräta asymptoten.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(f(4)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Bestäm \\(x\\) då \\(f(x)=2\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x-3&gt;0\\Rightarrow\\boxed{x&gt;3}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(x\\to3^+\\) går logaritmen mot \\(-\\infty\\), så asymptoten är \\(\\boxed{x=3}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(4)=\\ln1+2=\\boxed{2}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\ln(x-3)+2=2\\Rightarrow\\ln(x-3)=0\\Rightarrow x-3=1\\), alltså \\(\\boxed{x=4}\\).</p></li></ol></div></div></div></div>",
     "familj": "Derivering av logaritmfunktioner",
     "formaga": [
@@ -37023,7 +37027,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>definitionsmängd</p>",
+        "fraga": "<p>Bestäm definitionsmängden.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x-3&gt;0\\Rightarrow\\boxed{x&gt;3}\\).</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -37032,7 +37036,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>den lodräta asymptoten</p>",
+        "fraga": "<p>Bestäm den lodräta asymptoten.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(x\\to3^+\\) går logaritmen mot \\(-\\infty\\), så asymptoten är \\(\\boxed{x=3}\\).</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -37041,7 +37045,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(f(4)\\)</p>",
+        "fraga": "<p>Bestäm \\(f(4)\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(4)=\\ln1+2=\\boxed{2}\\].</div></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -37050,7 +37054,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(x\\) då \\(f(x)=2\\).</p>",
+        "fraga": "<p>Bestäm \\(x\\) då \\(f(x)=2\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\ln(x-3)+2=2\\Rightarrow\\ln(x-3)=0\\Rightarrow x-3=1\\), alltså \\(\\boxed{x=4}\\).</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -37060,7 +37064,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_logaritmfunktioner",
     "ledtrad": "<p>ln är bara definierad för positiva tal. Sätt uttrycket inne i logaritmen större än 0. Asymptoten ligger där uttrycket inne i logaritmen går mot 0.</p>",
-    "spelIntro": "<p>För \\(f(x)=\\ln(x-3)+2\\), bestäm</p>",
+    "spelIntro": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\ln(x-3)+2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "omrTidigare": [
@@ -37670,7 +37674,7 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>För \\(f(x)=\\ln(x-2)\\):</p><p>a) ange definitionsmängden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) bestäm \\(f'(x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) bestäm tangentens ekvation då \\(x=3\\).</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\ln(x-2)\\).</p><p>a) Ange definitionsmängden.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(f'(x)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm tangentens ekvation då \\(x=3\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(x&gt;2\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(f'(x)=1/(x-2)\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(3)=0\\) och \\(f'(3)=1\\).</p></li><li><p>Tangenten genom \\((3,0)\\) blir <strong>\\(y=x-3\\)</strong>.</p></li></ol></div></div></div>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
@@ -37709,7 +37713,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>ange definitionsmängden</p>",
+        "fraga": "<p>Ange definitionsmängden.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(x&gt;2\\)</strong>.</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -37718,7 +37722,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>bestäm \\(f'(x)\\)</p>",
+        "fraga": "<p>Bestäm \\(f'(x)\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(f'(x)=1/(x-2)\\)</strong>.</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -37727,7 +37731,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>bestäm tangentens ekvation då \\(x=3\\).</p>",
+        "fraga": "<p>Bestäm tangentens ekvation då \\(x=3\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(3)=0\\) och \\(f'(3)=1\\).</p></li><li><p>Tangenten genom \\((3,0)\\) blir <strong>\\(y=x-3\\)</strong>.</p></li></ol></div></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -37737,7 +37741,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "exp_log_derivata__tangentproblem_med_specialfunktioner",
     "ledtrad": "<p>ln är bara definierad för positiva tal. Sätt uttrycket inne i logaritmen större än 0. Bestäm punkten och derivatans värde där. Tangenten är \\(y-y_1=k(x-x_1)\\).</p>",
-    "spelIntro": "<p>För \\(f(x)=\\ln(x-2)\\):</p>",
+    "spelIntro": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\ln(x-2)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -41938,7 +41942,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>En cylinder har konstant höjd 5 cm. Radien ökar med 0,20 cm/s. Hur snabbt ökar volymen när radien är 3 cm?</p><p>Avrunda till en decimal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" role=\"img\" aria-label=\"Cylinder med höjden 5 cm och radien 3 cm\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><path d=\"M120 75 L120 190 A80 22 0 0 0 280 190 L280 75\" fill=\"#e8f3fa\" stroke=\"#246b91\" stroke-width=\"2\"/><ellipse cx=\"200\" cy=\"75\" rx=\"80\" ry=\"22\" fill=\"#f3f9fc\" stroke=\"#246b91\" stroke-width=\"2\"/><path d=\"M120 190 A80 22 0 0 1 280 190\" fill=\"none\" stroke=\"#246b91\" stroke-dasharray=\"5 4\"/><line x1=\"200\" y1=\"75\" x2=\"280\" y2=\"75\" stroke=\"#243447\" stroke-width=\"2\"/><line x1=\"305\" y1=\"75\" x2=\"305\" y2=\"190\" stroke=\"#243447\"/><path d=\"M300 75h10 M300 190h10\" stroke=\"#243447\"/><line x1=\"240\" y1=\"47\" x2=\"240\" y2=\"70\" stroke=\"#65758b\" stroke-width=\"1\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" fill=\"#243447\">3 cm</text><text x=\"320\" y=\"138\" text-anchor=\"start\" fill=\"#243447\">5 cm</text><text x=\"200\" y=\"240\" text-anchor=\"middle\" fill=\"#243447\">Radien ökar, höjden är konstant</text></svg></span>",
+    "t": "<p>En cylinder har konstant höjd 5 cm. Radien ökar med 0,20 cm/s. Hur snabbt ökar volymen när radien är 3 cm?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" role=\"img\" aria-label=\"Cylinder med höjden 5 cm och radien 3 cm\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><path d=\"M120 75 L120 190 A80 22 0 0 0 280 190 L280 75\" fill=\"#e8f3fa\" stroke=\"#246b91\" stroke-width=\"2\"/><ellipse cx=\"200\" cy=\"75\" rx=\"80\" ry=\"22\" fill=\"#f3f9fc\" stroke=\"#246b91\" stroke-width=\"2\"/><path d=\"M120 190 A80 22 0 0 1 280 190\" fill=\"none\" stroke=\"#246b91\" stroke-dasharray=\"5 4\"/><line x1=\"200\" y1=\"75\" x2=\"280\" y2=\"75\" stroke=\"#243447\" stroke-width=\"2\"/><line x1=\"305\" y1=\"75\" x2=\"305\" y2=\"190\" stroke=\"#243447\"/><path d=\"M300 75h10 M300 190h10\" stroke=\"#243447\"/><line x1=\"240\" y1=\"47\" x2=\"240\" y2=\"70\" stroke=\"#65758b\" stroke-width=\"1\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" fill=\"#243447\">3 cm</text><text x=\"320\" y=\"138\" text-anchor=\"start\" fill=\"#243447\">5 cm</text><text x=\"200\" y=\"240\" text-anchor=\"middle\" fill=\"#243447\">Radien ökar, höjden är konstant</text></svg></span>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2\"><p>Höjden är konstant, så volymen är \\(V=5\\pi r^2\\). Kedjeregeln ger</p>\\[\\frac{dV}{dt}=10\\pi r\\frac{dr}{dt}.\\]<p>Vid \\(r=3\\) cm och \\(dr/dt=0{,}20\\) cm/s blir ökningen</p>\\[\\frac{dV}{dt}=10\\pi\\cdot3\\cdot0{,}20=6\\pi.\\]<p><strong>Svar:</strong> volymen ökar med ungefär 18,8 cm³/s.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -42265,7 +42270,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En tunn oljefläck på vattenytan antas vara cirkelformad. Vid ett visst ögonblick är radien 8,0 m och fläckens area ökar med 40 m²/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"180\" cy=\"116\" r=\"76\" fill=\"#EAF4E8\" stroke=\"#5C7D58\" stroke-width=\"2.2\"/>\n<circle cx=\"180\" cy=\"116\" r=\"3.5\" fill=\"#2B2527\"/>\n<line x1=\"180\" y1=\"116\" x2=\"250\" y2=\"86\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"180\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">cirkelns storlek förändras med tiden</text>\n</svg></span><p>Bestäm hur snabbt radien ökar vid detta ögonblick.</p><p>Avrunda till två decimaler.</p>",
+    "t": "<p>En tunn oljefläck på vattenytan antas vara cirkelformad. Vid ett visst ögonblick är radien 8,0 m och fläckens area ökar med 40 m²/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"180\" cy=\"116\" r=\"76\" fill=\"#EAF4E8\" stroke=\"#5C7D58\" stroke-width=\"2.2\"/>\n<circle cx=\"180\" cy=\"116\" r=\"3.5\" fill=\"#2B2527\"/>\n<line x1=\"180\" y1=\"116\" x2=\"250\" y2=\"86\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"180\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">cirkelns storlek förändras med tiden</text>\n</svg></span><p>Bestäm hur snabbt radien ökar vid detta ögonblick.</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2\"><p>Arean är \\(A=\\pi r^2\\). Radien beror på tiden, så kedjeregeln ger</p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]<p>Sätt in areans ökning 40 m²/min och radien 8,0 m:</p>\\[40=16\\pi\\frac{dr}{dt}.\\]\\[\\frac{dr}{dt}=\\frac{40}{16\\pi}\\approx0{,}80\\text{ m/min}.\\]<p><strong>Svar:</strong> radien ökar med 0,80 m/min.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -42362,7 +42368,8 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En klotformad isbit smälter. När radien är 5,0 cm minskar isbitens yta med 20 cm²/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"240\" viewBox=\"0 0 390 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klot med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"182\" cy=\"118\" r=\"76\" fill=\"#E6F1F7\" stroke=\"#527C91\" stroke-width=\"2.2\"/>\n<ellipse cx=\"182\" cy=\"118\" rx=\"76\" ry=\"25\" fill=\"none\" stroke=\"#9DB7C4\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/>\n<line x1=\"182\" y1=\"118\" x2=\"242\" y2=\"74\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M242 74 l-10 2 6 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"88\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n</svg></span><p>Bestäm hur snabbt radien minskar vid detta ögonblick.</p><p>Avrunda till två decimaler.</p>",
+    "t": "<p>En klotformad isbit smälter. När radien är 5,0 cm minskar isbitens yta med 20 cm²/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"240\" viewBox=\"0 0 390 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klot med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"182\" cy=\"118\" r=\"76\" fill=\"#E6F1F7\" stroke=\"#527C91\" stroke-width=\"2.2\"/>\n<ellipse cx=\"182\" cy=\"118\" rx=\"76\" ry=\"25\" fill=\"none\" stroke=\"#9DB7C4\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/>\n<line x1=\"182\" y1=\"118\" x2=\"242\" y2=\"74\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M242 74 l-10 2 6 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"88\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n</svg></span><p>Bestäm hur snabbt radien minskar vid detta ögonblick.</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2\"><p>Klotets yta är \\(A=4\\pi r^2\\). Derivering med avseende på tiden ger</p>\\[\\frac{dA}{dt}=8\\pi r\\frac{dr}{dt}.\\]<p>Ytan minskar, så \\(dA/dt=-20\\) cm²/min. Vid radien 5,0 cm får vi</p>\\[-20=40\\pi\\frac{dr}{dt}.\\]\\[\\frac{dr}{dt}=-\\frac{1}{2\\pi}\\approx-0{,}16\\text{ cm/min}.\\]<p><strong>Svar:</strong> radien minskar med 0,16 cm/min. Minustecknet i derivatan visar att radien minskar.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -42546,7 +42553,8 @@ window.BANKMATO2 = [
   "poang": "0/3/0",
   "miniräknare": true,
   "geogebra": true,
-  "t": "<p>En hög med sand behåller formen av en kon där höjden hela tiden är tre gånger basradien, alltså \\(h=3r\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"260\" viewBox=\"0 0 390 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kon med höjden h och basradien r\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<path d=\"M185 35 L95 205 L275 205 Z\" fill=\"#F4EFE2\" stroke=\"#8B7655\" stroke-width=\"2\"/>\n<ellipse cx=\"185\" cy=\"205\" rx=\"90\" ry=\"20\" fill=\"#EFE4C7\" stroke=\"#8B7655\" stroke-width=\"2\"/>\n<line x1=\"185\" y1=\"35\" x2=\"185\" y2=\"205\" stroke=\"#5C575E\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n\n<line x1=\"185\" y1=\"205\" x2=\"270\" y2=\"205\" stroke=\"#268FA3\" stroke-width=\"2\"/>\n<path d=\"M270 205 l-9 -5 v10 z\" fill=\"#268FA3\"/>\n<text x=\"226\" y=\"195\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"195\" y=\"123\" font-family=\"sans-serif\" font-size=\"14\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">h = 3r</text><text x=\"195\" y=\"123\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#5C575E\">h = 3r</text></svg></span><p>Sand tillförs med 0,12 m³/min. Bestäm hur snabbt basradien ökar när \\(r=0{,}80\\) m.</p><p>Avrunda till fyra decimaler.</p>",
+  "t": "<p>En hög med sand behåller formen av en kon där höjden hela tiden är tre gånger basradien, alltså \\(h=3r\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"260\" viewBox=\"0 0 390 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kon med höjden h och basradien r\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<path d=\"M185 35 L95 205 L275 205 Z\" fill=\"#F4EFE2\" stroke=\"#8B7655\" stroke-width=\"2\"/>\n<ellipse cx=\"185\" cy=\"205\" rx=\"90\" ry=\"20\" fill=\"#EFE4C7\" stroke=\"#8B7655\" stroke-width=\"2\"/>\n<line x1=\"185\" y1=\"35\" x2=\"185\" y2=\"205\" stroke=\"#5C575E\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n\n<line x1=\"185\" y1=\"205\" x2=\"270\" y2=\"205\" stroke=\"#268FA3\" stroke-width=\"2\"/>\n<path d=\"M270 205 l-9 -5 v10 z\" fill=\"#268FA3\"/>\n<text x=\"226\" y=\"195\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"195\" y=\"123\" font-family=\"sans-serif\" font-size=\"14\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">h = 3r</text><text x=\"195\" y=\"123\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#5C575E\">h = 3r</text></svg></span><p>Sand tillförs med 0,12 m³/min. Bestäm hur snabbt basradien ökar när \\(r=0{,}80\\) m.</p>",
+  "kgInstruktion": "Avrunda till fyra decimaler.",
   "s": "<div class=\"facit-v2\"><p>Eftersom \\(h=3r\\) är konens volym \\(V=\\pi r^2h/3=\\pi r^3\\). Derivera med avseende på tiden:</p><p>\\[\\frac{dV}{dt}=3\\pi r^2\\frac{dr}{dt}.\\]</p><p>Vid \\(r=0{,}80\\) m får vi \\[\\frac{dr}{dt}=\\frac{0{,}12}{3\\pi\\cdot0{,}80^2}\\approx0{,}0199\\text{ m/min}.\\]</p><p><strong>Svar:</strong> 0,0199 m/min, vilket motsvarar cirka 1,99 cm/min. Tiden mäts i minuter.</p></div>",
   "familj": "Samband mellan förändringshastigheter",
   "formaga": [
@@ -42578,7 +42586,8 @@ window.BANKMATO2 = [
   "poang": "1/1/0",
   "miniräknare": true,
   "geogebra": true,
-  "t": "<p>Ett radarsystem söker av ett cirkelformat område. Sökningens radie ökar med 0,40 km/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"180\" cy=\"116\" r=\"76\" fill=\"#EAF4E8\" stroke=\"#5C7D58\" stroke-width=\"2.2\"/>\n<circle cx=\"180\" cy=\"116\" r=\"3.5\" fill=\"#2B2527\"/>\n<line x1=\"180\" y1=\"116\" x2=\"250\" y2=\"86\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"180\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">cirkelns storlek förändras med tiden</text>\n</svg></span><p>När radien är 6,0 km:</p><p>a) Bestäm \\(dA/dr\\),<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm hur snabbt det avsökta området ökar.</p><p>Avrunda till en decimal: i km i a) och i km²/min i b).</p>",
+  "t": "<p>Ett radarsystem söker av ett cirkelformat område. Sökningens radie ökar med 0,40 km/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"180\" cy=\"116\" r=\"76\" fill=\"#EAF4E8\" stroke=\"#5C7D58\" stroke-width=\"2.2\"/>\n<circle cx=\"180\" cy=\"116\" r=\"3.5\" fill=\"#2B2527\"/>\n<line x1=\"180\" y1=\"116\" x2=\"250\" y2=\"86\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"180\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">cirkelns storlek förändras med tiden</text>\n</svg></span><p>När radien är 6,0 km:</p><p>a) Bestäm \\(dA/dr\\),<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm hur snabbt det avsökta området ökar.</p>",
+  "kgInstruktion": "Avrunda till en decimal: i km i a) och i km²/min i b).",
   "s": "<div class=\"facit-v2\"><strong>a)</strong><div class=\"facit-v2\"><p>Cirkelns area är \\(A=\\pi r^2\\). Derivering med avseende på radien ger \\(dA/dr=2\\pi r\\).</p><p>Vid \\(r=6{,}0\\) km är \\(dA/dr=12\\pi\\approx37{,}7\\) km. Enheten är km²/km = km.</p></div><strong>b)</strong><div class=\"facit-v2\"><p>Använd \\(A=\\pi r^2\\) och kedjeregeln:</p><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>Vid \\(r=6{,}0\\) km och \\(dr/dt=0{,}40\\) km/min blir ökningen \\(4{,}8\\pi\\approx15{,}1\\) km²/min.</p></div></div>",
   "familj": "Samband mellan förändringshastigheter",
   "formaga": [
@@ -42820,7 +42829,8 @@ window.BANKMATO2 = [
   "poang": "0/2/0",
   "miniräknare": true,
   "geogebra": true,
-  "t": "<p>Radien i en cirkelformad oljefläck ökar med 0,6 m/min. Bestäm hur snabbt arean ökar när radien är 5 m.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med markerad radie\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"175\" cy=\"115\" r=\"72\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"175\" y1=\"115\" x2=\"247\" y2=\"115\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"209\" y=\"105\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">r</text></svg></span><p>Avrunda till en decimal.</p>",
+  "t": "<p>Radien i en cirkelformad oljefläck ökar med 0,6 m/min. Bestäm hur snabbt arean ökar när radien är 5 m.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med markerad radie\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"175\" cy=\"115\" r=\"72\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"175\" y1=\"115\" x2=\"247\" y2=\"115\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"209\" y=\"105\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">r</text></svg></span>",
+  "kgInstruktion": "Avrunda till en decimal.",
   "s": "<div class=\"facit-v2\"><p>Arean är \\(A=\\pi r^2\\). Kedjeregeln ger \\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>Sätt in \\(r=5\\) m och \\(dr/dt=0{,}6\\) m/min:</p><p>\\[\\frac{dA}{dt}=2\\pi\\cdot5\\cdot0{,}6=6\\pi.\\]</p><p><strong>Svar:</strong> Arean ökar med cirka 18,8 m²/min.</p></div>",
   "familj": "Samband mellan förändringshastigheter",
   "formaga": [
@@ -42853,7 +42863,8 @@ window.BANKMATO2 = [
   "poang": "0/2/0",
   "miniräknare": true,
   "geogebra": true,
-  "t": "<p>Volymen av ett klot är \\(V=4\\pi r^3/3\\). Radien växer med 0,2 cm/s. Bestäm hur snabbt volymen ökar när \\(r=3\\) cm.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klot med markerad radie\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"175\" cy=\"115\" r=\"72\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"175\" cy=\"115\" rx=\"72\" ry=\"22\" fill=\"none\" stroke=\"#A7B1B7\" stroke-dasharray=\"5 4\"/><line x1=\"175\" y1=\"115\" x2=\"237\" y2=\"79\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"211\" y=\"91\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">r</text></svg></span><p>Avrunda till en decimal.</p>",
+  "t": "<p>Volymen av ett klot är \\(V=4\\pi r^3/3\\). Radien växer med 0,2 cm/s. Bestäm hur snabbt volymen ökar när \\(r=3\\) cm.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klot med markerad radie\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"175\" cy=\"115\" r=\"72\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"175\" cy=\"115\" rx=\"72\" ry=\"22\" fill=\"none\" stroke=\"#A7B1B7\" stroke-dasharray=\"5 4\"/><line x1=\"175\" y1=\"115\" x2=\"237\" y2=\"79\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"211\" y=\"91\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">r</text></svg></span>",
+  "kgInstruktion": "Avrunda till en decimal.",
   "s": "<div class=\"facit-v2\"><p>Derivera volymen med avseende på radien: \\(dV/dr=4\\pi r^2\\). Multiplicera med radiens förändringshastighet:</p><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p><p>Vid \\(r=3\\) cm blir det \\(4\\pi\\cdot3^2\\cdot0{,}2=7{,}2\\pi\\).</p><p><strong>Svar:</strong> Volymen ökar med cirka 22,6 cm³/s.</p></div>",
   "familj": "Samband mellan förändringshastigheter",
   "formaga": [
@@ -43075,7 +43086,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En cirkelformad fläck på en vattenyta växer. Arean ökar med 0,50 m² per minut.</p><p>Bestäm hur snabbt radien ökar när radien är 2,0 m.</p><p>Avrunda till fyra decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" role=\"img\" aria-label=\"Cirkelformad fläck med markerad radie\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><circle cx=\"200\" cy=\"125\" r=\"80\" fill=\"#e8f3fa\" stroke=\"#246b91\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"125\" r=\"3\" fill=\"#243447\"/><line x1=\"200\" y1=\"125\" x2=\"280\" y2=\"125\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"112\" text-anchor=\"middle\" fill=\"#243447\">r = 2,0 m</text><text x=\"200\" y=\"232\" text-anchor=\"middle\" fill=\"#243447\">Schematiskt, sett ovanifrån</text></svg></span>",
+    "t": "<p>En cirkelformad fläck på en vattenyta växer. Arean ökar med 0,50 m² per minut.</p><p>Bestäm hur snabbt radien ökar när radien är 2,0 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" role=\"img\" aria-label=\"Cirkelformad fläck med markerad radie\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><circle cx=\"200\" cy=\"125\" r=\"80\" fill=\"#e8f3fa\" stroke=\"#246b91\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"125\" r=\"3\" fill=\"#243447\"/><line x1=\"200\" y1=\"125\" x2=\"280\" y2=\"125\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"112\" text-anchor=\"middle\" fill=\"#243447\">r = 2,0 m</text><text x=\"200\" y=\"232\" text-anchor=\"middle\" fill=\"#243447\">Schematiskt, sett ovanifrån</text></svg></span>",
+    "kgInstruktion": "Avrunda till fyra decimaler.",
     "s": "<div class=\"facit-v2\"><p>Arean är \\(A=\\pi r^2\\). Eftersom radien beror på tiden ger kedjeregeln</p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]<p>Arean ökar med 0,50 m²/min och radien är 2,0 m:</p>\\[0{,}50=4\\pi\\frac{dr}{dt}.\\]\\[\\frac{dr}{dt}=\\frac{0{,}50}{4\\pi}\\approx0{,}0398\\text{ m/min}.\\]<p><strong>Svar:</strong> 0,0398 m/min.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -43200,7 +43212,8 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En konformad sandhög behåller hela tiden samma form: radien är hälften av höjden. Sand fylls på så att volymen ökar med 0,030 m³/min.</p><p>Bestäm hur snabbt högens höjd ökar när höjden är 1,5 m.</p><p>Avrunda till fyra decimaler.</p>",
+    "t": "<p>En konformad sandhög behåller hela tiden samma form: radien är hälften av höjden. Sand fylls på så att volymen ökar med 0,030 m³/min.</p><p>Bestäm hur snabbt högens höjd ökar när höjden är 1,5 m.</p>",
+    "kgInstruktion": "Avrunda till fyra decimaler.",
     "s": "<div class=\"facit-v2\"><p>Konens volym är \\(V=\\pi r^2h/3\\). Eftersom \\(r=h/2\\) kan vi skriva volymen med bara höjden:</p>\\[V(h)=\\frac{\\pi h^3}{12}.\\]<p>Derivatan med avseende på höjden är \\(dV/dh=\\pi h^2/4\\). Kedjeregeln ger</p>\\[\\frac{dV}{dt}=\\frac{\\pi h^2}{4}\\frac{dh}{dt}.\\]<p>Volymen ökar med 0,030 m³/min och höjden är 1,5 m:</p>\\[0{,}030=\\frac{\\pi\\cdot1{,}5^2}{4}\\frac{dh}{dt}.\\]\\[\\frac{dh}{dt}=\\frac{0{,}120}{2{,}25\\pi}\\approx0{,}0170\\text{ m/min}.\\]<p><strong>Svar:</strong> 0,0170 m/min, vilket motsvarar cirka 1,70 cm/min.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -43326,7 +43339,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Volymen hos en klotformad ballong ökar med 500 cm³/s.</p><p>Hur snabbt ökar radien när radien är 8,0 cm?</p><p>Avrunda till tre decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" role=\"img\" aria-label=\"Klotformad ballong med radien 8,0 cm\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><circle cx=\"200\" cy=\"125\" r=\"80\" fill=\"#e8f3fa\" stroke=\"#246b91\" stroke-width=\"2\"/><ellipse cx=\"200\" cy=\"125\" rx=\"80\" ry=\"22\" fill=\"none\" stroke=\"#246b91\" stroke-dasharray=\"5 4\"/><circle cx=\"200\" cy=\"125\" r=\"3\" fill=\"#243447\"/><line x1=\"200\" y1=\"125\" x2=\"280\" y2=\"125\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"92\" text-anchor=\"middle\" fill=\"#243447\">8,0 cm</text><text x=\"200\" y=\"235\" text-anchor=\"middle\" fill=\"#243447\">Ballongen växer</text></svg></span>",
+    "t": "<p>Volymen hos en klotformad ballong ökar med 500 cm³/s.</p><p>Hur snabbt ökar radien när radien är 8,0 cm?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" role=\"img\" aria-label=\"Klotformad ballong med radien 8,0 cm\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><circle cx=\"200\" cy=\"125\" r=\"80\" fill=\"#e8f3fa\" stroke=\"#246b91\" stroke-width=\"2\"/><ellipse cx=\"200\" cy=\"125\" rx=\"80\" ry=\"22\" fill=\"none\" stroke=\"#246b91\" stroke-dasharray=\"5 4\"/><circle cx=\"200\" cy=\"125\" r=\"3\" fill=\"#243447\"/><line x1=\"200\" y1=\"125\" x2=\"280\" y2=\"125\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"92\" text-anchor=\"middle\" fill=\"#243447\">8,0 cm</text><text x=\"200\" y=\"235\" text-anchor=\"middle\" fill=\"#243447\">Ballongen växer</text></svg></span>",
+    "kgInstruktion": "Avrunda till tre decimaler.",
     "s": "<div class=\"facit-v2\"><p>Ballongens volym är \\(V=4\\pi r^3/3\\). Kedjeregeln ger</p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]<p>Volymen ökar med 500 cm³/s och radien är 8,0 cm:</p>\\[500=256\\pi\\frac{dr}{dt}.\\]\\[\\frac{dr}{dt}=\\frac{500}{256\\pi}\\approx0{,}622\\text{ cm/s}.\\]<p><strong>Svar:</strong> radien ökar med 0,622 cm/s.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -46858,7 +46872,7 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För \\(f(x)=x^4-4x^2\\):</p><p>a) bestäm \\(f''(x)\\),<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) bestäm intervallen där \\(f''(x)&gt;0\\) respektive \\(f''(x)&lt;0\\),<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) bestäm de \\(x\\)-värden där \\(f''\\) byter tecken.</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=x^4-4x^2\\).</p><p>a) Bestäm \\(f''(x)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm intervallen där \\(f''(x)&gt;0\\) respektive \\(f''(x)&lt;0\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm de \\(x\\)-värden där \\(f''\\) byter tecken.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=4x^3-8x\\) och</p></li><li><p>\\[f''(x)=12x^2-8.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[f''(x)=0\\]:</div></div></li><li><p>\\[12x^2-8=0\\Rightarrow x^2=\\frac23\\Rightarrow x=\\pm\\sqrt{\\frac23}.\\]</p></li><li><p>För \\(|x|&gt;\\sqrt{2/3}\\) är \\(f''(x)&gt;0\\).</p></li><li><p>För \\(|x|&lt;\\sqrt{2/3}\\) är \\(f''(x)&lt;0\\).</p></li><li><p>Tecknet på \\(f''\\) ändras vid båda dessa \\(x\\)-värden.</p></li><li><p><strong>\\(\\boxed{x=\\pm\\sqrt{2/3}}\\)</strong>.</p></li></ol></div></div>",
     "familj": "Grafanalys med derivata",
     "formaga": [
@@ -46884,11 +46898,11 @@ window.BANKMATO2 = [
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
     "ledtrad": "<p>Derivera två gånger. Gör sedan en teckentabell för \\(f''(x)\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För \\(f(x)=x^4-4x^2\\):</p>",
+    "spelIntro": "<p>För funktionen \\(f\\) gäller att \\(f(x)=x^4-4x^2\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>bestäm \\(f''(x)\\),</p>",
+        "fraga": "<p>Bestäm \\(f''(x)\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Undersök andraderivatan</strong></p><p>Derivera en gång och sedan en gång till:</p>\\[f'(x)=4x^3-8x,\\qquad f''(x)=12x^2-8.\\]<p><strong>Svar:</strong> \\(f''(x)=12x^2-8\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -46897,7 +46911,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>bestäm intervallen där \\(f''(x)&gt;0\\) respektive \\(f''(x)&lt;0\\),</p>",
+        "fraga": "<p>Bestäm intervallen där \\(f''(x)&gt;0\\) respektive \\(f''(x)&lt;0\\).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Undersök andraderivatan</strong></p><p>Andraderivatan är \\(f''(x)=12x^2-8\\). Den är positiv när \\(12x^2&gt;8\\), alltså när \\(x^2&gt;2/3\\), och negativ när \\(x^2&lt;2/3\\).</p><p><strong>Svar:</strong> \\(f''(x)&gt;0\\) för \\(|x|&gt;\\sqrt{2/3}\\) och \\(f''(x)&lt;0\\) för \\(|x|&lt;\\sqrt{2/3}\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -46906,7 +46920,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>bestäm de \\(x\\)-värden där \\(f''\\) byter tecken.</p>",
+        "fraga": "<p>Bestäm de \\(x\\)-värden där \\(f''\\) byter tecken.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f'(x)=4x^3-8x\\) och</p></li><li><p>\\[f''(x)=12x^2-8.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[f''(x)=0\\]:</div></div></li><li><p>\\[12x^2-8=0\\Rightarrow x^2=\\frac23\\Rightarrow x=\\pm\\sqrt{\\frac23}.\\]</p></li><li><p>För \\(|x|&gt;\\sqrt{2/3}\\) är \\(f''(x)&gt;0\\).</p></li><li><p>För \\(|x|&lt;\\sqrt{2/3}\\) är \\(f''(x)&lt;0\\).</p></li><li><p>Tecknet på \\(f''\\) ändras vid båda dessa \\(x\\)-värden.</p></li><li><p><strong>\\(\\boxed{x=\\pm\\sqrt{2/3}}\\)</strong>.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -47049,7 +47063,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Funktionen \\(f(x)=(x^2-4)/(x-2)\\). Oscar ritar asymptoten x=2. Förklara varför det är fel och beskriv grafen nära x=2.</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=(x^2-4)/(x-2)\\). Oscar ritar asymptoten x=2. Förklara varför det är fel och beskriv grafen nära x=2.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Innan ett nämnarnollställe kallas asymptot måste man kontrollera om faktorn förkortas bort.</p></li><li><p>\\((x^2-4)/(x-2)=(x+2)(x-2)/(x-2)=x+2\\) för x≠2.</p></li><li><p>Grafen är alltså linjen y=x+2 med ett hål i punkten (2,4), inte en kurva som går mot oändligheten.</p></li><li><p><strong>Slutsats:</strong> x=2 är inte asymptot.</p></li></ol></div>",
     "familj": "Asymptoter med polynomdivision",
     "formaga": [
@@ -47296,7 +47310,7 @@ window.BANKMATO2 = [
     "poang": "1/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Funktionen \\(f(x)=\\frac{x^2+1}{x-1}\\).</p><p>a) Bestäm en linjär asymptot.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm eventuella extrempunkter.</p>",
+    "t": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\frac{x^2+1}{x-1}\\).</p><p>a) Bestäm en linjär asymptot.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm eventuella extrempunkter.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Polynomdivision ger</p><div class=\"facit-matte\">\\[f(x)=x+1+\\frac2{x-1}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Därför är den linjära asymptoten</p><div class=\"facit-matte\">\\[\\boxed{y=x+1}\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=1-\\frac2{(x-1)^2}.\\]</p></li><li><p>\\(f'(x)=0\\) ger \\((x-1)^2=2\\), alltså \\(x=1\\pm\\sqrt2\\).</p></li><li><p>Vid \\(x=1-\\sqrt2\\) går derivatan från positiv till negativ, så där finns en maximipunkt.</p></li><li><p>Vid \\(x=1+\\sqrt2\\) går derivatan från negativ till positiv, så där finns en minimipunkt.</p></li><li><p>\\[f(1-\\sqrt2)=2-2\\sqrt2,\\qquad f(1+\\sqrt2)=2+2\\sqrt2.\\]</p></li><li><p>Alltså maxpunkt \\(\\boxed{(1-\\sqrt2,\\,2-2\\sqrt2)}\\) och minpunkt \\(\\boxed{(1+\\sqrt2,\\,2+2\\sqrt2)}\\).</p></li></ol></div></div>",
     "familj": "Asymptoter för rationella funktioner",
     "formaga": [
@@ -47319,7 +47333,7 @@ window.BANKMATO2 = [
     "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
     "ledtrad": "<p>Gör polynomdivision. Kvoten ger den sneda asymptoten, eftersom resttermen går mot 0 när \\(|x|\\) blir stor. För extrempunkterna löser du \\(f'(x)=0\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Funktionen \\(f(x)=\\frac{x^2+1}{x-1}\\).</p>",
+    "spelIntro": "<p>För funktionen \\(f\\) gäller att \\(f(x)=\\frac{x^2+1}{x-1}\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -47365,7 +47379,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skissa huvuddragen hos grafen \\(f(x)=\\ln x-x\\), \\(x&gt;0\\), genom att bestämma var den växer/minskar och dess största värde.</p>",
+    "t": "<p>Skissa huvuddragen hos grafen till \\(f(x)=\\ln x-x\\), \\(x&gt;0\\), genom att bestämma var den växer/minskar och dess största värde.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=1/x-1=(1-x)/x.\\]</p></li><li><p>För \\(0&lt;x&lt;1\\) är derivatan positiv, och för \\(x&gt;1\\) negativ.</p></li><li><div class=\"facit-berakning\"><p>Därför har funktionen maximum vid</p><div class=\"facit-matte\">\\[x=1\\].</div></div></li><li><p>\\[f(1)=0-1=-1.\\] Största värdet är \\(\\boxed{-1}\\).</p></li></ol></div>",
     "familj": "Grafanalys med derivata",
     "formaga": [
@@ -48215,7 +48229,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>För funktionen \\(f(x)=\\frac{x^2+2}{x-1}\\), bestäm den sneda asymptoten och avgör om grafen kan skära denna asymptot.</p><p>Ange asymptoten som \\(y=\\ldots\\) och svara därefter ja eller nej.</p>",
+    "t": "<p>För funktionen \\(f(x)=\\frac{x^2+2}{x-1}\\), bestäm den sneda asymptoten och avgör om grafen kan skära denna asymptot.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Polynomdivision ger</p></li><li><p>\\[\\frac{x^2+2}{x-1}=x+1+\\frac{3}{x-1}.\\]</p></li><li><p>När \\(|x|\\) blir stor går resttermen \\(3/(x-1)\\) mot 0, så den sneda asymptoten är \\(y=x+1\\).</p></li><li><div class=\"facit-berakning\"><p>För att grafen skulle skära asymptoten behövde</p><div class=\"facit-matte\">\\[f(x)=x+1\\].</div></div></li><li><p>Men då skulle</p></li><li><p>\\[\\frac{3}{x-1}=0,\\]</p></li><li><p>vilket är omöjligt för alla tillåtna x.</p></li><li><p>Grafen närmar sig alltså linjen men skär den aldrig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=x+1\\); nej.</p></div></div>",
     "familj": "Asymptoter med polynomdivision",
     "formaga": [
@@ -48245,7 +48259,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "omrTidigare": [
       "grafer_asymptoter"
-    ]
+    ],
+    "kgInstruktion": "Ange asymptoten som \\(y=\\ldots\\) och svara därefter ja eller nej."
   },
   {
     "id": "2.420",
@@ -54375,7 +54390,8 @@ window.BANKMATO2 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Bestäm \\(a\\), där \\(0&lt;a&lt;\\pi\\), så att</p><p>\\[\\int_0^a\\sin x\\,dx=1{,}5.\\]</p><p>Svara exakt eller med tre decimaler.</p>",
+    "t": "<p>Bestäm \\(a\\), där \\(0&lt;a&lt;\\pi\\), så att</p><p>\\[\\int_0^a\\sin x\\,dx=1{,}5.\\]</p>",
+    "kgInstruktion": "Svara exakt eller med tre decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\int_0^a\\sin x\\,dx=\\big[-\\cos x\\big]_0^a=1-\\cos a.\\]</p></li><li><p>\\(1-\\cos a=1{,}5\\) ger \\(\\cos a=-\\frac12\\).</p></li><li><div class=\"facit-berakning\"><p>I intervallet är</p><div class=\"facit-matte\">\\[a=\\frac{2\\pi}{3}\\approx2{,}094\\].</div></div></li><li><p>Rimlighet: hela bågen från 0 till \\(\\pi\\) ger arean 2, och 1,5 är tre fjärdedelar av den.</p></li><li><p>Därför ska \\(a\\) ligga efter \\(\\frac\\pi2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=\\frac{2\\pi}3\\approx2{,}094\\)</p></div>",
     "familj": "Bestämda integraler med trigonometriska funktioner",
     "formaga": [
@@ -74638,7 +74654,8 @@ window.BANKMATO2 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Beräkna summan</p><p>\\[i+i^2+i^3+\\dots+i^{2026}.\\]</p><p>Skriv svaret på formen \\(a+bi\\).</p>",
+    "t": "<p>Beräkna summan</p><p>\\[i+i^2+i^3+\\dots+i^{2026}.\\]</p>",
+    "kgInstruktion": "Skriv svaret på formen \\(a+bi\\).",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Potenserna av \\(i\\) upprepas med perioden 4: \\(i,\\ -1,\\ -i,\\ 1\\).</p></li><li><div class=\"facit-berakning\"><p>Fyra på varandra följande termer har summan</p><div class=\"facit-matte\">\\[i-1-i+1=0\\].</div></div></li><li><div class=\"facit-matte\">\\[2026=4\\cdot506+2\\].</div></li><li><p>De första \\(4\\cdot506=2024\\) termerna har summan 0.</p></li><li><div class=\"facit-berakning\"><p>Kvar blir</p><div class=\"facit-matte\">\\[i^{2025}+i^{2026}=i^1+i^2=i-1\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1+i\\)</p></div>",
     "familj": "Imaginära tal och potenser av i",
     "formaga": [
@@ -75198,7 +75215,8 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm de komplexa tal \\(z=x+iy\\) som uppfyller båda villkoren</p><p>\\[|z-(1+i)|=2\\]</p><p>och</p><p>\\[\\operatorname{Im}z=0{,}5\\operatorname{Re}z.\\]</p><p>Avrunda till tre decimaler.</p>",
+    "t": "<p>Bestäm de komplexa tal \\(z=x+iy\\) som uppfyller båda villkoren</p><p>\\[|z-(1+i)|=2\\]</p><p>och</p><p>\\[\\operatorname{Im}z=0{,}5\\operatorname{Re}z.\\]</p>",
+    "kgInstruktion": "Avrunda till tre decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det första villkoret är en cirkel med centrum \\((1,1)\\) och radie 2.</p></li><li><div class=\"facit-berakning\"><p>Det andra är linjen</p><div class=\"facit-matte\">\\[y=0{,}5x\\].</div></div></li><li><p>Skärningspunkterna är ungefär</p></li><li><p>\\[(-0,544;-0,272)\\quad\\text{och}\\quad(2,944;1,472).\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\boxed{z\\approx-0{,}544-0{,}272i\\quad\\text{eller}\\quad z\\approx2{,}944+1{,}472i}.\\]</p></li></ol></div>",
     "familj": "Ortslinjer och områden i komplexa talplanet",
     "formaga": [
@@ -75963,7 +75981,8 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm alla komplexa tal \\(z=x+iy\\) som samtidigt uppfyller</p><p>\\[|z-(1+i)|=\\sqrt5\\qquad\\text{och}\\qquad \\operatorname{Im}z=2\\operatorname{Re}z.\\]</p>\n<span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Komplext talplan med cirkel med centrum 1 plus i och linjen y lika med 2x\">\n<rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<g stroke=\"#E2E6EA\" stroke-width=\"1\"><line x1=\"55\" y1=\"35\" x2=\"55\" y2=\"290\"/><line x1=\"95\" y1=\"35\" x2=\"95\" y2=\"290\"/><line x1=\"135\" y1=\"35\" x2=\"135\" y2=\"290\"/><line x1=\"175\" y1=\"35\" x2=\"175\" y2=\"290\"/><line x1=\"215\" y1=\"35\" x2=\"215\" y2=\"290\"/><line x1=\"255\" y1=\"35\" x2=\"255\" y2=\"290\"/><line x1=\"295\" y1=\"35\" x2=\"295\" y2=\"290\"/><line x1=\"335\" y1=\"35\" x2=\"335\" y2=\"290\"/><line x1=\"375\" y1=\"35\" x2=\"375\" y2=\"290\"/><line x1=\"40\" y1=\"45\" x2=\"390\" y2=\"45\"/><line x1=\"40\" y1=\"85\" x2=\"390\" y2=\"85\"/><line x1=\"40\" y1=\"125\" x2=\"390\" y2=\"125\"/><line x1=\"40\" y1=\"165\" x2=\"390\" y2=\"165\"/><line x1=\"40\" y1=\"205\" x2=\"390\" y2=\"205\"/><line x1=\"40\" y1=\"245\" x2=\"390\" y2=\"245\"/><line x1=\"40\" y1=\"285\" x2=\"390\" y2=\"285\"/></g>\n<line x1=\"40\" y1=\"205\" x2=\"400\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"215\" y1=\"295\" x2=\"215\" y2=\"28\" stroke=\"#2B2527\" stroke-width=\"1.7\"/>\n<circle cx=\"255\" cy=\"165\" r=\"89.44\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.7\"/>\n<line x1=\"145\" y1=\"305\" x2=\"305\" y2=\"-15\" stroke=\"#476582\" stroke-width=\"2.5\"/>\n<circle cx=\"255\" cy=\"165\" r=\"4\" fill=\"#2B2527\"/><text x=\"263\" y=\"158\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">1 + i</text><text x=\"305\" y=\"43\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#476582\">Im z = 2 Re z</text><text x=\"327\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">|z − (1+i)| = √5</text>\n</svg></span>\n<p>Svara exakt.</p>",
+    "t": "<p>Bestäm alla komplexa tal \\(z=x+iy\\) som samtidigt uppfyller</p><p>\\[|z-(1+i)|=\\sqrt5\\qquad\\text{och}\\qquad \\operatorname{Im}z=2\\operatorname{Re}z.\\]</p>\n<span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Komplext talplan med cirkel med centrum 1 plus i och linjen y lika med 2x\">\n<rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<g stroke=\"#E2E6EA\" stroke-width=\"1\"><line x1=\"55\" y1=\"35\" x2=\"55\" y2=\"290\"/><line x1=\"95\" y1=\"35\" x2=\"95\" y2=\"290\"/><line x1=\"135\" y1=\"35\" x2=\"135\" y2=\"290\"/><line x1=\"175\" y1=\"35\" x2=\"175\" y2=\"290\"/><line x1=\"215\" y1=\"35\" x2=\"215\" y2=\"290\"/><line x1=\"255\" y1=\"35\" x2=\"255\" y2=\"290\"/><line x1=\"295\" y1=\"35\" x2=\"295\" y2=\"290\"/><line x1=\"335\" y1=\"35\" x2=\"335\" y2=\"290\"/><line x1=\"375\" y1=\"35\" x2=\"375\" y2=\"290\"/><line x1=\"40\" y1=\"45\" x2=\"390\" y2=\"45\"/><line x1=\"40\" y1=\"85\" x2=\"390\" y2=\"85\"/><line x1=\"40\" y1=\"125\" x2=\"390\" y2=\"125\"/><line x1=\"40\" y1=\"165\" x2=\"390\" y2=\"165\"/><line x1=\"40\" y1=\"205\" x2=\"390\" y2=\"205\"/><line x1=\"40\" y1=\"245\" x2=\"390\" y2=\"245\"/><line x1=\"40\" y1=\"285\" x2=\"390\" y2=\"285\"/></g>\n<line x1=\"40\" y1=\"205\" x2=\"400\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"215\" y1=\"295\" x2=\"215\" y2=\"28\" stroke=\"#2B2527\" stroke-width=\"1.7\"/>\n<circle cx=\"255\" cy=\"165\" r=\"89.44\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.7\"/>\n<line x1=\"145\" y1=\"305\" x2=\"305\" y2=\"-15\" stroke=\"#476582\" stroke-width=\"2.5\"/>\n<circle cx=\"255\" cy=\"165\" r=\"4\" fill=\"#2B2527\"/><text x=\"263\" y=\"158\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">1 + i</text><text x=\"305\" y=\"43\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#476582\">Im z = 2 Re z</text><text x=\"327\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">|z − (1+i)| = √5</text>\n</svg></span>\n",
+    "kgInstruktion": "Svara exakt.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det första villkoret är en cirkel med centrum \\((1,1)\\) och radie \\(\\sqrt5\\).</p></li><li><div class=\"facit-berakning\"><p>Det andra villkoret är linjen</p><div class=\"facit-matte\">\\[y=2x\\].</div></div></li><li><p>Sätt \\(y=2x\\) i cirkelekvationen:</p></li><li><p>\\[(x-1)^2+(y-1)^2=5.\\]</p></li><li><p>\\[(x-1)^2+(2x-1)^2=5.\\]</p></li><li><p>\\[5x^2-6x-3=0.\\]</p></li><li><p>Dividera med 5 och använd pq-formeln: \\(x^2-\\frac65x-\\frac35=0\\).</p></li><li><p>\\[x=\\frac35\\pm\\sqrt{\\frac9{25}+\\frac{15}{25}}=\\frac{3\\pm\\sqrt{24}}5=\\frac{3\\pm2\\sqrt6}{5}.\\]</p></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[y=2x\\]:</div></div></li><li><p>\\[y=\\frac{6\\pm4\\sqrt6}{5}.\\]</p></li><li><p>Alltså</p></li></ol><p class=\"facit-svar\"><strong>\\[z_1=\\frac{3+2\\sqrt6}{5}+\\frac{6+4\\sqrt6}{5}i,\\qquad z_2=\\frac{3-2\\sqrt6}{5}+\\frac{6-4\\sqrt6}{5}i.\\]</strong></p></div>",
     "familj": "Ortslinjer och områden i komplexa talplanet",
     "formaga": [
@@ -76844,7 +76863,8 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm de komplexa tal \\(z\\) som uppfyller</p><p>\\[|z-2|=|z+1-i|\\]</p><p>och</p><p>\\[|z|=4.\\]</p><p>Avrunda till tre decimaler.</p>",
+    "t": "<p>Bestäm de komplexa tal \\(z\\) som uppfyller</p><p>\\[|z-2|=|z+1-i|\\]</p><p>och</p><p>\\[|z|=4.\\]</p>",
+    "kgInstruktion": "Avrunda till tre decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det första villkoret beskriver punkter som ligger lika långt från \\((2,0)\\) och \\((-1,1)\\).</p></li><li><p>De ligger på en rät linje, och förenkling ger</p></li><li><p>\\[y=3x-1.\\]</p></li><li><p>Skärning med cirkeln \\(x^2+y^2=16\\) ger två punkter:</p></li><li><p>\\[(-0,961;-3,883)\\quad\\text{och}\\quad(1,561;3,683).\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\boxed{z\\approx-0{,}961-3{,}883i\\quad\\text{eller}\\quad z\\approx1{,}561+3{,}683i}.\\]</p></li></ol></div>",
     "familj": "Ortslinjer och områden i komplexa talplanet",
     "formaga": [
@@ -89372,7 +89392,8 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm samtliga reella lösningar till</p><p>\\[x^5-4x^3+x+1=2{,}5.\\]</p><p>Avrunda till tre decimaler.</p>",
+    "t": "<p>Bestäm samtliga reella lösningar till</p><p>\\[x^5-4x^3+x+1=2{,}5.\\]</p>",
+    "kgInstruktion": "Avrunda till tre decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla termerna: \\(x^5-4x^3+x-1{,}5=0\\)</p><p>Rita vänsterledet som en funktion. Vi söker de reella nollställena.</p></li><li><p class=\"facit-rubrik\">Läs av de tre skärningarna med x-axeln</p><div class=\"facit-matte\">\\[\\begin{aligned}x_1&\\approx-1{,}865995\\\\x_2&\\approx-0{,}913577\\\\x_3&\\approx1{,}984442\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Så gör du i GeoGebra</p><p>Öppna GeoGebra Classic i grafritarläge. Skriv <code>p(x)=x^5-4*x^3+x-1.5</code>. Grafen skär x-axeln i tre punkter. Bestäm dem med <code>A=Root(p,-2,-1.5)</code>, <code>B=Root(p,-1.2,-0.5)</code> och <code>C=Root(p,1.5,2.2)</code>. Läs punkternas x-koordinater. GeoGebra använder decimalpunkt.</p><span class=\"fig\"><img src=\"bilder/geogebra-mato2-4-333.png\" alt=\"GeoGebra visar inmatade funktioner, nollställen och deras koordinater.\" style=\"width:100%;max-width:680px;height:auto\"></span></li><li><p class=\"facit-rubrik\">Avrunda till tre decimaler</p><p>Polynomet har även två icke-reella komplexa rötter, men frågan gäller endast reella lösningar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx-1{,}866\\), \\(x\\approx-0{,}914\\) eller \\(x\\approx1{,}984\\).</p></div>",
     "familj": "Polynomekvationer och komplexa rötter",
     "formaga": [
@@ -89960,7 +89981,7 @@ window.BANKMATO2 = [
     "poang": "0/1/3",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Polynomet</p><p>\\[P(x)=x^5-4x^3+x+1\\]</p><p>har tre reella nollställen och två icke-reella komplexa rötter.</p><p>Bestäm en andragradsfaktor med reella koefficienter som har de två komplexa rötterna som nollställen. Svara med koefficienter med tre decimaler.</p>",
+    "t": "<p>Polynomet</p><p>\\[P(x)=x^5-4x^3+x+1\\]</p><p>har tre reella nollställen och två icke-reella komplexa rötter.</p><p>Bestäm en andragradsfaktor med reella koefficienter som har de två komplexa rötterna som nollställen.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De komplexa rötterna är ungefär</p></li><li><p>\\[z=-0{,}369441\\pm0{,}438890i.\\]</p></li><li><p>En andragradsfaktor med dessa rötter är</p></li><li><p>\\[(x-z)(x-\\overline z)=x^2-2\\operatorname{Re}(z)x+|z|^2.\\]</p></li><li><p>Här är</p></li><li><p>\\[-2\\operatorname{Re}(z)\\approx0{,}739\\]</p></li><li><p>och</p></li><li><p>\\[|z|^2\\approx0{,}329.\\]</p></li><li><p>Alltså kan faktorn skrivas</p></li><li><p>\\[\\boxed{x^2+0{,}739x+0{,}329}.\\]</p></li></ol></div></div>",
     "familj": "Polynomekvationer och komplexa rötter",
     "formaga": [
@@ -89979,7 +90000,8 @@ window.BANKMATO2 = [
     ],
     "familjTidigare": [
       "Faktorsatsen, faktorisering och polynomrötter"
-    ]
+    ],
+    "kgInstruktion": "Svara med koefficienter med tre decimaler."
   },
   {
     "id": "4.269",
@@ -93312,7 +93334,7 @@ window.BANKMATO2 = [
     ],
     "niva": "A",
     "poang": "0/1/3",
-    "t": "<p>I Stockholm är dagen längst kring dag 172 (21 juni), med 18,6 timmar dagsljus. Den är kortast kring dag 355, med 6,1 timmar. Antag att dagens längd varierar sinusformigt med perioden 365 dagar.</p><p>Vilken dag tidigare på året är det för första gången minst 12 timmars dagsljus? Svara med dagnummer, där 1 januari är dag 1.</p>",
+    "t": "<p>I Stockholm är dagen längst kring dag 172 (21 juni), med 18,6 timmar dagsljus. Den är kortast kring dag 355, med 6,1 timmar. Antag att dagens längd varierar sinusformigt med perioden 365 dagar.</p><p>Vilken dag tidigare på året är det för första gången minst 12 timmars dagsljus? Dag 1 är den 1 januari.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelvärde \\(\\frac{18{,}6+6{,}1}{2}=12{,}35\\) h och amplitud \\(\\frac{18{,}6-6{,}1}{2}=6{,}25\\) h.</p></li><li><p>Med maximum vid dag 172:</p></li><li><p>\\[L(d)=12{,}35+6{,}25\\cos\\left(\\frac{2\\pi}{365}(d-172)\\right).\\]</p></li><li><p>\\(L=12\\) ger \\(\\cos\\left(\\frac{2\\pi}{365}(d-172)\\right)=-0{,}056\\), alltså \\(\\frac{2\\pi}{365}(d-172)=\\pm1{,}627\\).</p></li><li><div class=\"facit-berakning\"><p>Den första lösningen före sommaren:</p><div class=\"facit-matte\">\\[d=172-\\frac{1{,}627\\cdot365}{2\\pi}\\approx172-94{,}5\\approx77{,}5\\].</div></div></li><li><p>Dag 78, alltså kring 19 mars, nära vårdagjämningen.</p></li><li><p>Det är rimligt: vid dagjämning är dag och natt ungefär lika långa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> kring dag 78</p></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
@@ -105461,7 +105483,7 @@ window.BANKMATO2 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "den andra lösningen ur grafen",
-    "t": "<p>Figuren visar grafen till \\(y=\\sin x\\) och linjen \\(y=k\\). Linjen skär grafen i två punkter mellan 0° och 360°. Den ena skärningspunkten har \\(x=40^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"290\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Grafen till y = sin x för x från 0 till 360 grader och den vågräta streckade linjen y = k. Linjen skär sinuskurvan i två punkter. Den första punkten har x = 40 grader och är märkt.\"><title>Grafen till y = sin x för x från 0 till 360 grader och den vågräta streckade linjen y = k. Linjen skär sinuskurvan i två punkter. Den första punkten har x = 40 grader och är märkt.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"26\" x2=\"56.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"143.5\" y1=\"26\" x2=\"143.5\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"231.0\" y1=\"26\" x2=\"231.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"318.5\" y1=\"26\" x2=\"318.5\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"406.0\" y1=\"26\" x2=\"406.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"231.2\" x2=\"406\" y2=\"231.2\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"185.6\" x2=\"406\" y2=\"185.6\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"94.4\" x2=\"406\" y2=\"94.4\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"48.8\" x2=\"406\" y2=\"48.8\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"140.0\" x2=\"414\" y2=\"140.0\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56\" y1=\"254\" x2=\"56\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56.0\" y1=\"81.4\" x2=\"406.0\" y2=\"81.4\" stroke=\"#8a96a3\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"56.0,140.0 57.9,136.8 59.9,133.6 61.8,130.5 63.8,127.3 65.7,124.2 67.7,121.0 69.6,117.9 71.6,114.9 73.5,111.8 75.4,108.8 77.4,105.8 79.3,102.9 81.3,100.0 83.2,97.2 85.2,94.4 87.1,91.7 89.1,89.0 91.0,86.4 92.9,83.9 94.9,81.4 96.8,79.0 98.8,76.6 100.7,74.4 102.7,72.2 104.6,70.1 106.6,68.1 108.5,66.2 110.4,64.4 112.4,62.7 114.3,61.0 116.3,59.5 118.2,58.0 120.2,56.7 122.1,55.4 124.1,54.3 126.0,53.3 127.9,52.3 129.9,51.5 131.8,50.8 133.8,50.2 135.7,49.7 137.7,49.3 139.6,49.0 141.6,48.9 143.5,48.8 145.4,48.9 147.4,49.0 149.3,49.3 151.3,49.7 153.2,50.2 155.2,50.8 157.1,51.5 159.1,52.3 161.0,53.3 162.9,54.3 164.9,55.4 166.8,56.7 168.8,58.0 170.7,59.5 172.7,61.0 174.6,62.7 176.6,64.4 178.5,66.2 180.4,68.1 182.4,70.1 184.3,72.2 186.3,74.4 188.2,76.6 190.2,79.0 192.1,81.4 194.1,83.9 196.0,86.4 197.9,89.0 199.9,91.7 201.8,94.4 203.8,97.2 205.7,100.0 207.7,102.9 209.6,105.8 211.6,108.8 213.5,111.8 215.4,114.9 217.4,117.9 219.3,121.0 221.3,124.2 223.2,127.3 225.2,130.5 227.1,133.6 229.1,136.8 231.0,140.0 232.9,143.2 234.9,146.4 236.8,149.5 238.8,152.7 240.7,155.8 242.7,159.0 244.6,162.1 246.6,165.1 248.5,168.2 250.4,171.2 252.4,174.2 254.3,177.1 256.3,180.0 258.2,182.8 260.2,185.6 262.1,188.3 264.1,191.0 266.0,193.6 267.9,196.1 269.9,198.6 271.8,201.0 273.8,203.4 275.7,205.6 277.7,207.8 279.6,209.9 281.6,211.9 283.5,213.8 285.4,215.6 287.4,217.3 289.3,219.0 291.3,220.5 293.2,222.0 295.2,223.3 297.1,224.6 299.1,225.7 301.0,226.7 302.9,227.7 304.9,228.5 306.8,229.2 308.8,229.8 310.7,230.3 312.7,230.7 314.6,231.0 316.6,231.1 318.5,231.2 320.4,231.1 322.4,231.0 324.3,230.7 326.3,230.3 328.2,229.8 330.2,229.2 332.1,228.5 334.1,227.7 336.0,226.7 337.9,225.7 339.9,224.6 341.8,223.3 343.8,222.0 345.7,220.5 347.7,219.0 349.6,217.3 351.6,215.6 353.5,213.8 355.4,211.9 357.4,209.9 359.3,207.8 361.3,205.6 363.2,203.4 365.2,201.0 367.1,198.6 369.1,196.1 371.0,193.6 372.9,191.0 374.9,188.3 376.8,185.6 378.8,182.8 380.7,180.0 382.7,177.1 384.6,174.2 386.6,171.2 388.5,168.2 390.4,165.1 392.4,162.1 394.3,159.0 396.3,155.8 398.2,152.7 400.2,149.5 402.1,146.4 404.1,143.2 406.0,140.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"94.9\" cy=\"81.4\" r=\"5\" fill=\"#c2410c\"/><circle cx=\"192.1\" cy=\"81.4\" r=\"5\" fill=\"#c2410c\"/><text x=\"143.5\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">90°</text><text x=\"231.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">180°</text><text x=\"318.5\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">270°</text><text x=\"406.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">360°</text><text x=\"49.0\" y=\"235.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><text x=\"49.0\" y=\"189.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−0,5</text><text x=\"49.0\" y=\"98.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0,5</text><text x=\"49.0\" y=\"52.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"418.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"63.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><text x=\"72.9\" y=\"72.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">40°</text><text x=\"404.0\" y=\"72.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#243447\">y = k</text></svg></span><p>Bestäm x-koordinaten för den andra skärningspunkten och värdet på \\(k\\). Svara med k med två decimaler.</p>",
+    "t": "<p>Figuren visar grafen till \\(y=\\sin x\\) och linjen \\(y=k\\). Linjen skär grafen i två punkter mellan 0° och 360°. Den ena skärningspunkten har \\(x=40^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"290\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Grafen till y = sin x för x från 0 till 360 grader och den vågräta streckade linjen y = k. Linjen skär sinuskurvan i två punkter. Den första punkten har x = 40 grader och är märkt.\"><title>Grafen till y = sin x för x från 0 till 360 grader och den vågräta streckade linjen y = k. Linjen skär sinuskurvan i två punkter. Den första punkten har x = 40 grader och är märkt.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"26\" x2=\"56.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"143.5\" y1=\"26\" x2=\"143.5\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"231.0\" y1=\"26\" x2=\"231.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"318.5\" y1=\"26\" x2=\"318.5\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"406.0\" y1=\"26\" x2=\"406.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"231.2\" x2=\"406\" y2=\"231.2\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"185.6\" x2=\"406\" y2=\"185.6\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"94.4\" x2=\"406\" y2=\"94.4\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"48.8\" x2=\"406\" y2=\"48.8\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"140.0\" x2=\"414\" y2=\"140.0\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56\" y1=\"254\" x2=\"56\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56.0\" y1=\"81.4\" x2=\"406.0\" y2=\"81.4\" stroke=\"#8a96a3\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"56.0,140.0 57.9,136.8 59.9,133.6 61.8,130.5 63.8,127.3 65.7,124.2 67.7,121.0 69.6,117.9 71.6,114.9 73.5,111.8 75.4,108.8 77.4,105.8 79.3,102.9 81.3,100.0 83.2,97.2 85.2,94.4 87.1,91.7 89.1,89.0 91.0,86.4 92.9,83.9 94.9,81.4 96.8,79.0 98.8,76.6 100.7,74.4 102.7,72.2 104.6,70.1 106.6,68.1 108.5,66.2 110.4,64.4 112.4,62.7 114.3,61.0 116.3,59.5 118.2,58.0 120.2,56.7 122.1,55.4 124.1,54.3 126.0,53.3 127.9,52.3 129.9,51.5 131.8,50.8 133.8,50.2 135.7,49.7 137.7,49.3 139.6,49.0 141.6,48.9 143.5,48.8 145.4,48.9 147.4,49.0 149.3,49.3 151.3,49.7 153.2,50.2 155.2,50.8 157.1,51.5 159.1,52.3 161.0,53.3 162.9,54.3 164.9,55.4 166.8,56.7 168.8,58.0 170.7,59.5 172.7,61.0 174.6,62.7 176.6,64.4 178.5,66.2 180.4,68.1 182.4,70.1 184.3,72.2 186.3,74.4 188.2,76.6 190.2,79.0 192.1,81.4 194.1,83.9 196.0,86.4 197.9,89.0 199.9,91.7 201.8,94.4 203.8,97.2 205.7,100.0 207.7,102.9 209.6,105.8 211.6,108.8 213.5,111.8 215.4,114.9 217.4,117.9 219.3,121.0 221.3,124.2 223.2,127.3 225.2,130.5 227.1,133.6 229.1,136.8 231.0,140.0 232.9,143.2 234.9,146.4 236.8,149.5 238.8,152.7 240.7,155.8 242.7,159.0 244.6,162.1 246.6,165.1 248.5,168.2 250.4,171.2 252.4,174.2 254.3,177.1 256.3,180.0 258.2,182.8 260.2,185.6 262.1,188.3 264.1,191.0 266.0,193.6 267.9,196.1 269.9,198.6 271.8,201.0 273.8,203.4 275.7,205.6 277.7,207.8 279.6,209.9 281.6,211.9 283.5,213.8 285.4,215.6 287.4,217.3 289.3,219.0 291.3,220.5 293.2,222.0 295.2,223.3 297.1,224.6 299.1,225.7 301.0,226.7 302.9,227.7 304.9,228.5 306.8,229.2 308.8,229.8 310.7,230.3 312.7,230.7 314.6,231.0 316.6,231.1 318.5,231.2 320.4,231.1 322.4,231.0 324.3,230.7 326.3,230.3 328.2,229.8 330.2,229.2 332.1,228.5 334.1,227.7 336.0,226.7 337.9,225.7 339.9,224.6 341.8,223.3 343.8,222.0 345.7,220.5 347.7,219.0 349.6,217.3 351.6,215.6 353.5,213.8 355.4,211.9 357.4,209.9 359.3,207.8 361.3,205.6 363.2,203.4 365.2,201.0 367.1,198.6 369.1,196.1 371.0,193.6 372.9,191.0 374.9,188.3 376.8,185.6 378.8,182.8 380.7,180.0 382.7,177.1 384.6,174.2 386.6,171.2 388.5,168.2 390.4,165.1 392.4,162.1 394.3,159.0 396.3,155.8 398.2,152.7 400.2,149.5 402.1,146.4 404.1,143.2 406.0,140.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"94.9\" cy=\"81.4\" r=\"5\" fill=\"#c2410c\"/><circle cx=\"192.1\" cy=\"81.4\" r=\"5\" fill=\"#c2410c\"/><text x=\"143.5\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">90°</text><text x=\"231.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">180°</text><text x=\"318.5\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">270°</text><text x=\"406.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">360°</text><text x=\"49.0\" y=\"235.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><text x=\"49.0\" y=\"189.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−0,5</text><text x=\"49.0\" y=\"98.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0,5</text><text x=\"49.0\" y=\"52.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"418.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"63.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><text x=\"72.9\" y=\"72.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">40°</text><text x=\"404.0\" y=\"72.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#243447\">y = k</text></svg></span><p>Bestäm x-koordinaten för den andra skärningspunkten och värdet på \\(k\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinuskurvan är symmetrisk kring x = 90° mellan 0° och 180°</p><p>Samma sinusvärde fås för \\(x\\) och för \\(180^\\circ-x\\).</p><div class=\"facit-matte\">\\[x=180^\\circ-40^\\circ=140^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Linjens höjd är sinusvärdet i skärningspunkten</p><div class=\"facit-matte\">\\[k=\\sin40^\\circ\\approx0{,}64\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den andra skärningspunkten har \\(x=140^\\circ\\), och \\(k\\approx0{,}64\\).</p></div>",
     "familj": "Avläsa sinus- och cosinuskurvor i grafer",
     "formaga": [
@@ -105502,7 +105524,8 @@ window.BANKMATO2 = [
     "familjTidigare": [
       "Lösa trigonometriska ekvationer"
     ],
-    "idTidigare": "mato1 4.584"
+    "idTidigare": "mato1 4.584",
+    "kgInstruktion": "Svara med k med två decimaler."
   },
   {
     "id": "2.720",

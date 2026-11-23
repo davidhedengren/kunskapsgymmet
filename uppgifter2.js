@@ -4020,7 +4020,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "djup på brunn med ljudets fördröjning",
     "poang": "(0/1/2)",
-    "t": "<p>Du släpper en sten i en brunn och hör den slå i botten efter 3,20 s. Ljudets fart är 343 m/s. Hur djup är brunnen?</p><p>Bortse från luftmotståndet.</p>",
+    "t": "<p>Du släpper en sten i en brunn och hör den slå i botten efter 3,20 s. Hur djup är brunnen?</p><p>Bortse från luftmotståndet.</p>",
+    "kgInstruktion": "Ljudets fart är 343 m/s.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Falltid \\(t_1\\) och ljudets tid \\(t_2\\): \\(t_1+t_2=3{,}20\\),</p></li><li><div class=\"facit-matte\">\\[h=\\dfrac{gt_1^2}{2}=343t_2\\].</div></li><li><p>Lös numeriskt eller som andragradsekvation: \\(t_1\\approx3{,}07\\) s och \\(h\\approx46\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(46\\) m</p></div>",
     "id": "1.126",
     "miniräknare": true,
@@ -11380,7 +11381,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "bestämma avstånd med ekolokalisering, ur text och figur, sökt avstånd",
     "poang": "(1/1/0)",
-    "t": "<p>En fladdermus hittar insekter med ekolokalisering. Den sänder ut ett kort ultraljudsskri, och ekot från en insekt kommer tillbaka till fladdermusen efter 6,0 ms. Ljudets fart i luft är 340 m/s.</p><p>Hur långt från fladdermusen är insekten?</p><span class=\"fig bred\"><svg viewBox=\"2.593 8.642 290.630 108.463\" width=\"620\" height=\"231\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Fladdermus som sänder ultraljud mot en insekt.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Fladdermus som sänder ultraljud mot en insekt.</title><g transform=\"translate(-19,-40.91)\"><ellipse cx=\"66\" cy=\"104\" rx=\"8\" ry=\"6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"1.9\"/><path d=\"M 61 100 L 34 88 L 54 111 Z M 71 100 L 90 88 L 77 111 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"1.9\" stroke-linejoin=\"round\"/><path d=\"M 61 99 L 63 92 L 65 99 Z M 67 99 L 69 92 L 71 99 Z\" fill=\"#2B2527\"/><text x=\"60\" y=\"78\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"400\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">fladdermus</text><path d=\"M 113.55 89.46 A 26 26 0 0 1 113.55 118.54\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\"0.8\"/><path d=\"M 130.14 78.28 A 46 46 0 0 1 130.14 129.72\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\"0.8\"/><path d=\"M 146.72 67.09 A 66 66 0 0 1 146.72 140.91\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\"0.8\"/><path d=\"M 163.3 55.91 A 86 86 0 0 1 163.3 152.09\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\"0.8\"/><circle cx=\"92\" cy=\"104\" r=\"8\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><ellipse cx=\"268\" cy=\"104\" rx=\"9\" ry=\"6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"268\" y=\"88\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"400\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">insekt</text></g></svg></span>",
+    "t": "<p>En fladdermus hittar insekter med ekolokalisering. Den sänder ut ett kort ultraljudsskri, och ekot från en insekt kommer tillbaka till fladdermusen efter 6,0 ms.</p><p>Hur långt från fladdermusen är insekten?</p><span class=\"fig bred\"><svg viewBox=\"2.593 8.642 290.630 108.463\" width=\"620\" height=\"231\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Fladdermus som sänder ultraljud mot en insekt.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Fladdermus som sänder ultraljud mot en insekt.</title><g transform=\"translate(-19,-40.91)\"><ellipse cx=\"66\" cy=\"104\" rx=\"8\" ry=\"6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"1.9\"/><path d=\"M 61 100 L 34 88 L 54 111 Z M 71 100 L 90 88 L 77 111 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"1.9\" stroke-linejoin=\"round\"/><path d=\"M 61 99 L 63 92 L 65 99 Z M 67 99 L 69 92 L 71 99 Z\" fill=\"#2B2527\"/><text x=\"60\" y=\"78\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"400\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">fladdermus</text><path d=\"M 113.55 89.46 A 26 26 0 0 1 113.55 118.54\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\"0.8\"/><path d=\"M 130.14 78.28 A 46 46 0 0 1 130.14 129.72\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\"0.8\"/><path d=\"M 146.72 67.09 A 66 66 0 0 1 146.72 140.91\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\"0.8\"/><path d=\"M 163.3 55.91 A 86 86 0 0 1 163.3 152.09\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"1.6\" stroke-linecap=\"round\" opacity=\"0.8\"/><circle cx=\"92\" cy=\"104\" r=\"8\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><ellipse cx=\"268\" cy=\"104\" rx=\"9\" ry=\"6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"268\" y=\"88\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"400\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">insekt</text></g></svg></span>",
+    "kgInstruktion": "Ljudets fart i luft är 340 m/s.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Ljudets fart är \\(v=340\\ \\mathrm{m/s}\\). Tiden \\(t=6{,}0\\ \\mathrm{ms}=6{,}0\\cdot10^{-3}\\ \\mathrm s\\) gäller vägen till insekten och tillbaka. Sökt: avståndet \\(d\\).</p></li><li><p class=\"facit-rubrik\">Ekot går sträckan \\(2d\\): \\(2d=vt\\)</p><p>\\[d=\\frac{vt}2=\\frac{340\\cdot6{,}0\\cdot10^{-3}}{2}\\ \\mathrm m=1{,}02\\ \\mathrm m\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Insekten är cirka \\(1{,}0\\ \\mathrm m\\) från fladdermusen.</p></div>",
     "familj": "Infraljud och ultraljud",
     "formaga": [
@@ -15018,7 +15020,8 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(1/2/0)",
     "typ": "kombinera elektrisk effekt med uppvärmning av vatten, ur text, sökt ström, resistans och tid",
-    "t": "<p>En vattenkokare är märkt 230 V och 2000 W. Bestäm strömmen genom kokaren. Bestäm värmeslingans resistans. Hur lång tid tar det att värma 1,2 liter vatten från 20 °C till 100 °C om 85 % av den tillförda energin går till vattnet? Vattnets specifika värmekapacitet är 4180 J/(kg·°C).</p>",
+    "t": "<p>En vattenkokare är märkt 230 V och 2000 W. Bestäm strömmen genom kokaren. Bestäm värmeslingans resistans. Hur lång tid tar det att värma 1,2 liter vatten från 20 °C till 100 °C om 85 % av den tillförda energin går till vattnet?</p>",
+    "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·°C).",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Använd apparatens märkspänning och märkeffekt.</p></li><li><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{2000}{230}=8{,}70\\ \\mathrm A\\]\\[R=\\frac{U^2}{P}=\\frac{230^2}{2000}=26{,}5\\ \\Omega\\]</div></li><li><p class=\"facit-metod\">Vattnets massa är cirka \\(1{,}2\\ \\mathrm{kg}\\), och temperaturökningen är \\(80\\ ^\\circ\\mathrm C\\).</p></li><li><div class=\"facit-matte\">\\[Q=mc\\Delta T=1{,}2\\cdot4180\\cdot80=4{,}01\\cdot10^5\\ \\mathrm J\\]\\[0{,}85Pt=Q\\Rightarrow t=\\frac{Q}{0{,}85P}=236\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Strömmen är \\(8{,}7\\ \\mathrm A\\), resistansen \\(26\\ \\Omega\\), och uppvärmningen tar cirka \\(236\\ \\mathrm s\\), alltså \\(3{,}9\\ \\mathrm{min}\\).</p></div>",
     "familj": "Sinusformad växelspänning och effektivvärde",
     "formaga": [
@@ -18521,7 +18524,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "svävande ledare i jordens fält",
     "poang": "(0/2/0)",
-    "t": "<p>En lång rak aluminiumledare med diametern 1,0 mm ska sväva horisontellt tack vare jordens magnetfält, vars horisontella komposant är 50 µT. Ledaren är vinkelrät mot fältet. Hur stor ström krävs? Aluminiums densitet är 2,70 g/cm³.</p>",
+    "t": "<p>En lång rak aluminiumledare med diametern 1,0 mm ska sväva horisontellt tack vare jordens magnetfält, vars horisontella komposant är 50 µT. Ledaren är vinkelrät mot fältet. Hur stor ström krävs?</p>",
+    "kgInstruktion": "Aluminiums densitet är 2,70 g/cm³.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Massa per meter: \\(\\rho\\pi r^2=2\\,700\\cdot\\pi\\cdot0{,}00050^2\\approx2{,}12\\cdot10^{-3}\\) kg/m.</p></li><li><div class=\"facit-matte\">\\[BI=\\dfrac{mg}{l}\\iff I=\\dfrac{2{,}12\\cdot10^{-3}\\cdot9{,}82}{50\\cdot10^{-6}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(416\\) A</p></div>",
     "id": "3.364",
     "miniräknare": true,
@@ -18547,7 +18551,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "svävande koppartråd",
     "poang": "(0/1/2)",
-    "t": "<p>En koppartråd med diametern 1,00 mm och längden 2,00 m kopplas till ett batteri med spänningen 1,5 V. Tråden ligger vinkelrätt mot ett homogent magnetfält och svävar precis. Bestäm flödestätheten. Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm och densiteten 8,96 g/cm³.</p>",
+    "t": "<p>En koppartråd med diametern 1,00 mm och längden 2,00 m kopplas till ett batteri med spänningen 1,5 V. Tråden ligger vinkelrätt mot ett homogent magnetfält och svävar precis. Bestäm flödestätheten.</p>",
+    "kgInstruktion": "Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm och densiteten 8,96 g/cm³.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(R=\\dfrac{\\rho_{el}l}{A}\\approx0{,}043\\) Ω, så \\(I=\\dfrac UR\\approx35\\) A.</p></li><li><p>Massa: \\(8\\,960\\cdot A\\cdot2{,}00\\approx0{,}0141\\) kg.</p></li><li><div class=\"facit-matte\">\\[BIl=mg\\iff B=\\dfrac{mg}{Il}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0020\\) T</p></div>",
     "id": "3.365",
     "miniräknare": true,
@@ -19786,7 +19791,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "bestämma vinkelbredden hos Snells fönster, ur figur, sökt vinkel",
     "poang": "(0/2/2)",
-    "t": "<p>En dykare under vattnet (n = 1,33) tittar upp mot den plana vattenytan. Allt ljus från himlen samlas till en cirkulär fläck som brukar kallas Snells fönster. Bestäm hur bred fläcken är i vinkel sett från dykaren. Förklara varför dykaren ser speglingar av bottnen utanför fläcken.</p><span class=\"fig bred\"><svg viewBox=\"0.000 7.575 284.000 164.996\" width=\"620\" height=\"360\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Snells fönster sett av en dykare under vattenytan.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Snells fönster sett av en dykare under vattenytan.</title><g transform=\"translate(-25,-16.98)\"><rect x=\"38\" y=\"36\" width=\"258\" height=\"26\" fill=\"#F2F5F9\"/><rect x=\"38\" y=\"62\" width=\"258\" height=\"112\" fill=\"#CFE0EF\"/><line x1=\"38\" y1=\"62\" x2=\"296\" y2=\"62\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"43\" y=\"50\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">luft</text><text x=\"291\" y=\"78\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">vatten</text><circle cx=\"166\" cy=\"158\" r=\"9\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"166\" y=\"182\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9.5\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">dykare</text><line x1=\"166\" y1=\"158\" x2=\"56.52\" y2=\"62\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><line x1=\"166\" y1=\"158\" x2=\"275.48\" y2=\"62\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><line x1=\"166\" y1=\"158\" x2=\"166\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-dasharray=\"5 4\"/><line x1=\"56.52\" y1=\"46\" x2=\"275.48\" y2=\"46\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"56.52\" y1=\"41\" x2=\"56.52\" y2=\"51\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"275.48\" y1=\"41\" x2=\"275.48\" y2=\"51\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"166\" y=\"37\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">Snells fönster</text><path d=\"M 131.41 127.67 A 46 46 0 0 1 200.59 127.67\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"166\" y=\"102\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\"></text></g></svg></span>",
+    "t": "<p>En dykare under vattnet tittar upp mot den plana vattenytan. Allt ljus från himlen samlas till en cirkulär fläck som brukar kallas Snells fönster. Bestäm hur bred fläcken är i vinkel sett från dykaren. Förklara varför dykaren ser speglingar av bottnen utanför fläcken.</p><span class=\"fig bred\"><svg viewBox=\"0.000 7.575 284.000 164.996\" width=\"620\" height=\"360\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Snells fönster sett av en dykare under vattenytan.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Snells fönster sett av en dykare under vattenytan.</title><g transform=\"translate(-25,-16.98)\"><rect x=\"38\" y=\"36\" width=\"258\" height=\"26\" fill=\"#F2F5F9\"/><rect x=\"38\" y=\"62\" width=\"258\" height=\"112\" fill=\"#CFE0EF\"/><line x1=\"38\" y1=\"62\" x2=\"296\" y2=\"62\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"43\" y=\"50\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">luft</text><text x=\"291\" y=\"78\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">vatten</text><circle cx=\"166\" cy=\"158\" r=\"9\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"166\" y=\"182\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9.5\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">dykare</text><line x1=\"166\" y1=\"158\" x2=\"56.52\" y2=\"62\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><line x1=\"166\" y1=\"158\" x2=\"275.48\" y2=\"62\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><line x1=\"166\" y1=\"158\" x2=\"166\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-dasharray=\"5 4\"/><line x1=\"56.52\" y1=\"46\" x2=\"275.48\" y2=\"46\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"56.52\" y1=\"41\" x2=\"56.52\" y2=\"51\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"275.48\" y1=\"41\" x2=\"275.48\" y2=\"51\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"166\" y=\"37\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">Snells fönster</text><path d=\"M 131.41 127.67 A 46 46 0 0 1 200.59 127.67\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.3\"/><text x=\"166\" y=\"102\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\"></text></g></svg></span>",
+    "kgInstruktion": "Vattnets brytningsindex är 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Fönstrets ytterkant motsvarar ljus som kommer längs horisonten, alltså med infallsvinkeln \\(90^\\circ\\) i luften.</p></li><li><div class=\"facit-matte\">\\[1{,}00\\sin90^\\circ=1{,}33\\sin r_{\\max}\\]\\[r_{\\max}=\\arcsin\\left(\\frac1{1{,}33}\\right)=48{,}8^\\circ\\]\\[\\text{vinkelbredd}=2r_{\\max}=97{,}5^\\circ\\]</div></li><li><p class=\"facit-metod\">Utanför denna kon träffar strålar från vattnet ytan över gränsvinkeln och totalreflekteras.</p></li><li><p class=\"facit-metod\">Dykaren ser därför bottnens spegelbild.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Snells fönster är cirka \\(97{,}5^\\circ\\) brett. Utanför fönstret totalreflekteras ljus från bottnen.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Alla vinklar i Snells lag mäts mot normalen.</p></li><li><p class=\"facit-not\">Fönstrets fulla vinkel är dubbla den största brytningsvinkeln eftersom samma gräns finns symmetriskt åt båda håll från lodlinjen.</p></li></ol></div>",
     "familj": "Totalreflektion och optisk fiber",
     "formaga": [
@@ -27207,7 +27213,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna brytningsvinkeln när ljus går från vatten ut i luft, ur figur, sökt brytningsvinkel",
     "poang": "(2/0/0)",
-    "t": "<p>En ljusstråle går från vatten med brytningsindex 1,33 ut i luft. Infallsvinkeln i vattnet är 25°.</p><p>Bestäm brytningsvinkeln i luften. Bryts strålen mot eller från normalen?</p><span class=\"fig bred\"><svg viewBox=\"0.000 11.936 250.000 138.064\" width=\"620\" height=\"342\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Ljusstråle som går från vatten upp genom vattenytan ut i luft.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ljusstråle som går från vatten upp genom vattenytan ut i luft.</title><rect x=\"10\" y=\"80\" width=\"230\" height=\"66\" fill=\"#D6E2F0\" opacity=\"0.65\"/><line x1=\"10\" y1=\"80\" x2=\"240\" y2=\"80\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"125\" y1=\"26\" x2=\"125\" y2=\"134\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"133\" y=\"24\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#9A959C\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">normal</text><line x1=\"101.7\" y1=\"130\" x2=\"119.4\" y2=\"92\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"125,80 116.7,89.6 122.9,94.2\" fill=\"#B43123\"/><line x1=\"125\" y1=\"80\" x2=\"152\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"159,30 149.7,38.2 155.9,42.4\" fill=\"#2A5D9E\"/><text x=\"30\" y=\"46\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">luft</text><text x=\"30\" y=\"122\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">vatten</text><text x=\"113\" y=\"104\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#B43123\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">25°</text><text x=\"147\" y=\"56\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">?</text></svg></span>",
+    "t": "<p>En ljusstråle går från vatten ut i luft. Infallsvinkeln i vattnet är 25°.</p><p>Bestäm brytningsvinkeln i luften. Bryts strålen mot eller från normalen?</p><span class=\"fig bred\"><svg viewBox=\"0.000 11.936 250.000 138.064\" width=\"620\" height=\"342\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Ljusstråle som går från vatten upp genom vattenytan ut i luft.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ljusstråle som går från vatten upp genom vattenytan ut i luft.</title><rect x=\"10\" y=\"80\" width=\"230\" height=\"66\" fill=\"#D6E2F0\" opacity=\"0.65\"/><line x1=\"10\" y1=\"80\" x2=\"240\" y2=\"80\" stroke=\"#2B2527\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"125\" y1=\"26\" x2=\"125\" y2=\"134\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><text x=\"133\" y=\"24\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#9A959C\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">normal</text><line x1=\"101.7\" y1=\"130\" x2=\"119.4\" y2=\"92\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"125,80 116.7,89.6 122.9,94.2\" fill=\"#B43123\"/><line x1=\"125\" y1=\"80\" x2=\"152\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"159,30 149.7,38.2 155.9,42.4\" fill=\"#2A5D9E\"/><text x=\"30\" y=\"46\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">luft</text><text x=\"30\" y=\"122\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">vatten</text><text x=\"113\" y=\"104\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#B43123\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">25°</text><text x=\"147\" y=\"56\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">?</text></svg></span>",
+    "kgInstruktion": "Vattnets brytningsindex är 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Använd brytningslagen med vattnet som medium 1 och luften som medium 2.</p></li><li><div class=\"facit-matte\">\\[n_1\\sin\\theta_1=n_2\\sin\\theta_2\\]\\[\\sin\\theta_2=\\frac{1{,}33\\cdot\\sin25^\\circ}{1{,}00}=0{,}562\\]\\[\\theta_2=34^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Brytningsvinkeln är \\(34^\\circ\\). Strålen bryts från normalen, eftersom ljuset går till ett medium med lägre brytningsindex och därmed högre hastighet.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Går ljuset åt andra hållet, från luft in i vatten, bryts det i stället mot normalen.</p></li><li><p class=\"facit-not\">Vid snett infall bryts ljuset mot normalen när hastigheten minskar, och från normalen när hastigheten ökar.</p></li></ol></div>",
     "familj": "Snells brytningslag",
     "formaga": [
@@ -28356,7 +28363,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "järnklotets radie",
     "poang": "(0/2/0)",
-    "t": "<p>Ett järnklot hängs i en fjäder med fjäderkonstanten 47,5 N/m som då förlängs 5,00 cm. Järn har densiteten 7,87 g/cm³. Vilken radie har klotet?</p>",
+    "t": "<p>Ett järnklot hängs i en fjäder med fjäderkonstanten 47,5 N/m som då förlängs 5,00 cm. Vilken radie har klotet?</p>",
+    "kgInstruktion": "Järn har densiteten 7,87 g/cm³.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(m=\\dfrac{kx}{g}\\approx0{,}242\\) kg.</p></li><li><p>\\(V=\\dfrac{m}{\\rho}\\approx3{,}07\\cdot10^{-5}\\) m³.</p></li><li><div class=\"facit-matte\">\\[r=\\sqrt[3]{\\dfrac{3V}{4\\pi}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0194\\) m</p></div>",
     "id": "2.445",
     "miniräknare": true,
@@ -41161,7 +41169,8 @@ window.BANK2 = [
     "omr": "straloptik",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ljus går från luft till vatten med brytningsindex 1,33. Infallsvinkeln är 40°.</p><p>Bestäm brytningsvinkeln.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Ljusbrytning med vinklar mätta mot normalen\" style=\"max-width:100%;height:auto\"><title>Ljusbrytning med vinklar mätta mot normalen</title><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"25\" y=\"135\" width=\"430\" height=\"125\" rx=\"3\" fill=\"#eaf2f8\" stroke=\"none\" stroke-width=\"2\"/><line x1=\"25.000\" y1=\"135.000\" x2=\"455.000\" y2=\"135.000\" stroke=\"#7b8797\" stroke-width=\"2\"/><line x1=\"240.000\" y1=\"25.000\" x2=\"240.000\" y2=\"245.000\" stroke=\"#7b8797\" stroke-width=\"1.5\" stroke-dasharray=\"5 5\"/><line x1=\"169.293\" y1=\"50.735\" x2=\"235.950\" y2=\"130.174\" stroke=\"#b54b42\" stroke-width=\"2.4\"/><polygon points=\"240,135 237.27908928529706,125.53444957318304 231.15073374034523,130.67675045067534\" fill=\"#b54b42\"/><line x1=\"240.000\" y1=\"135.000\" x2=\"292.535\" y2=\"230.162\" stroke=\"#2867a8\" stroke-width=\"2.4\"/><polygon points=\"295.57937978492635,235.67736857269824 294.73151070863463,225.86507434405488 287.72786767749045,229.73146598126712\" fill=\"#2867a8\"/><polyline points=\"209.789,98.996 210.582,98.345 211.388,97.712 212.208,97.097 213.042,96.500 213.888,95.921 214.747,95.361 215.618,94.819 216.500,94.297 217.394,93.794 218.298,93.310 219.212,92.847 220.137,92.404 221.071,91.980 222.014,91.578 222.965,91.196 223.925,90.834 224.892,90.494 225.867,90.175 226.848,89.878 227.836,89.601 228.829,89.347 229.827,89.114 230.831,88.903 231.839,88.714 232.850,88.547 233.865,88.402 234.883,88.279 235.904,88.179 236.926,88.101 237.950,88.045 238.975,88.011 240.000,88.000\" fill=\"none\" stroke=\"#7b8797\" stroke-width=\"1.6\"/><text x=\"200.00\" y=\"70.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">40°</text><text x=\"285.00\" y=\"197.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#2867a8\" text-anchor=\"middle\">β = ?</text><text x=\"77.00\" y=\"45.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">n₁ = 1</text><text x=\"77.00\" y=\"242.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">n₂ = 1,33</text><text x=\"282.00\" y=\"26.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#7b8797\" text-anchor=\"middle\">normal</text></svg></span>",
+    "t": "<p>Ljus går från luft till vatten. Infallsvinkeln är 40°.</p><p>Bestäm brytningsvinkeln.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Ljusbrytning med vinklar mätta mot normalen\" style=\"max-width:100%;height:auto\"><title>Ljusbrytning med vinklar mätta mot normalen</title><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"25\" y=\"135\" width=\"430\" height=\"125\" rx=\"3\" fill=\"#eaf2f8\" stroke=\"none\" stroke-width=\"2\"/><line x1=\"25.000\" y1=\"135.000\" x2=\"455.000\" y2=\"135.000\" stroke=\"#7b8797\" stroke-width=\"2\"/><line x1=\"240.000\" y1=\"25.000\" x2=\"240.000\" y2=\"245.000\" stroke=\"#7b8797\" stroke-width=\"1.5\" stroke-dasharray=\"5 5\"/><line x1=\"169.293\" y1=\"50.735\" x2=\"235.950\" y2=\"130.174\" stroke=\"#b54b42\" stroke-width=\"2.4\"/><polygon points=\"240,135 237.27908928529706,125.53444957318304 231.15073374034523,130.67675045067534\" fill=\"#b54b42\"/><line x1=\"240.000\" y1=\"135.000\" x2=\"292.535\" y2=\"230.162\" stroke=\"#2867a8\" stroke-width=\"2.4\"/><polygon points=\"295.57937978492635,235.67736857269824 294.73151070863463,225.86507434405488 287.72786767749045,229.73146598126712\" fill=\"#2867a8\"/><polyline points=\"209.789,98.996 210.582,98.345 211.388,97.712 212.208,97.097 213.042,96.500 213.888,95.921 214.747,95.361 215.618,94.819 216.500,94.297 217.394,93.794 218.298,93.310 219.212,92.847 220.137,92.404 221.071,91.980 222.014,91.578 222.965,91.196 223.925,90.834 224.892,90.494 225.867,90.175 226.848,89.878 227.836,89.601 228.829,89.347 229.827,89.114 230.831,88.903 231.839,88.714 232.850,88.547 233.865,88.402 234.883,88.279 235.904,88.179 236.926,88.101 237.950,88.045 238.975,88.011 240.000,88.000\" fill=\"none\" stroke=\"#7b8797\" stroke-width=\"1.6\"/><text x=\"200.00\" y=\"70.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">40°</text><text x=\"285.00\" y=\"197.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#2867a8\" text-anchor=\"middle\">β = ?</text><text x=\"77.00\" y=\"45.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">n₁ = 1</text><text x=\"77.00\" y=\"242.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">n₂ = 1,33</text><text x=\"282.00\" y=\"26.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#7b8797\" text-anchor=\"middle\">normal</text></svg></span>",
+    "kgInstruktion": "Vattnets brytningsindex är 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Rimlighetskontroll:</strong> Vinklarna i Snells lag mäts från normalen.</p></li><li><p>Till större brytningsindex ska vinkeln minska; till mindre brytningsindex ska den öka.</p></li><li><div class=\"facit-berakning\"><p><strong>Metod:</strong> Snells lag ger</p><div class=\"facit-matte\">\\[n_1\\sin i=n_2\\sin r\\].</div></div></li><li><p>\\[\\sin r=\\frac{\\sin40^\\circ}{1{,}33}\\Rightarrow r\\approx28{,}9^\\circ\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 29°.</p></div>",
     "familj": "Snells brytningslag",
     "formaga": [
@@ -44996,7 +45005,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "bilfjäder som spole",
     "poang": "(0/1/2)",
-    "t": "<p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>Ett bilbatteri med spänningen 12 V och inre resistansen 20 mΩ kopplas till en bilfjäder av koppar. Fjädern har radien 4,0 cm och 30 tätt packade varv i ett lager, och tråden har diametern 5,0 mm. Hur stor blir flödestätheten i mitten av fjädern?</p>",
+    "t": "<p>Ett bilbatteri med spänningen 12 V och inre resistansen 20 mΩ kopplas till en bilfjäder av koppar. Fjädern har radien 4,0 cm och 30 tätt packade varv i ett lager, och tråden har diametern 5,0 mm. Hur stor blir flödestätheten i mitten av fjädern?</p>",
+    "kgInstruktion": "Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trådens längd: \\(30\\cdot2\\pi\\cdot0{,}040\\approx7{,}54\\) m.</p></li><li><p>Area: \\(\\pi\\cdot0{,}0025^2\\).</p></li><li><p>\\(R=\\dfrac{\\rho l}{A}\\approx6{,}5\\) mΩ.</p></li><li><p>\\(I=\\dfrac{12}{0{,}020+0{,}0065}\\approx450\\) A.</p></li><li><p>Spolens längd: \\(30\\cdot5{,}0\\) mm \\(=0{,}15\\) m.</p></li><li><div class=\"facit-matte\">\\[B=4\\pi\\cdot10^{-7}\\cdot\\dfrac{30\\cdot450}{0{,}15}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}11\\) T</p></div>",
     "id": "3.398",
     "miniräknare": true,
@@ -45022,7 +45032,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "effekt för att driva en spole",
     "poang": "(0/1/2)",
-    "t": "<p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En lång spole med längden 75,0 cm och diametern 10,0 cm är tätt lindad i ett lager med koppartråd med diametern 1,00 mm. Hur stor elektrisk effekt krävs för att flödestätheten mitt i spolen ska bli 8,00 mT?</p>",
+    "t": "<p>En lång spole med längden 75,0 cm och diametern 10,0 cm är tätt lindad i ett lager med koppartråd med diametern 1,00 mm. Hur stor elektrisk effekt krävs för att flödestätheten mitt i spolen ska bli 8,00 mT?</p>",
+    "kgInstruktion": "Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N=\\dfrac{0{,}750}{0{,}00100}=750\\].</div></li><li><p>\\(I=\\dfrac{Bl}{\\mu_0N}\\approx6{,}37\\) A.</p></li><li><p>Trådens längd: \\(750\\cdot2\\pi\\cdot0{,}0500\\approx236\\) m, så \\(R=\\dfrac{\\rho l}{A}=\\dfrac{1{,}7\\cdot10^{-8}\\cdot236}{\\pi\\cdot0{,}000500^2}\\approx5{,}1\\) Ω.</p></li><li><div class=\"facit-matte\">\\[P=RI^2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(207\\) W</p></div>",
     "id": "3.399",
     "miniräknare": true,
@@ -47482,7 +47493,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "gitter nedsänkt i vatten",
     "poang": "(1/2/1)",
-    "t": "<p>Ljus med våglängden 410 nm (i luft) riktas vinkelrätt mot ett gitter med \\(d=1{,}2\\cdot10^{-5}\\) m. En skärm står 15 cm bakom gittret.</p><ol type=\"a\"><li>Bestäm avståndet från centralmaximum till andra ordningens maximum på skärmen.</li><li>Hela uppställningen sänks ned i vatten (brytningsindex 1,33). Bestäm samma avstånd nu.</li></ol>",
+    "t": "<p>Ljus med våglängden 410 nm (i luft) riktas vinkelrätt mot ett gitter med \\(d=1{,}2\\cdot10^{-5}\\) m. En skärm står 15 cm bakom gittret.</p><ol type=\"a\"><li>Bestäm avståndet från centralmaximum till andra ordningens maximum på skärmen.</li><li>Hela uppställningen sänks ned i vatten. Bestäm samma avstånd nu.</li></ol>",
+    "kgInstruktion": "Vattnets brytningsindex är 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin\\alpha_2=\\dfrac{2\\cdot410\\cdot10^{-9}}{1{,}2\\cdot10^{-5}}\\iff\\alpha_2\\approx3{,}92^\\circ\\].</div></li><li><div class=\"facit-matte\">\\[y=0{,}15\\tan3{,}92^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}03\\) cm</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>I vattnet är våglängden \\(\\dfrac{410}{1{,}33}\\) nm, så \\(\\sin\\alpha_2=\\dfrac{2\\cdot410\\cdot10^{-9}}{1{,}33\\cdot1{,}2\\cdot10^{-5}}\\iff\\alpha_2\\approx2{,}95^\\circ\\).</p></li><li><div class=\"facit-matte\">\\[y=0{,}15\\tan2{,}95^\\circ\\].</div></li><li><p>Gittrets eget brytningsindex påverkar inte resultatet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}77\\) cm</p></li></ol></div>",
     "id": "4.441",
     "miniräknare": true,
@@ -47517,8 +47529,7 @@ window.BANK2 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ljus med våglängden 410 nm (i luft) riktas vinkelrätt mot ett gitter med \\(d=1{,}2\\cdot10^{-5}\\) m. En skärm står 15 cm bakom gittret.</p>",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "fraga": "Bestäm avståndet från centralmaximum till andra ordningens maximum på skärmen.",
         "t": "<p>Ljus med våglängden 410 nm (i luft) riktas vinkelrätt mot ett gitter med \\(d=1{,}2\\cdot10^{-5}\\) m. En skärm står 15 cm bakom gittret.</p><p>Bestäm avståndet från centralmaximum till andra ordningens maximum på skärmen.</p>",
@@ -47537,8 +47548,7 @@ window.BANK2 = [
         "niva": "A",
         "poang": "(0/1/1)",
         "traningsniva": 4
-      }
-    ],
+      }],
     "ledtrad": "<p>Vägskillnaden ska vara ett helt antal våglängder i det medium där ljuset går.</p>",
     "traningsniva": 4,
     "familjNyckel": "vagrorelselara__gitterekvationen"
@@ -48927,7 +48937,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "generator driver en lampa",
     "poang": "(1/2/2)",
-    "t": "<p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En generator har en kvadratisk spole med sidan 6,0 cm och 85 varv koppartråd med diametern 0,59 mm. Spolen roterar i ett magnetfält med flödestätheten 0,65 T och driver en lampa märkt 12,0 V och 25,0 W. Lampan ska få effektivspänningen 12,0 V.</p><ol type=\"a\"><li>Hur många varv per sekund ska spolen rotera om man bortser från spolens resistans?</li><li>Hur många varv per sekund krävs om spolens resistans tas med?</li></ol>",
+    "t": "<p>En generator har en kvadratisk spole med sidan 6,0 cm och 85 varv koppartråd med diametern 0,59 mm. Spolen roterar i ett magnetfält med flödestätheten 0,65 T och driver en lampa märkt 12,0 V och 25,0 W. Lampan ska få effektivspänningen 12,0 V.</p><ol type=\"a\"><li>Hur många varv per sekund ska spolen rotera om man bortser från spolens resistans?</li><li>Hur många varv per sekund krävs om spolens resistans tas med?</li></ol>",
+    "kgInstruktion": "Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\hat u=12{,}0\\sqrt2\\approx17{,}0\\) V.</p></li><li><p>\\(\\omega=\\dfrac{\\hat u}{NBA}=\\dfrac{17{,}0}{85\\cdot0{,}65\\cdot0{,}0036}\\approx85\\) rad/s, så \\(f=\\dfrac{\\omega}{2\\pi}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) varv/s</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Strömmen: \\(I=\\dfrac{25{,}0}{12{,}0}\\approx2{,}08\\) A.</p></li><li><p>Trådens längd: \\(85\\cdot4\\cdot0{,}060=20{,}4\\) m, så \\(R=\\dfrac{\\rho l}{A}\\approx1{,}27\\) Ω.</p></li><li><p>Ems (effektivvärde): \\(12{,}0+1{,}27\\cdot2{,}08\\approx14{,}6\\) V.</p></li><li><div class=\"facit-matte\">\\[f=\\dfrac{14{,}6\\sqrt2}{85\\cdot0{,}65\\cdot0{,}0036\\cdot2\\pi}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) varv/s</p></li></ol></div>",
     "id": "3.406",
     "miniräknare": true,
@@ -48962,8 +48973,7 @@ window.BANK2 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En generator har en kvadratisk spole med sidan 6,0 cm och 85 varv koppartråd med diametern 0,59 mm. Spolen roterar i ett magnetfält med flödestätheten 0,65 T och driver en lampa märkt 12,0 V och 25,0 W. Lampan ska få effektivspänningen 12,0 V.</p>",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "fraga": "Hur många varv per sekund ska spolen rotera om man bortser från spolens resistans?",
         "t": "<p>Koppars resistivitet är \\(1{,}7\\cdot10^{-8}\\) Ωm.</p><p>En generator har en kvadratisk spole med sidan 6,0 cm och 85 varv koppartråd med diametern 0,59 mm. Spolen roterar i ett magnetfält med flödestätheten 0,65 T och driver en lampa märkt 12,0 V och 25,0 W. Lampan ska få effektivspänningen 12,0 V.</p><p>Hur många varv per sekund ska spolen rotera om man bortser från spolens resistans?</p>",
@@ -48982,8 +48992,7 @@ window.BANK2 = [
         "niva": "A",
         "poang": "(0/1/2)",
         "traningsniva": 5
-      }
-    ],
+      }],
     "ledtrad": "<p>Effektivvärde och toppvärde skiljer sig med faktorn \\(\\sqrt2\\).</p>",
     "traningsniva": 5,
     "familjNyckel": "vaxelstrom__generatorn"
@@ -51278,7 +51287,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "ljusets tid genom glas",
     "poang": "(1/1/0)",
-    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En glasskiva är 3,0 mm tjock och har brytningsindex 1,47.</p><ol type=\"a\"><li>Hur lång tid tar ljuset på sig att gå genom glasskivan?</li><li>Hur långt skulle ljuset gå i vatten på samma tid?</li></ol>",
+    "t": "<p>En glasskiva är 3,0 mm tjock och har brytningsindex 1,47.</p><ol type=\"a\"><li>Hur lång tid tar ljuset på sig att gå genom glasskivan?</li><li>Hur långt skulle ljuset gå i vatten på samma tid?</li></ol>",
+    "kgInstruktion": "Vatten har brytningsindex 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(v=\\dfrac cn\\), så \\(t=\\dfrac{nd}{c}=\\dfrac{1{,}47\\cdot0{,}0030}{3{,}00\\cdot10^8}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) ps</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(s=\\dfrac{c}{1{,}33}\\cdot t=\\dfrac{1{,}47}{1{,}33}\\cdot3{,}0\\) mm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}3\\) mm</p></li></ol></div>",
     "id": "4.368",
     "miniräknare": true,
@@ -51312,8 +51322,7 @@ window.BANK2 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Vatten har brytningsindex 1,33.</p><p>En glasskiva är 3,0 mm tjock och har brytningsindex 1,47.</p>",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "fraga": "Hur lång tid tar ljuset på sig att gå genom glasskivan?",
         "t": "<p>Vatten har brytningsindex 1,33.</p><p>En glasskiva är 3,0 mm tjock och har brytningsindex 1,47.</p><p>Hur lång tid tar ljuset på sig att gå genom glasskivan?</p>",
@@ -51332,8 +51341,7 @@ window.BANK2 = [
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 2
-      }
-    ],
+      }],
     "ledtrad": "<p>Ljusets hastighet i ett material är \\(v=\\dfrac cn\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "straloptik__snells_brytningslag"
@@ -51344,7 +51352,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "ljusets väg i olika material",
     "poang": "(3/0/0)",
-    "t": "<p>Vakuum har brytningsindex exakt 1.</p><ol type=\"a\"><li>Hur lång tid tar det för ljuset att gå 1,00 m i vakuum?</li><li>Hur lång sträcka hinner ljuset i vatten (brytningsindex 1,33) på samma tid?</li><li>Hur lång sträcka hinner ljuset i diamant (brytningsindex 2,42) på samma tid?</li></ol>",
+    "t": "<p>Vakuum har brytningsindex exakt 1.</p><ol type=\"a\"><li>Hur lång tid tar det för ljuset att gå 1,00 m i vakuum?</li><li>Hur lång sträcka hinner ljuset i vatten på samma tid?</li><li>Hur lång sträcka hinner ljuset i diamant (brytningsindex 2,42) på samma tid?</li></ol>",
+    "kgInstruktion": "Vattnets brytningsindex är 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{1{,}00}{3{,}00\\cdot10^8}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}33\\) ns</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{1{,}00}{1{,}33}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}752\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\dfrac{1{,}00}{2{,}42}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}413\\) m</p></li></ol></div>",
     "id": "4.369",
     "miniräknare": true,
@@ -51384,8 +51393,7 @@ window.BANK2 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Vakuum har brytningsindex exakt 1.</p>",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "fraga": "Hur lång tid tar det för ljuset att gå 1,00 m i vakuum?",
         "t": "<p>Vakuum har brytningsindex exakt 1.</p><p>Hur lång tid tar det för ljuset att gå 1,00 m i vakuum?</p>",
@@ -51414,8 +51422,7 @@ window.BANK2 = [
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1
-      }
-    ],
+      }],
     "ledtrad": "<p>\\(v=\\dfrac cn\\).</p>",
     "traningsniva": 1,
     "familjNyckel": "straloptik__snells_brytningslag"
@@ -51534,7 +51541,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "tid genom vatten",
     "poang": "(1/0/0)",
-    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En ljuspuls går genom 150 m vatten. Hur lång tid tar det?</p>",
+    "t": "<p>En ljuspuls går genom 150 m vatten. Hur lång tid tar det?</p>",
+    "kgInstruktion": "Vatten har brytningsindex 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Brytningsindex: \\(n=\\frac cv\\)</p><div class=\"facit-matte\">\\[v=\\frac cn=\\frac{3{,}00\\cdot10^8}{1{,}33}\\]</div></li><li><p class=\"facit-rubrik\">Tiden</p><div class=\"facit-matte\">\\[t=\\frac sv=\\frac{1{,}33\\cdot150}{3{,}00\\cdot10^8}\\approx6{,}65\\cdot10^{-7}\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,665 µs</p></div>",
     "id": "4.372",
     "miniräknare": true,
@@ -51810,7 +51818,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "ljushastighet ur brytningsvinklar",
     "poang": "(1/1/0)",
-    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En ljusstråle går från vatten till en okänd vätska. Infallsvinkeln är 37,0° och brytningsvinkeln 25,0°. Beräkna ljusets hastighet i vätskan.</p>",
+    "t": "<p>En ljusstråle går från vatten till en okänd vätska. Infallsvinkeln är 37,0° och brytningsvinkeln 25,0°. Beräkna ljusets hastighet i vätskan.</p>",
+    "kgInstruktion": "Vatten har brytningsindex 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{\\sin\\alpha_1}{\\sin\\alpha_2}=\\dfrac{v_1}{v_2}\\iff v_2=\\dfrac{3{,}00\\cdot10^8}{1{,}33}\\cdot\\dfrac{\\sin25{,}0^\\circ}{\\sin37{,}0^\\circ}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}58\\cdot10^{8}\\) m/s</p></div>",
     "id": "4.379",
     "miniräknare": true,
@@ -52212,7 +52221,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "solljus i vattentank",
     "poang": "(0/2/0)",
-    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En cylindrisk tank med radien 1,50 m är fylld till kanten med vatten. När solen står 28,0° över horisonten når solljuset precis ned till tankens botten, i hörnet längst bort från solen. Hur djup är tanken?</p>",
+    "t": "<p>En cylindrisk tank med radien 1,50 m är fylld till kanten med vatten. När solen står 28,0° över horisonten når solljuset precis ned till tankens botten, i hörnet längst bort från solen. Hur djup är tanken?</p>",
+    "kgInstruktion": "Vatten har brytningsindex 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Infallsvinkel:</p><div class=\"facit-matte\">\\[90^\\circ-28{,}0^\\circ=62{,}0^\\circ\\].</div></div></li><li><div class=\"facit-matte\">\\[\\sin\\alpha_2=\\dfrac{\\sin62{,}0^\\circ}{1{,}33}\\iff\\alpha_2\\approx41{,}6^\\circ\\].</div></li><li><div class=\"facit-berakning\"><p>Strålen som går in vid tankens närmaste kant ska nå bortre hörnet, 3,00 m bort i sidled:</p><div class=\"facit-matte\">\\[h=\\dfrac{3{,}00}{\\tan41{,}6^\\circ}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}38\\) m</p></div>",
     "id": "4.386",
     "miniräknare": true,
@@ -52263,7 +52273,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "is jämfört med vatten",
     "poang": "(1/1/0)",
-    "t": "<p>En ljusstråle träffar ett isblock (brytningsindex 1,309) med infallsvinkeln 60,0°. Isen smälter till vatten (1,33) och infallsvinkeln är densamma. Hur mycket mindre blir brytningsvinkeln i vattnet än i isen?</p>",
+    "t": "<p>En ljusstråle träffar ett isblock (brytningsindex 1,309) med infallsvinkeln 60,0°. Isen smälter till vatten och infallsvinkeln är densamma. Hur mycket mindre blir brytningsvinkeln i vattnet än i isen?</p>",
+    "kgInstruktion": "Vattnets brytningsindex är 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Is:</p><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{\\sin60{,}0^\\circ}{1{,}309}\\iff\\alpha\\approx41{,}42^\\circ\\].</div></div></li><li><div class=\"facit-berakning\"><p>Vatten:</p><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{\\sin60{,}0^\\circ}{1{,}33}\\iff\\alpha\\approx40{,}63^\\circ\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}79\\) °</p></div>",
     "id": "4.388",
     "miniräknare": true,
@@ -52289,7 +52300,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "laser mot sjöbotten",
     "poang": "(2/1/0)",
-    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En laser riktas mot en sjö med infallsvinkeln 55° mot punkten A på ytan. Sjön är 3,0 m djup. Punkten B ligger på botten rakt under A.</p><ol type=\"a\"><li>Hur långt från B skulle strålen träffa om den inte bröts?</li><li>Hur långt från B träffar strålen när brytningen tas med?</li></ol>",
+    "t": "<p>En laser riktas mot en sjö med infallsvinkeln 55° mot punkten A på ytan. Sjön är 3,0 m djup. Punkten B ligger på botten rakt under A.</p><ol type=\"a\"><li>Hur långt från B skulle strålen träffa om den inte bröts?</li><li>Hur långt från B träffar strålen när brytningen tas med?</li></ol>",
+    "kgInstruktion": "Vatten har brytningsindex 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3{,}0\\tan55^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}3\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin\\alpha_2=\\dfrac{\\sin55^\\circ}{1{,}33}\\iff\\alpha_2\\approx38{,}0^\\circ\\].</div></li><li><p>Avstånd: \\(3{,}0\\tan38{,}0^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3\\) m</p></li></ol></div>",
     "id": "4.389",
     "miniräknare": true,
@@ -52324,8 +52336,7 @@ window.BANK2 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Vatten har brytningsindex 1,33.</p><p>En laser riktas mot en sjö med infallsvinkeln 55° mot punkten A på ytan. Sjön är 3,0 m djup. Punkten B ligger på botten rakt under A.</p>",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "fraga": "Hur långt från B skulle strålen träffa om den inte bröts?",
         "t": "<p>Vatten har brytningsindex 1,33.</p><p>En laser riktas mot en sjö med infallsvinkeln 55° mot punkten A på ytan. Sjön är 3,0 m djup. Punkten B ligger på botten rakt under A.</p><p>Hur långt från B skulle strålen träffa om den inte bröts?</p>",
@@ -52344,8 +52355,7 @@ window.BANK2 = [
         "niva": "E",
         "poang": "(1/1/0)",
         "traningsniva": 3
-      }
-    ],
+      }],
     "ledtrad": "<p>Rita en figur med normalen genom A.</p>",
     "traningsniva": 3,
     "familjNyckel": "straloptik__snells_brytningslag"
@@ -52498,7 +52508,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "gränsvinkel mellan vatten och is",
     "poang": "(2/1/0)",
-    "t": "<p>Ett tunt lager is (brytningsindex 1,309) har bildats på vattnet (1,333) i en hink. Ljus inifrån hinken går uppåt mot isen.</p><ol type=\"a\"><li>Hur stor är den största infallsvinkel ljuset kan ha i vattnet och ändå gå in i isen?</li><li>Isen smälter. Hur stor är nu gränsvinkeln när ljuset går från vattnet mot luften?</li></ol>",
+    "t": "<p>Ett tunt lager is har bildats på vattnet i en hink. Ljus inifrån hinken går uppåt mot isen.</p><ol type=\"a\"><li>Hur stor är den största infallsvinkel ljuset kan ha i vattnet och ändå gå in i isen?</li><li>Isen smälter. Hur stor är nu gränsvinkeln när ljuset går från vattnet mot luften?</li></ol>",
+    "kgInstruktion": "Isens brytningsindex är 1,309. Vattnets brytningsindex är 1,333.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin\\alpha_g=\\dfrac{1{,}309}{1{,}333}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(79{,}1\\) °</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin\\alpha_g=\\dfrac{1}{1{,}333}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(48{,}6\\) °</p></li></ol></div>",
     "id": "4.394",
     "miniräknare": true,
@@ -52533,8 +52544,7 @@ window.BANK2 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Ett tunt lager is (brytningsindex 1,309) har bildats på vattnet (1,333) i en hink. Ljus inifrån hinken går uppåt mot isen.</p>",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "fraga": "Hur stor är den största infallsvinkel ljuset kan ha i vattnet och ändå gå in i isen?",
         "t": "<p>Ett tunt lager is (brytningsindex 1,309) har bildats på vattnet (1,333) i en hink. Ljus inifrån hinken går uppåt mot isen.</p><p>Hur stor är den största infallsvinkel ljuset kan ha i vattnet och ändå gå in i isen?</p>",
@@ -52553,8 +52563,7 @@ window.BANK2 = [
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1
-      }
-    ],
+      }],
     "ledtrad": "<p>\\(\\sin\\alpha_g=\\dfrac{n_2}{n_1}\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"
@@ -52590,7 +52599,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "gasens brytningsindex i tank",
     "poang": "(0/1/1)",
-    "t": "<span class=\"fig\"><svg width=\"300\" height=\"215\" viewBox=\"0 0 300 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tvärsnitt av en liggande cylindrisk tank. Nedre halvan är fylld med vatten och övre halvan med gas. En laser på tankens vägg, sträckan S från lägsta punkten räknat längs väggen, riktas mot tankens mittpunkt på vattenytan.\"><path d=\"M65,110 A85,85 0 0,0 235,110 Z\" fill=\"#5aa0e6\" fill-opacity=\"0.45\"/><circle cx=\"150\" cy=\"110\" r=\"85\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"110\" x2=\"235\" y2=\"110\" stroke=\"#2f78c4\" stroke-width=\"1.2\"/><line x1=\"78.9\" y1=\"156.6\" x2=\"150\" y2=\"110\" stroke=\"#d9480f\" stroke-width=\"2\"/><circle cx=\"78.9\" cy=\"156.6\" r=\"4\" fill=\"#d9480f\"/><path d=\"M150,204 A94,94 0 0,1 71.4,161.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"97.2\" y=\"207.7\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">S</text><circle cx=\"150\" cy=\"110\" r=\"2.5\" fill=\"currentColor\"/><text x=\"190\" y=\"80\" font-size=\"12\" fill=\"currentColor\">gas</text><text x=\"180\" y=\"150\" font-size=\"12\" fill=\"currentColor\">vatten</text></svg></span><p>Vatten har brytningsindex 1,33.</p><p>En liggande cylindrisk tank med diametern 2,20 m är halvfull med vatten. Ovanför vattnet finns en gas. En laser på tankens vägg skickar en stråle genom vattnet mot tankens mittpunkt, mitt på vattenytan. Lasern flyttas längs väggen från tankens lägsta punkt. När den har flyttats sträckan \\(S=1{,}09\\) m (längs cirkelbågen) börjar strålen totalreflekteras. Bestäm gasens brytningsindex.</p>",
+    "t": "<span class=\"fig\"><svg width=\"300\" height=\"215\" viewBox=\"0 0 300 215\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tvärsnitt av en liggande cylindrisk tank. Nedre halvan är fylld med vatten och övre halvan med gas. En laser på tankens vägg, sträckan S från lägsta punkten räknat längs väggen, riktas mot tankens mittpunkt på vattenytan.\"><path d=\"M65,110 A85,85 0 0,0 235,110 Z\" fill=\"#5aa0e6\" fill-opacity=\"0.45\"/><circle cx=\"150\" cy=\"110\" r=\"85\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"65\" y1=\"110\" x2=\"235\" y2=\"110\" stroke=\"#2f78c4\" stroke-width=\"1.2\"/><line x1=\"78.9\" y1=\"156.6\" x2=\"150\" y2=\"110\" stroke=\"#d9480f\" stroke-width=\"2\"/><circle cx=\"78.9\" cy=\"156.6\" r=\"4\" fill=\"#d9480f\"/><path d=\"M150,204 A94,94 0 0,1 71.4,161.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/><text x=\"97.2\" y=\"207.7\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">S</text><circle cx=\"150\" cy=\"110\" r=\"2.5\" fill=\"currentColor\"/><text x=\"190\" y=\"80\" font-size=\"12\" fill=\"currentColor\">gas</text><text x=\"180\" y=\"150\" font-size=\"12\" fill=\"currentColor\">vatten</text></svg></span><p>En liggande cylindrisk tank med diametern 2,20 m är halvfull med vatten. Ovanför vattnet finns en gas. En laser på tankens vägg skickar en stråle genom vattnet mot tankens mittpunkt, mitt på vattenytan. Lasern flyttas längs väggen från tankens lägsta punkt. När den har flyttats sträckan \\(S=1{,}09\\) m (längs cirkelbågen) börjar strålen totalreflekteras. Bestäm gasens brytningsindex.</p>",
+    "kgInstruktion": "Vatten har brytningsindex 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Strålen går längs en radie, så den bryts inte vid väggen.</p></li><li><p>Infallsvinkeln mot vattenytan är medelpunktsvinkeln \\(\\dfrac{S}{r}=\\dfrac{1{,}09}{1{,}10}\\approx0{,}991\\) rad \\(\\approx56{,}8^\\circ\\).</p></li><li><div class=\"facit-berakning\"><p>Gränsvinkeln:</p><div class=\"facit-matte\">\\[n_{gas}=1{,}33\\sin56{,}8^\\circ\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}11\\) </p></div>",
     "id": "4.396",
     "miniräknare": true,
@@ -52615,7 +52625,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "reflektionsvinkel i glas",
     "poang": "(1/1/0)",
-    "t": "<p>En ljusstråle går från glas (brytningsindex 1,52) till vatten (1,33). Den både bryts och reflekteras. Brytningsvinkeln i vattnet är 19,6°. Bestäm reflektionsvinkeln.</p>",
+    "t": "<p>En ljusstråle går från glas (brytningsindex 1,52) till vatten. Den både bryts och reflekteras. Brytningsvinkeln i vattnet är 19,6°. Bestäm reflektionsvinkeln.</p>",
+    "kgInstruktion": "Vattnets brytningsindex är 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}52\\sin\\alpha_1=1{,}33\\sin19{,}6^\\circ\\].</div></li><li><p>Reflektionsvinkeln är lika stor som infallsvinkeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}1\\) °</p></div>",
     "id": "4.397",
     "miniräknare": true,
@@ -52752,7 +52763,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "höjd på glasskål",
     "poang": "(0/1/2)",
-    "t": "<span class=\"fig\"><svg width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En låg skål sedd från sidan, bredd 4,0 cm och okänd höjd h. Ett öga tittar snett över skålens närmaste kant. Den streckade siktlinjen går över kanten till bortre hörnet av botten.\"><rect x=\"120\" y=\"70\" width=\"160\" height=\"94\" fill=\"#5aa0e6\" fill-opacity=\"0.25\" stroke=\"none\"/><polyline points=\"120,70 120,164 280,164 280,70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"32.0\" y1=\"18.3\" x2=\"280\" y2=\"164\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><ellipse cx=\"32.0\" cy=\"18.3\" rx=\"9\" ry=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><circle cx=\"32.0\" cy=\"18.3\" r=\"2.3\" fill=\"currentColor\"/><circle cx=\"200.0\" cy=\"164\" r=\"3\" fill=\"#d9480f\"/><text x=\"200.0\" y=\"182\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">4,0 cm</text><text x=\"288\" y=\"121.0\" font-size=\"13\" fill=\"currentColor\">h</text></svg></span><p>Vatten har brytningsindex 1,33.</p><p>En låg cylindrisk skål har diametern 4,0 cm. En betraktare tittar snett över skålens närmaste kant och ser precis bortre kanten av den tomma skålens botten. När skålen fylls med vatten till kanten ser betraktaren i stället precis mitten av bottnen, utan att flytta ögonen. Hur hög är skålen?</p>",
+    "t": "<span class=\"fig\"><svg width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En låg skål sedd från sidan, bredd 4,0 cm och okänd höjd h. Ett öga tittar snett över skålens närmaste kant. Den streckade siktlinjen går över kanten till bortre hörnet av botten.\"><rect x=\"120\" y=\"70\" width=\"160\" height=\"94\" fill=\"#5aa0e6\" fill-opacity=\"0.25\" stroke=\"none\"/><polyline points=\"120,70 120,164 280,164 280,70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><line x1=\"32.0\" y1=\"18.3\" x2=\"280\" y2=\"164\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><ellipse cx=\"32.0\" cy=\"18.3\" rx=\"9\" ry=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"/><circle cx=\"32.0\" cy=\"18.3\" r=\"2.3\" fill=\"currentColor\"/><circle cx=\"200.0\" cy=\"164\" r=\"3\" fill=\"#d9480f\"/><text x=\"200.0\" y=\"182\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">4,0 cm</text><text x=\"288\" y=\"121.0\" font-size=\"13\" fill=\"currentColor\">h</text></svg></span><p>En låg cylindrisk skål har diametern 4,0 cm. En betraktare tittar snett över skålens närmaste kant och ser precis bortre kanten av den tomma skålens botten. När skålen fylls med vatten till kanten ser betraktaren i stället precis mitten av bottnen, utan att flytta ögonen. Hur hög är skålen?</p>",
+    "kgInstruktion": "Vatten har brytningsindex 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med höjden \\(h\\) (cm): \\(\\sin\\alpha_1=\\dfrac{4{,}0}{\\sqrt{4{,}0^2+h^2}}\\) och \\(\\sin\\alpha_2=\\dfrac{2{,}0}{\\sqrt{2{,}0^2+h^2}}\\).</p></li><li><div class=\"facit-matte\">\\[\\sin\\alpha_1=1{,}33\\sin\\alpha_2\\].</div></li><li><p>Kvadrera och lös ut \\(h\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}3\\) cm</p></div>",
     "id": "4.399",
     "miniräknare": true,
@@ -52778,7 +52790,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "solens verkliga höjd",
     "poang": "(0/2/0)",
-    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En dykare under vattnet tycker att solen står 45,0° över horisonten. Hur högt över horisonten står solen egentligen?</p>",
+    "t": "<p>En dykare under vattnet tycker att solen står 45,0° över horisonten. Hur högt över horisonten står solen egentligen?</p>",
+    "kgInstruktion": "Vatten har brytningsindex 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I vattnet bildar strålen 45,0° med normalen.</p></li><li><p>\\(\\sin\\alpha_1=1{,}33\\sin45{,}0^\\circ\\iff\\alpha_1\\approx70{,}1^\\circ\\) mot normalen.</p></li><li><p>Över horisonten: \\(90^\\circ-70{,}1^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(19{,}9\\) °</p></div>",
     "id": "4.400",
     "miniräknare": true,
@@ -52804,7 +52817,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "skenbart djup",
     "poang": "(0/1/1)",
-    "t": "<p>Vatten har brytningsindex 1,33.</p><p>Nycklar ligger på botten av en 2,0 m djup bassäng. Du tittar nästan rakt ned på dem. Hur djupt ser de ut att ligga?</p>",
+    "t": "<p>Nycklar ligger på botten av en 2,0 m djup bassäng. Du tittar nästan rakt ned på dem. Hur djupt ser de ut att ligga?</p>",
+    "kgInstruktion": "Vatten har brytningsindex 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För små vinklar är \\(\\sin\\alpha\\approx\\tan\\alpha\\), så det skenbara djupet blir \\(\\dfrac{2{,}0}{1{,}33}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}50\\) m</p></div>",
     "id": "4.401",
     "miniräknare": true,
@@ -52830,7 +52844,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "laser genom is och vatten",
     "poang": "(0/2/0)",
-    "t": "<p>En sjö har 25 cm tjock is (brytningsindex 1,309) och därunder 1,10 m vatten (1,333). En laser träffar punkten A på isen med infallsvinkeln 30°. Den ger en ljuspunkt B på botten. Hur långt är det i sidled mellan A och B?</p>",
+    "t": "<p>En sjö har 25 cm tjock is och därunder 1,10 m vatten. En laser träffar punkten A på isen med infallsvinkeln 30°. Den ger en ljuspunkt B på botten. Hur långt är det i sidled mellan A och B?</p>",
+    "kgInstruktion": "Isens brytningsindex är 1,309. Vattnets brytningsindex är 1,333.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>I isen:</p><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{\\sin30^\\circ}{1{,}309}\\iff\\alpha\\approx22{,}5^\\circ\\].</div></div></li><li><div class=\"facit-berakning\"><p>I vattnet:</p><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{\\sin30^\\circ}{1{,}333}\\iff\\alpha\\approx22{,}0^\\circ\\].</div></div></li><li><div class=\"facit-matte\">\\[0{,}25\\tan22{,}5^\\circ+1{,}10\\tan22{,}0^\\circ\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}55\\) m</p></div>",
     "id": "4.402",
     "miniräknare": true,
@@ -52882,7 +52897,8 @@ window.BANK2 = [
     "niva": "A",
     "typ": "infallsvinkel ur deviation",
     "poang": "(0/1/1)",
-    "t": "<p>Vatten har brytningsindex 1,33.</p><p>En stråle går från luft ned i vatten. Vinkeln mellan den brutna strålen och den infallande strålens förlängning (deviationen) är 10,0°. Hur stor är infallsvinkeln?</p>",
+    "t": "<p>En stråle går från luft ned i vatten. Vinkeln mellan den brutna strålen och den infallande strålens förlängning (deviationen) är 10,0°. Hur stor är infallsvinkeln?</p>",
+    "kgInstruktion": "Vatten har brytningsindex 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin i=1{,}33\\sin(i-10{,}0^\\circ)\\].</div></li><li><p>Lös ekvationen grafiskt eller numeriskt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36{,}7\\) °</p></div>",
     "id": "4.404",
     "miniräknare": true,
@@ -53189,7 +53205,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "laser genom olja ned i vatten",
     "poang": "(2/1/0)",
-    "t": "<p>I ett glas med vatten (brytningsindex 1,33) flyter ett lager matolja (1,47). En laserstråle i luft träffar oljan med infallsvinkeln 71,4°.</p><ol type=\"a\"><li>Vad blir brytningsvinkeln i oljan?</li><li>Bestäm gränsvinkeln för totalreflektion när ljuset går från oljan mot vattnet.</li><li>Strålen fortsätter ned i vattnet. Hur stor är brytningsvinkeln i vattnet?</li></ol>",
+    "t": "<p>I ett glas med vatten flyter ett lager matolja (1,47). En laserstråle i luft träffar oljan med infallsvinkeln 71,4°.</p><ol type=\"a\"><li>Vad blir brytningsvinkeln i oljan?</li><li>Bestäm gränsvinkeln för totalreflektion när ljuset går från oljan mot vattnet.</li><li>Strålen fortsätter ned i vattnet. Hur stor är brytningsvinkeln i vattnet?</li></ol>",
+    "kgInstruktion": "Vattnets brytningsindex är 1,33.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin\\alpha_2=\\dfrac{\\sin71{,}4^\\circ}{1{,}47}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}1\\) °</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin\\alpha_g=\\dfrac{1{,}33}{1{,}47}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(64{,}8\\) °</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>Infallsvinkeln i oljan mot vattnet är lika med brytningsvinkeln 40,1°.</p></li><li><div class=\"facit-matte\">\\[\\sin\\alpha=\\dfrac{1{,}47\\sin40{,}1^\\circ}{1{,}33}=\\dfrac{\\sin71{,}4^\\circ}{1{,}33}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(45{,}4\\) °</p></li></ol></div>",
     "id": "4.410",
     "miniräknare": true,
@@ -53229,8 +53246,7 @@ window.BANK2 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>I ett glas med vatten (brytningsindex 1,33) flyter ett lager matolja (1,47). En laserstråle i luft träffar oljan med infallsvinkeln 71,4°.</p>",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "fraga": "Vad blir brytningsvinkeln i oljan?",
         "t": "<p>I ett glas med vatten (brytningsindex 1,33) flyter ett lager matolja (1,47). En laserstråle i luft träffar oljan med infallsvinkeln 71,4°.</p><p>Vad blir brytningsvinkeln i oljan?</p>",
@@ -53259,8 +53275,7 @@ window.BANK2 = [
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3
-      }
-    ],
+      }],
     "ledtrad": "<p>Oljeskiktets ytor är parallella.</p>",
     "traningsniva": 3,
     "familjNyckel": "straloptik__totalreflektion_och_optisk_fiber"

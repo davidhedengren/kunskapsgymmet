@@ -1,6 +1,6 @@
 // Regression för handskriven påfyllnad. Se agent/MA3_RATIONELLA_2026-10-24.md.
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('fs'),vm=require('vm'),path=require('path');
-const ctx={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../uppgiftermato1.js'),'utf8'),ctx);
+const ctx={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../uppgiftermato1.js'),'utf8'),ctx);/* 2026-11-23: läs Kunskapsgymmets vy (svarsinstruktioner i kgInstruktion) */require('./kg-vy.cjs')(ctx);
 const bank=JSON.parse(JSON.stringify(ctx.window.BANKMATO1)),q=id=>bank.find(t=>t.id===id);
 const near=(a,b)=>assert.ok(Math.abs(a-b)<1e-9,`${a} != ${b}`);
 test('Tolv skilda frågor, placerade i ordinarie områden och med fungerande metadata',()=>{

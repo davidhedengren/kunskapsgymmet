@@ -20818,7 +20818,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\frac{2}{3}+\\frac{1}{6}\\). Svara i enklaste form.</p>",
+    "t": "<p>Beräkna \\(\\frac{2}{3}+\\frac{1}{6}\\).</p>",
+    "kgInstruktion": "Svara i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förläng \\(\\frac{2}{3}\\) till sjättedelar: \\(\\frac{4}{6}\\).</p></li><li><div class=\"facit-berakning\"><p>Då är summan</p><div class=\"facit-matte\">\\[\\frac{4}{6}+\\frac{1}{6}=\\frac{5}{6}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{5}{6}\\)</strong></p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -20882,7 +20883,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\frac{5}{6}-\\frac{3}{4}\\). Svara i enklaste form.</p>",
+    "t": "<p>Beräkna \\(\\frac{5}{6}-\\frac{3}{4}\\).</p>",
+    "kgInstruktion": "Svara i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare och räkna med täljarna</p><div class=\"facit-matte\">\\[\\frac56-\\frac34=\\frac{10}{12}-\\frac{9}{12}=\\frac1{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{12}\\)</p></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -20914,7 +20916,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\frac{2}{5}\\cdot\\frac{15}{4}\\). Svara i enklaste form.</p>",
+    "t": "<p>Beräkna \\(\\frac{2}{5}\\cdot\\frac{15}{4}\\).</p>",
+    "kgInstruktion": "Svara i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Multiplicera täljare med täljare och nämnare med nämnare:</p><div class=\"facit-matte\">\\[\\frac{30}{20}=\\frac{3}{2}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{3}{2}\\)</strong></p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -22738,7 +22741,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en låda finns 8 röda och 12 blå kulor. Hur stor andel av kulorna är röda? Svara med ett bråk i enklaste form.</p>",
+    "t": "<p>I en låda finns 8 röda och 12 blå kulor. Hur stor andel av kulorna är röda?</p>",
+    "kgInstruktion": "Svara med ett bråk i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Totalt finns \\(8+12=20\\) kulor.</p></li><li><div class=\"facit-berakning\"><p>Den röda andelen är</p><div class=\"facit-matte\">\\[\\frac{8}{20}=\\frac25.\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac25\\).</p></div>",
     "familj": "Andel i procent",
     "geogebra": false,
@@ -23335,7 +23339,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Figuren består av 20 lika stora rutor. Hur stor andel är markerad? Svara i decimalform.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 105\" width=\"430\" height=\"105\" role=\"img\" aria-label=\"Tjugo lika stora rutor, varav åtta är markerade\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"103\" rx=\"12\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g transform=\"translate(35,25)\"><rect x=\"0\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"36\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"72\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"108\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"144\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"180\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"216\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"252\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"288\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"324\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"0\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"36\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"72\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"108\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"144\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"180\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"216\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"252\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"288\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"324\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/></g></svg></span>",
+    "t": "<p>Figuren består av 20 lika stora rutor. Hur stor andel är markerad?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 105\" width=\"430\" height=\"105\" role=\"img\" aria-label=\"Tjugo lika stora rutor, varav åtta är markerade\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"103\" rx=\"12\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g transform=\"translate(35,25)\"><rect x=\"0\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"36\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"72\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"108\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"144\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"180\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"216\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"252\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#78abd8\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"288\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"324\" y=\"0\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"0\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"36\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"72\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"108\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"144\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"180\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"216\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"252\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"288\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/><rect x=\"324\" y=\"32\" width=\"30\" height=\"26\" rx=\"3\" fill=\"#ffffff\" stroke=\"#315F91\" stroke-width=\"1.4\"/></g></svg></span>",
+    "kgInstruktion": "Svara i decimalform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andel: \\(\\frac{\\text{delen}}{\\text{det hela}}\\)</p><p>8 av 20 rutor är markerade.</p><div class=\"facit-matte\">\\[\\frac{8}{20}=0{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,4</p></div>",
     "familj": "Andel i procent",
     "geogebra": false,
@@ -24441,7 +24446,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Skriv ett villkor för alla tal x som är större än 1 och högst 7. Svara med olikhetstecken.</p>",
+    "t": "<p>Skriv ett villkor för alla tal x som är större än 1 och högst 7.</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikhetstecken: < och > utesluter gränsen, ≤ och ≥ tar med den</p><p>Större än 1 utesluter 1, högst 7 tar med 7.</p><div class=\"facit-matte\">\\[1<x\\le7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1<x\\le7\\)</p></div>",
     "ledtrad": "<p>Vilken av gränserna får x vara lika med?</p>",
     "niva": "E",
@@ -24472,7 +24478,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(8-x\\le2\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(8-x\\le2\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[8-x\\le2\\quad\\Rightarrow\\quad-x\\le-6\\]</div></li><li><p class=\"facit-rubrik\">Olikheter löses som ekvationer, men tecknet vänds vid multiplikation eller division med ett negativt tal</p><div class=\"facit-matte\">\\[x\\ge6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\ge6\\)</p></div>",
     "ledtrad": "<p>Hur kan du få en positiv x-term genom att addera x i båda leden?</p>",
     "niva": "E",
@@ -25810,7 +25817,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös ekvationen \\(-2x/3+1=x/4+5/2\\). Svara exakt med ett bråk.</p>",
+    "t": "<p>Lös ekvationen \\(-2x/3+1=x/4+5/2\\).</p>",
+    "kgInstruktion": "Svara exakt med ett bråk.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Multiplicera med 12:</p><div class=\"facit-matte\">\\[-8 x+12=3 x+30\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Det ger −11x = 18 och</p><div class=\"facit-matte\">\\[x=\\frac{-18}{11}\\]</div></div></li><li><p>Vid kontroll blir båda leden 23/11.</p></li></ol></div>",
     "ledtrad": "<p>Vilket tal tar bort alla nämnarna samtidigt?</p>",
     "niva": "E",
@@ -26140,7 +26148,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Trycket p i en modell ska vara minst 12 bar och samtidigt uppfylla \\(3p+4&lt;52\\). Bestäm de tillåtna trycken. Svara med olikhetstecken.</p>",
+    "t": "<p>Trycket p i en modell ska vara minst 12 bar och samtidigt uppfylla \\(3p+4&lt;52\\). Bestäm de tillåtna trycken.</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det andra villkoret ger 3p &lt; 48, alltså p &lt; 16.</p></li><li><p>Tillsammans med p ≥ 12 fås \\(12\\le p&lt;16\\).</p></li><li><p>Trycket 16 bar är uteslutet eftersom det skulle ge 52, inte ett tal mindre än 52.</p></li></ol></div>",
     "ledtrad": "<p>Lös först villkoret med uttrycket 3p + 4.</p>",
     "niva": "C",
@@ -26171,7 +26180,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x är minst −5 men mindre än 2. Svara med olikhetstecken.</p>",
+    "t": "<p>x är minst −5 men mindre än 2. Skriv detta som en olikhet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikhetstecken: < och > utesluter gränsen, ≤ och ≥ tar med den</p><p>Minst tar med −5, mindre än utesluter 2.</p><div class=\"facit-matte\">\\[-5\\le x<2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\le x<2\\)</p></div>",
     "ledtrad": "<p>Kan x vara precis −5? Kan x vara precis 2?</p>",
     "niva": "E",
@@ -26202,7 +26211,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x ska samtidigt uppfylla \\(-3\\le x&lt;5\\) och \\(1&lt;x\\le8\\). Bestäm alla möjliga x. Svara med olikhetstecken.</p>",
+    "t": "<p>x ska samtidigt uppfylla \\(-3\\le x&lt;5\\) och \\(1&lt;x\\le8\\). Bestäm alla möjliga x.</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda villkoren kräver att x ligger över 1 och under 5: \\(1&lt;x&lt;5\\).</p></li><li><p>Varken 1 eller 5 uppfyller båda ursprungsvillkoren.</p></li></ol></div>",
     "ledtrad": "<p>Vilka tal finns med i båda intervallen?</p>",
     "niva": "C",
@@ -26233,7 +26243,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x är större än −4 och mindre än eller lika med 6. Svara med olikhetstecken.</p>",
+    "t": "<p>x är större än −4 och mindre än eller lika med 6. Skriv detta som en olikhet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikhetstecken: < och > utesluter gränsen, ≤ och ≥ tar med den</p><div class=\"facit-matte\">\\[-4<x\\le6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4<x\\le6\\)</p></div>",
     "ledtrad": "<p>Vilket uttryck i texten tillåter likhet?</p>",
     "niva": "E",
@@ -26295,7 +26305,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Tallinjen visar ett intervall. Beskriv vilka x som ingår. Svara med olikhetstecken.</p><svg width=\"430\" height=\"145\" viewBox=\"0 0 430 145\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"428\" height=\"143\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n\n<line x1=\"45\" y1=\"77\" x2=\"390\" y2=\"77\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<path d=\"M390 77 l-9 -5 v10 z\" fill=\"#2B2527\"/>\n<line x1=\"121.7\" y1=\"77\" x2=\"313.3\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"45.0\" y1=\"72\" x2=\"45.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"45.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">0</text><line x1=\"83.3\" y1=\"72\" x2=\"83.3\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"83.3\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">1</text><line x1=\"121.7\" y1=\"72\" x2=\"121.7\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"121.7\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">2</text><line x1=\"160.0\" y1=\"72\" x2=\"160.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"160.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">3</text><line x1=\"198.3\" y1=\"72\" x2=\"198.3\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"198.3\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">4</text><line x1=\"236.7\" y1=\"72\" x2=\"236.7\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"236.7\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">5</text><line x1=\"275.0\" y1=\"72\" x2=\"275.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"275.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">6</text><line x1=\"313.3\" y1=\"72\" x2=\"313.3\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"313.3\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">7</text><line x1=\"351.7\" y1=\"72\" x2=\"351.7\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"351.7\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">8</text><line x1=\"390.0\" y1=\"72\" x2=\"390.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"390.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">9</text><circle cx=\"121.7\" cy=\"77\" r=\"6\" fill=\"#B43123\" stroke=\"#B43123\" stroke-width=\"2\"/><circle cx=\"313.3\" cy=\"77\" r=\"6\" fill=\"#B43123\" stroke=\"#B43123\" stroke-width=\"2\"/>\n<text x=\"397\" y=\"60\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">x</text>\n\n</svg>",
+    "t": "<p>Tallinjen visar ett intervall. Beskriv vilka x som ingår.</p><svg width=\"430\" height=\"145\" viewBox=\"0 0 430 145\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"428\" height=\"143\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n\n<line x1=\"45\" y1=\"77\" x2=\"390\" y2=\"77\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<path d=\"M390 77 l-9 -5 v10 z\" fill=\"#2B2527\"/>\n<line x1=\"121.7\" y1=\"77\" x2=\"313.3\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"45.0\" y1=\"72\" x2=\"45.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"45.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">0</text><line x1=\"83.3\" y1=\"72\" x2=\"83.3\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"83.3\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">1</text><line x1=\"121.7\" y1=\"72\" x2=\"121.7\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"121.7\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">2</text><line x1=\"160.0\" y1=\"72\" x2=\"160.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"160.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">3</text><line x1=\"198.3\" y1=\"72\" x2=\"198.3\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"198.3\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">4</text><line x1=\"236.7\" y1=\"72\" x2=\"236.7\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"236.7\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">5</text><line x1=\"275.0\" y1=\"72\" x2=\"275.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"275.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">6</text><line x1=\"313.3\" y1=\"72\" x2=\"313.3\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"313.3\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">7</text><line x1=\"351.7\" y1=\"72\" x2=\"351.7\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"351.7\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">8</text><line x1=\"390.0\" y1=\"72\" x2=\"390.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"390.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">9</text><circle cx=\"121.7\" cy=\"77\" r=\"6\" fill=\"#B43123\" stroke=\"#B43123\" stroke-width=\"2\"/><circle cx=\"313.3\" cy=\"77\" r=\"6\" fill=\"#B43123\" stroke=\"#B43123\" stroke-width=\"2\"/>\n<text x=\"397\" y=\"60\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">x</text>\n\n</svg>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Markeringen går från 2 till 7.</p></li><li><p>Båda ändpunkterna är fyllda och ingår därför: \\(2\\le x\\le7\\).</p></li></ol></div>",
     "ledtrad": "<p>Vad berättar de fyllda punkterna om gränserna?</p>",
     "niva": "E",
@@ -26513,7 +26524,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(7x-2&gt;3x+10\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(7x-2&gt;3x+10\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Subtrahera 3x och addera 2: 4x &gt; 12.</p></li><li><p>Dividera med 4: x &gt; 3.</p></li><li><p>Gränsen 3 ger likhet och ingår inte.</p></li></ol></div>",
     "ledtrad": "<p>Samla x-termerna i samma led.</p>",
     "niva": "E",
@@ -26544,7 +26556,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(4-3(2x-1)\\le13\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(4-3(2x-1)\\le13\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla parentesen: 7 − 6x ≤ 13.</p></li><li><p>Då är −6x ≤ 6.</p></li><li><p>Division med −6 ger x ≥ −1.</p></li><li><p>Kontroll vid −1 ger 13 i vänsterledet.</p></li></ol></div>",
     "ledtrad": "<p>Minustecknet framför parentesen påverkar båda termerna.</p>",
     "niva": "E",
@@ -26575,7 +26588,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(4x-3&lt;17\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(4x-3&lt;17\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[4x<20\\]</div></li><li><p class=\"facit-rubrik\">Dela med 4</p><div class=\"facit-matte\">\\[x<5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x<5\\)</p></div>",
     "ledtrad": "<p>Vilken operation tar bort termen −3?</p>",
     "niva": "E",
@@ -26638,7 +26652,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(9x+2&lt;2\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(9x+2&lt;2\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[9x<0\\]</div></li><li><p class=\"facit-rubrik\">Dela med 9</p><div class=\"facit-matte\">\\[x<0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x<0\\)</p></div>",
     "ledtrad": "<p>Vad återstår när tvåan tas bort från båda leden?</p>",
     "niva": "E",
@@ -28530,7 +28545,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": true,
-  "t": "<p>Lös ekvationen \\((3x-4)(x+2)=3x^2+5x-18\\). Svara exakt med ett bråk.</p>",
+  "t": "<p>Lös ekvationen \\((3x-4)(x+2)=3x^2+5x-18\\).</p>",
+  "kgInstruktion": "Svara exakt med ett bråk.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla vänsterledets produkt</p><div class=\"facit-matte\">\\[\\begin{gathered}(3x-4)(x+2)\\\\=3x^2+6x-4x-8\\\\=3x^2+2x-8\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Ta bort samma kvadratterm från båda leden</p><div class=\"facit-matte\">\\[\\begin{gathered}3x^2+2x-8=3x^2+5x-18\\\\2x-8=5x-18\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös den linjära ekvationen</p><div class=\"facit-matte\">\\[10=3x\\quad\\Rightarrow\\quad x=\\frac{10}{3}.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera i ursprungsekvationen</p><div class=\"facit-matte\">\\[\\begin{gathered}(3\\cdot\\frac{10}{3}-4)(\\frac{10}{3}+2)\\\\=6\\cdot\\frac{16}{3}=32\\end{gathered}\\]</div><div class=\"facit-matte\">\\[\\begin{gathered}3\\cdot(\\frac{10}{3})^2+5\\cdot\\frac{10}{3}-18\\\\=\\frac{100}{3}+\\frac{50}{3}-18=32\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac{10}{3}\\).</p></div>",
   "ledtrad": "<p>Behöver en ekvation med x² alltid vara en andragradsekvation efter förenkling?</p>",
   "niva": "C",
@@ -28799,7 +28815,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x ligger från och med −3 till och med 5. Svara med olikhetstecken.</p>",
+    "t": "<p>x ligger från och med −3 till och med 5. Skriv detta som en olikhet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikhetstecken: < och > utesluter gränsen, ≤ och ≥ tar med den</p><p>Från och med och till och med: båda gränserna ingår.</p><div class=\"facit-matte\">\\[-3\\le x\\le5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\le x\\le5\\)</p></div>",
     "ledtrad": "<p>Vad betyder från och med respektive till och med?</p>",
     "niva": "E",
@@ -28894,7 +28910,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(7x+4&lt;-10\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(7x+4&lt;-10\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Subtrahera 4: 7x &lt; −14.</p></li><li><p>Dividera med 7: x &lt; −2.</p></li><li><p>Det negativa högerledet vänder inte tecknet; divisorn är positiv.</p></li></ol></div>",
     "ledtrad": "<p>Är talet du dividerar med positivt eller negativt?</p>",
     "niva": "E",
@@ -28957,7 +28974,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(-5x&gt;20\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(-5x&gt;20\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dividera med −5 och vänd tecknet: x &lt; −4.</p></li><li><p>Exempelvis x = −5 ger 25 &gt; 20, medan x = 0 inte fungerar.</p></li></ol></div>",
     "ledtrad": "<p>Pröva ett negativt x för att kontrollera riktningen.</p>",
     "niva": "E",
@@ -29020,7 +29038,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(-4(x+1)\\ge12\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(-4(x+1)\\ge12\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikheter löses som ekvationer, men tecknet vänds vid multiplikation eller division med ett negativt tal</p><div class=\"facit-matte\">\\[-4(x+1)\\ge12\\quad\\Rightarrow\\quad x+1\\le-3\\]</div></li><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[x\\le-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\le-4\\)</p></div>",
     "ledtrad": "<p>Kan du börja med att dividera hela båda leden?</p>",
     "niva": "E",
@@ -29095,7 +29114,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(x+7\\ge1\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(x+7\\ge1\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[x\\ge1-7=-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\ge-6\\)</p></div>",
     "ledtrad": "<p>Vilken operation tar bort +7?</p>",
     "niva": "E",
@@ -30292,7 +30312,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>För heltal \\(n\\) är \\(E_n=18n+30\\).</p>\n<p>Faktorisera uttrycket och bestäm sedan alla heltal \\(n\\) för vilka \\(E_n\\) är delbart med 12. Skriv svaret som en generell formel.</p>",
+    "t": "<p>För heltal \\(n\\) är \\(E_n=18n+30\\).</p>\n<p>Faktorisera uttrycket och bestäm sedan alla heltal \\(n\\) för vilka \\(E_n\\) är delbart med 12.</p>",
+    "kgInstruktion": "Skriv svaret som en generell formel.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[18 n+30=6 \\left(3 n+5\\right)\\]</div></div></li><li><p>För delbarhet med 12 måste 3n + 5 vara jämnt.</p></li><li><p>Eftersom 3n har samma paritet som n och 5 är udda sker detta precis när n är udda.</p></li></ol><p class=\"facit-svar\">Svaret är n = 2k + 1 för valfritt heltal k.</p><ol class=\"facit-steglista\" role=\"list\"><li><p>Insättning ger 18(2k + 1) + 30 = 12(3k + 4), vilket bekräftar alla lösningar.</p></li></ol></div>",
     "ledtrad": "<p>När är den faktor som blir kvar efter utbrytning jämn?</p>",
     "niva": "C",
@@ -30755,7 +30776,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös ekvationen \\(3(2x-1)=5(4-x)\\). Svara exakt med ett bråk.</p>",
+    "t": "<p>Lös ekvationen \\(3(2x-1)=5(4-x)\\).</p>",
+    "kgInstruktion": "Svara exakt med ett bråk.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Utveckla parenteserna:</p><div class=\"facit-matte\">\\[6 x-3=20-5 x\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Då är 11x = 23 och</p><div class=\"facit-matte\">\\[x=\\frac{23}{11}\\]</div></div></li><li><p>Båda leden blir 105/11.</p></li></ol></div>",
     "ledtrad": "<p>Förenkla båda leden innan du dividerar.</p>",
     "niva": "E",
@@ -31184,7 +31206,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(x/2\\ge7\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(x/2\\ge7\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera båda leden med 2: x ≥ 14.</p></li><li><p>Multiplikation med ett positivt tal bevarar riktningen.</p></li></ol></div>",
     "ledtrad": "<p>Vilken operation tar bort divisionen med 2?</p>",
     "niva": "E",
@@ -32354,7 +32377,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x är större än 2 men högst 7. Svara med olikhetstecken.</p>",
+    "t": "<p>x är större än 2 men högst 7. Skriv detta som en olikhet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikhetstecken: < och > utesluter gränsen, ≤ och ≥ tar med den</p><div class=\"facit-matte\">\\[2<x\\le7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2<x\\le7\\)</p></div>",
     "ledtrad": "<p>Vilket av orden större än och högst utesluter gränsen?</p>",
     "niva": "E",
@@ -32480,7 +32503,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Beskriv alla tal x som ligger till höger om 4 på tallinjen. Punkten 4 ingår inte. Svara med olikhetstecken.</p>",
+    "t": "<p>Beskriv alla tal x som ligger till höger om 4 på tallinjen. Punkten 4 ingår inte.</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Till höger innebär större än.</p></li><li><p>Eftersom 4 inte ingår blir villkoret \\(x&gt;4\\).</p></li><li><p>Någon övre gräns finns inte.</p></li></ol></div>",
     "ledtrad": "<p>Vilket tecken uttrycker större än?</p>",
     "niva": "E",
@@ -32511,7 +32535,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x är högst −2. Svara med olikhetstecken.</p>",
+    "t": "<p>x är högst −2. Skriv detta som en olikhet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikhetstecken: < och > utesluter gränsen, ≤ och ≥ tar med den</p><p>Högst −2 betyder −2 eller mindre.</p><div class=\"facit-matte\">\\[x\\le-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\le-2\\)</p></div>",
     "ledtrad": "<p>Vilka negativa tal ligger till vänster om −2?</p>",
     "niva": "E",
@@ -32649,7 +32673,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x ska uppfylla både \\(-7&lt;x\\le3\\) och \\(-2\\le x&lt;8\\). Bestäm alla möjliga x. Svara med olikhetstecken.</p>",
+    "t": "<p>x ska uppfylla både \\(-7&lt;x\\le3\\) och \\(-2\\le x&lt;8\\). Bestäm alla möjliga x.</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den starkaste undre gränsen är −2 och den starkaste övre är 3.</p></li><li><p>Båda uppfyller båda villkoren: \\(-2\\le x\\le3\\).</p></li></ol></div>",
     "ledtrad": "<p>En gränspunkt måste vara tillåten i båda intervallen för att ingå.</p>",
     "niva": "E",
@@ -32680,7 +32705,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(3x+5&lt;20\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(3x+5&lt;20\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[3x<15\\]</div></li><li><p class=\"facit-rubrik\">Dela med 3</p><div class=\"facit-matte\">\\[x<5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x<5\\)</p></div>",
     "ledtrad": "<p>Ta bort femman innan du delar med tre.</p>",
     "niva": "E",
@@ -32711,7 +32737,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(4x-7\\ge9\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(4x-7\\ge9\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[4x\\ge16\\]</div></li><li><p class=\"facit-rubrik\">Dela med 4</p><div class=\"facit-matte\">\\[x\\ge4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\ge4\\)</p></div>",
     "ledtrad": "<p>Vilket värde måste 4x minst ha?</p>",
     "niva": "E",
@@ -32742,7 +32769,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(12-2x&gt;4\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(12-2x&gt;4\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 12</p><div class=\"facit-matte\">\\[12-2x\\gt4\\quad\\Rightarrow\\quad -2x\\gt-8.\\]</div></li><li><p class=\"facit-rubrik\">Dividera med ett negativt tal</p><p>När båda leden divideras med −2 måste olikhetstecknet vändas:</p><div class=\"facit-matte\">\\[x\\lt4.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\lt4\\).</p></div>",
     "ledtrad": "<p>Du kan också addera 2x i båda leden för att undvika negativ divisor.</p>",
     "niva": "E",
@@ -32773,7 +32801,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(5x+2\\le3x+14\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(5x+2\\le3x+14\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla variabeltermerna för sig och konstanterna för sig</p><div class=\"facit-matte\">\\[5x-3x\\le14-2\\quad\\Rightarrow\\quad2x\\le12\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2</p><div class=\"facit-matte\">\\[x\\le6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\le6\\)</p></div>",
     "ledtrad": "<p>Vilka termer innehåller x och vilka saknar x?</p>",
     "niva": "E",
@@ -32804,7 +32833,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(7-3x\\le16\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(7-3x\\le16\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[-3x\\le9\\]</div></li><li><p class=\"facit-rubrik\">Olikheter löses som ekvationer, men tecknet vänds vid multiplikation eller division med ett negativt tal</p><div class=\"facit-matte\">\\[x\\ge-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\ge-3\\)</p></div>",
     "ledtrad": "<p>Kontrollera tecknet på divisorn i sista steget.</p>",
     "niva": "E",
@@ -32835,7 +32865,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(2(x+4)&gt;14\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(2(x+4)&gt;14\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med 2</p><div class=\"facit-matte\">\\[x+4>7\\]</div></li><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[x>3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x>3\\)</p></div>",
     "ledtrad": "<p>Behöver du utveckla parentesen för att komma vidare?</p>",
     "niva": "E",
@@ -32866,7 +32897,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(5-2(x-1)\\ge11\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(5-2(x-1)\\ge11\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla parentesen</p><p>Faktorn −2 multiplicerar båda termerna i parentesen:</p><div class=\"facit-matte\">\\[5-2(x-1)\\ge11\\quad\\Rightarrow\\quad 7-2x\\ge11.\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera 7 och dividera</p><div class=\"facit-matte\">\\[-2x\\ge4.\\]</div><p>Division med det negativa talet −2 vänder olikhetstecknet:</p><div class=\"facit-matte\">\\[x\\le-2.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\le-2\\).</p></div>",
     "ledtrad": "<p>Vad blir produkten av −2 och −1?</p>",
     "niva": "E",
@@ -32897,7 +32929,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(3(x-2)&lt;2x+5\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(3(x-2)&lt;2x+5\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in faktorn i varje term i parentesen</p><div class=\"facit-matte\">\\[3x-6<2x+5\\]</div></li><li><p class=\"facit-rubrik\">Samla variabeltermerna för sig och konstanterna för sig</p><div class=\"facit-matte\">\\[x<11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x<11\\)</p></div>",
     "ledtrad": "<p>När du förenklat parentesen, hur många x blir kvar efter att 2x subtraherats?</p>",
     "niva": "E",
@@ -32928,7 +32961,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(4(2x-1)\\ge3x+11\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(4(2x-1)\\ge3x+11\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in faktorn i varje term i parentesen</p><div class=\"facit-matte\">\\[8x-4\\ge3x+11\\]</div></li><li><p class=\"facit-rubrik\">Samla variabeltermerna för sig och konstanterna för sig</p><div class=\"facit-matte\">\\[5x\\ge15\\quad\\Rightarrow\\quad x\\ge3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\ge3\\)</p></div>",
     "ledtrad": "<p>Förenkla vänsterledet först.</p>",
     "niva": "E",
@@ -34062,7 +34096,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(-2&lt;x+3\\le7\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(-2&lt;x+3\\le7\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra bort 3 i alla tre led</p><div class=\"facit-matte\">\\[-2-3<x\\le7-3\\quad\\Rightarrow\\quad-5<x\\le4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5<x\\le4\\)</p></div>",
     "ledtrad": "<p>Vilken operation behöver göras i alla tre led?</p>",
     "niva": "E",
@@ -34093,7 +34128,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(1\\le2x-3&lt;9\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(1\\le2x-3&lt;9\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägg till 3 i alla led</p><div class=\"facit-matte\">\\[4\\le2x<12\\]</div></li><li><p class=\"facit-rubrik\">Dela alla led med 2</p><div class=\"facit-matte\">\\[2\\le x<6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\le x<6\\)</p></div>",
     "ledtrad": "<p>Behandla båda gränserna när du förändrar mittledet.</p>",
     "niva": "E",
@@ -34124,7 +34160,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(-7&lt;3x+2\\le11\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(-7&lt;3x+2\\le11\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra bort 2 i alla led</p><div class=\"facit-matte\">\\[-9<3x\\le9\\]</div></li><li><p class=\"facit-rubrik\">Dela alla led med 3</p><div class=\"facit-matte\">\\[-3<x\\le3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3<x\\le3\\)</p></div>",
     "ledtrad": "<p>Samma operation ska göras vid båda gränserna.</p>",
     "niva": "E",
@@ -34188,7 +34225,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Ett tal x ligger högst 4 enheter från 3 på tallinjen. Beskriv alla möjliga x. Svara med olikhetstecken.</p>",
+    "t": "<p>Ett tal x ligger högst 4 enheter från 3 på tallinjen. Beskriv alla möjliga x.</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Fyra enheter åt vänster ger 3 − 4 = −1 och åt höger</p><div class=\"facit-matte\">\\[3+4=7\\]</div></div></li><li><p>Högst tar med båda gränserna: −1 ≤ x ≤ 7.</p></li></ol></div>",
     "ledtrad": "<p>Finns de tillåtna talen bara på en sida om 3?</p>",
     "niva": "E",
@@ -37742,7 +37780,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Lös ut \\(x\\) ur \\(y=x+3\\). Skriv svaret som en ekvation på formen \\(x=\\dots\\).</p>",
+    "t": "<p>Lös ut \\(x\\) ur \\(y=x+3\\).</p>",
+    "kgInstruktion": "Skriv svaret som en ekvation på formen \\(x=\\dots\\).",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 3 i båda leden</p><div class=\"facit-matte\">\\[y=x+3\\quad\\Rightarrow\\quad y-3=x.\\]</div></li><li><p class=\"facit-rubrik\">Skriv med x i vänsterled</p><div class=\"facit-matte\">\\[x=y-3.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=y-3\\).</p></div>",
     "ledtrad": "<p>Vilken operation tar bort +3?</p>",
     "niva": "E",
@@ -38013,7 +38052,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x är större än 5. Svara med olikhetstecken.</p>",
+    "t": "<p>x är större än 5. Skriv detta som en olikhet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikhetstecken: < och > utesluter gränsen, ≤ och ≥ tar med den</p><div class=\"facit-matte\">\\[x>5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x>5\\)</p></div>",
     "ledtrad": "<p>Tecknets öppna sida ska vara vänd mot det större talet.</p>",
     "niva": "E",
@@ -38044,7 +38083,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x är minst 10. Svara med olikhetstecken.</p>",
+    "t": "<p>x är minst 10. Skriv detta som en olikhet.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikhetstecken: < och > utesluter gränsen, ≤ och ≥ tar med den</p><p>Minst 10 betyder 10 eller mer.</p><div class=\"facit-matte\">\\[x\\ge10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\ge10\\)</p></div>",
     "ledtrad": "<p>Får x vara precis 10?</p>",
     "niva": "E",
@@ -38581,7 +38620,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(x+2&gt;5\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(x+2&gt;5\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 2 i båda leden</p><div class=\"facit-matte\">\\[x+2\\gt5\\quad\\Rightarrow\\quad x\\gt3.\\]</div><p>Likhet ingår inte, så gränsvärdet är uteslutet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\gt3\\).</p></div>",
     "ledtrad": "<p>Vad behöver du ta bort från vänsterledet?</p>",
     "niva": "E",
@@ -38612,7 +38652,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(x-1&lt;4\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(x-1&lt;4\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera 1 i båda leden</p><div class=\"facit-matte\">\\[x-1\\lt4\\quad\\Rightarrow\\quad x\\lt5.\\]</div><p>Likhet ingår inte, så gränsvärdet är uteslutet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\lt5\\).</p></div>",
     "ledtrad": "<p>Vilken operation återställer det som dragits bort?</p>",
     "niva": "E",
@@ -38643,7 +38684,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(2x&gt;10\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(2x&gt;10\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera båda leden med 2</p><div class=\"facit-matte\">\\[2x\\gt10\\quad\\Rightarrow\\quad x\\gt5.\\]</div><p>Olikhetens riktning bevaras eftersom divisorn är positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\gt5\\).</p></div>",
     "ledtrad": "<p>Hur får du en ensam x-term?</p>",
     "niva": "E",
@@ -38706,7 +38748,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En aktivitet har åldersgränsen 18 år. Alla som fyllt 18 får delta. Skriv villkoret för åldern x. Svara med olikhetstecken.</p>",
+    "t": "<p>En aktivitet har åldersgränsen 18 år. Alla som fyllt 18 får delta. Skriv villkoret för åldern x.</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikhetstecken: < och > utesluter gränsen, ≤ och ≥ tar med den</p><p>Den som har fyllt 18 får delta, så gränsen ingår.</p><div class=\"facit-matte\">\\[x\\ge18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\ge18\\)</p></div>",
     "ledtrad": "<p>Ingår någon på sin artonårsdag?</p>",
     "niva": "E",
@@ -38769,7 +38812,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös \\(3x&lt;12\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(3x&lt;12\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dividera båda leden med 3</p><div class=\"facit-matte\">\\[3x\\lt12\\quad\\Rightarrow\\quad x\\lt4.\\]</div><p>Olikhetens riktning bevaras eftersom divisorn är positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\lt4\\).</p></div>",
     "ledtrad": "<p>Vilket tal multipliceras x med?</p>",
     "niva": "E",
@@ -42713,7 +42757,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(2x+3&gt;11\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(2x+3&gt;11\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[2x>8\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2</p><div class=\"facit-matte\">\\[x>4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x>4\\)</p></div>",
     "familj": "Lösa linjära olikheter",
     "geogebra": false,
@@ -42744,7 +42789,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(x-7\\le2\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(x-7\\le2\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[x\\le2+7=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\le9\\)</p></div>",
     "familj": "Lösa linjära olikheter",
     "geogebra": false,
@@ -42775,7 +42821,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(5x\\ge-15\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(5x\\ge-15\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med det positiva talet 5</p><div class=\"facit-matte\">\\[x\\ge-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\ge-3\\)</p></div>",
     "familj": "Lösa linjära olikheter",
     "geogebra": false,
@@ -42806,7 +42853,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(-3x&lt;12\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(-3x&lt;12\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olikheter löses som ekvationer, men tecknet vänds vid multiplikation eller division med ett negativt tal</p><div class=\"facit-matte\">\\[-3x<12\\quad\\Rightarrow\\quad x>-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x>-4\\)</p></div>",
     "familj": "Lösa linjära olikheter",
     "geogebra": false,
@@ -42837,7 +42885,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(4x-1\\le2x+9\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(4x-1\\le2x+9\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla variabeltermerna för sig och konstanterna för sig</p><div class=\"facit-matte\">\\[2x\\le10\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2</p><div class=\"facit-matte\">\\[x\\le5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\le5\\)</p></div>",
     "familj": "Lösa linjära olikheter",
     "geogebra": false,
@@ -42868,7 +42917,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(6-2x&gt;0\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös \\(6-2x&gt;0\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[-2x>-6\\]</div></li><li><p class=\"facit-rubrik\">Olikheter löses som ekvationer, men tecknet vänds vid multiplikation eller division med ett negativt tal</p><div class=\"facit-matte\">\\[x<3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x<3\\)</p></div>",
     "familj": "Lösa linjära olikheter",
     "geogebra": false,
@@ -65266,7 +65316,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös ekvationerna. Svara exakt.</p><p>a) \\(x^4=16\\)<br>b) \\(x^4=81\\)<br>c) \\(x^5=32\\)</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a) \\(x^4=16\\)<br>b) \\(x^4=81\\)<br>c) \\(x^5=32\\)</p>",
+    "kgInstruktion": "Svara exakt.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x^4=16\\Rightarrow x=\\pm2\\).<br>b) \\(x^4=81\\Rightarrow x=\\pm3\\).<br>c) \\(x^5=32\\Rightarrow x=2\\).</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämna exponenter ger här två motsatta reella lösningar; den udda exponenten ger en.</p></li></ol></div>",
     "familj": "Lösa potensekvationer",
     "geogebra": false,
@@ -65295,29 +65346,30 @@ window.BANKMA1 = [
       "numeriskt"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^4=16\\)</div>",
+        "t": "<p>Lös ekvationerna.</p><div class=\"spel-en-del\">\\(x^4=16\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs.</p></li><li><p>När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras.</p></li><li><p>Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(x=\\pm2\\)</strong></p></div></div>",
         "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^4=81\\)</div>",
+        "t": "<p>Lös ekvationerna.</p><div class=\"spel-en-del\">\\(x^4=81\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs.</p></li><li><p>När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras.</p></li><li><p>Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(x=\\pm3\\)</strong></p></div></div>",
         "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
         "niva": "C"
       },
       {
         "etikett": "c",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^5=32\\)</div>",
+        "t": "<p>Lös ekvationerna.</p><div class=\"spel-en-del\">\\(x^5=32\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs.</p></li><li><p>När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras.</p></li><li><p>Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> Exponenten är udda, så det finns bara en lösning: <strong>\\(x=2\\)</strong></p></div></div>",
         "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
         "niva": "C"
-      }
-    ],
+      }],
     "ledtrad": "<p>Jämför vad som händer med tecknet när exponenten är jämn respektive udda.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -66813,8 +66865,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Beräkna \\((4\\cdot10^5)(3\\cdot10^{-2})\\). Skriv svaret i grundpotensform.</p>",
-    "kgInstruktion": "Skriv talfaktorn a och exponenten n i var sitt fält.",
+    "t": "<p>Beräkna \\((4\\cdot10^5)(3\\cdot10^{-2})\\).</p>",
+    "kgInstruktion": "Skriv talfaktorn a och exponenten n i var sitt fält. Skriv svaret i grundpotensform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera talfaktorerna och tiopotenserna var för sig: \\(4\\cdot3=12\\) och \\(10^5\\cdot10^{-2}=10^3\\).</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[12\\cdot10^3=1{,}2\\cdot10^4\\].</div></div></li></ol></div>",
     "ledtrad": "<p>Efter multiplikationen måste talfaktorn i grundpotensform ligga mellan 1 och 10.</p>",
     "niva": "E",
@@ -66889,7 +66941,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös ekvationerna. Svara exakt.</p><p>a) \\(x^2=49\\)<br>b) \\(x^2=100\\)<br>c) \\(x^2=\\frac14\\)</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a) \\(x^2=49\\)<br>b) \\(x^2=100\\)<br>c) \\(x^2=\\frac14\\)</p>",
+    "kgInstruktion": "Svara exakt.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=\\pm7\\).<br>b) \\(x=\\pm10\\).<br>c) \\(x=\\pm\\frac12\\).</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>I alla tre fallen är exponenten jämn, så både den positiva och den negativa roten måste tas med.</p></li></ol></div>",
     "familj": "Lösa potensekvationer",
     "geogebra": false,
@@ -66921,10 +66974,10 @@ window.BANKMA1 = [
       "lösningsmängd"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^2=49\\)</div>",
+        "t": "<p>Lös ekvationerna.</p><div class=\"spel-en-del\">\\(x^2=49\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs.</p></li><li><p>När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras.</p></li><li><p>Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p></li><li><p>Jämn exponent ger två lösningar.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(x=\\pm7\\)</strong></p></div></div>",
         "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
         "niva": "E",
@@ -66932,7 +66985,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^2=100\\)</div>",
+        "t": "<p>Lös ekvationerna.</p><div class=\"spel-en-del\">\\(x^2=100\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs.</p></li><li><p>När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras.</p></li><li><p>Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p></li><li><p>Jämn exponent ger två lösningar.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(x=\\pm10\\)</strong></p></div></div>",
         "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
         "niva": "E",
@@ -66940,13 +66994,13 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^2=\\frac14\\)</div>",
+        "t": "<p>Lös ekvationerna.</p><div class=\"spel-en-del\">\\(x^2=\\frac14\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs.</p></li><li><p>När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras.</p></li><li><p>Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p></li><li><p>Jämn exponent ger två lösningar.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(x=\\pm\\frac12\\)</strong></p></div></div>",
         "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
         "niva": "C",
         "poang": "0/1/0"
-      }
-    ],
+      }],
     "ledtrad": "<p>Vilka två tal har samma kvadrat som det givna positiva talet?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -68020,8 +68074,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Beräkna \\((2\\cdot10^3)^3\\). Skriv svaret i grundpotensform.</p>",
-    "kgInstruktion": "Skriv talfaktorn a och exponenten n i var sitt fält.",
+    "t": "<p>Beräkna \\((2\\cdot10^3)^3\\).</p>",
+    "kgInstruktion": "Skriv talfaktorn a och exponenten n i var sitt fält. Skriv svaret i grundpotensform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potenslagen: \\((ab)^n=a^nb^n\\)</p><div class=\"facit-matte\">\\[\\left(2\\cdot10^3\\right)^3=2^3\\cdot10^{9}=8\\cdot10^9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\cdot10^9\\)</p></div>",
     "ledtrad": "<p>Vilka faktorer omfattas av exponenten utanför parentesen?</p>",
     "niva": "E",
@@ -70661,7 +70715,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Ljuset färdas med farten \\(3{,}0\\cdot10^8\\) m/s. Avståndet mellan solen och jorden är \\(1{,}5\\cdot10^{11}\\) m.</p><p>a) Hur långt färdas ljuset på en minut? Svara i grundpotensform.<br>b) Hur många minuter tar det för solljuset att nå jorden?<br>c) Vad innebär det för påståendet att vi ser solen som den såg ut för ungefär åtta minuter sedan?</p>",
+    "t": "<p>Ljuset färdas med farten \\(3{,}0\\cdot10^8\\) m/s. Avståndet mellan solen och jorden är \\(1{,}5\\cdot10^{11}\\) m.</p><p>a) Hur långt färdas ljuset på en minut?<br>b) Hur många minuter tar det för solljuset att nå jorden?<br>c) Vad innebär det för påståendet att vi ser solen som den såg ut för ungefär åtta minuter sedan?</p>",
+    "kgInstruktion": "Svara i grundpotensform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En minut är 60 s.</p></li><li><p>Sträckan är \\(3{,}0\\cdot10^8\\cdot60=1{,}8\\cdot10^{10}\\) m.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tiden är sträckan delad med hastigheten: \\(\\frac{1{,}5\\cdot10^{11}}{3{,}0\\cdot10^8}=500\\) s.</p></li><li><p>Det är \\(500/60\\approx8{,}3\\) minuter.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ja, som ungefärlig uppgift stämmer det.</p></li><li><p>Ljuset som når oss lämnade solen drygt åtta minuter tidigare; bilden visar alltså inte solens samtidiga tillstånd.</p></li></ol></div></div></div>",
     "ledtrad": "<p>Vilken enhet får sträcka delad med hastighet? Vad säger tiden om när ljuset lämnade solen?</p>",
     "niva": "C",
@@ -71797,7 +71852,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Lös ekvationerna. Svara exakt.</p><p>a) \\(x^5=243\\)<br>b) \\(x^3=\\frac18\\)<br>c) \\(x^5=-32\\)</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a) \\(x^5=243\\)<br>b) \\(x^3=\\frac18\\)<br>c) \\(x^5=-32\\)</p>",
+    "kgInstruktion": "Svara exakt.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(243=3^5\\), så \\(x=3\\).<br>b) \\(\\frac18=(\\frac12)^3\\), så \\(x=\\frac12\\).<br>c) \\(-32=(-2)^5\\), så \\(x=-2\\).</p></li></ol></div></div></div>",
     "familj": "Lösa potensekvationer",
     "geogebra": false,
@@ -71820,10 +71876,10 @@ window.BANKMA1 = [
       "numeriskt"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^5=243\\)</div>",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(x^5=243\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(243=3^5\\) får vi <strong>\\(x=3\\)</strong>.</p></li></ol></div>",
         "ledtrad": "<p>Vilket heltal upphöjt till 5 blir 243?</p>",
         "niva": "E",
@@ -71831,7 +71887,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^3=\\frac18\\)</div>",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(x^3=\\frac18\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(\\frac18=(\\frac12)^3\\) får vi <strong>\\(x=\\frac12\\)</strong>.</p></li></ol></div>",
         "ledtrad": "<p>Skriv \\(\\frac18\\) som en tredjepotens.</p>",
         "niva": "E",
@@ -71839,13 +71896,13 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^5=-32\\)</div>",
+        "t": "<p>Lös ekvationen.</p><div class=\"spel-en-del\">\\(x^5=-32\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(-32=(-2)^5\\) får vi <strong>\\(x=-2\\)</strong>.</p></li></ol></div>",
         "ledtrad": "<p>En udda potens kan vara negativ. Vilket heltal upphöjt till 5 blir −32?</p>",
         "niva": "E",
         "poang": "1/0/0"
-      }
-    ],
+      }],
     "ledtrad": "<p>Skriv högerleden som femte- eller tredjepotenser. Udda exponenter ger en reell lösning även när högerledet är negativt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -71897,7 +71954,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "1/2/0",
-    "t": "<p>Lös ekvationerna. Svara exakt.</p><p>a) \\(x^{-1}=5\\)<br>b) \\(x^{-2}=16\\)<br>c) \\(x^{-3}=\\frac{1}{27}\\)</p>",
+    "t": "<p>Lös ekvationerna.</p><p>a) \\(x^{-1}=5\\)<br>b) \\(x^{-2}=16\\)<br>c) \\(x^{-3}=\\frac{1}{27}\\)</p>",
+    "kgInstruktion": "Svara exakt.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv negativa exponenter som bråk.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1/x=5\\Rightarrow x=1/5\\).<br>b) \\(1/x^2=16\\Rightarrow x^2=1/16\\Rightarrow x=\\pm1/4\\).<br>c) \\(1/x^3=1/27\\Rightarrow x^3=27\\Rightarrow x=3\\).</p></li></ol></div></div></div>",
     "familj": "Lösa potensekvationer",
     "geogebra": false,
@@ -71923,10 +71981,10 @@ window.BANKMA1 = [
       "numeriskt"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^{-1}=5\\)</div>",
+        "t": "<p>Lös ekvationerna.</p><div class=\"spel-en-del\">\\(x^{-1}=5\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs.</p></li><li><p>När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras.</p></li><li><p>Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p></li><li><div class=\"facit-berakning\"><p>Skriv om med bråk:</p><div class=\"facit-matte\">\\[x^{-n}=\\frac{1}{x^n}\\].</div></div></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1x=5\\Rightarrow\\)<strong>\\(x=\\frac15\\)</strong></p></div></div>",
         "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
         "niva": "E",
@@ -71934,7 +71992,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^{-2}=16\\)</div>",
+        "t": "<p>Lös ekvationerna.</p><div class=\"spel-en-del\">\\(x^{-2}=16\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs.</p></li><li><p>När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras.</p></li><li><p>Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p></li><li><div class=\"facit-berakning\"><p>Skriv om med bråk:</p><div class=\"facit-matte\">\\[x^{-n}=\\frac{1}{x^n}\\].</div></div></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{x^2}=16\\Rightarrow x^2=\\frac1{16}\\Rightarrow\\)<strong>\\(x=\\pm\\frac14\\)</strong></p></div></div>",
         "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
         "niva": "C",
@@ -71942,13 +72001,13 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^{-3}=\\frac{1}{27}\\)</div>",
+        "t": "<p>Lös ekvationerna.</p><div class=\"spel-en-del\">\\(x^{-3}=\\frac{1}{27}\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs.</p></li><li><p>När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras.</p></li><li><p>Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p></li><li><div class=\"facit-berakning\"><p>Skriv om med bråk:</p><div class=\"facit-matte\">\\[x^{-n}=\\frac{1}{x^n}\\].</div></div></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{x^3}=\\frac1{27}\\Rightarrow x^3=27\\Rightarrow\\)<strong>\\(x=3\\)</strong></p></div></div>",
         "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
         "niva": "C",
         "poang": "0/1/0"
-      }
-    ],
+      }],
     "ledtrad": "<p>Börja med regeln \\(x^{-n}=1/x^n\\). I vilken deluppgift behöver du komma ihåg två rötter?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -73703,7 +73762,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(x^3+1=\\frac{35}{8}\\). Svara exakt.</p>",
+    "t": "<p>Lös ekvationen \\(x^3+1=\\frac{35}{8}\\).</p>",
+    "kgInstruktion": "Svara exakt.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[x^3=\\frac{35}{8}-1=\\frac{27}{8}\\]</div></li><li><p class=\"facit-rubrik\">Potensekvation: \\(x^n=a\\) ger \\(x=a^{1/n}=\\sqrt[n]a\\)</p><div class=\"facit-matte\">\\[x=\\sqrt[3]{\\frac{27}{8}}=\\frac32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac32\\)</p></div>",
     "familj": "Lösa potensekvationer",
     "geogebra": false,
@@ -75357,8 +75417,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Beräkna \\((3{,}0\\cdot10^5)(4{,}0\\cdot10^{-3})\\). Skriv svaret i grundpotensform.</p>",
-    "kgInstruktion": "Skriv talfaktorn a och exponenten n i var sitt fält.",
+    "t": "<p>Beräkna \\((3{,}0\\cdot10^5)(4{,}0\\cdot10^{-3})\\).</p>",
+    "kgInstruktion": "Skriv talfaktorn a och exponenten n i var sitt fält. Skriv svaret i grundpotensform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potenslagen: \\(a^m\\cdot a^n=a^{m+n}\\)</p><div class=\"facit-matte\">\\[3{,}0\\cdot4{,}0\\cdot10^{5+(-3)}=12\\cdot10^2\\]</div></li><li><p class=\"facit-rubrik\">Grundpotensform: \\(a\\cdot10^n\\) med \\(1\\le a<10\\)</p><div class=\"facit-matte\">\\[12\\cdot10^2=1{,}2\\cdot10^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\cdot10^3\\)</p></div>",
     "ledtrad": "<p>Kontrollera att talfaktorn till slut är mindre än 10.</p>",
     "niva": "E",
@@ -75400,8 +75460,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Beräkna \\(\\frac{8{,}4\\cdot10^7}{2{,}0\\cdot10^3}\\). Skriv svaret i grundpotensform.</p>",
-    "kgInstruktion": "Skriv talfaktorn a och exponenten n i var sitt fält.",
+    "t": "<p>Beräkna \\(\\frac{8{,}4\\cdot10^7}{2{,}0\\cdot10^3}\\).</p>",
+    "kgInstruktion": "Skriv talfaktorn a och exponenten n i var sitt fält. Skriv svaret i grundpotensform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potenslagen: \\(\\frac{a^m}{a^n}=a^{m-n}\\)</p><div class=\"facit-matte\">\\[\\frac{8{,}4}{2{,}0}\\cdot10^{7-3}=4{,}2\\cdot10^4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\cdot10^4\\)</p></div>",
     "ledtrad": "<p>Vilken exponent får kvoten mellan tiopotenserna?</p>",
     "niva": "E",
@@ -86282,7 +86342,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Bestäm vektorernas absolutbelopp. Svara exakt.</p><p>a) \\((9,12)\\)<br>b) \\((-8,15)\\)<br>c) \\((-2,1)\\)</p>",
+    "t": "<p>Bestäm vektorernas absolutbelopp.</p><p>a) \\((9,12)\\)<br>b) \\((-8,15)\\)<br>c) \\((-2,1)\\)</p>",
+    "kgInstruktion": "Svara exakt.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Steg 1:</strong> Absolutbeloppet ges av</p><div class=\"facit-matte\">\\[|\\vec v|=\\sqrt{x^2+y^2}\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sqrt{81+144}=\\sqrt{225}=\\)<strong>15</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sqrt{64+225}=\\sqrt{289}=\\)<strong>17</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sqrt{4+1}=\\)<strong>\\(\\sqrt5\\)</strong></p></li></ol></div></div></div>",
     "familj": "Längd ur koordinater",
     "geogebra": false,
@@ -86301,10 +86362,10 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Bestäm vektorernas absolutbelopp. Svara exakt.</p><div class=\"spel-en-del\">\\((9,12)\\)</div>",
+        "t": "<p>Bestäm vektorernas absolutbelopp.</p><div class=\"spel-en-del\">\\((9,12)\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Vektorns absolutbelopp är dess längd.</p></li><li><p>På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p></li><li><div class=\"facit-berakning\"><p>Absolutbeloppet ges av</p><div class=\"facit-matte\">\\[|\\vec v|=\\sqrt{x^2+y^2}\\].</div></div></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{81+144}=\\sqrt{225}=\\)<strong>15</strong></p></div></div>",
         "ledtrad": "<p>Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p>",
         "niva": "E",
@@ -86312,7 +86373,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Bestäm vektorernas absolutbelopp. Svara exakt.</p><div class=\"spel-en-del\">\\((-8,15)\\)</div>",
+        "t": "<p>Bestäm vektorernas absolutbelopp.</p><div class=\"spel-en-del\">\\((-8,15)\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Vektorns absolutbelopp är dess längd.</p></li><li><p>På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p></li><li><div class=\"facit-berakning\"><p>Absolutbeloppet ges av</p><div class=\"facit-matte\">\\[|\\vec v|=\\sqrt{x^2+y^2}\\].</div></div></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{64+225}=\\sqrt{289}=\\)<strong>17</strong></p></div></div>",
         "ledtrad": "<p>Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p>",
         "niva": "E",
@@ -86320,14 +86382,14 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Bestäm vektorernas absolutbelopp. Svara exakt.</p><div class=\"spel-en-del\">\\((-2,1)\\)</div>",
+        "t": "<p>Bestäm vektorernas absolutbelopp.</p><div class=\"spel-en-del\">\\((-2,1)\\)</div>",
+        "kgInstruktion": "Svara exakt.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Vektorns absolutbelopp är dess längd.</p></li><li><p>På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p></li><li><div class=\"facit-berakning\"><p>Absolutbeloppet ges av</p><div class=\"facit-matte\">\\[|\\vec v|=\\sqrt{x^2+y^2}\\].</div></div></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sqrt{4+1}=\\)<strong>\\(\\sqrt5\\)</strong></p></div></div>",
         "ledtrad": "<p>Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p>",
         "niva": "C",
         "poang": "0/1/0",
         "miniräknare": false
-      }
-    ],
+      }],
     "ledtrad": "<p>Beräkna \\(\\sqrt{x^2+y^2}\\) för varje vektor. Var noga med att även negativa komponenter kvadreras.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -96589,7 +96651,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p><p>a) Bestäm sannolikheten att kontrollen missar felet. Svara i decimalform.<br>b) Hur många procent är sannolikheten att kontrollen missar felet?</p>",
+    "t": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p><p>a) Bestäm sannolikheten att kontrollen missar felet.<br>b) Hur många procent är sannolikheten att kontrollen missar felet?</p>",
+    "kgInstruktion": "Svara i decimalform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Att kontrollen missar felet är komplementhändelsen till att den hittar felet:</p><div class=\"facit-matte\">\\[1-0{,}94=0{,}06\\].</div></div></li><li><p>I procent är det 6 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a) 0,06  b) 6 %</strong></p></div>",
     "familj": "Komplementhändelse",
     "geogebra": false,
@@ -96618,17 +96681,17 @@ window.BANKMA1 = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p><p>Bestäm sannolikheten att kontrollen missar felet. Svara i decimalform.</p>",
+        "t": "<p>En kontroll hittar ett fel med sannolikheten 0,94.</p><p>Bestäm sannolikheten att kontrollen missar felet.</p>",
+        "kgInstruktion": "Svara i decimalform.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Att missa felet är komplementhändelsen till att hitta det:</p><div class=\"facit-matte\">\\[1-0{,}94=0{,}06\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,06</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "ledtrad": "<p>De två utfallen ”hittar felet” och ”missar felet” summerar till 1.</p>",
         "traningsniva": 1,
         "arbetsinsats": 1,
-        "fraga": "Bestäm sannolikheten att kontrollen missar felet. Svara i decimalform."
+        "fraga": "Bestäm sannolikheten att kontrollen missar felet."
       },
       {
         "etikett": "b",
@@ -96640,8 +96703,7 @@ window.BANKMA1 = [
         "traningsniva": 1,
         "arbetsinsats": 1,
         "fraga": "Hur många procent är sannolikheten att kontrollen missar felet?"
-      }
-    ],
+      }],
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
     ],
@@ -96782,7 +96844,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Tre lyckohjul snurras en gång vardera.</p><span class=\"fig\"><svg width=\"430\" height=\"210\" viewBox=\"0 0 430 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"75\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"75\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">A</text><line x1=\"75\" y1=\"100\" x2=\"75.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"94.8\" y=\"84.2\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">1</text><line x1=\"75\" y1=\"100\" x2=\"121.0\" y2=\"100.0\" stroke=\"#777\"/><text x=\"94.8\" y=\"123.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2</text><line x1=\"75\" y1=\"100\" x2=\"75.0\" y2=\"146.0\" stroke=\"#777\"/><text x=\"55.2\" y=\"123.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">3</text><line x1=\"75\" y1=\"100\" x2=\"29.0\" y2=\"100.0\" stroke=\"#777\"/><text x=\"55.2\" y=\"84.2\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">4</text><circle cx=\"215\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">B</text><line x1=\"215\" y1=\"100\" x2=\"215.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"239.2\" y=\"90.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2</text><line x1=\"215\" y1=\"100\" x2=\"254.8\" y2=\"123.0\" stroke=\"#777\"/><text x=\"215.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">5</text><line x1=\"215\" y1=\"100\" x2=\"175.2\" y2=\"123.0\" stroke=\"#777\"/><text x=\"190.8\" y=\"90.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">8</text><circle cx=\"350\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"350\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">C</text><line x1=\"350\" y1=\"100\" x2=\"350.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"378.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">1</text><line x1=\"350\" y1=\"100\" x2=\"350.0\" y2=\"146.0\" stroke=\"#777\"/><text x=\"322.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">3</text></svg></span><p>Hur stor är sannolikheten att summan blir udda? Svara i procent.</p>",
+    "t": "<p>Tre lyckohjul snurras en gång vardera.</p><span class=\"fig\"><svg width=\"430\" height=\"210\" viewBox=\"0 0 430 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"75\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"75\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">A</text><line x1=\"75\" y1=\"100\" x2=\"75.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"94.8\" y=\"84.2\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">1</text><line x1=\"75\" y1=\"100\" x2=\"121.0\" y2=\"100.0\" stroke=\"#777\"/><text x=\"94.8\" y=\"123.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2</text><line x1=\"75\" y1=\"100\" x2=\"75.0\" y2=\"146.0\" stroke=\"#777\"/><text x=\"55.2\" y=\"123.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">3</text><line x1=\"75\" y1=\"100\" x2=\"29.0\" y2=\"100.0\" stroke=\"#777\"/><text x=\"55.2\" y=\"84.2\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">4</text><circle cx=\"215\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">B</text><line x1=\"215\" y1=\"100\" x2=\"215.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"239.2\" y=\"90.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2</text><line x1=\"215\" y1=\"100\" x2=\"254.8\" y2=\"123.0\" stroke=\"#777\"/><text x=\"215.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">5</text><line x1=\"215\" y1=\"100\" x2=\"175.2\" y2=\"123.0\" stroke=\"#777\"/><text x=\"190.8\" y=\"90.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">8</text><circle cx=\"350\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"350\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">C</text><line x1=\"350\" y1=\"100\" x2=\"350.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"378.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">1</text><line x1=\"350\" y1=\"100\" x2=\"350.0\" y2=\"146.0\" stroke=\"#777\"/><text x=\"322.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">3</text></svg></span><p>Hur stor är sannolikheten att summan blir udda?</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela upp försöket i steg.</p></li><li><p>Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p></li><li><p>C ger alltid udda.</p></li><li><p>A och B måste därför ha samma paritet.</p></li><li><p>\\(\\frac12\\cdot\\frac13+\\frac12\\cdot\\frac23=\\)<strong>50 %</strong>.</p></li></ol></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -97296,7 +97359,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En spelare har 20 % chans att vinna varje omgång. Omgångarna är oberoende. Hur stor är sannolikheten att vinna minst en gång på fyra omgångar? Svara i procent.</p>",
+    "t": "<p>En spelare har 20 % chans att vinna varje omgång. Omgångarna är oberoende. Hur stor är sannolikheten att vinna minst en gång på fyra omgångar?</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det är enklare att ta komplementet.</p></li><li><div class=\"facit-berakning\"><p>Sannolikheten att förlora alla fyra är</p><div class=\"facit-matte\">\\[0{,}8^4=0{,}4096\\].</div></div></li><li><p>Alltså</p></li><li><div class=\"facit-matte\">\\[P(\\text{minst en vinst})=1-0{,}4096=0{,}5904\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar: 59,04 % (ca 59 %).</strong></p></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -100608,8 +100672,7 @@ window.BANKMA1 = [
       "procent"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "t": "<p>Sannolikheten att ett paket <strong>inte</strong> blir försenat är 0,92.</p><p>Bestäm sannolikheten att paketet blir försenat.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>0,08</p></li></ol></div>",
@@ -100621,15 +100684,15 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Sannolikheten att ett paket <strong>inte</strong> blir försenat är 0,92.</p><p>Hur stor är sannolikheten att paketet blir försenat? Svara i procent.</p>",
+        "t": "<p>Sannolikheten att ett paket <strong>inte</strong> blir försenat är 0,92.</p><p>Hur stor är sannolikheten att paketet blir försenat?</p>",
+        "kgInstruktion": "Svara i procent.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>8 %.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "ledtrad": "<p>De två komplementära sannolikheterna ska tillsammans bli 1.</p>",
         "traningsniva": 1,
         "arbetsinsats": 1
-      }
-    ],
+      }],
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
     ],
@@ -101406,7 +101469,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>I en klass med 40 elever har 32 rätt på uppgift 1, 20 rätt på både 1 och 2 och 8 rätt på alla tre. Ingen har rätt på en senare uppgift utan att också ha rätt på de tidigare.</p><p>Hur stor är sannolikheten att en slumpmässigt vald elev har exakt ett eller exakt två rätt? Svara i procent.</p>",
+    "t": "<p>I en klass med 40 elever har 32 rätt på uppgift 1, 20 rätt på både 1 och 2 och 8 rätt på alla tre. Ingen har rätt på en senare uppgift utan att också ha rätt på de tidigare.</p><p>Hur stor är sannolikheten att en slumpmässigt vald elev har exakt ett eller exakt två rätt?</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela upp försöket i steg.</p></li><li><p>Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p></li><li><p>Exakt ett: 12.</p></li><li><p>Exakt två: 12.</p></li><li><p>Totalt 24 av 40.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>60 %</strong></p></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -101744,7 +101808,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett lotteri har 400 lotter numrerade 1–400. En lott vinner om numret slutar på 7. Du köper fem olika lotter utan återläggning.</p><p>Bestäm sannolikheten att minst en av lotterna vinner. Svara i procent och avrunda till en decimal.</p>",
+    "t": "<p>Ett lotteri har 400 lotter numrerade 1–400. En lott vinner om numret slutar på 7. Du köper fem olika lotter utan återläggning.</p><p>Bestäm sannolikheten att minst en av lotterna vinner.</p>",
+    "kgInstruktion": "Svara i procent och avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Det finns 40 vinstlotter och 360 nitlotter.</p></li><li><p>Komplementet är fem nitlotter:</p><div class=\"facit-matte\">\\[P(\\text{ingen vinst})=\\frac{360}{400}\\cdot\\frac{359}{399}\\cdot\\frac{358}{398}\\cdot\\frac{357}{397}\\cdot\\frac{356}{396}\\approx0{,}58884\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(P(\\text{minst en})=1-0{,}58884\\approx41{,}1\\%\\)</strong></p></div></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -106757,7 +106822,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 4 röda och 6 blå kulor. En röd kula dras och läggs <strong>inte</strong> tillbaka. Hur stor är sannolikheten att nästa kula också är röd? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 4 röda och 6 blå kulor. En röd kula dras och läggs <strong>inte</strong> tillbaka. Hur stor är sannolikheten att nästa kula också är röd?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><p>Kvar: 3 röda av 9 kulor.</p><div class=\"facit-matte\">\\[\\frac{3}{9}=\\frac13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac13\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -106789,7 +106855,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 3 röda och 5 blå kulor. En röd kula dras och läggs <strong>inte</strong> tillbaka. Hur stor är sannolikheten att nästa kula också är röd? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 3 röda och 5 blå kulor. En röd kula dras och läggs <strong>inte</strong> tillbaka. Hur stor är sannolikheten att nästa kula också är röd?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><p>Kvar: 2 röda av 7 kulor.</p><div class=\"facit-matte\">\\[\\frac{2}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac27\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -106821,7 +106888,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 5 röda och 2 blå kulor. En röd kula dras och läggs <strong>inte</strong> tillbaka. Hur stor är sannolikheten att nästa kula också är röd? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 5 röda och 2 blå kulor. En röd kula dras och läggs <strong>inte</strong> tillbaka. Hur stor är sannolikheten att nästa kula också är röd?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><p>Kvar: 4 röda av 6 kulor.</p><div class=\"facit-matte\">\\[\\frac{4}{6}=\\frac23\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac23\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -106853,7 +106921,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 2 röda och 8 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att båda är röda? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 2 röda och 8 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att båda är röda?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><div class=\"facit-matte\">\\[\\frac{2}{10}\\cdot\\frac{1}{9}=\\frac{2}{90}=\\frac1{45}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{45}\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -106885,7 +106954,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 6 röda och 6 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att båda är röda? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 6 röda och 6 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att båda är röda?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><div class=\"facit-matte\">\\[\\frac{6}{12}\\cdot\\frac{5}{11}=\\frac{30}{132}=\\frac5{22}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac5{22}\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -106917,7 +106987,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 3 röda och 7 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att båda är röda? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 3 röda och 7 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att båda är röda?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><div class=\"facit-matte\">\\[\\frac{3}{10}\\cdot\\frac{2}{9}=\\frac{6}{90}=\\frac1{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{15}\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -106949,7 +107020,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 4 röda och 6 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att den första är röd och den andra blå? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 4 röda och 6 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att den första är röd och den andra blå?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><div class=\"facit-matte\">\\[\\frac{4}{10}\\cdot\\frac{6}{9}=\\frac{24}{90}=\\frac4{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac4{15}\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -106981,7 +107053,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 3 röda och 5 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att den första är röd och den andra blå? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 3 röda och 5 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att den första är röd och den andra blå?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><div class=\"facit-matte\">\\[\\frac{3}{8}\\cdot\\frac{5}{7}=\\frac{15}{56}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{56}\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -107013,7 +107086,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 5 röda och 2 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att den första är röd och den andra blå? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 5 röda och 2 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att den första är röd och den andra blå?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><div class=\"facit-matte\">\\[\\frac{5}{7}\\cdot\\frac{2}{6}=\\frac{10}{42}=\\frac5{21}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac5{21}\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -107045,7 +107119,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 2 röda och 8 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att det blir en kula av varje färg? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 2 röda och 8 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att det blir en kula av varje färg?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Röd–blå: \\(\\frac{2}{10}\\cdot\\frac{8}{9}\\).</p></li><li><p>Blå–röd: \\(\\frac{8}{10}\\cdot\\frac{2}{9}\\).</p></li><li><p>Summan är \\(\\frac{32}{90}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{16}{45}\\)</strong></p></div></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -107077,7 +107152,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 6 röda och 6 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att det blir en kula av varje färg? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 6 röda och 6 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att det blir en kula av varje färg?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Röd–blå: \\(\\frac{6}{12}\\cdot\\frac{6}{11}\\).</p></li><li><p>Blå–röd: \\(\\frac{6}{12}\\cdot\\frac{6}{11}\\).</p></li><li><p>Summan är \\(\\frac{72}{132}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{6}{11}\\)</strong></p></div></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -107109,7 +107185,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse finns 3 röda och 7 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att det blir en kula av varje färg? Svara i bråkform.</p>",
+    "t": "<p>I en påse finns 3 röda och 7 blå kulor. Två kulor dras utan återläggning. Hur stor är sannolikheten att det blir en kula av varje färg?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Röd–blå: \\(\\frac{3}{10}\\cdot\\frac{7}{9}\\).</p></li><li><p>Blå–röd: \\(\\frac{7}{10}\\cdot\\frac{3}{9}\\).</p></li><li><p>Summan är \\(\\frac{42}{90}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{7}{15}\\)</strong></p></div></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -107141,7 +107218,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två kort dras utan återläggning ur en vanlig kortlek med 52 kort. Hur stor är sannolikheten att båda är ess? Svara i bråkform.</p>",
+    "t": "<p>Två kort dras utan återläggning ur en vanlig kortlek med 52 kort. Hur stor är sannolikheten att båda är ess?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><div class=\"facit-matte\">\\[\\frac{4}{52}\\cdot\\frac{3}{51}=\\frac{12}{2\\,652}=\\frac1{221}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{221}\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -107173,7 +107251,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en klass på 10 elever lottas två biljetter ut, en i taget, till två olika elever. Hur stor är sannolikheten att både Ida och Omar får en biljett? Svara i bråkform.</p>",
+    "t": "<p>I en klass på 10 elever lottas två biljetter ut, en i taget, till två olika elever. Hur stor är sannolikheten att både Ida och Omar får en biljett?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den första biljetten måste gå till Ida eller Omar: \\(\\frac{2}{10}\\).</p></li><li><p>Den andra måste gå till den av dem som är kvar, bland 9 elever: \\(\\frac{1}{9}\\).</p></li><li><div class=\"facit-matte\">\\[\\frac{2}{10}\\cdot\\frac{1}{9}=\\frac{1}{45}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{1}{45}\\)</strong></p></div></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -107367,7 +107446,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En tärning kastas. Hur stor är sannolikheten att den <strong>inte</strong> visar en sexa? Svara i bråkform.</p>",
+    "t": "<p>En tärning kastas. Hur stor är sannolikheten att den <strong>inte</strong> visar en sexa?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komplementhändelse: \\(P(\\text{inte }A)=1-P(A)\\)</p><div class=\"facit-matte\">\\[1-\\frac16=\\frac56\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac56\\)</p></div>",
     "familj": "Komplementhändelse",
     "geogebra": false,
@@ -107399,7 +107479,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Prognosen säger 30 % risk för regn i morgon. Hur stor är sannolikheten att det inte regnar, enligt prognosen? Svara i procent.</p>",
+    "t": "<p>Prognosen säger 30 % risk för regn i morgon. Hur stor är sannolikheten att det inte regnar, enligt prognosen?</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komplementhändelse: \\(P(\\text{inte }A)=1-P(A)\\)</p><div class=\"facit-matte\">\\[100\\ \\%-30\\ \\%=70\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 70 %</p></div>",
     "familj": "Komplementhändelse",
     "geogebra": false,
@@ -107431,7 +107512,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En tärning kastas två gånger. Hur stor är sannolikheten att få minst en sexa? Svara i bråkform.</p>",
+    "t": "<p>En tärning kastas två gånger. Hur stor är sannolikheten att få minst en sexa?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna via komplementhändelsen ”ingen”.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">P(ingen sexa) =</p><div class=\"facit-matte\">\\[\\left(\\frac{5}{6}\\right)^{2}=\\frac{25}{36}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">P(minst en) =</p><div class=\"facit-matte\">\\[1-\\frac{25}{36}=\\frac{11}{36}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{11}{36}\\)</strong></p></div></div>",
     "familj": "Sannolikheten för minst en händelse",
     "geogebra": false,
@@ -107463,7 +107545,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En tärning kastas tre gånger. Hur stor är sannolikheten att få minst en sexa? Svara i bråkform.</p>",
+    "t": "<p>En tärning kastas tre gånger. Hur stor är sannolikheten att få minst en sexa?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna via komplementhändelsen ”ingen”.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">P(ingen sexa) =</p><div class=\"facit-matte\">\\[\\left(\\frac{5}{6}\\right)^{3}=\\frac{125}{216}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">P(minst en) =</p><div class=\"facit-matte\">\\[1-\\frac{125}{216}=\\frac{91}{216}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{91}{216}\\)</strong></p></div></div>",
     "familj": "Sannolikheten för minst en händelse",
     "geogebra": false,
@@ -107495,7 +107578,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett mynt kastas tre gånger. Hur stor är sannolikheten att få minst en krona? Svara i bråkform.</p>",
+    "t": "<p>Ett mynt kastas tre gånger. Hur stor är sannolikheten att få minst en krona?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna via komplementhändelsen ”ingen”.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">P(ingen krona) =</p><div class=\"facit-matte\">\\[\\left(\\frac{1}{2}\\right)^{3}=\\frac{1}{8}\\]</div></div></li><li><p>P(minst en) = 7/8.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{7}{8}\\)</strong></p></div></div>",
     "familj": "Sannolikheten för minst en händelse",
     "geogebra": false,
@@ -107527,7 +107611,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I ett lotteri finns 10 lotter, varav 3 vinnande. Du köper 2 lotter. Hur stor är sannolikheten att minst en vinner? Svara i bråkform.</p>",
+    "t": "<p>I ett lotteri finns 10 lotter, varav 3 vinnande. Du köper 2 lotter. Hur stor är sannolikheten att minst en vinner?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna via komplementhändelsen ”ingen”.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">P(ingen vinst) =</p><div class=\"facit-matte\">\\[\\frac{\\frac{7}{10}\\cdot 6}{9}=\\frac{42}{90}=\\frac{7}{15}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">P(minst en) =</p><div class=\"facit-matte\">\\[1-\\frac{7}{15}=\\frac{8}{15}\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{8}{15}\\)</strong></p></div></div>",
     "familj": "Sannolikheten för minst en händelse",
     "geogebra": false,
@@ -107559,7 +107644,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Sannolikheten att en produkt är felaktig är 0,1. Fem produkter kontrolleras. Hur stor är sannolikheten att minst en är felaktig? Avrunda till tre decimaler.</p>",
+    "t": "<p>Sannolikheten att en produkt är felaktig är 0,1. Fem produkter kontrolleras. Hur stor är sannolikheten att minst en är felaktig?</p>",
+    "kgInstruktion": "Avrunda till tre decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minst en felaktig är komplementet till ingen felaktig</p><div class=\"facit-matte\">\\[P(\\text{ingen})=0{,}9^5\\]</div></li><li><p class=\"facit-rubrik\">Komplementhändelse: \\(P(\\text{inte }A)=1-P(A)\\)</p><div class=\"facit-matte\">\\[1-0{,}9^5\\approx0{,}410\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,410</p></div>",
     "familj": "Sannolikheten för minst en händelse",
     "geogebra": false,
@@ -107591,7 +107677,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En person träffar ett mål med sannolikheten 0,3 per försök. Hur stor är sannolikheten att personen träffar minst en gång på fyra försök? Avrunda till tre decimaler.</p>",
+    "t": "<p>En person träffar ett mål med sannolikheten 0,3 per försök. Hur stor är sannolikheten att personen träffar minst en gång på fyra försök?</p>",
+    "kgInstruktion": "Avrunda till tre decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minst en träff är komplementet till ingen träff</p><div class=\"facit-matte\">\\[P(\\text{ingen})=0{,}7^4\\]</div></li><li><p class=\"facit-rubrik\">Komplementhändelse: \\(P(\\text{inte }A)=1-P(A)\\)</p><div class=\"facit-matte\">\\[1-0{,}7^4\\approx0{,}760\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,760</p></div>",
     "familj": "Sannolikheten för minst en händelse",
     "geogebra": false,
@@ -107623,7 +107710,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Sannolikheten att en blomma inte gror är 0,2. Tre frön sås. Hur stor är sannolikheten att minst ett frö inte gror? Avrunda till tre decimaler.</p>",
+    "t": "<p>Sannolikheten att en blomma inte gror är 0,2. Tre frön sås. Hur stor är sannolikheten att minst ett frö inte gror?</p>",
+    "kgInstruktion": "Avrunda till tre decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna via komplementhändelsen.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">P(alla gror) =</p><div class=\"facit-matte\">\\[0{,}8^{3}=0{,}512\\]</div></div></li><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1-0{,}512=0{,}488\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>0,488</strong></p></div></div>",
     "familj": "Sannolikheten för minst en händelse",
     "geogebra": false,
@@ -107942,7 +108030,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett mynt kastas två gånger. Hur stor är sannolikheten att det först blir krona och sedan klave? Svara i bråkform.</p>",
+    "t": "<p>Ett mynt kastas två gånger. Hur stor är sannolikheten att det först blir krona och sedan klave?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Oberoende händelser: \\(P(A\\text{ och }B)=P(A)\\cdot P(B)\\)</p><div class=\"facit-matte\">\\[\\frac12\\cdot\\frac12=\\frac14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac14\\)</p></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -108070,7 +108159,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två tärningar kastas. Hur stor är sannolikheten att summan blir 7? Svara i bråkform.</p>",
+    "t": "<p>Två tärningar kastas. Hur stor är sannolikheten att summan blir 7?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kombinationerna (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) ger 6 av 36 utfall.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{1}{6}\\)</strong></p></div></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -108102,7 +108192,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två tärningar kastas. Hur stor är sannolikheten att summan blir 10? Svara i bråkform.</p>",
+    "t": "<p>Två tärningar kastas. Hur stor är sannolikheten att summan blir 10?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Klassisk sannolikhet: \\(P=\\frac{\\text{antal gynnsamma utfall}}{\\text{antal möjliga utfall}}\\)</p><p>Summan 10 fås med (4, 6), (5, 5) och (6, 4) av 36 lika möjliga utfall.</p><div class=\"facit-matte\">\\[\\frac{3}{36}=\\frac1{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{12}\\)</p></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -108134,7 +108225,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två tärningar kastas. Hur stor är sannolikheten att produkten blir ett jämnt tal? Svara i bråkform.</p>",
+    "t": "<p>Två tärningar kastas. Hur stor är sannolikheten att produkten blir ett jämnt tal?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Produkten är udda bara om båda är udda: 3 · 3 = 9 utfall.</p></li><li><p>36 − 9 = 27 utfall ger jämn produkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>\\(\\frac{3}{4}\\)</strong></p></div></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -108166,7 +108258,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett prov har tre frågor med fyra svarsalternativ var, varav ett rätt. Du gissar på alla. Hur stor är sannolikheten att alla svar blir rätt? Svara i bråkform.</p>",
+    "t": "<p>Ett prov har tre frågor med fyra svarsalternativ var, varav ett rätt. Du gissar på alla. Hur stor är sannolikheten att alla svar blir rätt?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Oberoende händelser: \\(P(A\\text{ och }B)=P(A)\\cdot P(B)\\)</p><div class=\"facit-matte\">\\[\\frac14\\cdot\\frac14\\cdot\\frac14=\\frac1{64}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{64}\\)</p></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -108262,7 +108355,8 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Lag A och lag B spelar en serie i bäst av tre matcher. Det lag som först vinner två matcher vinner serien. Lag A vinner varje match med sannolikheten 0,6, oberoende av tidigare matcher.</p><p>Hur stor är sannolikheten att lag A vinner serien? Avrunda till tre decimaler.</p>",
+    "t": "<p>Lag A och lag B spelar en serie i bäst av tre matcher. Det lag som först vinner två matcher vinner serien. Lag A vinner varje match med sannolikheten 0,6, oberoende av tidigare matcher.</p><p>Hur stor är sannolikheten att lag A vinner serien?</p>",
+    "kgInstruktion": "Avrunda till tre decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A vinner serien på något av dessa sätt:</p></li></ol><ul><li>AA: \\(0{,}6\\cdot0{,}6=0{,}36\\)</li><li>ABA: \\(0{,}6\\cdot0{,}4\\cdot0{,}6=0{,}144\\)</li><li>BAA: \\(0{,}4\\cdot0{,}6\\cdot0{,}6=0{,}144\\)</li></ul><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[P=0{,}36+0{,}144+0{,}144=0{,}648.\\]</p></li><li><p>Ett lag som vinner 60 % av matcherna vinner alltså nästan 65 % av serierna.</p></li><li><p>Det bättre laget gynnas av att man spelar fler matcher.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,648</p></div>",
     "familj": "Sannolikhet med träddiagram",
     "formaga": [
@@ -108647,7 +108741,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Risken för en olycka är 1 på 1 000 000 per resa. En person gör 500 resor under ett år. Antag att risken är lika stor och oberoende för varje resa. Ungefär hur stor är risken för minst en olycka under året? Avrunda till fyra decimaler.</p>",
+    "t": "<p>Risken för en olycka är 1 på 1 000 000 per resa. En person gör 500 resor under ett år. Antag att risken är lika stor och oberoende för varje resa. Ungefär hur stor är risken för minst en olycka under året?</p>",
+    "kgInstruktion": "Avrunda till fyra decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Beräkna risken under året</strong></p><p>Sannolikheten för minst en olycka är ett minus sannolikheten att undvika olyckor på alla 500 oberoende resor.</p>\\[1-(1-0{,}000001)^{500}\\approx0{,}000499875.\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0005\\) med fyra decimaler.</p></div>",
     "familj": "Beräkna risker",
     "geogebra": false,
@@ -108777,7 +108872,8 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/3",
-    "t": "<p>En sjukdom finns hos 1 % av befolkningen. Ett test upptäcker 95 % av dem som är sjuka. Men testet visar också positivt för 5 % av dem som är friska.</p><p>En slumpvis vald person testar positivt. Hur stor är sannolikheten att personen verkligen är sjuk? Svara i procent, avrundat till heltal.</p>",
+    "t": "<p>En sjukdom finns hos 1 % av befolkningen. Ett test upptäcker 95 % av dem som är sjuka. Men testet visar också positivt för 5 % av dem som är friska.</p><p>En slumpvis vald person testar positivt. Hur stor är sannolikheten att personen verkligen är sjuk?</p>",
+    "kgInstruktion": "Svara i procent, avrundat till heltal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tänk dig 10 000 personer:</p></li></ol><ul><li>100 är sjuka. Av dem testar \\(0{,}95\\cdot100=95\\) positivt.</li><li>9 900 är friska. Av dem testar \\(0{,}05\\cdot9\\,900=495\\) positivt.</li></ul><ol class=\"facit-steglista\" role=\"list\"><li><p>Totalt testar \\(95+495=590\\) positivt, och 95 av dem är sjuka:</p></li><li><p>\\[\\frac{95}{590}\\approx0{,}16.\\]</p></li><li><p>Trots att testet verkar bra är bara cirka 16 % av de positiva sjuka.</p></li><li><p>Det beror på att sjukdomen är ovanlig, så de falskt positiva blir många fler än de sant positiva.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 16 %</p></div>",
     "familj": "Bedöma risk och säkerhet",
     "formaga": [
@@ -110792,7 +110888,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En undersökning med 1 000 personer har felmarginalen ±3 procentenheter. Felmarginalen är ungefär proportionell mot 1 delat med roten ur stickprovets storlek. Ungefär hur stor blir felmarginalen med 4 000 personer? Svara i procentenheter.</p>",
+    "t": "<p>En undersökning med 1 000 personer har felmarginalen ±3 procentenheter. Felmarginalen är ungefär proportionell mot 1 delat med roten ur stickprovets storlek. Ungefär hur stor blir felmarginalen med 4 000 personer?</p>",
+    "kgInstruktion": "Svara i procentenheter.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-rubrik\"><strong>Jämför stickprovens storlek</strong></p><p>4 000 är fyra gånger så många som 1 000. Roten ur 4 är 2, så felmarginalen halveras.</p><div class=\"facit-matte\">\\[3/2=1{,}5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 1,5 procentenheter.</p></div>",
     "familj": "Signifikans och statistisk osäkerhet",
     "geogebra": false,
@@ -111330,7 +111427,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "3/1/0",
-    "t": "<p>En skola har 480 elever i åk 1, 420 i åk 2 och 300 i åk 3. Man gör ett stratifierat urval på 80 elever, där varje årskurs är representerad i proportion till sin storlek.</p><p><strong>a)</strong> Hur många elever väljs från varje årskurs?</p><p><strong>b)</strong> I urvalet svarar 62,5 % av eleverna i åk 1, 50 % i åk 2 och 30 % i åk 3 ja på en fråga. Uppskatta hur många procent av skolans alla elever som skulle svara ja. Avrunda till en decimal.</p>",
+    "t": "<p>En skola har 480 elever i åk 1, 420 i åk 2 och 300 i åk 3. Man gör ett stratifierat urval på 80 elever, där varje årskurs är representerad i proportion till sin storlek.</p><p><strong>a)</strong> Hur många elever väljs från varje årskurs?</p><p><strong>b)</strong> I urvalet svarar 62,5 % av eleverna i åk 1, 50 % i åk 2 och 30 % i åk 3 ja på en fråga. Uppskatta hur många procent av skolans alla elever som skulle svara ja.</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2\"><p><strong>a)</strong> Skolan har 1 200 elever. Urvalet är 80/1200 = 1/15 av varje årskurs:</p>\\[480/15=32,\\quad420/15=28\\]\\[300/15=20.\\]<p><strong>b)</strong> Antalet ja-svar i urvalet är:</p>\\[32\\cdot0{,}625=20\\]\\[28\\cdot0{,}50=14,\\quad20\\cdot0{,}30=6.\\]<p>Totalt svarar 20 + 14 + 6 = 40 av 80 elever ja. Eftersom urvalet har samma årskursfördelning som skolan använder vi denna andel som uppskattning för hela skolan:</p>\\[\\frac{40}{80}\\cdot100=50{,}0\\,\\%.\\]<p>Att i stället ta medelvärdet av de tre procenttalen skulle ge 47,5 %. Då får årskurserna samma vikt trots att de är olika stora.</p><p><strong>Svar: a) 32, 28 och 20 elever. b) 50,0 %.</strong></p></div>",
     "familj": "Bedöma urval och representativitet",
     "formaga": [
@@ -111917,7 +112015,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett program ska beräkna ett kapital som börjar på 1 000 kr och ökar med 7 % per år i fyra år.</p><p>a) Vilken uppdatering ska upprepas varje år?<br>b) Skriv ett direkt uttryck för kapitalet efter fyra år.<br>c) Beräkna kapitalet efter fyra år. Avrunda till två decimaler.</p>",
+    "t": "<p>Ett program ska beräkna ett kapital som börjar på 1 000 kr och ökar med 7 % per år i fyra år.</p><p>a) Vilken uppdatering ska upprepas varje år?<br>b) Skriv ett direkt uttryck för kapitalet efter fyra år.<br>c) Beräkna kapitalet efter fyra år.</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje år ska programmet multiplicera det aktuella kapitalet med 1,07: <strong>värde = värde * 1.07</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Fyra upprepningar motsvarar <strong>\\(1000\\cdot1{,}07^4\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det blir <strong>1 310,80 kr</strong>.</p></li></ol></div></div></div>",
     "familj": "Programmering som matematiskt verktyg",
     "geogebra": false,
@@ -111957,8 +112056,7 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "spel": true,
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "t": "<p>Ett program ska beräkna ett kapital som börjar på 1 000 kr och ökar med 7 % per år i fyra år.</p><p>Vilken uppdatering ska upprepas varje år?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje år ska programmet multiplicera det aktuella kapitalet med 1,07: <strong>värde = värde * 1.07</strong>.</p></li></ol></div>",
@@ -111980,15 +112078,15 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Ett program ska beräkna ett kapital som börjar på 1 000 kr och ökar med 7 % per år i fyra år.</p><p>Beräkna kapitalet efter fyra år. Avrunda till två decimaler.</p>",
+        "t": "<p>Ett program ska beräkna ett kapital som börjar på 1 000 kr och ökar med 7 % per år i fyra år.</p><p>Beräkna kapitalet efter fyra år.</p>",
+        "kgInstruktion": "Avrunda till två decimaler.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det blir <strong>1 310,80 kr</strong>.</p></li></ol></div>",
         "niva": "C",
         "poang": "0/1/0",
         "ledtrad": "<p>En loop med samma procentuella förändring gör samma multiplikation vid varje varv.</p>",
         "traningsniva": 3,
         "arbetsinsats": 2
-      }
-    ],
+      }],
     "familjTidigare": [
       "Matematik och enkla algoritmer"
     ]
@@ -112640,7 +112738,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "1/2/0",
-    "t": "<p>I ett kalkylblad står startkapitalet 20 000 kr i cell B2 och räntesatsen 3 % som decimaltal i C2. I B3 ska kapitalet efter ett år beräknas.</p><span class=\"fig smal\"><svg width=\"365\" height=\"206\" viewBox=\"0 0 365 206\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"363\" height=\"204\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"38\" y=\"34\" width=\"325\" height=\"34\" fill=\"#EDEEF1\"/><rect x=\"0\" y=\"68\" width=\"38\" height=\"136\" fill=\"#EDEEF1\"/><line x1=\"38\" y1=\"34\" x2=\"38\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"113\" y1=\"34\" x2=\"113\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"243\" y1=\"34\" x2=\"243\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"363\" y1=\"34\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"34\" x2=\"363\" y2=\"34\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"68\" x2=\"363\" y2=\"68\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"102\" x2=\"363\" y2=\"102\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"136\" x2=\"363\" y2=\"136\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"170\" x2=\"363\" y2=\"170\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"204\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><text x=\"75.5\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">A</text><text x=\"178.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">B</text><text x=\"303.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">C</text><text x=\"19.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"75.5\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">År</text><text x=\"178.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Kapital</text><text x=\"303.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Räntesats</text><text x=\"19.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"75.5\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0</text><text x=\"178.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">20 000 kr</text><text x=\"303.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">3</text><text x=\"75.5\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"178.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">4</text><text x=\"75.5\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"178.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text></svg></span><p>a) Skriv en formel för cell B3.<br>b) Beräkna kapitalet efter 5 år. Avrunda till två decimaler.<br>c) Efter hur många hela år har kapitalet för första gången passerat 25 000 kr?</p>",
+    "t": "<p>I ett kalkylblad står startkapitalet 20 000 kr i cell B2 och räntesatsen 3 % som decimaltal i C2. I B3 ska kapitalet efter ett år beräknas.</p><span class=\"fig smal\"><svg width=\"365\" height=\"206\" viewBox=\"0 0 365 206\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"363\" height=\"204\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"38\" y=\"34\" width=\"325\" height=\"34\" fill=\"#EDEEF1\"/><rect x=\"0\" y=\"68\" width=\"38\" height=\"136\" fill=\"#EDEEF1\"/><line x1=\"38\" y1=\"34\" x2=\"38\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"113\" y1=\"34\" x2=\"113\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"243\" y1=\"34\" x2=\"243\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"363\" y1=\"34\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"34\" x2=\"363\" y2=\"34\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"68\" x2=\"363\" y2=\"68\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"102\" x2=\"363\" y2=\"102\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"136\" x2=\"363\" y2=\"136\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"170\" x2=\"363\" y2=\"170\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"204\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><text x=\"75.5\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">A</text><text x=\"178.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">B</text><text x=\"303.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">C</text><text x=\"19.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"75.5\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">År</text><text x=\"178.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Kapital</text><text x=\"303.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Räntesats</text><text x=\"19.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"75.5\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0</text><text x=\"178.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">20 000 kr</text><text x=\"303.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">3</text><text x=\"75.5\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"178.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">4</text><text x=\"75.5\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"178.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text></svg></span><p>a) Skriv en formel för cell B3.<br>b) Beräkna kapitalet efter 5 år.<br>c) Efter hur många hela år har kapitalet för första gången passerat 25 000 kr?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I B3: <strong>=B2*(1+C2)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter fem år: \\(20000\\cdot1{,}03^5\\approx \\)<strong>23 185,48 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter 7 år är kapitalet cirka 24 597 kr och efter 8 år cirka 25 335 kr.</p></li><li><p>Gränsen passeras alltså första gången efter <strong>8 år</strong>.</p></li></ol></div></div></div>",
     "familj": "Formler i kalkylprogram",
     "geogebra": false,
@@ -112663,8 +112762,7 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "spel": true,
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "t": "<p>I ett kalkylblad står startkapitalet 20 000 kr i cell B2 och räntesatsen 3 % som decimaltal i C2. I B3 ska kapitalet efter ett år beräknas.</p><span class=\"fig smal\"><svg width=\"365\" height=\"206\" viewBox=\"0 0 365 206\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"363\" height=\"204\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"38\" y=\"34\" width=\"325\" height=\"34\" fill=\"#EDEEF1\"/><rect x=\"0\" y=\"68\" width=\"38\" height=\"136\" fill=\"#EDEEF1\"/><line x1=\"38\" y1=\"34\" x2=\"38\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"113\" y1=\"34\" x2=\"113\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"243\" y1=\"34\" x2=\"243\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"363\" y1=\"34\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"34\" x2=\"363\" y2=\"34\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"68\" x2=\"363\" y2=\"68\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"102\" x2=\"363\" y2=\"102\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"136\" x2=\"363\" y2=\"136\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"170\" x2=\"363\" y2=\"170\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"204\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><text x=\"75.5\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">A</text><text x=\"178.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">B</text><text x=\"303.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">C</text><text x=\"19.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"75.5\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">År</text><text x=\"178.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Kapital</text><text x=\"303.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Räntesats</text><text x=\"19.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"75.5\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0</text><text x=\"178.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">20 000 kr</text><text x=\"303.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">3</text><text x=\"75.5\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"178.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">4</text><text x=\"75.5\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"178.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text></svg></span><p>Skriv en formel för cell B3.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I B3: <strong>=B2*(1+C2)</strong>.</p></li></ol></div>",
@@ -112676,7 +112774,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>I ett kalkylblad står startkapitalet 20 000 kr i cell B2 och räntesatsen 3 % som decimaltal i C2. I B3 ska kapitalet efter ett år beräknas.</p><span class=\"fig smal\"><svg width=\"365\" height=\"206\" viewBox=\"0 0 365 206\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"363\" height=\"204\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"38\" y=\"34\" width=\"325\" height=\"34\" fill=\"#EDEEF1\"/><rect x=\"0\" y=\"68\" width=\"38\" height=\"136\" fill=\"#EDEEF1\"/><line x1=\"38\" y1=\"34\" x2=\"38\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"113\" y1=\"34\" x2=\"113\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"243\" y1=\"34\" x2=\"243\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"363\" y1=\"34\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"34\" x2=\"363\" y2=\"34\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"68\" x2=\"363\" y2=\"68\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"102\" x2=\"363\" y2=\"102\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"136\" x2=\"363\" y2=\"136\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"170\" x2=\"363\" y2=\"170\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"204\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><text x=\"75.5\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">A</text><text x=\"178.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">B</text><text x=\"303.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">C</text><text x=\"19.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"75.5\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">År</text><text x=\"178.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Kapital</text><text x=\"303.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Räntesats</text><text x=\"19.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"75.5\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0</text><text x=\"178.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">20 000 kr</text><text x=\"303.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">3</text><text x=\"75.5\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"178.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">4</text><text x=\"75.5\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"178.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text></svg></span><p>Beräkna kapitalet efter 5 år. Avrunda till två decimaler.</p>",
+        "t": "<p>I ett kalkylblad står startkapitalet 20 000 kr i cell B2 och räntesatsen 3 % som decimaltal i C2. I B3 ska kapitalet efter ett år beräknas.</p><span class=\"fig smal\"><svg width=\"365\" height=\"206\" viewBox=\"0 0 365 206\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"363\" height=\"204\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"38\" y=\"34\" width=\"325\" height=\"34\" fill=\"#EDEEF1\"/><rect x=\"0\" y=\"68\" width=\"38\" height=\"136\" fill=\"#EDEEF1\"/><line x1=\"38\" y1=\"34\" x2=\"38\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"113\" y1=\"34\" x2=\"113\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"243\" y1=\"34\" x2=\"243\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"363\" y1=\"34\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"34\" x2=\"363\" y2=\"34\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"68\" x2=\"363\" y2=\"68\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"102\" x2=\"363\" y2=\"102\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"136\" x2=\"363\" y2=\"136\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"170\" x2=\"363\" y2=\"170\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"204\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><text x=\"75.5\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">A</text><text x=\"178.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">B</text><text x=\"303.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">C</text><text x=\"19.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"75.5\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">År</text><text x=\"178.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Kapital</text><text x=\"303.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Räntesats</text><text x=\"19.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"75.5\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0</text><text x=\"178.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">20 000 kr</text><text x=\"303.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">3</text><text x=\"75.5\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"178.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">4</text><text x=\"75.5\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"178.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text></svg></span><p>Beräkna kapitalet efter 5 år.</p>",
+        "kgInstruktion": "Avrunda till två decimaler.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter fem år: \\(20000\\cdot1{,}03^5\\approx \\)<strong>23 185,48 kr</strong>.</p></li></ol></div>",
         "niva": "C",
         "poang": "0/1/0",
@@ -112693,8 +112792,7 @@ window.BANKMA1 = [
         "ledtrad": "<p>Kopiera en formel som multiplicerar föregående kapital med (1+) räntesatsen. För sista delen behöver du hitta det första heltalsåret över 25 000 kr.</p>",
         "traningsniva": 3,
         "arbetsinsats": 2
-      }
-    ],
+      }],
     "familjTidigare": [
       "Kalkylprogram och formler"
     ]
@@ -116673,7 +116771,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Ett hushåll har nettolönen 32 000 kr, fasta utgifter 18 400 kr och övrig konsumtion 10 200 kr. Målet är att spara minst 15 % av nettolönen. Nästa månad ökar nettolönen 3 % och fasta utgifter 4 %. Den övriga konsumtionen förändras med \\(p\\) %.</p><p>Hur mycket måste den övriga konsumtionen <strong>minska minst</strong>, i procent, för att sparmålet ska nås? Avrunda till två decimaler.</p>",
+    "t": "<p>Ett hushåll har nettolönen 32 000 kr, fasta utgifter 18 400 kr och övrig konsumtion 10 200 kr. Målet är att spara minst 15 % av nettolönen. Nästa månad ökar nettolönen 3 % och fasta utgifter 4 %. Den övriga konsumtionen förändras med \\(p\\) %.</p><p>Hur mycket måste den övriga konsumtionen <strong>minska minst</strong>, i procent, för att sparmålet ska nås?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ny nettolön: 32 960 kr.</p></li><li><p>Sparmålet är (0,15·32960=4944) kr.</p></li><li><p>Nya fasta utgifter: (18400·1,04=19136) kr.</p></li><li><p>Övrig konsumtion får därför vara högst (32960-4944-19136=8880) kr.</p></li><li><p>Minskningen från 10 200 kr är ((10200-8880)/10200≈0,1294), alltså minst <strong>12,94 %</strong>.</p></li></ol></div>",
     "familj": "Privatekonomi",
     "geogebra": false,
@@ -117248,7 +117347,8 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Ett sparkonto ger 5 % ränta per år, och varje år tas 500 kr ut efter att räntan har lagts till. I ett kalkylblad skrivs startbeloppet i cell A1. I cell A2 står formeln <code>=A1*1,05-500</code>, och den kopieras nedåt.</p><p><strong>a)</strong> Startbeloppet är 12 000 kr. Vilket värde står i cell A11? Avrunda till hela kronor.</p><p><strong>b)</strong> Vilket startbelopp gör att alla celler visar samma värde?</p>",
+    "t": "<p>Ett sparkonto ger 5 % ränta per år, och varje år tas 500 kr ut efter att räntan har lagts till. I ett kalkylblad skrivs startbeloppet i cell A1. I cell A2 står formeln <code>=A1*1,05-500</code>, och den kopieras nedåt.</p><p><strong>a)</strong> Startbeloppet är 12 000 kr. Vilket värde står i cell A11?</p><p><strong>b)</strong> Vilket startbelopp gör att alla celler visar samma värde?</p>",
+    "kgInstruktion": "Avrunda till hela kronor.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdet ändras inte om räntan precis täcker uttaget: \\(0{,}05x=500\\), alltså \\(x=10\\,000\\) kr.</p></li><li><div class=\"facit-berakning\"><p>Kontroll:</p><div class=\"facit-matte\">\\[10\\,000\\cdot1{,}05-500=10\\,000\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det som ligger över 10 000 kr växer med 5 % per år utan uttag.</p></li><li><p>Med start 12 000 kr är överskottet 2 000 kr.</p></li><li><p>A11 ligger 10 år efter A1:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[10\\,000+2\\,000\\cdot1{,}05^{10}\\approx10\\,000+3\\,258=13\\,258\\text{ kr}.\\]</p></li><li><p>Man kan också kopiera formeln i ett kalkylblad och läsa av A11.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) cirka 13 258 kr &nbsp; b) 10 000 kr</p></div>",
     "familj": "Privatekonomi",
     "formaga": [
@@ -119435,7 +119535,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett arbete kräver 36 m² material. För att täcka spill beställer man 8 % mer än den mängden.</p><p>Hur mycket material beställs? Avrunda till två decimaler.</p>",
+    "t": "<p>Ett arbete kräver 36 m² material. För att täcka spill beställer man 8 % mer än den mängden.</p><p>Hur mycket material beställs?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lägg till 8 % av de 36 m² som behövs.</p>\\[36\\cdot1{,}08=38{,}88\\,\\mathrm{m^2}.\\]<p><strong>Svar:</strong> 38,88 m².</p></div>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
@@ -119466,7 +119567,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p>\n<p>a) Bestäm summan före avgiften. Svara i kr.<br>b) Bestäm administrationsavgiften. Avrunda till två decimaler.<br>c) Bestäm totalkostnaden. Avrunda till två decimaler.</p>",
+    "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p>\n<p>a) Bestäm summan före avgiften. Svara i kr.<br>b) Bestäm administrationsavgiften.<br>c) Bestäm totalkostnaden.</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>780+1 250 = <strong>2 030 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>6 % av 2 030 är 0,06·2 030 = <strong>121,80 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2 030+121,80 = <strong>2 151,80 kr</strong>.</p></li></ol></div></div></div>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
@@ -119493,8 +119595,7 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "spel": true,
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "t": "<p>Material kostar 780 kr och arbetet 1 250 kr.</p><p>Vad kostar material och arbete tillsammans? Svara i kr.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>780+1 250 = <strong>2 030 kr</strong>.</p></li></ol></div>",
@@ -119506,7 +119607,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p><p>Bestäm administrationsavgiften. Avrunda till två decimaler.</p>",
+        "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p><p>Bestäm administrationsavgiften.</p>",
+        "kgInstruktion": "Avrunda till två decimaler.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>6 % av 2 030 är 0,06·2 030 = <strong>121,80 kr</strong>.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -119516,15 +119618,15 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p><p>Bestäm totalkostnaden. Avrunda till två decimaler.</p>",
+        "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p><p>Bestäm totalkostnaden.</p>",
+        "kgInstruktion": "Avrunda till två decimaler.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2 030+121,80 = <strong>2 151,80 kr</strong>.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
         "ledtrad": "<p>Räkna ut avgiften och lägg den till materialets och arbetets kostnad.</p>",
         "traningsniva": 2,
         "arbetsinsats": 2
-      }
-    ],
+      }],
     "familjTidigare": [
       "Kostnadsberäkningar"
     ],
@@ -119965,7 +120067,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Ett golv på 52 m² ska läggas. Materialåtgången ökas med 12 % för spill.</p><p>a) Hur många m² material behövs? Avrunda till en decimal.<br>b) Materialet kostar 289 kr per m². Beräkna materialkostnaden med den exakta mängden 58,24 m² och avrunda till hela kronor.<br>c) Om spillet i stället kan hållas nere till 5 %, hur mycket sparas jämfört med 12 % spill? Avrunda till hela kronor.</p>",
+    "t": "<p>Ett golv på 52 m² ska läggas. Materialåtgången ökas med 12 % för spill.</p><p>a) Hur många m² material behövs?<br>b) Materialet kostar 289 kr per m². Beräkna materialkostnaden med den exakta mängden 58,24 m² och avrunda till hela kronor.<br>c) Om spillet i stället kan hållas nere till 5 %, hur mycket sparas jämfört med 12 % spill?</p>",
+    "kgInstruktion": "Avrunda till en decimal. Avrunda till hela kronor.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>52·1,12 = 58,24 ≈ <strong>58,2 m²</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>58,24·289 = 16 831,36 ≈ <strong>16 831 kr</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid 5 % spill behövs 52·1,05 = 54,6 m² och kostnaden blir 15 779,40 kr.</p></li><li><p>Besparingen är 16 831,36−15 779,40 = 1 051,96 ≈ <strong>1 052 kr</strong>.</p></li></ol></div></div></div>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
@@ -119988,10 +120091,10 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Ett golv på 52 m² ska läggas. Materialåtgången ökas med 12 % för spill.</p><div class=\"spel-en-del\">Hur många m² material bör beställas? Avrunda till en decimal.</div>",
+        "t": "<p>Ett golv på 52 m² ska läggas. Materialåtgången ökas med 12 % för spill.</p><div class=\"spel-en-del\">Hur många m² material bör beställas?</div>",
+        "kgInstruktion": "Avrunda till en decimal.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela först upp kostnaden i sina delar.</p></li><li><p>Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(52\\cdot1{,}12=\\)<strong>58,2 m²</strong></p></div></div>",
         "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
         "niva": "E",
@@ -120007,13 +120110,13 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Ett golv på 52 m² ska läggas. Materialåtgången ökas med 12 % för spill.</p><div class=\"spel-en-del\">Materialet kostar 289 kr per m². Om spillet kan hållas nere till 5 % i stället för 12 %, hur mycket sparar man på materialkostnaden? Avrunda till hela kronor.</div>",
+        "t": "<p>Ett golv på 52 m² ska läggas. Materialåtgången ökas med 12 % för spill.</p><div class=\"spel-en-del\">Materialet kostar 289 kr per m². Om spillet kan hållas nere till 5 % i stället för 12 %, hur mycket sparar man på materialkostnaden?</div>",
+        "kgInstruktion": "Avrunda till hela kronor.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela först upp kostnaden i sina delar.</p></li><li><p>Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> Vid 5 % spill: \\(52\\cdot1{,}05=54{,}6\\) m², vilket kostar \\(54{,}6\\cdot289=15\\,779\\) kr.<br>Besparingen blir \\(52\\cdot0{,}07\\cdot289=1\\,051{,}96\\), alltså <strong>ungefär 1 052 kr</strong></p></div></div>",
         "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
         "niva": "C",
         "poang": "0/1/0"
-      }
-    ],
+      }],
     "ledtrad": "<p>Jämför kostnaderna för förändringsfaktorerna 1,12 och 1,05. Använd samma pris per m² i båda fallen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -120308,7 +120411,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Ett arbete kräver netto 6,5 m² plattor. Man räknar med 8 % spill.</p><p>a) Hur många m² bör beställas? Avrunda till två decimaler.<br>b) Plattorna säljs i hela paket om 1,2 m². Hur många paket behövs?<br>c) Hur många m² blir över när paketen köpts?</p>",
+    "t": "<p>Ett arbete kräver netto 6,5 m² plattor. Man räknar med 8 % spill.</p><p>a) Hur många m² bör beställas?<br>b) Plattorna säljs i hela paket om 1,2 m². Hur många paket behövs?<br>c) Hur många m² blir över när paketen köpts?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>6,5·1,08 = <strong>7,02 m²</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>7,02/1,2 = 5,85, så det krävs <strong>6 paket</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>6 paket innehåller 7,2 m²; 7,2−7,02 = <strong>0,18 m²</strong> blir över.</p></li></ol></div></div></div>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
@@ -120326,10 +120430,10 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Ett arbete kräver netto 6,5 m² plattor. Man räknar med 8 % spill.</p><div class=\"spel-en-del\">Hur många m² bör beställas? Avrunda till två decimaler.</div>",
+        "t": "<p>Ett arbete kräver netto 6,5 m² plattor. Man räknar med 8 % spill.</p><div class=\"spel-en-del\">Hur många m² bör beställas?</div>",
+        "kgInstruktion": "Avrunda till två decimaler.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela först upp kostnaden i sina delar.</p></li><li><p>Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}5\\cdot1{,}08=\\)<strong>7,02 m²</strong></p></div></div>",
         "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
         "niva": "E",
@@ -120350,8 +120454,7 @@ window.BANKMA1 = [
         "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
         "niva": "C",
         "poang": "0/1/0"
-      }
-    ],
+      }],
     "ledtrad": "<p>Räkna först fram behovet inklusive spill. Paketantalet måste sedan avrundas uppåt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -120774,7 +120877,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "2/1/0",
-    "t": "<p>En lyftögla är märkt med brottgränsen 2 500 N. Enligt arbetsplatsens regler får man högst belasta den till 65 % av brottgränsen.</p><p>a) Hur stor last tillåter regeln?<br>b) En last väger 150 kg. Tyngdkraften beräknas med \\(F=mg\\), där \\(g=9{,}82\\) N/kg. Är lasten tillåten?<br>c) Vilken är den tyngsta last i kilogram som regeln tillåter? Svara i hela kilogram.</p><span class=\"fig\"><svg width=\"430\" height=\"175\" viewBox=\"0 0 430 175\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mätare där tillåten last 1625 N markeras av maxlasten 2500 N\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"62\" y=\"65\" width=\"326\" height=\"38\" rx=\"6\" fill=\"#F3EFEC\" stroke=\"#D9D3CE\"/><rect x=\"62\" y=\"65\" width=\"211.9\" height=\"38\" rx=\"6\" fill=\"#3F7A55\" opacity=\"0.28\"/><line x1=\"273.9\" y1=\"57\" x2=\"273.9\" y2=\"111\" stroke=\"#3F7A55\" stroke-width=\"3.5\"/><line x1=\"388\" y1=\"57\" x2=\"388\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3.5\"/><text x=\"273.9\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#3F7A55\" font-weight=\"700\">tillåten gräns</text><text x=\"388\" y=\"131\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"700\">max 2500 N</text><text x=\"62\" y=\"131\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">0</text><text x=\"215\" y=\"158\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">65 % av maxlasten</text></svg></span>",
+    "t": "<p>En lyftögla är märkt med brottgränsen 2 500 N. Enligt arbetsplatsens regler får man högst belasta den till 65 % av brottgränsen.</p><p>a) Hur stor last tillåter regeln?<br>b) En last väger 150 kg. Tyngdkraften beräknas med \\(F=mg\\), där \\(g=9{,}82\\) N/kg. Är lasten tillåten?<br>c) Vilken är den tyngsta last i kilogram som regeln tillåter?</p><span class=\"fig\"><svg width=\"430\" height=\"175\" viewBox=\"0 0 430 175\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mätare där tillåten last 1625 N markeras av maxlasten 2500 N\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"62\" y=\"65\" width=\"326\" height=\"38\" rx=\"6\" fill=\"#F3EFEC\" stroke=\"#D9D3CE\"/><rect x=\"62\" y=\"65\" width=\"211.9\" height=\"38\" rx=\"6\" fill=\"#3F7A55\" opacity=\"0.28\"/><line x1=\"273.9\" y1=\"57\" x2=\"273.9\" y2=\"111\" stroke=\"#3F7A55\" stroke-width=\"3.5\"/><line x1=\"388\" y1=\"57\" x2=\"388\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3.5\"/><text x=\"273.9\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#3F7A55\" font-weight=\"700\">tillåten gräns</text><text x=\"388\" y=\"131\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"700\">max 2500 N</text><text x=\"62\" y=\"131\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">0</text><text x=\"215\" y=\"158\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">65 % av maxlasten</text></svg></span>",
+    "kgInstruktion": "Svara i hela kilogram.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>0,65·2 500 = <strong>1 625 N</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>150·9,82 = 1 473 N, vilket är under gränsen: <strong>ja</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{1\\,625}{9{,}82}\\approx 165{,}48\\, \\mathrm{kg}\\]</div></div></li><li><p>För att säkert ligga under gränsen avrundas nedåt: <strong>165 kg</strong>.</p></li></ol></div></div></div>",
     "familj": "Säkerhetsfaktor",
     "geogebra": false,
@@ -120797,8 +120901,7 @@ window.BANKMA1 = [
       "heltal"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "t": "<p>En lyftögla är märkt med brottgränsen 2 500 N. Enligt arbetsplatsens regler får man högst belasta den till 65 % av brottgränsen.</p><div class=\"spel-en-del\">Hur stor last tillåter regeln?</div><span class=\"fig\"><svg width=\"430\" height=\"175\" viewBox=\"0 0 430 175\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mätare där tillåten last 1625 N markeras av maxlasten 2500 N\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"62\" y=\"65\" width=\"326\" height=\"38\" rx=\"6\" fill=\"#F3EFEC\" stroke=\"#D9D3CE\"/><rect x=\"62\" y=\"65\" width=\"211.9\" height=\"38\" rx=\"6\" fill=\"#3F7A55\" opacity=\"0.28\"/><line x1=\"273.9\" y1=\"57\" x2=\"273.9\" y2=\"111\" stroke=\"#3F7A55\" stroke-width=\"3.5\"/><line x1=\"388\" y1=\"57\" x2=\"388\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3.5\"/><text x=\"273.9\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#3F7A55\" font-weight=\"700\">tillåten gräns</text><text x=\"388\" y=\"131\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"700\">max 2500 N</text><text x=\"62\" y=\"131\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">0</text><text x=\"215\" y=\"158\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">65 % av maxlasten</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt situationen till de matematiska storheter som ska jämföras.</p></li><li><p>Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\,500\\cdot0{,}65=\\)<strong>1 625 N</strong></p></div></div>",
@@ -120816,13 +120919,13 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>En lyftögla är märkt med brottgränsen 2 500 N. Enligt arbetsplatsens regler får man högst belasta den till 65 % av brottgränsen.</p><div class=\"spel-en-del\">Vilken är den tyngsta last i kilogram som regeln tillåter? Svara i hela kilogram.</div><span class=\"fig\"><svg aria-label=\"Mätare där tillåten last 1625 N markeras av maxlasten 2500 N\" height=\"175\" role=\"img\" viewbox=\"0 0 430 175\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"173\" rx=\"10\" stroke=\"#E4E3E6\" width=\"428\" x=\"1\" y=\"1\"></rect><rect fill=\"#F3EFEC\" height=\"38\" rx=\"6\" stroke=\"#D9D3CE\" width=\"326\" x=\"62\" y=\"65\"></rect><rect fill=\"#3F7A55\" height=\"38\" opacity=\"0.28\" rx=\"6\" width=\"211.9\" x=\"62\" y=\"65\"></rect><line stroke=\"#3F7A55\" stroke-width=\"3.5\" x1=\"273.9\" x2=\"273.9\" y1=\"57\" y2=\"111\"></line><line stroke=\"#A6432F\" stroke-width=\"3.5\" x1=\"388\" x2=\"388\" y1=\"57\" y2=\"111\"></line><text fill=\"#3F7A55\" font-family=\"sans-serif\" font-size=\"12.5\" font-weight=\"700\" text-anchor=\"middle\" x=\"273.9\" y=\"48\">tillåten gräns</text><text fill=\"#A6432F\" font-family=\"sans-serif\" font-size=\"12.5\" font-weight=\"700\" text-anchor=\"end\" x=\"388\" y=\"131\">max 2500 N</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12.5\" x=\"62\" y=\"131\">0</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12.5\" text-anchor=\"middle\" x=\"215\" y=\"158\">65 % av maxlasten</text></svg></span>",
+        "t": "<p>En lyftögla är märkt med brottgränsen 2 500 N. Enligt arbetsplatsens regler får man högst belasta den till 65 % av brottgränsen.</p><div class=\"spel-en-del\">Vilken är den tyngsta last i kilogram som regeln tillåter?</div><span class=\"fig\"><svg aria-label=\"Mätare där tillåten last 1625 N markeras av maxlasten 2500 N\" height=\"175\" role=\"img\" viewbox=\"0 0 430 175\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"173\" rx=\"10\" stroke=\"#E4E3E6\" width=\"428\" x=\"1\" y=\"1\"></rect><rect fill=\"#F3EFEC\" height=\"38\" rx=\"6\" stroke=\"#D9D3CE\" width=\"326\" x=\"62\" y=\"65\"></rect><rect fill=\"#3F7A55\" height=\"38\" opacity=\"0.28\" rx=\"6\" width=\"211.9\" x=\"62\" y=\"65\"></rect><line stroke=\"#3F7A55\" stroke-width=\"3.5\" x1=\"273.9\" x2=\"273.9\" y1=\"57\" y2=\"111\"></line><line stroke=\"#A6432F\" stroke-width=\"3.5\" x1=\"388\" x2=\"388\" y1=\"57\" y2=\"111\"></line><text fill=\"#3F7A55\" font-family=\"sans-serif\" font-size=\"12.5\" font-weight=\"700\" text-anchor=\"middle\" x=\"273.9\" y=\"48\">tillåten gräns</text><text fill=\"#A6432F\" font-family=\"sans-serif\" font-size=\"12.5\" font-weight=\"700\" text-anchor=\"end\" x=\"388\" y=\"131\">max 2500 N</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12.5\" x=\"62\" y=\"131\">0</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12.5\" text-anchor=\"middle\" x=\"215\" y=\"158\">65 % av maxlasten</text></svg></span>",
+        "kgInstruktion": "Svara i hela kilogram.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt situationen till de matematiska storheter som ska jämföras.</p></li><li><p>Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> \\(m=\\frac{1\\,625}{9{,}82}\\approx165{,}5\\), alltså <strong>165 kg</strong> (avrundat nedåt, eftersom 166 kg skulle överskrida gränsen)</p></div></div>",
         "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
         "niva": "C",
         "poang": "0/1/0"
-      }
-    ],
+      }],
     "ledtrad": "<p>Räkna först fram tillåten kraft. Jämför sedan 150 kg-lastens tyngdkraft med den, och arbeta baklänges i c.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
@@ -121249,7 +121352,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En lösning på 8,0 L innehåller 10 volymprocent löst ämne. 2,0 L vatten avdunstar, men inget av det lösta ämnet försvinner. Vilken blir den nya koncentrationen i volymprocent? Avrunda till en decimal.</p>",
+    "t": "<p>En lösning på 8,0 L innehåller 10 volymprocent löst ämne. 2,0 L vatten avdunstar, men inget av det lösta ämnet försvinner. Vilken blir den nya koncentrationen i volymprocent?</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från början finns 0,10 · 8,0 = 0,8 L löst ämne.</p></li><li><p>Efter avdunstningen är totalvolymen 6,0 L.</p></li><li><p>0,8 / 6,0 ≈ 0,133, alltså <strong>13,3 %</strong>.</p></li></ol></div>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
@@ -121819,7 +121923,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Ett cylindriskt rör är 12 m långt och har innerdiametern 32 mm. Volymen är V = πr²h. Bestäm hur många liter röret rymmer. Avrunda till två decimaler. 1 m³ = 1 000 liter.</p>",
+    "t": "<p>Ett cylindriskt rör är 12 m långt och har innerdiametern 32 mm. Volymen är V = πr²h. Bestäm hur många liter röret rymmer. 1 m³ = 1 000 liter.</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Radien är</p><div class=\"facit-matte\">\\[16 m m=0{,}016\\, \\mathrm{m}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är</p><div class=\"facit-matte\">\\[\\pi\\cdot 0{,}016^{2}\\cdot 12\\cdot 1\\,000\\approx 9{,}65097\\, \\mathrm{liter}\\]</div></div></li><li><p>Röret rymmer 9,65 liter.</p></li></ol></div>",
     "ledtrad": "<p>Radien är inte samma mått som diametern. Välj sedan en gemensam längdenhet.</p>",
     "niva": "E",
@@ -122925,7 +123030,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Två vågräta rör ligger parallellt men förskjutna 60 cm i höjdled. De ska kopplas ihop med ett snedställt rör via två böjar på \\(45^\\circ\\). Figuren visar den räta triangel som bildas.</p><p>a) Vilken av triangelns sidor motsvarar förskjutningen 60 cm?<br>b) Bestäm längden på det snedställda röret. Avrunda till två decimaler.<br>c) Förklara varför den vågräta sträckan också blir 60 cm när böjarna är \\(45^\\circ\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"262\" viewBox=\"0 0 360 262\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rätvinklig triangel där den lodräta kateten är 60 cm och vinkeln vid basen är 45 grader\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><polygon points=\"46.0,216.0 216.0,216.0 216.0,46.0\" fill=\"#F7F5F3\" stroke=\"#315F91\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polyline points=\"203.0,216.0 203.0,203.0 216.0,203.0\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"131.0\" y=\"237.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">vågrät sträcka</text><text x=\"226.0\" y=\"136.0\" font-family=\"sans-serif\" font-size=\"13\">60 cm</text><text x=\"115.0\" y=\"125.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">snedrör</text><path d=\"M 72.0 216.0 A 26 26 0 0 0 64.4 197.6\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"208.0\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\">45°</text></svg></span>",
+    "t": "<p>Två vågräta rör ligger parallellt men förskjutna 60 cm i höjdled. De ska kopplas ihop med ett snedställt rör via två böjar på \\(45^\\circ\\). Figuren visar den räta triangel som bildas.</p><p>a) Vilken av triangelns sidor motsvarar förskjutningen 60 cm?<br>b) Bestäm längden på det snedställda röret.<br>c) Förklara varför den vågräta sträckan också blir 60 cm när böjarna är \\(45^\\circ\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"262\" viewBox=\"0 0 360 262\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rätvinklig triangel där den lodräta kateten är 60 cm och vinkeln vid basen är 45 grader\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><polygon points=\"46.0,216.0 216.0,216.0 216.0,46.0\" fill=\"#F7F5F3\" stroke=\"#315F91\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polyline points=\"203.0,216.0 203.0,203.0 216.0,203.0\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"131.0\" y=\"237.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">vågrät sträcka</text><text x=\"226.0\" y=\"136.0\" font-family=\"sans-serif\" font-size=\"13\">60 cm</text><text x=\"115.0\" y=\"125.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">snedrör</text><path d=\"M 72.0 216.0 A 26 26 0 0 0 64.4 197.6\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"208.0\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\">45°</text></svg></span>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den lodräta kateten motsvarar 60 cm.</p></li><li><p>Triangelns andra spetsiga vinkel är också 45°, eftersom vinkelsumman är 180°.</p></li><li><p>De lika vinklarna ger lika långa kateter, alltså är även den vågräta sträckan 60 cm.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Snedröret har längden</p><div class=\"facit-matte\">\\[\\sqrt{60^{2}+60^{2}}=60 \\sqrt{2}\\approx 84{,}85\\, \\mathrm{cm}\\]</div></div></li></ol></div>",
     "ledtrad": "<p>Vad är triangelns tredje vinkel?</p>",
     "niva": "C",
@@ -125819,7 +125925,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Ett värmesystem rymmer 240 liter vätska. För frostskydd ska blandningen innehålla 30 % glykol.</p><p>a) Hur många liter glykol behövs?<br>b) Hur många liter vatten behövs?<br>c) Montören har bara 50 liter glykol i bilen. Vilken glykolhalt får systemet då? Avrunda till en decimal.</p>",
+    "t": "<p>Ett värmesystem rymmer 240 liter vätska. För frostskydd ska blandningen innehålla 30 % glykol.</p><p>a) Hur många liter glykol behövs?<br>b) Hur många liter vatten behövs?<br>c) Montören har bara 50 liter glykol i bilen. Vilken glykolhalt får systemet då?</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(0{,}30\\cdot240=\\)<strong>72 liter</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(240-72=\\)<strong>168 liter</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{50}{240}=0{,}2083\\ldots\\approx\\)<strong>20,8 %</strong>, alltså för lite för det önskade frostskyddet</p></li></ol></div></div></div></div>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
@@ -125837,8 +125944,7 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
         "t": "<p>Ett värmesystem rymmer 240 liter vätska. För frostskydd ska blandningen innehålla 30 % glykol.</p><div class=\"spel-en-del\">Hur många liter glykol behövs?</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>0,30·240 = <strong>72 L glykol</strong>.</p></li></ol></div>",
@@ -125856,13 +125962,13 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Ett värmesystem rymmer 240 liter vätska. För frostskydd ska blandningen innehålla 30 % glykol.</p><div class=\"spel-en-del\">Montören har bara 50 liter glykol i bilen. Vilken glykolhalt får systemet då? Avrunda till en decimal.</div>",
+        "t": "<p>Ett värmesystem rymmer 240 liter vätska. För frostskydd ska blandningen innehålla 30 % glykol.</p><div class=\"spel-en-del\">Montören har bara 50 liter glykol i bilen. Vilken glykolhalt får systemet då?</div>",
+        "kgInstruktion": "Avrunda till en decimal.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>50/240·100 ≈ <strong>20,8 %</strong>.</p></li></ol></div>",
         "ledtrad": "<p>Dividera de 50 litrarna glykol med systemets totala 240 liter.</p>",
         "niva": "E",
         "poang": "1/0/0"
-      }
-    ],
+      }],
     "ledtrad": "<p>I a och b utgår du från 30 % av 240 L. I c är procenthalten mängden glykol dividerad med hela systemvolymen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -126003,7 +126109,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>3,0 L 20-procentig lösning blandas med 2,0 L 5-procentig. Bestäm blandningens koncentration. Svara i procent.</p>",
+    "t": "<p>3,0 L 20-procentig lösning blandas med 2,0 L 5-procentig. Bestäm blandningens koncentration.</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Mängden löst ämne är</p><div class=\"facit-matte\">\\[3{,}0\\cdot 0{,}20+2{,}0\\cdot 0{,}05=0{,}70 L\\]</div></div></li><li><p>Totalvolymen är 5,0 L.</p></li><li><p>0,70/5,0 = 0,14 = <strong>14 %</strong>.</p></li></ol></div>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
@@ -126031,7 +126138,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Ett golv har arean 46 m². Golvmaterialet kostar 285 kr per m². Du köper 7 % extra material för spill. Frakten kostar 650 kr.</p><p>Vad blir den totala kostnaden? Avrunda till två decimaler.</p>",
+    "t": "<p>Ett golv har arean 46 m². Golvmaterialet kostar 285 kr per m². Du köper 7 % extra material för spill. Frakten kostar 650 kr.</p><p>Vad blir den totala kostnaden?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Med spill behövs</p><div class=\"facit-matte\">\\[46\\cdot 1{,}07=49{,}22\\, \\mathrm{m^2}\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Materialet kostar</p><div class=\"facit-matte\">\\[49{,}22\\cdot 285=14\\,027{,}70 k r\\]</div></div></li><li><p>Med frakt blir totalen <strong>14 677,70 kr</strong>.</p></li></ol></div>",
     "familj": "Kostnad för material och arbete",
     "geogebra": false,
@@ -128108,7 +128216,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Det behövs 40 m material. För att täcka spill lägger man till 5 %. Materialet kostar 120 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
+    "t": "<p>Det behövs 40 m material. För att täcka spill lägger man till 5 %. Materialet kostar 120 kr per meter. Bestäm totalkostnaden.</p>",
+    "kgInstruktion": "Avrunda till närmaste krona.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Med 5 % spill behövs</p><div class=\"facit-matte\">\\[40\\cdot 1{,}05=42\\, \\mathrm{m}\\]</div></div></li><li><p>Kostnaden blir 42·120 = <strong>5 040 kr</strong>.</p></li></ol></div>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
@@ -129499,7 +129608,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag: 19 plattor för 98 kr styck. Avrunda till 20 plattor och 100 kr. Ungefär vad kostar de?</p>",
+    "t": "<p>Gör ett överslag: 19 plattor för 98 kr styck. Ungefär vad kostar de?</p>",
+    "kgInstruktion": "Avrunda till 20 plattor och 100 kr.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Överslag: avrunda talen så att räkningen går att göra i huvudet</p><div class=\"facit-matte\">\\[20\\cdot100=2\\,000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 000 kr</p></div>",
     "familj": "Överslag i yrkeslivet",
     "geogebra": false,
@@ -129530,7 +129640,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag: ett rum är 3,9 m × 5,1 m. Avrunda till 4 m och 5 m. Ungefär hur stor är golvarean?</p>",
+    "t": "<p>Gör ett överslag: ett rum är 3,9 m × 5,1 m. Ungefär hur stor är golvarean?</p>",
+    "kgInstruktion": "Avrunda till 4 m och 5 m.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Överslag: avrunda talen så att räkningen går att göra i huvudet</p><div class=\"facit-matte\">\\[4\\cdot5=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 m²</p></div>",
     "familj": "Överslag i yrkeslivet",
     "geogebra": false,
@@ -129561,7 +129672,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag: 312 liter fördelas på 29 dunkar. Avrunda till 300 och 30. Ungefär hur mycket blir det per dunk?</p>",
+    "t": "<p>Gör ett överslag: 312 liter fördelas på 29 dunkar. Ungefär hur mycket blir det per dunk?</p>",
+    "kgInstruktion": "Avrunda till 300 och 30.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Överslag: avrunda talen så att räkningen går att göra i huvudet</p><div class=\"facit-matte\">\\[\\frac{300}{30}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 liter</p></div>",
     "familj": "Överslag i yrkeslivet",
     "geogebra": false,
@@ -129592,7 +129704,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag: en arbetare tjänar 207 kr i timmen och arbetar 41 timmar. Avrunda till 200 kr och 40 timmar. Ungefär hur mycket tjänar hen?</p>",
+    "t": "<p>Gör ett överslag: en arbetare tjänar 207 kr i timmen och arbetar 41 timmar. Ungefär hur mycket tjänar hen?</p>",
+    "kgInstruktion": "Avrunda till 200 kr och 40 timmar.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Överslag: avrunda talen så att räkningen går att göra i huvudet</p><div class=\"facit-matte\">\\[200\\cdot40=8\\,000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 000 kr</p></div>",
     "familj": "Överslag i yrkeslivet",
     "geogebra": false,
@@ -129623,7 +129736,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag: 0,48 kg ost à 189 kr/kg. Avrunda till 0,5 kg och 200 kr/kg. Ungefär vad kostar osten?</p>",
+    "t": "<p>Gör ett överslag: 0,48 kg ost à 189 kr/kg. Ungefär vad kostar osten?</p>",
+    "kgInstruktion": "Avrunda till 0,5 kg och 200 kr/kg.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Överslag: avrunda talen så att räkningen går att göra i huvudet</p><div class=\"facit-matte\">\\[0{,}5\\cdot200=100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 kr</p></div>",
     "familj": "Överslag i yrkeslivet",
     "geogebra": false,
@@ -129654,7 +129768,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Gör ett överslag: 6 070 kr ska delas lika på 11 personer. Avrunda till 6 000 kr och 10 personer. Ungefär hur mycket får var och en?</p>",
+    "t": "<p>Gör ett överslag: 6 070 kr ska delas lika på 11 personer. Ungefär hur mycket får var och en?</p>",
+    "kgInstruktion": "Avrunda till 6 000 kr och 10 personer.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avrunda 6 070 kr till 6 000 kr och 11 personer till 10 personer:</p><div class=\"facit-matte\">\\[6\\,000/10=600\\ \\text{kr}.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 600 kr per person.</p></div>",
     "familj": "Överslag i yrkeslivet",
     "geogebra": false,
@@ -130319,7 +130434,8 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>En kvadratisk platta mäts till sidan 50 cm. Mätningen kan vara fel med högst 0,5 cm.</p><p>Hur många procent kan den beräknade arean som mest vara för stor? Avrunda till en decimal.</p>",
+    "t": "<p>En kvadratisk platta mäts till sidan 50 cm. Mätningen kan vara fel med högst 0,5 cm.</p><p>Hur många procent kan den beräknade arean som mest vara för stor?</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Det relativa felet i sidan är</p><div class=\"facit-matte\">\\[\\frac{0{,}5}{50}=1\\,\\%\\].</div></div></li><li><p>Om den verkliga sidan är 49,5 cm är den verkliga arean \\(49{,}5^2=2\\,450{,}25\\) cm².</p></li><li><p>Den beräknade arean är \\(50^2=2\\,500\\) cm².</p></li><li><p>\\[\\frac{2\\,500}{2\\,450{,}25}\\approx1{,}0203,\\]</p></li><li><p>alltså cirka 2,0 % för stor.</p></li><li><p>Det relativa felet ungefär fördubblas när man kvadrerar.</p></li><li><p>Två faktorer med 1 % fel vardera ger cirka 2 % fel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 2,0 %</p></div>",
     "familj": "Absolut och relativt mätfel",
     "formaga": [
@@ -130471,7 +130587,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett rum behöver 12 m² matta. Man räknar med 8 % spill. Hur många m² matta behövs? Avrunda till en decimal.</p>",
+    "t": "<p>Ett rum behöver 12 m² matta. Man räknar med 8 % spill. Hur många m² matta behövs?</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Spillpåslag: \\(\\text{beställning}=\\text{behov}\\cdot(1+\\text{spill})\\)</p><div class=\"facit-matte\">\\[12\\cdot1{,}08=12{,}96\\approx13{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13,0 m²</p></div>",
     "familj": "Materialbehov med spill",
     "geogebra": false,
@@ -130895,7 +131012,8 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>En snickare behöver 14 bitar som är 1,3 m långa. Brädorna säljs i längden 4,2 m, och bitarna kan inte skarvas.</p><p><strong>a)</strong> Hur många brädor behövs minst?</p><p><strong>b)</strong> Hur många procent av det köpta virket blir spill? Avrunda till en decimal.</p>",
+    "t": "<p>En snickare behöver 14 bitar som är 1,3 m långa. Brädorna säljs i längden 4,2 m, och bitarna kan inte skarvas.</p><p><strong>a)</strong> Hur många brädor behövs minst?</p><p><strong>b)</strong> Hur många procent av det köpta virket blir spill?</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ur en bräda får man \\(\\left\\lfloor\\frac{4{,}2}{1{,}3}\\right\\rfloor=3\\) bitar, eftersom \\(3\\cdot1{,}3=3{,}9\\) m och 0,3 m blir över.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>14 bitar kräver \\(\\frac{14}{3}\\approx4{,}7\\), alltså 5 brädor.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Köpt virke: \\(5\\cdot4{,}2=21{,}0\\) m.</p></li><li><p>Använt: \\(14\\cdot1{,}3=18{,}2\\) m.</p></li><li><p>Spill: \\(2{,}8\\) m.</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{2{,}8}{21{,}0}\\approx13{,}3\\,\\%\\].</div></li><li><p>Att bara räkna \\(\\frac{18{,}2}{4{,}2}\\approx4{,}3\\) brädor ger fel svar, eftersom bitarna inte kan skarvas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 5 brädor &nbsp; b) cirka 13,3 %</p></div>",
     "familj": "Materialbehov med spill",
     "formaga": [
@@ -130933,7 +131051,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>När man filéar en fisk blir utbytet 45 %, alltså 45 % av den hela fiskens vikt blir filé.</p><p>Hur många kilogram hel fisk behövs för att få 3,0 kg filé? Avrunda till en decimal.</p>",
+    "t": "<p>När man filéar en fisk blir utbytet 45 %, alltså 45 % av den hela fiskens vikt blir filé.</p><p>Hur många kilogram hel fisk behövs för att få 3,0 kg filé?</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utbyte: filé = utbyte · hel fisk</p><div class=\"facit-matte\">\\[0{,}45x=3{,}0\\quad\\Rightarrow\\quad x=\\frac{3{,}0}{0{,}45}\\approx6{,}7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 6,7 kg</p></div>",
     "familj": "Svinn och utbyte",
     "formaga": [
@@ -131483,7 +131602,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett golv på 24 m² ska läggas med laminat som kostar 189 kr/m². Man räknar med 8 % spill. Dessutom behövs 20 m golvlist som kostar 45 kr/m.</p><p>Vad kostar materialet? Avrunda till hela kronor.</p>",
+    "t": "<p>Ett golv på 24 m² ska läggas med laminat som kostar 189 kr/m². Man räknar med 8 % spill. Dessutom behövs 20 m golvlist som kostar 45 kr/m.</p><p>Vad kostar materialet?</p>",
+    "kgInstruktion": "Avrunda till hela kronor.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Laminat med spill: \\(24\\cdot1{,}08=25{,}92\\) m², som kostar \\(25{,}92\\cdot189\\approx4\\,898{,}88\\) kr.</p></li><li><p>Golvlist: \\(20\\cdot45=900\\) kr.</p></li><li><p>Totalt: \\(4\\,898{,}88+900\\approx5\\,799\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 5 799 kr</p></div>",
     "familj": "Kostnad för material och arbete",
     "formaga": [
@@ -132178,7 +132298,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett rörs volym per meter är \\(V=\\pi r^2\\) (i m³ per meter). Beräkna volymen per meter när r = 0,05 m. Avrunda till fyra decimaler.</p>",
+    "t": "<p>Ett rörs volym per meter är \\(V=\\pi r^2\\) (i m³ per meter). Beräkna volymen per meter när r = 0,05 m.</p>",
+    "kgInstruktion": "Avrunda till fyra decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in de kända värdena i formeln</p><div class=\"facit-matte\">\\[V=\\pi\\cdot0{,}05^2\\approx0{,}0079\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,0079 m³</p></div>",
     "familj": "Formler i yrkesarbete",
     "geogebra": false,
@@ -137010,7 +137131,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(1-\\frac38\\). Svara i bråkform.</p>",
+    "t": "<p>Beräkna \\(1-\\frac38\\).</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En hel är åtta åttondelar</p><div class=\"facit-matte\">\\[1-\\frac38=\\frac88-\\frac38=\\frac58\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac58\\)</p></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -137042,7 +137164,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En pizza är delad i 8 lika stora bitar. Du äter 3 bitar och din kompis äter 2 bitar. Hur stor del av pizzan är kvar? Svara i bråkform.</p>",
+    "t": "<p>En pizza är delad i 8 lika stora bitar. Du äter 3 bitar och din kompis äter 2 bitar. Hur stor del av pizzan är kvar?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hela pizzan är åtta åttondelar</p><p>Ni äter tillsammans 3 + 2 = 5 bitar.</p><div class=\"facit-matte\">\\[1-\\frac58=\\frac88-\\frac58=\\frac38\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac38\\)</p></div>",
     "familj": "Bråk i problemlösning",
     "geogebra": false,
@@ -137141,7 +137264,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett recept för 4 personer innehåller \\(\\frac34\\) dl grädde. Hur mycket grädde behövs till 6 personer? Svara i bråkform.</p>",
+    "t": "<p>Ett recept för 4 personer innehåller \\(\\frac34\\) dl grädde. Hur mycket grädde behövs till 6 personer?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>6 personer är \\(\\frac64=\\frac32\\) gånger så många som 4 personer.</p></li><li><p>\\[\\frac34\\cdot\\frac32=\\frac98\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac98\\) dl, alltså \\(1\\frac18\\) dl</p></div></div>",
     "familj": "Bråk i problemlösning",
     "geogebra": false,
@@ -137209,7 +137333,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\frac{3}{10}+\\frac25\\). Svara i enklaste form.</p>",
+    "t": "<p>Beräkna \\(\\frac{3}{10}+\\frac25\\).</p>",
+    "kgInstruktion": "Svara i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare och räkna med täljarna</p><div class=\"facit-matte\">\\[\\frac3{10}+\\frac25=\\frac3{10}+\\frac4{10}=\\frac7{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac7{10}\\)</p></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -137563,7 +137688,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ali tar \\(\\frac13\\) av en kaka. Bea tar \\(\\frac14\\) av det som är kvar. Cem tar hälften av det som då är kvar. Hur stor del av hela kakan får Cem? Svara i bråkform.</p>",
+    "t": "<p>Ali tar \\(\\frac13\\) av en kaka. Bea tar \\(\\frac14\\) av det som är kvar. Cem tar hälften av det som då är kvar. Hur stor del av hela kakan får Cem?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter Ali är \\(\\frac23\\) kvar.</p></li><li><p>Bea tar \\(\\frac14\\cdot\\frac23=\\frac16\\), så kvar är \\(\\frac23-\\frac16=\\frac12\\).</p></li><li><p>\\[\\text{Cem: }\\frac12\\cdot\\frac12=\\frac14\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,25</p></div></div>",
     "familj": "Bråk i problemlösning",
     "geogebra": false,
@@ -137727,7 +137853,8 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/0/1",
-    "t": "<p>Beräkna summan \\(\\frac{1}{1\\cdot2}+\\frac{1}{2\\cdot3}+\\frac{1}{3\\cdot4}+\\ldots+\\frac{1}{9\\cdot10}\\). Svara i bråkform.</p>",
+    "t": "<p>Beräkna summan \\(\\frac{1}{1\\cdot2}+\\frac{1}{2\\cdot3}+\\frac{1}{3\\cdot4}+\\ldots+\\frac{1}{9\\cdot10}\\).</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Varje term kan skrivas som en skillnad, till exempel</p><div class=\"facit-matte\">\\[\\frac1{2\\cdot3}=\\frac12-\\frac13\\].</div></div></li><li><div class=\"facit-berakning\"><p>Kontroll:</p><div class=\"facit-matte\">\\[\\frac12-\\frac13=\\frac{3-2}{6}=\\frac16\\].</div></div></li><li><p>\\[\\left(1-\\frac12\\right)+\\left(\\frac12-\\frac13\\right)+\\ldots+\\left(\\frac19-\\frac1{10}\\right)\\]</p></li><li><p>Nästan alla termer tar ut varandra.</p></li><li><p>Kvar blir</p></li><li><p>\\[1-\\frac1{10}=\\frac9{10}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,9</p></div></div>",
     "familj": "Bråk i problemlösning",
     "geogebra": false,
@@ -137889,7 +138016,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett fotbollslag gjorde 36 mål under en säsong. Lagets bästa spelare gjorde 9 av dem. Hur stor andel av målen gjorde spelaren? Svara i decimalform.</p>",
+    "t": "<p>Ett fotbollslag gjorde 36 mål under en säsong. Lagets bästa spelare gjorde 9 av dem. Hur stor andel av målen gjorde spelaren?</p>",
+    "kgInstruktion": "Svara i decimalform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andel: \\(\\frac{\\text{delen}}{\\text{det hela}}\\)</p><div class=\"facit-matte\">\\[\\frac{9}{36}=\\frac14=0{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,25</p></div>",
     "familj": "Andel i procent",
     "geogebra": false,
@@ -138908,7 +139036,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Bil A drar 0,55 liter bensin per mil och bil B drar 6,8 liter per 100 km. Hur många liter mindre bensin drar den snålare bilen på en resa som är 250 km? Avrunda till två decimaler.</p>",
+    "t": "<p>Bil A drar 0,55 liter bensin per mil och bil B drar 6,8 liter per 100 km. Hur många liter mindre bensin drar den snålare bilen på en resa som är 250 km?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>1 mil är 10 km, så bil A drar 0,55 liter per 10 km, alltså 5,5 liter per 100 km.</p></li><li><p>Bil A är snålast.</p></li><li><p>Skillnaden är \\(6{,}8-5{,}5=1{,}3\\) liter per 100 km.</p></li><li><p>\\[2{,}5\\cdot1{,}3=3{,}25\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,25 liter</p></div></div>",
     "familj": "Proportionalitet i problemlösning",
     "geogebra": false,
@@ -138938,7 +139067,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En tom pool med raka väggar fylls med vatten från en pump. Efter 25 minuter är vattnet 18 cm djupt. Poolen ska fyllas till djupet 1,35 m. Hur många timmar tar det att fylla poolen? Avrunda till en decimal.</p>",
+    "t": "<p>En tom pool med raka väggar fylls med vatten från en pump. Efter 25 minuter är vattnet 18 cm djupt. Poolen ska fyllas till djupet 1,35 m. Hur många timmar tar det att fylla poolen?</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2\"><p>Med konstant flöde och lodräta väggar ökar djupet proportionellt mot tiden. Måldjupet är 1,35 m = 135 cm.</p>\\[t=25\\cdot\\frac{135}{18}=187{,}5\\text{ min}.\\]<p>Dela med 60 för att få timmar:</p>\\[t=187{,}5/60=3{,}125\\text{ h}\\approx3{,}1\\text{ h}.\\]<p><strong>Svar: 3,1 timmar.</strong></p></div>",
     "familj": "Proportionalitet i problemlösning",
     "geogebra": false,
@@ -140222,7 +140352,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Två kvadrater har sidorna i förhållandet 2 : 3. Vilket är förhållandet mellan kvadraternas areor? Svara i enklaste form.</p>",
+    "t": "<p>Två kvadrater har sidorna i förhållandet 2 : 3. Vilket är förhållandet mellan kvadraternas areor?</p>",
+    "kgInstruktion": "Svara i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt sidorna till \\(2k\\) och \\(3k\\).</p></li><li><p>Areorna är \\((2k)^2=4k^2\\) och \\((3k)^2=9k^2\\).</p></li><li><p>\\[4k^2:9k^2=4:9\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4:9</p></div></div>",
     "familj": "Förhållanden i problemlösning",
     "geogebra": false,
@@ -151817,7 +151948,8 @@ window.BANKMA1 = [
   "niva": "A",
   "poang": "0/0/3",
   "typ": "två ekvationer måste få samma lösning",
-  "t": "<p>Talet \\(a\\) ska väljas så att de två ekvationerna får samma lösning \\(x\\).</p>\\[3(x-2)-2(1-x)=a+4\\]\\[2\\bigl(3-(x-1)\\bigr)=x+2a\\]<p>Bestäm \\(a\\). Svara exakt.</p>",
+  "t": "<p>Talet \\(a\\) ska väljas så att de två ekvationerna får samma lösning \\(x\\).</p>\\[3(x-2)-2(1-x)=a+4\\]\\[2\\bigl(3-(x-1)\\bigr)=x+2a\\]<p>Bestäm \\(a\\).</p>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2\"><p>Förenkla den första ekvationen och uttryck a med hjälp av x. Sätt in det uttrycket i den andra ekvationen.</p><div class=\"facit-matte\">\\[\\begin{gathered}3x-6-2+2x=a+4\\\\a=5x-12\\\\8-2x=x+2(5x-12)\\\\32=13x\\quad\\Rightarrow\\quad x=\\frac{32}{13}\\\\a=5\\cdot\\frac{32}{13}-12=\\frac4{13}\\end{gathered}\\]</div><p>Med detta a blir den första ekvationen \\(5x=160/13\\) och den andra \\(3x=96/13\\). Båda ger \\(x=32/13\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=\\frac4{13}\\).</p></div>",
   "familj": "Ekvationer med parenteser",
   "formaga": [
@@ -151848,7 +151980,8 @@ window.BANKMA1 = [
   "niva": "A",
   "poang": "0/0/3",
   "typ": "ändra en konstant så att lösningen flyttas",
-  "t": "<p>Ekvationen är</p>\\[\\begin{aligned}&\\frac23\\left(3x-\\frac{x-2}{4}\\right)\\\\&\\quad-\\frac12\\left(x-\\frac{2x+1}{3}\\right)=\\frac{x+5}{2}.\\end{aligned}\\]<p>Bara talet 5 i högerledet ska bytas ut, så att lösningen x blir precis 1 mindre än förut. Vilket tal ska stå i stället för 5? Svara exakt.</p>",
+  "t": "<p>Ekvationen är</p>\\[\\begin{aligned}&\\frac23\\left(3x-\\frac{x-2}{4}\\right)\\\\&\\quad-\\frac12\\left(x-\\frac{2x+1}{3}\\right)=\\frac{x+5}{2}.\\end{aligned}\\]<p>Bara talet 5 i högerledet ska bytas ut, så att lösningen x blir precis 1 mindre än förut. Vilket tal ska stå i stället för 5?</p>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2\"><p>Kalla talet som ersätter 5 för k. Förenkla först vänsterledets två delar.</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac23\\left(3x-\\frac{x-2}4\\right)=\\frac{11x+2}6\\\\\\frac12\\left(x-\\frac{2x+1}3\\right)=\\frac{x-1}6\\\\\\frac{10x+3}6=\\frac{x+k}2\\\\10x+3=3x+3k\\\\7x=3k-3\\\\k=5\\quad\\Rightarrow\\quad x=\\frac{12}7\\\\x_{\\text{ny}}=\\frac{12}7-1=\\frac57\\\\7\\cdot\\frac57=3k-3\\\\k=\\frac83\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Talet \\(\\frac83\\) ska ersätta 5.</p></div>",
   "familj": "Ekvationer med parenteser",
   "formaga": [
@@ -152152,7 +152285,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "spel": true,
     "självrättning": true,
-    "t": "<p>Risken att en viss leverans blir försenad är 8 %. Tre leveranser görs oberoende av varandra. Hur stor är sannolikheten att minst en blir försenad? Svara i procent.</p>",
+    "t": "<p>Risken att en viss leverans blir försenad är 8 %. Tre leveranser görs oberoende av varandra. Hur stor är sannolikheten att minst en blir försenad?</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Beräkna först sannolikheten att alla kommer i tid.</strong></p><div class=\"facit-matte\">\\[P(\\text{alla i tid})=0{,}92^3\\]</div><div class=\"facit-matte\">\\[P(\\text{minst en sen})=1-0{,}92^3\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 22,1 %.</p></div>",
     "ledtrad": "<p>Vilken händelse är motsatsen till att minst en leverans blir sen?</p>",
     "rättSvar": 22.131199999999996,
@@ -154558,7 +154692,8 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "typ": "bestäm skalan ur en dörr",
-    "t": "<p>På en ritning är en dörr 1,8 cm bred. I verkligheten är dörren 90 cm bred.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"210\" viewBox=\"0 0 200 210\" role=\"img\" aria-label=\"Ritning av en dörr som är 1,8 cm bred.\"><title>Ritning av en dörr som är 1,8 cm bred.</title><rect x=\"1\" y=\"1\" width=\"198\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,40.0 120.0,40.0 120.0,160.0 60.0,160.0\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"100\" r=\"4\" fill=\"#8a6d3b\"/><line x1=\"60.0\" y1=\"146.0\" x2=\"120.0\" y2=\"146.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"151.0\" x2=\"60.0\" y2=\"141.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"120.0\" y1=\"151.0\" x2=\"120.0\" y2=\"141.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"61.6\" y=\"124.0\" width=\"56.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"90.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,8 cm</text></svg></span><p>Vilken skala har ritningen? Svara på formen 1:x.</p>",
+    "t": "<p>På en ritning är en dörr 1,8 cm bred. I verkligheten är dörren 90 cm bred.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"210\" viewBox=\"0 0 200 210\" role=\"img\" aria-label=\"Ritning av en dörr som är 1,8 cm bred.\"><title>Ritning av en dörr som är 1,8 cm bred.</title><rect x=\"1\" y=\"1\" width=\"198\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,40.0 120.0,40.0 120.0,160.0 60.0,160.0\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"100\" r=\"4\" fill=\"#8a6d3b\"/><line x1=\"60.0\" y1=\"146.0\" x2=\"120.0\" y2=\"146.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"151.0\" x2=\"60.0\" y2=\"141.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"120.0\" y1=\"151.0\" x2=\"120.0\" y2=\"141.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"61.6\" y=\"124.0\" width=\"56.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"90.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,8 cm</text></svg></span><p>Vilken skala har ritningen?</p>",
+    "kgInstruktion": "Svara på formen 1:x.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skalan är verkligheten delad med bilden</p><div class=\"facit-matte\">\\[\\frac{90}{1{,}8}=50\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1:50</p></div>",
     "familj": "Skala på kartor och ritningar",
     "formaga": [
@@ -154813,7 +154948,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En påse innehåller 6 röda och 3 gula kulor. Två kulor dras utan återläggning. Träddiagrammet visar dragningarna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 6 röda och 3 gula kulor. Grenen röd efter röd saknar sannolikhet.\"><title>Träddiagram för två dragningar ur 6 röda och 3 gula kulor. Grenen röd efter röd saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f9f4ed\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">6/9</text><rect x=\"61.9\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"72.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">3/8</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">3/9</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">6/8</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">2/8</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? Svara i bråkform.</p>",
+    "t": "<p>En påse innehåller 6 röda och 3 gula kulor. Två kulor dras utan återläggning. Träddiagrammet visar dragningarna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 6 röda och 3 gula kulor. Grenen röd efter röd saknar sannolikhet.\"><title>Träddiagram för två dragningar ur 6 röda och 3 gula kulor. Grenen röd efter röd saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f9f4ed\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">6/9</text><rect x=\"61.9\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"72.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">3/8</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">3/9</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">6/8</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">2/8</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><p>Efter en röd kula finns 5 röda kvar av 8 kulor.</p><div class=\"facit-matte\">\\[\\frac58\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac58\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "formaga": [
@@ -154842,7 +154978,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två elever lottas ut, en i taget, ur en grupp. Träddiagrammet visar sannolikheterna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två lottningar. Första grenen tjej saknar sannolikhet, kille har 2/5.\"><title>Träddiagram för två lottningar. Första grenen tjej saknar sannolikhet, kille har 2/5.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f1f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"133.9\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"144.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">5/9</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/9</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">2/5</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">6/9</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">3/9</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? Svara i bråkform.</p>",
+    "t": "<p>Två elever lottas ut, en i taget, ur en grupp. Träddiagrammet visar sannolikheterna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två lottningar. Första grenen tjej saknar sannolikhet, kille har 2/5.\"><title>Träddiagram för två lottningar. Första grenen tjej saknar sannolikhet, kille har 2/5.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f1f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"133.9\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"144.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">5/9</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/9</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">2/5</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">6/9</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">3/9</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grenarna från samma punkt har summan 1</p><div class=\"facit-matte\">\\[1-\\frac25=\\frac35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac35\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "formaga": [
@@ -154871,7 +155008,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en påse ligger kulorna i figuren. Två kulor dras utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"356\" height=\"158\" viewBox=\"0 0 356 158\" role=\"img\" aria-label=\"Påse med 5 gröna och 2 vita kulor.\"><title>Påse med 5 gröna och 2 vita kulor.</title><rect x=\"1\" y=\"1\" width=\"354\" height=\"156\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M40 40 Q36 144 118 144 Q176 144 176 40 Z\" fill=\"#f6efe2\" stroke=\"#9a7b4f\" stroke-width=\"2\"/><path d=\"M34 40 L182 40\" stroke=\"#9a7b4f\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"57\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"91\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"125\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"159\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"57\" cy=\"102\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"91\" cy=\"102\" r=\"13\" fill=\"#a7abb2\" stroke=\"#8a8f98\" stroke-width=\"2\"/><circle cx=\"125\" cy=\"102\" r=\"13\" fill=\"#a7abb2\" stroke=\"#8a8f98\" stroke-width=\"2\"/><circle cx=\"208\" cy=\"58\" r=\"8\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><text x=\"222\" y=\"63\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\">5 gröna</text><circle cx=\"208\" cy=\"84\" r=\"8\" fill=\"#a7abb2\" stroke=\"#8a8f98\" stroke-width=\"2\"/><text x=\"222\" y=\"89\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\">2 vita</text></svg></span><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 5 gröna och 2 vita kulor. Grenen vit efter vit saknar sannolikhet.\"><title>Träddiagram för två dragningar ur 5 gröna och 2 vita kulor. Grenen vit efter vit saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f4f5\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">5/7</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/6</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">2/6</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">2/7</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">5/6</text><rect x=\"338.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"348.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? Svara i bråkform.</p>",
+    "t": "<p>I en påse ligger kulorna i figuren. Två kulor dras utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"356\" height=\"158\" viewBox=\"0 0 356 158\" role=\"img\" aria-label=\"Påse med 5 gröna och 2 vita kulor.\"><title>Påse med 5 gröna och 2 vita kulor.</title><rect x=\"1\" y=\"1\" width=\"354\" height=\"156\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M40 40 Q36 144 118 144 Q176 144 176 40 Z\" fill=\"#f6efe2\" stroke=\"#9a7b4f\" stroke-width=\"2\"/><path d=\"M34 40 L182 40\" stroke=\"#9a7b4f\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"57\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"91\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"125\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"159\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"57\" cy=\"102\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"91\" cy=\"102\" r=\"13\" fill=\"#a7abb2\" stroke=\"#8a8f98\" stroke-width=\"2\"/><circle cx=\"125\" cy=\"102\" r=\"13\" fill=\"#a7abb2\" stroke=\"#8a8f98\" stroke-width=\"2\"/><circle cx=\"208\" cy=\"58\" r=\"8\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><text x=\"222\" y=\"63\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\">5 gröna</text><circle cx=\"208\" cy=\"84\" r=\"8\" fill=\"#a7abb2\" stroke=\"#8a8f98\" stroke-width=\"2\"/><text x=\"222\" y=\"89\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\">2 vita</text></svg></span><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 5 gröna och 2 vita kulor. Grenen vit efter vit saknar sannolikhet.\"><title>Träddiagram för två dragningar ur 5 gröna och 2 vita kulor. Grenen vit efter vit saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f4f5\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">5/7</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/6</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">2/6</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">2/7</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">5/6</text><rect x=\"338.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"348.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><p>Efter en vit kula finns 1 vit kvar av 6 kulor.</p><div class=\"facit-matte\">\\[\\frac16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac16\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "formaga": [
@@ -154900,7 +155038,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En påse innehåller 4 röda och 5 gula kulor. Två kulor dras utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 4 röda och 5 gula kulor med alla sannolikheter utskrivna.\"><title>Träddiagram för två dragningar ur 4 röda och 5 gula kulor med alla sannolikheter utskrivna.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f9f4ed\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/9</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/8</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">5/8</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">5/9</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/8</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">4/8</text></svg></span><p>Hur stor är sannolikheten att båda kulorna är gula? Svara i bråkform.</p>",
+    "t": "<p>En påse innehåller 4 röda och 5 gula kulor. Två kulor dras utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 4 röda och 5 gula kulor med alla sannolikheter utskrivna.\"><title>Träddiagram för två dragningar ur 4 röda och 5 gula kulor med alla sannolikheter utskrivna.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f9f4ed\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/9</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/8</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">5/8</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">5/9</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/8</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">4/8</text></svg></span><p>Hur stor är sannolikheten att båda kulorna är gula?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera längs vägen gul–gul.</p></li><li><div class=\"facit-matte\">\\[\\frac59\\cdot\\frac48=\\frac{20}{72}=\\frac5{18}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac5{18}\\)</p></div>",
     "familj": "Beroende händelser i problemlösning",
     "formaga": [
@@ -154929,7 +155068,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en låda ligger 3 svarta och 5 vita strumpor. Elsa tar två strumpor utan att titta.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två strumpor ur 3 svarta och 5 vita. Grenen vit efter svart saknar sannolikhet.\"><title>Träddiagram för två strumpor ur 3 svarta och 5 vita. Grenen vit efter svart saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eeeff0\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f4f5\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"85.0\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"38.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"230.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/8</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/7</text><rect x=\"146.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"156.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">5/8</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/7</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">4/7</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? Svara i bråkform.</p>",
+    "t": "<p>I en låda ligger 3 svarta och 5 vita strumpor. Elsa tar två strumpor utan att titta.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två strumpor ur 3 svarta och 5 vita. Grenen vit efter svart saknar sannolikhet.\"><title>Träddiagram för två strumpor ur 3 svarta och 5 vita. Grenen vit efter svart saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eeeff0\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f4f5\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"85.0\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"38.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"230.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/8</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/7</text><rect x=\"146.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"156.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">5/8</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/7</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">4/7</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter en svart strumpa finns alla 5 vita kvar av 7 strumpor.</p></li><li><div class=\"facit-matte\">\\[\\frac57\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac57\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "formaga": [
@@ -154958,7 +155098,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>I en burk ligger 7 vita och 2 svarta knappar. Två knappar tas utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för två knappar ur 7 vita och 2 svarta, med produkterna 42/72, 14/72, 14/72 och 2/72 under löven.\"><title>Träddiagram för två knappar ur 7 vita och 2 svarta, med produkterna 42/72, 14/72, 14/72 och 2/72 under löven.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f3f4f5\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eeeff0\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"38.9\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">42/72</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"134.8\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"162.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">14/72</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"230.8\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"258.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">14/72</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"330.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"354.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">2/72</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">7/9</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">6/8</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/8</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/9</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">7/8</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">1/8</text></svg></span><p>Hur stor är sannolikheten att knapparna får olika färg? Svara i bråkform.</p>",
+    "t": "<p>I en burk ligger 7 vita och 2 svarta knappar. Två knappar tas utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för två knappar ur 7 vita och 2 svarta, med produkterna 42/72, 14/72, 14/72 och 2/72 under löven.\"><title>Träddiagram för två knappar ur 7 vita och 2 svarta, med produkterna 42/72, 14/72, 14/72 och 2/72 under löven.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f3f4f5\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eeeff0\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"38.9\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">42/72</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"134.8\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"162.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">14/72</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"230.8\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"258.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">14/72</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"330.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"354.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">2/72</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">7/9</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">6/8</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/8</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/9</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">7/8</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">1/8</text></svg></span><p>Hur stor är sannolikheten att knapparna får olika färg?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två vägar ger olika färg: vit–svart och svart–vit.</p></li><li><div class=\"facit-matte\">\\[\\frac{14}{72}+\\frac{14}{72}=\\frac{28}{72}=\\frac7{18}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac7{18}\\)</p></div>",
     "familj": "Beroende händelser i problemlösning",
     "formaga": [
@@ -155069,7 +155210,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ur en hög med 12 kort, där 5 är hjärter, dras två kort utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två kort ur 12 kort varav 5 hjärter. Grenen hjärter efter hjärter saknar sannolikhet.\"><title>Träddiagram för två kort ur 12 kort varav 5 hjärter. Grenen hjärter efter hjärter saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eeeff0\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"76.1\" y=\"110.0\" width=\"75.7\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">hjärter</text><rect x=\"30.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">hjärter</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">annat</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">annat</text><rect x=\"222.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">hjärter</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">annat</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/12</text><rect x=\"61.9\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"72.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"146.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"168.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">7/11</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">7/12</text><rect x=\"229.8\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"251.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/11</text><rect x=\"338.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"360.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">6/11</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? Svara i bråkform.</p>",
+    "t": "<p>Ur en hög med 12 kort, där 5 är hjärter, dras två kort utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två kort ur 12 kort varav 5 hjärter. Grenen hjärter efter hjärter saknar sannolikhet.\"><title>Träddiagram för två kort ur 12 kort varav 5 hjärter. Grenen hjärter efter hjärter saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eeeff0\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"76.1\" y=\"110.0\" width=\"75.7\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">hjärter</text><rect x=\"30.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">hjärter</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">annat</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">annat</text><rect x=\"222.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">hjärter</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">annat</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/12</text><rect x=\"61.9\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"72.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"146.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"168.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">7/11</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">7/12</text><rect x=\"229.8\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"251.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/11</text><rect x=\"338.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"360.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">6/11</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><p>Efter ett hjärter finns 4 hjärter kvar av 11 kort.</p><div class=\"facit-matte\">\\[\\frac4{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac4{11}\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "formaga": [
@@ -155098,7 +155240,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En grupp har 6 tjejer och 4 killar. Två personer lottas ut, en i taget, till en uppgift.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två lottningar ur 6 tjejer och 4 killar. Grenen kille efter tjej saknar sannolikhet.\"><title>Träddiagram för två lottningar ur 6 tjejer och 4 killar. Grenen kille efter tjej saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f1f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">6/10</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">5/9</text><rect x=\"146.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"156.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/10</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">6/9</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">3/9</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? Svara i bråkform.</p>",
+    "t": "<p>En grupp har 6 tjejer och 4 killar. Två personer lottas ut, en i taget, till en uppgift.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två lottningar ur 6 tjejer och 4 killar. Grenen kille efter tjej saknar sannolikhet.\"><title>Träddiagram för två lottningar ur 6 tjejer och 4 killar. Grenen kille efter tjej saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f1f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">6/10</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">5/9</text><rect x=\"146.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"156.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/10</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">6/9</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">3/9</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter att en tjej lottats ut finns alla 4 killar kvar av 9 personer.</p></li><li><div class=\"facit-matte\">\\[\\frac49\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac49\\)</p></div>",
     "familj": "Dragning utan återläggning",
     "formaga": [
@@ -155127,7 +155270,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>En styrelse har 8 tjejer och 4 killar. Två personer lottas ut, en i taget. Två grenar i trädet saknar sannolikhet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två lottningar ur 8 tjejer och 4 killar. Grenen kille i första lottningen och grenen kille efter kille saknar sannolikhet.\"><title>Träddiagram för två lottningar ur 8 tjejer och 4 killar. Grenen kille i första lottningen och grenen kille efter kille saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f1f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">8/12</text><rect x=\"37.8\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"59.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">7/11</text><rect x=\"146.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"168.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/11</text><rect x=\"266.0\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"276.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"229.8\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"251.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">8/11</text><rect x=\"338.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"348.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text></svg></span><p>Hur stor är sannolikheten att båda som lottas ut är killar? Svara i bråkform.</p>",
+    "t": "<p>En styrelse har 8 tjejer och 4 killar. Två personer lottas ut, en i taget. Två grenar i trädet saknar sannolikhet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två lottningar ur 8 tjejer och 4 killar. Grenen kille i första lottningen och grenen kille efter kille saknar sannolikhet.\"><title>Träddiagram för två lottningar ur 8 tjejer och 4 killar. Grenen kille i första lottningen och grenen kille efter kille saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f1f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">8/12</text><rect x=\"37.8\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"59.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">7/11</text><rect x=\"146.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"168.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/11</text><rect x=\"266.0\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"276.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"229.8\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"251.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">8/11</text><rect x=\"338.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"348.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text></svg></span><p>Hur stor är sannolikheten att båda som lottas ut är killar?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Fyll först i grenarna: kille först \\(\\frac4{12}\\), kille efter kille \\(\\frac3{11}\\).</p></li><li><div class=\"facit-matte\">\\[\\frac4{12}\\cdot\\frac3{11}=\\frac{12}{132}=\\frac1{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{11}\\)</p></div>",
     "familj": "Beroende händelser i problemlösning",
     "formaga": [
@@ -155156,7 +155300,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en skål ligger 7 kolor och 3 lakritsbitar. Ali tar två bitar utan att titta och äter upp dem.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två godisbitar ur 7 kolor och 3 lakritsbitar.\"><title>Träddiagram för två godisbitar ur 7 kolor och 3 lakritsbitar.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f9f4ed\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eeeff0\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#B7791F\" font-weight=\"700\">kola</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">kola</text><rect x=\"126.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">lakrits</text><rect x=\"268.1\" y=\"110.0\" width=\"75.7\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">lakrits</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">kola</text><rect x=\"318.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">lakrits</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">7/10</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">6/9</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/9</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/10</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">7/9</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/9</text></svg></span><p>Hur stor är sannolikheten att den första biten är en kola och den andra en lakritsbit? Svara i bråkform.</p>",
+    "t": "<p>I en skål ligger 7 kolor och 3 lakritsbitar. Ali tar två bitar utan att titta och äter upp dem.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två godisbitar ur 7 kolor och 3 lakritsbitar.\"><title>Träddiagram för två godisbitar ur 7 kolor och 3 lakritsbitar.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f9f4ed\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eeeff0\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#B7791F\" font-weight=\"700\">kola</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">kola</text><rect x=\"126.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">lakrits</text><rect x=\"268.1\" y=\"110.0\" width=\"75.7\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">lakrits</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">kola</text><rect x=\"318.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">lakrits</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">7/10</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">6/9</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/9</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/10</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">7/9</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/9</text></svg></span><p>Hur stor är sannolikheten att den första biten är en kola och den andra en lakritsbit?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utan återläggning: räkna med det som finns kvar efter förra dragningen, och multiplicera längs grenen</p><div class=\"facit-matte\">\\[\\frac{7}{10}\\cdot\\frac{3}{9}=\\frac{21}{90}=\\frac7{30}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac7{30}\\)</p></div>",
     "familj": "Beroende händelser i problemlösning",
     "formaga": [
@@ -155235,7 +155380,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/1",
-    "t": "<p>I en godispåse finns 12 bitar, varav 5 är sura. Lisa tar två bitar.</p><p>Hur många procentenheter större är sannolikheten att båda är sura om hon lägger tillbaka den första biten, jämfört med om hon äter upp den? Avrunda till en decimal.</p>",
+    "t": "<p>I en godispåse finns 12 bitar, varav 5 är sura. Lisa tar två bitar.</p><p>Hur många procentenheter större är sannolikheten att båda är sura om hon lägger tillbaka den första biten, jämfört med om hon äter upp den?</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med återläggning:</p></li><li><div class=\"facit-matte\">\\[\\left(\\frac5{12}\\right)^2=\\frac{25}{144}\\approx0{,}1736\\]</div></li><li><p>Utan återläggning:</p></li><li><div class=\"facit-matte\">\\[\\frac5{12}\\cdot\\frac4{11}=\\frac{20}{132}\\approx0{,}1515\\]</div></li><li><div class=\"facit-matte\">\\[17{,}36\\,\\%-15{,}15\\,\\%\\approx2{,}2\\ \\text{procentenheter}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,2 procentenheter.</p></div>",
     "familj": "Beroende händelser i problemlösning",
     "formaga": [
@@ -155266,7 +155412,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/1",
-    "t": "<p>Klassen säljer 60 lotter, och 6 av dem ger vinst. Du köper 3 lotter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för de två första lotterna: nit 54/60 och vinst 6/60, därefter 53/59 och 6/59 efter nit, 54/59 och 5/59 efter vinst.\"><title>Träddiagram för de två första lotterna: nit 54/60 och vinst 6/60, därefter 53/59 och 6/59 efter nit, 54/59 och 5/59 efter vinst.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f4f5\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">nit</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">nit</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">vinst</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">vinst</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">nit</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">vinst</text><rect x=\"101.7\" y=\"63.0\" width=\"52.3\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"127.8\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">54/60</text><rect x=\"29.7\" y=\"161.0\" width=\"52.3\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"55.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">53/59</text><rect x=\"146.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"168.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">6/59</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">6/60</text><rect x=\"221.7\" y=\"161.0\" width=\"52.3\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"247.8\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">54/59</text><rect x=\"338.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"360.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">5/59</text></svg></span><p>Trädet visar de två första lotterna. Hur stor är sannolikheten att du vinner på minst en av dina tre lotter? Svara i procent och avrunda till en decimal.</p>",
+    "t": "<p>Klassen säljer 60 lotter, och 6 av dem ger vinst. Du köper 3 lotter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för de två första lotterna: nit 54/60 och vinst 6/60, därefter 53/59 och 6/59 efter nit, 54/59 och 5/59 efter vinst.\"><title>Träddiagram för de två första lotterna: nit 54/60 och vinst 6/60, därefter 53/59 och 6/59 efter nit, 54/59 och 5/59 efter vinst.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f4f5\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">nit</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">nit</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">vinst</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">vinst</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">nit</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">vinst</text><rect x=\"101.7\" y=\"63.0\" width=\"52.3\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"127.8\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">54/60</text><rect x=\"29.7\" y=\"161.0\" width=\"52.3\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"55.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">53/59</text><rect x=\"146.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"168.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">6/59</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">6/60</text><rect x=\"221.7\" y=\"161.0\" width=\"52.3\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"247.8\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">54/59</text><rect x=\"338.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"360.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">5/59</text></svg></span><p>Trädet visar de två första lotterna. Hur stor är sannolikheten att du vinner på minst en av dina tre lotter?</p>",
+    "kgInstruktion": "Svara i procent och avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna komplementet: alla tre lotterna är nitlotter.</p></li><li><div class=\"facit-matte\">\\[P(\\text{tre nitar})=\\frac{54}{60}\\cdot\\frac{53}{59}\\cdot\\frac{52}{58}\\approx0{,}7248\\]</div></li><li><div class=\"facit-matte\">\\[P(\\text{minst en vinst})=1-0{,}7248\\approx0{,}275\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 27,5 %.</p></div>",
     "familj": "Beroende händelser i problemlösning",
     "formaga": [
@@ -155296,7 +155443,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/1",
-    "t": "<p>Ett lag består av 5 tjejer och 4 killar. Tre lagkaptener lottas ut, en i taget. Hur stor är sannolikheten att minst en av dem är kille? Svara i bråkform.</p>",
+    "t": "<p>Ett lag består av 5 tjejer och 4 killar. Tre lagkaptener lottas ut, en i taget. Hur stor är sannolikheten att minst en av dem är kille?</p>",
+    "kgInstruktion": "Svara i bråkform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Komplementet är att alla tre är tjejer.</p></li><li><div class=\"facit-matte\">\\[\\frac59\\cdot\\frac48\\cdot\\frac37=\\frac{60}{504}=\\frac5{42}\\]</div></li><li><div class=\"facit-matte\">\\[1-\\frac5{42}=\\frac{37}{42}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{37}{42}\\)</p></div>",
     "familj": "Beroende händelser i problemlösning",
     "formaga": [
@@ -155356,7 +155504,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/1",
-    "t": "<p>Ella, Saga och Nora skjuter var sin straff. Ella gör mål med sannolikheten 0,9, Saga med 0,5 och Nora med 0,2. Skotten är oberoende av varandra.</p><p>Hur stor är sannolikheten att laget gör ett eller två mål? Svara i decimalform.</p>",
+    "t": "<p>Ella, Saga och Nora skjuter var sin straff. Ella gör mål med sannolikheten 0,9, Saga med 0,5 och Nora med 0,2. Skotten är oberoende av varandra.</p><p>Hur stor är sannolikheten att laget gör ett eller två mål?</p>",
+    "kgInstruktion": "Svara i decimalform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna bort de två andra fallen: tre mål och inga mål.</p></li><li><div class=\"facit-matte\">\\[P(3)=0{,}9\\cdot0{,}5\\cdot0{,}2=0{,}09\\]</div></li><li><div class=\"facit-matte\">\\[P(0)=0{,}1\\cdot0{,}5\\cdot0{,}8=0{,}04\\]</div></li><li><div class=\"facit-matte\">\\[1-0{,}09-0{,}04=0{,}87\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,87</p></div>",
     "familj": "Sannolikhet med träddiagram",
     "formaga": [
@@ -155417,7 +155566,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/1",
-    "t": "<p>En brandlarmscentral har fyra larm som fungerar oberoende av varandra. Varje larm missar en brand med sannolikheten 0,15.</p><p>Hur stor är sannolikheten att minst ett larm går när det brinner? Svara i procent och avrunda till två decimaler.</p>",
+    "t": "<p>En brandlarmscentral har fyra larm som fungerar oberoende av varandra. Varje larm missar en brand med sannolikheten 0,15.</p><p>Hur stor är sannolikheten att minst ett larm går när det brinner?</p>",
+    "kgInstruktion": "Svara i procent och avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(\\text{alla missar})=0{,}15^4\\approx0{,}000506\\]</div></li><li><div class=\"facit-matte\">\\[1-0{,}000506\\approx0{,}9995\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 99,95 %.</p></div>",
     "familj": "Sannolikheten för minst en händelse",
     "formaga": [
@@ -159134,7 +159284,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Displayen på en bensinpump visar mängd och literpris.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"160\" viewBox=\"0 0 320 160\" role=\"img\" aria-label=\"Bensinpump som visar 45,30 liter och 19,40 kr per liter.\"><title>Bensinpump som visar 45,30 liter och 19,40 kr per liter.</title><rect x=\"1\" y=\"1\" width=\"318\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"20\" width=\"240\" height=\"120\" rx=\"10\" fill=\"#1f2937\"/><text x=\"60.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#9ca3af\">LITER</text><text x=\"260.0\" y=\"60.0\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"end\" fill=\"#a7f3d0\" font-weight=\"bold\">45,30</text><text x=\"60.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#9ca3af\">KR/LITER</text><text x=\"260.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"end\" fill=\"#a7f3d0\" font-weight=\"bold\">19,40</text></svg></span><p>Vad kostar tankningen? Avrunda till två decimaler.</p>",
+    "t": "<p>Displayen på en bensinpump visar mängd och literpris.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"160\" viewBox=\"0 0 320 160\" role=\"img\" aria-label=\"Bensinpump som visar 45,30 liter och 19,40 kr per liter.\"><title>Bensinpump som visar 45,30 liter och 19,40 kr per liter.</title><rect x=\"1\" y=\"1\" width=\"318\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"20\" width=\"240\" height=\"120\" rx=\"10\" fill=\"#1f2937\"/><text x=\"60.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#9ca3af\">LITER</text><text x=\"260.0\" y=\"60.0\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"end\" fill=\"#a7f3d0\" font-weight=\"bold\">45,30</text><text x=\"60.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#9ca3af\">KR/LITER</text><text x=\"260.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"end\" fill=\"#a7f3d0\" font-weight=\"bold\">19,40</text></svg></span><p>Vad kostar tankningen?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal gånger pris per styck</p><p>Läs av mängd och literpris på displayen.</p><div class=\"facit-matte\">\\[45{,}30\\cdot19{,}40=878{,}82\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 878,82 kr</p></div>",
     "familj": "Kostnad för material och arbete",
     "formaga": [
@@ -160289,7 +160440,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En skolrestaurang köpte in 96 kg mat under en vecka. Diagrammet visar hur mycket som slängdes varje dag.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Stapeldiagram över matsvinn: måndag 2,4 kg, tisdag 3,1 kg, onsdag 1,8 kg, torsdag 2,2 kg och fredag 2,5 kg.\"><title>Stapeldiagram över matsvinn: måndag 2,4 kg, tisdag 3,1 kg, onsdag 1,8 kg, torsdag 2,2 kg och fredag 2,5 kg.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"420.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">svinn (kg)</text><rect x=\"85\" y=\"96.7\" width=\"40\" height=\"113.3\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">mån</text><rect x=\"89.3\" y=\"76.7\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"88.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2,4</text><rect x=\"155\" y=\"63.6\" width=\"40\" height=\"146.4\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tis</text><rect x=\"159.3\" y=\"43.6\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"55.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3,1</text><rect x=\"225\" y=\"125.0\" width=\"40\" height=\"85.0\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">ons</text><rect x=\"229.3\" y=\"105.0\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"245.0\" y=\"117.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1,8</text><rect x=\"295\" y=\"106.1\" width=\"40\" height=\"103.9\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"315.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tor</text><rect x=\"299.3\" y=\"86.1\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"315.0\" y=\"98.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2,2</text><rect x=\"365\" y=\"91.9\" width=\"40\" height=\"118.1\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"385.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">fre</text><rect x=\"369.3\" y=\"71.9\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"385.0\" y=\"83.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2,5</text></svg></span><p>Hur många procent av den inköpta maten slängdes under veckan? Svara i procent och avrunda till en decimal.</p>",
+    "t": "<p>En skolrestaurang köpte in 96 kg mat under en vecka. Diagrammet visar hur mycket som slängdes varje dag.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Stapeldiagram över matsvinn: måndag 2,4 kg, tisdag 3,1 kg, onsdag 1,8 kg, torsdag 2,2 kg och fredag 2,5 kg.\"><title>Stapeldiagram över matsvinn: måndag 2,4 kg, tisdag 3,1 kg, onsdag 1,8 kg, torsdag 2,2 kg och fredag 2,5 kg.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"420.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">svinn (kg)</text><rect x=\"85\" y=\"96.7\" width=\"40\" height=\"113.3\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">mån</text><rect x=\"89.3\" y=\"76.7\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"88.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2,4</text><rect x=\"155\" y=\"63.6\" width=\"40\" height=\"146.4\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tis</text><rect x=\"159.3\" y=\"43.6\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"55.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3,1</text><rect x=\"225\" y=\"125.0\" width=\"40\" height=\"85.0\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">ons</text><rect x=\"229.3\" y=\"105.0\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"245.0\" y=\"117.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1,8</text><rect x=\"295\" y=\"106.1\" width=\"40\" height=\"103.9\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"315.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tor</text><rect x=\"299.3\" y=\"86.1\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"315.0\" y=\"98.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2,2</text><rect x=\"365\" y=\"91.9\" width=\"40\" height=\"118.1\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"385.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">fre</text><rect x=\"369.3\" y=\"71.9\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"385.0\" y=\"83.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2,5</text></svg></span><p>Hur många procent av den inköpta maten slängdes under veckan?</p>",
+    "kgInstruktion": "Svara i procent och avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summera svinnet i diagrammet</p><div class=\"facit-matte\">\\[2{,}4+3{,}1+1{,}8+2{,}2+2{,}5=12\\]</div></li><li><p class=\"facit-rubrik\">Svinn i procent: \\(\\frac{\\text{svinnet}}{\\text{hela mängden}}\\)</p><div class=\"facit-matte\">\\[\\frac{12}{96}=0{,}125=12{,}5\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5 %</p></div>",
     "familj": "Svinn och utbyte",
     "formaga": [
@@ -160459,7 +160611,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en klass går 18 tjejer och 12 killar. Hur stor del av klassen är killar? Svara med ett bråk.</p>",
+    "t": "<p>I en klass går 18 tjejer och 12 killar. Hur stor del av klassen är killar?</p>",
+    "kgInstruktion": "Svara med ett bråk.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andel: \\(\\frac{\\text{delen}}{\\text{det hela}}\\)</p><div class=\"facit-matte\">\\[\\frac{12}{18+12}=\\frac{12}{30}=\\frac25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac25\\)</p></div>",
     "familj": "Tolka och skala förhållanden",
     "formaga": [
@@ -162137,7 +162290,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Diagrammet visar ungefärliga antal dödsfall per miljard resta kilometer för tre färdsätt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" role=\"img\" aria-label=\"Stapeldiagram: bil 3, buss 0,4 och tåg 0,1 dödsfall per miljard kilometer.\"><title>Stapeldiagram: bil 3, buss 0,4 och tåg 0,1 dödsfall per miljard kilometer.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"280.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">dödsfall per miljard km</text><rect x=\"85\" y=\"68.3\" width=\"40\" height=\"141.7\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">bil</text><rect x=\"97.1\" y=\"48.3\" width=\"15.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"60.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3</text><rect x=\"155\" y=\"191.1\" width=\"40\" height=\"18.9\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">buss</text><rect x=\"159.3\" y=\"171.1\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"183.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0,4</text><rect x=\"225\" y=\"205.3\" width=\"40\" height=\"4.7\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tåg</text><rect x=\"229.3\" y=\"185.3\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"245.0\" y=\"197.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0,1</text></svg></span><p>Hur många gånger högre är risken per kilometer med bil än med buss? Svara i decimalform.</p>",
+    "t": "<p>Diagrammet visar ungefärliga antal dödsfall per miljard resta kilometer för tre färdsätt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" role=\"img\" aria-label=\"Stapeldiagram: bil 3, buss 0,4 och tåg 0,1 dödsfall per miljard kilometer.\"><title>Stapeldiagram: bil 3, buss 0,4 och tåg 0,1 dödsfall per miljard kilometer.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"280.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">dödsfall per miljard km</text><rect x=\"85\" y=\"68.3\" width=\"40\" height=\"141.7\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">bil</text><rect x=\"97.1\" y=\"48.3\" width=\"15.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"60.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3</text><rect x=\"155\" y=\"191.1\" width=\"40\" height=\"18.9\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">buss</text><rect x=\"159.3\" y=\"171.1\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"183.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0,4</text><rect x=\"225\" y=\"205.3\" width=\"40\" height=\"4.7\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tåg</text><rect x=\"229.3\" y=\"185.3\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"245.0\" y=\"197.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0,1</text></svg></span><p>Hur många gånger högre är risken per kilometer med bil än med buss?</p>",
+    "kgInstruktion": "Svara i decimalform.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela de två riskerna</p><p>Läs av bil 3 och buss 0,4 i diagrammet.</p><div class=\"facit-matte\">\\[\\frac{3}{0{,}4}=7{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,5 gånger</p></div>",
     "familj": "Bedöma risk och säkerhet",
     "formaga": [
@@ -162243,7 +162397,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Ett larm består av två oberoende system. Det första missar ett fel med sannolikheten 4 % och det andra med 3 %. Hur stor är risken att båda missar? Svara i procent.</p>",
+    "t": "<p>Ett larm består av två oberoende system. Det första missar ett fel med sannolikheten 4 % och det andra med 3 %. Hur stor är risken att båda missar?</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Oberoende händelser: \\(P(A\\text{ och }B)=P(A)\\cdot P(B)\\)</p><div class=\"facit-matte\">\\[0{,}04\\cdot0{,}03=0{,}0012=0{,}12\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,12 %</p></div>",
     "familj": "Beräkna risker",
     "formaga": [
@@ -162362,7 +162517,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en stad blir var 50:e cykel stulen varje år. Hur stor är risken att en viss cykel blir stulen under ett år? Svara i procent.</p>",
+    "t": "<p>I en stad blir var 50:e cykel stulen varje år. Hur stor är risken att en viss cykel blir stulen under ett år?</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv risken som ett bråk och sedan i procent</p><div class=\"facit-matte\">\\[\\frac1{50}=0{,}02=2\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 %</p></div>",
     "familj": "Beräkna risker",
     "formaga": [
@@ -162996,7 +163152,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Ett sparande räknas i ett kalkylblad. I B2 står 1 000, och i B3 står formeln <code>=B2*1,05</code>. Formeln kopieras ned till B6.</p><table class=\"data\"><tbody><tr><th></th><th>A</th><th>B</th></tr><tr><th>1</th><td>År</td><td>Saldo (kr)</td></tr><tr><th>2</th><td>0</td><td>1 000</td></tr><tr><th>3</th><td>1</td><td>1 050</td></tr><tr><th>4</th><td>2</td><td>1 102,50</td></tr><tr><th>5</th><td>3</td><td></td></tr><tr><th>6</th><td>4</td><td>?</td></tr></tbody></table><p>Vilket värde visas i B6? Avrunda till två decimaler.</p>",
+    "t": "<p>Ett sparande räknas i ett kalkylblad. I B2 står 1 000, och i B3 står formeln <code>=B2*1,05</code>. Formeln kopieras ned till B6.</p><table class=\"data\"><tbody><tr><th></th><th>A</th><th>B</th></tr><tr><th>1</th><td>År</td><td>Saldo (kr)</td></tr><tr><th>2</th><td>0</td><td>1 000</td></tr><tr><th>3</th><td>1</td><td>1 050</td></tr><tr><th>4</th><td>2</td><td>1 102,50</td></tr><tr><th>5</th><td>3</td><td></td></tr><tr><th>6</th><td>4</td><td>?</td></tr></tbody></table><p>Vilket värde visas i B6?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">När en formel kopieras nedåt ökar radnumren lika mycket</p><p>Från B2 till B6 multipliceras med 1,05 fyra gånger.</p><div class=\"facit-matte\">\\[1\\,000\\cdot1{,}05^4\\approx1\\,215{,}51\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 215,51</p></div>",
     "familj": "Privatekonomi",
     "formaga": [
@@ -166694,7 +166851,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "bortfall ger ett intervall",
-    "t": "<p>En förening har 400 medlemmar och skickar en enkät till alla. 250 svarar, och 150 av dem vill flytta årsmötet till en lördag. De som inte svarade kan tycka vad som helst. Mellan vilka värden ligger andelen av alla medlemmar som vill flytta årsmötet? Svara i procent.</p>",
+    "t": "<p>En förening har 400 medlemmar och skickar en enkät till alla. 250 svarar, och 150 av dem vill flytta årsmötet till en lördag. De som inte svarade kan tycka vad som helst. Mellan vilka värden ligger andelen av alla medlemmar som vill flytta årsmötet?</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal som inte svarade</p><div class=\"facit-matte\">\\[400-250=150\\]</div></li><li><p class=\"facit-rubrik\">Minst: ingen av dem som inte svarade vill flytta</p><div class=\"facit-matte\">\\[\\frac{150}{400}=0{,}375=37{,}5\\,\\%\\]</div></li><li><p class=\"facit-rubrik\">Högst: alla som inte svarade vill flytta</p><div class=\"facit-matte\">\\[\\frac{150+150}{400}=0{,}75=75\\,\\%\\]</div><p>Bortfallet gör att man bara vet att andelen ligger mellan dessa gränser. Bland dem som svarade är andelen 60 %, men det säger inget säkert om bortfallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mellan 37,5 % och 75 %.</p></div>",
     "familj": "Bedöma urval och representativitet",
     "formaga": [
@@ -166879,7 +167037,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "bortfallet tycker annorlunda",
-    "t": "<p>I en undersökning om rökning tillfrågas 1 000 slumpvis valda personer. 600 svarar, och 15 % av dem röker. Antag att andelen rökare bland de 400 som inte svarade är dubbelt så stor som bland dem som svarade. Hur stor andel av alla 1 000 röker då? Svara i procent.</p>",
+    "t": "<p>I en undersökning om rökning tillfrågas 1 000 slumpvis valda personer. 600 svarar, och 15 % av dem röker. Antag att andelen rökare bland de 400 som inte svarade är dubbelt så stor som bland dem som svarade. Hur stor andel av alla 1 000 röker då?</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rökare bland dem som svarade</p><div class=\"facit-matte\">\\[0{,}15\\cdot600=90\\]</div></li><li><p class=\"facit-rubrik\">Rökare bland bortfallet (30 %)</p><div class=\"facit-matte\">\\[0{,}30\\cdot400=120\\]</div></li><li><p class=\"facit-rubrik\">Lägg ihop rökarna och dela med alla 1 000</p><div class=\"facit-matte\">\\[\\frac{90+120}{1000}=0{,}21=21\\,\\%\\]</div><p>Undersökningen skulle alltså visa 15 % fast den verkliga andelen är 21 %. Ett bortfall som skiljer sig från de svarande ger ett snedvridet resultat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21 %</p></div>",
     "familj": "Bedöma urval och representativitet",
     "formaga": [
@@ -167240,7 +167399,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "Simpsons paradox i en tabell",
-    "t": "<p>Tabellen visar hur många elever som klarade uppkörningen på två körskolor. Eleverna är indelade efter om de hade övningskört mycket privat innan.</p><table class=\"data\"><tbody><tr><th></th><th>Körskola A</th><th>Körskola B</th></tr><tr><th>Övat mycket privat</th><td>80 av 100 klarade</td><td>18 av 20 klarade</td></tr><tr><th>Övat lite privat</th><td>20 av 100 klarade</td><td>54 av 180 klarade</td></tr></tbody></table><p>Hur stor andel av alla elever klarade uppkörningen på körskola A respektive körskola B? Svara i procent.</p>",
+    "t": "<p>Tabellen visar hur många elever som klarade uppkörningen på två körskolor. Eleverna är indelade efter om de hade övningskört mycket privat innan.</p><table class=\"data\"><tbody><tr><th></th><th>Körskola A</th><th>Körskola B</th></tr><tr><th>Övat mycket privat</th><td>80 av 100 klarade</td><td>18 av 20 klarade</td></tr><tr><th>Övat lite privat</th><td>20 av 100 klarade</td><td>54 av 180 klarade</td></tr></tbody></table><p>Hur stor andel av alla elever klarade uppkörningen på körskola A respektive körskola B?</p>",
+    "kgInstruktion": "Svara i procent.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Körskola A: lägg ihop båda grupperna</p><div class=\"facit-matte\">\\[\\frac{80+20}{100+100}=\\frac{100}{200}=50\\,\\%\\]</div></li><li><p class=\"facit-rubrik\">Körskola B: lägg ihop båda grupperna</p><div class=\"facit-matte\">\\[\\frac{18+54}{20+180}=\\frac{72}{200}=36\\,\\%\\]</div></li><li><p class=\"facit-rubrik\">Jämför inom varje grupp: B är bättre i båda</p><p>Övat mycket: A 80 %, B 90 %. Övat lite: A 20 %, B 30 %.</p><p>B har högre andel i <em>båda</em> grupperna men lägre andel totalt. Det beror på att de flesta av B:s elever hade övat lite. Hur mycket eleverna övat är en bakomliggande variabel som påverkar jämförelsen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: 50 %, B: 36 %</p></div>",
     "familj": "Kausalitet och bakomliggande variabler",
     "formaga": [
@@ -167506,7 +167666,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "temperaturvillkor i Fahrenheit",
-    "t": "<p>I ett växthus ska temperaturen vara minst 5 °C och lägre än 25 °C. Termometern visar i stället grader Fahrenheit, där \\(F=1{,}8C+32\\). Vilka värden på F är tillåtna? Svara med olikhetstecken.</p>",
+    "t": "<p>I ett växthus ska temperaturen vara minst 5 °C och lägre än 25 °C. Termometern visar i stället grader Fahrenheit, där \\(F=1{,}8C+32\\). Vilka värden på F är tillåtna?</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv villkoret för temperaturen i Celsius</p><div class=\"facit-matte\">\\[5\\le C\\lt 25\\]</div></li><li><p class=\"facit-rubrik\">Räkna om båda gränserna till Fahrenheit; vilken gräns som ingår behålls</p><div class=\"facit-matte\">\\[1{,}8\\cdot5+32=41,\\quad1{,}8\\cdot25+32=77\\]</div><p>F växer när C växer, så olikhetstecknen behåller sin riktning. 41 °F är tillåtet, men inte 77 °F.</p><div class=\"facit-matte\">\\[41\\le F\\lt 77\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\le F&lt;77\\)</p></div>",
     "familj": "Kombinera intervall och villkor",
     "formaga": [
@@ -167536,7 +167697,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "taxiresa med två villkor",
-    "t": "<p>En taxiresa kostar 45 kr i grundavgift plus 15 kr per kilometer. Ali ska åka minst 5 km och vill betala högst 300 kr. Vilka reslängder x km är möjliga? Svara med olikhetstecken.</p>",
+    "t": "<p>En taxiresa kostar 45 kr i grundavgift plus 15 kr per kilometer. Ali ska åka minst 5 km och vill betala högst 300 kr. Vilka reslängder x km är möjliga?</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kostnaden får vara högst 300 kr</p><div class=\"facit-matte\">\\[45+15x\\le300\\]</div><div class=\"facit-matte\">\\[15x\\le255\\]</div><div class=\"facit-matte\">\\[x\\le17\\]</div></li><li><p class=\"facit-rubrik\">Kombinera med kravet på minst 5 km</p><div class=\"facit-matte\">\\[5\\le x\\le17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\le x\\le17\\)</p></div>",
     "familj": "Kombinera intervall och villkor",
     "formaga": [
@@ -167565,7 +167727,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "tolerans före och efter kylning",
-    "t": "<p>En axel ska vara 80 mm lång med toleransen ±0,4 mm, och längder precis på gränserna godkänns. Axeln mäts när den är varm. När den svalnar krymper den 0,1 mm. Vilka längder L (i mm) får den varma axeln ha för att bli godkänd när den har svalnat? Svara med olikhetstecken.</p>",
+    "t": "<p>En axel ska vara 80 mm lång med toleransen ±0,4 mm, och längder precis på gränserna godkänns. Axeln mäts när den är varm. När den svalnar krymper den 0,1 mm. Vilka längder L (i mm) får den varma axeln ha för att bli godkänd när den har svalnat?</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Godkända längder efter kylning</p><div class=\"facit-matte\">\\[\\begin{gathered}80-0{,}4\\le L_{\\text{kall}}\\le80+0{,}4\\\\\\Rightarrow 79{,}6\\le L_{\\text{kall}}\\le80{,}4\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Den varma axeln är 0,1 mm längre</p><div class=\"facit-matte\">\\[L=L_{\\text{kall}}+0{,}1\\]</div><div class=\"facit-matte\">\\[79{,}7\\le L\\le80{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(79{,}7\\le L\\le80{,}5\\)</p></div>",
     "familj": "Skriva intervall med olikhetstecken",
     "formaga": [
@@ -167594,7 +167757,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "intervall ur en graf med definitionsmängd",
-    "t": "<p>Grafen visar funktionen f. En ifylld ring betyder att punkten hör till grafen, och en ofylld ring att den inte gör det.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"340\" viewBox=\"0 0 420 340\" role=\"img\" aria-label=\"Graf till en fallande rät linje från punkten (−2, 4), som är ifylld, till punkten (6, 0), som är ofylld. En streckad vågrät linje visar y = 2.\"><title>Graf till en fallande rät linje från punkten (−2, 4), som är ifylld, till punkten (6, 0), som är ofylld. En streckad vågrät linje visar y = 2.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"44.0\" y1=\"26\" x2=\"44.0\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"79.2\" y1=\"26\" x2=\"79.2\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"114.4\" y1=\"26\" x2=\"114.4\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"149.6\" y1=\"26\" x2=\"149.6\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"184.8\" y1=\"26\" x2=\"184.8\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"220.0\" y1=\"26\" x2=\"220.0\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"255.2\" y1=\"26\" x2=\"255.2\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"290.4\" y1=\"26\" x2=\"290.4\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"325.6\" y1=\"26\" x2=\"325.6\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"360.8\" y1=\"26\" x2=\"360.8\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"396.0\" y1=\"26\" x2=\"396.0\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"300.0\" x2=\"396\" y2=\"300.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"260.9\" x2=\"396\" y2=\"260.9\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"221.7\" x2=\"396\" y2=\"221.7\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"182.6\" x2=\"396\" y2=\"182.6\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"143.4\" x2=\"396\" y2=\"143.4\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"104.3\" x2=\"396\" y2=\"104.3\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"65.1\" x2=\"396\" y2=\"65.1\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"26.0\" x2=\"396\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"260.9\" x2=\"404\" y2=\"260.9\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"149.6\" y1=\"300\" x2=\"149.6\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"44\" y1=\"182.6\" x2=\"396\" y2=\"182.6\" stroke=\"#B7791F\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"79.2\" y1=\"104.3\" x2=\"360.8\" y2=\"260.9\" stroke=\"#216d87\" stroke-width=\"2.8\"/><circle cx=\"79.2\" cy=\"104.3\" r=\"5.5\" fill=\"#216d87\"/><circle cx=\"360.8\" cy=\"260.9\" r=\"5.5\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.5\"/><rect x=\"36.0\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"44.0\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−3</text><rect x=\"71.2\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"79.2\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><rect x=\"106.4\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"114.4\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><rect x=\"176.8\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"184.8\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"212.0\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"220.0\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"247.2\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"255.2\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"282.4\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"290.4\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"317.6\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"325.6\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"352.8\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"360.8\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><rect x=\"388.0\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"396.0\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><rect x=\"127.6\" y=\"292.0\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"304.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><rect x=\"127.6\" y=\"213.7\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"225.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"127.6\" y=\"174.6\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"186.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"127.6\" y=\"135.4\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"147.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"127.6\" y=\"96.3\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"108.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"127.6\" y=\"57.1\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"69.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"127.6\" y=\"18.0\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"404.0\" y=\"253.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"156.6\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><rect x=\"191.8\" y=\"66.8\" width=\"74\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"195.8\" y=\"80.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">y = f(x)</text><rect x=\"329.1\" y=\"161.6\" width=\"46\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"333.1\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#B7791F\" font-weight=\"bold\">y = 2</text></svg></span><p>För vilka x gäller \\(f(x)\\ge2\\)? Svara med olikhetstecken.</p>",
+    "t": "<p>Grafen visar funktionen f. En ifylld ring betyder att punkten hör till grafen, och en ofylld ring att den inte gör det.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"340\" viewBox=\"0 0 420 340\" role=\"img\" aria-label=\"Graf till en fallande rät linje från punkten (−2, 4), som är ifylld, till punkten (6, 0), som är ofylld. En streckad vågrät linje visar y = 2.\"><title>Graf till en fallande rät linje från punkten (−2, 4), som är ifylld, till punkten (6, 0), som är ofylld. En streckad vågrät linje visar y = 2.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"44.0\" y1=\"26\" x2=\"44.0\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"79.2\" y1=\"26\" x2=\"79.2\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"114.4\" y1=\"26\" x2=\"114.4\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"149.6\" y1=\"26\" x2=\"149.6\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"184.8\" y1=\"26\" x2=\"184.8\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"220.0\" y1=\"26\" x2=\"220.0\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"255.2\" y1=\"26\" x2=\"255.2\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"290.4\" y1=\"26\" x2=\"290.4\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"325.6\" y1=\"26\" x2=\"325.6\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"360.8\" y1=\"26\" x2=\"360.8\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"396.0\" y1=\"26\" x2=\"396.0\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"300.0\" x2=\"396\" y2=\"300.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"260.9\" x2=\"396\" y2=\"260.9\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"221.7\" x2=\"396\" y2=\"221.7\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"182.6\" x2=\"396\" y2=\"182.6\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"143.4\" x2=\"396\" y2=\"143.4\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"104.3\" x2=\"396\" y2=\"104.3\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"65.1\" x2=\"396\" y2=\"65.1\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"26.0\" x2=\"396\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"260.9\" x2=\"404\" y2=\"260.9\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"149.6\" y1=\"300\" x2=\"149.6\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"44\" y1=\"182.6\" x2=\"396\" y2=\"182.6\" stroke=\"#B7791F\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"79.2\" y1=\"104.3\" x2=\"360.8\" y2=\"260.9\" stroke=\"#216d87\" stroke-width=\"2.8\"/><circle cx=\"79.2\" cy=\"104.3\" r=\"5.5\" fill=\"#216d87\"/><circle cx=\"360.8\" cy=\"260.9\" r=\"5.5\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.5\"/><rect x=\"36.0\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"44.0\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−3</text><rect x=\"71.2\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"79.2\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><rect x=\"106.4\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"114.4\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><rect x=\"176.8\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"184.8\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"212.0\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"220.0\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"247.2\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"255.2\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"282.4\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"290.4\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"317.6\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"325.6\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"352.8\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"360.8\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><rect x=\"388.0\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"396.0\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><rect x=\"127.6\" y=\"292.0\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"304.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><rect x=\"127.6\" y=\"213.7\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"225.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"127.6\" y=\"174.6\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"186.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"127.6\" y=\"135.4\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"147.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"127.6\" y=\"96.3\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"108.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"127.6\" y=\"57.1\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"69.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"127.6\" y=\"18.0\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"404.0\" y=\"253.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"156.6\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><rect x=\"191.8\" y=\"66.8\" width=\"74\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"195.8\" y=\"80.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">y = f(x)</text><rect x=\"329.1\" y=\"161.6\" width=\"46\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"333.1\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#B7791F\" font-weight=\"bold\">y = 2</text></svg></span><p>För vilka x gäller \\(f(x)\\ge2\\)?</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Var ligger grafen på eller över linjen y = 2?</p><p>Grafen skär linjen y = 2 där x = 2 och ligger ovanför linjen till vänster om den punkten.</p></li><li><p class=\"facit-rubrik\">Var börjar grafen?</p><p>Grafen börjar i den ifyllda punkten (−2, 4), så x = −2 ingår men inga mindre x.</p><div class=\"facit-matte\">\\[-2\\le x\\le2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\le x\\le2\\)</p></div>",
     "familj": "Tal i ett intervall",
     "formaga": [
@@ -167624,7 +167788,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "union av två intervall på tallinjen",
-    "t": "<p>Tallinjerna visar intervallen A och B. En ifylld ring betyder att talet ingår, och en ofylld ring att det inte ingår.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"190\" viewBox=\"0 0 460 190\" role=\"img\" aria-label=\"Två tallinjer. A går från −3 (ofylld ring) till 4 (ifylld ring). B går från −1 (ifylld ring) till 6 (ofylld ring).\"><title>Två tallinjer. A går från −3 (ofylld ring) till 4 (ifylld ring). B går från −1 (ifylld ring) till 6 (ofylld ring).</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"50\" x2=\"442\" y2=\"50\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"45\" x2=\"50.0\" y2=\"55\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−5</text><line x1=\"79.2\" y1=\"45\" x2=\"79.2\" y2=\"55\" stroke=\"#34495e\"/><text x=\"79.2\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−4</text><line x1=\"108.5\" y1=\"45\" x2=\"108.5\" y2=\"55\" stroke=\"#34495e\"/><text x=\"108.5\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−3</text><line x1=\"137.7\" y1=\"45\" x2=\"137.7\" y2=\"55\" stroke=\"#34495e\"/><text x=\"137.7\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><line x1=\"166.9\" y1=\"45\" x2=\"166.9\" y2=\"55\" stroke=\"#34495e\"/><text x=\"166.9\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><line x1=\"196.2\" y1=\"45\" x2=\"196.2\" y2=\"55\" stroke=\"#34495e\"/><text x=\"196.2\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"225.4\" y1=\"45\" x2=\"225.4\" y2=\"55\" stroke=\"#34495e\"/><text x=\"225.4\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"254.6\" y1=\"45\" x2=\"254.6\" y2=\"55\" stroke=\"#34495e\"/><text x=\"254.6\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"283.8\" y1=\"45\" x2=\"283.8\" y2=\"55\" stroke=\"#34495e\"/><text x=\"283.8\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"313.1\" y1=\"45\" x2=\"313.1\" y2=\"55\" stroke=\"#34495e\"/><text x=\"313.1\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"342.3\" y1=\"45\" x2=\"342.3\" y2=\"55\" stroke=\"#34495e\"/><text x=\"342.3\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"371.5\" y1=\"45\" x2=\"371.5\" y2=\"55\" stroke=\"#34495e\"/><text x=\"371.5\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"400.8\" y1=\"45\" x2=\"400.8\" y2=\"55\" stroke=\"#34495e\"/><text x=\"400.8\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"430.0\" y1=\"45\" x2=\"430.0\" y2=\"55\" stroke=\"#34495e\"/><text x=\"430.0\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"108.5\" y1=\"50\" x2=\"313.1\" y2=\"50\" stroke=\"#216d87\" stroke-width=\"6\"/><circle cx=\"108.5\" cy=\"50\" r=\"6.5\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.5\"/><circle cx=\"313.1\" cy=\"50\" r=\"6.5\" fill=\"#216d87\" stroke=\"#216d87\" stroke-width=\"2.5\"/><text x=\"18.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><line x1=\"40\" y1=\"110\" x2=\"442\" y2=\"110\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"105\" x2=\"50.0\" y2=\"115\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−5</text><line x1=\"79.2\" y1=\"105\" x2=\"79.2\" y2=\"115\" stroke=\"#34495e\"/><text x=\"79.2\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−4</text><line x1=\"108.5\" y1=\"105\" x2=\"108.5\" y2=\"115\" stroke=\"#34495e\"/><text x=\"108.5\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−3</text><line x1=\"137.7\" y1=\"105\" x2=\"137.7\" y2=\"115\" stroke=\"#34495e\"/><text x=\"137.7\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><line x1=\"166.9\" y1=\"105\" x2=\"166.9\" y2=\"115\" stroke=\"#34495e\"/><text x=\"166.9\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><line x1=\"196.2\" y1=\"105\" x2=\"196.2\" y2=\"115\" stroke=\"#34495e\"/><text x=\"196.2\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"225.4\" y1=\"105\" x2=\"225.4\" y2=\"115\" stroke=\"#34495e\"/><text x=\"225.4\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"254.6\" y1=\"105\" x2=\"254.6\" y2=\"115\" stroke=\"#34495e\"/><text x=\"254.6\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"283.8\" y1=\"105\" x2=\"283.8\" y2=\"115\" stroke=\"#34495e\"/><text x=\"283.8\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"313.1\" y1=\"105\" x2=\"313.1\" y2=\"115\" stroke=\"#34495e\"/><text x=\"313.1\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"342.3\" y1=\"105\" x2=\"342.3\" y2=\"115\" stroke=\"#34495e\"/><text x=\"342.3\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"371.5\" y1=\"105\" x2=\"371.5\" y2=\"115\" stroke=\"#34495e\"/><text x=\"371.5\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"400.8\" y1=\"105\" x2=\"400.8\" y2=\"115\" stroke=\"#34495e\"/><text x=\"400.8\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"430.0\" y1=\"105\" x2=\"430.0\" y2=\"115\" stroke=\"#34495e\"/><text x=\"430.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"166.9\" y1=\"110\" x2=\"371.5\" y2=\"110\" stroke=\"#c2410c\" stroke-width=\"6\"/><circle cx=\"166.9\" cy=\"110\" r=\"6.5\" fill=\"#c2410c\" stroke=\"#c2410c\" stroke-width=\"2.5\"/><circle cx=\"371.5\" cy=\"110\" r=\"6.5\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"2.5\"/><text x=\"18.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B</text></svg></span><p>Vilka x ligger i <strong>minst ett</strong> av intervallen? Svara med olikhetstecken.</p>",
+    "t": "<p>Tallinjerna visar intervallen A och B. En ifylld ring betyder att talet ingår, och en ofylld ring att det inte ingår.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"190\" viewBox=\"0 0 460 190\" role=\"img\" aria-label=\"Två tallinjer. A går från −3 (ofylld ring) till 4 (ifylld ring). B går från −1 (ifylld ring) till 6 (ofylld ring).\"><title>Två tallinjer. A går från −3 (ofylld ring) till 4 (ifylld ring). B går från −1 (ifylld ring) till 6 (ofylld ring).</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"50\" x2=\"442\" y2=\"50\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"45\" x2=\"50.0\" y2=\"55\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−5</text><line x1=\"79.2\" y1=\"45\" x2=\"79.2\" y2=\"55\" stroke=\"#34495e\"/><text x=\"79.2\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−4</text><line x1=\"108.5\" y1=\"45\" x2=\"108.5\" y2=\"55\" stroke=\"#34495e\"/><text x=\"108.5\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−3</text><line x1=\"137.7\" y1=\"45\" x2=\"137.7\" y2=\"55\" stroke=\"#34495e\"/><text x=\"137.7\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><line x1=\"166.9\" y1=\"45\" x2=\"166.9\" y2=\"55\" stroke=\"#34495e\"/><text x=\"166.9\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><line x1=\"196.2\" y1=\"45\" x2=\"196.2\" y2=\"55\" stroke=\"#34495e\"/><text x=\"196.2\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"225.4\" y1=\"45\" x2=\"225.4\" y2=\"55\" stroke=\"#34495e\"/><text x=\"225.4\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"254.6\" y1=\"45\" x2=\"254.6\" y2=\"55\" stroke=\"#34495e\"/><text x=\"254.6\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"283.8\" y1=\"45\" x2=\"283.8\" y2=\"55\" stroke=\"#34495e\"/><text x=\"283.8\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"313.1\" y1=\"45\" x2=\"313.1\" y2=\"55\" stroke=\"#34495e\"/><text x=\"313.1\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"342.3\" y1=\"45\" x2=\"342.3\" y2=\"55\" stroke=\"#34495e\"/><text x=\"342.3\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"371.5\" y1=\"45\" x2=\"371.5\" y2=\"55\" stroke=\"#34495e\"/><text x=\"371.5\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"400.8\" y1=\"45\" x2=\"400.8\" y2=\"55\" stroke=\"#34495e\"/><text x=\"400.8\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"430.0\" y1=\"45\" x2=\"430.0\" y2=\"55\" stroke=\"#34495e\"/><text x=\"430.0\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"108.5\" y1=\"50\" x2=\"313.1\" y2=\"50\" stroke=\"#216d87\" stroke-width=\"6\"/><circle cx=\"108.5\" cy=\"50\" r=\"6.5\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.5\"/><circle cx=\"313.1\" cy=\"50\" r=\"6.5\" fill=\"#216d87\" stroke=\"#216d87\" stroke-width=\"2.5\"/><text x=\"18.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><line x1=\"40\" y1=\"110\" x2=\"442\" y2=\"110\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"105\" x2=\"50.0\" y2=\"115\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−5</text><line x1=\"79.2\" y1=\"105\" x2=\"79.2\" y2=\"115\" stroke=\"#34495e\"/><text x=\"79.2\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−4</text><line x1=\"108.5\" y1=\"105\" x2=\"108.5\" y2=\"115\" stroke=\"#34495e\"/><text x=\"108.5\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−3</text><line x1=\"137.7\" y1=\"105\" x2=\"137.7\" y2=\"115\" stroke=\"#34495e\"/><text x=\"137.7\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><line x1=\"166.9\" y1=\"105\" x2=\"166.9\" y2=\"115\" stroke=\"#34495e\"/><text x=\"166.9\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><line x1=\"196.2\" y1=\"105\" x2=\"196.2\" y2=\"115\" stroke=\"#34495e\"/><text x=\"196.2\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"225.4\" y1=\"105\" x2=\"225.4\" y2=\"115\" stroke=\"#34495e\"/><text x=\"225.4\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"254.6\" y1=\"105\" x2=\"254.6\" y2=\"115\" stroke=\"#34495e\"/><text x=\"254.6\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"283.8\" y1=\"105\" x2=\"283.8\" y2=\"115\" stroke=\"#34495e\"/><text x=\"283.8\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"313.1\" y1=\"105\" x2=\"313.1\" y2=\"115\" stroke=\"#34495e\"/><text x=\"313.1\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"342.3\" y1=\"105\" x2=\"342.3\" y2=\"115\" stroke=\"#34495e\"/><text x=\"342.3\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"371.5\" y1=\"105\" x2=\"371.5\" y2=\"115\" stroke=\"#34495e\"/><text x=\"371.5\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"400.8\" y1=\"105\" x2=\"400.8\" y2=\"115\" stroke=\"#34495e\"/><text x=\"400.8\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"430.0\" y1=\"105\" x2=\"430.0\" y2=\"115\" stroke=\"#34495e\"/><text x=\"430.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"166.9\" y1=\"110\" x2=\"371.5\" y2=\"110\" stroke=\"#c2410c\" stroke-width=\"6\"/><circle cx=\"166.9\" cy=\"110\" r=\"6.5\" fill=\"#c2410c\" stroke=\"#c2410c\" stroke-width=\"2.5\"/><circle cx=\"371.5\" cy=\"110\" r=\"6.5\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"2.5\"/><text x=\"18.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B</text></svg></span><p>Vilka x ligger i <strong>minst ett</strong> av intervallen?</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv intervallen</p><div class=\"facit-matte\">\\[A:\\ -3\\lt x\\le4,\\qquad B:\\ -1\\le x\\lt 6\\]</div></li><li><p class=\"facit-rubrik\">Intervallen överlappar, så tillsammans täcker de ett sammanhängande intervall</p><p>Den vänstra gränsen kommer från A (−3 ingår inte) och den högra från B (6 ingår inte).</p><div class=\"facit-matte\">\\[-3\\lt x\\lt 6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3&lt;x&lt;6\\)</p></div>",
     "familj": "Kombinera intervall och villkor",
     "formaga": [
@@ -167871,7 +168036,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "olikhet med parentes och teckenbyte",
-    "t": "<p>Lös olikheten \\(-3(x-2)\\ge2x-9\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös olikheten \\(-3(x-2)\\ge2x-9\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera in i parentesen</p><div class=\"facit-matte\">\\[-3x+6\\ge2x-9\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna på högra sidan</p><div class=\"facit-matte\">\\[15\\ge5x\\]</div><div class=\"facit-matte\">\\[3\\ge x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\le3\\)</p></div>",
     "familj": "Lösa linjära olikheter",
     "formaga": [
@@ -167983,7 +168149,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "dubbel olikhet",
-    "t": "<p>Lös olikheten \\(-5&lt;2x+3\\le11\\). Svara med olikhetstecken.</p>",
+    "t": "<p>Lös olikheten \\(-5&lt;2x+3\\le11\\).</p>",
+    "kgInstruktion": "Svara med en olikhet.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera 3 i alla tre led</p><div class=\"facit-matte\">\\[-8\\lt 2x\\le8\\]</div></li><li><p class=\"facit-rubrik\">Dividera alla led med 2</p><div class=\"facit-matte\">\\[-4\\lt x\\le4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4&lt;x\\le4\\)</p></div>",
     "familj": "Lösa linjära olikheter",
     "formaga": [
@@ -168492,7 +168659,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "största möjliga area",
-    "t": "<p>Ett rum mäts till 4,6 m × 3,2 m. Båda måtten är avrundade till närmaste decimeter. Hur stor kan rummets area högst vara? Avrunda till två decimaler.</p>",
+    "t": "<p>Ett rum mäts till 4,6 m × 3,2 m. Båda måtten är avrundade till närmaste decimeter. Hur stor kan rummets area högst vara?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största möjliga mått</p><p>Ett mått som avrundats till 4,6 m kan vara upp till 4,65 m, och 3,2 m upp till 3,25 m.</p><div class=\"facit-matte\">\\[4{,}65\\cdot3{,}25=15{,}1125\\approx15{,}11\\text{ m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15,11 m²</p></div>",
     "familj": "Rimlighet och avrundade mått",
     "formaga": [
@@ -168599,7 +168767,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "hjärtslag under ett år",
-    "t": "<p>Ett hjärta slår i genomsnitt 70 gånger per minut. Ungefär hur många gånger slår det under ett år? Svara i grundpotensform med två värdesiffror.</p>",
+    "t": "<p>Ett hjärta slår i genomsnitt 70 gånger per minut. Ungefär hur många gånger slår det under ett år?</p>",
+    "kgInstruktion": "Svara i grundpotensform med två värdesiffror.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Slag per dygn</p><div class=\"facit-matte\">\\[70\\cdot60\\cdot24=100\\,800\\]</div></li><li><p class=\"facit-rubrik\">Slag per år</p><div class=\"facit-matte\">\\[100\\,800\\cdot365\\approx3{,}7\\cdot10^{7}\\]</div><p>Överslag som kontroll: \\(70\\cdot60\\approx4000\\) per timme, \\(\\approx100\\,000\\) per dygn och \\(\\approx3{,}6\\cdot10^7\\) per år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(3{,}7\\cdot10^{7}\\) gånger</p></div>",
     "familj": "Överslag i yrkeslivet",
     "formaga": [
@@ -168744,7 +168913,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "ström från två apparater",
-    "t": "<p>En vattenkokare (2 200 W) och en brödrost (900 W) är kopplade till samma uttag med spänningen 230 V. Säkringen är på 10 A. Använd \\(P=U\\cdot I\\).</p><p>Hur stor blir den totala strömmen? Avrunda till en decimal.</p>",
+    "t": "<p>En vattenkokare (2 200 W) och en brödrost (900 W) är kopplade till samma uttag med spänningen 230 V. Säkringen är på 10 A. Använd \\(P=U\\cdot I\\).</p><p>Hur stor blir den totala strömmen?</p>",
+    "kgInstruktion": "Avrunda till en decimal.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Effekterna från apparaterna läggs ihop</p><div class=\"facit-matte\">\\[2200+900=3100\\text{ W}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut strömmen ur \\(P=U\\cdot I\\)</p><div class=\"facit-matte\">\\[I=\\frac{P}{U}=\\frac{3100}{230}\\approx13{,}5\\text{ A}\\]</div><p>Strömmen är större än 10 A, så säkringen löser ut om båda används samtidigt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13,5 A</p></div>",
     "familj": "Formler i yrkesarbete",
     "formaga": [
@@ -168773,7 +168943,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "späda en lösning",
-    "t": "<p>Du har 200 ml av en lösning med koncentrationen 40 %. Hur mycket vatten ska tillsättas för att koncentrationen ska bli 15 %? Avrunda till hela milliliter.</p>",
+    "t": "<p>Du har 200 ml av en lösning med koncentrationen 40 %. Hur mycket vatten ska tillsättas för att koncentrationen ska bli 15 %?</p>",
+    "kgInstruktion": "Avrunda till hela milliliter.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mängden ämne ändras inte</p><div class=\"facit-matte\">\\[0{,}40\\cdot200=80\\text{ ml}\\]</div></li><li><p class=\"facit-rubrik\">Total volym när 80 ml är 15 %</p><div class=\"facit-matte\">\\[\\frac{80}{0{,}15}\\approx533{,}3\\text{ ml}\\]</div></li><li><p class=\"facit-rubrik\">Vatten som tillsätts</p><div class=\"facit-matte\">\\[533{,}3-200\\approx333\\text{ ml}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 333 ml</p></div>",
     "familj": "Dosering och flöden",
     "formaga": [
@@ -168802,7 +168973,8 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "typ": "takets lutning i procent",
-    "t": "<p>Ett tak stiger 1,2 m på den vågräta sträckan 4,8 m. Lutningen i procent är höjdskillnaden delad med den vågräta sträckan.</p><p>a) Vilken lutning har taket i procent?<br>b) Hur mycket stiger ett tak med samma lutning på den vågräta sträckan 7,5 m? Avrunda till två decimaler.</p>",
+    "t": "<p>Ett tak stiger 1,2 m på den vågräta sträckan 4,8 m. Lutningen i procent är höjdskillnaden delad med den vågräta sträckan.</p><p>a) Vilken lutning har taket i procent?<br>b) Hur mycket stiger ett tak med samma lutning på den vågräta sträckan 7,5 m?</p>",
+    "kgInstruktion": "Avrunda till två decimaler.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Lutning = höjdskillnad delad med vågrät sträcka</p><div class=\"facit-matte\">\\[\\frac{1{,}2}{4{,}8}=0{,}25=25\\,\\%\\]</div></li><li><p class=\"facit-rubrik\">b) Samma lutning</p><div class=\"facit-matte\">\\[0{,}25\\cdot7{,}5=1{,}875\\approx1{,}88\\text{ m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 25 % b) 1,88 m</p></div>",
     "familj": "Formler i yrkesarbete",
     "formaga": [
@@ -170516,9 +170688,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{1}{5}+\\frac{2}{5}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{1}{5}+\\frac{2}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{1+2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "3/5",
@@ -170535,7 +170707,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{3}{7}+\\frac{2}{7}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{3}{7}+\\frac{2}{7}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+2}{7}=\\frac{5}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{7}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "5/7",
@@ -170552,7 +170725,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{1}{9}+\\frac{4}{9}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{1}{9}+\\frac{4}{9}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{1+4}{9}=\\frac{5}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{9}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "5/9",
@@ -170567,8 +170741,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "3/5",
     "5/7",
@@ -170591,7 +170764,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{5}+\\frac{2}{5}\\)</p><p>b) \\(\\frac{3}{7}+\\frac{2}{7}\\)</p><p>c) \\(\\frac{1}{9}+\\frac{4}{9}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{5}+\\frac{2}{5}\\)</p><p>b) \\(\\frac{3}{7}+\\frac{2}{7}\\)</p><p>c) \\(\\frac{1}{9}+\\frac{4}{9}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{1+2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+2}{7}=\\frac{5}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{7}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{1+4}{9}=\\frac{5}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{9}\\).</p></div></div></div>",
   "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>"
 },
@@ -170617,9 +170791,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{3}{10}+\\frac{1}{2}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{3}{10}+\\frac{1}{2}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot5}{2\\cdot5}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+5}{10}=\\frac{8}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{8\\div2}{10\\div2}=\\frac{4}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{4}{5}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "4/5",
@@ -170636,7 +170810,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{5}{12}+\\frac{1}{12}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{5}{12}+\\frac{1}{12}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5+1}{12}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "1/2",
@@ -170653,7 +170828,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{2}{11}+\\frac{7}{11}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{2}{11}+\\frac{7}{11}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{2+7}{11}=\\frac{9}{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{9}{11}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "9/11",
@@ -170668,8 +170844,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "4/5",
     "1/2",
@@ -170692,7 +170867,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{3}{10}+\\frac{1}{2}\\)</p><p>b) \\(\\frac{5}{12}+\\frac{1}{12}\\)</p><p>c) \\(\\frac{2}{11}+\\frac{7}{11}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{3}{10}+\\frac{1}{2}\\)</p><p>b) \\(\\frac{5}{12}+\\frac{1}{12}\\)</p><p>c) \\(\\frac{2}{11}+\\frac{7}{11}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot5}{2\\cdot5}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+5}{10}=\\frac{8}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{8\\div2}{10\\div2}=\\frac{4}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{4}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5+1}{12}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{2+7}{11}=\\frac{9}{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{9}{11}\\).</p></div></div></div>",
   "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
 },
@@ -170718,9 +170894,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{1}{2}+\\frac{1}{8}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{1}{2}+\\frac{1}{8}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot4}{2\\cdot4}=\\frac{4}{8}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+1}{8}=\\frac{5}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "5/8",
@@ -170737,7 +170913,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{2}{3}+\\frac{1}{6}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{2}{3}+\\frac{1}{6}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot2}{3\\cdot2}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+1}{6}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "5/6",
@@ -170754,7 +170931,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{3}{5}+\\frac{1}{10}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{3}{5}+\\frac{1}{10}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{5}=\\frac{3\\cdot2}{5\\cdot2}=\\frac{6}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+1}{10}=\\frac{7}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{10}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "7/10",
@@ -170769,8 +170947,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "5/8",
     "5/6",
@@ -170793,7 +170970,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{2}+\\frac{1}{8}\\)</p><p>b) \\(\\frac{2}{3}+\\frac{1}{6}\\)</p><p>c) \\(\\frac{3}{5}+\\frac{1}{10}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{2}+\\frac{1}{8}\\)</p><p>b) \\(\\frac{2}{3}+\\frac{1}{6}\\)</p><p>c) \\(\\frac{3}{5}+\\frac{1}{10}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot4}{2\\cdot4}=\\frac{4}{8}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+1}{8}=\\frac{5}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot2}{3\\cdot2}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+1}{6}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{5}=\\frac{3\\cdot2}{5\\cdot2}=\\frac{6}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+1}{10}=\\frac{7}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{10}\\).</p></div></div></div>",
   "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
 },
@@ -170819,9 +170997,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{1}{4}+\\frac{5}{8}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{1}{4}+\\frac{5}{8}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot2}{4\\cdot2}=\\frac{2}{8}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{2+5}{8}=\\frac{7}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{8}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "7/8",
@@ -170838,7 +171016,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{1}{3}+\\frac{4}{9}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{1}{3}+\\frac{4}{9}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som niondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot3}{3\\cdot3}=\\frac{3}{9}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+4}{9}=\\frac{7}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{9}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "7/9",
@@ -170855,7 +171034,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{3}{10}+\\frac{1}{5}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{3}{10}+\\frac{1}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{5}=\\frac{1\\cdot2}{5\\cdot2}=\\frac{2}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+2}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 5.</p><div class=\"facit-matte\">\\[\\frac{5\\div5}{10\\div5}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "1/2",
@@ -170870,8 +171050,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "7/8",
     "7/9",
@@ -170894,7 +171073,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{4}+\\frac{5}{8}\\)</p><p>b) \\(\\frac{1}{3}+\\frac{4}{9}\\)</p><p>c) \\(\\frac{3}{10}+\\frac{1}{5}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{4}+\\frac{5}{8}\\)</p><p>b) \\(\\frac{1}{3}+\\frac{4}{9}\\)</p><p>c) \\(\\frac{3}{10}+\\frac{1}{5}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot2}{4\\cdot2}=\\frac{2}{8}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{2+5}{8}=\\frac{7}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{8}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som niondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot3}{3\\cdot3}=\\frac{3}{9}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+4}{9}=\\frac{7}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{9}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{5}=\\frac{1\\cdot2}{5\\cdot2}=\\frac{2}{10}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+2}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 5.</p><div class=\"facit-matte\">\\[\\frac{5\\div5}{10\\div5}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div></div>",
   "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
 },
@@ -170920,9 +171100,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{1}{3}+\\frac{1}{4}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{1}{3}+\\frac{1}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot4}{3\\cdot4}=\\frac{4}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+3}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "7/12",
@@ -170939,7 +171119,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{2}{5}+\\frac{1}{3}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{2}{5}+\\frac{1}{3}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{5}=\\frac{2\\cdot3}{5\\cdot3}=\\frac{6}{15}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot5}{3\\cdot5}=\\frac{5}{15}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+5}{15}=\\frac{11}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{15}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "11/15",
@@ -170956,7 +171137,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{3}{4}+\\frac{1}{6}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{3}{4}+\\frac{1}{6}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot3}{4\\cdot3}=\\frac{9}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot2}{6\\cdot2}=\\frac{2}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9+2}{12}=\\frac{11}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{12}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "11/12",
@@ -170971,8 +171153,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "7/12",
     "11/15",
@@ -170995,7 +171176,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{3}+\\frac{1}{4}\\)</p><p>b) \\(\\frac{2}{5}+\\frac{1}{3}\\)</p><p>c) \\(\\frac{3}{4}+\\frac{1}{6}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{3}+\\frac{1}{4}\\)</p><p>b) \\(\\frac{2}{5}+\\frac{1}{3}\\)</p><p>c) \\(\\frac{3}{4}+\\frac{1}{6}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot4}{3\\cdot4}=\\frac{4}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4+3}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{5}=\\frac{2\\cdot3}{5\\cdot3}=\\frac{6}{15}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot5}{3\\cdot5}=\\frac{5}{15}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+5}{15}=\\frac{11}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{15}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot3}{4\\cdot3}=\\frac{9}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot2}{6\\cdot2}=\\frac{2}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9+2}{12}=\\frac{11}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{12}\\).</p></div></div></div>",
   "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
 },
@@ -171021,9 +171203,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(2+\\frac{1}{3}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(2+\\frac{1}{3}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tredjedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[2=\\frac{2\\cdot3}{1\\cdot3}=\\frac{6}{3}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+1}{3}=\\frac{7}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{3}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "7/3",
@@ -171040,7 +171222,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{3}{4}+1\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{3}{4}+1\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som fjärdedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot4}{1\\cdot4}=\\frac{4}{4}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+4}{4}=\\frac{7}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{4}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "7/4",
@@ -171057,7 +171240,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{5}{6}+\\frac{2}{3}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{5}{6}+\\frac{2}{3}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot2}{3\\cdot2}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5+4}{6}=\\frac{9}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{9\\div3}{6\\div3}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "3/2",
@@ -171072,8 +171256,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "7/3",
     "7/4",
@@ -171096,7 +171279,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(2+\\frac{1}{3}\\)</p><p>b) \\(\\frac{3}{4}+1\\)</p><p>c) \\(\\frac{5}{6}+\\frac{2}{3}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(2+\\frac{1}{3}\\)</p><p>b) \\(\\frac{3}{4}+1\\)</p><p>c) \\(\\frac{5}{6}+\\frac{2}{3}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tredjedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[2=\\frac{2\\cdot3}{1\\cdot3}=\\frac{6}{3}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6+1}{3}=\\frac{7}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som fjärdedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot4}{1\\cdot4}=\\frac{4}{4}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{3+4}{4}=\\frac{7}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot2}{3\\cdot2}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna: \\(\\frac{a}{n}+\\frac{b}{n}=\\frac{a+b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5+4}{6}=\\frac{9}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{9\\div3}{6\\div3}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div></div></div>",
   "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
 },
@@ -171122,9 +171306,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{4}{5}-\\frac{1}{5}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{4}{5}-\\frac{1}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4-1}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "3/5",
@@ -171141,7 +171325,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{6}{7}-\\frac{2}{7}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{6}{7}-\\frac{2}{7}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6-2}{7}=\\frac{4}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{4}{7}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "4/7",
@@ -171158,7 +171343,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{7}{9}-\\frac{2}{9}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{7}{9}-\\frac{2}{9}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-2}{9}=\\frac{5}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{9}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "5/9",
@@ -171173,8 +171359,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "3/5",
     "4/7",
@@ -171197,7 +171382,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{4}{5}-\\frac{1}{5}\\)</p><p>b) \\(\\frac{6}{7}-\\frac{2}{7}\\)</p><p>c) \\(\\frac{7}{9}-\\frac{2}{9}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{4}{5}-\\frac{1}{5}\\)</p><p>b) \\(\\frac{6}{7}-\\frac{2}{7}\\)</p><p>c) \\(\\frac{7}{9}-\\frac{2}{9}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{4-1}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6-2}{7}=\\frac{4}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{4}{7}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-2}{9}=\\frac{5}{9}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{9}\\).</p></div></div></div>",
   "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>"
 },
@@ -171223,9 +171409,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{9}{10}-\\frac{3}{10}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{9}{10}-\\frac{3}{10}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9-3}{10}=\\frac{6}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{10\\div2}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "3/5",
@@ -171242,7 +171428,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{11}{12}-\\frac{5}{12}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{11}{12}-\\frac{5}{12}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{11-5}{12}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "1/2",
@@ -171259,7 +171446,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{8}{11}-\\frac{3}{11}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{8}{11}-\\frac{3}{11}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{11}=\\frac{5}{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{11}\\).</p></div>",
       "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>",
       "rättSvar": "5/11",
@@ -171274,8 +171462,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "3/5",
     "1/2",
@@ -171298,7 +171485,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{9}{10}-\\frac{3}{10}\\)</p><p>b) \\(\\frac{11}{12}-\\frac{5}{12}\\)</p><p>c) \\(\\frac{8}{11}-\\frac{3}{11}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{9}{10}-\\frac{3}{10}\\)</p><p>b) \\(\\frac{11}{12}-\\frac{5}{12}\\)</p><p>c) \\(\\frac{8}{11}-\\frac{3}{11}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9-3}{10}=\\frac{6}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{10\\div2}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{11-5}{12}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{11}=\\frac{5}{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{11}\\).</p></div></div></div>",
   "ledtrad": "<p>Bråken har redan samma nämnare. Räkna med täljarna och behåll nämnaren.</p>"
 },
@@ -171324,9 +171512,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{3}{4}-\\frac{1}{8}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{3}{4}-\\frac{1}{8}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot2}{4\\cdot2}=\\frac{6}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6-1}{8}=\\frac{5}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "5/8",
@@ -171343,7 +171531,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{5}{6}-\\frac{1}{3}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{5}{6}-\\frac{1}{3}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot2}{3\\cdot2}=\\frac{2}{6}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5-2}{6}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{3\\div3}{6\\div3}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "1/2",
@@ -171360,7 +171549,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{7}{10}-\\frac{1}{5}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{7}{10}-\\frac{1}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{5}=\\frac{1\\cdot2}{5\\cdot2}=\\frac{2}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-2}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 5.</p><div class=\"facit-matte\">\\[\\frac{5\\div5}{10\\div5}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "1/2",
@@ -171375,8 +171565,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "5/8",
     "1/2",
@@ -171399,7 +171588,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{3}{4}-\\frac{1}{8}\\)</p><p>b) \\(\\frac{5}{6}-\\frac{1}{3}\\)</p><p>c) \\(\\frac{7}{10}-\\frac{1}{5}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{3}{4}-\\frac{1}{8}\\)</p><p>b) \\(\\frac{5}{6}-\\frac{1}{3}\\)</p><p>c) \\(\\frac{7}{10}-\\frac{1}{5}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot2}{4\\cdot2}=\\frac{6}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{6-1}{8}=\\frac{5}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{8}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot2}{3\\cdot2}=\\frac{2}{6}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5-2}{6}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{3\\div3}{6\\div3}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{5}=\\frac{1\\cdot2}{5\\cdot2}=\\frac{2}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-2}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 5.</p><div class=\"facit-matte\">\\[\\frac{5\\div5}{10\\div5}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div></div>",
   "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
 },
@@ -171425,9 +171615,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(1-\\frac{2}{5}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(1-\\frac{2}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot5}{1\\cdot5}=\\frac{5}{5}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5-2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "3/5",
@@ -171444,7 +171634,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(2-\\frac{3}{4}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(2-\\frac{3}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som fjärdedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[2=\\frac{2\\cdot4}{1\\cdot4}=\\frac{8}{4}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{4}=\\frac{5}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{4}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "5/4",
@@ -171461,7 +171652,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(1-\\frac{5}{8}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(1-\\frac{5}{8}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot8}{1\\cdot8}=\\frac{8}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-5}{8}=\\frac{3}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{8}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "3/8",
@@ -171476,8 +171668,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "3/5",
     "5/4",
@@ -171500,7 +171691,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(1-\\frac{2}{5}\\)</p><p>b) \\(2-\\frac{3}{4}\\)</p><p>c) \\(1-\\frac{5}{8}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(1-\\frac{2}{5}\\)</p><p>b) \\(2-\\frac{3}{4}\\)</p><p>c) \\(1-\\frac{5}{8}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot5}{1\\cdot5}=\\frac{5}{5}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{5-2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som fjärdedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[2=\\frac{2\\cdot4}{1\\cdot4}=\\frac{8}{4}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{4}=\\frac{5}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[1=\\frac{1\\cdot8}{1\\cdot8}=\\frac{8}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-5}{8}=\\frac{3}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{8}\\).</p></div></div></div>",
   "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
 },
@@ -171526,9 +171718,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{2}{3}-\\frac{1}{4}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{2}{3}-\\frac{1}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot4}{3\\cdot4}=\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{12}=\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{12}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "5/12",
@@ -171545,7 +171737,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{4}{5}-\\frac{1}{3}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{4}{5}-\\frac{1}{3}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{4}{5}=\\frac{4\\cdot3}{5\\cdot3}=\\frac{12}{15}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot5}{3\\cdot5}=\\frac{5}{15}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{12-5}{15}=\\frac{7}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{15}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "7/15",
@@ -171562,7 +171755,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{5}{6}-\\frac{1}{4}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{5}{6}-\\frac{1}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{5}{6}=\\frac{5\\cdot2}{6\\cdot2}=\\frac{10}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{10-3}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "7/12",
@@ -171577,8 +171771,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "5/12",
     "7/15",
@@ -171601,7 +171794,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{2}{3}-\\frac{1}{4}\\)</p><p>b) \\(\\frac{4}{5}-\\frac{1}{3}\\)</p><p>c) \\(\\frac{5}{6}-\\frac{1}{4}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{2}{3}-\\frac{1}{4}\\)</p><p>b) \\(\\frac{4}{5}-\\frac{1}{3}\\)</p><p>c) \\(\\frac{5}{6}-\\frac{1}{4}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot4}{3\\cdot4}=\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{8-3}{12}=\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{12}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som femtondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{4}{5}=\\frac{4\\cdot3}{5\\cdot3}=\\frac{12}{15}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot5}{3\\cdot5}=\\frac{5}{15}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{12-5}{15}=\\frac{7}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{15}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tolftedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{5}{6}=\\frac{5\\cdot2}{6\\cdot2}=\\frac{10}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot3}{4\\cdot3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{10-3}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\).</p></div></div></div>",
   "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
 },
@@ -171627,9 +171821,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{7}{6}-\\frac{1}{2}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{7}{6}-\\frac{1}{2}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot3}{2\\cdot3}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-3}{6}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{4\\div2}{6\\div2}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "2/3",
@@ -171646,7 +171840,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{9}{8}-\\frac{3}{4}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{9}{8}-\\frac{3}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot2}{4\\cdot2}=\\frac{6}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9-6}{8}=\\frac{3}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{8}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "3/8",
@@ -171663,7 +171858,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{11}{10}-\\frac{2}{5}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{11}{10}-\\frac{2}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{5}=\\frac{2\\cdot2}{5\\cdot2}=\\frac{4}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{11-4}{10}=\\frac{7}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{10}\\).</p></div>",
       "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>",
       "rättSvar": "7/10",
@@ -171678,8 +171874,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "2/3",
     "3/8",
@@ -171702,7 +171897,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{7}{6}-\\frac{1}{2}\\)</p><p>b) \\(\\frac{9}{8}-\\frac{3}{4}\\)</p><p>c) \\(\\frac{11}{10}-\\frac{2}{5}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{7}{6}-\\frac{1}{2}\\)</p><p>b) \\(\\frac{9}{8}-\\frac{3}{4}\\)</p><p>c) \\(\\frac{11}{10}-\\frac{2}{5}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som sjättedelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot3}{2\\cdot3}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{7-3}{6}=\\frac{4}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{4\\div2}{6\\div2}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som åttondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot2}{4\\cdot2}=\\frac{6}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{9-6}{8}=\\frac{3}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{8}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv bråken med gemensam nämnare</p><p>Båda talen kan skrivas som tiondelar. Multiplicera täljare och nämnare med samma tal.</p><div class=\"facit-matte\">\\[\\frac{2}{5}=\\frac{2\\cdot2}{5\\cdot2}=\\frac{4}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna: \\(\\frac{a}{n}-\\frac{b}{n}=\\frac{a-b}{n}\\)</p><p>Delarnas storlek ändras inte, så nämnaren är kvar.</p><div class=\"facit-matte\">\\[\\frac{11-4}{10}=\\frac{7}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{10}\\).</p></div></div></div>",
   "ledtrad": "<p>Skriv båda talen med samma nämnare innan du räknar med täljarna.</p>"
 },
@@ -171728,9 +171924,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{1}{2}\\cdot\\frac{1}{3}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{1}{2}\\cdot\\frac{1}{3}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot1}{2\\cdot3}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "1/6",
@@ -171747,7 +171943,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{1}{4}\\cdot\\frac{1}{5}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{1}{4}\\cdot\\frac{1}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot1}{4\\cdot5}=\\frac{1}{20}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{20}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "1/20",
@@ -171764,7 +171961,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{2}{3}\\cdot\\frac{1}{5}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{2}{3}\\cdot\\frac{1}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot1}{3\\cdot5}=\\frac{2}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{15}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "2/15",
@@ -171779,8 +171977,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "1/6",
     "1/20",
@@ -171803,7 +172000,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{2}\\cdot\\frac{1}{3}\\)</p><p>b) \\(\\frac{1}{4}\\cdot\\frac{1}{5}\\)</p><p>c) \\(\\frac{2}{3}\\cdot\\frac{1}{5}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{2}\\cdot\\frac{1}{3}\\)</p><p>b) \\(\\frac{1}{4}\\cdot\\frac{1}{5}\\)</p><p>c) \\(\\frac{2}{3}\\cdot\\frac{1}{5}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot1}{2\\cdot3}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot1}{4\\cdot5}=\\frac{1}{20}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{20}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot1}{3\\cdot5}=\\frac{2}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{15}\\).</p></div></div></div>",
   "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
 },
@@ -171829,9 +172027,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{3}{5}\\cdot\\frac{2}{7}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{3}{5}\\cdot\\frac{2}{7}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{5\\cdot7}=\\frac{6}{35}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{6}{35}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "6/35",
@@ -171848,7 +172046,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{2}{9}\\cdot\\frac{3}{4}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{2}{9}\\cdot\\frac{3}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot3}{9\\cdot4}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{36\\div6}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "1/6",
@@ -171865,7 +172064,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{3}{8}\\cdot\\frac{2}{5}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{3}{8}\\cdot\\frac{2}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{8\\cdot5}=\\frac{6}{40}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{40\\div2}=\\frac{3}{20}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{20}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "3/20",
@@ -171880,8 +172080,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "6/35",
     "1/6",
@@ -171904,7 +172103,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{3}{5}\\cdot\\frac{2}{7}\\)</p><p>b) \\(\\frac{2}{9}\\cdot\\frac{3}{4}\\)</p><p>c) \\(\\frac{3}{8}\\cdot\\frac{2}{5}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{3}{5}\\cdot\\frac{2}{7}\\)</p><p>b) \\(\\frac{2}{9}\\cdot\\frac{3}{4}\\)</p><p>c) \\(\\frac{3}{8}\\cdot\\frac{2}{5}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{5\\cdot7}=\\frac{6}{35}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{6}{35}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot3}{9\\cdot4}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{36\\div6}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{8\\cdot5}=\\frac{6}{40}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{40\\div2}=\\frac{3}{20}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{20}\\).</p></div></div></div>",
   "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
 },
@@ -171930,9 +172130,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{2}{3}\\cdot\\frac{3}{4}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{2}{3}\\cdot\\frac{3}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot3}{3\\cdot4}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "1/2",
@@ -171949,7 +172149,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{3}{5}\\cdot\\frac{5}{6}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{3}{5}\\cdot\\frac{5}{6}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{5\\cdot6}=\\frac{15}{30}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{15\\div15}{30\\div15}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "1/2",
@@ -171966,7 +172167,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{4}{7}\\cdot\\frac{7}{8}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{4}{7}\\cdot\\frac{7}{8}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot7}{7\\cdot8}=\\frac{28}{56}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 28.</p><div class=\"facit-matte\">\\[\\frac{28\\div28}{56\\div28}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "1/2",
@@ -171981,8 +172183,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "1/2",
     "1/2",
@@ -172005,7 +172206,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{2}{3}\\cdot\\frac{3}{4}\\)</p><p>b) \\(\\frac{3}{5}\\cdot\\frac{5}{6}\\)</p><p>c) \\(\\frac{4}{7}\\cdot\\frac{7}{8}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{2}{3}\\cdot\\frac{3}{4}\\)</p><p>b) \\(\\frac{3}{5}\\cdot\\frac{5}{6}\\)</p><p>c) \\(\\frac{4}{7}\\cdot\\frac{7}{8}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot3}{3\\cdot4}=\\frac{6}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{12\\div6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{5\\cdot6}=\\frac{15}{30}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{15\\div15}{30\\div15}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot7}{7\\cdot8}=\\frac{28}{56}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 28.</p><div class=\"facit-matte\">\\[\\frac{28\\div28}{56\\div28}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div></div>",
   "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
 },
@@ -172031,9 +172233,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{3}{4}\\cdot\\frac{2}{9}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{3}{4}\\cdot\\frac{2}{9}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{4\\cdot9}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{36\\div6}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "1/6",
@@ -172050,7 +172252,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{5}{6}\\cdot\\frac{3}{10}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{5}{6}\\cdot\\frac{3}{10}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot3}{6\\cdot10}=\\frac{15}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{15\\div15}{60\\div15}=\\frac{1}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{4}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "1/4",
@@ -172067,7 +172270,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{7}{12}\\cdot\\frac{6}{7}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{7}{12}\\cdot\\frac{6}{7}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot6}{12\\cdot7}=\\frac{42}{84}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 42.</p><div class=\"facit-matte\">\\[\\frac{42\\div42}{84\\div42}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "1/2",
@@ -172082,8 +172286,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "1/6",
     "1/4",
@@ -172106,7 +172309,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{3}{4}\\cdot\\frac{2}{9}\\)</p><p>b) \\(\\frac{5}{6}\\cdot\\frac{3}{10}\\)</p><p>c) \\(\\frac{7}{12}\\cdot\\frac{6}{7}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{3}{4}\\cdot\\frac{2}{9}\\)</p><p>b) \\(\\frac{5}{6}\\cdot\\frac{3}{10}\\)</p><p>c) \\(\\frac{7}{12}\\cdot\\frac{6}{7}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot2}{4\\cdot9}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{6\\div6}{36\\div6}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot3}{6\\cdot10}=\\frac{15}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{15\\div15}{60\\div15}=\\frac{1}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{4}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot6}{12\\cdot7}=\\frac{42}{84}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 42.</p><div class=\"facit-matte\">\\[\\frac{42\\div42}{84\\div42}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div></div>",
   "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
 },
@@ -172132,9 +172336,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(3\\cdot\\frac{1}{5}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(3\\cdot\\frac{1}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot1}{1\\cdot5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "3/5",
@@ -172151,7 +172355,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{1}{4}\\cdot6\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{1}{4}\\cdot6\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[6=\\frac{6}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot6}{4\\cdot1}=\\frac{6}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{4\\div2}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "3/2",
@@ -172168,7 +172373,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(4\\cdot\\frac{2}{7}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(4\\cdot\\frac{2}{7}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot2}{1\\cdot7}=\\frac{8}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{7}\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "8/7",
@@ -172183,8 +172389,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "3/5",
     "3/2",
@@ -172207,7 +172412,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(3\\cdot\\frac{1}{5}\\)</p><p>b) \\(\\frac{1}{4}\\cdot6\\)</p><p>c) \\(4\\cdot\\frac{2}{7}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(3\\cdot\\frac{1}{5}\\)</p><p>b) \\(\\frac{1}{4}\\cdot6\\)</p><p>c) \\(4\\cdot\\frac{2}{7}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot1}{1\\cdot5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[6=\\frac{6}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot6}{4\\cdot1}=\\frac{6}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{6\\div2}{4\\div2}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot2}{1\\cdot7}=\\frac{8}{7}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{7}\\).</p></div></div></div>",
   "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
 },
@@ -172233,9 +172439,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(8\\cdot\\frac{3}{4}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(8\\cdot\\frac{3}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[8=\\frac{8}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{8\\cdot3}{1\\cdot4}=\\frac{24}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{24\\div4}{4\\div4}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "6",
@@ -172252,7 +172458,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{5}{6}\\cdot12\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{5}{6}\\cdot12\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[12=\\frac{12}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot12}{6\\cdot1}=\\frac{60}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{60\\div6}{6\\div6}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "10",
@@ -172269,7 +172476,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{9}{5}\\cdot\\frac{5}{3}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{9}{5}\\cdot\\frac{5}{3}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{9\\cdot5}{5\\cdot3}=\\frac{45}{15}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{45\\div15}{15\\div15}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\).</p></div>",
       "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>",
       "rättSvar": "3",
@@ -172284,8 +172492,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "6",
     "10",
@@ -172308,7 +172515,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(8\\cdot\\frac{3}{4}\\)</p><p>b) \\(\\frac{5}{6}\\cdot12\\)</p><p>c) \\(\\frac{9}{5}\\cdot\\frac{5}{3}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(8\\cdot\\frac{3}{4}\\)</p><p>b) \\(\\frac{5}{6}\\cdot12\\)</p><p>c) \\(\\frac{9}{5}\\cdot\\frac{5}{3}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[8=\\frac{8}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{8\\cdot3}{1\\cdot4}=\\frac{24}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{24\\div4}{4\\div4}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[12=\\frac{12}{1}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot12}{6\\cdot1}=\\frac{60}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{60\\div6}{6\\div6}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{9\\cdot5}{5\\cdot3}=\\frac{45}{15}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 15.</p><div class=\"facit-matte\">\\[\\frac{45\\div15}{15\\div15}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\).</p></div></div></div>",
   "ledtrad": "<p>Multiplicera täljarna med varandra och nämnarna med varandra. Ett heltal kan skrivas med nämnaren 1.</p>"
 },
@@ -172334,9 +172542,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{1}{2}\\div\\frac{1}{4}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{1}{2}\\div\\frac{1}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{1}{2}\\div\\frac{1}{4}=\\frac{1}{2}\\cdot4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot4}{2\\cdot1}=\\frac{4}{2}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{4\\div2}{2\\div2}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "2",
@@ -172353,7 +172561,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{1}{3}\\div\\frac{1}{6}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{1}{3}\\div\\frac{1}{6}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{1}{3}\\div\\frac{1}{6}=\\frac{1}{3}\\cdot6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot6}{3\\cdot1}=\\frac{6}{3}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{6\\div3}{3\\div3}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "2",
@@ -172370,7 +172579,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{3}{4}\\div\\frac{1}{8}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{3}{4}\\div\\frac{1}{8}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{4}\\div\\frac{1}{8}=\\frac{3}{4}\\cdot8\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot8}{4\\cdot1}=\\frac{24}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{24\\div4}{4\\div4}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "6",
@@ -172385,8 +172595,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "2",
     "2",
@@ -172409,7 +172618,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{2}\\div\\frac{1}{4}\\)</p><p>b) \\(\\frac{1}{3}\\div\\frac{1}{6}\\)</p><p>c) \\(\\frac{3}{4}\\div\\frac{1}{8}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{1}{2}\\div\\frac{1}{4}\\)</p><p>b) \\(\\frac{1}{3}\\div\\frac{1}{6}\\)</p><p>c) \\(\\frac{3}{4}\\div\\frac{1}{8}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{1}{2}\\div\\frac{1}{4}=\\frac{1}{2}\\cdot4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot4}{2\\cdot1}=\\frac{4}{2}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{4\\div2}{2\\div2}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{1}{3}\\div\\frac{1}{6}=\\frac{1}{3}\\cdot6\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{1\\cdot6}{3\\cdot1}=\\frac{6}{3}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 3.</p><div class=\"facit-matte\">\\[\\frac{6\\div3}{3\\div3}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{4}\\div\\frac{1}{8}=\\frac{3}{4}\\cdot8\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot8}{4\\cdot1}=\\frac{24}{4}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{24\\div4}{4\\div4}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\).</p></div></div></div>",
   "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
 },
@@ -172435,9 +172645,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{2}{3}\\div\\frac{4}{5}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{2}{3}\\div\\frac{4}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{2}{3}\\div\\frac{4}{5}=\\frac{2}{3}\\cdot\\frac{5}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot5}{3\\cdot4}=\\frac{10}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{10\\div2}{12\\div2}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "5/6",
@@ -172454,7 +172664,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{3}{7}\\div\\frac{2}{5}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{3}{7}\\div\\frac{2}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{7}\\div\\frac{2}{5}=\\frac{3}{7}\\cdot\\frac{5}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{7\\cdot2}=\\frac{15}{14}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{14}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "15/14",
@@ -172471,7 +172682,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{5}{8}\\div\\frac{3}{4}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{5}{8}\\div\\frac{3}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{8}\\div\\frac{3}{4}=\\frac{5}{8}\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot4}{8\\cdot3}=\\frac{20}{24}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{20\\div4}{24\\div4}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "5/6",
@@ -172486,8 +172698,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "5/6",
     "15/14",
@@ -172510,7 +172721,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{2}{3}\\div\\frac{4}{5}\\)</p><p>b) \\(\\frac{3}{7}\\div\\frac{2}{5}\\)</p><p>c) \\(\\frac{5}{8}\\div\\frac{3}{4}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{2}{3}\\div\\frac{4}{5}\\)</p><p>b) \\(\\frac{3}{7}\\div\\frac{2}{5}\\)</p><p>c) \\(\\frac{5}{8}\\div\\frac{3}{4}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{2}{3}\\div\\frac{4}{5}=\\frac{2}{3}\\cdot\\frac{5}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot5}{3\\cdot4}=\\frac{10}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 2.</p><div class=\"facit-matte\">\\[\\frac{10\\div2}{12\\div2}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{7}\\div\\frac{2}{5}=\\frac{3}{7}\\cdot\\frac{5}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{7\\cdot2}=\\frac{15}{14}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{14}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{8}\\div\\frac{3}{4}=\\frac{5}{8}\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot4}{8\\cdot3}=\\frac{20}{24}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 4.</p><div class=\"facit-matte\">\\[\\frac{20\\div4}{24\\div4}=\\frac{5}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{6}\\).</p></div></div></div>",
   "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
 },
@@ -172536,9 +172748,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{3}{5}\\div2\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{3}{5}\\div2\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[2=\\frac{2}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{5}\\div2=\\frac{3}{5}\\cdot\\frac{1}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot1}{5\\cdot2}=\\frac{3}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{10}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "3/10",
@@ -172555,7 +172767,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{7}{8}\\div3\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{7}{8}\\div3\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{8}\\div3=\\frac{7}{8}\\cdot\\frac{1}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot1}{8\\cdot3}=\\frac{7}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{24}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "7/24",
@@ -172572,7 +172785,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{5}{6}\\div4\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{5}{6}\\div4\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{6}\\div4=\\frac{5}{6}\\cdot\\frac{1}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot1}{6\\cdot4}=\\frac{5}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{24}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "5/24",
@@ -172587,8 +172801,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "3/10",
     "7/24",
@@ -172611,7 +172824,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{3}{5}\\div2\\)</p><p>b) \\(\\frac{7}{8}\\div3\\)</p><p>c) \\(\\frac{5}{6}\\div4\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{3}{5}\\div2\\)</p><p>b) \\(\\frac{7}{8}\\div3\\)</p><p>c) \\(\\frac{5}{6}\\div4\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[2=\\frac{2}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{3}{5}\\div2=\\frac{3}{5}\\cdot\\frac{1}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot1}{5\\cdot2}=\\frac{3}{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{10}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{8}\\div3=\\frac{7}{8}\\cdot\\frac{1}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot1}{8\\cdot3}=\\frac{7}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{24}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{6}\\div4=\\frac{5}{6}\\cdot\\frac{1}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot1}{6\\cdot4}=\\frac{5}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{24}\\).</p></div></div></div>",
   "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
 },
@@ -172637,9 +172851,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(2\\div\\frac{3}{4}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(2\\div\\frac{3}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[2=\\frac{2}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[2\\div\\frac{3}{4}=2\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot4}{1\\cdot3}=\\frac{8}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{3}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "8/3",
@@ -172656,7 +172870,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(3\\div\\frac{2}{5}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(3\\div\\frac{2}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[3\\div\\frac{2}{5}=3\\cdot\\frac{5}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{1\\cdot2}=\\frac{15}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{2}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "15/2",
@@ -172673,7 +172888,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(4\\div\\frac{5}{6}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(4\\div\\frac{5}{6}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[4\\div\\frac{5}{6}=4\\cdot\\frac{6}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot6}{1\\cdot5}=\\frac{24}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{24}{5}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "24/5",
@@ -172688,8 +172904,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "8/3",
     "15/2",
@@ -172712,7 +172927,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(2\\div\\frac{3}{4}\\)</p><p>b) \\(3\\div\\frac{2}{5}\\)</p><p>c) \\(4\\div\\frac{5}{6}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(2\\div\\frac{3}{4}\\)</p><p>b) \\(3\\div\\frac{2}{5}\\)</p><p>c) \\(4\\div\\frac{5}{6}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[2=\\frac{2}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[2\\div\\frac{3}{4}=2\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{2\\cdot4}{1\\cdot3}=\\frac{8}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[3=\\frac{3}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[3\\div\\frac{2}{5}=3\\cdot\\frac{5}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{3\\cdot5}{1\\cdot2}=\\frac{15}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv heltalet som ett bråk</p><p>Ett heltal kan skrivas med nämnaren 1.</p><div class=\"facit-matte\">\\[4=\\frac{4}{1}\\]</div></li><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[4\\div\\frac{5}{6}=4\\cdot\\frac{6}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot6}{1\\cdot5}=\\frac{24}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{24}{5}\\).</p></div></div></div>",
   "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
 },
@@ -172738,9 +172954,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{4}{9}\\div\\frac{2}{3}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{4}{9}\\div\\frac{2}{3}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{4}{9}\\div\\frac{2}{3}=\\frac{4}{9}\\cdot\\frac{3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot3}{9\\cdot2}=\\frac{12}{18}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{12\\div6}{18\\div6}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "2/3",
@@ -172757,7 +172973,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{5}{12}\\div\\frac{5}{6}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{5}{12}\\div\\frac{5}{6}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{12}\\div\\frac{5}{6}=\\frac{5}{12}\\cdot\\frac{6}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot6}{12\\cdot5}=\\frac{30}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 30.</p><div class=\"facit-matte\">\\[\\frac{30\\div30}{60\\div30}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "1/2",
@@ -172774,7 +172991,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{7}{10}\\div\\frac{7}{5}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{7}{10}\\div\\frac{7}{5}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{10}\\div\\frac{7}{5}=\\frac{7}{10}\\cdot\\frac{5}{7}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot5}{10\\cdot7}=\\frac{35}{70}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 35.</p><div class=\"facit-matte\">\\[\\frac{35\\div35}{70\\div35}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "1/2",
@@ -172789,8 +173007,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "2/3",
     "1/2",
@@ -172813,7 +173030,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{4}{9}\\div\\frac{2}{3}\\)</p><p>b) \\(\\frac{5}{12}\\div\\frac{5}{6}\\)</p><p>c) \\(\\frac{7}{10}\\div\\frac{7}{5}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{4}{9}\\div\\frac{2}{3}\\)</p><p>b) \\(\\frac{5}{12}\\div\\frac{5}{6}\\)</p><p>c) \\(\\frac{7}{10}\\div\\frac{7}{5}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{4}{9}\\div\\frac{2}{3}=\\frac{4}{9}\\cdot\\frac{3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{4\\cdot3}{9\\cdot2}=\\frac{12}{18}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 6.</p><div class=\"facit-matte\">\\[\\frac{12\\div6}{18\\div6}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{12}\\div\\frac{5}{6}=\\frac{5}{12}\\cdot\\frac{6}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot6}{12\\cdot5}=\\frac{30}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 30.</p><div class=\"facit-matte\">\\[\\frac{30\\div30}{60\\div30}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{10}\\div\\frac{7}{5}=\\frac{7}{10}\\cdot\\frac{5}{7}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot5}{10\\cdot7}=\\frac{35}{70}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 35.</p><div class=\"facit-matte\">\\[\\frac{35\\div35}{70\\div35}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div></div>",
   "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
 },
@@ -172839,9 +173057,9 @@ window.BANKMA1 = [
   "svarstyp": "flera_delar",
   "svarsstruktur": "ordnad",
   "spelDelning": "deluppgifter",
-  "spelDelar": [
-    {
-      "t": "<p>Beräkna \\(\\frac{9}{8}\\div\\frac{3}{4}\\). Svara exakt.</p>",
+  "spelDelar": [{
+      "t": "<p>Beräkna \\(\\frac{9}{8}\\div\\frac{3}{4}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{9}{8}\\div\\frac{3}{4}=\\frac{9}{8}\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{9\\cdot4}{8\\cdot3}=\\frac{36}{24}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 12.</p><div class=\"facit-matte\">\\[\\frac{36\\div12}{24\\div12}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "3/2",
@@ -172858,7 +173076,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{7}{6}\\div\\frac{7}{3}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{7}{6}\\div\\frac{7}{3}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{6}\\div\\frac{7}{3}=\\frac{7}{6}\\cdot\\frac{3}{7}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot3}{6\\cdot7}=\\frac{21}{42}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 21.</p><div class=\"facit-matte\">\\[\\frac{21\\div21}{42\\div21}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "1/2",
@@ -172875,7 +173094,8 @@ window.BANKMA1 = [
       "självrättning": true
     },
     {
-      "t": "<p>Beräkna \\(\\frac{5}{4}\\div\\frac{5}{8}\\). Svara exakt.</p>",
+      "t": "<p>Beräkna \\(\\frac{5}{4}\\div\\frac{5}{8}\\).</p>",
+      "kgInstruktion": "Svara exakt.",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{4}\\div\\frac{5}{8}=\\frac{5}{4}\\cdot\\frac{8}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot8}{4\\cdot5}=\\frac{40}{20}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 20.</p><div class=\"facit-matte\">\\[\\frac{40\\div20}{20\\div20}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div>",
       "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>",
       "rättSvar": "2",
@@ -172890,8 +173110,7 @@ window.BANKMA1 = [
       "poang": "1/0/0",
       "tolerans": 0,
       "självrättning": true
-    }
-  ],
+    }],
   "rättSvar": [
     "3/2",
     "1/2",
@@ -172914,7 +173133,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Beräkna. Svara exakt.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{9}{8}\\div\\frac{3}{4}\\)</p><p>b) \\(\\frac{7}{6}\\div\\frac{7}{3}\\)</p><p>c) \\(\\frac{5}{4}\\div\\frac{5}{8}\\)</p></div>",
+  "t": "<p>Beräkna.</p><div class=\"deluppgifter\"><p>a) \\(\\frac{9}{8}\\div\\frac{3}{4}\\)</p><p>b) \\(\\frac{7}{6}\\div\\frac{7}{3}\\)</p><p>c) \\(\\frac{5}{4}\\div\\frac{5}{8}\\)</p></div>",
+  "kgInstruktion": "Svara exakt.",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{9}{8}\\div\\frac{3}{4}=\\frac{9}{8}\\cdot\\frac{4}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{9\\cdot4}{8\\cdot3}=\\frac{36}{24}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 12.</p><div class=\"facit-matte\">\\[\\frac{36\\div12}{24\\div12}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{7}{6}\\div\\frac{7}{3}=\\frac{7}{6}\\cdot\\frac{3}{7}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{7\\cdot3}{6\\cdot7}=\\frac{21}{42}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 21.</p><div class=\"facit-matte\">\\[\\frac{21\\div21}{42\\div21}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Division: \\(\\frac{a}{b}\\div\\frac{c}{d}=\\frac{a}{b}\\cdot\\frac{d}{c}\\)</p><p>Behåll det första talet och vänd på det andra bråket.</p><div class=\"facit-matte\">\\[\\frac{5}{4}\\div\\frac{5}{8}=\\frac{5}{4}\\cdot\\frac{8}{5}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(\\frac{a}{b}\\cdot\\frac{c}{d}=\\frac{ac}{bd}\\)</p><p>Täljarna ger den nya täljaren och nämnarna den nya nämnaren.</p><div class=\"facit-matte\">\\[\\frac{5\\cdot8}{4\\cdot5}=\\frac{40}{20}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta täljare och nämnare</p><p>Dividera både täljaren och nämnaren med 20.</p><div class=\"facit-matte\">\\[\\frac{40\\div20}{20\\div20}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\).</p></div></div></div>",
   "ledtrad": "<p>Behåll det första talet. Byt division mot multiplikation med det andra talets omvända bråk.</p>"
 },
@@ -175818,7 +176038,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "4/0/0",
-    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{1}{5}+\\frac{2}{5}\\)</div><div>b) \\(\\frac{1}{2}+\\frac{1}{4}\\)</div><div>c) \\(\\frac{2}{3}+\\frac{3}{4}\\)</div><div>d) \\(\\frac{5}{6}-\\frac{3}{8}\\)</div></div>",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{1}{5}+\\frac{2}{5}\\)</div><div>b) \\(\\frac{1}{2}+\\frac{1}{4}\\)</div><div>c) \\(\\frac{2}{3}+\\frac{3}{4}\\)</div><div>d) \\(\\frac{5}{6}-\\frac{3}{8}\\)</div></div>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 5</p><div class=\"facit-matte\">\\[\\frac{1+2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot 2}{2\\cdot 2}=\\frac{2}{4}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{2+1}{4}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot 4}{3\\cdot 4}=\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{8+9}{12}=\\frac{17}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{17}{12}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 24</p><div class=\"facit-matte\">\\[\\frac{5}{6}=\\frac{5\\cdot 4}{6\\cdot 4}=\\frac{20}{24}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{8}=\\frac{3\\cdot 3}{8\\cdot 3}=\\frac{9}{24}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 24</p><div class=\"facit-matte\">\\[\\frac{20-9}{24}=\\frac{11}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{24}\\)</p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -175844,10 +176065,10 @@ window.BANKMA1 = [
       "bråk"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{1}{5}+\\frac{2}{5}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{1}{5}+\\frac{2}{5}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 5</p><div class=\"facit-matte\">\\[\\frac{1+2}{5}=\\frac{3}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{5}\\)</p></div>",
         "ledtrad": "<p>Nämnarna är redan lika. Vad händer med täljarna?</p>",
         "niva": "E",
@@ -175856,7 +176077,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{1}{2}+\\frac{1}{4}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{1}{2}+\\frac{1}{4}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot 2}{2\\cdot 2}=\\frac{2}{4}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{2+1}{4}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 2 och 4 går jämnt upp i?</p>",
         "niva": "E",
@@ -175865,7 +176087,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{2}{3}+\\frac{3}{4}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{2}{3}+\\frac{3}{4}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{2}{3}=\\frac{2\\cdot 4}{3\\cdot 4}=\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{8+9}{12}=\\frac{17}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{17}{12}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 3 och 4 går jämnt upp i?</p>",
         "niva": "E",
@@ -175874,14 +176097,14 @@ window.BANKMA1 = [
       },
       {
         "etikett": "d",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{5}{6}-\\frac{3}{8}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{5}{6}-\\frac{3}{8}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 24</p><div class=\"facit-matte\">\\[\\frac{5}{6}=\\frac{5\\cdot 4}{6\\cdot 4}=\\frac{20}{24}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{8}=\\frac{3\\cdot 3}{8\\cdot 3}=\\frac{9}{24}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 24</p><div class=\"facit-matte\">\\[\\frac{20-9}{24}=\\frac{11}{24}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{24}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 6 och 8 går jämnt upp i?</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 3
-      }
-    ],
+      }],
     "ledtrad": "<p><strong>a)</strong> Nämnarna är redan lika. Vad händer med täljarna?</p><p><strong>b)</strong> Vilken är den minsta nämnare som både 2 och 4 går jämnt upp i?</p><p><strong>c)</strong> Vilken är den minsta nämnare som både 3 och 4 går jämnt upp i?</p><p><strong>d)</strong> Vilken är den minsta nämnare som både 6 och 8 går jämnt upp i?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2
@@ -175897,7 +176120,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{7}{9}-\\frac{4}{9}\\)</div><div>b) \\(\\frac{3}{4}-\\frac{1}{6}\\)</div></div>",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{7}{9}-\\frac{4}{9}\\)</div><div>b) \\(\\frac{3}{4}-\\frac{1}{6}\\)</div></div>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 9</p><div class=\"facit-matte\">\\[\\frac{7-4}{9}=\\frac{3}{9}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 3</p><div class=\"facit-matte\">\\[\\frac{3}{9}=\\frac{1}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{3}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot 2}{6\\cdot 2}=\\frac{2}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{9-2}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\)</p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -175919,10 +176143,10 @@ window.BANKMA1 = [
       "bråk"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{7}{9}-\\frac{4}{9}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{7}{9}-\\frac{4}{9}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 9</p><div class=\"facit-matte\">\\[\\frac{7-4}{9}=\\frac{3}{9}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 3</p><div class=\"facit-matte\">\\[\\frac{3}{9}=\\frac{1}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{3}\\)</p></div>",
         "ledtrad": "<p>Nämnarna är redan lika. Vad händer med täljarna?</p>",
         "niva": "E",
@@ -175931,14 +176155,14 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{3}{4}-\\frac{1}{6}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{3}{4}-\\frac{1}{6}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot 2}{6\\cdot 2}=\\frac{2}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{9-2}{12}=\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{12}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 4 och 6 går jämnt upp i?</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2
-      }
-    ],
+      }],
     "ledtrad": "<p><strong>a)</strong> Nämnarna är redan lika. Vad händer med täljarna?</p><p><strong>b)</strong> Vilken är den minsta nämnare som både 4 och 6 går jämnt upp i?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2
@@ -175954,7 +176178,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\frac{2}{5}+\\frac{1}{3}\\). Ange svaret i enklaste form.</p>",
+    "t": "<p>Beräkna \\(\\frac{2}{5}+\\frac{1}{3}\\).</p>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 15</p><div class=\"facit-matte\">\\[\\frac{2}{5}=\\frac{2\\cdot 3}{5\\cdot 3}=\\frac{6}{15}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot 5}{3\\cdot 5}=\\frac{5}{15}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 15</p><div class=\"facit-matte\">\\[\\frac{6+5}{15}=\\frac{11}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}{15}\\)</p></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -175983,7 +176208,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{3}{10}+\\frac{1}{10}\\)</div><div>b) \\(\\frac{5}{12}+\\frac{1}{4}\\)</div><div>c) \\(\\frac{1}{6}-\\frac{3}{4}\\)</div></div>",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{3}{10}+\\frac{1}{10}\\)</div><div>b) \\(\\frac{5}{12}+\\frac{1}{4}\\)</div><div>c) \\(\\frac{1}{6}-\\frac{3}{4}\\)</div></div>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{3+1}{10}=\\frac{4}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{4}{10}=\\frac{2}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{5}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{5+3}{12}=\\frac{8}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 4</p><div class=\"facit-matte\">\\[\\frac{8}{12}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot 2}{6\\cdot 2}=\\frac{2}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{2-9}{12}=-\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{7}{12}\\)</p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -176007,10 +176233,10 @@ window.BANKMA1 = [
       "bråk"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{3}{10}+\\frac{1}{10}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{3}{10}+\\frac{1}{10}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{3+1}{10}=\\frac{4}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{4}{10}=\\frac{2}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{5}\\)</p></div>",
         "ledtrad": "<p>Nämnarna är redan lika. Vad händer med täljarna?</p>",
         "niva": "E",
@@ -176019,7 +176245,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{5}{12}+\\frac{1}{4}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{5}{12}+\\frac{1}{4}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{5+3}{12}=\\frac{8}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 4</p><div class=\"facit-matte\">\\[\\frac{8}{12}=\\frac{2}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{2}{3}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 12 och 4 går jämnt upp i?</p>",
         "niva": "E",
@@ -176028,14 +176255,14 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{1}{6}-\\frac{3}{4}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{1}{6}-\\frac{3}{4}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{1}{6}=\\frac{1\\cdot 2}{6\\cdot 2}=\\frac{2}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{3}{4}=\\frac{3\\cdot 3}{4\\cdot 3}=\\frac{9}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{2-9}{12}=-\\frac{7}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{7}{12}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 6 och 4 går jämnt upp i?</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 3
-      }
-    ],
+      }],
     "ledtrad": "<p><strong>a)</strong> Nämnarna är redan lika. Vad händer med täljarna?</p><p><strong>b)</strong> Vilken är den minsta nämnare som både 12 och 4 går jämnt upp i?</p><p><strong>c)</strong> Vilken är den minsta nämnare som både 6 och 4 går jämnt upp i?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2
@@ -176051,7 +176278,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\frac{7}{8}-\\frac{1}{2}\\). Ange svaret i enklaste form.</p>",
+    "t": "<p>Beräkna \\(\\frac{7}{8}-\\frac{1}{2}\\).</p>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 8</p><div class=\"facit-matte\">\\[\\frac{1}{2}=\\frac{1\\cdot 4}{2\\cdot 4}=\\frac{4}{8}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 8</p><div class=\"facit-matte\">\\[\\frac{7-4}{8}=\\frac{3}{8}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{8}\\)</p></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -176080,7 +176308,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "4/0/0",
-    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{1}{3}+\\frac{1}{6}\\)</div><div>b) \\(\\frac{4}{5}-\\frac{3}{10}\\)</div><div>c) \\(-\\frac{2}{3}+\\frac{1}{4}\\)</div><div>d) \\(-\\frac{5}{6}-\\frac{1}{4}\\)</div></div>",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{1}{3}+\\frac{1}{6}\\)</div><div>b) \\(\\frac{4}{5}-\\frac{3}{10}\\)</div><div>c) \\(-\\frac{2}{3}+\\frac{1}{4}\\)</div><div>d) \\(-\\frac{5}{6}-\\frac{1}{4}\\)</div></div>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot 2}{3\\cdot 2}=\\frac{2}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{2+1}{6}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 3</p><div class=\"facit-matte\">\\[\\frac{3}{6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{4}{5}=\\frac{4\\cdot 2}{5\\cdot 2}=\\frac{8}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{8-3}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 5</p><div class=\"facit-matte\">\\[\\frac{5}{10}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[-\\frac{2}{3}=-\\frac{2\\cdot 4}{3\\cdot 4}=-\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{-8+3}{12}=-\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{5}{12}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[-\\frac{5}{6}=-\\frac{5\\cdot 2}{6\\cdot 2}=-\\frac{10}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{-10-3}{12}=-\\frac{13}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{13}{12}\\)</p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -176106,10 +176335,10 @@ window.BANKMA1 = [
       "bråk"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{1}{3}+\\frac{1}{6}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{1}{3}+\\frac{1}{6}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{1}{3}=\\frac{1\\cdot 2}{3\\cdot 2}=\\frac{2}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{2+1}{6}=\\frac{3}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 3</p><div class=\"facit-matte\">\\[\\frac{3}{6}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 3 och 6 går jämnt upp i?</p>",
         "niva": "E",
@@ -176118,7 +176347,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{4}{5}-\\frac{3}{10}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{4}{5}-\\frac{3}{10}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{4}{5}=\\frac{4\\cdot 2}{5\\cdot 2}=\\frac{8}{10}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 10</p><div class=\"facit-matte\">\\[\\frac{8-3}{10}=\\frac{5}{10}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 5</p><div class=\"facit-matte\">\\[\\frac{5}{10}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 5 och 10 går jämnt upp i?</p>",
         "niva": "E",
@@ -176127,7 +176357,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(-\\frac{2}{3}+\\frac{1}{4}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-\\frac{2}{3}+\\frac{1}{4}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[-\\frac{2}{3}=-\\frac{2\\cdot 4}{3\\cdot 4}=-\\frac{8}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{-8+3}{12}=-\\frac{5}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{5}{12}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 3 och 4 går jämnt upp i?</p>",
         "niva": "E",
@@ -176136,14 +176367,14 @@ window.BANKMA1 = [
       },
       {
         "etikett": "d",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(-\\frac{5}{6}-\\frac{1}{4}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-\\frac{5}{6}-\\frac{1}{4}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 12</p><div class=\"facit-matte\">\\[-\\frac{5}{6}=-\\frac{5\\cdot 2}{6\\cdot 2}=-\\frac{10}{12}\\]</div><div class=\"facit-matte\">\\[\\frac{1}{4}=\\frac{1\\cdot 3}{4\\cdot 3}=\\frac{3}{12}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 12</p><div class=\"facit-matte\">\\[\\frac{-10-3}{12}=-\\frac{13}{12}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{13}{12}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 6 och 4 går jämnt upp i?</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 3
-      }
-    ],
+      }],
     "ledtrad": "<p><strong>a)</strong> Vilken är den minsta nämnare som både 3 och 6 går jämnt upp i?</p><p><strong>b)</strong> Vilken är den minsta nämnare som både 5 och 10 går jämnt upp i?</p><p><strong>c)</strong> Vilken är den minsta nämnare som både 3 och 4 går jämnt upp i?</p><p><strong>d)</strong> Vilken är den minsta nämnare som både 6 och 4 går jämnt upp i?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2
@@ -176159,7 +176390,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2-\\frac{3}{4}\\)</div><div>b) \\(\\frac{3}{2}+\\frac{5}{6}\\)</div></div>",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(2-\\frac{3}{4}\\)</div><div>b) \\(\\frac{3}{2}+\\frac{5}{6}\\)</div></div>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(2\\) som ett bråk med nämnaren 4</p><div class=\"facit-matte\">\\[2=\\frac{8}{4}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{8-3}{4}=\\frac{5}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{4}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{3}{2}=\\frac{3\\cdot 3}{2\\cdot 3}=\\frac{9}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{9+5}{6}=\\frac{14}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{14}{6}=\\frac{7}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{3}\\)</p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -176181,10 +176413,10 @@ window.BANKMA1 = [
       "bråk"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(2-\\frac{3}{4}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(2-\\frac{3}{4}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(2\\) som ett bråk med nämnaren 4</p><div class=\"facit-matte\">\\[2=\\frac{8}{4}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera täljarna och behåll nämnaren 4</p><div class=\"facit-matte\">\\[\\frac{8-3}{4}=\\frac{5}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{5}{4}\\)</p></div>",
         "ledtrad": "<p>Skriv \\(2\\) som ett bråk med nämnaren 4.</p>",
         "niva": "E",
@@ -176193,14 +176425,14 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{3}{2}+\\frac{5}{6}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{3}{2}+\\frac{5}{6}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förläng till den gemensamma nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{3}{2}=\\frac{3\\cdot 3}{2\\cdot 3}=\\frac{9}{6}\\]</div></li><li><p class=\"facit-rubrik\">Addera täljarna och behåll nämnaren 6</p><div class=\"facit-matte\">\\[\\frac{9+5}{6}=\\frac{14}{6}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{14}{6}=\\frac{7}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{7}{3}\\)</p></div>",
         "ledtrad": "<p>Vilken är den minsta nämnare som både 2 och 6 går jämnt upp i?</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 3
-      }
-    ],
+      }],
     "ledtrad": "<p><strong>a)</strong> Skriv \\(2\\) som ett bråk med nämnaren 4.</p><p><strong>b)</strong> Vilken är den minsta nämnare som både 2 och 6 går jämnt upp i?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2
@@ -176216,7 +176448,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "4/0/0",
-    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{2}{3}\\cdot \\frac{4}{5}\\)</div><div>b) \\(\\frac{3}{4}\\cdot \\frac{2}{9}\\)</div><div>c) \\(6\\cdot \\frac{5}{8}\\)</div><div>d) \\(-\\frac{5}{6}\\cdot \\frac{9}{10}\\)</div></div>",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{2}{3}\\cdot \\frac{4}{5}\\)</div><div>b) \\(\\frac{3}{4}\\cdot \\frac{2}{9}\\)</div><div>c) \\(6\\cdot \\frac{5}{8}\\)</div><div>d) \\(-\\frac{5}{6}\\cdot \\frac{9}{10}\\)</div></div>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (2 och 4) och nämnarna (3 och 5)</p><div class=\"facit-matte\">\\[\\frac{2\\cdot 4}{3\\cdot 5}=\\frac{8}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{15}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (3 och 2) och nämnarna (4 och 9)</p><div class=\"facit-matte\">\\[\\frac{3\\cdot 2}{4\\cdot 9}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 6</p><div class=\"facit-matte\">\\[\\frac{6}{36}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Heltalet 6 multipliceras bara med täljaren</p><div class=\"facit-matte\">\\[\\frac{6\\cdot 5}{8}=\\frac{30}{8}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{30}{8}=\\frac{15}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{4}\\)</p></div><p><strong>d)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (−5 och 9) och nämnarna (6 och 10)</p><div class=\"facit-matte\">\\[\\frac{-5\\cdot 9}{6\\cdot 10}=-\\frac{45}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 15</p><div class=\"facit-matte\">\\[-\\frac{45}{60}=-\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{3}{4}\\)</p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -176242,10 +176475,10 @@ window.BANKMA1 = [
       "bråk"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{2}{3}\\cdot \\frac{4}{5}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{2}{3}\\cdot \\frac{4}{5}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (2 och 4) och nämnarna (3 och 5)</p><div class=\"facit-matte\">\\[\\frac{2\\cdot 4}{3\\cdot 5}=\\frac{8}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8}{15}\\)</p></div>",
         "ledtrad": "<p>Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
         "niva": "E",
@@ -176254,7 +176487,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{3}{4}\\cdot \\frac{2}{9}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{3}{4}\\cdot \\frac{2}{9}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (3 och 2) och nämnarna (4 och 9)</p><div class=\"facit-matte\">\\[\\frac{3\\cdot 2}{4\\cdot 9}=\\frac{6}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 6</p><div class=\"facit-matte\">\\[\\frac{6}{36}=\\frac{1}{6}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{6}\\)</p></div>",
         "ledtrad": "<p>Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
         "niva": "E",
@@ -176263,7 +176497,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(6\\cdot \\frac{5}{8}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(6\\cdot \\frac{5}{8}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Heltalet 6 multipliceras bara med täljaren</p><div class=\"facit-matte\">\\[\\frac{6\\cdot 5}{8}=\\frac{30}{8}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{30}{8}=\\frac{15}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{15}{4}\\)</p></div>",
         "ledtrad": "<p>Multiplicera bara täljaren med heltalet. Förkorta sedan om det går.</p>",
         "niva": "E",
@@ -176272,14 +176507,14 @@ window.BANKMA1 = [
       },
       {
         "etikett": "d",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(-\\frac{5}{6}\\cdot \\frac{9}{10}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-\\frac{5}{6}\\cdot \\frac{9}{10}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (−5 och 9) och nämnarna (6 och 10)</p><div class=\"facit-matte\">\\[\\frac{-5\\cdot 9}{6\\cdot 10}=-\\frac{45}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 15</p><div class=\"facit-matte\">\\[-\\frac{45}{60}=-\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{3}{4}\\)</p></div>",
         "ledtrad": "<p>Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 3
-      }
-    ],
+      }],
     "ledtrad": "<p><strong>a)</strong> Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p><p><strong>b)</strong> Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p><p><strong>c)</strong> Multiplicera bara täljaren med heltalet. Förkorta sedan om det går.</p><p><strong>d)</strong> Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2
@@ -176295,7 +176530,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{1}{2}\\div \\frac{1}{4}\\)</div><div>b) \\(\\frac{2}{3}\\div \\frac{4}{9}\\)</div></div>",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{1}{2}\\div \\frac{1}{4}\\)</div><div>b) \\(\\frac{2}{3}\\div \\frac{4}{9}\\)</div></div>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{1}{4}\\) är samma sak som att multiplicera med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{1}{2}\\div \\frac{1}{4}=\\frac{1}{2}\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (1 och 4) och nämnarna (2 och 1)</p><div class=\"facit-matte\">\\[\\frac{1\\cdot 4}{2\\cdot 1}=\\frac{4}{2}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{4}{2}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{4}{9}\\) är samma sak som att multiplicera med \\(\\frac{9}{4}\\)</p><div class=\"facit-matte\">\\[\\frac{2}{3}\\div \\frac{4}{9}=\\frac{2}{3}\\cdot \\frac{9}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (2 och 9) och nämnarna (3 och 4)</p><div class=\"facit-matte\">\\[\\frac{2\\cdot 9}{3\\cdot 4}=\\frac{18}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 6</p><div class=\"facit-matte\">\\[\\frac{18}{12}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\)</p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -176317,10 +176553,10 @@ window.BANKMA1 = [
       "bråk"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{1}{2}\\div \\frac{1}{4}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{1}{2}\\div \\frac{1}{4}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{1}{4}\\) är samma sak som att multiplicera med \\(4\\)</p><div class=\"facit-matte\">\\[\\frac{1}{2}\\div \\frac{1}{4}=\\frac{1}{2}\\cdot 4\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (1 och 4) och nämnarna (2 och 1)</p><div class=\"facit-matte\">\\[\\frac{1\\cdot 4}{2\\cdot 1}=\\frac{4}{2}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 2</p><div class=\"facit-matte\">\\[\\frac{4}{2}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\)</p></div>",
         "ledtrad": "<p>Byt division med \\(\\frac{1}{4}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
         "niva": "E",
@@ -176329,14 +176565,14 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{2}{3}\\div \\frac{4}{9}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{2}{3}\\div \\frac{4}{9}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{4}{9}\\) är samma sak som att multiplicera med \\(\\frac{9}{4}\\)</p><div class=\"facit-matte\">\\[\\frac{2}{3}\\div \\frac{4}{9}=\\frac{2}{3}\\cdot \\frac{9}{4}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (2 och 9) och nämnarna (3 och 4)</p><div class=\"facit-matte\">\\[\\frac{2\\cdot 9}{3\\cdot 4}=\\frac{18}{12}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 6</p><div class=\"facit-matte\">\\[\\frac{18}{12}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\)</p></div>",
         "ledtrad": "<p>Byt division med \\(\\frac{4}{9}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 3
-      }
-    ],
+      }],
     "ledtrad": "<p><strong>a)</strong> Byt division med \\(\\frac{1}{4}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p><p><strong>b)</strong> Byt division med \\(\\frac{4}{9}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2
@@ -176352,7 +176588,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\frac{3}{5}\\div 3\\). Ange svaret i enklaste form.</p>",
+    "t": "<p>Beräkna \\(\\frac{3}{5}\\div 3\\).</p>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(3\\) är samma sak som att multiplicera med \\(\\frac{1}{3}\\)</p><div class=\"facit-matte\">\\[\\frac{3}{5}\\div 3=\\frac{3}{5}\\cdot \\frac{1}{3}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (3 och 1) och nämnarna (5 och 3)</p><div class=\"facit-matte\">\\[\\frac{3\\cdot 1}{5\\cdot 3}=\\frac{3}{15}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 3</p><div class=\"facit-matte\">\\[\\frac{3}{15}=\\frac{1}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{5}\\)</p></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -176381,7 +176618,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{4}{7}\\cdot \\frac{7}{8}\\)</div><div>b) \\(\\frac{5}{6}\\div \\frac{10}{9}\\)</div><div>c) \\(-\\frac{3}{4}\\div \\frac{9}{16}\\)</div></div>",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{4}{7}\\cdot \\frac{7}{8}\\)</div><div>b) \\(\\frac{5}{6}\\div \\frac{10}{9}\\)</div><div>c) \\(-\\frac{3}{4}\\div \\frac{9}{16}\\)</div></div>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (4 och 7) och nämnarna (7 och 8)</p><div class=\"facit-matte\">\\[\\frac{4\\cdot 7}{7\\cdot 8}=\\frac{28}{56}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 28</p><div class=\"facit-matte\">\\[\\frac{28}{56}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{10}{9}\\) är samma sak som att multiplicera med \\(\\frac{9}{10}\\)</p><div class=\"facit-matte\">\\[\\frac{5}{6}\\div \\frac{10}{9}=\\frac{5}{6}\\cdot \\frac{9}{10}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (5 och 9) och nämnarna (6 och 10)</p><div class=\"facit-matte\">\\[\\frac{5\\cdot 9}{6\\cdot 10}=\\frac{45}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 15</p><div class=\"facit-matte\">\\[\\frac{45}{60}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{9}{16}\\) är samma sak som att multiplicera med \\(\\frac{16}{9}\\)</p><div class=\"facit-matte\">\\[-\\frac{3}{4}\\div \\frac{9}{16}=-\\frac{3}{4}\\cdot \\frac{16}{9}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (−3 och 16) och nämnarna (4 och 9)</p><div class=\"facit-matte\">\\[\\frac{-3\\cdot 16}{4\\cdot 9}=-\\frac{48}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 12</p><div class=\"facit-matte\">\\[-\\frac{48}{36}=-\\frac{4}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{4}{3}\\)</p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -176405,10 +176643,10 @@ window.BANKMA1 = [
       "bråk"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{4}{7}\\cdot \\frac{7}{8}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{4}{7}\\cdot \\frac{7}{8}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (4 och 7) och nämnarna (7 och 8)</p><div class=\"facit-matte\">\\[\\frac{4\\cdot 7}{7\\cdot 8}=\\frac{28}{56}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 28</p><div class=\"facit-matte\">\\[\\frac{28}{56}=\\frac{1}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{1}{2}\\)</p></div>",
         "ledtrad": "<p>Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p>",
         "niva": "E",
@@ -176417,7 +176655,8 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{5}{6}\\div \\frac{10}{9}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{5}{6}\\div \\frac{10}{9}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{10}{9}\\) är samma sak som att multiplicera med \\(\\frac{9}{10}\\)</p><div class=\"facit-matte\">\\[\\frac{5}{6}\\div \\frac{10}{9}=\\frac{5}{6}\\cdot \\frac{9}{10}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (5 och 9) och nämnarna (6 och 10)</p><div class=\"facit-matte\">\\[\\frac{5\\cdot 9}{6\\cdot 10}=\\frac{45}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 15</p><div class=\"facit-matte\">\\[\\frac{45}{60}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div>",
         "ledtrad": "<p>Byt division med \\(\\frac{10}{9}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
         "niva": "E",
@@ -176426,14 +176665,14 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(-\\frac{3}{4}\\div \\frac{9}{16}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(-\\frac{3}{4}\\div \\frac{9}{16}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{9}{16}\\) är samma sak som att multiplicera med \\(\\frac{16}{9}\\)</p><div class=\"facit-matte\">\\[-\\frac{3}{4}\\div \\frac{9}{16}=-\\frac{3}{4}\\cdot \\frac{16}{9}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera täljarna (−3 och 16) och nämnarna (4 och 9)</p><div class=\"facit-matte\">\\[\\frac{-3\\cdot 16}{4\\cdot 9}=-\\frac{48}{36}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 12</p><div class=\"facit-matte\">\\[-\\frac{48}{36}=-\\frac{4}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\frac{4}{3}\\)</p></div>",
         "ledtrad": "<p>Byt division med \\(\\frac{9}{16}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 4
-      }
-    ],
+      }],
     "ledtrad": "<p><strong>a)</strong> Multiplicera täljarna för sig och nämnarna för sig. Förkorta sedan om det går.</p><p><strong>b)</strong> Byt division med \\(\\frac{10}{9}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p><p><strong>c)</strong> Byt division med \\(\\frac{9}{16}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
     "traningsniva": 4,
     "arbetsinsats": 2
@@ -176449,7 +176688,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{3}{8}\\cdot 4\\)</div><div>b) \\(5\\div \\frac{1}{3}\\)</div></div>",
+    "t": "<p>Beräkna.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) \\(\\frac{3}{8}\\cdot 4\\)</div><div>b) \\(5\\div \\frac{1}{3}\\)</div></div>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Heltalet 4 multipliceras bara med täljaren</p><div class=\"facit-matte\">\\[\\frac{3\\cdot 4}{8}=\\frac{12}{8}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 4</p><div class=\"facit-matte\">\\[\\frac{12}{8}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\)</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{1}{3}\\) är samma sak som att multiplicera med \\(3\\)</p><div class=\"facit-matte\">\\[5\\div \\frac{1}{3}=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(5\\cdot 3=15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,
@@ -176471,10 +176711,10 @@ window.BANKMA1 = [
       "numeriskt"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
+    "spelDelar": [{
         "etikett": "a",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(\\frac{3}{8}\\cdot 4\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(\\frac{3}{8}\\cdot 4\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Heltalet 4 multipliceras bara med täljaren</p><div class=\"facit-matte\">\\[\\frac{3\\cdot 4}{8}=\\frac{12}{8}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 4</p><div class=\"facit-matte\">\\[\\frac{12}{8}=\\frac{3}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{2}\\)</p></div>",
         "ledtrad": "<p>Multiplicera bara täljaren med heltalet. Förkorta sedan om det går.</p>",
         "niva": "E",
@@ -176483,14 +176723,14 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Beräkna. Ange svaret i enklaste form.</p><div class=\"spel-en-del\">\\(5\\div \\frac{1}{3}\\)</div>",
+        "t": "<p>Beräkna.</p><div class=\"spel-en-del\">\\(5\\div \\frac{1}{3}\\)</div>",
+        "kgInstruktion": "Ange svaret i enklaste form.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Att dela med \\(\\frac{1}{3}\\) är samma sak som att multiplicera med \\(3\\)</p><div class=\"facit-matte\">\\[5\\div \\frac{1}{3}=5\\cdot 3\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera: \\(5\\cdot 3=15\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\)</p></div>",
         "ledtrad": "<p>Byt division med \\(\\frac{1}{3}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2
-      }
-    ],
+      }],
     "ledtrad": "<p><strong>a)</strong> Multiplicera bara täljaren med heltalet. Förkorta sedan om det går.</p><p><strong>b)</strong> Byt division med \\(\\frac{1}{3}\\) mot multiplikation med det inverterade talet. Vad blir det inverterade talet?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2
@@ -176506,7 +176746,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\frac{9}{10}\\cdot \\frac{5}{6}\\). Ange svaret i enklaste form.</p>",
+    "t": "<p>Beräkna \\(\\frac{9}{10}\\cdot \\frac{5}{6}\\).</p>",
+    "kgInstruktion": "Ange svaret i enklaste form.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera täljarna (9 och 5) och nämnarna (10 och 6)</p><div class=\"facit-matte\">\\[\\frac{9\\cdot 5}{10\\cdot 6}=\\frac{45}{60}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med 15</p><div class=\"facit-matte\">\\[\\frac{45}{60}=\\frac{3}{4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{3}{4}\\)</p></div>",
     "familj": "Räkna med bråk",
     "geogebra": false,

@@ -1,6 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('fs'),vm=require('vm'),path=require('path');
-const load=f=>{const c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'..',f),'utf8'),c);return Object.values(c.window).find(Array.isArray)};
+const load=f=>{const c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'..',f),'utf8'),c);/* 2026-11-23: läs Kunskapsgymmets vy (tabellvärden och svarsinstruktioner i kgInstruktion) */require('./kg-vy.cjs')(c);return Object.values(c.window).find(Array.isArray)};
 const banks={fy1:load('uppgifter.js'),ma2:load('uppgifterma2.js'),mato2:load('uppgiftermato2.js')},q=(b,id)=>banks[b].find(x=>x.id===id);
 test('Mars: beräknade tabellalternativ och uttryckligt lokalt g; månen har data',()=>{
  const a=q('fy1','4.190'),b=q('fy1','4.470');assert.equal(a.rättSvar[0],78*3.71);assert.equal(a.svarTabell[0][0],78*3.72);assert.equal(b.rättSvar,1025*3.71/1000);assert.equal(b.svarTabell[0][0],1025*3.72/1000);

@@ -233,7 +233,7 @@ body[data-lab-mode="walk"] .tools{padding:8px 10px}
 #zoomlevel{font-size:12px;min-width:48px;text-align:center}
 .canvaswrap{overflow:auto;max-height:min(72vh,820px)}
 .canvaswrap svg{max-width:none;min-width:0;display:block}
-.editor-palette [data-tool="resistor"],.editor-palette [data-tool="source"],.editor-palette [data-tool="switch"]{cursor:grab;touch-action:none}
+.editor-palette [data-tool="resistor"],.editor-palette [data-tool="source"],.editor-palette [data-tool="switch"]{cursor:grab;touch-action:none;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
 #modewalk.active,#modebuild.active{color:var(--accInk)}
 body[data-lab-mode="build"] .editor-modes #modewalk:not(.active){background:var(--accSoft);color:var(--accInk)}
 body[data-lab-mode="build"] #showall{visibility:hidden}
@@ -408,8 +408,8 @@ body[data-lab-mode="walk"][data-walk-started="false"] .graph-panel{display:none}
 #loop:empty,#walkroute:empty{display:none}
 @media(max-width:680px){body[data-lab-mode="build"] .canvaswrap svg{height:auto!important}}
 /* The traversed path is distinct from the selected loop and the next possible step. */
-:root{--walk-trail:#16845b;--walk-trail-halo:#6edaa5;--walk-current:#087c4b;--walk-visited-dot:#16845b}
-html[data-theme="dark"]{--walk-trail:#a1f2bd;--walk-trail-halo:#75e8a5;--walk-current:#c8ffdb;--walk-visited-dot:#a1f2bd}
+:root{--walk-trail:#cf2f2f;--walk-trail-halo:#f06a6a;--walk-current:#a51d1d;--walk-visited-dot:#cf2f2f}
+html[data-theme="dark"]{--walk-trail:#ff6b6b;--walk-trail-halo:#ff8a80;--walk-current:#ffb4b4;--walk-visited-dot:#ff6b6b}
 
 /* Short guide and a visible finished lap. */
 .lab-guide{margin:-4px 0 12px}
@@ -814,7 +814,7 @@ function drawPreview(){const s=$('circuit');s.querySelector('[data-preview]')?.r
 $('zoomout').onclick=()=>{zoom=Math.max(.75,zoom-.25);applyViewport()};$('zoomin').onclick=()=>{zoom=Math.min(3,zoom+.25);applyViewport()};$('zoomfit').onclick=()=>{zoom=1;applyViewport();svg.parentElement.scrollTo(0,0)};$('newcircuit').onclick=()=>{if(!edges.length||confirm('Skapa en ny krets? Du kan ångra.')){loadExample('blank');$('circuitmenu').open=false}};for(const b of document.querySelectorAll('[data-example]'))b.onclick=()=>{loadExample(b.dataset.example);$('circuitmenu').open=false};for(const d of document.querySelectorAll('.lab-menu'))d.addEventListener('toggle',()=>{if(d.open)for(const o of document.querySelectorAll('.lab-menu'))if(o!==d)o.open=false});document.addEventListener('pointerdown',ev=>{for(const d of document.querySelectorAll('.lab-menu'))if(d.open&&!d.contains(ev.target))d.open=false});$('orientation').onclick=()=>{verticalPlacement=!verticalPlacement;render()};
 // Drag a component from the palette with mouse, pen or touch. It snaps onto the nearest wire.
 let palDrag=null,palSuppressClick=0;
-function paletteTarget(cx,cy,type){const r=svg.getBoundingClientRect();if(cx<r.left||cx>r.right||cy<r.top||cy>r.bottom)return null;const m=svg.getScreenCTM();if(!m)return null;const p=svg.createSVGPoint();p.x=cx;p.y=cy;const q=p.matrixTransform(m.inverse()),scale=Math.hypot(m.a,m.b)||1,tol=34/scale;
+function paletteTarget(cx,cy,type,touch=false){const r=svg.getBoundingClientRect(),w=svg.parentElement.getBoundingClientRect();if(cx<Math.max(r.left,w.left)||cx>Math.min(r.right,w.right)||cy<Math.max(r.top,w.top)||cy>Math.min(r.bottom,w.bottom))return null;const m=svg.getScreenCTM();if(!m)return null;const p=svg.createSVGPoint();p.x=cx;p.y=cy;const q=p.matrixTransform(m.inverse()),scale=Math.hypot(m.a,m.b)||1,tol=(touch?52:34)/scale;
  let best=null,bd=tol;for(const w of edges){if(w.type!=='wire')continue;const d=distanceToSegment(q.x,q.y,xy(w.a),xy(w.b));if(d<bd){bd=d;best=w}}
  const value=type==='switch'?0:toolValues[type];let target;
  if(best){const horizontal=pos(best.a)[1]===pos(best.b)[1],t=horizontal?(q.x-X)/DX:(q.y-Y)/DY,s=Math.max(0,Math.round(t-.5)),[ax,ay]=pos(best.a);target={kind:'wire',...wireSlot(best.id,horizontal?key(s,ay):key(ax,s))}}
@@ -827,14 +827,21 @@ function drawComponentPreview(g,type,t){const ok=t.ok,c=ok?'var(--acc)':'var(--b
  else if(type==='source'){L(0,0,m-6,0);L(m+6,0,len,0);L(m-6,-10,m-6,10);L(m+6,-19,m+6,19)}
  else{L(0,0,m-19,0);L(m+19,0,len,0);L(m-19,0,m+19,0);for(const x of [m-19,m+19])el(h,'circle',{cx:x,cy:0,r:3.5,fill:'var(--diagram)',stroke:c,'stroke-width':2})}
  const vert=ax===bx,mx=(ax+bx)/2,my=(ay+by)/2,label=!ok?'Får inte plats här':type==='switch'?'Brytare':f(t.value)+(type==='source'?' V':' Ω');txt(g,mx+(vert?24:0),my+(vert?5:-24),label,{'text-anchor':vert?'start':'middle','font-size':14,'font-weight':800,fill:c,stroke:'var(--diagram)','stroke-width':4,'paint-order':'stroke'})}
-function movePaletteDrag(cx,cy){const d=palDrag;if(!d)return;d.cx=cx;d.cy=cy;d.target=paletteTarget(cx,cy,d.type);const gh=$('dragghost');gh.style.left=cx+'px';gh.style.top=cy+'px';gh.classList.toggle('hide',!!d.target);drawPreview()}
-function endPaletteDrag(place){const d=palDrag;palDrag=null;document.body.classList.remove('palette-dragging');$('dragghost').classList.add('hide');try{if(d?.button.hasPointerCapture(d.pointer))d.button.releasePointerCapture(d.pointer)}catch(_){}if(!d?.active)return;palSuppressClick=Date.now()+400;const t=d.target;
+function movePaletteDrag(cx,cy){const d=palDrag;if(!d)return;d.cx=cx;d.cy=cy;if(Math.hypot(cx-d.x,cy-d.y)>45)d.far=true;const ay=cy-(d.touch?TOUCH_LIFT:0);d.target=paletteTarget(cx,ay,d.type,d.touch);const gh=$('dragghost');gh.style.left=cx+'px';gh.style.top=ay+'px';gh.classList.toggle('hide',!!d.target);drawPreview()}
+const TOUCH_LIFT=64;
+function paletteAutoScroll(){const d=palDrag;if(!d?.active)return;const W=svg.parentElement,w=W.getBoundingClientRect(),E=d.touch?56:40,sp=v=>Math.max(-16,Math.min(16,v/3));let wx=0,wy=0;const cy=d.cy-(d.touch?TOUCH_LIFT:0);
+ if(d.cx>w.left&&d.cx<w.left+E)wx=sp(d.cx-w.left-E);else if(d.cx<w.right&&d.cx>w.right-E)wx=sp(d.cx-(w.right-E));
+ if(d.far&&cy>w.top&&cy<w.top+E)wy=sp(cy-w.top-E);else if(cy<w.bottom&&cy>w.bottom-E)wy=sp(cy-(w.bottom-E));
+ const bx=W.scrollLeft,by=W.scrollTop;W.scrollLeft+=wx;W.scrollTop+=wy;let moved=W.scrollLeft!==bx||W.scrollTop!==by;
+ const V=d.touch?80:50;if(d.far){const vy=d.cy<V?sp(d.cy-V):d.cy>innerHeight-V?sp(d.cy-(innerHeight-V)):0;if(vy){const before=scrollY;scrollBy(0,vy);moved=moved||scrollY!==before}}
+ if(moved)movePaletteDrag(d.cx,d.cy);d.raf=requestAnimationFrame(paletteAutoScroll)}
+function endPaletteDrag(place){const d=palDrag;palDrag=null;if(d?.raf)cancelAnimationFrame(d.raf);document.body.classList.remove('palette-dragging');$('dragghost').classList.add('hide');try{if(d?.button.hasPointerCapture(d.pointer))d.button.releasePointerCapture(d.pointer)}catch(_){}if(!d?.active)return;palSuppressClick=Date.now()+400;const t=d.target;
  if(place&&t&&t.ok){const before=new Set(edges.map(e=>e.id));if(transact(componentBuilder(t,d.type,t.value))){const added=edges.find(e=>!before.has(e.id)&&e.type===d.type);if(added&&d.type!=='switch'){const anchor=svg.querySelector('[data-value-for="'+added.id+'"]');if(anchor)openQuickValue(added.id,anchor)}return}}
  else if(place&&t)notice(t.kind==='wire'?'Komponenten får inte plats på den delen av ledningen.':'Komponenten får inte plats där. Släpp den på en ledning eller på en ledig plats.');
  render()}
 for(const b of document.querySelectorAll('[data-tool]')){const t=b.dataset.tool,choose=b.onclick;b.onclick=ev=>{if(Date.now()<palSuppressClick){ev.preventDefault();return}choose?.(ev)};if(!componentTool(t))continue;b.title='Dra till en ledning – eller klicka för att välja verktyget';
- b.addEventListener('pointerdown',ev=>{if(ev.button!==0||!isBuild())return;palDrag={type:t,button:b,pointer:ev.pointerId,x:ev.clientX,y:ev.clientY,active:false};try{b.setPointerCapture(ev.pointerId)}catch(_){}});
- b.addEventListener('pointermove',ev=>{const d=palDrag;if(!d||d.pointer!==ev.pointerId)return;if(!d.active){if(Math.hypot(ev.clientX-d.x,ev.clientY-d.y)<6)return;d.active=true;closeQuickValue();pending=null;hoverNode=null;document.body.classList.add('palette-dragging');$('dragghost').replaceChildren(...[...b.childNodes].map(n=>n.cloneNode(true)));$('toolhint').textContent='Släpp på en ledning för att koppla in komponenten. R vrider den på en ledig plats. Esc avbryter.'}ev.preventDefault();movePaletteDrag(ev.clientX,ev.clientY)});
+ b.addEventListener('contextmenu',ev=>ev.preventDefault());b.addEventListener('pointerdown',ev=>{if(ev.button!==0||!isBuild())return;palDrag={type:t,button:b,pointer:ev.pointerId,x:ev.clientX,y:ev.clientY,active:false,touch:ev.pointerType==='touch'};try{b.setPointerCapture(ev.pointerId)}catch(_){}});
+ b.addEventListener('pointermove',ev=>{const d=palDrag;if(!d||d.pointer!==ev.pointerId)return;if(!d.active){if(Math.hypot(ev.clientX-d.x,ev.clientY-d.y)<6)return;d.active=true;closeQuickValue();pending=null;hoverNode=null;document.body.classList.add('palette-dragging');$('dragghost').replaceChildren(...[...b.childNodes].map(n=>n.cloneNode(true)));$('toolhint').textContent=d.touch?'Dra till en ledning och släpp. Komponenten visas strax ovanför fingret.':'Släpp på en ledning för att koppla in komponenten. R vrider den på en ledig plats. Esc avbryter.';d.raf=requestAnimationFrame(paletteAutoScroll)}ev.preventDefault();movePaletteDrag(ev.clientX,ev.clientY)});
  b.addEventListener('pointerup',ev=>{if(palDrag&&palDrag.pointer===ev.pointerId)endPaletteDrag(true)});
  b.addEventListener('pointercancel',()=>{if(palDrag)endPaletteDrag(false)})}
 document.addEventListener('keydown',ev=>{if(!palDrag?.active)return;if(ev.key==='Escape'){ev.preventDefault();ev.stopImmediatePropagation();endPaletteDrag(false)}else if(ev.key==='r'||ev.key==='R'||ev.key===' '){ev.preventDefault();ev.stopImmediatePropagation();verticalPlacement=!verticalPlacement;movePaletteDrag(palDrag.cx??palDrag.x,palDrag.cy??palDrag.y)}},true);

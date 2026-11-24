@@ -13,7 +13,9 @@ test('Två rekommenderade värdesiffror: korrekt avrundade 1–4 godtas, 5 nekas
 });
 test('±2 gäller även nedåt; noll och negativa tal kan inte kringgå avrundningen',()=>{
  assert.equal(grade('1.01',1.005),true);
- assert.equal(grade('1.00',1.005),false);
+ // Användarbeslut 2026-11-24: ett värde exakt mitt emellan får avrundas åt båda hållen (minst två värdesiffror).
+ assert.equal(grade('1.00',1.005),true);
+ assert.equal(grade('0.99',1.005),false);
  assert.equal(grade('-1.01',-1.005),true);
  assert.equal(grade('9e3',9427.2,'J',4),false);
  assert.equal(grade('9.4e3',9427.2,'J',4),true);

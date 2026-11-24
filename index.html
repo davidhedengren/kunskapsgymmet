@@ -12329,18 +12329,24 @@ function skrivetMattal(text){
   if(!m) return null;
   const mantissa=m[1].replace(/ /g,"");
   let digits=mantissa.replace(/[^0-9]/g,"").replace(/^0+/,"");
+  const allaSiffror=digits.length;
   // Avslutande heltalsnollor är tvetydiga: 9400 får betyda två värdesiffror.
   // En decimal eller grundpotensform gör avsiktliga nollor entydiga (9,400·10^3).
   if(!/[.,]/.test(mantissa) && !m[2]) digits=digits.replace(/0+$/,"");
   const value=Number(mantissa.replace(",","."))*10**Number(m[2]||0);
   if(!Number.isFinite(value)) return null;
-  return {value,enhet:m[3],digits:digits.length||1};
+  /* nollor: antalet tvetydiga avslutande nollor (200 kan ha 1, 2 eller 3 värdesiffror). */
+  return {value,enhet:m[3],digits:digits.length||1,nollor:Math.max(0,allaSiffror-digits.length)};
 }
 function fysikVardesiffrorRatt(anv,facit,enhet,t,idx,format){
   const n=fysikVardesiffror(t,idx??0);
   if(n===null || format!=="numeriskt" || typeof facit!=="number" || !Number.isFinite(facit)) return null;
   const a=skrivetMattal(anv);
-  if(!a || a.digits<Math.max(1,n-2) || a.digits>n+2) return false;
+  /* Alla tolkningar av antalet värdesiffror: avslutande heltalsnollor är tvetydiga (200 → 1, 2 eller 3). */
+  const varianter=[];
+  if(a) for(let d=a.digits;d<=a.digits+(a.nollor||0);d++) varianter.push(d);
+  const tillatna=varianter.filter(d=>d>=Math.max(1,n-2)&&d<=n+2);
+  if(!tillatna.length) return false;
   const own=a.enhet?tolkaEnhet(a.enhet):null,expected=tolkaEnhet(enhet||"");
   /* Samma enhet som facit räknas lika även om enheten saknas i enhetstabellen (t.ex. ljusår). */
   const sammaEnhetstext=!!(a.enhet && enhet && String(a.enhet).replace(/\s+/g,"").toLowerCase()===String(enhet).replace(/\s+/g,"").toLowerCase());
@@ -12353,16 +12359,79 @@ function fysikVardesiffrorRatt(anv,facit,enhet,t,idx,format){
     const fd=String(Math.abs(facit)).replace(/e.*$/i,"").replace(".","").replace(/^0+/,"").length;
     if(a.digits>fd){
       const v=own&&expected&&!sammaEnhetstext?a.value*own.f/expected.f:a.value;
-      const e=Math.floor(Math.log10(Math.abs(v)||1)),st=10**(e-fd+1);
-      const r=Math.round(v/st)*st;
-      return Math.abs(r-facit)<=Math.abs(facit)*1e-9;
+      const e=Math.floor(Math.log10(Math.abs(facit)||1)),st=10**(e-fd+1);
+      /* Inom ett halvt steg i facits sista siffra. Strikt mindre: facit kan vara exakt (1,8), och
+         då är 1,85 inte rätt fast det avrundas till 1,8 åt ena hållet (2026-11-24). */
+      return Math.abs(v-facit)<0.5*st*(1-1e-9);
     }
   }
-  const exponent=target===0?0:Math.floor(Math.log10(Math.abs(target)));
-  const step=10**(exponent-a.digits+1),scaled=Math.abs(target)/step;
-  const rounded=target===0?0:Math.sign(target)*Math.round(scaled+Number.EPSILON*scaled*2)*step;
-  // Detta är en avrundningskontroll, inte en utökad procentuell felmarginal.
-  return a.value===rounded || (rounded!==0 && Math.abs(a.value-rounded)<=Math.abs(rounded)*1e-12);
+  /* Korrekt avrundat: svaret ligger högst ett halvt steg från det exakta värdet. Ett värde exakt mitt
+     emellan (7,545) får avrundas åt båda hållen, 7,54 eller 7,55 (användarbeslut 2026-11-24: rätt svar
+     ska godtas med fler eller färre decimaler inom rimliga gränser). Steget är det minsta av elevens och
+     facits steg: 97 är inte 100 avrundat, 1000 är inte 990 avrundat, men 10,0 är 9,996 avrundat. */
+  const halvt=(varde,mal,siffror)=>{
+    if(!Number.isFinite(varde)||!Number.isFinite(mal)) return false;
+    if(mal===0||varde===0) return varde===mal;
+    const ex=Math.min(Math.floor(Math.log10(Math.abs(varde))),Math.floor(Math.log10(Math.abs(mal))));
+    const halvsteg=0.5*10**(ex-siffror+1),diff=Math.abs(varde-mal);
+    /* Med en enda värdesiffra är ett halvsteg för grovt för att godtas åt båda hållen: 8,5 Ω → 9 Ω, inte 8 Ω. */
+    if(siffror<2 && Math.abs(diff-halvsteg)<=halvsteg*1e-9) return Math.abs(varde)>Math.abs(mal);
+    return diff<=halvsteg*(1+1e-9);
+  };
+  return tillatna.some(d=>halvt(a.value,target,d));
+}
+/* Rimlig avrundning för närmevärden utan aktiv värdesifferrättning (användarbeslut 2026-11-24).
+   Godtar ett korrekt avrundat svar med en värdesiffra färre till tre fler än facit visar (minst två),
+   eller en decimal färre till tre fler när uppgiften anger antal decimaler. Gäller bara närmevärden:
+   fysik (utom antal), matte där facit är ett långt oavrundat tal, och uppgifter som ber om avrundning.
+   Strikt som förut: exakta svar, avrundning av ett givet tal, avrundningsgränser, enhetsomvandlingar
+   och avrundningsområden, heltal i matte (antal, kronbelopp). Funktionen är självständig, eftersom
+   testerna plockar ut funktioner ur filen var för sig. */
+function rimligAvrundningRatt(anv,facit,enhet,t,idx,format){
+  if(!(format==null || format==="numeriskt") || typeof facit!=="number" || !Number.isFinite(facit) || facit===0) return false;
+  const OMRADEN=["avrundning","overslag_grunder","matnogg","decimaltal_positionssystem","tiopotenser_prefix",
+    "prefix","enheter","enhetsbyten","brakform","matning_enheter"];
+  if(OMRADEN.includes(t?.omr)) return false;
+  if(typeof fysikVardesiffror==="function" && fysikVardesiffror(t,idx??0)!==null) return false;
+  const text=String(t?.t||"").replace(/<[^>]*>/g," ");
+  if(/exakt(?!\s+eller)|utan avrundning|bråkform|avrundas till|Avrunda\s+(?:\\\(|talet|\d)/i.test(text)) return false;
+  const kurs=typeof state!=="undefined"?state?.course:null;
+  const fysik=kurs==="fy1"||kurs==="fy2";
+  const lagradeSiffror=String(Math.abs(facit)).replace(/e.*$/i,"").replace(".","").replace(/^0+/,"").replace(/0+$/,"").length;
+  const begarAvrundning=/avrunda|decimal|värdesiffr/i.test(text);
+  if(Number.isInteger(facit)){
+    if(!fysik || !enhet || Math.abs(facit)<100 || /\bhela\b|\bantal\b|hur många (?:hela|gånger)/i.test(text)) return false;
+  }else if(!fysik && !begarAvrundning && lagradeSiffror<5) return false;
+  const a=skrivetMattal(anv);
+  if(!a) return false;
+  const own=a.enhet?tolkaEnhet(a.enhet):null,expected=tolkaEnhet(enhet||"");
+  const sammaEnhetstext=!!(a.enhet && enhet && String(a.enhet).replace(/\s+/g,"").toLowerCase()===String(enhet).replace(/\s+/g,"").toLowerCase());
+  if(a.enhet && !sammaEnhetstext && (!enhet || !own || !expected || !sammaDimension(own,expected))) return false;
+  const v=own&&expected&&!sammaEnhetstext?a.value*own.f/expected.f:a.value;
+  const ORD={en:1,ett:1,"två":2,tre:3,fyra:4,fem:5,sex:6};
+  const dm=text.match(/(\d|en|ett|två|tre|fyra|fem|sex)\s+decimal/i);
+  if(dm){
+    const n=/^\d$/.test(dm[1])?+dm[1]:ORD[dm[1].toLowerCase()];
+    const dec=(String(anv).replace(/\s/g,"").match(/^[^\d]*[+\-−]?\d+[.,](\d+)/)||[])[1]?.length||0;
+    if(dec<Math.max(0,n-1) || dec>n+3 || a.digits+(a.nollor||0)<2) return false;   // 10 för 9,9 är för grovt
+    return Math.abs(v-facit)<=0.5*10**(-dec)*(1+1e-9);
+  }
+  let p=null;
+  try{ p=skrivetMattal(String(visatSvar(facit,Array.isArray(t?.tolerans)?t.tolerans[idx??0]:t?.tolerans,format)))?.digits; }catch(_){}
+  const vm=text.match(/(\d|en|två|tre|fyra|fem|sex)\s+värdesiffr/i);
+  if(vm) p=/^\d$/.test(vm[1])?+vm[1]:ORD[vm[1].toLowerCase()];
+  if(!Number.isInteger(p)) p=3;
+  const halvt=(varde,mal,siffror)=>{
+    if(varde===0) return false;
+    const ex=Math.min(Math.floor(Math.log10(Math.abs(varde))),Math.floor(Math.log10(Math.abs(mal))));
+    const halvsteg=0.5*10**(ex-siffror+1),diff=Math.abs(varde-mal);
+    /* Med en enda värdesiffra är ett halvsteg för grovt för att godtas åt båda hållen: 8,5 Ω → 9 Ω, inte 8 Ω. */
+    if(siffror<2 && Math.abs(diff-halvsteg)<=halvsteg*1e-9) return Math.abs(varde)>Math.abs(mal);
+    return diff<=halvsteg*(1+1e-9);
+  };
+  for(let d=a.digits;d<=a.digits+(a.nollor||0);d++)
+    if(d>=Math.max(2,p-1) && d<=p+3 && halvt(v,facit,d)) return true;
+  return false;
 }
 function fysikPrecisionHtml(t){
   const n=fysikVardesiffror(t);
@@ -12413,6 +12482,7 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
     if(fysikPrecision!==null) return fysikPrecision;
   }
   if(friAvrundningRatt(anv,facit,enhet,t,format)) return true;
+  if(typeof rimligAvrundningRatt==="function" && rimligAvrundningRatt(anv,facit,enhet,t,idx,format)) return true;
   /* Facit skrivet i LaTeX jämförs i samma form som eleven skriver. */
   if(typeof facit==="string" && /\\[a-zA-Z]/.test(facit)){
     const p=latexToPlain(facit);

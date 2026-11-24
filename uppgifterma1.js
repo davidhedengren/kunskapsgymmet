@@ -45250,7 +45250,7 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Du känner två punkter på linjen. Bestäm först \\(k=\\Delta y/\\Delta x\\); y-axelskärningen ger sedan \\(m\\) direkt.</p>",
+    "ledtrad": "<p>Du känner till två punkter på linjen. Bestäm först \\(k=\\Delta y/\\Delta x\\); y-axelskärningen ger sedan \\(m\\) direkt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -50085,7 +50085,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Du känner redan \\(k\\). Sätt in punktens x- och y-koordinat i \\(y=kx+m\\) för att hitta \\(m\\).</p>",
+    "ledtrad": "<p>Du känner redan till \\(k\\). Sätt in punktens x- och y-koordinat i \\(y=kx+m\\) för att hitta \\(m\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -52983,7 +52983,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Tabellen visar \\(f(0)=4\\), alltså känner du redan \\(m\\). Bestäm \\(k\\) från någon av de andra kolumnerna.</p>",
+    "ledtrad": "<p>Tabellen visar \\(f(0)=4\\), alltså känner du redan till \\(m\\). Bestäm \\(k\\) från någon av de andra kolumnerna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -54853,7 +54853,7 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Eftersom \\(a\\ne b\\) känner du två olika punkter på grafen: \\((a,b)\\) och \\((b,a)\\). Börja med deras riktningskoefficient.</p>",
+    "ledtrad": "<p>Eftersom \\(a\\ne b\\) känner du till två olika punkter på grafen: \\((a,b)\\) och \\((b,a)\\). Börja med deras riktningskoefficient.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": false,
@@ -65761,7 +65761,7 @@ window.BANKMA1 = [
   ],
   "niva": "E",
   "poang": "1/0/0",
-  "t": "<p>Du känner priset på en vara år 2008 och vill beräkna motsvarande pris år 2024 med hjälp av en indextabell.</p><p>Vilka indextal behöver du känna till?</p>",
+  "t": "<p>Du känner till priset på en vara år 2008 och vill beräkna motsvarande pris år 2024 med hjälp av en indextabell.</p><p>Vilka indextal behöver du känna till?</p>",
   "visaAlternativ": true,
   "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> Du behöver indextalet för 2008 och indextalet för 2024. När båda är kända räcker kvoten mellan dem; basåret behöver inte användas separat.</p></div>",
   "familj": "Tolka och beräkna index",
@@ -65788,7 +65788,7 @@ window.BANKMA1 = [
     {
       "txt": "Bara indextalet för 2024 och vilket år som är basår.",
       "ratt": false,
-      "kommentar": "Nej. Det räcker inte när priset du känner gäller 2008."
+      "kommentar": "Nej. Det räcker inte när priset du känner till gäller 2008."
     },
     {
       "txt": "Indextalet för basåret och indextalet för 2024.",
@@ -71424,7 +71424,7 @@ window.BANKMA1 = [
       "procentsats",
       "procentsats"
     ],
-    "ledtrad": "<p>Sätt \\(r=p/100\\) och \\(s=q/100\\). Du känner både summan \\(r+s\\) och, via den totala faktorn, produkten \\(rs\\).</p>",
+    "ledtrad": "<p>Sätt \\(r=p/100\\) och \\(s=q/100\\). Du känner till både summan \\(r+s\\) och, via den totala faktorn, produkten \\(rs\\).</p>",
     "traningsniva": 5,
     "arbetsinsats": 1,
     "spel": true,
@@ -73052,7 +73052,7 @@ window.BANKMA1 = [
       "c) Volymfaktor"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Hur beräknar du volymen av en kub om du känner kantlängden?</p>",
+    "ledtrad": "<p>Hur beräknar du volymen av en kub om du känner till kantlängden?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -73064,7 +73064,7 @@ window.BANKMA1 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kubens volym är kantlängden i tredje potens</p><div class=\"facit-matte\">\\[s\\cdot s\\cdot s=512\\quad\\Rightarrow\\quad s^3=512\\]</div></li><li><p class=\"facit-rubrik\">Ta tredje roten för att få kantlängden</p><div class=\"facit-matte\">\\[s=\\sqrt[3]{512}=8\\]</div><p>Kontroll: \\(8\\cdot8\\cdot8=512\\) cm³.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(s^3=512\\) och kantlängden är 8 cm.</p></div>",
         "niva": "E",
         "poang": "1/0/0",
-        "ledtrad": "<p>Hur beräknar du volymen av en kub om du känner kantlängden?</p>",
+        "ledtrad": "<p>Hur beräknar du volymen av en kub om du känner till kantlängden?</p>",
         "traningsniva": 2,
         "arbetsinsats": 2,
         "svarsstruktur": "ordnad",
@@ -74484,7 +74484,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Du behöver inte känna basvärdet. Hur förändras index när priset multipliceras med \\(204/240\\)?</p>",
+    "ledtrad": "<p>Du behöver inte känna till basvärdet. Hur förändras index när priset multipliceras med \\(204/240\\)?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
@@ -80491,7 +80491,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Du känner hypotenusan och söker sidan mitt emot 40°. Vilket av sinus, cosinus och tangens kopplar just dessa två sidor?</p>",
+    "ledtrad": "<p>Du känner till hypotenusan och söker sidan mitt emot 40°. Vilket av sinus, cosinus och tangens kopplar just dessa två sidor?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -81139,7 +81139,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en rätvinklig triangel känner du en spetsig vinkel och den närliggande kateten. Du söker hypotenusan. Vilket trigonometriskt samband passar direkt?</p>",
+    "t": "<p>I en rätvinklig triangel känner du till en spetsig vinkel och den närliggande kateten. Du söker hypotenusan. Vilket trigonometriskt samband passar direkt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinus kopplar ihop närliggande katet och hypotenusa:</p><div class=\"facit-matte\">\\[\\cos v=\\frac{\\text{närliggande}}{\\text{hypotenusa}}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: cosinus.</strong></p></div>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
@@ -81155,7 +81155,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "sinus", "ratt": false, "kommentar": "Sinus innehåller den motstående kateten, men den känner du inte."}, {"txt": "inget av dem", "ratt": false, "kommentar": "Cosinus fungerar, eftersom den innehåller närliggande katet och hypotenusa."}, {"txt": "tangens", "ratt": false, "kommentar": "Tangens innehåller inte hypotenusan."}, {"txt": "cosinus", "ratt": true}]
+    "alternativ": [{"txt": "sinus", "ratt": false, "kommentar": "Sinus innehåller den motstående kateten, men den känner du inte till."}, {"txt": "inget av dem", "ratt": false, "kommentar": "Cosinus fungerar, eftersom den innehåller närliggande katet och hypotenusa."}, {"txt": "tangens", "ratt": false, "kommentar": "Tangens innehåller inte hypotenusan."}, {"txt": "cosinus", "ratt": true}]
   },
   {
     "id": "4.33",
@@ -81819,7 +81819,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Du känner motstående katet och hypotenusan. Börja med \\(\\sin v=6/10\\).</p>",
+    "ledtrad": "<p>Du känner till motstående katet och hypotenusan. Börja med \\(\\sin v=6/10\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -87331,7 +87331,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Du känner båda kateterna. Vilket trigonometriskt förhållande använder just dem?</p>",
+    "ledtrad": "<p>Du känner till båda kateterna. Vilket trigonometriskt förhållande använder just dem?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -88351,7 +88351,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Du känner hypotenusan 12 cm och söker sidan mitt emot 30°.</p>",
+    "ledtrad": "<p>Du känner till hypotenusan 12 cm och söker sidan mitt emot 30°.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -88383,7 +88383,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Du känner hypotenusan 10 cm och söker sidan mitt emot 45°.</p>",
+    "ledtrad": "<p>Du känner till hypotenusan 10 cm och söker sidan mitt emot 45°.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -88414,7 +88414,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Du känner hypotenusan 14 cm och söker sidan intill 60°.</p>",
+    "ledtrad": "<p>Du känner till hypotenusan 14 cm och söker sidan intill 60°.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -88446,7 +88446,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Du känner hypotenusan 18 cm och söker sidan intill 35°.</p>",
+    "ledtrad": "<p>Du känner till hypotenusan 18 cm och söker sidan intill 35°.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -88478,7 +88478,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Du känner sidan intill 40° och söker sidan mitt emot vinkeln.</p>",
+    "ledtrad": "<p>Du känner till sidan intill 40° och söker sidan mitt emot vinkeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -88510,7 +88510,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Du känner sidan intill 25° och söker sidan mitt emot vinkeln.</p>",
+    "ledtrad": "<p>Du känner till sidan intill 25° och söker sidan mitt emot vinkeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -88542,7 +88542,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Du känner sidan mitt emot 52° och söker hypotenusan.</p>",
+    "ledtrad": "<p>Du känner till sidan mitt emot 52° och söker hypotenusan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -88574,7 +88574,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Du känner sidan intill 38° och söker hypotenusan.</p>",
+    "ledtrad": "<p>Du känner till sidan intill 38° och söker hypotenusan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -88605,7 +88605,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "grader",
-    "ledtrad": "<p>Du känner båda kateterna. Vilken trigonometrisk kvot använder motstående delat med närliggande?</p>",
+    "ledtrad": "<p>Du känner till båda kateterna. Vilken trigonometrisk kvot använder motstående delat med närliggande?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -88636,7 +88636,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "grader",
-    "ledtrad": "<p>Du känner båda kateterna. Sätt upp tangenskvoten och använd sedan \\(\\arctan\\).</p>",
+    "ledtrad": "<p>Du känner till båda kateterna. Sätt upp tangenskvoten och använd sedan \\(\\arctan\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -88717,7 +88717,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner hypotenusan och den motstående kateten till vinkeln v. Vilket samband använder du direkt?</p>",
+    "t": "<p>Du känner till hypotenusan och den motstående kateten till vinkeln v. Vilket samband använder du direkt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sinus använder motstående katet och hypotenusa:</p><div class=\"facit-matte\">\\[\\sin v=\\text{motstående}/\\text{hypotenusa}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> sinus.</p></div>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
@@ -88733,7 +88733,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "sinus", "ratt": true}, {"txt": "cosinus", "ratt": false, "kommentar": "Cosinus innehåller närliggande katet, men den känner du inte."}, {"txt": "tangens", "ratt": false, "kommentar": "Tangens innehåller inte hypotenusan."}]
+    "alternativ": [{"txt": "sinus", "ratt": true}, {"txt": "cosinus", "ratt": false, "kommentar": "Cosinus innehåller närliggande katet, men den känner du inte till."}, {"txt": "tangens", "ratt": false, "kommentar": "Tangens innehåller inte hypotenusan."}]
   },
   {
     "id": "4.222",
@@ -88744,7 +88744,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner de två kateterna och vill bestämma en spetsig vinkel. Vilket samband använder du direkt?</p>",
+    "t": "<p>Du känner till de två kateterna och vill bestämma en spetsig vinkel. Vilket samband använder du direkt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Tangens använder de två kateterna:</p><div class=\"facit-matte\">\\[\\tan v=\\text{motstående}/\\text{närliggande}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tangens.</p></div>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
@@ -88771,7 +88771,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner hypotenusan och den närliggande kateten till vinkeln v. Vilket samband använder du direkt?</p>",
+    "t": "<p>Du känner till hypotenusan och den närliggande kateten till vinkeln v. Vilket samband använder du direkt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinus använder närliggande katet och hypotenusa:</p><div class=\"facit-matte\">\\[\\cos v=\\text{närliggande}/\\text{hypotenusa}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cosinus.</p></div>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
@@ -88787,7 +88787,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "sinus", "ratt": false, "kommentar": "Sinus innehåller motstående katet, men den känner du inte."}, {"txt": "tangens", "ratt": false, "kommentar": "Tangens innehåller inte hypotenusan."}, {"txt": "cosinus", "ratt": true}]
+    "alternativ": [{"txt": "sinus", "ratt": false, "kommentar": "Sinus innehåller motstående katet, men den känner du inte till."}, {"txt": "tangens", "ratt": false, "kommentar": "Tangens innehåller inte hypotenusan."}, {"txt": "cosinus", "ratt": true}]
   },
   {
     "id": "4.224",
@@ -88838,7 +88838,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Du känner motstående katet och söker hypotenusan.</p>",
+    "ledtrad": "<p>Du känner till motstående katet och söker hypotenusan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -88925,7 +88925,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "sinus", "ratt": true}, {"txt": "cosinus", "ratt": false, "kommentar": "Cosinus ger avståndet längs marken till väggen, inte höjden."}, {"txt": "tangens", "ratt": false, "kommentar": "Tangens kräver avståndet längs marken, men det känner du inte."}]
+    "alternativ": [{"txt": "sinus", "ratt": true}, {"txt": "cosinus", "ratt": false, "kommentar": "Cosinus ger avståndet längs marken till väggen, inte höjden."}, {"txt": "tangens", "ratt": false, "kommentar": "Tangens kräver avståndet längs marken, men det känner du inte till."}]
   },
   {
     "id": "4.229",
@@ -88952,7 +88952,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "alternativ": [{"txt": "sinus", "ratt": false, "kommentar": "Sinus kräver sträckan från dig till toppen, men den känner du inte."}, {"txt": "cosinus", "ratt": false, "kommentar": "Cosinus kräver sträckan från dig till toppen, men den känner du inte."}, {"txt": "tangens", "ratt": true}]
+    "alternativ": [{"txt": "sinus", "ratt": false, "kommentar": "Sinus kräver sträckan från dig till toppen, men den känner du inte till."}, {"txt": "cosinus", "ratt": false, "kommentar": "Cosinus kräver sträckan från dig till toppen, men den känner du inte till."}, {"txt": "tangens", "ratt": true}]
   },
   {
     "id": "4.230",
@@ -89487,7 +89487,7 @@ window.BANKMA1 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Rektangelns diagonal är hypotenusan. Du känner hypotenusan och en katet.</p>",
+    "ledtrad": "<p>Rektangelns diagonal är hypotenusan. Du känner till hypotenusan och en katet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -89501,7 +89501,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Mira känner hypotenusan och kateten mitt emot en spetsig vinkel i en rätvinklig triangel. Hon vill beräkna vinkeln och väljer tangens eftersom den motstående kateten ingår där. Vilket samband bör hon använda? Motivera ditt svar.</p>",
+    "t": "<p>Mira känner till hypotenusan och kateten mitt emot en spetsig vinkel i en rätvinklig triangel. Hon vill beräkna vinkeln och väljer tangens eftersom den motstående kateten ingår där. Vilket samband bör hon använda? Motivera ditt svar.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Valet styrs av <em>båda</em> sidorna.</p></li><li><p>Sinus är motstående/hypotenusa.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Sinus ska användas, eftersom sinus innehåller både motstående katet och hypotenusa.</strong></p></div>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
@@ -89671,7 +89671,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner en spetsig vinkel i en rätvinklig triangel och vet hur lång den motstående kateten är. Vilket trigonometriskt samband ger längden på den andra kateten direkt?</p>",
+    "t": "<p>Du känner till en spetsig vinkel i en rätvinklig triangel och vet hur lång den motstående kateten är. Vilket trigonometriskt samband ger längden på den andra kateten direkt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Metod:</strong> Tangens kopplar samman motstående och närliggande katet:</p><div class=\"facit-matte\">\\[\\tan v=\\frac{\\text{motstående}}{\\text{närliggande}}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> tangens.</p></div>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
@@ -89685,7 +89685,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Du känner motstående och söker närliggande katet. Vilken kvot innehåller just de två kateterna?</p>",
+    "ledtrad": "<p>Du känner till motstående och söker närliggande katet. Vilken kvot innehåller just de två kateterna?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -89713,7 +89713,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Du känner hypotenusan och söker motstående katet. Vilken kvot innehåller just dessa två sidor?</p>",
+    "ledtrad": "<p>Du känner till hypotenusan och söker motstående katet. Vilken kvot innehåller just dessa två sidor?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -100155,7 +100155,7 @@ window.BANKMA1 = [
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
     ],
-    "alternativ": [{"txt": "Händelserna är oberoende, eftersom \\(0{,}40\\cdot0{,}50=0{,}20\\).", "ratt": true}, {"txt": "Händelserna är beroende, eftersom A och B har olika sannolikheter.", "ratt": false, "kommentar": "Händelser kan vara oberoende och ändå ha olika sannolikheter."}, {"txt": "Händelserna är beroende, eftersom \\(0{,}40+0{,}50\\ne1\\).", "ratt": false, "kommentar": "A och B behöver inte ha summan 1."}, {"txt": "Det går inte att avgöra utan att känna alla möjliga utfall.", "ratt": false, "kommentar": "Det räcker att jämföra P(A och B) med P(A) · P(B)."}]
+    "alternativ": [{"txt": "Händelserna är oberoende, eftersom \\(0{,}40\\cdot0{,}50=0{,}20\\).", "ratt": true}, {"txt": "Händelserna är beroende, eftersom A och B har olika sannolikheter.", "ratt": false, "kommentar": "Händelser kan vara oberoende och ändå ha olika sannolikheter."}, {"txt": "Händelserna är beroende, eftersom \\(0{,}40+0{,}50\\ne1\\).", "ratt": false, "kommentar": "A och B behöver inte ha summan 1."}, {"txt": "Det går inte att avgöra utan att känna till alla möjliga utfall.", "ratt": false, "kommentar": "Det räcker att jämföra P(A och B) med P(A) · P(B)."}]
   },
   {
     "id": "5.130",
@@ -112210,7 +112210,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Nu känner du antalet stickor men inte n. Sätt därför uttrycket (3n+1) lika med 100.</p>",
+    "ledtrad": "<p>Nu känner du till antalet stickor men inte n. Sätt därför uttrycket (3n+1) lika med 100.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -164832,7 +164832,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en rätvinklig triangel känner du hypotenusan och den katet som ligger intill vinkeln \\(v\\). Vilken räknarfunktion ska du använda för att bestämma \\(v\\)?</p>",
+    "t": "<p>I en rätvinklig triangel känner du till hypotenusan och den katet som ligger intill vinkeln \\(v\\). Vilken räknarfunktion ska du använda för att bestämma \\(v\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Närliggande katet delat med hypotenusan är \\(\\cos v\\). Då ger \\(\\cos^{-1}\\) vinkeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^{-1}\\)</p></div>",
     "familj": "Vinkel ur ett trigonometriskt värde",
     "formaga": [
@@ -174039,7 +174039,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(50\\,\\%\\) av ett tal är \\(18\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[50\\,\\%=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{18}{0{,}5}=36\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}5\\cdot36=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 36,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174057,7 +174057,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(25\\,\\%\\) av ett tal är \\(15\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[25\\,\\%=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{15}{0{,}25}=60\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}25\\cdot60=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 60,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174075,7 +174075,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(10\\,\\%\\) av ett tal är \\(24\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[10\\,\\%=0{,}1\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{24}{0{,}1}=240\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}1\\cdot240=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 240,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174120,7 +174120,7 @@ window.BANKMA1 = [
   ],
   "t": "<p>Beräkna det hela.</p><div class=\"deluppgifter\"><p>a) \\(50\\,\\%\\) av ett tal är \\(18\\). Vilket är talet?</p><p>b) \\(25\\,\\%\\) av ett tal är \\(15\\). Vilket är talet?</p><p>c) \\(10\\,\\%\\) av ett tal är \\(24\\). Vilket är talet?</p></div>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[50\\,\\%=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{18}{0{,}5}=36\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}5\\cdot36=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[25\\,\\%=0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{15}{0{,}25}=60\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}25\\cdot60=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[10\\,\\%=0{,}1\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{24}{0{,}1}=240\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}1\\cdot240=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\).</p></div></div></div>",
-  "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
+  "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
 },
 {
   "id": "0.1299",
@@ -174148,7 +174148,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(20\\,\\%\\) av ett tal är \\(46\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[20\\,\\%=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{46}{0{,}2}=230\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}2\\cdot230=46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(230\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 230,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174166,7 +174166,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(30\\,\\%\\) av ett tal är \\(72\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[30\\,\\%=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{72}{0{,}3}=240\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}3\\cdot240=72\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 240,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174184,7 +174184,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(75\\,\\%\\) av ett tal är \\(90\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[75\\,\\%=0{,}75\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{90}{0{,}75}=120\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}75\\cdot120=90\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 120,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174229,7 +174229,7 @@ window.BANKMA1 = [
   ],
   "t": "<p>Beräkna det hela.</p><div class=\"deluppgifter\"><p>a) \\(20\\,\\%\\) av ett tal är \\(46\\). Vilket är talet?</p><p>b) \\(30\\,\\%\\) av ett tal är \\(72\\). Vilket är talet?</p><p>c) \\(75\\,\\%\\) av ett tal är \\(90\\). Vilket är talet?</p></div>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[20\\,\\%=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{46}{0{,}2}=230\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}2\\cdot230=46\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(230\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[30\\,\\%=0{,}3\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{72}{0{,}3}=240\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}3\\cdot240=72\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(240\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[75\\,\\%=0{,}75\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{90}{0{,}75}=120\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}75\\cdot120=90\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\).</p></div></div></div>",
-  "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
+  "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
 },
 {
   "id": "0.1300",
@@ -174257,7 +174257,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(15\\,\\%\\) av ett tal är \\(48\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[15\\,\\%=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{48}{0{,}15}=320\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}15\\cdot320=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(320\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 320,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174275,7 +174275,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(12\\,\\%\\) av ett tal är \\(54\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[12\\,\\%=0{,}12\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{54}{0{,}12}=450\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}12\\cdot450=54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 450,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174293,7 +174293,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(8\\,\\%\\) av ett tal är \\(28\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[8\\,\\%=0{,}08\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{28}{0{,}08}=350\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}08\\cdot350=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(350\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 350,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174338,7 +174338,7 @@ window.BANKMA1 = [
   ],
   "t": "<p>Beräkna det hela.</p><div class=\"deluppgifter\"><p>a) \\(15\\,\\%\\) av ett tal är \\(48\\). Vilket är talet?</p><p>b) \\(12\\,\\%\\) av ett tal är \\(54\\). Vilket är talet?</p><p>c) \\(8\\,\\%\\) av ett tal är \\(28\\). Vilket är talet?</p></div>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[15\\,\\%=0{,}15\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{48}{0{,}15}=320\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}15\\cdot320=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(320\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[12\\,\\%=0{,}12\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{54}{0{,}12}=450\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}12\\cdot450=54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[8\\,\\%=0{,}08\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{28}{0{,}08}=350\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}08\\cdot350=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(350\\).</p></div></div></div>",
-  "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
+  "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
 },
 {
   "id": "0.1301",
@@ -174366,7 +174366,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(5\\,\\%\\) av ett tal är \\(35\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[5\\,\\%=0{,}05\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{35}{0{,}05}=700\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}05\\cdot700=35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(700\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 700,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174384,7 +174384,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(40\\,\\%\\) av ett tal är \\(180\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[40\\,\\%=0{,}4\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{180}{0{,}4}=450\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}4\\cdot450=180\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 450,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174402,7 +174402,7 @@ window.BANKMA1 = [
     {
       "t": "<p>\\(60\\,\\%\\) av ett tal är \\(156\\). Vilket är talet?</p>",
       "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[60\\,\\%=0{,}6\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{156}{0{,}6}=260\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}6\\cdot260=156\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(260\\).</p></div>",
-      "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
+      "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>",
       "rättSvar": 260,
       "svarFormat": "numeriskt",
       "svarstyp": "numeriskt",
@@ -174447,7 +174447,7 @@ window.BANKMA1 = [
   ],
   "t": "<p>Beräkna det hela.</p><div class=\"deluppgifter\"><p>a) \\(5\\,\\%\\) av ett tal är \\(35\\). Vilket är talet?</p><p>b) \\(40\\,\\%\\) av ett tal är \\(180\\). Vilket är talet?</p><p>c) \\(60\\,\\%\\) av ett tal är \\(156\\). Vilket är talet?</p></div>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[5\\,\\%=0{,}05\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{35}{0{,}05}=700\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}05\\cdot700=35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(700\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[40\\,\\%=0{,}4\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{180}{0{,}4}=450\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}4\\cdot450=180\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv procenten som en andel: \\(p\\,\\%=\\frac{p}{100}\\)</p><p>Det givna värdet är bara en del av talet.</p><div class=\"facit-matte\">\\[60\\,\\%=0{,}6\\]</div></li><li><p class=\"facit-rubrik\">Beräkna det hela: \\(\\text{det hela}=\\frac{\\text{delen}}{\\text{andelen}}\\)</p><p>Dividera den givna delen med andelen i decimalform.</p><div class=\"facit-matte\">\\[\\frac{156}{0{,}6}=260\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom att beräkna delen igen</p><p>Den givna procenten av ditt tal ska bli den angivna delen.</p><div class=\"facit-matte\">\\[0{,}6\\cdot260=156\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(260\\).</p></div></div></div>",
-  "ledtrad": "<p>Du känner delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
+  "ledtrad": "<p>Du känner till delen och procentsatsen. Dividera delen med andelen i decimalform för att få hela talet.</p>"
 },
   {
     "id": "0.1302",

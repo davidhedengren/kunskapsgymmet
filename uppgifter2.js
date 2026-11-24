@@ -8796,7 +8796,7 @@ window.BANK2 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>\\(\\omega=\\sqrt{\\dfrac km}\\) kan bestämmas utan att känna \\(k\\) och \\(m\\) var för sig.</p>",
+    "ledtrad": "<p>\\(\\omega=\\sqrt{\\dfrac km}\\) kan bestämmas utan att känna till \\(k\\) och \\(m\\) var för sig.</p>",
     "traningsniva": 4,
     "svarEnhet": "Hz",
     "familjNyckel": "svangningar__fjaderoscillatorn"

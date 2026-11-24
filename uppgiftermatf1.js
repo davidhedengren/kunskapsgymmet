@@ -3643,8 +3643,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Läs villkoret för den första bokstaven noga.</p>",
@@ -3853,8 +3852,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg.</p>",
@@ -3914,8 +3912,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Första siffran har 9 val.</p>",
@@ -3972,8 +3969,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Paketen är av två olika slag. Räkna varje slag med multiplikationsprincipen och addera.</p>",
@@ -4033,8 +4029,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Multiplikationsprincipen: multiplicera antalet val i varje steg. Bokstäverna och siffrorna ska vara olika, så antalet val minskar för varje steg.</p>",
@@ -4740,8 +4735,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Första siffran kan väljas på 9 sätt. Därefter finns 9, 8, 7 och 6 siffror kvar.</p>",
@@ -6397,8 +6391,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Tänk på föremålen som stjärnor och skiljeväggar mellan grupperna. Antalet sätt är \\(\\binom{n+k-1}{k-1}\\) för n föremål i k grupper.</p>",
@@ -7399,8 +7392,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\). Exakt en defekt betyder 1 av 3 defekta och 3 av 9 hela.</p>",
@@ -7424,8 +7416,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
@@ -7449,8 +7440,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
@@ -7476,8 +7466,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Villkoret skapar ett nytt utfallsrum. Räkna först hur många utfall som uppfyller villkoret och därefter hur många av dessa som också uppfyller det som efterfrågas.</p>",
@@ -7503,8 +7492,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och använd \\(1-P(\\text{ingen})\\).</p>",
@@ -7553,8 +7541,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\). Exakt 4 rätt betyder 4 av de 6 vinnarnumren och 2 av de 24 övriga.</p>",
@@ -7630,8 +7617,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
@@ -7739,8 +7725,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
@@ -7766,8 +7751,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och använd \\(1-P(\\text{ingen})\\).</p>",
@@ -7791,8 +7775,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
@@ -7816,8 +7799,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
@@ -7841,8 +7823,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
@@ -7866,8 +7847,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\). Om Alex väljs ska två till väljas bland de övriga nio.</p>",
@@ -7891,8 +7871,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
@@ -7918,8 +7897,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och använd \\(1-P(\\text{ingen})\\).</p>",
@@ -7943,8 +7921,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "sannolikhet",
     "ledtrad": "<p>Sannolikheten är antalet gynnsamma urval delat med antalet möjliga urval. Räkna båda med \\(\\binom nk\\).</p>",
@@ -9810,8 +9787,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv talet med platsvärden i den givna basen. Då får du en ekvation där den okända siffran är variabel.</p>",
@@ -9930,8 +9906,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv talet som ett polynom i basen b. Kom ihåg att basen måste vara ett heltal större än alla siffror som förekommer.</p>",
@@ -10098,8 +10073,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv talet med platsvärden i den givna basen. Då får du en ekvation där den okända siffran är variabel.</p>",
@@ -10147,8 +10121,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv talet som ett polynom i basen b. Kom ihåg att basen måste vara ett heltal större än alla siffror som förekommer.</p>",
@@ -10461,7 +10434,6 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -11597,8 +11569,7 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "ledtrad": "<p>Isolera \\(ax\\equiv b\\pmod m\\). Leta sedan efter en multiplikativ invers till \\(a\\) modulo \\(m\\), eller prova de få möjliga restklasserna.</p>",
     "traningsniva": 3
@@ -18183,8 +18154,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En minskning med samma procent varje steg ger en konstant förändringsfaktor.</p>",
@@ -18272,8 +18242,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": [
       "numeriskt",
@@ -21996,8 +21965,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Arean är \\(A=\\pi r^2\\). Derivera med avseende på tiden: \\(\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}\\).</p>",
@@ -22053,8 +22021,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Arean är \\(A=s^2\\), så \\(\\frac{dA}{dt}=2s\\frac{ds}{dt}\\).</p>",
@@ -22082,8 +22049,7 @@ window.BANKMATF1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv arean med diametern: \\(A=\\frac{\\pi d^2}{4}\\). Derivera med avseende på tiden.</p>",
@@ -22111,8 +22077,7 @@ window.BANKMATF1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\), så \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\).</p>",
@@ -22140,8 +22105,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Volymen är \\(V=s^3\\), så \\(\\frac{dV}{dt}=3s^2\\frac{ds}{dt}\\).</p>",
@@ -22225,8 +22189,7 @@ window.BANKMATF1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Arean är \\(A=lb\\). Derivera med produktregeln med avseende på tiden.</p>",
@@ -22254,8 +22217,7 @@ window.BANKMATF1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant r. Derivera med avseende på tiden.</p>",
@@ -22314,8 +22276,7 @@ window.BANKMATF1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\), så \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\). Lös ut \\(dr/dt\\).</p>",
@@ -22343,8 +22304,7 @@ window.BANKMATF1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Omkretsen är \\(O=2\\pi r\\), så \\(\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}\\).</p>",
@@ -22461,8 +22421,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Volymen är \\(V=\\frac{4\\pi r^3}{3}\\), så \\(\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}\\). Lös ut \\(dr/dt\\).</p>",
@@ -22520,8 +22479,7 @@ window.BANKMATF1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Volymen är \\(V=\\pi r^2h\\) med konstant r. Derivera med avseende på tiden. Lös ut \\(dh/dt\\).</p>",
@@ -22992,8 +22950,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Bestäm områdets gränser. Vilket tecken får integralen när grafen ligger under x-axeln?</p>",
@@ -23023,8 +22980,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Området är en trapets. Du kan använda ändpunkternas höjder eller integrera linjens funktion.</p>",
@@ -23216,8 +23172,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm nollställena. Parabeln är symmetrisk kring y-axeln, vilket kan förenkla beräkningen.</p>",
@@ -23323,8 +23278,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Lös ekvationen där kurvorna möts. Integrera därefter den övre funktionens värde minus den undres.</p>",
@@ -23385,8 +23339,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Var skär linjen de två koordinataxlarna? Vilken geometrisk figur avgränsar de?</p>",
@@ -23416,8 +23369,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Integrera term för term. Var noga med minustecknet framför värdet vid den undre gränsen.</p>",
@@ -23871,8 +23823,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": [["punkt", "punkt"], "numeriskt"],
     "svarsstruktur": "ordnad",
@@ -23945,8 +23896,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "ledtrad": "<p>Vilken av funktionerna har störst värde mellan 0 och 1? Integrera skillnaden.</p>",
     "traningsniva": 2,
@@ -24001,8 +23951,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna medelvärdet med a kvar</p>\\[f_{\\text{medel}}=\\frac1a\\int_0^a x^2\\,dx\\]\\[=\\frac1a\\left[\\frac{x^3}{3}\\right]_0^a=\\frac{a^2}{3}\\]</li><li><p class=\"facit-rubrik\">Använd det givna medelvärdet</p>\\[\\frac{a^2}{3}=12\\quad\\Rightarrow\\quad a^2=36\\]<p>a är positivt, så a=6. Kontroll: integralen är 72 och 72/6=12.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=6\\).</p></div>",
     "familj": "Integraler, area och medelvärde",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -24027,8 +23976,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm gränserna</p>\\[\\sqrt x=\\frac x2\\]<p>Båda leden är icke-negativa för x≥0, så vi kan kvadrera:</p>\\[x=\\frac{x^2}{4}\\quad\\Rightarrow\\quad x(x-4)=0\\]<p>x=0 och x=4 uppfyller även den ursprungliga ekvationen.</p></li><li><p class=\"facit-rubrik\">Integrera övre minus undre kurva</p><p>Rotkurvan ligger över linjen mellan skärningspunkterna.</p>\\[A=\\int_0^4\\left(x^{1/2}-\\frac x2\\right)\\,dx\\]\\[=\\left[\\frac23x^{3/2}-\\frac{x^2}{4}\\right]_0^4\\]</li><li><p class=\"facit-rubrik\">Beräkna det exakta värdet</p>\\[A=\\frac23\\cdot8-\\frac{16}{4}-0\\]\\[=\\frac{16}{3}-4=\\frac43\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac43\\) areaenheter.</p></div>",
     "familj": "Integraler, area och medelvärde",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -25651,8 +25599,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "ledtrad": "<p>Sätt \\(u=T-20\\). Vad säger tecknet och exponentialfaktorn om värdet 20 på lång sikt?</p>",
     "traningsniva": 3,
@@ -29605,8 +29552,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "ledtrad": "<p>\\(T(0)=80\\) ger C. Sätt sedan \\(T(10)=50\\) och lös ut k.</p>",
     "traningsniva": 3,
@@ -29912,8 +29858,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Vid jämvikt är förändringshastigheten noll. Sätt högerledet lika med 0.</p>",
@@ -29941,8 +29886,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(P'=kP\\) ger \\(P=P_0e^{kt}\\). Fördubbling betyder \\(e^{10k}=2\\).</p>",
@@ -29970,8 +29914,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sätt \\(T(5)=50\\) och lös ut k med logaritmer.</p>",
@@ -30055,8 +29998,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>\\(P'=kP\\) ger \\(P=P_0e^{kt}\\).</p>",
@@ -32812,7 +32754,6 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Antal möjliga dragningar:</p><div class=\"facit-matte\">\\[\\binom{35}{7}=6\\,724\\,520\\]</div><p>Gynnsamma: 5 av dina 7 nummer dras, och 2 av de 28 andra:</p><div class=\"facit-matte\">\\[\\binom75\\binom{28}{2}=21\\cdot378=7\\,938\\]</div><div class=\"facit-matte\">\\[P=\\frac{7\\,938}{6\\,724\\,520}\\approx1{,}18\\cdot10^{-3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(1{,}18\\cdot10^{-3}\\)</p></div>",
     "familj": "Kombinatorisk sannolikhet",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -32913,8 +32854,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Gynnsamma: en vinstlott och tre nitlotter,</p><div class=\"facit-matte\">\\[\\binom61\\cdot\\binom{54}3=6\\cdot24\\,804=148\\,824\\]</div><p>Möjliga:</p><div class=\"facit-matte\">\\[\\binom{60}4=487\\,635\\]</div><div class=\"facit-matte\">\\[P=\\frac{148\\,824}{487\\,635}\\approx0{,}305\\]</div><p class=\"facit-svar\"><strong>Sannolikheten är \\(\\approx0{,}3052\\).</strong></p><div class=\"facit-svar\"><p><strong>Svar i likvärdiga former:</strong> \\(\\frac{49608}{162545}\\) = \\(0{,}3052\\) ≈ \\(30{,}5\\,\\%\\)</p></div></div>",
     "familj": "Kombinatorisk sannolikhet",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -42231,8 +42171,7 @@ window.BANKMATF1 = [
     ],
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -44548,7 +44487,6 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -44572,7 +44510,6 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -44597,7 +44534,6 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -44621,7 +44557,6 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -44693,7 +44628,6 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -44813,7 +44747,6 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -48420,8 +48353,7 @@ window.BANKMATF1 = [
     "tolerans": [1e-10, 0.0005],
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -48500,8 +48432,7 @@ window.BANKMATF1 = [
     "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Börja med tangentlinjen till vänsterledet vid x = 1. Lös sedan ekvationen med tangentuttrycket i stället för exponentialfunktionen.</p>",

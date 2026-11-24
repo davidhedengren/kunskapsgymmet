@@ -3768,8 +3768,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv situationens kvot som ett rationellt uttryck och ange vilka värden som gör nämnaren noll. Förenkla först efter att uttrycket och dess definitionsvillkor är tydliga.</p>",
@@ -6008,8 +6007,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Räkna ut \\(T(72)\\) och \\(T(90)\\) och jämför.</p>",
@@ -9581,8 +9579,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Ekvationen \\(|x-1|=a\\) beskriver alla tal på avstånd \\(a\\) från \\(1\\).</p>",
@@ -9815,8 +9812,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "ledtrad": "<p>Viktigt steg: En grafisk ekvationslösning betyder att söka skärningspunkten mellan två funktioner. x-koordinaten är lösningen på ekvationen. Rita därför båda modellerna i samma koordinatsystem och kontrollera att den skärning du väljer ligger i det relevanta intervallet.</p>",
     "traningsniva": 4,
@@ -9848,8 +9844,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "ledtrad": "<p>Viktigt steg: En grafisk ekvationslösning betyder att söka skärningspunkten mellan två funktioner. x-koordinaten är lösningen på ekvationen. Rita därför båda modellerna i samma koordinatsystem och kontrollera att den skärning du väljer ligger i det relevanta intervallet.</p>",
     "traningsniva": 4,
@@ -10921,8 +10916,7 @@ window.BANKMATO1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "ledtrad": "<p>Tänk så här: En grafisk ekvationslösning betyder att söka skärningspunkten mellan två funktioner. x-koordinaten är lösningen på ekvationen. Rita därför båda modellerna i samma koordinatsystem och kontrollera att den skärning du väljer ligger i det relevanta intervallet.</p>",
     "traningsniva": 2,
@@ -15370,8 +15364,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Derivera med a kvar som en vanlig konstant. Sätt sedan in \\(x=1\\) och lös \\(f'(1)=0\\).</p>",
@@ -20204,8 +20197,7 @@ window.BANKMATO1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "ledtrad": "<p>Tillväxthastigheten är derivatan av modellen. För \\(a^t\\) gäller \\(\\frac{d}{dt}a^t=a^t\\ln a\\), så</p>",
     "traningsniva": 3,
@@ -20768,8 +20760,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Viktigt steg: Parametern bestäms genom att översätta villkoret i texten till ett villkor på derivatan. Om en viss tangentlutning eller punkt där derivatan är noll anges ska det först skrivas som exempelvis f'(a)=k eller f'(a)=0. Därefter blir problemet en vanlig algebraisk ekvation i parametern.</p>",
     "traningsniva": 3,
@@ -20972,8 +20963,7 @@ window.BANKMATO1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "ledtrad": "<p>Parametern bestäms genom att översätta villkoret i texten till ett villkor på derivatan. Om en viss tangentlutning eller punkt där derivatan är noll anges ska det först skrivas som exempelvis f'(a)=k eller f'(a)=0. Därefter blir problemet en vanlig algebraisk ekvation i parametern.</p>",
     "traningsniva": 3,
@@ -21003,8 +20993,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Tänk så här: Parametern bestäms genom att översätta villkoret i texten till ett villkor på derivatan. Om en viss tangentlutning eller punkt där derivatan är noll anges ska det först skrivas som exempelvis f'(a)=k eller f'(a)=0. Därefter blir problemet en vanlig algebraisk ekvation i parametern.</p>",
     "traningsniva": 4,
@@ -21199,8 +21188,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Villkoren ger \\(3+2a+b=0\\) och \\(27+6a+b=0\\). Subtraktion ger \\(24+4a=0\\Rightarrow a=-6\\).</p>",
     "traningsniva": 4,
@@ -22982,8 +22970,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Derivera med regeln för \\(a^t\\) och sätt derivatan lika med 300.</p>",
@@ -23495,8 +23482,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Se \\(\\tfrac{2}{a+2}\\) som en konstant faktor och använd potensregeln på \\(x^{a+2}\\).</p>",
@@ -25494,8 +25480,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Derivera med a kvar, sätt in \\(x=2\\) och lös \\(f'(2)=10\\).</p>",
@@ -25935,8 +25920,7 @@ window.BANKMATO1 = [
     "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Rita \\(N(t)\\) och den vågräta linjen \\(y=3\\,000\\). Var skär de varandra?</p>",
@@ -25973,8 +25957,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Rita \\(V(t)\\) och den vågräta linjen \\(y=40\\,000\\). Var skär de varandra?</p>",
@@ -26048,8 +26031,7 @@ window.BANKMATO1 = [
     "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "spel": true,
@@ -31146,8 +31128,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Hastigheten är positiv, så sträckan är integralen av \\(v(t)\\) från 0 till 10.</p>",
@@ -31393,8 +31374,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Kontrollera att hastigheten är positiv på intervallet. Integrera sedan \\(v(t)\\) från 0 till 20.</p>",
@@ -33105,8 +33085,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sträckan är arean under hastighetsgrafen mellan 0 och 3 s.</p>",
@@ -33280,8 +33259,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Bestäm först kurvornas skärningspunkter och vilken funktion som ligger överst.</p>",
     "traningsniva": 3,
@@ -33313,8 +33291,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Integrera hastigheten \\(5+2t\\) från 0 till 4 s.</p>",
@@ -33524,8 +33501,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Hastigheten är positiv under hela tidsintervallet, så sträckan är direkt integralen av hastigheten.</p>",
@@ -33732,8 +33708,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Effekten är i watt och tiden i sekunder. Integralen ger då energin i joule.</p>",
@@ -34474,8 +34449,7 @@ window.BANKMATO1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "ledtrad": "<p>Här är vinstfunktionen redan given. Bestäm var derivatan är noll och kontrollera att punkten ger ett maximum. Tolka sedan x-enheten i situationen.</p>",
     "traningsniva": 2,
@@ -34823,8 +34797,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sträckan är arean under en positiv hastighetsgraf. Använd både trapetsarea och integral.</p>",
@@ -35404,8 +35377,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sträckan är arean under hastighetsgrafen från 0 till 5 s.</p>",
@@ -36113,8 +36085,7 @@ window.BANKMATO1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "ledtrad": "<p>Viktigt steg: Integralen summerar små bidrag över intervallet. Sätt först upp rätt integral med rätt gränser och kontrollera enheten: hastighet gånger tid ger sträcka, effekt gånger tid ger energi och en flödeshastighet gånger tid ger ackumulerad mängd.</p>",
     "traningsniva": 4,
@@ -36621,8 +36592,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Beräkna integralen med \\(k\\) kvar och lös sedan den linjära ekvationen.</p>",
     "traningsniva": 3,
@@ -36828,8 +36798,7 @@ window.BANKMATO1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "ledtrad": "<p>Maxhöjden nås när \\(h'(t)=0\\). Kontrollera sedan med \\(h''(t)\\) att den kritiska punkten är ett maximum.</p>",
     "traningsniva": 4,
@@ -38325,8 +38294,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Parallella linjer har samma lutning. Sätt därför derivatan lika med 4.</p>",
     "traningsniva": 3,
@@ -39685,8 +39653,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Integralen av hastigheten ger förflyttningen med tecken. För total sträcka måste du hitta när hastigheten byter tecken och summera de positiva delsträckorna.</p>",
@@ -40528,8 +40495,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv volymen som \\(V(x)=x(14-x)^2\\). Bestäm de kritiska punkterna och tänk på att bara \\(0&lt;x&lt;14\\) är fysiskt möjligt.</p>",
@@ -40564,8 +40530,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Multiplicera ut \\(V(x)\\), derivera och lös \\(V'(x)=0\\) med pq-formeln. Vilken rot ligger i intervallet?</p>",
@@ -91651,8 +91616,7 @@ window.BANKMATO1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera x + 4/x med potensregeln</p><p>\\(f(x)=x+4x^{-1}\\), så \\(f'(x)=1-4x^{-2}=1-\\frac4{x^2}\\).</p></li><li><p class=\"facit-rubrik\">Sök en stationär punkt med positivt x</p><p>\\(f'(x)=0\\) ger \\(x^2=4\\), alltså \\(x=2\\) (eftersom \\(x&gt;0\\)).</p></li><li><p class=\"facit-rubrik\">Teckenbytet från minus till plus visar ett minimum</p><p>Derivatan är negativ för \\(0&lt;x&lt;2\\) och positiv för \\(x&gt;2\\), så det är ett minimum.</p><div class=\"facit-matte\">\\[f(2)=2+2=4\\].</div></li><li><p class=\"facit-rubrik\">Koppla minimivärdet till en rektangel med area 4</p><p>Tolkning: av alla rektanglar med arean 4 har kvadraten med sidan 2 den minsta halva omkretsen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet 4 när \\(x=2\\)</p></div>",
     "familj": "Negativa exponenter",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -92853,8 +92817,7 @@ window.BANKMATO1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Villkoret \\(f(1)=4\\)</p><div class=\"facit-matte\">\\[a+b=4\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(f'(1)=10\\)</p><div class=\"facit-matte\">\\[f'(x)=3ax^2+b\\quad\\Rightarrow\\quad 3a+b=10\\]</div></li><li><p class=\"facit-rubrik\">Dra ekvationerna från varandra</p><div class=\"facit-matte\">\\[2a=6\\quad\\Rightarrow\\quad a=3,\\qquad b=1\\]</div></li><li><p class=\"facit-rubrik\">Kontroll med \\(f(x)=3x^3+x\\)</p><div class=\"facit-matte\">\\[f(1)=4,\\qquad f'(1)=9+1=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\), \\(b=1\\)</p></div>",
     "familj": "Derivera polynom",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -94739,8 +94702,7 @@ window.BANKMATO1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och bryt ut \\(2e^x\\)</p><div class=\"facit-matte\">\\[f'(x)=2e^{2x}-4e^x=2e^x(e^x-2)\\]</div></li><li><p class=\"facit-rubrik\">a) \\(f'(x)=0\\)</p><div class=\"facit-matte\">\\[e^x=2\\quad\\Rightarrow\\quad x=\\ln2\\approx0{,}693\\]</div><p>Derivatan är negativ före och positiv efter, så det är ett minimum.</p></li><li><p class=\"facit-rubrik\">b) Minsta värdet: sätt in \\(e^x=2\\)</p><div class=\"facit-matte\">\\[f(\\ln2)=2^2-4\\cdot2=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(x=\\ln2\\approx0{,}693\\) &nbsp; b) \\(-4\\)</p></div>",
     "familj": "Derivera e^kx",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -101622,8 +101584,7 @@ window.BANKMATO1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Definitionen för \\(f(x)=3x^2\\)</p><div class=\"facit-matte\">\\[\\frac{3(x+h)^2-3x^2}{h}\\]</div></li><li><p class=\"facit-rubrik\">Utveckla \\(3(x+h)^2=3x^2+6xh+3h^2\\)</p><div class=\"facit-matte\">\\[\\frac{6xh+3h^2}{h}=6x+3h\\]</div></li><li><p class=\"facit-rubrik\">Låt h gå mot 0</p><div class=\"facit-matte\">\\[f'(x)=6x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x\\)</p></div>",
   "familj": "Derivatans definition",
   "formaga": [
-    "procedur",
-    "problemlösning"
+    "procedur"
   ],
   "miniräknare": false,
   "geogebra": false,
@@ -101991,7 +101952,6 @@ window.BANKMATO1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställena 1 och 3 ger faktorerna</p><div class=\"facit-matte\">\\[p(x)=a(x-1)(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Punkten \\((0,3)\\) ger a</p><div class=\"facit-matte\">\\[a\\cdot(-1)\\cdot(-3)=3a=3\\quad\\Rightarrow\\quad a=1\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera ut faktorformen och läs av koefficienterna</p><div class=\"facit-matte\">\\[(x-1)(x-3)=x^2-4x+3\\]</div><p>Alltså \\(a=1\\), \\(b=-4\\) och \\(c=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=1\\), \\(b=-4\\), \\(c=3\\)</p></div>",
   "familj": "Polynom och deras grafer",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": false,
@@ -102893,8 +102853,7 @@ window.BANKMATO1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Första- och andraderivatan</p><div class=\"facit-matte\">\\[f'(x)=2ax+b,\\qquad f''(x)=2a\\]</div></li><li><p class=\"facit-rubrik\">\\(f''(x)=6\\) ger a</p><div class=\"facit-matte\">\\[2a=6\\quad\\Rightarrow\\quad a=3\\]</div></li><li><p class=\"facit-rubrik\">Minimipunkten ger \\(f'(2)=0\\)</p><div class=\"facit-matte\">\\[2\\cdot3\\cdot2+b=0\\quad\\Rightarrow\\quad b=-12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\), \\(b=-12\\)</p></div>",
   "familj": "Andraderivatans tecken och grafens form",
   "formaga": [
-    "procedur",
-    "problemlösning"
+    "procedur"
   ],
   "miniräknare": false,
   "geogebra": false,
@@ -103519,7 +103478,6 @@ window.BANKMATO1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mittvinkeln i varje triangel</p><div class=\"facit-matte\">\\[\\frac{360^\\circ}{6}=60^\\circ\\]</div><p>Trianglarna är liksidiga, så sidorna från mitten är också 4 cm.</p></li><li><p class=\"facit-rubrik\">Areasatsen: \\(T=\\dfrac{ab\\sin C}{2}\\) för en triangel</p><div class=\"facit-matte\">\\[T=\\frac{4\\cdot4\\cdot\\sin60^\\circ}{2}\\approx6{,}93\\ \\text{cm}^2\\]</div></li><li><p class=\"facit-rubrik\">Sexhörningen består av sex trianglar</p><div class=\"facit-matte\">\\[6\\cdot6{,}93\\approx41{,}6\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(41{,}6\\) cm²</p></div>",
   "familj": "Areasatsen i sammansatta figurer och omvända problem",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -107528,7 +107486,6 @@ window.BANKMATO1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Funktionsvärden uttryckta i a</p><div class=\"facit-matte\">\\[f(4)=16+4a,\\qquad f(1)=1+a\\]</div></li><li><p class=\"facit-rubrik\">Ändringskvoten ska vara 8</p><div class=\"facit-matte\">\\[\\frac{(16+4a)-(1+a)}{4-1}=\\frac{15+3a}{3}=5+a\\]</div></li><li><p class=\"facit-rubrik\">Ändringskvoten ska vara 8: lös ut a</p><div class=\"facit-matte\">\\[5+a=8\\quad\\Rightarrow\\quad a=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\)</p></div>",
   "familj": "Förändringskvot och sekantens lutning",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "svarstyp": "numeriskt",
@@ -108031,7 +107988,6 @@ window.BANKMATO1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Cosinussatsen: \\(c^2=a^2+b^2-2ab\\cos C\\) med båda sidorna x</p><div class=\"facit-matte\">\\[12^2=x^2+x^2-2x^2\\cos120^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\cos120^\\circ=-\\tfrac12\\)</p><div class=\"facit-matte\">\\[144=2x^2+x^2=3x^2\\quad\\Rightarrow\\quad x^2=48\\]</div></li><li><p class=\"facit-rubrik\">Positiva kvadratroten ur 48</p><div class=\"facit-matte\">\\[x=\\sqrt{48}\\approx6{,}93\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx6{,}93\\) cm</p></div>",
   "familj": "Använda cosinussatsen",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "svarstyp": "numeriskt",
@@ -115221,8 +115177,7 @@ window.BANKMATO1 = [
     "traningsniva": 3,
     "arbetsinsats": 2,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -115371,8 +115326,7 @@ window.BANKMATO1 = [
   "traningsniva": 3,
   "arbetsinsats": 2,
   "formaga": [
-    "procedur",
-    "problemlösning"
+    "procedur"
   ],
   "miniräknare": true,
   "geogebra": false,
@@ -115400,8 +115354,7 @@ window.BANKMATO1 = [
   "traningsniva": 3,
   "arbetsinsats": 2,
   "formaga": [
-    "procedur",
-    "problemlösning"
+    "procedur"
   ],
   "miniräknare": true,
   "geogebra": false,
@@ -115489,8 +115442,7 @@ window.BANKMATO1 = [
   "traningsniva": 3,
   "arbetsinsats": 2,
   "formaga": [
-    "procedur",
-    "problemlösning"
+    "procedur"
   ],
   "miniräknare": true,
   "geogebra": false,
@@ -116643,7 +116595,6 @@ window.BANKMATO1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera. Talet \\(\\ln0{,}8\\) är negativt, så derivatan är negativ</p><div class=\"facit-matte\">\\[M'(t)=40\\cdot0{,}8^t\\cdot\\ln0{,}8\\approx-8{,}926\\cdot0{,}8^t\\]</div></li><li><p class=\"facit-rubrik\">En minskning med 4 mg per timme betyder att derivatan är −4</p><div class=\"facit-matte\">\\[\\begin{gathered}40\\cdot\\ln0{,}8\\cdot0{,}8^t=-4\\\\\\Rightarrow 0{,}8^t=\\frac{-4}{40\\ln0{,}8}\\approx0{,}448\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut t med logaritmer</p><div class=\"facit-matte\">\\[t=\\frac{\\ln0{,}448}{\\ln0{,}8}\\approx3{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter ungefär 3,6 timmar.</p></div>",
   "familj": "Derivera a^x",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -117697,8 +117648,7 @@ window.BANKMATO1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En primitiv funktion till 2x är \\(x^2\\)</p><div class=\"facit-matte\">\\[\\int_1^a2x\\,dx=\\big[x^2\\big]_1^a=a^2-1\\]</div></li><li><p class=\"facit-rubrik\">Sätt integralen lika med 120</p><div class=\"facit-matte\">\\[a^2-1=120\\quad\\Rightarrow\\quad a^2=121\\]</div></li><li><p class=\"facit-rubrik\">Välj lösningen som uppfyller villkoret</p><p>\\(a=\\pm11\\), men \\(a\\) ska vara större än 1, så \\(a=11\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=11\\)</p></div>",
   "familj": "Integralens egenskaper",
   "formaga": [
-    "procedur",
-    "problemlösning"
+    "procedur"
   ],
   "miniräknare": false,
   "geogebra": false,
@@ -118563,7 +118513,6 @@ window.BANKMATO1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Höjden delar triangeln i två rätvinkliga trianglar</p><p>Varje halva har kateten 5 cm längs basen och vinkeln 20° vid toppen.</p></li><li><p class=\"facit-rubrik\">Kateten 5 cm ligger mitt emot vinkeln 20°, och höjden ligger intill den</p><div class=\"facit-matte\">\\[\\tan20^\\circ=\\frac5h\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med h och dividera med tan 20°</p><div class=\"facit-matte\">\\[h=\\frac{5}{\\tan20^\\circ}\\approx13{,}7\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 13,7 cm.</p></div>",
   "familj": "Trigonometri i rätvinkliga trianglar",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -121147,8 +121096,7 @@ window.BANKMATO1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten och antalet termer</p><p>Kvoten är 2. Den n:te termen är \\(5\\cdot2^{n-1}\\).</p><div class=\"facit-matte\">\\[\\begin{gathered}5\\cdot2^{n-1}=2\\,560\\\\\\Rightarrow 2^{n-1}=512=2^9\\quad \\Rightarrow n=10\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Summaformeln</p><div class=\"facit-matte\">\\[S=\\frac{a(k^n-1)}{k-1}=\\frac{5(2^{10}-1)}{2-1}=5\\cdot1\\,023\\]</div></li><li><p class=\"facit-rubrik\">Summan blir 5 gånger 1 023</p><div class=\"facit-matte\">\\[S=5\\,115\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 115</p></div>",
   "familj": "Beräkna geometriska summor",
   "formaga": [
-    "procedur",
-    "problemlösning"
+    "procedur"
   ],
   "miniräknare": true,
   "geogebra": false,
@@ -126655,8 +126603,7 @@ window.BANKMATO1 = [
     "traningsniva": 3,
     "arbetsinsats": 3,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -126736,8 +126683,7 @@ window.BANKMATO1 = [
     "traningsniva": 3,
     "arbetsinsats": 3,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -126817,8 +126763,7 @@ window.BANKMATO1 = [
     "traningsniva": 3,
     "arbetsinsats": 3,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -126898,8 +126843,7 @@ window.BANKMATO1 = [
     "traningsniva": 3,
     "arbetsinsats": 3,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -126979,8 +126923,7 @@ window.BANKMATO1 = [
     "traningsniva": 3,
     "arbetsinsats": 3,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -127060,8 +127003,7 @@ window.BANKMATO1 = [
     "traningsniva": 3,
     "arbetsinsats": 3,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,

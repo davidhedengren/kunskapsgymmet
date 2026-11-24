@@ -21623,8 +21623,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>För en sektor gäller</p><div class=\"facit-matte\">\\[A=\\frac12r^2\\theta\\].</div></div></li><li><p>Alltså</p></li><li><p>\\[\\theta=\\frac{2A}{r^2}=\\frac{2\\cdot25\\pi/6}{25}=\\boxed{\\frac{\\pi}{3}}.\\]</p></li></ol></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "pi/3",
@@ -22920,8 +22919,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sektorns area: \\(A=\\frac{r^2v}{2}\\), med v i radianer</p><div class=\"facit-matte\">\\[18=\\frac{6{,}0^2\\cdot v}{2}=18v\\]</div></li><li><p class=\"facit-rubrik\">Lös ut vinkeln</p><div class=\"facit-matte\">\\[v=1{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,0 rad</p></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
@@ -23044,8 +23042,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[54=\\frac12r^2\\cdot1{,}2=0{,}6r^2\\Rightarrow r^2=90.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[r=\\boxed{3\\sqrt{10}\\text{ cm}}\\].</div></div></li></ol></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "3*sqrt(10)",
@@ -23434,8 +23431,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[48=\\frac12r^2\\cdot1{,}5=0{,}75r^2\\Rightarrow r^2=64.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\boxed{r=8\\text{ cm}}\\].</div></div></li></ol></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 8,
@@ -25944,8 +25940,7 @@ window.BANKMATO2 = [
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -26114,8 +26109,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -26786,8 +26780,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -26873,8 +26866,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "modellering",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -27057,8 +27049,7 @@ window.BANKMATO2 = [
     "familj": "Tidpunkter och intervall i trigonometriska modeller",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -27366,8 +27357,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -28733,8 +28723,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av en potens: \\(D\\,x^n=nx^{n-1}\\)</p><div class=\"facit-matte\">\\[f'(x)=3x^2+a\\]</div></li><li><p class=\"facit-rubrik\">Tangentens lutning vid \\(x=1\\) är \\(f'(1)\\)</p><div class=\"facit-matte\">\\[f'(1)=3+a=7\\quad\\Rightarrow\\quad a=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\)</p></div>",
     "familj": "Grundläggande deriveringsregler",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
@@ -28908,8 +28897,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Produktregeln ger</p></li><li><p>\\[f'(x)=ae^x+(ax+1)e^x=e^x(ax+a+1).\\]</p></li><li><p>Vid \\(x=0\\): \\(f'(0)=a+1=5\\), alltså \\(\\boxed{a=4}\\).</p></li></ol></div>",
     "familj": "Derivering med produktregeln",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
@@ -30653,8 +30641,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Av \\(f(0)=2\\) fås direkt \\(b=2\\).</p></li><li><p>Produktregeln ger \\(f'(x)=ae^x+(ax+b)e^x\\), så \\(f'(0)=a+b=5\\).</p></li><li><p>Med \\(b=2\\) fås \\(\\boxed{a=3}\\).</p></li></ol></div>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -31745,8 +31732,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoret \\(f(1)=4\\) ger \\((a+b)/2=4\\), alltså \\(a+b=8\\).</p></li><li><p>Kvotregeln ger</p></li><li><p>\\[f'(x)=\\frac{a(x+1)-(ax+b)}{(x+1)^2}=\\frac{a-b}{(x+1)^2}.\\]</p></li><li><p>Villkoret \\(f'(1)=3\\) ger \\((a-b)/4=3\\), alltså \\(a-b=12\\).</p></li><li><div class=\"facit-berakning\"><p>Systemet ger</p><div class=\"facit-matte\">\\[\\boxed{a=10,\\ b=-2}\\].</div></div></li></ol></div>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -34086,8 +34072,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln ger</p></li><li><p>\\[h'(x)=4(x^2+a)^3\\cdot2x=8x(x^2+a)^3.\\]</p></li><li><div class=\"facit-berakning\"><p>Vid</p><div class=\"facit-matte\">\\[x=1\\]:</div></div></li><li><p>\\[8(1+a)^3=64\\Rightarrow(1+a)^3=8\\Rightarrow1+a=2.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\boxed{a=1}\\].</div></div></li></ol></div>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
@@ -37679,8 +37664,7 @@ window.BANKMATO2 = [
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -37918,8 +37902,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Avgör om uttrycket kräver produktregel, kvotregel eller kedjeregel innan du deriverar.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Produktregeln ger</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=1\\cdot\\ln x+x\\cdot\\frac{1}{x}=\\ln x+1.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(e)=e\\ln e=e\\) och \\(f'(e)=1+1=2\\).</p></li><li><p>Tangenten genom \\((e,e)\\) med lutning 2 är</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[y-e=2(x-e).\\]</p></li></ol><p class=\"facit-svar\"><strong>\\(y=2x-e\\).</strong></p></div>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -38647,8 +38630,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=\\cos x-\\sin x.\\]</p></li><li><p>Vid \\(x=\\pi/4\\) är sinus och cosinus lika stora, så</p></li><li><p>\\[f'(\\pi/4)=\\frac{\\sqrt2}{2}-\\frac{\\sqrt2}{2}=\\boxed{0}.\\]</p></li></ol></div>",
     "familj": "Tangenter och optimering med trigonometriska funktioner",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 0,
@@ -39065,8 +39047,7 @@ window.BANKMATO2 = [
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
       "procedur",
-      "begrepp",
-      "problemlösning"
+      "begrepp"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -39620,8 +39601,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=1/x+1.\\] Vid \\(x=1\\) är lutningen 2 och punkten är \\((1,1)\\).</p></li><li><p>Alltså \\(y-1=2(x-1)\\), dvs \\(\\boxed{y=2x-1}\\).</p></li></ol></div>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "ekvation",
     "rättSvar": "y=2x-1",
@@ -39714,8 +39694,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=e^x-2.\\] Horisontell tangent kräver \\(e^x=2\\Rightarrow x=\\ln2\\).</p></li><li><div class=\"facit-matte\">\\[y=f(\\ln2)=2-2\\ln2\\].</div></li><li><p>Punkten är \\(\\boxed{(\\ln2,2-2\\ln2)}\\).</p></li></ol></div>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -40195,8 +40174,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten är \\((e,1)\\) eftersom \\(\\ln e=1\\).</p></li><li><p>Derivatan är \\(y'=1/x\\), så lutningen vid \\(x=e\\) är \\(1/e\\).</p></li><li><p>Tangenten är</p></li><li><p>\\[y-1=\\frac1e(x-e)=\\frac{x}{e}-1.\\]</p></li><li><p>Alltså <strong>\\(y=x/e\\)</strong>.</p></li></ol></div>",
     "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "ekvation",
     "rättSvar": "y=x/e",
@@ -41378,8 +41356,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=2x-4\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(3)=2\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(3)=9-12+1=-2\\].</div></li><li><p>Tangenten genom \\((3,-2)\\) med lutning 2 är \\(y+2=2(x-3)\\), alltså <strong>\\(y=2x-8\\)</strong>.</p></li></ol></div></div></div>",
     "familj": "Tangentproblem i tillämpningar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -41464,8 +41441,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -41663,8 +41639,7 @@ window.BANKMATO2 = [
     "familj": "Tillämpad optimering med derivata",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -42048,8 +42023,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionsvärdet är</p></li><li><p>\\[\ny(1)=e^2.\n\\]</p></li><li><p>Derivera med produktregeln:</p></li><li><p>\\[\ny'=e^{2x}+2xe^{2x}=e^{2x}(1+2x).\n\\]</p></li><li><p>Tangentens lutning vid \\(x=1\\) är</p></li><li><p>\\[\ny'(1)=3e^2.\n\\]</p></li><li><div class=\"facit-berakning\"><p>Använd tangentens lutning och punkten</p><div class=\"facit-matte\">\\[P=(1,e^2)\\]:</div></div></li><li><p>\\[\ny-e^2=3e^2(x-1).\n\\]</p></li></ol>\n\n\n\n\n\n\n\n<p class=\"facit-svar\"><strong>\\[\ny=3e^2x-2e^2.\n\\]</strong></p></div></div>",
     "familj": "Tangentproblem i tillämpningar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "ekvation",
     "rättSvar": "y=3*e^2*x-2*e^2",
@@ -43154,8 +43128,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Först bestäms punkten:</p><div class=\"facit-matte\">\\[f(1)=1-3+2=0\\].</div></div></li><li><p>Derivatan är \\(f'(x)=3x^2-6x\\), så \\(f'(1)=-3\\).</p></li><li><p>Tangenten genom \\((1,0)\\) med lutning \\(-3\\) är</p></li><li><p>\\[y=-3(x-1)=\\boxed{-3x+3}.\\]</p></li></ol></div>",
     "familj": "Tangentproblem i tillämpningar",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "-3x+3",
@@ -47984,8 +47957,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -48381,7 +48353,6 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Produktregeln ger</p><div class=\"facit-matte\">\\[f'(x)=e^{-x}(1-x)\\].</div></div></li><li><p>Eftersom \\(e^{-x}&gt;0\\) byter derivatan tecken från positiv till negativ vid \\(x=1\\).</p></li><li><div class=\"facit-berakning\"><p>Maximum är därför</p><div class=\"facit-matte\">\\[f(1)=e^{-1}=1/e\\].</div></div></li><li><p><strong>Kontrollera även rand och långt bort:</strong> På området \\(x\\ge0\\) är \\(f(0)=0\\), och \\(xe^{-x}\\to0\\) när \\(x\\to\\infty\\).</p></li><li><p>Det kritiska värdet \\(x=1\\) ger därför inte bara ett lokalt utan det globala maximumet.</p></li></ol></div>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
-      "problemlösning",
       "resonemang",
       "procedur"
     ],
@@ -50879,8 +50850,7 @@ window.BANKMATO2 = [
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
@@ -53407,8 +53377,7 @@ window.BANKMATO2 = [
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
@@ -53984,8 +53953,7 @@ window.BANKMATO2 = [
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
@@ -54113,8 +54081,7 @@ window.BANKMATO2 = [
     "familj": "Beräkna bestämda integraler",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
@@ -54395,8 +54362,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\int_0^a\\sin x\\,dx=\\big[-\\cos x\\big]_0^a=1-\\cos a.\\]</p></li><li><p>\\(1-\\cos a=1{,}5\\) ger \\(\\cos a=-\\frac12\\).</p></li><li><div class=\"facit-berakning\"><p>I intervallet är</p><div class=\"facit-matte\">\\[a=\\frac{2\\pi}{3}\\approx2{,}094\\].</div></div></li><li><p>Rimlighet: hela bågen från 0 till \\(\\pi\\) ger arean 2, och 1,5 är tre fjärdedelar av den.</p></li><li><p>Därför ska \\(a\\) ligga efter \\(\\frac\\pi2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=\\frac{2\\pi}3\\approx2{,}094\\)</p></div>",
     "familj": "Bestämda integraler med trigonometriska funktioner",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -57481,8 +57447,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I intervallet ligger \\(\\sin x\\) över \\(\\cos x\\).</p></li><li><p>Kontroll i \\(x=\\frac\\pi2\\): \\(1&gt;0\\).</p></li><li><p>\\[A=\\int_{\\pi/4}^{5\\pi/4}(\\sin x-\\cos x)\\,dx=\\big[-\\cos x-\\sin x\\big]_{\\pi/4}^{5\\pi/4}.\\]</p></li><li><div class=\"facit-berakning\"><p>Övre gränsen:</p><div class=\"facit-matte\">\\[-\\left(-\\frac{\\sqrt2}2\\right)-\\left(-\\frac{\\sqrt2}2\\right)=\\sqrt2\\].</div></div></li><li><div class=\"facit-berakning\"><p>Undre gränsen:</p><div class=\"facit-matte\">\\[-\\frac{\\sqrt2}2-\\frac{\\sqrt2}2=-\\sqrt2\\].</div></div></li><li><div class=\"facit-matte\">\\[A=\\sqrt2-(-\\sqrt2)=2\\sqrt2\\approx2{,}828\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sqrt2\\approx2{,}828\\)</p></div>",
     "familj": "Area mellan kurvor med integral",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -57815,8 +57780,7 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -58039,8 +58003,7 @@ window.BANKMATO2 = [
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 60,
@@ -58280,8 +58243,7 @@ window.BANKMATO2 = [
     "familj": "Tillämpa integraler i modeller",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 40.37,
@@ -58413,8 +58375,7 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 256,
@@ -58446,8 +58407,7 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4.583662361046586,
@@ -58479,8 +58439,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förflyttningen är integralen av hastigheten:</p></li><li><p>\\[s=\\int_0^3(3t^2-6t+4)dt=[t^3-3t^2+4t]_0^3=27-27+12=\\boxed{12\\text{ m}}.\\]</p></li></ol></div>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 12,
@@ -58511,8 +58470,7 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -58680,8 +58638,7 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -58783,8 +58740,7 @@ window.BANKMATO2 = [
     "familj": "Tillämpa integraler i modeller",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 37.09108010411828,
@@ -58818,8 +58774,7 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4.583662361046586,
@@ -58853,8 +58808,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 340,
@@ -58914,8 +58868,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förflyttning ges av \\(\\int v(t)dt\\).</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\int_0^4 3t dt=\\)<strong>24 m</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_0^3(8-2t)dt=24-9=\\)<strong>15 m</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_2^7 5dt=\\)<strong>25 m</strong>.</p></li></ol></div></div></div>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -59000,8 +58953,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 800,
@@ -59033,8 +58985,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -59128,8 +59079,7 @@ window.BANKMATO2 = [
     "familj": "Tillämpa integraler i modeller",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 12,
@@ -59195,8 +59145,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4120,
@@ -59228,8 +59177,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -59319,8 +59267,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 405,
@@ -59420,8 +59367,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 2.291831180523293,
@@ -59454,8 +59400,7 @@ window.BANKMATO2 = [
     "familj": "Tillämpa integraler i modeller",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -59484,8 +59429,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt först situationen till en integral.</p></li><li><p>Kontrollera sedan vad integralens tecken och enhet betyder i sammanhanget.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\int_0^5(t^2-4t+3)dt=[t^3/3-2t^2+3t]_0^5=125/3-50+15=\\boxed{20/3}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r(t)=(t-1)(t-3)=0\\Rightarrow\\boxed{t=1\\text{ eller }t=3}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(20+20/3=\\boxed{80/3}\\) enheter.</p></li></ol></div></div></div>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -59610,8 +59554,7 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4.583662361046586,
@@ -59932,8 +59875,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>160 liter</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\int_0^5(10+2t)dt=50+25=\\)<strong>75 liter</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\int_0^{10}(30-t)dt=300-50=\\)<strong>250 liter</strong>.</p></li></ol></div></div></div>",
     "familj": "Volym som integral av flöde",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -60017,8 +59959,7 @@ window.BANKMATO2 = [
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 66,
@@ -60049,8 +59990,7 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 150,
@@ -60174,8 +60114,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Arbetet är integralen av kraften över sträckan:</p></li><li><p>\\[W=\\int_0^3(4x+2)dx=[2x^2+2x]_0^3=18+6=\\boxed{24\\text{ J}}.\\]</p></li></ol></div>",
     "familj": "Tillämpa integraler i modeller",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 24,
@@ -60235,8 +60174,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förändringen under 5 år är</p></li><li><p>\\[\\int_0^5 200e^{0,1t}dt=2000[e^{0,1t}]_0^5=2000(e^{0,5}-1).\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\boxed{P(5)=5000+2000(e^{0,5}-1)}\\].</div></div></li></ol></div>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "5000+2000*(e^(0.5)-1)",
@@ -60364,8 +60302,7 @@ window.BANKMATO2 = [
     "familj": "Volym som integral av flöde",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -60437,8 +60374,7 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 17.066666666666666,
@@ -60471,8 +60407,7 @@ window.BANKMATO2 = [
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 84,
@@ -60535,8 +60470,7 @@ window.BANKMATO2 = [
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
       "procedur",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1783,
@@ -60600,8 +60534,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastighetsändringen är integralen av accelerationen:</p></li><li><p>\\[\\Delta v=\\int_0^5(2-0,2t)dt=\\left[2t-0,1t^2\\right]_0^5=10-2,5=7,5.\\]</p></li><li><p>Sluthastigheten blir \\(8+7{,}5=\\)<strong>15,5 m/s</strong>.</p></li></ol></div>",
     "familj": "Sträcka som integral av hastighet",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 15.5,
@@ -60796,7 +60729,6 @@ window.BANKMATO2 = [
     "familj": "Energi som integral av effekt",
     "formaga": [
       "modellering",
-      "problemlösning",
       "procedur"
     ],
     "svarstyp": "numeriskt",
@@ -63021,8 +62953,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -63518,8 +63449,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 68.2,
@@ -63651,8 +63581,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 982,
@@ -63749,8 +63678,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -63875,8 +63803,7 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
-      "problemlösning"
+      "modellering"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 95.4,
@@ -65367,7 +65294,6 @@ window.BANKMATO2 = [
     "tolerans": 1,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -65454,8 +65380,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metoden med cirkelformade tvärsnitt ger</p></li><li><p>\\[V=\\pi\\int_0^2x^2dx=\\pi\\left[\\frac{x^3}{3}\\right]_0^2=\\boxed{\\frac{8\\pi}{3}}.\\]</p></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(8*pi)/(3)",
@@ -65578,8 +65503,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(0\\le x\\le1\\) ligger \\(\\sqrt{x}\\) över \\(x\\). Vid rotation kring x-axeln blir de yttre och inre radierna \\(R=\\sqrt{x}\\) och \\(r=x\\).</p></li><li><p>Brickmetoden ger \\(V=\\pi\\int_0^1(R^2-r^2)\\,dx\\), alltså \\[V=\\pi\\int_0^1(x-x^2)\\,dx.\\]</p></li><li><p>En primitiv funktion är \\(x^2/2-x^3/3\\). Insättning ger \\(V=\\pi(1/2-1/3)=\\pi/6\\).</p></li><li><p><strong>Svar:</strong> Volymen är \\(\\pi/6\\) volymenheter.</p></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(pi)/(6)",
@@ -65703,8 +65627,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid rotation kring x-axeln gäller</p></li><li><p>\\[V=\\pi\\int_0^{1{,}5}y^2\\,dx=\\pi\\int_0^{1{,}5}e^{-2x^2}\\,dx.\\]</p></li><li><p>Numeriskt:</p></li><li><p>\\[\\boxed{V\\approx1{,}963}.\\]</p></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1.963,
@@ -65828,8 +65751,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^3x^2dx\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V=\\pi[x^3/3]_0^3=\\)<strong>\\(9\\pi\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området bildar en <strong>rät cirkulär kon</strong> med radie och höjd 3.</p></li></ol></div></div></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -66065,8 +65987,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen är</p></li><li><p>\\[V=\\pi\\int_0^3\\left(\\ln(x+1)\\right)^2dx.\\]</p></li><li><p>Numerisk integration ger</p></li><li><p>\\[\\boxed{V\\approx8{,}158}.\\]</p></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 8.158,
@@ -66127,8 +66048,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skivmetoden: \\(V=\\pi\\int_a^b\\big(f(x)\\big)^2\\,dx\\)</p><div class=\"facit-matte\">\\[V=\\pi\\int_0^4\\left(\\sqrt x\\right)^2dx=\\pi\\int_0^4x\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Bestäm en primitiv funktion och sätt in gränserna</p><div class=\"facit-matte\">\\[\\pi\\Big[\\frac{x^2}{2}\\Big]_0^4=\\pi\\cdot8=8\\pi\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\pi\\) volymenheter</p></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -66188,8 +66108,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metoden med cirkelformade tvärsnitt ger</p></li><li><p>\\[V=\\pi\\int_0^3(x^2)^2dx=\\pi\\int_0^3x^4dx.\\]</p></li><li><p>\\[V=\\pi\\left[\\frac{x^5}{5}\\right]_0^3=\\boxed{\\frac{243\\pi}{5}}.\\]</p></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -66351,8 +66270,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^2(x+1)^2dx=\\frac{\\pi}{3}(27-1)=\\boxed{26\\pi/3}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^34dx=\\boxed{12\\pi}\\].</div></li></ol></div></div></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": ["26*pi/3", "8*pi", "12*pi"],
@@ -66497,8 +66415,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Bestäm radien eller radierna vinkelrätt mot rotationsaxeln.</p></li><li><p>Skriv sedan integralen som beskriver volymen med hjälp av tvärsnittens areor.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ytterradie \\(R=2x\\), innerradie \\(r=x\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[V=\\pi\\int_0^2((2x)^2-x^2)dx=\\pi\\int_0^23x^2dx.\\]</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi[x^3]_0^2=\\boxed{8\\pi}\\].</div></li></ol></div></div></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -66737,8 +66654,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formel från formelbladet:</strong> Vid rotation kring x-axeln gäller</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2\\,dx\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^2x^2\\,dx=\\pi\\left[\\frac{x^3}{3}\\right]_0^2=\\boxed{\\frac{8\\pi}{3}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^1(2x)^2\\,dx=4\\pi\\left[\\frac{x^3}{3}\\right]_0^1=\\boxed{\\frac{4\\pi}{3}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^4(\\sqrt{x})^2\\,dx=\\pi\\int_0^4x\\,dx=\\pi\\left[\\frac{x^2}{2}\\right]_0^4=\\boxed{8\\pi}\\].</div></li></ol></div></div></div></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -66883,8 +66799,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[V=\\pi\\int_0^2\\left(\\sqrt{1+x^2}-1\\right)^2dx.\\]</p></li><li><p>Numeriskt fås</p></li><li><p>\\[\\boxed{V\\approx2{,}359}.\\]</p></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 2.359,
@@ -66914,8 +66829,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formel från formelbladet:</strong></p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li><li><p>Här är \\(y^2=x\\), så</p></li><li><p>\\[V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}.\\]</p></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "8*pi",
@@ -66977,8 +66891,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rotationen bildar brickor med yttre radie 2 och inre radie \\(x^2\\).</p></li><li><p>\\[V=\\pi\\int_0^{\\sqrt2}(2^2-(x^2)^2)dx=\\pi\\int_0^{\\sqrt2}(4-x^4)dx.\\]</p></li><li><p>\\[V=\\pi[4x-x^5/5]_0^{\\sqrt2}=\\boxed{16\\sqrt2\\pi/5}.\\]</p></li></ol></div></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "16*sqrt(2)*pi/5",
@@ -67008,8 +66921,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[V=\\pi\\int_0^3(3-x)^2dx.\\]</p></li><li><p>En primitiv funktion kan fås genom att utveckla parentesen.</p></li><li><div class=\"facit-matte\">\\[\\int_0^3(3-x)^2dx=9\\].</div></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[\\boxed{V=9\\pi}\\].</div></div></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -67070,8 +66982,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skivmetoden: \\(V=\\pi\\int_a^b\\big(f(x)\\big)^2\\,dx\\)</p><div class=\"facit-matte\">\\[V=\\pi\\int_0^1\\left(x^2\\right)^2dx=\\pi\\int_0^1x^4\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Bestäm en primitiv funktion och sätt in gränserna</p><div class=\"facit-matte\">\\[\\pi\\Big[\\frac{x^5}{5}\\Big]_0^1=\\frac{\\pi}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{\\pi}{5}\\)</p></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "pi/5",
@@ -67101,8 +67012,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På intervallet är \\(x\\ge x^2\\).</p></li><li><p>Den yttre radien är \\(x\\) och den inre radien är \\(x^2\\).</p></li><li><p>Därför</p></li><li><p>\\[V=\\pi\\int_0^1(x^2-(x^2)^2)dx=\\pi\\int_0^1(x^2-x^4)dx\\]</p></li><li><p>\\[=\\pi(1/3-1/5)=\\boxed{2\\pi/15}.\\]</p></li></ol></div></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "2*pi/15",
@@ -67132,8 +67042,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skivmetoden: \\(V=\\pi\\int_a^b\\big(f(x)\\big)^2\\,dx\\)</p><div class=\"facit-matte\">\\[V=\\pi\\int_0^2(2-x)^2\\,dx=\\pi\\int_0^2(4-4x+x^2)\\,dx\\]</div></li><li><p class=\"facit-rubrik\">Bestäm en primitiv funktion och sätt in gränserna</p><div class=\"facit-matte\">\\[\\pi\\Big[4x-2x^2+\\frac{x^3}{3}\\Big]_0^2=\\pi\\left(8-8+\\frac83\\right)=\\frac{8\\pi}{3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{8\\pi}{3}\\)</p></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "8*pi/3",
@@ -67226,8 +67135,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong> Vid rotation kring x-axeln gäller</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2\\,dx\\].</div></div></li><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[y=x^2\\]:</div></div></li><li><p>\\[V=\\pi\\int_0^2(x^2)^2\\,dx=\\pi\\int_0^2x^4\\,dx=\\pi\\left[\\frac{x^5}{5}\\right]_0^2=\\boxed{\\frac{32\\pi}{5}}.\\]</p></li></ol></div></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(32*pi)/(5)",
@@ -67351,8 +67259,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong></p><div class=\"facit-matte\">\\[V=\\pi\\int_0^2y^2dx\\].</div></div></li><li><p>\\[V=\\pi\\int_0^2(2-x)^2dx=\\pi\\int_0^2(x^2-4x+4)dx.\\]</p></li><li><p>\\[V=\\pi\\left[x^3/3-2x^2+4x\\right]_0^2=\\boxed{8\\pi/3}.\\]</p></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "8*pi/3",
@@ -67383,8 +67290,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2\"><p>På intervallet \\(0\\le x\\le4\\) ligger \\(y=x\\) ovanför \\(y=x^2/4\\). Vid rotation kring x-axeln blir tvärsnittet en cirkelring.</p><p>Ytterradien är \\(R=x\\), innerradien är \\(r=x^2/4\\). Tvärsnittsarean blir</p>\\[A(x)=\\pi(R^2-r^2)\\]\\[=\\pi\\left(x^2-\\frac{x^4}{16}\\right).\\]<p>Integrera arean mellan 0 och 4:</p>\\[V=\\pi\\left[\\frac{x^3}{3}-\\frac{x^5}{80}\\right]_0^4\\]\\[=\\pi\\left(\\frac{64}{3}-\\frac{64}{5}\\right)\\]\\[=\\frac{128\\pi}{15}.\\]<p><strong>Svar:</strong> \\(128\\pi/15\\) volymenheter. Detta är det exakta värdet.</p></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "(128*pi)/(15)",
@@ -67446,8 +67352,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong></p><div class=\"facit-matte\">\\[V=\\pi\\int_0^1y^2dx\\].</div></div></li><li><p>\\[V=\\pi\\int_0^1(3x)^2dx=9\\pi\\left[\\frac{x^3}{3}\\right]_0^1=\\boxed{3\\pi}.\\]</p></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "3*pi",
@@ -67477,8 +67382,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong></p><div class=\"facit-matte\">\\[V=\\pi\\int_0^6x^2dy\\].</div></div></li><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[x=y/2\\]:</div></div></li><li><p>\\[V=\\pi\\int_0^6\\frac{y^2}{4}dy=\\frac\\pi4\\left[\\frac{y^3}{3}\\right]_0^6=\\boxed{18\\pi}.\\]</p></li></ol></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "18*pi",
@@ -77741,7 +77645,6 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Avbildningen är given som</p><div class=\"facit-matte\">\\[w=(1+i)z\\].</div></div></li><li><p>För att gå baklänges måste vi alltså dividera med \\(1+i\\):</p></li><li><p>\\[z=\\frac{-1+3i}{1+i}.\\]</p></li><li><p>Multiplicera med konjugatet \\(1-i\\) så att nämnaren blir reell:</p></li><li><p>\\[z=\\frac{(-1+3i)(1-i)}{(1+i)(1-i)}=\\frac{2+4i}{2}=1+2i.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(z=1+2i\\).</p></div></div>",
     "familj": "Avbildningar, rotation och skalning med komplexa tal",
     "formaga": [
-      "problemlösning",
       "procedur",
       "begrepp"
     ],
@@ -85842,8 +85745,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1+i\\) har beloppet \\(\\sqrt2\\) och argumentet \\(\\frac\\pi4\\).</p></li><li><div class=\"facit-berakning\"><p>de Moivres formel:</p><div class=\"facit-matte\">\\[(1+i)^{10}=(\\sqrt2)^{10}\\left(\\cos\\frac{10\\pi}4+i\\sin\\frac{10\\pi}4\\right)=32\\left(\\cos\\frac{5\\pi}2+i\\sin\\frac{5\\pi}2\\right)\\].</div></div></li><li><p>\\(\\frac{5\\pi}{2}=2\\pi+\\frac\\pi2\\), så \\(\\cos=0\\) och \\(\\sin=1\\).</p></li><li><p>Resultatet är \\(32i\\).</p></li><li><p>Kontroll: \\((1+i)^2=2i\\), så \\((1+i)^{10}=(2i)^5=32i^5=32i\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0+32i\\)</p></div>",
     "familj": "Potenser av komplexa tal med de Moivres formel",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -87073,8 +86975,7 @@ window.BANKMATO2 = [
     "familj": "Faktorsatsen och faktorisering",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -87593,8 +87494,7 @@ window.BANKMATO2 = [
     "familj": "Faktorsatsen och faktorisering",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -89084,8 +88984,7 @@ window.BANKMATO2 = [
     "familj": "Polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -89366,8 +89265,7 @@ window.BANKMATO2 = [
     "familj": "Polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -89444,8 +89342,7 @@ window.BANKMATO2 = [
     "familj": "Polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -89505,8 +89402,7 @@ window.BANKMATO2 = [
     "familj": "Polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -89681,8 +89577,7 @@ window.BANKMATO2 = [
     "familj": "Polynomdivision",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -89952,8 +89847,7 @@ window.BANKMATO2 = [
     "familj": "Faktorsatsen och faktorisering",
     "formaga": [
       "procedur",
-      "resonemang",
-      "problemlösning"
+      "resonemang"
     ],
     "svarstyp": "text",
     "rättSvar": null,
@@ -91453,8 +91347,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorsatsen: \\((x-2)\\) är en faktor.</p></li><li><p>Polynomdivision ger</p></li><li><p>\\[p(x)=(x-2)(x^2-4x+5).\\]</p></li><li><p>\\(x^2-4x+5=0\\) ger \\(x=2\\pm\\sqrt{4-5}=2\\pm i\\).</p></li><li><p>De komplexa rötterna är varandras konjugat, som de måste vara när koefficienterna är reella.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\), \\(x=2+i\\) och \\(x=2-i\\)</p></div>",
     "familj": "Faktorsatsen och faktorisering",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -91639,7 +91532,6 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(a+bi)^2=a^2-b^2+2abi\\].</div></li><li><p>Jämför med \\(-8+6i\\):</p></li><li><p>\\[a^2-b^2=-8,\\qquad 2ab=6.\\]</p></li><li><div class=\"facit-berakning\"><p>Absolutbeloppen ger dessutom</p><div class=\"facit-matte\">\\[a^2+b^2=|-8+6i|=10\\].</div></div></li><li><p>Addera: \\(2a^2=2\\), så \\(a=\\pm1\\).</p></li><li><p>Då är \\(b=\\frac3a=\\pm3\\) med samma tecken.</p></li><li><p>Lösningarna är \\(z=1+3i\\) och \\(z=-1-3i\\).</p></li><li><div class=\"facit-berakning\"><p>Kontroll:</p><div class=\"facit-matte\">\\[(1+3i)^2=1-9+6i=-8+6i\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(z=1+3i\\) eller \\(z=-1-3i\\)</p></div>",
     "familj": "Andragradsekvationer med komplexa lösningar",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -91886,8 +91778,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Delbart med \\(x-3\\) betyder att \\(x=3\\) är ett nollställe: \\(27-36+3k+6=0\\), alltså \\(k=1\\).</p></li><li><div class=\"facit-berakning\"><p>Polynomdivision:</p><div class=\"facit-matte\">\\[x^3-4x^2+x+6=(x-3)(x^2-x-2)\\].</div></div></li><li><p>Kvoten kan faktoriseras vidare: \\((x-2)(x+1)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=1\\) och kvoten är \\(x^2-x-2\\)</p></div>",
     "familj": "Polynomdivision",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -93654,8 +93545,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt \\(u=2x+30^\\circ\\): \\(\\sin u=0{,}5\\)</p><div class=\"facit-matte\">\\[u=30^\\circ+n\\cdot360^\\circ\\quad\\text{eller}\\quad u=150^\\circ+n\\cdot360^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Dra bort \\(30^\\circ\\) och dela med 2</p><div class=\"facit-matte\">\\[x=n\\cdot180^\\circ\\quad\\text{eller}\\quad x=60^\\circ+n\\cdot180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Välj i intervallet: perioden 180° ger dubbelt så många lösningar</p><div class=\"facit-matte\">\\[x=0^\\circ,\\ 60^\\circ,\\ 180^\\circ,\\ 240^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 60^\\circ,\\ 180^\\circ\\) och \\(240^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -95639,8 +95529,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Produktregeln:</p><div class=\"facit-matte\">\\[f'(x)=2xe^{-x}-x^2e^{-x}=x(2-x)e^{-x}\\].</div></div></li><li><p>\\(f'(x)=0\\) ger \\(x=0\\) och \\(x=2\\).</p></li><li><p>Teckenstudium: negativ för \\(x&lt;0\\), positiv för \\(0&lt;x&lt;2\\), negativ för \\(x&gt;2\\).</p></li><li><p>Minimum i \\((0,\\,0)\\) och maximum i \\(\\left(2,\\,\\frac4{e^2}\\right)\\approx(2;\\ 0{,}541)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minimum där \\(x=0\\), maximum där \\(x=2\\) med värdet \\(\\frac4{e^2}\\approx0{,}541\\)</p></div>",
     "familj": "Derivering med produktregeln",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -95902,8 +95791,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvotregeln:</p></li><li><p>\\[f'(x)=\\frac{1\\cdot(x^2+4)-x\\cdot2x}{(x^2+4)^2}=\\frac{4-x^2}{(x^2+4)^2}.\\]</p></li><li><p>\\(f'(x)=0\\) ger \\(x=\\pm2\\).</p></li><li><p>Derivatan är positiv för \\(-2&lt;x&lt;2\\) och negativ utanför.</p></li><li><p>Därför är \\(x=2\\) ett maximum.</p></li><li><div class=\"facit-matte\">\\[f(2)=\\frac{2}{8}=\\frac14\\].</div></li><li><p>När \\(x\\to\\pm\\infty\\) går \\(f(x)\\to0\\), så \\(\\frac14\\) är det största värdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> största värdet \\(\\frac14\\) när \\(x=2\\)</p></div>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -98111,8 +97999,7 @@ window.BANKMATO2 = [
   "s": "<div class=\"facit-v2\"><p>\\(z=2\\pm\\sqrt{4-13}=2\\pm3i\\). Absolutbeloppet är avståndet till origo: \\(|z|=\\sqrt{2^2+3^2}=\\sqrt{13}\\approx3{,}61\\).</p></div>",
   "familj": "Rötter i det komplexa talplanet",
   "formaga": [
-    "procedur",
-    "problemlösning"
+    "procedur"
   ],
   "miniräknare": true,
   "geogebra": false,
@@ -98305,8 +98192,7 @@ window.BANKMATO2 = [
   "s": "<div class=\"facit-v2\"><p>\\(\\cos v=0{,}8\\) (trigonometriska ettan). \\(\\sin2v=2\\sin v\\cos v=2\\cdot0{,}6\\cdot0{,}8=0{,}96\\).</p></div>",
   "familj": "Tillämpningar med trigonometriska formler",
   "formaga": [
-    "procedur",
-    "problemlösning"
+    "procedur"
   ],
   "miniräknare": false,
   "geogebra": false,
@@ -101965,8 +101851,7 @@ window.BANKMATO2 = [
   "s": "<div class=\"facit-v2\"><p>\\(p(1)=-3\\), \\(p(-1)=-3\\), \\(p(2)=8-4-2-2=0\\) och \\(p(-2)=-12\\).</p><p>Roten är \\(x=2\\). Då är \\(x-2\\) en faktor: \\(p(x)=(x-2)(x^2+x+1)\\).</p></div>",
   "familj": "Faktorer ur grafer och rester",
   "formaga": [
-    "procedur",
-    "problemlösning"
+    "procedur"
   ],
   "miniräknare": false,
   "geogebra": false,
@@ -101994,7 +101879,6 @@ window.BANKMATO2 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grafen skär y-axeln där \\(x=0\\)</p><div class=\"facit-matte\">\\[p(0)=k\\cdot3\\cdot(-1)\\cdot(-2)=6k\\]</div></li><li><p class=\"facit-rubrik\">Sätt värdet lika med 12</p><div class=\"facit-matte\">\\[6k=12\\quad\\Rightarrow\\quad k=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
   "familj": "Faktorer ur grafer och rester",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": false,
@@ -105340,8 +105224,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela inte med \\(\\sin x\\): flytta över och bryt ut</p><div class=\"facit-matte\">\\[2\\sin^2x-\\sin x=0\\ \\Rightarrow\\ \\sin x\\,(2\\sin x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=0\\): ändpunkten \\(360^\\circ\\) ingår</p><div class=\"facit-matte\">\\[x=0^\\circ,\\ 180^\\circ,\\ 360^\\circ\\]</div></li><li><p class=\"facit-rubrik\">\\(\\sin x=\\tfrac12\\): första och andra kvadranten</p><div class=\"facit-matte\">\\[x=30^\\circ,\\ 150^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Därför fel att dela med \\(\\sin x\\)</p><p>Då skulle de tre lösningarna med \\(\\sin x=0\\) försvinna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 30^\\circ,\\ 150^\\circ,\\ 180^\\circ\\) och \\(360^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -105396,8 +105279,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla alla termer i ena ledet</p><div class=\"facit-matte\">\\[2\\cos^2x-\\cos x-1=0\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera med \\(t=\\cos x\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}(2t+1)(t-1)=0\\quad \\Rightarrow \\cos x=1\\\\\\text{eller}\\quad \\cos x=-\\frac12\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">cos x = 1 i båda ändpunkterna, eftersom 360° ingår</p><div class=\"facit-matte\">\\[x=0^\\circ,\\qquad x=360^\\circ\\]</div></li><li><p class=\"facit-rubrik\">cos x = −½ i andra och tredje kvadranten</p><div class=\"facit-matte\">\\[\\begin{gathered}x=180^\\circ-60^\\circ=120^\\circ,\\\\x=180^\\circ+60^\\circ=240^\\circ\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0^\\circ,\\ 120^\\circ,\\ 240^\\circ\\) och \\(360^\\circ\\)</p></div>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -106795,8 +106677,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in \\(g(x)=x^2-1\\) i \\(f\\):</p><p>\\[f(g(x))=2(x^2-1)+3.\\]</p><p>\\[f(g(x))=2x^2+1.\\]</p></li><li><p>Sätt sedan in \\(f(x)=2x+3\\) i \\(g\\):</p><p>\\[g(f(x))=(2x+3)^2-1.\\]</p><p>\\[g(f(x))=4x^2+12x+8.\\]</p></li><li><p>De båda värdena är lika när</p><p>\\[2x^2+1=4x^2+12x+8.\\]</p></li><li><p>Samla termerna och dela med 2:</p><p>\\[x^2+6x+3{,}5=0.\\]</p></li><li><p>pq-formeln ger</p><p>\\[x=-3\\pm\\sqrt{9-3{,}5}.\\]</p></li><li><p>Med tre decimaler blir det −0,655 och −5,345. Svaren får anges i valfri ordning; det är sammansättningarna \\(f(g(x))\\) och \\(g(f(x))\\) som skiljer sig åt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=-3+\\sqrt{5{,}5}\\) eller \\(x=-3-\\sqrt{5{,}5}\\).</strong></p></div>",
     "familj": "Beräkna sammansatta funktioner",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,

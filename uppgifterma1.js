@@ -15268,8 +15268,7 @@ window.BANKMA1 = [
     "poang": "1/0/0",
     "familj": "Area- och volymenheter",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 8,
@@ -22879,7 +22878,6 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "ledtrad": "<p>Beräkna först hur många som är ungdomar. Ta sedan 40 % av det antalet.</p>",
@@ -23071,7 +23069,6 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "ledtrad": "<p>Bestäm först hur många kulor en del motsvarar. Summera sedan alla delar.</p>",
@@ -23519,8 +23516,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Beräkna först hur många elever som går i årskurs 1. Ta sedan två femtedelar av det antalet.</p>",
     "spel": true,
@@ -26409,7 +26405,6 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "familj": "Olikheter i vardagsproblem",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarstyp": "numeriskt",
@@ -29154,7 +29149,6 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "familj": "Olikheter i vardagsproblem",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarstyp": "numeriskt",
@@ -34265,7 +34259,6 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "familj": "Olikheter i vardagsproblem",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarstyp": "numeriskt",
@@ -34298,7 +34291,6 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "familj": "Olikheter i vardagsproblem",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarstyp": "numeriskt",
@@ -34331,7 +34323,6 @@ window.BANKMA1 = [
     "arbetsinsats": 2,
     "familj": "Olikheter i vardagsproblem",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarstyp": "numeriskt",
@@ -39178,7 +39169,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -39212,7 +39202,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -39247,7 +39236,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -39282,7 +39270,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -39316,7 +39303,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -39351,7 +39337,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -39385,7 +39370,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -39420,7 +39404,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -39454,7 +39437,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -39523,7 +39505,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -39557,7 +39538,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -58750,8 +58730,7 @@ window.BANKMA1 = [
     "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Antingen bestämmer du \\(a\\), eller använder att x-värdet tredubblas.</p>",
@@ -58779,8 +58758,7 @@ window.BANKMA1 = [
     "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Vad är \\(4^{0{,}5}\\)? Sätt sedan in punkten i modellen.</p>",
@@ -75730,7 +75708,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -75763,7 +75740,6 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "svarFormat": "numeriskt",
@@ -88098,8 +88074,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
@@ -88227,8 +88202,7 @@ window.BANKMA1 = [
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
@@ -88287,8 +88261,7 @@ window.BANKMA1 = [
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
@@ -88318,8 +88291,7 @@ window.BANKMA1 = [
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
@@ -88664,8 +88636,7 @@ window.BANKMA1 = [
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "grader",
     "ledtrad": "<p>Rampens längd är hypotenusan och 7 m är motstående katet till markvinkeln.</p>",
@@ -88696,8 +88667,7 @@ window.BANKMA1 = [
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "grader",
     "ledtrad": "<p>Vajern är hypotenusan och 11 m är närliggande katet till markvinkeln.</p>",
@@ -89354,8 +89324,7 @@ window.BANKMA1 = [
     ],
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": [
       "kort_text",
@@ -89451,8 +89420,7 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Du behöver båda kateterna för arean. Bestäm den saknade först.</p>",
@@ -89483,8 +89451,7 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Rektangelns diagonal är hypotenusan. Du känner till hypotenusan och en katet.</p>",
@@ -89578,8 +89545,7 @@ window.BANKMA1 = [
     ],
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -94091,8 +94057,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Arean av en parallelltrapets är medelvärdet av de parallella sidorna gånger höjden.</p>",
     "svarFormat": "decimalform",
@@ -94120,8 +94085,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Räkna arean av hela rektangeln och dra bort hörnet som saknas.</p>",
     "svarFormat": "heltal",
@@ -94556,8 +94520,7 @@ window.BANKMA1 = [
     "tolerans": 0.6,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>En kon har en tredjedel av volymen av en cylinder med samma bas och höjd.</p>",
     "svarFormat": "decimalform",
@@ -94585,8 +94548,7 @@ window.BANKMA1 = [
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Använd formeln för klotets volym och omvandla cm³ till liter.</p>",
     "svarFormat": "decimalform",
@@ -94642,8 +94604,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Volymen av ett prisma är basytans area gånger längden.</p>",
     "svarFormat": "decimalform",
@@ -94784,8 +94745,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Räkna ut hela ytan som ska målas. Kan man köpa en halv burk?</p>",
     "svarFormat": "heltal",
@@ -111026,8 +110986,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Bestäm först den relativa frekvensen för trasiga lampor.</p>",
     "svarFormat": "heltal",
@@ -117663,7 +117622,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Programmet adderar kvadrattalen \\(1^2, 2^2, 3^2, \\dots\\) tills summan är minst 1 000.</p></li><li><p>Sedan skrivs antalet termer och summan ut.</p></li><li><p>\\(1+4+9+16+25+36+49+64+81+100+121+144+169=819\\) med \\(n=13\\).</p></li><li><p>Summan är fortfarande under 1 000, så slingan fortsätter.</p></li><li><p>\\(n=14\\): \\(819+196=1015\\).</p></li><li><p>Nu är villkoret \\(s&lt;1000\\) falskt, och slingan avslutas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> programmet skriver ut 14 och 1015</p></div>",
     "familj": "Programmering som matematiskt verktyg",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -118166,8 +118124,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Lösningen behöver inte vara positiv.</p>",
     "svarFormat": "decimalform",
@@ -118196,8 +118153,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Du kan multiplicera alla termer med 10 om du vill slippa decimaler.</p>",
     "svarFormat": "heltal",
@@ -118432,8 +118388,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Talet framför parentesen är −2, inte 2.</p>",
     "svarFormat": "heltal",
@@ -118462,8 +118417,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Multiplicera −3 med båda termerna och var noga med tecknen.</p>",
     "svarFormat": "heltal",
@@ -118572,8 +118526,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera ut båda produkterna:</p></li><li><div class=\"facit-berakning\"><p>VL:</p><div class=\"facit-matte\">\\[x^2-2x+3x-6=x^2+x-6\\].</div></div></li><li><div class=\"facit-berakning\"><p>HL:</p><div class=\"facit-matte\">\\[x^2-1+5=x^2+4\\].</div></div></li><li><p>\\[x^2+x-6=x^2+4\\;\\Leftrightarrow\\;x-6=4\\;\\Leftrightarrow\\;x=10.\\]</p></li><li><p>\\(x^2\\)-termerna tar ut varandra, så ekvationen blir linjär.</p></li><li><p>Kontroll: \\(13\\cdot8=104\\) och \\(11\\cdot9+5=104\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
     "familj": "Ekvationer med parenteser",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -118665,8 +118618,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Multiplicera med den gemensamma nämnaren. Hela täljaren ska multipliceras.</p>",
     "svarFormat": "heltal",
@@ -118695,8 +118647,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Teckna en ekvation med bråk och multiplicera med en gemensam nämnare.</p>",
     "svarFormat": "heltal",
@@ -128194,8 +128145,7 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
@@ -133983,7 +133933,6 @@ window.BANKMA1 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "ledtrad": "<p>Skriv skillnaden mellan modellerna som ett uttryck i x.</p>",
@@ -134549,8 +134498,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Räkna ut båda parenteserna först. Glöm inte potensen innan du multiplicerar.</p>",
     "svarFormat": "heltal",
@@ -134682,8 +134630,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Räkna ut täljaren och nämnaren var för sig. Börja med potenserna.</p>",
     "svarFormat": "heltal",
@@ -135156,8 +135103,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Beräkna potenserna först. Vilket tecken får \\((-2)^3\\)?</p>",
     "svarFormat": "heltal",
@@ -135826,8 +135772,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Skriv alla längder med tre decimaler. Tänk på att 1 m = 100 cm.</p>",
     "svarFormat": "decimalform",
@@ -137598,8 +137543,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Beräkna varje parentes för sig. Hur många sjättedelar får plats i fem sjättedelar?</p>",
     "svarFormat": "heltal",
@@ -137665,8 +137609,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Hur stor del av talet är hälften av en tredjedel?</p>",
     "svarFormat": "heltal",
@@ -138123,8 +138066,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Dela antalet som röstade med antalet röstberättigade.</p>",
     "svarFormat": "heltal",
@@ -138156,8 +138098,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Hur många procent återstår när ja och nej är borträknade?</p>",
     "svarFormat": "heltal",
@@ -138520,8 +138461,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Hur många gånger större än 16 är bredden i det här fallet?</p>",
     "svarFormat": "decimalform",
@@ -138982,8 +138922,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Alla mått i modellen är 87 gånger mindre än i verkligheten.</p>",
     "svarFormat": "heltal",
@@ -139016,8 +138955,7 @@ window.BANKMA1 = [
     "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Räkna ut vad ett gram kostar, eller hur många gram man får för en krona.</p>",
     "svarFormat": "heltal",
@@ -139390,8 +139328,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Multiplicera och avrunda först på slutet.</p>",
     "svarFormat": "heltal",
@@ -140544,8 +140481,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Gör om 3,5 km till centimeter först.</p>",
     "svarFormat": "heltal",
@@ -140577,8 +140513,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Hur många gånger längre är 42 km än 15 km?</p>",
     "svarFormat": "heltal",
@@ -140702,8 +140637,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Hur stor del av talet får man om man lägger till en fjärdedel?</p>",
     "svarFormat": "heltal",
@@ -140799,8 +140733,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Medelvärde gånger antal ger summan.</p>",
     "svarFormat": "heltal",
@@ -140866,8 +140799,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Dividera 1,2 med 0,4.</p>",
     "svarFormat": "heltal",
@@ -140960,8 +140892,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Räkna först \\(2\\cdot3\\cdot5\\). Hur många decimaler har faktorerna tillsammans?</p>",
     "svarFormat": "decimalform",
@@ -141023,8 +140954,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Gör stegen i omvänd ordning.</p>",
     "svarFormat": "decimalform",
@@ -141364,8 +141294,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Parentes, sedan potens, sedan multiplikation och division från vänster, sist subtraktion.</p>",
     "svarFormat": "heltal",
@@ -141530,8 +141459,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "ledtrad": "<p>Sätt in talen med parenteser runt. Vilket tecken får \\(-2\\cdot(-3)\\cdot4\\)?</p>",
     "svarFormat": "heltal",
@@ -144301,7 +144229,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[300/1{,}5=200\\]<p>Multiplicera sedan med 4:</p>\\[200\\cdot4=800\\]<p class=\"facit-svar\"><strong>Svar:</strong> 800 kr</p></div>",
     "familj": "Proportionella samband",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -144336,7 +144263,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[500/2=250\\]<p>Multiplicera sedan med 5:</p>\\[250\\cdot5=1250\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1250 kr</p></div>",
     "familj": "Proportionella samband",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -144371,7 +144297,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna först ut hur många kronor 1 % av lönen motsvarar:</p>\\[450/2{,}5=180\\]<p>Multiplicera sedan med 6:</p>\\[180\\cdot6=1080\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1080 kr</p></div>",
     "familj": "Proportionella samband",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -144524,7 +144449,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den totala längden från början är</p>\\[3\\cdot2{,}4=7{,}2\\text{ m}\\]<p>85 cm är 0,85 m. Bitarna som kapas använder</p>\\[5\\cdot0{,}85=4{,}25\\text{ m}\\]<p>Längden som blir över är</p>\\[7{,}2-4{,}25=2{,}95\\text{ m}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 2,95 m</p></div>",
   "familj": "Enhetsbyten i tillämpningar",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -144560,7 +144484,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den totala längden från början är</p>\\[4\\cdot1{,}8=7{,}2\\text{ m}\\]<p>75 cm är 0,75 m. Bitarna som kapas använder</p>\\[6\\cdot0{,}75=4{,}5\\text{ m}\\]<p>Längden som blir över är</p>\\[7{,}2-4{,}5=2{,}7\\text{ m}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 2,7 m</p></div>",
   "familj": "Enhetsbyten i tillämpningar",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -144596,7 +144519,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den totala längden från början är</p>\\[3\\cdot2{,}5=7{,}5\\text{ m}\\]<p>80 cm är 0,8 m. Bitarna som kapas använder</p>\\[7\\cdot0{,}8=5{,}6\\text{ m}\\]<p>Längden som blir över är</p>\\[7{,}5-5{,}6=1{,}9\\text{ m}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 1,9 m</p></div>",
   "familj": "Enhetsbyten i tillämpningar",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145096,7 +145018,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avdraget beräknas på arbetskostnaden:</p>\\[0{,}3\\cdot22000=6600\\text{ kr}\\]<p>Dra av beloppet från hela priset:</p>\\[84000-6600=77400\\text{ kr}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 77400 kr</p></div>",
   "familj": "Procent i tillämpningar",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145132,7 +145053,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avdraget beräknas på arbetskostnaden:</p>\\[0{,}3\\cdot20000=6000\\text{ kr}\\]<p>Dra av beloppet från hela priset:</p>\\[80000-6000=74000\\text{ kr}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 74000 kr</p></div>",
   "familj": "Procent i tillämpningar",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145168,7 +145088,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Avdraget beräknas på arbetskostnaden:</p>\\[0{,}2\\cdot15000=3000\\text{ kr}\\]<p>Dra av beloppet från hela priset:</p>\\[65000-3000=62000\\text{ kr}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 62000 kr</p></div>",
   "familj": "Procent i tillämpningar",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145347,7 +145266,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Blandningen består av 1 + 3 = 4 lika stora delar. En del är</p>\\[14/4=3{,}5\\text{ liter}\\]<p>Sand utgör 3 av delarna:</p>\\[3\\cdot3{,}5=10{,}5\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 10,5 liter</p></div>",
   "familj": "Blanda i ett givet förhållande",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145382,7 +145300,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Blandningen består av 1 + 4 = 5 lika stora delar. En del är</p>\\[15/5=3\\text{ liter}\\]<p>Vatten utgör 4 av delarna:</p>\\[4\\cdot3=12\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 12 liter</p></div>",
   "familj": "Blanda i ett givet förhållande",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145417,7 +145334,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Blandningen består av 2 + 3 = 5 lika stora delar. En del är</p>\\[20/5=4\\text{ liter}\\]<p>Blå färg utgör 3 av delarna:</p>\\[3\\cdot4=12\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 12 liter</p></div>",
   "familj": "Blanda i ett givet förhållande",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145453,7 +145369,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna tiden i sekunder:</p>\\[365\\cdot24\\cdot60\\cdot60=31536000\\text{ s}\\]<p>Antalet droppar blir</p>\\[31536000/2=15768000\\]<p>Multiplicera med volymen per droppe och omvandla från ml till liter:</p>\\[\\frac{15768000\\cdot0{,}25}{1000}=3942\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 3942 liter</p></div>",
   "familj": "Enhetsbyten i tillämpningar",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145489,7 +145404,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna tiden i sekunder:</p>\\[30\\cdot24\\cdot60\\cdot60=2592000\\text{ s}\\]<p>Antalet droppar blir</p>\\[2592000/3=864000\\]<p>Multiplicera med volymen per droppe och omvandla från ml till liter:</p>\\[\\frac{864000\\cdot0{,}4}{1000}=345{,}6\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 346 liter</p></div>",
   "familj": "Enhetsbyten i tillämpningar",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145525,7 +145439,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Räkna tiden i sekunder:</p>\\[7\\cdot24\\cdot60\\cdot60=604800\\text{ s}\\]<p>Antalet droppar blir</p>\\[604800/5=120960\\]<p>Multiplicera med volymen per droppe och omvandla från ml till liter:</p>\\[\\frac{120960\\cdot0{,}2}{1000}=24{,}192\\text{ liter}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 24 liter</p></div>",
   "familj": "Enhetsbyten i tillämpningar",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145667,7 +145580,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tiden är sträckan dividerad med hastigheten:</p>\\[t=\\frac{1{,}496\\cdot10^{11}}{2{,}998\\cdot10^{8}}\\approx 498{,}999\\text{ s}\\]<p>Avrunda den totala tiden till 499 sekunder. 8 minuter är 480 sekunder, så 499 − 480 = 19 sekunder återstår.</p><p class=\"facit-svar\"><strong>Svar:</strong> 8 minuter och 19 sekunder</p></div>",
   "familj": "Tiopotenser och grundpotensform",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -145718,7 +145630,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tiden är sträckan dividerad med hastigheten:</p>\\[t=\\frac{2{,}28\\cdot10^{11}}{3\\cdot10^{8}}\\approx 760\\text{ s}\\]<p>Avrunda den totala tiden till 760 sekunder. 12 minuter är 720 sekunder, så 760 − 720 = 40 sekunder återstår.</p><p class=\"facit-svar\"><strong>Svar:</strong> 12 minuter och 40 sekunder</p></div>",
   "familj": "Tiopotenser och grundpotensform",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -148579,7 +148490,6 @@ window.BANKMA1 = [
   "s": "<div class=\"facit-v2\"><p>Med sidan \\(x\\) ger Pythagoras sats \\(x^2+x^2=8{,}5^2\\), alltså \\(2x^2=72{,}25\\).</p><p>\\(x^2=36{,}125\\) och \\(x=\\sqrt{36{,}125}\\approx6{,}0\\) m.</p></div>",
   "familj": "Pythagoras och kvadratrötter i arbetslivet",
   "formaga": [
-    "problemlösning",
     "procedur"
   ],
   "miniräknare": true,
@@ -153277,7 +153187,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[30\\ \\text{liter}=30\\,000\\ \\mathrm{cm^3}\\]</div></li><li><div class=\"facit-matte\">\\[h=\\frac{30\\,000}{50\\cdot30}=20\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 cm.</p></div>",
     "familj": "Material och förbrukning med ritningar",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -153336,7 +153245,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=1{,}2\\cdot0{,}8\\cdot0{,}3=0{,}288\\ \\mathrm{m^3}=288\\ \\text{liter}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{288}{30}=9{,}6\\]</div></li><li><p>Man måste köpa hela säckar, alltså 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 säckar.</p></div>",
     "familj": "Material och förbrukning med ritningar",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -153686,7 +153594,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[60\\cdot40=2\\,400\\ \\mathrm{cm^2}\\]</div></li><li><div class=\"facit-matte\">\\[\\pi\\cdot10^2\\approx314\\ \\mathrm{cm^2}\\]</div></li><li><div class=\"facit-matte\">\\[2\\,400-314\\approx2\\,086\\ \\mathrm{cm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2 090 cm².</p></div>",
     "familj": "Arbetslivsuppgifter med ritningar",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -157121,7 +157028,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=4{,}5\\cdot4{,}0=18\\ \\mathrm{m^2}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{18}5=3{,}6\\]</div></li><li><p>Man köper hela säckar, alltså 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 säckar.</p></div>",
     "familj": "Proportionalitet i praktiska problem",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -157455,7 +157361,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[125\\ \\text{liter}=125\\ \\mathrm{dm^3}\\]</div></li><li><div class=\"facit-matte\">\\[s=\\sqrt[3]{125}=5\\ \\mathrm{dm}=50\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 cm.</p></div>",
     "familj": "Potensekvationer i tillämpningar",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -158568,7 +158473,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Upprepade förändringar: multiplicera förändringsfaktorerna</p><div class=\"facit-matte\">\\[x\\cdot0{,}85\\cdot1{,}10=935\\]</div></li><li><p class=\"facit-rubrik\">Gör samma sak i båda leden</p><div class=\"facit-matte\">\\[x=\\frac{935}{0{,}935}=1\\,000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 000 kr</p></div>",
     "familj": "Problemlösning med förändringar i flera steg",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -158864,8 +158768,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Följ programmet rad för rad och håll reda på variablernas värden</p><div class=\"facit-matte\">\\[100\\cdot1{,}2^3=172{,}8<200\\]</div></li><li><p class=\"facit-rubrik\">Ett varv till</p><div class=\"facit-matte\">\\[100\\cdot1{,}2^4\\approx207{,}4>200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Programmering som matematiskt verktyg",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -159049,8 +158952,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>År 1: \\((0+500)\\cdot1{,}05=525\\)</p></li><li><p>År 2: \\((525+500)\\cdot1{,}05=1\\,076{,}25\\)</p></li><li><p>År 3: \\((1\\,076{,}25+500)\\cdot1{,}05\\approx1\\,655{,}06\\)</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1655.06</p></div>",
     "familj": "Programmering som matematiskt verktyg",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
@@ -159176,7 +159078,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ställ upp kostnaderna</p><p>Läs av startavgift och pris per km i grafen.</p><div class=\"facit-matte\">\\[A:\\ 50+15x,\\qquad B:\\ 90+10x\\]</div></li><li><p class=\"facit-rubrik\">Sätt dem lika</p><div class=\"facit-matte\">\\[50+15x=90+10x\\quad\\Rightarrow\\quad5x=40\\quad\\Rightarrow\\quad x=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 km</p></div>",
     "familj": "Kostnad för material och arbete",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -159761,8 +159662,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rektangelns omkrets: \\(O=2l+2b\\)</p><div class=\"facit-matte\">\\[2x+2(x+5)=90\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera in faktorn i varje term i parentesen</p><div class=\"facit-matte\">\\[4x+10=90\\quad\\Rightarrow\\quad x=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 cm</p></div>",
     "familj": "Lösa enkla ekvationer",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
@@ -161078,7 +160978,6 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A: \\(\\frac{170}5=34\\) kr/kg. B: \\(\\frac{130}5=26\\) kr/kg.</p></li><li><div class=\"facit-matte\">\\[6\\cdot(34-26)=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 48 kr.</p></div>",
     "familj": "Proportionalitet i problemlösning",
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "miniräknare": true,
@@ -165742,8 +165641,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Produkten längs vägen A och B är 0,42</p><div class=\"facit-matte\">\\[0{,}6\\cdot P(B)=0{,}42\\]</div></li><li><p class=\"facit-rubrik\">Dela med 0,6</p><div class=\"facit-matte\">\\[P(B)=\\frac{0{,}42}{0{,}6}=0{,}7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,7</p></div>",
     "familj": "Multiplikationsprincipen",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,

@@ -1,55 +1,219 @@
-<!doctype html><html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Potentiallabbet (Beta) | Kunskapsgymmet</title><meta name="description" content="Rita elektriska kretsar, välj nollpotential och följ potentialvandring och Kirchhoffs lagar steg för steg.">
+<!doctype html><html lang="sv" data-accent="fy1" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Potentiallabbet (Beta) | Kunskapsgymmet</title><meta name="description" content="Rita elektriska kretsar, välj nollpotential och följ potentialvandring och Kirchhoffs lagar steg för steg.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#081217">
+<script>(function(){try{document.documentElement.dataset.theme=localStorage.getItem("kunskapsgymmet-theme")==="light"?"light":"dark"}catch(_){}document.querySelector('meta[name="theme-color"]').content=document.documentElement.dataset.theme==="light"?"#E4F2F4":"#081217"})();</script>
 <style>
 :root{--bg:#f3f6fa;--paper:#fff;--ink:#172737;--muted:#566879;--line:#dce4eb;--accent:#176b83;--blue:#245fbd;--red:#b33944;--green:#16805c;--orange:#b87216}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}main{max-width:1500px;margin:auto;padding:22px clamp(10px,2.5vw,36px) 40px}h1{font-size:clamp(25px,3.4vw,42px);letter-spacing:-.045em;margin:3px 0 4px;line-height:1.1}h2{font-size:19px;letter-spacing:-.02em;margin:0 0 5px}h3{font-size:15px;margin:0 0 6px}p{margin:0 0 8px}.muted,small{color:var(--muted)}.eyebrow{font-weight:750;color:var(--accent);letter-spacing:.13em;font-size:11px;text-transform:uppercase}header{display:flex;justify-content:space-between;gap:15px;align-items:center;margin-bottom:18px}button,select,input{font:inherit;color:inherit}button,select{border:1px solid var(--line);background:white;padding:8px 11px;border-radius:8px;font-weight:650;cursor:pointer}button:hover,select:hover{border-color:var(--accent);background:#f0f8fa}button:disabled{opacity:.4;cursor:default}button.active,button.primary{background:var(--accent);color:white;border-color:var(--accent)}button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #8dc9e1;outline-offset:2px}.row{display:flex;flex-wrap:wrap;gap:7px;align-items:center}.between{justify-content:space-between}.panel{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:15px;box-shadow:0 4px 18px #173b5510}.topbar{margin-bottom:12px}.workspace{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(320px,1fr);gap:14px;align-items:start}.stack{display:grid;gap:12px}.tools{padding:10px 0;border-bottom:1px solid var(--line);margin-bottom:8px}.tools button{font-size:13px}.modebar{margin-top:8px}.canvaswrap{position:relative;overflow:hidden;background:#fbfdff;border:1px solid var(--line);border-radius:10px;margin:10px 0}.canvaswrap svg{display:block;width:100%;height:auto;touch-action:manipulation}.hint{font-size:13px;color:var(--muted);min-height:20px}.status{padding:8px 10px;border-radius:7px;background:#eef5f7;color:#28596a;font-size:13px;margin-top:8px}.status.warn{background:#fff4e1;color:#854e12}.status:empty{display:none}.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}.stat{border:1px solid var(--line);border-radius:9px;padding:9px;min-width:0}.stat span{font-size:11px;color:var(--muted);display:block}.stat strong{font-size:clamp(17px,2vw,25px);font-variant-numeric:tabular-nums;white-space:nowrap;letter-spacing:-.035em}.walkmsg{font-size:14px;padding:10px 0;min-height:57px}.graph{width:100%;display:block;border:1px solid var(--line);border-radius:9px;background:#fcfdff}.choices{display:flex;flex-direction:column;gap:6px}.choices button{text-align:left;display:flex;justify-content:space-between;gap:8px}.choices button small{font-weight:500}.log{max-height:165px;overflow:auto;font-size:13px}.log div{display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid #edf1f5;gap:7px}.log div:last-child{border:0}.editbox{border-top:1px solid var(--line);margin-top:10px;padding-top:10px;display:flex;flex-wrap:wrap;gap:7px;align-items:center}.editbox:empty{display:none}input[type=number]{width:88px;border:1px solid var(--line);border-radius:7px;padding:7px}.legend{display:flex;flex-wrap:wrap;gap:12px;font-size:12px;color:var(--muted);margin-top:6px}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px}.node,.edgehit,.gridpoint{cursor:pointer}.node:focus,.edgehit:focus,.gridpoint:focus{outline:none;stroke:#009fc7;stroke-width:4}.footer{margin-top:14px;font-size:13px;color:var(--muted)}.check{font-size:13px;display:flex;align-items:center;gap:5px}.check input{accent-color:var(--accent)}.hide{display:none!important}.presentation .topbar,.presentation .tools,.presentation .editbox,.presentation .footer,.presentation #resetbtn{display:none!important}.presentation .workspace{grid-template-columns:minmax(0,1.5fr) minmax(320px,1fr)}@media(max-width:950px){.workspace,.presentation .workspace{grid-template-columns:1fr}header{align-items:flex-start}.stats strong{font-size:24px}}@media(max-width:520px){main{padding:12px 8px}.panel{padding:10px}header{flex-direction:column}.tools button{padding:7px 8px}.stat{padding:6px}.stat strong{font-size:19px}.row{gap:5px}}@media print{button,.tools,.topbar,.footer{display:none!important}body{background:white}.workspace{display:block}.panel{break-inside:avoid;margin-bottom:10px}}
 .equation{font:600 18px/1.5 system-ui,sans-serif;overflow-wrap:anywhere;white-space:normal;font-variant-numeric:tabular-nums}.eqbox{background:#f5f8fb;border:1px solid var(--line);border-radius:9px;padding:10px;margin:8px 0}.eqrow{padding:6px 0;border-bottom:1px solid var(--line)}.eqrow:last-child{border:0}.eqrow small{display:block}.loopbar{border-top:1px solid var(--line);padding-top:10px;margin-top:10px}.loopbar select{max-width:100%;min-width:0;flex:1}.currlist{display:flex;flex-wrap:wrap;gap:6px}.currentchip{padding:5px 8px;background:#f0f5fa;border-radius:6px;font-size:13px;border:1px solid #dce4eb}.loopblue{color:#5c4dc4}.equation sub{font-size:.7em}.presentation .eqbox{font-size:16px}
 
-/* Potentiallabbet (Beta) · visual layer, separate from the circuit engine */
-:root{--bg:#eef3f8;--paper:#fff;--ink:#172b43;--muted:#526780;--line:#dce5ef;--accent:#126f77;--blue:#245fbd;--red:#b33944;--green:#16805c}
-body{background:var(--bg);font-size:15px}
-main{max-width:1600px;padding-top:20px}
-.site-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:24px}
-.site-brand{display:inline-flex;align-items:center;gap:10px;font-weight:800;font-size:15px;letter-spacing:-.02em;color:var(--ink)}
-.brand-icon{display:grid;place-items:center;width:36px;height:36px;background:#126f77;border-radius:11px;color:#fff}
-.brand-icon svg{width:23px;height:23px}
-.back-link{color:var(--muted);font-size:13px;font-weight:650;text-decoration:none;padding:8px 12px;border-radius:8px;border:1px solid var(--line);background:white}
-.back-link:hover{color:var(--accent);border-color:var(--accent)}
-header{background:linear-gradient(115deg,#102d45,#126f77);color:white;padding:24px 26px;border-radius:20px;box-shadow:0 10px 28px #183e531c;margin-bottom:20px}
-header h1{font-size:clamp(29px,3.2vw,44px);margin:7px 0 9px}
-header .eyebrow,header .muted{color:#d3eef0}
-header button{color:#fff;background:#ffffff15;border-color:#ffffff44}
-header button:hover{background:#ffffff26;border-color:white}
-.panel{border-radius:17px;padding:18px;box-shadow:0 3px 14px #18334e0b}
-.topbar{box-shadow:none;padding:13px 16px}
-.tools{background:#f5f8fb;border-radius:11px;padding:10px;margin:12px 0 8px;border:1px solid var(--line)}
-button,select{border-radius:9px;transition:background .15s,border-color .15s}
-button.primary{box-shadow:0 3px 8px #126f7733}
-.canvaswrap{background:#fff;border-radius:12px}
-.stat{background:#f5f8fb;border:0;border-radius:12px;padding:12px}
-.stat strong{color:#183e55}
-.eqbox{background:#f3f7fa;border-radius:11px}
-.graph{border-radius:12px}
-.lab-guide{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:15px;color:var(--muted);font-size:13px}
-.lab-guide span{background:#fff;border:1px solid var(--line);padding:7px 10px;border-radius:8px}
-.lab-guide b{color:var(--accent);margin-right:4px}
+
+/* Kunskapsgymmet · shared design tokens, Fy1 accent. */
+:root{
+
+  color-scheme:light;
+
+  --ink:#0E141C;
+  --ink2:#4A5766;
+  --ink3:#616E81;
+  --hair:rgba(14,30,50,.10);
+  --hair2:rgba(14,30,50,.19);
+
+  --specular:rgba(255,255,255,.92);
+
+  --gold:#8A6A1E;
+  --gold2:#C79A3C;
+  --goldSoft:rgba(160,120,40,.13);
+  --brass:var(--gold);--brass2:var(--gold2);--brassSoft:var(--goldSoft);
+
+  --warn:#8A5E10;
+  --warnSoft:rgba(180,125,25,.13);
+  --amber:var(--warn);--amberSoft:var(--warnSoft);
+
+  --good:#12704F;
+  --goodSoft:rgba(18,112,79,.10);
+  --bad:#B03F42;
+  --badSoft:rgba(176,63,66,.10);
+  /* Statusen Behöver träning: rödaktig så att den inte förväxlas med guld (Stark). */
+  --low:#C2553F;
+  --lowSoft:rgba(194,85,63,.13);
+  --e1:0 1px 2px rgba(11,33,51,.05),0 10px 26px -14px rgba(11,33,51,.22);
+  --e2:0 2px 6px rgba(11,33,51,.07),0 40px 80px -30px rgba(11,33,51,.34);
+
+  --ui:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --read:"Atkinson Hyperlegible",system-ui,sans-serif;
+  --ease:cubic-bezier(.2,.8,.2,1);
+  --brand:#1A66C2;
+  --korn:.022;
+  --glowVarm:rgba(255,168,92,.13);
+
+  --bg:#E7EEF9;
+  --surface:#FCFDFF;--surface2:#F3F7FD;--surface3:#E3EBF7;
+  --glass:rgba(242,247,253,0.78);
+  --acc:#1A66C2;--acc2:#15599F;--accInk:#15599F;--accSoft:rgba(26,102,194,0.11);
+  --glow1:rgba(26,102,194,0.3);--glow2:rgba(47,111,224,0.225);
+  --lvl1:#79A5DC;--lvl2:#1A66C2;--lvl3:#13498C;
+}
+:root{
+  --steg-till:#7357D1;--steg-utm:#B98A2C;
+  --km-lag:#D6534A;--km-mitt:#E59A2F;--km-hog:#2A9D6A;
+  --lage-pagang:#1F6FD1;
+  --spar-a:#C2453B;--spar-a2:#9C3730;
+  --spar-b:#17835A;--spar-b2:#116546;
+  --spar-c:#1A66C2;--spar-c2:#14509A;
+  --spar-gul:#CE9412;--spar-gul2:#A8760A;
+}
+html[data-theme="dark"]{
+  --steg-till:#A48CF2;--steg-utm:#E4BA5E;
+  --km-lag:#EF7B6E;--km-mitt:#F2B54F;--km-hog:#4FC293;
+  --lage-pagang:#79AEFF;
+  --spar-a:#D2564B;--spar-a2:#A63F37;
+  --spar-b:#1C9B6B;--spar-b2:#147753;
+  --spar-c:#2D79D6;--spar-c2:#215CA8;
+  --spar-gul:#DCA426;--spar-gul2:#B4820F;
+}
+html[data-theme="light"][data-accent="fy1"]{
+  --bg:#E4F2F4;
+  --surface:#FBFEFE;--surface2:#F2F9FB;--surface3:#E0EEF3;
+  --glass:rgba(240,249,250,0.78);
+  --acc:#0C8478;--acc2:#0A6B61;--accInk:#0A6B61;--accSoft:rgba(12,132,120,0.11);
+  --glow1:rgba(12,132,120,0.3);--glow2:rgba(18,160,145,0.225);
+  --lvl1:#70B7B0;--lvl2:#0C8478;--lvl3:#095F56;
+}
+html[data-theme="dark"]{
+
+  color-scheme:dark;
+  --ink:#EDF1F8;
+  --ink2:#A6B1C4;
+  --ink3:#7F8B9F;
+  --hair:rgba(255,255,255,.09);
+  --hair2:rgba(255,255,255,.17);
+  --specular:rgba(255,255,255,.13);
+  --gold:#E7C583;
+  --gold2:#F0D296;
+  --goldSoft:rgba(231,197,131,.14);
+  --brass:var(--gold);--brass2:var(--gold2);--brassSoft:var(--goldSoft);
+  --warn:#F2B959;
+  --warnSoft:rgba(242,185,89,.14);
+  --amber:var(--warn);--amberSoft:var(--warnSoft);
+  --good:#5CC39D;
+  --goodSoft:rgba(92,195,157,.14);
+  --bad:#E0898C;
+  --badSoft:rgba(224,137,140,.13);
+  --low:#F08A72;
+  --lowSoft:rgba(240,138,114,.15);
+  --e1:0 1px 1px rgba(0,0,0,.40),0 12px 28px -18px rgba(0,0,0,.9);
+  --e2:0 2px 4px rgba(0,0,0,.42),0 40px 80px -32px rgba(0,0,0,1);
+  --brand:#6EA8FF;
+  --korn:.038;
+  --glowVarm:rgba(255,170,100,.10);
+  --bg:#090F1B;
+  --surface:#151F34;--surface2:#1B263C;--surface3:#23314B;
+  --glass:rgba(13,21,36,0.74);
+  --acc:#6EA8FF;--acc2:#2F6FE0;--accInk:#6EA8FF;--accSoft:rgba(110,168,255,0.15);
+  --glow1:rgba(110,168,255,0.24);--glow2:rgba(47,111,224,0.195);
+  --lvl1:#466AA4;--lvl2:#6EA8FF;--lvl3:#A1C6FF;
+}
+html[data-theme="dark"][data-accent="fy1"]{
+  --bg:#081217;
+  --surface:#13232E;--surface2:#182A36;--surface3:#213644;
+  --glass:rgba(11,24,31,0.74);
+  --acc:#3FD9C6;--acc2:#12A091;--accInk:#3FD9C6;--accSoft:rgba(63,217,198,0.15);
+  --glow1:rgba(63,217,198,0.24);--glow2:rgba(18,160,145,0.195);
+  --lvl1:#2B8782;--lvl2:#3FD9C6;--lvl3:#82E6DA;
+}
+:root{
+  --paper:var(--surface);--muted:var(--ink2);--line:var(--hair);--accent:var(--acc);
+  --red:var(--bad);--green:var(--good);--orange:var(--warn);--blue:#245fbd;
+  --branch:#7357d1;--diagram:var(--surface2);--diagram-grid:var(--hair2);
+  --diagram-zero:var(--ink3);--marker-fill:var(--goodSoft);--primary-text:#fff;
+}
+html[data-theme="dark"]{--blue:#79aeff;--branch:#b9a6ff;--primary-text:#081217;--marker-fill:#213f3e}
+html{min-height:100%;background:var(--bg)}
+body{min-height:100vh;background:radial-gradient(100vw 75vh at 8% -18%,var(--glow1),transparent 62%),radial-gradient(85vw 65vh at 100% 0%,var(--glow2),transparent 60%),var(--bg);background-attachment:fixed;color:var(--ink);font:15px/1.5 var(--ui);letter-spacing:-.011em;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
+main{max-width:1540px;padding:0 clamp(16px,3vw,40px) 42px;margin:auto}
+.site-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:70px;border-bottom:1px solid var(--hair);margin-bottom:25px}
+.site-brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:16.5px;letter-spacing:-.03em;color:var(--ink);text-decoration:none}
+.brandmark{width:32px;height:32px;object-fit:cover;border-radius:9px;box-shadow:var(--e1)}
+.brand-sub{font-weight:500;color:var(--ink3);font-size:13px;border-left:1px solid var(--hair2);padding-left:10px;letter-spacing:0}
+.nav-actions{display:flex;align-items:center;gap:8px}
+.back-link{color:var(--ink2);font-size:13px;font-weight:600;text-decoration:none;padding:8px 12px;border-radius:11px;border:1px solid var(--hair);background:var(--surface)}
+.back-link:hover{color:var(--ink);background:var(--surface3)}
+header{background:none;color:var(--ink);padding:4px 0 8px;border:0;border-radius:0;box-shadow:none;margin-bottom:14px;gap:18px}
+header h1{font-size:clamp(30px,3.2vw,46px);letter-spacing:-.05em;font-weight:700;margin:6px 0 7px}
+header .eyebrow{font-size:11px;letter-spacing:.12em;color:var(--accInk);font-weight:700}
+header .muted{color:var(--ink2);font-size:15px}
+.beta-label{display:inline-block;vertical-align:middle;letter-spacing:0;font-size:12px;font-weight:600;color:var(--accInk);background:var(--accSoft);border:1px solid var(--hair);padding:4px 9px;border-radius:99px;margin-left:5px}
+h2{font-size:19px;font-weight:700;letter-spacing:-.025em}
+h3{font-size:15px;font-weight:700}
+.panel{background:var(--surface);border:1px solid var(--hair);border-radius:21px;padding:20px;box-shadow:var(--e1);min-width:0}
+.topbar{padding:12px 16px;margin-bottom:14px;box-shadow:none;background:var(--glass);backdrop-filter:blur(16px)}
+.workspace{grid-template-columns:minmax(0,1.55fr) minmax(320px,1fr);gap:16px}
+.stack{gap:16px;min-width:0}
+button,select,input[type=number]{font-family:var(--ui);border:1px solid var(--hair);border-radius:12px;background:var(--surface2);padding:9px 13px;color:var(--ink);font-size:13px;font-weight:600;box-shadow:inset 0 1px 0 var(--specular);transition:background .2s,border-color .2s,transform .2s var(--ease)}
+button:hover:not(:disabled),select:hover{background:var(--surface3);border-color:var(--hair2)}
+button:active:not(:disabled){transform:scale(.97)}
+button.active{background:var(--accSoft);color:var(--accInk);border-color:color-mix(in srgb,var(--acc) 45%,var(--hair));box-shadow:none}
+button.primary{background:linear-gradient(180deg,var(--acc),var(--acc2));color:var(--primary-text);border-color:transparent;box-shadow:0 8px 20px -9px rgba(11,33,51,.55),inset 0 1px 0 rgba(255,255,255,.28)}
+button.primary:hover:not(:disabled){background:linear-gradient(180deg,var(--acc),var(--acc2));filter:brightness(1.07)}
+button:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
+button:disabled{opacity:.36}
+#theme-switch{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:8px 12px;border-radius:12px;white-space:nowrap}
+#theme-switch svg{width:17px;height:17px;flex:none}
+#resetbtn{color:var(--bad);background:transparent;box-shadow:none}
+.tools{padding:12px;margin:13px 0 10px;background:var(--surface2);border:1px solid var(--hair);border-radius:15px}
+.tools .row{gap:6px}
+.tools button{padding:7px 10px;font-size:12.5px;border-radius:10px;background:var(--surface)}
+.tools button.active{background:var(--accSoft);color:var(--accInk);border-color:var(--acc)}
+.tools .modebar{border-top:1px solid var(--hair);padding-top:9px;margin-top:10px}
+.canvaswrap{background:var(--diagram);border:1px solid var(--hair);border-radius:15px;margin:12px 0}
+.canvaswrap svg,.graph{font-family:var(--ui)}
+.graph{background:var(--diagram);border:1px solid var(--hair);border-radius:15px}
+.stats{gap:8px}
+.stat{padding:12px;background:var(--surface2);border:1px solid var(--hair);border-radius:14px}
+.stat span{font-size:11px;color:var(--ink3);font-weight:600}
+.stat strong{color:var(--ink);font-family:var(--ui);font-weight:700;font-size:clamp(16px,1.9vw,25px)}
+.stat:nth-child(2) strong{color:var(--accInk)}
+.eqbox{background:var(--surface2);border:1px solid var(--hair);border-radius:14px;padding:12px 14px}
+.equation{font:500 clamp(14px,1.5vw,18px)/1.7 "IBM Plex Mono",monospace;letter-spacing:-.04em;color:var(--ink);overflow-wrap:anywhere}
+.walkmsg{font-family:var(--read);font-size:15px;line-height:1.5}
+.status{background:var(--accSoft);color:var(--accInk);border-radius:10px}
+.status.warn{background:var(--warnSoft);color:var(--warn)}
+.currentchip{background:var(--surface);border:1px solid var(--hair);border-radius:9px;color:var(--ink)}
+.loopblue{color:var(--branch)}
+.log div{border-color:var(--hair)}
+.legend{gap:10px 15px}
+.node:focus,.edgehit:focus,.gridpoint:focus{outline:none;stroke:var(--acc);stroke-width:4}
+.lab-guide{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:0 0 16px;color:var(--ink2);font-size:12px}
+.lab-guide span{display:inline-flex;align-items:center;gap:7px;padding:3px 0;background:none;border:0}
+.lab-guide b{display:grid;place-items:center;width:23px;height:23px;border-radius:8px;background:var(--accSoft);color:var(--accInk);font-size:11px;font-weight:700;margin:0}
 .presentation .site-nav,.presentation .lab-guide{display:none}
-@media(max-width:600px){header{padding:18px 14px;border-radius:14px}.panel{padding:12px}.site-nav{margin-bottom:12px}.site-brand{font-size:13px}.back-link{font-size:12px}.stat{padding:7px}.lab-guide{gap:5px}.lab-guide span{font-size:11px;padding:5px 7px}}
-</style></head><body><main><nav class="site-nav" aria-label="Navigering"><div class="site-brand"><span class="brand-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 10-12h-7l1-8Z"/></svg></span>Kunskapsgymmet · Fysiklabb</div><a class="back-link" href="https://kunskapsgymmet.se/">← Till Kunskapsgymmet</a></nav>
-<header><div><div class="eyebrow">Fysik 1 / Kretslabb</div><h1>Potentiallabbet (Beta)</h1><p class="muted">Bygg en krets, välj nollnivå och följ potentialen punkt för punkt.</p></div><div class="row"><button id="presentground" class="hide">⏚ Byt nollnivå</button><button id="present">Presentationsläge</button><button id="fullscreen">Helskärm</button></div></header>
+.presentation main{padding-top:18px}
+.presentation .workspace{grid-template-columns:minmax(0,1.5fr) minmax(320px,1fr)}
+.presentation .equation{font-size:18px}
+.footer{font-family:var(--read);font-size:13px;color:var(--ink3);max-width:1100px;margin-top:20px}
+@media(max-width:1000px){.workspace,.presentation .workspace{grid-template-columns:1fr}header{align-items:flex-start}.stat strong{font-size:25px}}
+@media(max-width:600px){main{padding:0 12px 24px}.site-nav{margin-bottom:18px;min-height:60px}.brand-sub{display:none}.site-brand{font-size:14px}.brandmark{width:28px;height:28px}.back-link{font-size:11px;padding:7px 9px}.nav-actions{gap:5px}#theme-switch{padding:7px 9px}#theme-switch .theme-word{display:none}header{flex-direction:column;gap:9px}header h1{font-size:31px}.panel{padding:13px;border-radius:17px}.workspace,.stack{gap:12px}.tools{padding:8px}.tools button{font-size:12px;padding:7px 9px}.stat{padding:8px}.stat strong{font-size:19px}.lab-guide{gap:6px 12px;font-size:11px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important}}
+@media print{html,html[data-theme="dark"]{color-scheme:light;--ink:#172737;--ink2:#405064;--ink3:#566879;--surface:#fff;--surface2:#fff;--surface3:#eef2f6;--bg:#fff;--hair:#dce4eb;--hair2:#aab7c3;--acc:#0c8478;--accInk:#0a6b61;--red:#b33944;--green:#16805c;--blue:#245fbd;--branch:#7357d1}body{background:white!important}.site-nav,.lab-guide{display:none!important}.panel{box-shadow:none}}
+</style></head><body><main><nav class="site-nav" aria-label="Navigering"><a class="site-brand" href="/"><img class="brandmark" src="../favicon-64x64.png" alt="" width="32" height="32">Kunskapsgymmet<span class="brand-sub">Fysik 1</span></a><div class="nav-actions"><button id="theme-switch" type="button" aria-label="Byt färgtema"></button><a class="back-link" href="/">← Kunskapsgymmet</a></div></nav>
+<header><div><div class="eyebrow">Fysik 1 / Kretslabb</div><h1>Potentiallabbet <span class="beta-label">Beta</span></h1><p class="muted">Bygg en krets, välj nollnivå och följ potentialen punkt för punkt.</p></div><div class="row"><button id="presentground" class="hide">⏚ Byt nollnivå</button><button id="present">Presentationsläge</button><button id="fullscreen">Helskärm</button></div></header>
 <div class="lab-guide" aria-label="Så använder du labbet"><span><b>01</b> Välj eller bygg en krets</span><span><b>02</b> Sätt nollnivån</span><span><b>03</b> Välj en slinga och vandra</span><span><b>04</b> Följ grafen och ekvationerna</span></div>
 <section class="panel topbar"><div class="row between"><div class="row"><label for="examples"><b>Exempel</b></label><select id="examples"><option value="series">Tre resistorer · 20 V</option><option value="parallel">Parallellkrets · 12 V</option><option value="switch">Brytare · 6 V</option><option value="two">Två spänningskällor</option><option value="kirchhoff">Kirchhoff · tre grenströmmar</option><option value="blank">Tom krets</option></select><button id="loadexample">Ladda exempel</button></div><div class="row"><button id="save">Spara krets</button><button id="import">Importera krets</button><input type="file" id="file" accept=".json,application/json" hidden></div></div></section>
 <div class="workspace"><section class="panel"><div class="row between"><h2>1. Kretsen</h2><label class="check"><input type="checkbox" id="showall"> Visa alla potentialer</label></div>
 <div class="tools"><div class="row"><button data-tool="walk" class="active">↝ Vandra</button><button data-tool="ground">⏚ Nollnivå</button><button data-tool="wire">─ Ledning</button><button data-tool="resistor">▭ Resistor</button><button data-tool="source">−| |+ Batteri</button><button data-tool="switch">─/─ Brytare</button><button data-tool="groundlink">⏚ Jordförbindelse</button><button data-tool="edit">Ändra</button><button data-tool="delete">Ta bort</button><button id="undo">Ångra bygge</button></div><div class="row modebar"><label id="valuewrap" class="hide">Värde: <input id="value" type="number" min="0.01" max="1000000" step="any" value="10"> <span id="unit">Ω</span></label><span id="toolhint" class="hint"></span></div></div>
 <div class="canvaswrap"><svg id="circuit" viewBox="0 0 920 510" role="img" aria-label="Interaktivt kretsschema"></svg></div>
-<div class="legend"><span><i class="dot" style="background:#b33944"></i>Positiv potential</span><span><i class="dot" style="background:#245fbd"></i>Negativ potential</span><span><i class="dot" style="background:#16805c"></i>Aktuell punkt / nästa väg</span><span>Streckad linje = gemensam jord</span></div><div id="editbox" class="editbox"></div><div id="status" class="status"></div>
+<div class="legend"><span><i class="dot" style="background:var(--red)"></i>Positiv potential</span><span><i class="dot" style="background:var(--blue)"></i>Negativ potential</span><span><i class="dot" style="background:var(--green)"></i>Aktuell punkt / nästa väg</span><span>Streckad linje = gemensam jord</span></div><div id="editbox" class="editbox"></div><div id="status" class="status"></div>
 <div class="row between" style="margin-top:12px"><div class="row"><button id="back">← Ett steg tillbaka</button><button id="restart">Börja om</button><button id="next" class="primary">Nästa steg →</button></div><button id="resetbtn">Rensa krets</button></div>
 <div class="loopbar"><div class="row"><b>Välj slinga</b><select id="loopselect" aria-label="Välj slinga"><option value="free">Fri vandring</option></select><button id="reverse">Vänd håll</button></div><p class="hint" id="loopinfo" style="margin-top:6px"></p><label class="check"><input type="checkbox" id="currarrows" checked> Visa grenströmmar I₁, I₂, … och deras valda riktningar</label></div></section><div class="stack"><section class="panel"><div class="row between"><h2>2. Potentialvandring</h2><label class="check"><input type="checkbox" id="reveal" checked> Visa värden</label></div><div class="stats"><div class="stat"><span>Aktuell punkt</span><strong id="point">–</strong></div><div class="stat"><span>Potential</span><strong id="pot">–</strong></div><div class="stat"><span>Senaste ändring</span><strong id="delta">–</strong></div></div><div id="walkmsg" class="walkmsg"></div><div id="choices" class="choices"></div><div id="loop" class="status"></div><div class="eqbox"><h3>Beräkning steg för steg</h3><div id="stepeq" class="equation"></div><small id="substitution" style="display:block"></small><small id="stepnum"></small><div class="eqrow"><small>Summa av potentialändringarna hittills</small><div id="runningeq" class="equation"></div></div></div></section>
 <section class="panel"><h2>3. Potentialgraf</h2><p class="muted" style="font-size:13px">Potentialen längs den väg du har valt.</p><svg id="graph" class="graph" viewBox="0 0 470 250" role="img" aria-label="Potentialgraf"></svg><h3 style="margin-top:10px">Vandringslogg</h3><div class="log" id="log"></div></section></div></div>
-<section class="panel" style="margin-top:14px"><div class="row between"><div><h2>4. Kirchhoffs lagar – ekvationssystem</h2><p class="muted">Grenströmmarna har samma namn i kretsen och i ekvationerna. Pilarna anger valda positiva riktningar.</p></div><label class="check"><input type="checkbox" id="solvevisible" checked> Visa beräknade strömmar</label></div><div class="eqbox"><h3>Grenströmmar</h3><div id="currlist" class="currlist"></div></div><div class="workspace" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))"><div><h3>Kirchhoffs första lag · knutpunkter</h3><div id="kc"></div></div><div><h3>Kirchhoffs andra lag · slingor</h3><div id="kv"></div></div></div><p class="muted" style="font-size:13px;margin-top:10px" id="eqnote"></p><details id="elimination" style="margin-top:12px"><summary style="cursor:pointer;font-weight:700">Visa hur ekvationssystemet kan lösas</summary><div id="elimsteps" class="eqbox"></div></details></section><p class="footer">Modell: ideala ledningar, ideala likspänningskällor, ohmska resistorer och brytare. Nollnivån är en vald referens, inte automatiskt en extra ledning. Verktyget Jordförbindelse kopplar däremot ihop två punkter elektriskt med en ideal returväg (streckad linje). Potentialer i elektriskt isolerade delar visas som obestämda. <br>Import/export: kretsens eget JSON-format. Använd en vanlig webbläsare; inga externa bibliotek eller nätanslutning behövs.</p>
+<section class="panel" style="margin-top:14px"><div class="row between"><div><h2>4. Kirchhoffs lagar – ekvationssystem</h2><p class="muted">Grenströmmarna har samma namn i kretsen och i ekvationerna. Pilarna anger valda positiva riktningar.</p></div><label class="check"><input type="checkbox" id="solvevisible" checked> Visa beräknade strömmar</label></div><div class="eqbox"><h3>Grenströmmar</h3><div id="currlist" class="currlist"></div></div><div class="workspace" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))"><div><h3>Kirchhoffs första lag · knutpunkter</h3><div id="kc"></div></div><div><h3>Kirchhoffs andra lag · slingor</h3><div id="kv"></div></div></div><p class="muted" style="font-size:13px;margin-top:10px" id="eqnote"></p><details id="elimination" style="margin-top:12px"><summary style="cursor:pointer;font-weight:700">Visa hur ekvationssystemet kan lösas</summary><div id="elimsteps" class="eqbox"></div></details></section><p class="footer">Modell: ideala ledningar, ideala likspänningskällor, ohmska resistorer och brytare. Nollnivån är en vald referens, inte automatiskt en extra ledning. Verktyget Jordförbindelse kopplar däremot ihop två punkter elektriskt med en ideal returväg (streckad linje). Potentialer i elektriskt isolerade delar visas som obestämda. <br>Import/export: kretsens eget JSON-format. Använd en vanlig webbläsare; inga externa bibliotek krävs. Typsnitten hämtas från Google Fonts när internet finns.</p>
 </main><script>
 'use strict';
 const $=id=>document.getElementById(id),NS='http://www.w3.org/2000/svg';
 const NX=11,NY=7,X=55,Y=45,DX=81,DY=70;
-const colors={ink:'#233746',muted:'#65798b',line:'#e1e8ef',red:'#b33944',blue:'#245fbd',green:'#16805c',orange:'#b87216'};
+const colors={ink:'var(--ink)',muted:'var(--ink2)',line:'var(--hair)',red:'var(--red)',blue:'var(--blue)',green:'var(--green)',orange:'var(--orange)'};
 const key=(x,y)=>`${x},${y}`,pos=k=>k.split(',').map(Number),xy=k=>{const [x,y]=pos(k);return [X+x*DX,Y+y*DY]},valid=k=>typeof k==='string'&&/^\d+,\d+$/.test(k)&&pos(k).every((v,i)=>Number.isInteger(v)&&v>=0&&v<(i?NY:NX));
 const types={wire:'Ledning',resistor:'Resistor',source:'Batteri',switch:'Brytare',groundlink:'Jordförbindelse'};
 let edges=[],ground=null,history=[],tool='walk',pending=null,selected=null,undo=[],solution={},issue='',eid=1;
@@ -62,7 +226,7 @@ const label=k=>{const n=nodes().indexOf(k);return n<0?'–':n<26?String.fromChar
 const edgeName=e=>e.type==='resistor'?`${f(e.value)} Ω`:e.type==='source'?`${f(e.value)} V-batteri`:e.type==='switch'?(e.closed?'Sluten brytare':'Öppen brytare'):e.type==='groundlink'?'Jordförbindelse':'Ledning';
 function el(parent,tag,attrs={},text){const e=document.createElementNS(NS,tag);for(const [k,v] of Object.entries(attrs))e.setAttribute(k,v);if(text!==undefined)e.textContent=text;parent.append(e);return e}
 function line(p,x1,y1,x2,y2,attrs={}){return el(p,'line',{x1,y1,x2,y2,stroke:colors.ink,'stroke-width':2.5,'stroke-linecap':'round',...attrs})}
-function txt(p,x,y,t,attrs={}){return el(p,'text',{x,y,fill:colors.ink,'font-size':14,'text-anchor':'middle','font-family':'system-ui,sans-serif',...attrs},t)}
+function txt(p,x,y,t,attrs={}){return el(p,'text',{x,y,fill:colors.ink,'font-size':14,'text-anchor':'middle','font-family':'var(--ui)',...attrs},t)}
 function interactive(e,fn,description){e.setAttribute('tabindex','0');e.setAttribute('role','button');e.setAttribute('aria-label',description);e.addEventListener('click',ev=>{ev.stopPropagation();fn()});e.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();fn()}})}
 function snapshot(){return JSON.stringify({edges,ground})}function remember(){undo.push(snapshot());if(undo.length>60)undo.shift()}
 function resetWalk(){let start=route()?.[0]?.node??ground;history=start?[{node:start,edge:null}]:[]}
@@ -110,32 +274,32 @@ function step(id){const e=neighbors().find(x=>x.id===id);if(!e)return;if(history
 function next(){let opts=neighbors();if(history.length>1){const nonBack=opts.filter(e=>e.id!==history.at(-1).edge);if(nonBack.length)opts=nonBack}if(opts.length===1)step(opts[0].id);else if(history.length===1&&opts.length===2)step((opts.find(e=>e.type==='source'&&e.a===cur())||opts.find(e=>solution.i[e.id]*(e.a===cur()?1:-1)>1e-7)||opts[0]).id);else if(opts.length>1)notice('Det finns flera vägar. Välj en av dem i listan eller på kretsen.')}
 function groundSymbol(s,x,y){line(s,x,y,x,y+13,{stroke:colors.green});line(s,x-14,y+13,x+14,y+13,{stroke:colors.green});line(s,x-9,y+19,x+9,y+19,{stroke:colors.green});line(s,x-4,y+25,x+4,y+25,{stroke:colors.green})}
 function renderCircuit(){const s=$('circuit');s.replaceChildren();const ns=nodes(),build=['wire','resistor','source','switch','groundlink'].includes(tool),visited=new Set(history.map(h=>h.node)),opts=neighbors(),last=history.at(-1)?.edge;
- if(build)for(let y=0;y<NY;y++)for(let x=0;x<NX;x++){let k=key(x,y),[px,py]=xy(k);let q=el(s,'circle',{cx:px,cy:py,r:2.8,fill:'#b9c9d5','pointer-events':'none'});}
+ if(build)for(let y=0;y<NY;y++)for(let x=0;x<NX;x++){let k=key(x,y),[px,py]=xy(k);let q=el(s,'circle',{cx:px,cy:py,r:2.8,fill:'var(--diagram-grid)','pointer-events':'none'});}
  for(const e of edges){let [ax,ay]=xy(e.a),[bx,by]=xy(e.b),len=Math.hypot(bx-ax,by-ay),angle=Math.atan2(by-ay,bx-ax)*180/Math.PI,m=len/2;let inLoop=route()?.some(h=>h.edge===e.id),active=tool==='walk'&&opts.some(x=>x.id===e.id),highlight=e.id===last,sel=e.id===selected;const g=el(s,'g',{transform:`translate(${ax} ${ay}) rotate(${angle})`});let c=sel||highlight?colors.green:colors.ink;
- if(inLoop)line(g,0,0,len,0,{stroke:'#6d5bd0','stroke-width':12,opacity:.16});
+ if(inLoop)line(g,0,0,len,0,{stroke:'var(--branch)','stroke-width':12,opacity:.16});
  if(active||highlight||sel)line(g,0,0,len,0,{stroke:colors.green,'stroke-width':13,opacity:(highlight||sel)?0.18:0.085});
- if(e.type==='groundlink'){line(g,0,0,len,0,{stroke:colors.muted,'stroke-dasharray':'5 7','stroke-width':1.5,opacity:.65});groundSymbol(s,ax,ay);groundSymbol(s,bx,by);txt(s,(ax+bx)/2,(ay+by)/2-8,'Gemensam jord',{'font-size':13,fill:colors.green,stroke:'#fbfdff','stroke-width':4,'paint-order':'stroke'});}else if(e.type==='wire')line(g,0,0,len,0,{stroke:c});
- else if(e.type==='resistor'){line(g,0,0,m-24,0,{stroke:c});line(g,m+24,0,len,0,{stroke:c});el(g,'rect',{x:m-24,y:-10,width:48,height:20,rx:1,fill:'#fff',stroke:c,'stroke-width':2.5})}
+ if(e.type==='groundlink'){line(g,0,0,len,0,{stroke:colors.muted,'stroke-dasharray':'5 7','stroke-width':1.5,opacity:.65});groundSymbol(s,ax,ay);groundSymbol(s,bx,by);txt(s,(ax+bx)/2,(ay+by)/2-8,'Gemensam jord',{'font-size':13,fill:colors.green,stroke:'var(--diagram)','stroke-width':4,'paint-order':'stroke'});}else if(e.type==='wire')line(g,0,0,len,0,{stroke:c});
+ else if(e.type==='resistor'){line(g,0,0,m-24,0,{stroke:c});line(g,m+24,0,len,0,{stroke:c});el(g,'rect',{x:m-24,y:-10,width:48,height:20,rx:1,fill:'var(--diagram)',stroke:c,'stroke-width':2.5})}
  else if(e.type==='source'){line(g,0,0,m-6,0,{stroke:c});line(g,m+6,0,len,0,{stroke:c});line(g,m-6,-10,m-6,10,{stroke:c});line(g,m+6,-19,m+6,19,{stroke:c})}
- else {line(g,0,0,m-19,0,{stroke:c});line(g,m+19,0,len,0,{stroke:c});line(g,m-19,0,m+19,e.closed?0:-19,{stroke:c});for(let x of [m-19,m+19])el(g,'circle',{cx:x,cy:0,r:3.5,fill:'#fff',stroke:c,'stroke-width':2})}
+ else {line(g,0,0,m-19,0,{stroke:c});line(g,m+19,0,len,0,{stroke:c});line(g,m-19,0,m+19,e.closed?0:-19,{stroke:c});for(let x of [m-19,m+19])el(g,'circle',{cx:x,cy:0,r:3.5,fill:'var(--diagram)',stroke:c,'stroke-width':2})}
  if(e.type!=='wire'&&e.type!=='groundlink'){let vert=ax===bx,mx=(ax+bx)/2,my=(ay+by)/2,t=e.type==='switch'?(e.closed?'Sluten':'Öppen'):f(e.value)+(e.type==='source'?' V':' Ω');txt(s,mx+(vert?22:0),my+(vert?5:-22),t,{'text-anchor':vert?'start':'middle','font-size':14,'font-weight':700,fill:c});if(e.type==='source'){let ux=(bx-ax)/len,uy=(by-ay)/len;txt(s,mx-ux*24+(vert?-15:0),my-uy*24+(vert?4:17),'−',{'font-weight':700,'font-size':14});txt(s,mx+ux*24+(vert?-15:0),my+uy*24+(vert?4:17),'+',{'font-weight':700,'font-size':14})}}
  // The arrows represent assumed positive branch-current directions, not loop walking direction.
- const br=branchByEdge.get(e.id);if(!build&&$('currarrows').checked&&br&&br.branch.marker===e.id){let dir=br.dir,u=len/2,off=e.type==='wire'?16:33;line(g,u-dir*20,off,u+dir*17,off,{stroke:'#5c4dc4','stroke-width':2});el(g,'path',{d:`M${u+dir*9} ${off-5} L${u+dir*17} ${off} L${u+dir*9} ${off+5}`,fill:'none',stroke:'#5c4dc4','stroke-width':2});let mx=(ax+bx)/2-Math.sin(angle*Math.PI/180)*off,my=(ay+by)/2+Math.cos(angle*Math.PI/180)*off;txt(s,mx+(ax===bx?-12:0),my+(ax===bx?4:18),iname(br.branch.id),{'font-size':14,'font-weight':800,fill:'#5c4dc4',stroke:'#fbfdff','stroke-width':4,'paint-order':'stroke'});}
+ const br=branchByEdge.get(e.id);if(!build&&$('currarrows').checked&&br&&br.branch.marker===e.id){let dir=br.dir,u=len/2,off=e.type==='wire'?16:33;line(g,u-dir*20,off,u+dir*17,off,{stroke:'var(--branch)','stroke-width':2});el(g,'path',{d:`M${u+dir*9} ${off-5} L${u+dir*17} ${off} L${u+dir*9} ${off+5}`,fill:'none',stroke:'var(--branch)','stroke-width':2});let mx=(ax+bx)/2-Math.sin(angle*Math.PI/180)*off,my=(ay+by)/2+Math.cos(angle*Math.PI/180)*off;txt(s,mx+(ax===bx?-12:0),my+(ax===bx?4:18),iname(br.branch.id),{'font-size':14,'font-weight':800,fill:'var(--branch)',stroke:'var(--diagram)','stroke-width':4,'paint-order':'stroke'});}
  if(!build){const hit=line(g,8,0,len-8,0,{stroke:'transparent','stroke-width':26,class:'edgehit'});interactive(hit,()=>clickEdge(e.id),edgeName(e))}}
  // Draw nodes above the components. Position labels away from ground symbols and adjacent resistors.
  for(const k of ns){let [x,y]=xy(k),v=val(k),isCur=k===cur(),possible=tool==='walk'&&opts.some(e=>other(e,cur())===k),isGround=k===ground,visible=$('showall').checked||visited.has(k)||isGround;let c=Number.isFinite(v)?(v>1e-8?colors.red:v< -1e-8?colors.blue:colors.muted):colors.muted;
- if(isGround)groundSymbol(s,x,y);if(isCur||possible||pending===k)el(s,'circle',{cx:x,cy:y,r:12,fill:isCur?'#d5f1e6':'#ecf8f3',stroke:colors.green,'stroke-width':isCur?2.5:1.5,'stroke-dasharray':possible&&!isCur?'3 2':''});
+ if(isGround)groundSymbol(s,x,y);if(isCur||possible||pending===k)el(s,'circle',{cx:x,cy:y,r:12,fill:isCur?'var(--marker-fill)':'var(--marker-fill)',stroke:colors.green,'stroke-width':isCur?2.5:1.5,'stroke-dasharray':possible&&!isCur?'3 2':''});
  el(s,'circle',{cx:x,cy:y,r:isCur?5.5:4.4,fill:isCur||possible?colors.green:colors.ink});txt(s,x,y-11,label(k),{'font-weight':800,'font-size':13,fill:colors.ink});
- if(visible&&$('reveal').checked){let str=Number.isFinite(v)?`${f(v)} V`:'? V';txt(s,x+(isGround?19:0),y+(isGround?23:22),str,{'text-anchor':isGround?'start':'middle','font-size':14,'font-weight':800,fill:c,stroke:'#fbfdff','stroke-width':4,'paint-order':'stroke'})}
+ if(visible&&$('reveal').checked){let str=Number.isFinite(v)?`${f(v)} V`:'? V';txt(s,x+(isGround?19:0),y+(isGround?23:22),str,{'text-anchor':isGround?'start':'middle','font-size':14,'font-weight':800,fill:c,stroke:'var(--diagram)','stroke-width':4,'paint-order':'stroke'})}
  let hit=el(s,'circle',{cx:x,cy:y,r:16,fill:'transparent',class:'node'});interactive(hit,()=>clickNode(k),'Punkt '+label(k));}
- if(build&&pending&&!ns.includes(pending)){let [x,y]=xy(pending);el(s,'circle',{cx:x,cy:y,r:10,fill:'#d6f0e7',stroke:colors.green,'stroke-width':2,'pointer-events':'none'})} if(build)for(let y=0;y<NY;y++)for(let x=0;x<NX;x++){let k=key(x,y);if(ns.includes(k))continue;let [px,py]=xy(k);let hit=el(s,'circle',{cx:px,cy:py,r:13,fill:'transparent',class:'gridpoint'});interactive(hit,()=>clickNode(k),'Rutnät '+k)}
+ if(build&&pending&&!ns.includes(pending)){let [x,y]=xy(pending);el(s,'circle',{cx:x,cy:y,r:10,fill:'var(--marker-fill)',stroke:colors.green,'stroke-width':2,'pointer-events':'none'})} if(build)for(let y=0;y<NY;y++)for(let x=0;x<NX;x++){let k=key(x,y);if(ns.includes(k))continue;let [px,py]=xy(k);let hit=el(s,'circle',{cx:px,cy:py,r:13,fill:'transparent',class:'gridpoint'});interactive(hit,()=>clickNode(k),'Rutnät '+k)}
  if(!ns.length&&!build)txt(s,460,255,'Välj en komponent för att börja bygga.',{'font-size':20,fill:colors.muted});
 }
 function graph(){const s=$('graph');s.replaceChildren();let W=470,H=250,L=49,R=15,T=21,B=35;let all=Object.values(solution.p).filter(Number.isFinite);let lo=Math.min(0,...all),hi=Math.max(0,...all);if(hi-lo<1e-8){lo=-1;hi=1}const range=hi-lo;let raw=range/4,pow=10**Math.floor(Math.log10(raw)),norm=raw/pow,tick=(norm<=1?1:norm<=2?2:norm<=5?5:10)*pow;lo=Math.floor(lo/tick)*tick;hi=Math.ceil(hi/tick)*tick;if(hi===lo)hi+=tick;
  const y=v=>T+(hi-v)/(hi-lo)*(H-T-B);let total=Math.max(4,Math.min(12,route()?route().length-1:history.length-1)),start=Math.max(0,history.length-1-total),view=history.slice(start),x=i=>L+i/total*(W-L-R);
- for(let v=lo,j=0;v<=hi+tick*1e-7&&j<12;v+=tick,j++){line(s,L,y(v),W-R,y(v),{stroke:Math.abs(v)<tick/100?'#aebdca':'#e4ebf0','stroke-width':Math.abs(v)<tick/100?1.4:1});if($('reveal').checked)txt(s,L-8,y(v)+4,f(v),{'font-size':11,'text-anchor':'end',fill:colors.muted})}line(s,L,T,L,H-B,{stroke:colors.muted,'stroke-width':1});txt(s,11,13,'V',{'font-size':12,'text-anchor':'start',fill:colors.muted});
- let segments=[];for(let j=1;j<view.length;j++){let a=val(view[j-1].node),b=val(view[j].node),e=edges.find(z=>z.id===view[j].edge);if(!Number.isFinite(a)||!Number.isFinite(b))continue;let x0=x(j-1),x1=x(j),y0=y(a),y1=y(b),d=e?.type==='source'||(e?.type==='switch'&&!e.closed)?`M${x0} ${y0} H${(x0+x1)/2} V${y1} H${x1}`:`M${x0} ${y0} L${x1} ${y1}`;segments.push({d,c:b>a+1e-8?colors.green:b<a-1e-8?colors.red:'#71869a'})}for(const z of segments)el(s,'path',{d:z.d,stroke:z.c,'stroke-width':3,fill:'none','stroke-linejoin':'round','stroke-linecap':'round'});
- for(let j=0;j<view.length;j++){const v=val(view[j].node),p=x(j),last=j===view.length-1;txt(s,p,H-B+17,label(view[j].node),{'font-size':11,'font-weight':last?800:500,fill:last?colors.green:colors.muted});if(Number.isFinite(v)){el(s,'circle',{cx:p,cy:y(v),r:last?5:3,fill:last?colors.green:colors.ink,stroke:'#fff','stroke-width':1});if($('reveal').checked&&(view.length<=8||last))txt(s,p,Math.max(13,y(v)-9),f(v),{'font-size':11,'font-weight':700,fill:colors.ink,stroke:'#fcfdff','stroke-width':3,'paint-order':'stroke'})}else txt(s,p,T+15,'?',{'font-size':14,fill:colors.muted})}
+ for(let v=lo,j=0;v<=hi+tick*1e-7&&j<12;v+=tick,j++){line(s,L,y(v),W-R,y(v),{stroke:Math.abs(v)<tick/100?'var(--diagram-zero)':'var(--hair)','stroke-width':Math.abs(v)<tick/100?1.4:1});if($('reveal').checked)txt(s,L-8,y(v)+4,f(v),{'font-size':11,'text-anchor':'end',fill:colors.muted})}line(s,L,T,L,H-B,{stroke:colors.muted,'stroke-width':1});txt(s,11,13,'V',{'font-size':12,'text-anchor':'start',fill:colors.muted});
+ let segments=[];for(let j=1;j<view.length;j++){let a=val(view[j-1].node),b=val(view[j].node),e=edges.find(z=>z.id===view[j].edge);if(!Number.isFinite(a)||!Number.isFinite(b))continue;let x0=x(j-1),x1=x(j),y0=y(a),y1=y(b),d=e?.type==='source'||(e?.type==='switch'&&!e.closed)?`M${x0} ${y0} H${(x0+x1)/2} V${y1} H${x1}`:`M${x0} ${y0} L${x1} ${y1}`;segments.push({d,c:b>a+1e-8?colors.green:b<a-1e-8?colors.red:'var(--ink3)'})}for(const z of segments)el(s,'path',{d:z.d,stroke:z.c,'stroke-width':3,fill:'none','stroke-linejoin':'round','stroke-linecap':'round'});
+ for(let j=0;j<view.length;j++){const v=val(view[j].node),p=x(j),last=j===view.length-1;txt(s,p,H-B+17,label(view[j].node),{'font-size':11,'font-weight':last?800:500,fill:last?colors.green:colors.muted});if(Number.isFinite(v)){el(s,'circle',{cx:p,cy:y(v),r:last?5:3,fill:last?colors.green:colors.ink,stroke:'var(--diagram)','stroke-width':1});if($('reveal').checked&&(view.length<=8||last))txt(s,p,Math.max(13,y(v)-9),f(v),{'font-size':11,'font-weight':700,fill:colors.ink,stroke:'var(--diagram)','stroke-width':3,'paint-order':'stroke'})}else txt(s,p,T+15,'?',{'font-size':14,fill:colors.muted})}
  if(!view.length)txt(s,W/2,H/2,'Välj nollnivå för att börja',{'font-size':14,fill:colors.muted});txt(s,W-R,H-6,'Punkter längs vägen →',{'font-size':10,'text-anchor':'end',fill:colors.muted});}
 function renderEdit(){const box=$('editbox');box.replaceChildren();if(tool!=='edit'||selected===null)return;const e=edges.find(x=>x.id===selected);if(!e)return;let t=document.createElement('b');t.textContent=edgeName(e)+' · '+label(e.a)+'–'+label(e.b);box.append(t);const b=(name,fn)=>{const el=document.createElement('button');el.textContent=name;el.onclick=fn;box.append(el)};
  if(e.type==='resistor'||e.type==='source'){const input=document.createElement('input');input.type='number';input.min='.01';input.max='1000000';input.step='any';input.value=e.value;input.setAttribute('aria-label','Komponentvärde');box.append(input);b('Spara värde',()=>{let v=Number(input.value);if(v<=0||v>1000000||!Number.isFinite(v)){notice('Ogiltigt värde.');return}remember();e.value=v;update()});if(e.type==='source')b('Vänd polaritet',()=>{remember();[e.a,e.b]=[e.b,e.a];update()})}
@@ -189,4 +353,16 @@ function importData(data){if(!data||!Array.isArray(data.edges)||data.edges.lengt
 document.querySelectorAll('[data-tool]').forEach(b=>b.onclick=()=>setTool(b.dataset.tool));$('back').onclick=()=>{if(history.length>1)history.pop();render()};$('restart').onclick=()=>{resetWalk();tool='walk';render()};$('next').onclick=next;$('showall').onchange=render;$('reveal').onchange=render;$('undo').onclick=()=>{if(!undo.length)return;let old=JSON.parse(undo.pop());edges=old.edges;ground=old.ground;eid=Math.max(0,...edges.map(e=>e.id))+1;pending=null;selected=null;update()};$('loadexample').onclick=()=>loadExample($('examples').value);$('resetbtn').onclick=()=>{if(edges.length&&!confirm('Rensa hela kretsen? Du kan ångra.'))return;loadExample('blank')};$('presentground').onclick=()=>setTool('ground');$('present').onclick=()=>{document.body.classList.toggle('presentation');$('presentground').classList.toggle('hide',!document.body.classList.contains('presentation'));$('present').textContent=document.body.classList.contains('presentation')?'Avsluta presentation':'Presentationsläge';if(document.body.classList.contains('presentation'))setTool('walk')};$('fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen()}catch(e){notice('Helskärm stöds inte i den här webbläsaren.')}};$('save').onclick=()=>{const blob=new Blob([JSON.stringify({format:'potentialvandring',version:1,ground,edges},null,2)],{type:'application/json'});let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='min-krets.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};$('import').onclick=()=>$('file').click();$('file').onchange=async()=>{try{const file=$('file').files[0];if(file)importData(JSON.parse(await file.text()))}catch(e){notice('Kunde inte importera: '+e.message)}finally{$('file').value=''}};
 document.addEventListener('keydown',e=>{if(e.target.matches('input,select,button')||e.target.closest('[role=button]'))return;if(e.key==='Escape'){pending=null;selected=null;render()}if(e.key==='ArrowRight'&&tool==='walk'){e.preventDefault();next()}if(e.key==='ArrowLeft'&&tool==='walk'){e.preventDefault();if(history.length>1)history.pop();render()}});
 loadExample('series');undo=[];render();
+
+function applyLabTheme(theme, persist=false){
+ const root=document.documentElement;root.dataset.theme=theme;
+ if(persist)try{localStorage.setItem('kunskapsgymmet-theme',theme)}catch(_){}
+ document.querySelector('meta[name="theme-color"]').content=theme==='light'?'#E4F2F4':'#081217';
+ const dark=theme==='dark',b=document.getElementById('theme-switch');
+ b.innerHTML=dark?'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><span class="theme-word">Ljust</span>':'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true"><path d="M20.9 13.1A9 9 0 0 1 10.9 3.1 9 9 0 1 0 20.9 13.1Z"/></svg><span class="theme-word">Mörkt</span>';
+ b.setAttribute('aria-label',dark?'Byt till ljust tema':'Byt till mörkt tema');
+}
+applyLabTheme(document.documentElement.dataset.theme);
+document.getElementById('theme-switch').onclick=()=>applyLabTheme(document.documentElement.dataset.theme==='dark'?'light':'dark',true);
+window.addEventListener('storage',e=>{if(e.key==='kunskapsgymmet-theme')applyLabTheme(e.newValue==='light'?'light':'dark')});
 </script></body></html>

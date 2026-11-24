@@ -1231,7 +1231,7 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
    som "Blandat" men accentfärg, så att det är det första eleven ser i kapitlet.
    Framsteget visas som stapel och kvot; lästa kapitel blir guldfärgade. */
 
-/* Potential-labbet: two companion cards only in Fy1 electricity. */
+/* Potentiallabbet (Beta): two companion cards only in Fy1 electricity. */
 .kap-study-tools{grid-column:1/-1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .kap-study-tools>.kap-kunskap{grid-column:auto;min-width:0;margin:0}
 .kap-potential-lab{--gg-tone:#168c88;text-decoration:none;box-sizing:border-box}
@@ -8751,7 +8751,7 @@ function renderDashboard(){
       ${chapterHead(kap,chapterName(kap),grouped[kap])}
       <div class="chapter-body"${manyChapters&&!open?" hidden":""}>
       <div class="area-grid stagger">
-        ${state.course==="fy1" && String(kap)==="8" ? `<div class="kap-study-tools">${chapterKnowledge(kap)}<a class="kap-kunskap kap-potential-lab" href="/potential-labbet/" target="_blank" rel="noopener" aria-label="Öppna Potential-labbet i ny flik"><span class="bok" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 10-12h-7l1-8Z"/></svg></span><span class="gg-text"><strong>Potential-labbet</strong><small>Bygg kretsar och potentialvandra steg för steg</small></span><span class="pil" aria-hidden="true">↗</span></a></div>` : chapterKnowledge(kap)}
+        ${state.course==="fy1" && String(kap)==="8" ? `<div class="kap-study-tools">${chapterKnowledge(kap)}<a class="kap-kunskap kap-potential-lab" href="/potential-labbet/" target="_blank" rel="noopener" aria-label="Öppna Potentiallabbet (Beta) i ny flik"><span class="bok" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 10-12h-7l1-8Z"/></svg></span><span class="gg-text"><strong>Potentiallabbet (Beta)</strong><small>Bygg kretsar och potentialvandra steg för steg</small></span><span class="pil" aria-hidden="true">↗</span></a></div>` : chapterKnowledge(kap)}
         ${grouped[kap].map(a=>{
           const s=cardStatus(a);
           const harDelar=cardFamilies(a).length>0;

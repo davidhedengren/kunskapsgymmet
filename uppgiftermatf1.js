@@ -6959,8 +6959,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Använd binomialkoefficienterna och kontrollera att exponenterna på de två termerna tillsammans alltid summerar till binomets exponent.</p>",
@@ -10624,8 +10623,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
@@ -10673,7 +10671,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "ledtrad": "<p>\\(a\\equiv b\\pmod m\\) betyder att \\(a-b\\) är delbart med m, alltså att a och b ger samma rest vid division med m. Lägg till eller dra bort multiplar av 9.</p>",
     "traningsniva": 2
@@ -10695,8 +10694,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
@@ -10719,8 +10717,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela med modulen och se vad som blir kvar. Resten ska ligga mellan 0 och modulen minus 1.</p>",
@@ -10791,7 +10788,8 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "ledtrad": "<p>\\(a\\equiv b\\pmod m\\) betyder att \\(a-b\\) är delbart med m, alltså att a och b ger samma rest vid division med m.</p>",
     "traningsniva": 2
@@ -10884,7 +10882,8 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "ledtrad": "<p>\\(a\\equiv b\\pmod m\\) betyder att \\(a-b\\) är delbart med m, alltså att a och b ger samma rest vid division med m.</p>",
     "traningsniva": 2
@@ -11303,8 +11302,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
@@ -11327,8 +11325,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
@@ -11351,8 +11348,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Beräkna de första potenserna av 2 modulo 3 tills resten upprepar sig. Använd sedan mönstret för den stora exponenten.</p>",
@@ -11375,8 +11371,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna.</p>",
@@ -11424,8 +11419,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Byt varje tal mot dess rest modulo talet först. Räkna sedan med de små resterna. Om resten blir negativ lägger du till 5.</p>",
@@ -12354,9 +12348,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp",
-      "resonemang"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv ut termerna från \\(k=3\\) till \\(k=7\\) och addera dem.</p>",
@@ -12383,8 +12375,7 @@ window.BANKMATF1 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Summan innehåller nio termer, från \\(k=0\\) till \\(k=8\\), med kvoten 0,8.</p>",
@@ -13809,8 +13800,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Varje term är dubbelt så stor som den föregående. Du kan summera direkt eller använda geometrisk summa.</p>",
@@ -20981,8 +20971,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
@@ -21005,8 +20994,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
@@ -21103,8 +21091,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Ersätt \\(\\infty\\) med en variabel b, beräkna integralen och låt b gå mot oändligheten.</p>",
@@ -23368,8 +23355,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Integrera term för term. Var noga med minustecknet framför värdet vid den undre gränsen.</p>",
@@ -24034,7 +24020,11 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": ["procedur", "begrepp"],
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
     "ledtrad": "<p>Derivera funktionen med kedjeregeln. Vad blir summan av derivatan och två gånger funktionen?</p>",
     "traningsniva": 2,
     "spel": false,
@@ -24085,7 +24075,11 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": ["procedur", "begrepp"],
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
     "ledtrad": "<p>Derivera två gånger. Behåll parentesen runt hela y-uttrycket när du subtraherar y.</p>",
     "traningsniva": 2,
     "spel": false,
@@ -24195,7 +24189,11 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": ["procedur", "begrepp"],
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
     "ledtrad": "<p>Kedjeregeln ger en faktor 3 vid varje derivering. Vilket tecken får den andra derivatan?</p>",
     "traningsniva": 2,
     "spel": false,
@@ -24219,7 +24217,11 @@ window.BANKMATF1 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "formaga": ["procedur", "begrepp"],
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
     "ledtrad": "<p>Derivera exponentialtermen. Multiplicera sedan båda termerna i y med 3 innan du summerar.</p>",
     "traningsniva": 2,
     "spel": false,
@@ -24343,7 +24345,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "modellering",
-      "problemlösning"
+      "problemlösning",
+      "resonemang"
     ],
     "ledtrad": "<p>Vilket tecken har temperaturskillnaden när föremålet är kallare än ugnen? Vilket tecken har derivatan när föremålet värms?</p>",
     "traningsniva": 2,
@@ -26802,7 +26805,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "ledtrad": "<p>Bestäm multipliciteten för roten \\(r=2\\). Ansatsen måste multipliceras med \\(x\\) så många gånger att den inte längre ingår i den homogena lösningen.</p>",
     "traningsniva": 5,
@@ -26967,7 +26971,8 @@ window.BANKMATF1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "ledtrad": "<p>Den homogena lösningen innehåller redan \\(\\sin2x\\) och \\(\\cos2x\\). Då måste ansatsen multipliceras med x.</p>",
     "traningsniva": 4,
@@ -30613,7 +30618,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "begrepp",
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
@@ -31619,8 +31625,7 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
@@ -31646,8 +31651,7 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
@@ -31673,8 +31677,7 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
@@ -32024,8 +32027,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 1,
     "svarFormat": "uttryck",
@@ -32048,8 +32050,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 1,
     "svarFormat": "uttryck",
@@ -32072,8 +32073,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
@@ -32144,8 +32144,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
@@ -32188,8 +32187,7 @@ window.BANKMATF1 = [
     "familj": "Använda binomialsatsen",
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 2,
     "ledtrad": "<p>Glöm inte att höja både 3 och x till rätt potens.</p>",
@@ -32213,7 +32211,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "traningsniva": 2,
     "ledtrad": "<p>Binomialkoefficienten räknar antalet sätt att välja.</p>",
@@ -32265,8 +32264,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
@@ -32313,8 +32311,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
@@ -32357,8 +32354,7 @@ window.BANKMATF1 = [
     "familj": "Använda binomialsatsen",
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 2,
     "ledtrad": "<p>Glöm inte att höja både 2 och x till rätt potens.</p>",
@@ -36172,7 +36168,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
@@ -36203,7 +36200,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
@@ -36234,7 +36232,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
@@ -36472,7 +36471,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "traningsniva": 1,
     "ledtrad": "<p>Titta bara på de två sista siffrorna.</p>",
@@ -38440,7 +38440,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "begrepp",
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
@@ -43848,7 +43849,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "traningsniva": 1,
     "ledtrad": "<p>Titta bara på de två sista siffrorna.</p>",
@@ -46928,7 +46930,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "resonemang"
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
@@ -46956,7 +46959,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
+      "modellering",
+      "resonemang"
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
@@ -47722,8 +47726,7 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
@@ -47746,8 +47749,7 @@ window.BANKMATF1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 1,
     "svarFormat": "bråk",
@@ -47796,7 +47798,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
@@ -47819,8 +47822,7 @@ window.BANKMATF1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
@@ -47869,7 +47871,8 @@ window.BANKMATF1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
@@ -50001,7 +50004,8 @@ window.BANKMATF1 = [
     "formaga": [
       "begrepp",
       "procedur",
-      "modellering"
+      "modellering",
+      "resonemang"
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",

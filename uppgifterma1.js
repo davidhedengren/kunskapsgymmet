@@ -10857,7 +10857,8 @@ window.BANKMA1 = [
     "rättSvar": null,
     "formaga": [
       "begrepp",
-      "problemlösning"
+      "problemlösning",
+      "resonemang"
     ],
     "ledtrad": "<p>Vilken del skulle behöva bli 4 innan den sista ettan läggs till?</p>",
     "manuellKomplettering": true,
@@ -12536,8 +12537,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Finns det någon parentes som gör −5 till bas?</p>",
@@ -12650,8 +12650,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Minustecknet framför den första potensen ska finnas kvar efter att potensen beräknats.</p>",
@@ -13673,8 +13672,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skilj på basen −2 och ett minustecken utanför en potens.</p>",
@@ -16888,16 +16886,17 @@ window.BANKMA1 = [
       "1c"
     ],
     "niva": "A",
-    "poang": "0/0/3",
+    "poang": "0/0/4",
     "familj": "Jämföra och ordna bråk",
     "t": "<p>Amir säger: ”Om man lägger samma positiva tal till täljaren och nämnaren blir bråket större.”</p><p>Undersök påståendet för \\(\\frac{a}{b}\\) och \\(\\frac{a+k}{b+k}\\), där \\(a\\), \\(b\\) och \\(k\\) är positiva tal. När ökar värdet, när minskar det och när är det oförändrat?</p><p>Johanna säger: ”Det nya värdet ligger alltid mellan det gamla värdet och 1.” Formulera ett påstående som stämmer, även när värdena är lika, och bevisa det. Det räcker inte med exempel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden är</p></li><li><p>\\[\\frac{a+k}{b+k}-\\frac{a}{b}=\\frac{k(b-a)}{b(b+k)}.\\]</p></li><li><p>Nämnaren och \\(k\\) är positiva.</p></li><li><p>Värdet ökar därför om \\(a&lt;b\\), minskar om \\(a&gt;b\\) och är oförändrat om \\(a=b\\).</p></li><li><p>Det första påståendet gäller alltså inte generellt.</p></li><li><p>Dessutom är</p></li><li><p>\\[\\frac{a+k}{b+k}-1=\\frac{a-b}{b+k}.\\]</p></li><li><p>Det nya värdet ligger på samma sida om 1 som det gamla.</p></li><li><p>Tillsammans med skillnaden ovan ger det:</p></li><li><p>Om \\(a&lt;b\\): \\(\\frac{a}{b}&lt;\\frac{a+k}{b+k}&lt;1\\).<br>Om \\(a&gt;b\\): \\(1&lt;\\frac{a+k}{b+k}&lt;\\frac{a}{b}\\).<br>Om \\(a=b\\) är båda värdena 1.</p></li><li><p>Det nya värdet ligger alltså mellan det gamla värdet och 1 när \\(a\\ne b\\).</p></li><li><p>När \\(a=b\\) är alla tre lika.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du bevisat båda jämförelserna och skiljt mellan alla tre fallen?</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden är</p></li><li><p>\\[\\frac{a+k}{b+k}-\\frac{a}{b}=\\frac{k(b-a)}{b(b+k)}.\\]</p></li><li><p>Nämnaren och \\(k\\) är positiva.</p></li><li><p>Värdet ökar därför om \\(a&lt;b\\), minskar om \\(a&gt;b\\) och är oförändrat om \\(a=b\\).</p></li><li><p>Det första påståendet gäller alltså inte generellt.</p></li><li><p>Dessutom är</p></li><li><p>\\[\\frac{a+k}{b+k}-1=\\frac{a-b}{b+k}.\\]</p></li><li><p>Det nya värdet ligger på samma sida om 1 som det gamla.</p></li><li><p>Tillsammans med skillnaden ovan ger det:</p></li><li><p>Om \\(a&lt;b\\): \\(\\frac{a}{b}&lt;\\frac{a+k}{b+k}&lt;1\\).<br>Om \\(a&gt;b\\): \\(1&lt;\\frac{a+k}{b+k}&lt;\\frac{a}{b}\\).<br>Om \\(a=b\\) är båda värdena 1.</p></li><li><p>Det nya värdet ligger alltså mellan det gamla värdet och 1 när \\(a\\ne b\\).</p></li><li><p>När \\(a=b\\) är alla tre lika.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du bevisat båda jämförelserna och skiljt mellan alla tre fallen?</p></li></ol></div><p><strong>Kommunikation (1 A-poäng).</strong> Eleven använder tydliga beteckningar och redovisar hur de avgörande leden leder fram till slutsatsen.</p>",
     "ledtrad": "<p>Vilka två skillnader behöver du undersöka för att jämföra det nya värdet med både det gamla värdet och 1?</p>",
     "geogebra": false,
     "miniräknare": false,
     "formaga": [
       "problemlösning",
-      "resonemang"
+      "resonemang",
+      "kommunikation"
     ],
     "arbetsinsats": 3,
     "svarstyp": "resonemang",
@@ -16922,16 +16921,17 @@ window.BANKMA1 = [
       "1c"
     ],
     "niva": "A",
-    "poang": "0/0/3",
+    "poang": "0/0/4",
     "familj": "Avrundningsgränser och värdesiffror",
     "t": "<p>Ett positivt decimaltal avrundas på två sätt:</p><p>Metod I: direkt till närmaste heltal.<br>Metod II: först till närmaste tiondel, sedan till närmaste heltal.</p><p>Bestäm alla tal \\(x\\) med \\(7\\le x&lt;8\\) som ger olika resultat. Motivera båda gränserna.</p><p>Generalisera till \\(n\\le x&lt;n+1\\), där \\(n\\) är ett icke-negativt heltal och \\(x&gt;0\\). Kan metod II ge ett mindre heltal än metod I? Bevisa ditt svar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod I ger 7 för \\(x&lt;7{,}5\\) och 8 för \\(x\\ge7{,}5\\).</p></li><li><p>Metod II ger 8 så snart den första avrundningen ger minst 7,5.</p></li><li><p>Det sker redan vid \\(x=7{,}45\\), eftersom halva avståndet avrundas uppåt.</p></li><li><p>Metoderna ger därför olika resultat precis när</p></li><li><p>\\[7{,}45\\le x&lt;7{,}5.\\]</p></li><li><p>Vid 7,45 ger metod I svaret 7 och metod II svaret 8.</p></li><li><p>Vid 7,5 ger båda svaret 8, så den övre gränsen ingår inte.</p></li><li><p>Generellt ger metod I \\(n\\) under \\(n+0{,}5\\) och \\(n+1\\) från denna gräns.</p></li><li><p>Metod II ger \\(n\\) under \\(n+0{,}45\\) och \\(n+1\\) från denna gräns.</p></li><li><p>Skillnad uppstår alltså precis för</p></li><li><p>\\[n+0{,}45\\le x&lt;n+0{,}5.\\]</p></li><li><p>Metod II kan aldrig ge ett mindre heltal: under \\(n+0{,}45\\) är resultaten lika, mellan gränserna ger metod II ett större svar och från \\(n+0{,}5\\) är resultaten åter lika.</p></li><li><p>Detta täcker hela intervallet.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du rätt gränser, motiverat vilka som ingår och visat varför metod II aldrig ger ett mindre svar?</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod I ger 7 för \\(x&lt;7{,}5\\) och 8 för \\(x\\ge7{,}5\\).</p></li><li><p>Metod II ger 8 så snart den första avrundningen ger minst 7,5.</p></li><li><p>Det sker redan vid \\(x=7{,}45\\), eftersom halva avståndet avrundas uppåt.</p></li><li><p>Metoderna ger därför olika resultat precis när</p></li><li><p>\\[7{,}45\\le x&lt;7{,}5.\\]</p></li><li><p>Vid 7,45 ger metod I svaret 7 och metod II svaret 8.</p></li><li><p>Vid 7,5 ger båda svaret 8, så den övre gränsen ingår inte.</p></li><li><p>Generellt ger metod I \\(n\\) under \\(n+0{,}5\\) och \\(n+1\\) från denna gräns.</p></li><li><p>Metod II ger \\(n\\) under \\(n+0{,}45\\) och \\(n+1\\) från denna gräns.</p></li><li><p>Skillnad uppstår alltså precis för</p></li><li><p>\\[n+0{,}45\\le x&lt;n+0{,}5.\\]</p></li><li><p>Metod II kan aldrig ge ett mindre heltal: under \\(n+0{,}45\\) är resultaten lika, mellan gränserna ger metod II ett större svar och från \\(n+0{,}5\\) är resultaten åter lika.</p></li><li><p>Detta täcker hela intervallet.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du rätt gränser, motiverat vilka som ingår och visat varför metod II aldrig ger ett mindre svar?</p></li></ol></div><p><strong>Kommunikation (1 A-poäng).</strong> Eleven använder tydliga beteckningar och redovisar hur de avgörande leden leder fram till slutsatsen.</p>",
     "ledtrad": "<p>Vilken första avrundning gör att metod II byter heltal? Vid vilket ursprungligt tal kan den avrundningen först uppstå?</p>",
     "geogebra": false,
     "miniräknare": false,
     "formaga": [
       "problemlösning",
-      "resonemang"
+      "resonemang",
+      "kommunikation"
     ],
     "arbetsinsats": 3,
     "svarstyp": "resonemang",
@@ -29373,14 +29373,15 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Ett tvåsiffrigt heltal har tiotalssiffran a och entalssiffran b. Även talet med ombytta siffror ska vara tvåsiffrigt. Det ursprungliga talet är 27 större än det omvända. Bestäm alla möjliga ursprungliga tal och bevisa att listan är fullständig.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen är 10a + b och 10b + a, där a och b är heltal från 1 till 9.</p></li><li><p>Differensen är 9(a − b).</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Villkoret ger a − b = 3, alltså</p><div class=\"facit-matte\">\\[a=b+3\\]</div></div></li><li><p>För att a ≤ 9 krävs b ≤ 6.</p></li><li><p>Därför är b = 1, 2, 3, 4, 5 eller 6 och talen är 41, 52, 63, 74, 85 och 96.</p></li><li><p>Alla ger differensen 27, och inga andra b är tillåtna.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du hittat alla sex tal och förklarat hur siffervillkoren utesluter fler?</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen är 10a + b och 10b + a, där a och b är heltal från 1 till 9.</p></li><li><p>Differensen är 9(a − b).</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Villkoret ger a − b = 3, alltså</p><div class=\"facit-matte\">\\[a=b+3\\]</div></div></li><li><p>För att a ≤ 9 krävs b ≤ 6.</p></li><li><p>Därför är b = 1, 2, 3, 4, 5 eller 6 och talen är 41, 52, 63, 74, 85 och 96.</p></li><li><p>Alla ger differensen 27, och inga andra b är tillåtna.</p></li><li><p><strong>Kontrollera ditt resonemang:</strong> Har du hittat alla sex tal och förklarat hur siffervillkoren utesluter fler?</p></li></ol></div><p><strong>Kommunikation (1 A-poäng).</strong> Eleven använder tydliga beteckningar och redovisar hur de avgörande leden leder fram till slutsatsen.</p>",
     "ledtrad": "<p>Hur skriver man ett tvåsiffrigt tal med hjälp av siffrornas platsvärden?</p>",
     "niva": "A",
-    "poang": "0/0/3",
+    "poang": "0/0/4",
     "familj": "Uttryck i resonemang och problem",
     "formaga": [
       "problemlösning",
-      "resonemang"
+      "resonemang",
+      "kommunikation"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -30183,7 +30184,8 @@ window.BANKMA1 = [
     "familj": "Faktorisering i resonemang och problem",
     "formaga": [
       "modellering",
-      "problemlösning"
+      "problemlösning",
+      "resonemang"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -31523,14 +31525,15 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "t": "<p>Elvira vill att \\(3(px-2)-2(x+p)=10x-14\\) ska gälla för alla x. Hon testar x = 0, får p = 4 och säger att det bevisar att likheten gäller. Har hon rätt? Fungerar p = 4 ändå? Hur många olika x-värden behöver man pröva för att bevisa att två uttryck av formen ax + b och cx + d är lika för alla x?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bedöm elevens argument</p><p>Ett enda provvärde bevisar inte en identitet. Exempelvis är x och 2x lika när x = 0, men olika när x = 1.</p></li><li><p class=\"facit-rubrik\">Kontrollera p = 4 algebraiskt</p><div class=\"facit-matte\">\\[3(px-2)-2(x+p)=(3p-2)x-6-2p.\\]</div><p>Sätt in p = 4:</p><div class=\"facit-matte\">\\[(3\\cdot4-2)x-6-2\\cdot4=10x-14.\\]</div><p>Värdet p = 4 fungerar alltså för alla x, trots att elevens argument inte räcker som bevis.</p></li><li><p class=\"facit-rubrik\">Undersök två olika provvärden</p><p>Anta att ax + b och cx + d är lika vid två olika tal u och v. Subtraktion av uttrycken ger</p><div class=\"facit-matte\">\\[(a-c)u+(b-d)=0.\\]</div><div class=\"facit-matte\">\\[(a-c)v+(b-d)=0.\\]</div><p>Subtrahera likheterna:</p><div class=\"facit-matte\">\\[(a-c)(u-v)=0.\\]</div><p>Eftersom u ≠ v måste a = c. Den första likheten ger därefter b = d. Då är uttrycken identiska för alla x.</p></li><li><p class=\"facit-rubrik\">Avgränsa slutsatsen</p><p>Två olika provvärden med exakt lika resultat räcker för uttryck av den givna formen ax + b. För godtyckliga uttryck räcker de inte: exempelvis är x² och x lika vid både 0 och 1 men olika vid 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett provvärde räcker inte. p = 4 fungerar, vilket visas genom förenkling. Två olika provvärden räcker för uttryck av formen ax + b.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bedöm elevens argument</p><p>Ett enda provvärde bevisar inte en identitet. Exempelvis är x och 2x lika när x = 0, men olika när x = 1.</p></li><li><p class=\"facit-rubrik\">Kontrollera p = 4 algebraiskt</p><div class=\"facit-matte\">\\[3(px-2)-2(x+p)=(3p-2)x-6-2p.\\]</div><p>Sätt in p = 4:</p><div class=\"facit-matte\">\\[(3\\cdot4-2)x-6-2\\cdot4=10x-14.\\]</div><p>Värdet p = 4 fungerar alltså för alla x, trots att elevens argument inte räcker som bevis.</p></li><li><p class=\"facit-rubrik\">Undersök två olika provvärden</p><p>Anta att ax + b och cx + d är lika vid två olika tal u och v. Subtraktion av uttrycken ger</p><div class=\"facit-matte\">\\[(a-c)u+(b-d)=0.\\]</div><div class=\"facit-matte\">\\[(a-c)v+(b-d)=0.\\]</div><p>Subtrahera likheterna:</p><div class=\"facit-matte\">\\[(a-c)(u-v)=0.\\]</div><p>Eftersom u ≠ v måste a = c. Den första likheten ger därefter b = d. Då är uttrycken identiska för alla x.</p></li><li><p class=\"facit-rubrik\">Avgränsa slutsatsen</p><p>Två olika provvärden med exakt lika resultat räcker för uttryck av den givna formen ax + b. För godtyckliga uttryck räcker de inte: exempelvis är x² och x lika vid både 0 och 1 men olika vid 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett provvärde räcker inte. p = 4 fungerar, vilket visas genom förenkling. Två olika provvärden räcker för uttryck av formen ax + b.</p></div><p><strong>Kommunikation (1 A-poäng).</strong> Eleven använder tydliga beteckningar och redovisar hur de avgörande leden leder fram till slutsatsen.</p>",
     "ledtrad": "<p>Jämför differensen mellan uttrycken vid två olika variabelvärden.</p>",
     "niva": "A",
-    "poang": "0/0/3",
+    "poang": "0/0/4",
     "familj": "Uttryck i resonemang och problem",
     "formaga": [
       "problemlösning",
-      "resonemang"
+      "resonemang",
+      "kommunikation"
     ],
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -44024,7 +44027,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "ledtrad": "<p>Sätt \\(g(x)=ax+b\\) och utveckla \\(g(g(x))\\). Jämför koefficienten framför \\(x\\) och konstanttermen med \\(9x-8\\).</p>",
     "traningsniva": 5,
@@ -52050,7 +52054,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering"
+      "modellering",
+      "resonemang"
     ],
     "ledtrad": "<p>Jämför först skillnaderna mellan intilliggande \\(y\\)-värden. Om de inte är konstanta, undersök i stället kvoterna.</p>",
     "traningsniva": 3,
@@ -52529,7 +52534,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -52928,7 +52934,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "familjTidigare": [
       "Bestämma linjär funktion från villkor",
@@ -57227,7 +57234,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "begrepp",
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "svarFormat": "intervall",
     "ledtrad": "<p>Beräkna funktionsvärdet i båda ändpunkterna. Kontrollera särskilt om funktionen verkligen når 0 på det givna intervallet.</p>",
@@ -58180,7 +58188,7 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlosning",
+      "problemlösning",
       "modellering"
     ],
     "svarFormat": "heltal",
@@ -58246,7 +58254,7 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "problemlosning",
+      "problemlösning",
       "modellering"
     ],
     "svarFormat": "heltal",
@@ -58313,7 +58321,8 @@ window.BANKMA1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": null,
     "ledtrad": "<p>Jämför inte bara modellernas värden. Beräkna förändringen \\(A(5)-A(4)\\) och \\(B(5)-B(4)\\).</p>",
@@ -59163,7 +59172,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "modellering",
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sätt den okända förändringsfaktorn till a. Två steg innebär att startvärdet har multiplicerats med \\(a^2\\), inte att två procenttal har adderats.</p>",
@@ -60585,7 +60595,8 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "ledtrad": "<p>Jämför förändringen i f(x) för varje lika stort x-steg. Vid en linjär funktion måste den vara konstant.</p>",
     "svarFormat": "numeriskt",
@@ -75366,7 +75377,8 @@ window.BANKMA1 = [
       false
     ],
     "formaga": [
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "svarFormat": [
       "procent",
@@ -84812,7 +84824,8 @@ window.BANKMA1 = [
       true
     ],
     "formaga": [
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -90993,8 +91006,7 @@ window.BANKMA1 = [
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
@@ -96398,7 +96410,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "ledtrad": "<p>Signifikans handlar om stöd mot slumpvariation, inte om hur stor eller viktig effekten är.</p>",
     "traningsniva": 1,
@@ -134563,8 +134576,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "ledtrad": "<p>Skriv 99 som \\(100-1\\).</p>",
     "svarFormat": "heltal",
@@ -135201,8 +135213,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "ledtrad": "<p>Vad blir \\(-1\\) upphöjt till ett jämnt tal? Till ett udda tal?</p>",
     "svarFormat": "heltal",
@@ -137220,8 +137231,7 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "ledtrad": "<p>Hur mycket grädde går det åt per person? Eller: hur många gånger fler är 6 personer än 4?</p>",
     "svarFormat": "bråk",
@@ -141360,8 +141370,7 @@ window.BANKMA1 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "ledtrad": "<p>25 är en fjärdedel av 100.</p>",
     "svarFormat": "heltal",
@@ -144763,7 +144772,8 @@ window.BANKMA1 = [
   "familj": "Tabeller och matematiska modeller",
   "formaga": [
     "begrepp",
-    "problemlösning"
+    "problemlösning",
+    "resonemang"
   ],
   "miniräknare": true,
   "geogebra": false,
@@ -144848,7 +144858,8 @@ window.BANKMA1 = [
   "familj": "Tabeller och matematiska modeller",
   "formaga": [
     "begrepp",
-    "problemlösning"
+    "problemlösning",
+    "resonemang"
   ],
   "miniräknare": true,
   "geogebra": false,
@@ -144933,7 +144944,8 @@ window.BANKMA1 = [
   "familj": "Tabeller och matematiska modeller",
   "formaga": [
     "begrepp",
-    "problemlösning"
+    "problemlösning",
+    "resonemang"
   ],
   "miniräknare": true,
   "geogebra": false,
@@ -145938,8 +145950,7 @@ window.BANKMA1 = [
   "poang": "1/0/0",
   "familj": "Uttryck med parenteser",
   "formaga": [
-    "procedur",
-    "begrepp"
+    "procedur"
   ],
   "svarstyp": "uttryck",
   "rättSvar": "3m-4",
@@ -146026,8 +146037,7 @@ window.BANKMA1 = [
   "poang": "1/0/0",
   "familj": "Uttryck med parenteser",
   "formaga": [
-    "procedur",
-    "begrepp"
+    "procedur"
   ],
   "svarstyp": "uttryck",
   "rättSvar": "x+6",
@@ -146928,8 +146938,7 @@ window.BANKMA1 = [
   "poang": "1/0/0",
   "familj": "Uttryck med parenteser",
   "formaga": [
-    "procedur",
-    "begrepp"
+    "procedur"
   ],
   "svarstyp": "uttryck",
   "rättSvar": "15-7w",

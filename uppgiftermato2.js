@@ -1351,8 +1351,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rita \\(x\\) och \\(180^\\circ-x\\) i enhetscirkeln</p><p>De två punkterna är speglingar av varandra i y-axeln.</p></li><li><p class=\"facit-rubrik\">Spegling i y-axeln ändrar inte y-koordinaten</p><p>Sinus är y-koordinaten, så sinusvärdet blir detsamma.</p></li><li><p class=\"facit-rubrik\">Symmetriregeln: \\(\\sin(180^\\circ-x)=\\sin x\\)</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-x)=\\sin x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin x\\)</p></div>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "sin(x)",
@@ -29888,8 +29887,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(x^{1/2}=\\sqrt{x}\\) och använd potensregeln term för term:</p></li><li><p>\\[f'(x)=20x^4+6x^{-3}+\\frac12x^{-1/2}.\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\boxed{f'(x)=20x^4+\\frac6{x^3}+\\frac1{2\\sqrt{x}}}.\\]</p></li></ol></div>",
     "familj": "Grundläggande deriveringsregler",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "20*x^4+6*x^(-3)+1/(2*sqrt(x))",
@@ -30524,8 +30522,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Kvotregeln håller reda på att både täljare och nämnare förändras.</p></li><li><p>Skriv regeln innan du börjar förenkla.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{f'(x)=2/(x+1)^2}\\).</p></div>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
     "svarstyp": "uttryck",
@@ -32178,8 +32175,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Skriv \\(\\frac4x\\) som \\(4x^{-1}\\).</p>",
@@ -32210,8 +32206,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Skriv \\(\\sqrt x\\) som \\(x^{1/2}\\).</p>",
@@ -32242,8 +32237,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Använd produktregeln eller multiplicera först ihop.</p>",
@@ -32274,8 +32268,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Kvotregeln: \\(\\left(\\frac gh\\right)'=\\frac{g'h-gh'}{h^2}\\).</p>",
@@ -32679,8 +32672,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kedjeregeln: \\(f'(x)=g'(h(x))\\cdot h'(x)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}g(u)=u^4,\\ g'(u)=4u^3\\\\h(x)=3x+1,\\ h'(x)=3\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivera den yttre funktionen och multiplicera med den inre derivatan</p><div class=\"facit-matte\">\\[f'(x)=4(3x+1)^3\\cdot3=12(3x+1)^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=12(3x+1)^3\\)</p></div>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
     "svarstyp": "uttryck",
@@ -32905,8 +32897,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv roten som en potens</p><div class=\"facit-matte\">\\[f(x)=(2x+5)^{1/2}\\]</div></li><li><p class=\"facit-rubrik\">Kedjeregeln: \\(f'(x)=g'(h(x))\\cdot h'(x)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}g(u)=u^{1/2},\\ g'(u)=\\frac{1}{2\\sqrt u}\\\\h(x)=2x+5,\\ h'(x)=2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in och förkorta med 2</p><div class=\"facit-matte\">\\[f'(x)=\\frac{1}{2\\sqrt{2x+5}}\\cdot2=\\frac{1}{\\sqrt{2x+5}}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=\\frac{1}{\\sqrt{2x+5}}\\)</p></div>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
     "svarstyp": "uttryck",
@@ -33167,8 +33158,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kedjeregeln: \\(f'(x)=g'(h(x))\\cdot h'(x)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}g(u)=e^u,\\ g'(u)=e^u\\\\h(x)=x^2,\\ h'(x)=2x\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivera den yttre funktionen och multiplicera med den inre derivatan</p><div class=\"facit-matte\">\\[f'(x)=e^{x^2}\\cdot2x=2xe^{x^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=2xe^{x^2}\\)</p></div>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
     "svarstyp": "uttryck",
@@ -33478,8 +33468,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kedjeregeln: \\(f'(x)=g'(h(x))\\cdot h'(x)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}g(u)=\\sin u,\\ g'(u)=\\cos u\\\\h(x)=4x,\\ h'(x)=4\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivera den yttre funktionen och multiplicera med den inre derivatan</p><div class=\"facit-matte\">\\[f'(x)=\\cos(4x)\\cdot4=4\\cos(4x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=4\\cos(4x)\\)</p></div>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
     "svarstyp": "uttryck",
@@ -33735,8 +33724,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kedjeregeln: \\(f'(x)=g'(h(x))\\cdot h'(x)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}g(u)=\\ln u,\\ g'(u)=\\frac1u\\\\h(x)=5x-2,\\ h'(x)=5\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivera den yttre funktionen och multiplicera med den inre derivatan</p><div class=\"facit-matte\">\\[f'(x)=\\frac{1}{5x-2}\\cdot5=\\frac{5}{5x-2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=\\frac{5}{5x-2}\\)</p></div>",
     "familj": "Kedjeregeln med logaritmfunktioner",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
     "svarstyp": "uttryck",
@@ -34041,8 +34029,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kedjeregeln: \\(f'(x)=g'(h(x))\\cdot h'(x)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}g(u)=u^5,\\ g'(u)=5u^4\\\\h(x)=x^2+1,\\ h'(x)=2x\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivera den yttre funktionen och multiplicera med den inre derivatan</p><div class=\"facit-matte\">\\[f'(x)=5(x^2+1)^4\\cdot2x=10x(x^2+1)^4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=10x(x^2+1)^4\\)</p></div>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
     "svarstyp": "uttryck",
@@ -34217,8 +34204,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kedjeregeln: \\(f'(x)=g'(h(x))\\cdot h'(x)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}g(u)=\\cos u,\\ g'(u)=-\\sin u\\\\h(x)=x^3,\\ h'(x)=3x^2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivera den yttre funktionen och multiplicera med den inre derivatan</p><div class=\"facit-matte\">\\[f'(x)=-\\sin(x^3)\\cdot3x^2=-3x^2\\sin(x^3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=-3x^2\\sin(x^3)\\)</p></div>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
     "svarstyp": "uttryck",
@@ -34472,8 +34458,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kedjeregeln: \\(f'(x)=g'(h(x))\\cdot h'(x)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}g(u)=e^u,\\ g'(u)=e^u\\\\h(x)=\\sin x,\\ h'(x)=\\cos x\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivera den yttre funktionen och multiplicera med den inre derivatan</p><div class=\"facit-matte\">\\[f'(x)=e^{\\sin x}\\cdot\\cos x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=e^{\\sin x}\\cos x\\)</p></div>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
     "svarstyp": "uttryck",
@@ -34767,8 +34752,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kedjeregeln: \\(f'(x)=g'(h(x))\\cdot h'(x)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}g(u)=\\ln u,\\ g'(u)=\\frac1u\\\\h(x)=1+x^4,\\ h'(x)=4x^3\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivera den yttre funktionen och multiplicera med den inre derivatan</p><div class=\"facit-matte\">\\[f'(x)=\\frac{1}{1+x^4}\\cdot4x^3=\\frac{4x^3}{1+x^4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=\\frac{4x^3}{1+x^4}\\)</p></div>",
     "familj": "Kedjeregeln med logaritmfunktioner",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "exp_log_derivata__kedjeregeln_med_logaritmfunktioner",
     "svarstyp": "uttryck",
@@ -35379,9 +35363,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det finns två kedjelager.</p></li><li><p>Först sinus, sedan kuben:</p></li><li><p>\\[f'(x)=\\cos((x^2+1)^3)\\cdot3(x^2+1)^2\\cdot2x.\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\boxed{f'(x)=6x(x^2+1)^2\\cos((x^2+1)^3)}.\\]</p></li></ol></div>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
-      "procedur",
-      "begrepp",
-      "resonemang"
+      "procedur"
     ],
     "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
     "svarstyp": "uttryck",
@@ -36031,8 +36013,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Skriv som \\((2x+1)^{1/2}\\) och använd kedjeregeln.</p>",
@@ -36063,8 +36044,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Yttre derivatan är \\(4(\\ldots)^3\\), inre derivatan är \\(2x\\).</p>",
@@ -36687,8 +36667,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd \\((\\sin x)'=\\cos x\\) och \\((\\cos x)'=-\\sin x\\).</p></li><li><p>Minustecknet framför cosinus gör därför att termen blir positiv efter derivering:</p></li><li><p>\\[f'(x)=2\\cos x+3\\sin x.\\]</p></li><li><p><strong>Kontrollera varje term:</strong> Konstantfaktorerna 2 och -3 följer med vid deriveringen.</p></li><li><p>Dessutom ger derivatan av \\(-3\\cos x\\) ett dubbelt minustecken, vilket förklarar plustecknet framför \\(3\\sin x\\).</p></li></ol></div>",
     "familj": "Derivering av trigonometriska funktioner",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "2*cos(x)+3*sin(x)",
@@ -36912,8 +36891,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{kx}\\) är \\(ke^{kx}\\)</p><div class=\"facit-matte\">\\[\\frac{d}{dx}e^{2x}=2e^{2x}\\]</div></li><li><p class=\"facit-rubrik\">Konstanten 5 står kvar</p><div class=\"facit-matte\">\\[f'(x)=5\\cdot2e^{2x}=10e^{2x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=10e^{2x}\\)</p></div>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
     "svarstyp": "uttryck",
@@ -37535,8 +37513,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Använd</p><div class=\"facit-matte\">\\[(\\ln u)'=u'/u\\].</div></div></li><li><p>Här är u=3x och u′=3, så trean förkortas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{f'(x)=1/x}\\).</p></div>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
     "svarstyp": "uttryck",
@@ -38160,8 +38137,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Produktregeln: \\((uv)'=u'v+uv'\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}u=e^x,\\ u'=e^x\\\\v=\\sin x,\\ v'=\\cos x\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in i produktregeln</p><div class=\"facit-matte\">\\[f'(x)=e^x\\sin x+e^x\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(e^x\\)</p><div class=\"facit-matte\">\\[f'(x)=e^x(\\sin x+\\cos x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=e^x(\\sin x+\\cos x)\\)</p></div>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
     "svarstyp": "uttryck",
@@ -38884,8 +38860,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kedjeregeln: \\(f'(x)=g'(h(x))\\cdot h'(x)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}g(u)=\\ln u,\\ g'(u)=\\frac1u\\\\h(x)=x^2+1,\\ h'(x)=2x\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivera den yttre funktionen och multiplicera med den inre derivatan</p><div class=\"facit-matte\">\\[f'(x)=\\frac{1}{x^2+1}\\cdot2x=\\frac{2x}{x^2+1}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=\\frac{2x}{x^2+1}\\)</p></div>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "exp_log_derivata__derivering_av_specialfunktioner",
     "svarstyp": "uttryck",
@@ -40710,8 +40685,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Inre derivatan av \\(4x\\) är 4.</p>",
@@ -40742,8 +40716,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>\\(\\ln(x^2)=2\\ln x\\) för \\(x\\gt0\\).</p>",
@@ -40774,8 +40747,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Derivatan av \\(a^x\\) är \\(a^x\\ln a\\).</p>",
@@ -40806,8 +40778,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Inre derivatan av \\(4x\\) är 4.</p>",
@@ -51291,8 +51262,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Integrera term för term och använd exakt trigonometriska värden i ändpunkterna.</p></li><li><p>En primitiv funktion är \\(-2\\cos x+\\sin x\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet blir</p><div class=\"facit-matte\">\\[[ -2\\cos x+\\sin x]_0^{\\pi/2}=1-(-2)=3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{3}\\).</p></div>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "familjNyckel": "integraler_primitiva__berakna_bestamda_integraler",
     "svarstyp": "numeriskt",
@@ -54239,8 +54209,7 @@ window.BANKMATO2 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm en primitiv funktion term för term.</p>",
@@ -54271,8 +54240,7 @@ window.BANKMATO2 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En primitiv funktion till \\(\\sin x\\) är \\(-\\cos x\\).</p>",
@@ -54303,8 +54271,7 @@ window.BANKMATO2 = [
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En primitiv funktion till \\(\\frac1x\\) är \\(\\ln x\\) för \\(x\\gt0\\).</p>",
@@ -74136,9 +74103,7 @@ window.BANKMATO2 = [
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Potenserna av i upprepas med period 4.</p></li><li><p>Eftersom \\(2026=4\\cdot506+2\\) får vi \\(i^{2026}=i^2=-1\\).</p></li><li><div class=\"facit-berakning\"><p><strong>Se mönstret:</strong></p><div class=\"facit-matte\">\\[i^1=i\\],</div></div></li><li><div class=\"facit-matte\">\\[i^2=-1\\],</div></li><li><p>\\(i^3=-i\\) och \\(i^4=1\\).</p></li><li><p>Därefter börjar samma fyrastegscykel om.</p></li><li><p>Därför är det resten vid division med 4 som avgör värdet, inte storleken på exponenten i sig.</p></li></ol></div>",
     "familj": "Imaginära tal och potenser av i",
     "formaga": [
-      "procedur",
-      "begrepp",
-      "resonemang"
+      "procedur"
     ],
     "svarstyp": "numeriskt",
     "rättSvar": -1,
@@ -74469,8 +74434,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Använd konjugatregeln och att \\(i^2=-1\\).</p>",
@@ -74502,8 +74466,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Multiplicera varje term med varje term och använd \\(i^2=-1\\).</p>",
@@ -83112,8 +83075,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Använd Eulers formel \\(e^{iv}=\\cos v+i\\sin v\\).</p>",
@@ -85654,8 +85616,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Använd kvadreringsregeln och \\(i^2=-1\\).</p>",
@@ -91653,8 +91614,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Använd konjugatregeln på täljaren.</p>",

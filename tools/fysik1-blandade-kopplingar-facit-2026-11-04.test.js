@@ -1,7 +1,7 @@
 'use strict';
 const{test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(__dirname,'../uppgifter.js'),'utf8'),c);
-const qs=c.window.BANK.filter(q=>q.omr==='kopplingar'&&q.familj==='Blandade kopplingar'),q=id=>qs.find(q=>q.id===id);
+/* 2026-11-24: 8.740– är nya mängdträningsuppgifter med eget test (fysik1-komplexa-kopplingar-2026-11-24); här gäller de 26 granskade. */const qs=c.window.BANK.filter(q=>q.omr==='kopplingar'&&q.familj==='Blandade kopplingar'&&+q.id.split('.')[1]<740),q=id=>qs.find(q=>q.id===id);
 const par=(a,b)=>1/(1/a+1/b),near=(a,b,id)=>{if(b===null)return;if(Array.isArray(b)){assert.equal(a.length,b.length,id);b.forEach((v,i)=>near(a[i],v,id));return;}assert.ok(Math.abs(a-b)<1e-10*Math.max(1,Math.abs(b)),`${id}: ${a} != ${b}`);};
 test('Alla 26 huvudfacit och 37 delkort följer nya mallen',()=>{
  assert.equal(qs.length,26);assert.equal(qs.reduce((n,q)=>n+(q.spelDelar||[]).length,0),37);

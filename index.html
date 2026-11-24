@@ -2598,16 +2598,36 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   display:flex;align-items:center;gap:12px;animation:pop .4s var(--ease) both;
 }
 .result.good{background:var(--goodSoft);color:var(--good)}
-/* Deluppgiftskedja: hela uppgiften i följd, a) → b) → c). */
-.kedja-del{margin:14px 0 4px;padding:2px 0 2px 12px;border-left:3px solid var(--hair)}
-.kedja-del.kedja-nu{border-left-color:var(--accent,#2f7d4a)}
-.kedja-del.kedja-klar{opacity:.85}
-.kedja-rubrik{font-weight:700;margin-bottom:4px}
-.kedja-svar{margin-top:6px;font-size:.92rem}
-.kedja-svar.ok{color:var(--good)}
-.kedja-svar.fel{color:var(--bad)}
-.obs-svarare{color:#dc2626;font-weight:700}
+/* Deluppgiftskedja: hela uppgiften i följd, a) → b) → c). Ny form 2026-11-24 (användaren: ”Riktigt snyggt!”):
+   bokstaven som bricka på samma rad som frågan, inga vänsterkanter, stegindikator i stället för uppgifts-id,
+   gjorda delar som en kompakt rad med svaret som etikett, ”Svårare nivå · frivillig” som lugn etikett.
+   Texten ”a)”, ”Ditt svar:” finns kvar för skärmläsare (.sr-only). */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.kedja-sammanhang{display:flex;align-items:center;gap:10px;margin:0 0 14px;font-size:.82rem;color:var(--ink3)}
+.kedja-steg{display:flex;gap:5px}
+.kedja-steg i{width:22px;height:4px;border-radius:2px;background:var(--hair)}
+.kedja-steg i.klar{background:var(--good);opacity:.5}
+.kedja-steg i.nu{background:var(--good)}
+.kedja-del{display:flex;gap:14px;align-items:flex-start;margin:0 0 12px}
+.kedja-rubrik{flex:0 0 auto;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:700;
+  font-size:.95rem;line-height:1;background:var(--goodSoft);color:var(--good);margin-top:1px}
+.kedja-innehall{flex:1;min-width:0}
+.kedja-fraga>p:last-child{margin-bottom:0}
+.kedja-del.kedja-klar{font-size:.92rem;align-items:center}
+.kedja-del.kedja-klar .kedja-rubrik{width:26px;height:26px;font-size:.85rem;background:var(--surface3);color:var(--ink3);margin-top:0}
+.kedja-del.kedja-klar .kedja-innehall{display:flex;gap:12px;align-items:center;justify-content:space-between}
+.kedja-del.kedja-klar .kedja-fraga{color:var(--ink3);overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.kedja-del.kedja-klar .kedja-fraga p{display:inline;margin:0}
+.kedja-del.kedja-klar .kedja-fraga img,.kedja-del.kedja-klar .kedja-fraga svg,.kedja-del.kedja-klar .kedja-fraga .fig,
+.kedja-del.kedja-klar .kedja-fraga table{display:none}
+.kedja-svar{flex:0 0 auto;font-size:.82rem;padding:2px 10px;border-radius:999px;white-space:nowrap;background:var(--surface3);color:var(--ink3)}
+.kedja-svar.ok{background:var(--goodSoft);color:var(--good)}
+.kedja-svar.fel{background:var(--badSoft);color:var(--bad)}
+.kedja-skiljelinje{height:1px;background:var(--hair);margin:2px 0 14px 44px}
+.obs-svarare{display:inline-block;font-size:.75rem;font-weight:600;padding:2px 9px;border-radius:999px;background:var(--warnSoft);color:var(--warn)}
 .kedja-extra{margin-top:10px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:.92rem}
+.kedja-hoppa{background:none;border:0;padding:0;color:var(--ink3);text-decoration:underline;cursor:pointer;font:inherit;font-size:.85rem}
+.kedja-hoppa:hover{color:var(--ink2)}
 .result.bad{background:var(--badSoft);color:var(--bad)}
 .result .txt{flex:1}
 .result strong{display:block;font-size:15px}
@@ -10369,9 +10389,9 @@ function adminBladDelarHtml(t){
   const foralder=state.data.bank.find(q=>String(q.id)===String(t.ursprungsId));
   const delning=kedjaDelning(syskon,foralder);
   return `<p class="hint kedja-sammanhang">Uppgift ${esc(String(t.ursprungsId))} · Alla deluppgifter</p>${delning.intro}`
-    +syskon.map((q,i)=>`<div class="kedja-del${q.id===t.id?" kedja-nu":""}">
-      <div class="kedja-rubrik">${esc(String.fromCharCode(97+i))})${q.id===t.id?" · Aktuell del":""}</div>
-      <div class="kedja-fraga">${i?delning.kort[i]:delning.delar[i]}</div>
+    +syskon.map((q,i)=>`<div class="kedja-del${q.id===t.id?" kedja-nu":" kedja-klar"}">
+      <span class="kedja-rubrik">${esc(String.fromCharCode(97+i))}<span class="sr-only">)</span></span>
+      <div class="kedja-innehall"><div class="kedja-fraga">${i?delning.kort[i]:delning.delar[i]}</div>${q.id===t.id?'<span class="kedja-svar ok">Aktuell del</span>':""}</div>
     </div>`).join("")
     +`<p class="hint">Du svarar på del ${esc(String.fromCharCode(97+syskon.findIndex(q=>q.id===t.id)))}) nedan.</p>`;
 }
@@ -10383,15 +10403,19 @@ function kedjaTbody(t){
   const fraga=k.gjorda.length ? d.kort : d.hel;
   const tidigare=k.gjorda.filter(g=>g.etikett!==d.etikett).map(g=>`
     <div class="kedja-del kedja-klar">
-      <div class="kedja-rubrik">${esc(kedjaVisadEtikett(k,g.etikett))})</div>
-      <div class="kedja-fraga">${g.fraga}</div>
-      ${g.under?'<div class="hint">Hoppad – den här delen ligger under din nivå.</div>':g.aterupptagen?'<div class="hint">Tidigare del – svaret finns inte i den äldre sparningen.</div>':g.overhoppad?'<div class="hint">Överhoppad – frivillig del.</div>':`<div class="kedja-svar ${g.ok?"ok":"fel"}"><span aria-hidden="true">${g.ok?"✓":"✗"}</span> Ditt svar: ${g.svar||"–"}</div>`}
+      <span class="kedja-rubrik">${esc(kedjaVisadEtikett(k,g.etikett))}<span class="sr-only">)</span></span>
+      <div class="kedja-innehall"><div class="kedja-fraga">${g.fraga}</div>
+      ${g.under?'<span class="kedja-svar" title="Den här delen ligger under din nivå.">Hoppad</span>':g.aterupptagen?'<span class="kedja-svar" title="Svaret finns inte i den äldre sparningen.">Tidigare del</span>':g.overhoppad?'<span class="kedja-svar">Överhoppad</span>':`<span class="kedja-svar ${g.ok?"ok":"fel"}"><span aria-hidden="true">${g.ok?"✓":"✗"}</span><span class="sr-only"> Ditt svar:</span> ${g.svar||"–"}</span>`}</div>
     </div>`).join("");
-  return `<p class="hint kedja-sammanhang">Uppgift ${esc(String(k.ursprungsId))} · Del ${k.index+1} av ${k.delar.length}</p>${k.intro}${tidigare}
+  /* Stegindikatorn ersätter ”Uppgift 8.46 · Del 2 av 2”; uppgiftens id följer ändå med i felrapporten. */
+  const steg=k.delar.map((_,i)=>`<i class="${i<k.index?"klar":i===k.index?"nu":""}"></i>`).join("");
+  return `<p class="hint kedja-sammanhang" data-uppgift="${esc(String(k.ursprungsId))}"><span>Del ${k.index+1} av ${k.delar.length}</span><span class="kedja-steg" aria-hidden="true">${steg}</span></p>${k.intro}${tidigare}${tidigare?'<div class="kedja-skiljelinje" aria-hidden="true"></div>':""}
     <div class="kedja-del kedja-nu">
-      <div class="kedja-rubrik">${esc(kedjaVisadEtikett(k,d.etikett))})${d.extra?` <span class="obs-svarare">OBS! Svårare nivå</span>`:""}</div>
-      <div class="kedja-fraga">${fraga}</div>
-      ${d.extra&&!state.answered&&!state.passReview?'<div class="kedja-extra"><span>Den här delen är frivillig.</span><button type="button" class="btn" onclick="kedjaHoppaAktuell()">Hoppa över den här delen</button></div>':''}
+      <span class="kedja-rubrik">${esc(kedjaVisadEtikett(k,d.etikett))}<span class="sr-only">)</span></span>
+      <div class="kedja-innehall">
+        <div class="kedja-fraga">${fraga}</div>
+        ${d.extra?`<div class="kedja-extra"><span class="obs-svarare">Svårare nivå · frivillig</span>${!state.answered&&!state.passReview?'<button type="button" class="kedja-hoppa" onclick="kedjaHoppaAktuell()">Hoppa över den här delen</button>':""}</div>`:""}
+      </div>
     </div>`;
 }
 /* Överhoppning räknas inte som ett svar och ger varken XP eller en felmarkering.
@@ -15760,8 +15784,8 @@ function finishAttempt(resultat){
       </div>
       ${window.kgAi&&kgAi.knapp?`<div class="aif-traningsrad">${kgAi.knapp()}</div>`:""}
       ${delNasta?.extra?`<div class="kedja-extra">
-        <span class="obs-svarare">OBS! Svårare nivå</span>
-        <span>Nästa del, ${esc(delNasta.etikett)}), är svårare än din nuvarande nivå. Den är frivillig.</span>
+        <span class="obs-svarare">Svårare nivå · frivillig</span>
+        <span>Nästa del, ${esc(delNasta.etikett)}), är svårare än din nuvarande nivå.</span>
         <button class="btn" id="hoppaoverbtn" type="button">Hoppa över</button>
       </div>`:""}
       ${kolla?"":`<div class="aacts">

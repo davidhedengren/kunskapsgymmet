@@ -55,7 +55,9 @@ const {chromium}=require('playwright'),fs=require('fs'),path=require('path'),ass
   for(const width of [390,1280]){
    await page.setViewportSize({width,height:1000});
    await page.evaluate(()=>startChain('3.51',1));
-   assert.match(await page.locator('.kedja-sammanhang').textContent(),/3\.51 · Del 1 av 3/);
+   // Ny kedjeform 2026-11-24: id:t står i data-uppgift, rubriken visar bara ”Del 1 av 3”.
+   assert.equal(await page.locator('.kedja-sammanhang').getAttribute('data-uppgift'),'3.51');
+   assert.match(await page.locator('.kedja-sammanhang').textContent(),/Del 1 av 3/);
    assert.match(await page.locator('.kedja-nu').textContent(),/a\).*Svårare nivå/s);
    const before=await page.evaluate(()=>({xp:profile.xp,attempts:profile.attempts}));
    await page.getByRole('button',{name:'Hoppa över den här delen',exact:true}).click();
@@ -68,7 +70,8 @@ const {chromium}=require('playwright'),fs=require('fs'),path=require('path'),ass
    await page.locator('#ans-0').fill('168');await page.locator('#kollaknapp').click();
    assert.match(await page.locator('#answer-result').textContent(),/Rätt!/);
    await page.evaluate(()=>startChain('3.22',2));
-   assert.match(await page.locator('.kedja-sammanhang').textContent(),/3\.22 · Del 1 av 3/);
+   assert.equal(await page.locator('.kedja-sammanhang').getAttribute('data-uppgift'),'3.22');
+   assert.match(await page.locator('.kedja-sammanhang').textContent(),/Del 1 av 3/);
    assert.match(await page.locator('.kedja-nu').textContent(),/a\)/);
    await page.locator('#ans-0').fill('5/2');await page.locator('#kollaknapp').click();
    assert.match(await page.locator('#answer-result').textContent(),/Rätt!/);

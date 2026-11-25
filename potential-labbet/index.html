@@ -408,8 +408,10 @@ body[data-lab-mode="walk"][data-walk-started="false"] .graph-panel{display:none}
 #loop:empty,#walkroute:empty{display:none}
 @media(max-width:680px){body[data-lab-mode="build"] .canvaswrap svg{height:auto!important}}
 /* The traversed path is distinct from the selected loop and the next possible step. */
-:root{--walk-trail:#0aa34f;--walk-trail-halo:#38d27f;--walk-current:#057a39;--walk-visited-dot:#0aa34f}
-html[data-theme="dark"]{--walk-trail:#1fe07a;--walk-trail-halo:#5cf2a2;--walk-current:#b3ffd3;--walk-visited-dot:#1fe07a}
+:root{--walk-trail:#e3141b;--walk-trail-halo:#ff5a55;--walk-current:#a5060b;--walk-visited-dot:#e3141b}
+#circuit[data-lap-done="true"]{--walk-trail:#0aa34f;--walk-trail-halo:#38d27f;--walk-current:#057a39;--walk-visited-dot:#0aa34f}
+html[data-theme="dark"]{--walk-trail:#ff4141;--walk-trail-halo:#ff6f6a;--walk-current:#ff2626;--walk-visited-dot:#ff4141}
+html[data-theme="dark"] #circuit[data-lap-done="true"]{--walk-trail:#1fe07a;--walk-trail-halo:#5cf2a2;--walk-current:#2bff8a;--walk-visited-dot:#1fe07a}
 
 /* Short guide and a visible finished lap. */
 .lab-guide{margin:-4px 0 12px}
@@ -474,7 +476,7 @@ body.palette-dragging,body.palette-dragging *{cursor:grabbing!important;user-sel
 @keyframes walkfade{to{opacity:0}}
 #circuit .walk-arrow{fill:var(--walk-current);stroke:var(--diagram);stroke-width:1.5;stroke-linejoin:round;pointer-events:none}
 .just-walked-glow{fill:var(--walk-trail);fill-opacity:.07;stroke:var(--walk-current);stroke-width:2}
-.walked-body{fill:color-mix(in srgb,var(--walk-trail-halo) 28%,var(--diagram))}
+.walked-body{fill:color-mix(in srgb,var(--walk-trail) 24%,var(--diagram))}
 .just-walked.pulse{transform-box:fill-box;transform-origin:center;animation:walkPulse .8s cubic-bezier(.2,.8,.2,1) 1}
 @keyframes walkPulse{0%{opacity:0;transform:scale(.6)}40%{opacity:1;transform:scale(1.15)}100%{opacity:1;transform:scale(1)}}
 @media(prefers-reduced-motion:reduce){.just-walked.pulse{animation:none}}
@@ -837,7 +839,7 @@ function nodeLabelSpots(k){const occ={up:false,down:false,left:false,right:false
  const spots={above:{dx:0,dy:-15,a:'middle',ok:!occ.up},left:{dx:-15,dy:5,a:'end',ok:!occ.left},right:{dx:15,dy:5,a:'start',ok:!occ.right},below:{dx:0,dy:27,a:'middle',ok:!occ.down}},pick=(order,skip)=>order.map(n=>spots[n]).find(q=>q.ok&&q!==skip);
  const name=pick(['above','left','right','below'])||{dx:-11,dy:-12,a:'end'},value=pick(['below','right','left','above'],name)||{dx:11,dy:22,a:'start'};return {name,value}}
 function renderCircuit(){const s=$('circuit');closeQuickValue();closeQuickName();s.replaceChildren();const live=powerOn&&isBuild(),flows=live?flowCurrents():null;if(live){const defs=el(s,'defs',{});const gr=el(defs,'radialGradient',{id:'lampglow'});el(gr,'stop',{offset:'0','stop-color':'#ffe680','stop-opacity':'.95'});el(gr,'stop',{offset:'.55','stop-color':'#ffd84d','stop-opacity':'.45'});el(gr,'stop',{offset:'1','stop-color':'#ffd84d','stop-opacity':'0'})}const pulseKey=isBuild()||startPicking?'':history.length+':'+(history.at(-1)?.edge??'');focusEdges=!isBuild()&&chosenLoop>=0&&loops[chosenLoop]?new Set(loops[chosenLoop].slice(1).map(h=>h.edge)):null;focusNets=focusEdges?new Set(loops[chosenLoop].map(h=>net(h.node))):null;const fadeEdge=id=>focusEdges&&!focusEdges.has(id)?'faded':'';const ns=nodes(),build=['wire','resistor','source','switch','groundlink'].includes(tool),grid=isBuild(),visited=new Set(history.map(h=>net(h.node))),walked=new Set(!grid&&!startPicking?history.slice(1).flatMap(h=>[h.edge,...(h.wires||[])]):[]),lapDone=history.length>1&&sameNet(cur(),history[0].node),opts=lapDone?[]:neighbors(),nextOpts=lapDone?[]:forwardChoices(),last=history.at(-1)?.edge;
- applyViewport();const vb=s.getAttribute('viewBox').split(' ').map(Number);el(s,'rect',{x:vb[0],y:vb[1],width:vb[2],height:vb[3],fill:'transparent',class:'canvas-hit'});s.dataset.wire=String(tool==='wire');s.dataset.groundTool=String(tool==='ground');s.dataset.startPicking=String(tool==='walk'&&startPicking);if(!grid){el(s,'g',{id:'loop-overlay','pointer-events':'none'});drawLoopOverlay()}s.parentElement.dataset.building=String(grid);s.parentElement.dataset.moving=String(tool==='move');
+ applyViewport();const vb=s.getAttribute('viewBox').split(' ').map(Number);el(s,'rect',{x:vb[0],y:vb[1],width:vb[2],height:vb[3],fill:'transparent',class:'canvas-hit'});s.dataset.wire=String(tool==='wire');s.dataset.lapDone=String(!grid&&!startPicking&&lapDoneShown());s.dataset.groundTool=String(tool==='ground');s.dataset.startPicking=String(tool==='walk'&&startPicking);if(!grid){el(s,'g',{id:'loop-overlay','pointer-events':'none'});drawLoopOverlay()}s.parentElement.dataset.building=String(grid);s.parentElement.dataset.moving=String(tool==='move');
  if(grid)for(let y=0;y<NY;y++)for(let x=0;x<NX;x++){let k=key(x,y),[px,py]=xy(k);let q=el(s,'circle',{cx:px,cy:py,r:2.8,fill:'var(--diagram-grid)','pointer-events':'none'});}
  for(const e of edges){let [ax,ay]=xy(e.a),[bx,by]=xy(e.b),len=Math.hypot(bx-ax,by-ay),angle=Math.atan2(by-ay,bx-ax)*180/Math.PI,m=len/2;let active=tool==='walk'&&opts.some(x=>x.id===e.id),traversed=walked.has(e.id),highlight=traversed&&e.id===last,sel=e.id===selected;const g=el(s,'g',{transform:`translate(${ax} ${ay}) rotate(${angle})`,'data-walked':String(traversed),'data-eid':String(e.id),class:fadeEdge(e.id)});let c=highlight?'var(--walk-current)':traversed?'var(--walk-trail)':sel?colors.green:colors.ink;
  
@@ -864,10 +866,10 @@ function renderCircuit(){const s=$('circuit');closeQuickValue();closeQuickName()
   const rest=[...(h.wires||[]),h.edge].map(id=>edges.find(z=>z.id===id)).filter(Boolean);while(rest.length){let ix=rest.findIndex(e=>e.a===at||e.b===at);if(ix<0)ix=rest.findIndex(e=>sameNet(at,e.a)||sameNet(at,e.b));const e=rest.splice(Math.max(0,ix),1)[0];let next;if(at===e.a)next=e.b;else if(at===e.b)next=e.a;else{const near=sameNet(at,e.a)&&!sameNet(at,e.b)?e.a:sameNet(at,e.b)&&!sameNet(at,e.a)?e.b:Math.hypot(...xy(at).map((v,i)=>v-xy(e.a)[i]))<=Math.hypot(...xy(at).map((v,i)=>v-xy(e.b)[i]))?e.a:e.b;pts.push(xy(near));next=near===e.a?e.b:e.a}pts.push(xy(next));at=next}
   if(!sameNet(at,h.node))pts.push(xy(h.node));
   const d='M'+pts.map(q=>q.join(' ')).join(' L'),fresh=pulseKey!==lastPulseKey,still=matchMedia('(prefers-reduced-motion: reduce)').matches,fade=focusEdges&&h.edge!=null&&!focusEdges.has(h.edge)?' faded':'';
-  el(s,'path',{d,id:'walkstep-path',fill:'none',stroke:'none','pointer-events':'none'});
+  const guide=el(s,'path',{d,id:'walkstep-path',fill:'none',stroke:'none','pointer-events':'none'});let stop=.84;try{const L=guide.getTotalLength();if(L>0)stop=Math.max(.5,Math.min(.95,1-26/L))}catch(_){}const kp=stop.toFixed(3);
   if(fresh&&!still)el(s,'path',{d,pathLength:1,class:'walk-sweep'+fade});
   const arrow=el(s,'polygon',{points:'-9,-7 9,0 -9,7',class:'walk-arrow'+fade}),mo=document.createElementNS(NS,'animateMotion');
-  for(const [k,v] of Object.entries({dur:fresh&&!still?'0.6s':'0.001s',fill:'freeze',rotate:'auto',keyPoints:fresh&&!still?'0;0.84':'0.84;0.84',keyTimes:'0;1',calcMode:'linear',begin:'indefinite'}))mo.setAttribute(k,v);
+  for(const [k,v] of Object.entries({dur:fresh&&!still?'0.6s':'0.001s',fill:'freeze',rotate:'auto',keyPoints:fresh&&!still?'0;'+kp:kp+';'+kp,keyTimes:'0;1',calcMode:'linear',begin:'indefinite'}))mo.setAttribute(k,v);
   const mp=document.createElementNS(NS,'mpath');mp.setAttribute('href','#walkstep-path');mp.setAttributeNS('http://www.w3.org/1999/xlink','xlink:href','#walkstep-path');mo.append(mp);arrow.append(mo);try{mo.beginElement()}catch(_){}}
  // Draw nodes above the components. Position labels away from ground symbols and adjacent resistors.
  for(const k of ns){let sp=nodeLabelSpots(k),[x,y]=xy(k),v=val(k),isCur=!grid&&!startPicking&&k===repOf(cur()),possible=tool==='walk'&&!lapDone&&nextOpts.some(e=>repOf(otherEnd(e,cur()))===k),isGround=k===ground,isRep=k===repOf(k),junction=adjacent(k).filter(e=>e.type!=='groundlink').length>=3,hereNet=!grid&&!startPicking&&sameNet(k,cur()),visible=!grid&&isRep&&($('showall').checked||(!!ground&&chosenLoop<0&&!relativeView()&&(visited.has(net(k))||sameNet(k,ground))));let c=Number.isFinite(v)?(v>1e-8?colors.red:v< -1e-8?colors.blue:colors.muted):colors.muted;

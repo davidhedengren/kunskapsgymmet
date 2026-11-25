@@ -28173,16 +28173,16 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(f(x)=e^{2x+1}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\ln(4x+3)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\frac{x^2+1}{x-1}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=\\boxed{2e^{2x+1}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(\\ln u\\) gäller derivatan \\(u'/u\\):</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[g'(x)=\\boxed{\\frac4{4x+3}}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvotregeln:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[h'(x)=\\frac{2x(x-1)-(x^2+1)}{(x-1)^2}=\\boxed{\\frac{x^2-2x-1}{(x-1)^2}}.\\]</p></li></ol></div></div>",
+    "t": "<p>Derivera.</p><p>a) \\(f(x)=\\frac{e^{2x}}{x+1}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\frac{x}{\\ln x},\\ x&gt;0,\\ x\\ne1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\frac{x^2+1}{x-1}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=e^{2x},\\quad u'=2e^{2x}\\]</div><div class=\"facit-matte\">\\[v=x+1,\\quad v'=1\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac{2e^{2x}(x+1)-e^{2x}\\cdot1}{(x+1)^2}\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(e^{2x}\\) i täljaren</p><div class=\"facit-matte\">\\[f'(x)=\\frac{e^{2x}(2x+2-1)}{(x+1)^2}\\]</div><div class=\"facit-matte\">\\[f'(x)=\\frac{e^{2x}(2x+1)}{(x+1)^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=\\dfrac{e^{2x}(2x+1)}{(x+1)^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=x,\\quad u'=1\\]</div><div class=\"facit-matte\">\\[v=\\ln x,\\quad v'=\\frac{1}{x}\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[g'(x)=\\frac{1\\cdot\\ln x-x\\cdot\\frac{1}{x}}{(\\ln x)^2}\\]</div></li><li><p class=\"facit-rubrik\">\\(x\\cdot\\frac{1}{x}=1\\)</p><div class=\"facit-matte\">\\[g'(x)=\\frac{\\ln x-1}{(\\ln x)^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(g'(x)=\\dfrac{\\ln x-1}{(\\ln x)^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=x^2+1,\\quad u'=2x\\]</div><div class=\"facit-matte\">\\[v=x-1,\\quad v'=1\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[h'(x)=\\frac{2x(x-1)-(x^2+1)\\cdot1}{(x-1)^2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera ut och samla termerna i täljaren</p><div class=\"facit-matte\">\\[h'(x)=\\frac{2x^2-2x-x^2-1}{(x-1)^2}\\]</div><div class=\"facit-matte\">\\[h'(x)=\\frac{x^2-2x-1}{(x-1)^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h'(x)=\\dfrac{x^2-2x-1}{(x-1)^2}\\).</p></div></div></div>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2*e^(2x+1)",
-      "(4)/(4x+3)",
+      "(e^(2x)(2x+1))/((x+1)^2)",
+      "(ln(x)-1)/((ln(x))^2)",
       "(x^2-2x-1)/((x-1)^2)"
     ],
     "tolerans": [
@@ -28210,8 +28210,8 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(f(x)=e^{2x+1}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=\\boxed{2e^{2x+1}}\\].</div></li></ol></div></div>",
+        "fraga": "<p>\\(f(x)=\\frac{e^{2x}}{x+1}\\)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=e^{2x},\\quad u'=2e^{2x}\\]</div><div class=\"facit-matte\">\\[v=x+1,\\quad v'=1\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac{2e^{2x}(x+1)-e^{2x}\\cdot1}{(x+1)^2}\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(e^{2x}\\) i täljaren</p><div class=\"facit-matte\">\\[f'(x)=\\frac{e^{2x}(2x+2-1)}{(x+1)^2}\\]</div><div class=\"facit-matte\">\\[f'(x)=\\frac{e^{2x}(2x+1)}{(x+1)^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=\\dfrac{e^{2x}(2x+1)}{(x+1)^2}\\).</p></div></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -28219,8 +28219,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(g(x)=\\ln(4x+3)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(\\ln u\\) gäller derivatan \\(u'/u\\):</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[g'(x)=\\boxed{\\frac4{4x+3}}.\\]</p></li></ol></div>",
+        "fraga": "<p>\\(g(x)=\\frac{x}{\\ln x},\\ x&gt;0,\\ x\\ne1\\)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=x,\\quad u'=1\\]</div><div class=\"facit-matte\">\\[v=\\ln x,\\quad v'=\\frac{1}{x}\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[g'(x)=\\frac{1\\cdot\\ln x-x\\cdot\\frac{1}{x}}{(\\ln x)^2}\\]</div></li><li><p class=\"facit-rubrik\">\\(x\\cdot\\frac{1}{x}=1\\)</p><div class=\"facit-matte\">\\[g'(x)=\\frac{\\ln x-1}{(\\ln x)^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(g'(x)=\\dfrac{\\ln x-1}{(\\ln x)^2}\\).</p></div></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -28229,7 +28229,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(h(x)=\\frac{x^2+1}{x-1}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvotregeln:</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[h'(x)=\\frac{2x(x-1)-(x^2+1)}{(x-1)^2}=\\boxed{\\frac{x^2-2x-1}{(x-1)^2}}.\\]</p></li></ol></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=x^2+1,\\quad u'=2x\\]</div><div class=\"facit-matte\">\\[v=x-1,\\quad v'=1\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[h'(x)=\\frac{2x(x-1)-(x^2+1)\\cdot1}{(x-1)^2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera ut och samla termerna i täljaren</p><div class=\"facit-matte\">\\[h'(x)=\\frac{2x^2-2x-x^2-1}{(x-1)^2}\\]</div><div class=\"facit-matte\">\\[h'(x)=\\frac{x^2-2x-1}{(x-1)^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h'(x)=\\dfrac{x^2-2x-1}{(x-1)^2}\\).</p></div></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -28237,7 +28237,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>a) och b) kräver kedjeregeln och c) kvotregeln.</p>",
+    "ledtrad": "<p>Alla tre funktionerna är kvoter. I a) behöver du kedjeregeln för att derivera täljaren.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -29232,16 +29232,16 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera.</p><p>a) \\(f(x)=\\cos^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=(x^2-3x)^5\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\frac{e^x}{x}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[f'(x)=2\\cos x(-\\sin x)=\\boxed{-2\\sin x\\cos x}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[g'(x)=5(x^2-3x)^4(2x-3).\\]</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[\\boxed{g'(x)=5(2x-3)(x^2-3x)^4}\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvotregeln:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[h'(x)=\\frac{xe^x-e^x}{x^2}=\\boxed{\\frac{e^x(x-1)}{x^2}}.\\]</p></li></ol></div></div>",
+    "t": "<p>Derivera.</p><p>a) \\(f(x)=\\frac{\\sin x}{2+\\cos x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\frac{x^2-3x}{x+1}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\frac{e^x}{x}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=\\sin x,\\quad u'=\\cos x\\]</div><div class=\"facit-matte\">\\[v=2+\\cos x,\\quad v'=-\\sin x\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac{\\cos x\\,(2+\\cos x)-\\sin x\\,(-\\sin x)}{(2+\\cos x)^2}\\]</div></li><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac{2\\cos x+\\cos^2x+\\sin^2x}{(2+\\cos x)^2}\\]</div><div class=\"facit-matte\">\\[f'(x)=\\frac{2\\cos x+1}{(2+\\cos x)^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=\\dfrac{2\\cos x+1}{(2+\\cos x)^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=x^2-3x,\\quad u'=2x-3\\]</div><div class=\"facit-matte\">\\[v=x+1,\\quad v'=1\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[g'(x)=\\frac{(2x-3)(x+1)-(x^2-3x)\\cdot1}{(x+1)^2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera ut och samla termerna i täljaren</p><div class=\"facit-matte\">\\[g'(x)=\\frac{2x^2-x-3-x^2+3x}{(x+1)^2}\\]</div><div class=\"facit-matte\">\\[g'(x)=\\frac{x^2+2x-3}{(x+1)^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(g'(x)=\\dfrac{x^2+2x-3}{(x+1)^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=e^x,\\quad u'=e^x\\]</div><div class=\"facit-matte\">\\[v=x,\\quad v'=1\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[h'(x)=\\frac{e^x\\cdot x-e^x\\cdot1}{x^2}\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(e^x\\) i täljaren</p><div class=\"facit-matte\">\\[h'(x)=\\frac{e^x(x-1)}{x^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h'(x)=\\dfrac{e^x(x-1)}{x^2}\\).</p></div></div></div>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "-2\\sin x\\cos x",
-      "5(2x-3)(x^2-3x)^4",
+      "(2cos(x)+1)/((2+cos(x))^2)",
+      "(x^2+2x-3)/((x+1)^2)",
       "\\frac{e^x(x-1)}{x^2}"
     ],
     "tolerans": [
@@ -29269,8 +29269,8 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(f(x)=\\cos^2x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln:\n\\[f'(x)=2\\cos x(-\\sin x)=\\boxed{-2\\sin x\\cos x}.\\]</p></li></ol></div></div></div>",
+        "fraga": "<p>\\(f(x)=\\frac{\\sin x}{2+\\cos x}\\)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=\\sin x,\\quad u'=\\cos x\\]</div><div class=\"facit-matte\">\\[v=2+\\cos x,\\quad v'=-\\sin x\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac{\\cos x\\,(2+\\cos x)-\\sin x\\,(-\\sin x)}{(2+\\cos x)^2}\\]</div></li><li><p class=\"facit-rubrik\">Trigonometriska ettan: \\(\\sin^2x+\\cos^2x=1\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac{2\\cos x+\\cos^2x+\\sin^2x}{(2+\\cos x)^2}\\]</div><div class=\"facit-matte\">\\[f'(x)=\\frac{2\\cos x+1}{(2+\\cos x)^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=\\dfrac{2\\cos x+1}{(2+\\cos x)^2}\\).</p></div></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -29278,8 +29278,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(g(x)=(x^2-3x)^5\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[g'(x)=5(x^2-3x)^4(2x-3).\\]\nAlltså \\(\\boxed{g'(x)=5(2x-3)(x^2-3x)^4}\\).</p></li></ol></div></div></div>",
+        "fraga": "<p>\\(g(x)=\\frac{x^2-3x}{x+1}\\)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=x^2-3x,\\quad u'=2x-3\\]</div><div class=\"facit-matte\">\\[v=x+1,\\quad v'=1\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[g'(x)=\\frac{(2x-3)(x+1)-(x^2-3x)\\cdot1}{(x+1)^2}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera ut och samla termerna i täljaren</p><div class=\"facit-matte\">\\[g'(x)=\\frac{2x^2-x-3-x^2+3x}{(x+1)^2}\\]</div><div class=\"facit-matte\">\\[g'(x)=\\frac{x^2+2x-3}{(x+1)^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(g'(x)=\\dfrac{x^2+2x-3}{(x+1)^2}\\).</p></div></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -29288,7 +29288,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(h(x)=\\frac{e^x}{x}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvotregeln:\n\\[h'(x)=\\frac{xe^x-e^x}{x^2}=\\boxed{\\frac{e^x(x-1)}{x^2}}.\\]</p></li></ol></div></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=e^x,\\quad u'=e^x\\]</div><div class=\"facit-matte\">\\[v=x,\\quad v'=1\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[h'(x)=\\frac{e^x\\cdot x-e^x\\cdot1}{x^2}\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(e^x\\) i täljaren</p><div class=\"facit-matte\">\\[h'(x)=\\frac{e^x(x-1)}{x^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h'(x)=\\dfrac{e^x(x-1)}{x^2}\\).</p></div></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -29296,7 +29296,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>a) och b) kräver kedjeregeln och c) kvotregeln.</p>",
+    "ledtrad": "<p>Alla tre funktionerna är kvoter. Skriv upp täljaren och nämnaren och deras derivator innan du sätter in i kvotregeln. I a) kan trigonometriska ettan förenkla täljaren.</p>",
     "spelIntro": "<p>Derivera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -30418,16 +30418,16 @@ window.BANKMATO2 = [
     "poang": "3/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Derivera och förenkla så långt som möjligt.</p>\n<p>a) \\(f(x)=x^2e^x\\)<br>\nb) \\(g(x)=x\\sin x\\)<br>\nc) \\(h(x)=\\dfrac{e^x}{x}\\), \\(x\\ne0\\)<br>\nd) \\(p(x)=\\dfrac{\\ln x}{x^2}\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör om uttrycket är en produkt eller en kvot innan du deriverar.</p></li><li><p class=\"facit-metod\">Produktregeln har två termer; kvotregeln har nämnaren i kvadrat och en bestämd ordning i täljaren.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Produktregeln:</p></li></ol></div></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\nf'(x)=2xe^x+x^2e^x=e^x(x^2+2x).\n\\]</p></li></ol>\n<div class=\"facit-del\"><span class=\"facit-mark\">b)</span></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\ng'(x)=\\sin x+x\\cos x.\n\\]</p></li></ol>\n<div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvotregeln:</p></li></ol></div></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\nh'(x)=\\frac{xe^x-e^x}{x^2}\n=\\frac{e^x(x-1)}{x^2}.\n\\]</p></li></ol>\n<div class=\"facit-del\"><span class=\"facit-mark\">d)</span></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\np'(x)=\\frac{(1/x)x^2-\\ln x\\cdot2x}{x^4}\n=\\frac{1-2\\ln x}{x^3}.\n\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att båda funktionerna har deriverats och att minustecknet i kvotregelns täljare står i rätt ordning.</p></li></ol></div>",
+    "t": "<p>Derivera och förenkla så långt som möjligt.</p><p>a) \\(f(x)=\\dfrac{x^2}{e^x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\dfrac{x}{\\sin x},\\ 0&lt;x&lt;\\pi\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=\\dfrac{e^x}{x},\\ x\\ne0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=\\dfrac{\\ln x}{x^2},\\ x&gt;0\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=x^2,\\quad u'=2x\\]</div><div class=\"facit-matte\">\\[v=e^x,\\quad v'=e^x\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac{2x\\,e^x-x^2e^x}{(e^x)^2}\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(e^x\\) och förkorta</p><div class=\"facit-matte\">\\[f'(x)=\\frac{e^x(2x-x^2)}{e^{2x}}\\]</div><div class=\"facit-matte\">\\[f'(x)=\\frac{2x-x^2}{e^x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=\\dfrac{2x-x^2}{e^x}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=x,\\quad u'=1\\]</div><div class=\"facit-matte\">\\[v=\\sin x,\\quad v'=\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[g'(x)=\\frac{1\\cdot\\sin x-x\\cos x}{\\sin^2x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(g'(x)=\\dfrac{\\sin x-x\\cos x}{\\sin^2x}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=e^x,\\quad u'=e^x\\]</div><div class=\"facit-matte\">\\[v=x,\\quad v'=1\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[h'(x)=\\frac{x\\,e^x-e^x}{x^2}\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(e^x\\) i täljaren</p><div class=\"facit-matte\">\\[h'(x)=\\frac{e^x(x-1)}{x^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h'(x)=\\dfrac{e^x(x-1)}{x^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=\\ln x,\\quad u'=\\frac{1}{x}\\]</div><div class=\"facit-matte\">\\[v=x^2,\\quad v'=2x\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[p'(x)=\\frac{\\frac{1}{x}\\cdot x^2-\\ln x\\cdot2x}{x^4}\\]</div><div class=\"facit-matte\">\\[p'(x)=\\frac{x-2x\\ln x}{x^4}\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(x\\) och förkorta</p><div class=\"facit-matte\">\\[p'(x)=\\frac{x(1-2\\ln x)}{x^4}\\]</div><div class=\"facit-matte\">\\[p'(x)=\\frac{1-2\\ln x}{x^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p'(x)=\\dfrac{1-2\\ln x}{x^3}\\).</p></div></div></div>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "e^x(x^2+2x)",
-      "\\sin x+x\\cos x",
+      "(2x-x^2)/e^x",
+      "(sin(x)-x*cos(x))/((sin(x))^2)",
       "\\frac{e^x(x-1)}{x^2}",
       "\\frac{1-2\\ln x}{x^3}"
     ],
@@ -30444,14 +30444,14 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
-    "ledtrad": "<p>a) och b) är produkter, c) och d) kvoter.</p>",
+    "ledtrad": "<p>Alla fyra funktionerna är kvoter. Förenkla genom att bryta ut gemensamma faktorer i täljaren och förkorta mot nämnaren.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Derivera och förenkla så långt som möjligt.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(f(x)=x^2e^x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Produktregeln:</p></li><li><p>\\[ f'(x)=2xe^x+x^2e^x=e^x(x^2+2x). \\]</p></li></ol></div>",
+        "fraga": "<p>\\(f(x)=\\dfrac{x^2}{e^x}\\)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=x^2,\\quad u'=2x\\]</div><div class=\"facit-matte\">\\[v=e^x,\\quad v'=e^x\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac{2x\\,e^x-x^2e^x}{(e^x)^2}\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(e^x\\) och förkorta</p><div class=\"facit-matte\">\\[f'(x)=\\frac{e^x(2x-x^2)}{e^{2x}}\\]</div><div class=\"facit-matte\">\\[f'(x)=\\frac{2x-x^2}{e^x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=\\dfrac{2x-x^2}{e^x}\\).</p></div></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -30459,8 +30459,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(g(x)=x\\sin x\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[ g'(x)=\\sin x+x\\cos x. \\]</p></li></ol></div>",
+        "fraga": "<p>\\(g(x)=\\dfrac{x}{\\sin x},\\ 0&lt;x&lt;\\pi\\)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=x,\\quad u'=1\\]</div><div class=\"facit-matte\">\\[v=\\sin x,\\quad v'=\\cos x\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[g'(x)=\\frac{1\\cdot\\sin x-x\\cos x}{\\sin^2x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(g'(x)=\\dfrac{\\sin x-x\\cos x}{\\sin^2x}\\).</p></div></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -30468,8 +30468,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(h(x)=\\dfrac{e^x}{x}\\), \\(x\\ne0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvotregeln:</p></li><li><p>\\[ h'(x)=\\frac{xe^x-e^x}{x^2} =\\frac{e^x(x-1)}{x^2}. \\]</p></li></ol></div>",
+        "fraga": "<p>\\(h(x)=\\dfrac{e^x}{x},\\ x\\ne0\\)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=e^x,\\quad u'=e^x\\]</div><div class=\"facit-matte\">\\[v=x,\\quad v'=1\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[h'(x)=\\frac{x\\,e^x-e^x}{x^2}\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(e^x\\) i täljaren</p><div class=\"facit-matte\">\\[h'(x)=\\frac{e^x(x-1)}{x^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h'(x)=\\dfrac{e^x(x-1)}{x^2}\\).</p></div></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -30477,8 +30477,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(p(x)=\\dfrac{\\ln x}{x^2}\\)<br>för \\(x&gt;0\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[ p'(x)=\\frac{(1/x)x^2-\\ln x\\cdot2x}{x^4} =\\frac{1-2\\ln x}{x^3}. \\]</p></li></ol></div>",
+        "fraga": "<p>\\(p(x)=\\dfrac{\\ln x}{x^2},\\ x&gt;0\\)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Täljare \\(u\\) och nämnare \\(v\\) med derivator</p><div class=\"facit-matte\">\\[u=\\ln x,\\quad u'=\\frac{1}{x}\\]</div><div class=\"facit-matte\">\\[v=x^2,\\quad v'=2x\\]</div></li><li><p class=\"facit-rubrik\">Kvotregeln: \\(\\left(\\frac{u}{v}\\right)'=\\frac{u'v-uv'}{v^2}\\)</p><div class=\"facit-matte\">\\[p'(x)=\\frac{\\frac{1}{x}\\cdot x^2-\\ln x\\cdot2x}{x^4}\\]</div><div class=\"facit-matte\">\\[p'(x)=\\frac{x-2x\\ln x}{x^4}\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut \\(x\\) och förkorta</p><div class=\"facit-matte\">\\[p'(x)=\\frac{x(1-2\\ln x)}{x^4}\\]</div><div class=\"facit-matte\">\\[p'(x)=\\frac{1-2\\ln x}{x^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p'(x)=\\dfrac{1-2\\ln x}{x^3}\\).</p></div></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -30626,7 +30626,7 @@ window.BANKMATO2 = [
   {
     "id": "2.117",
     "kap": 3,
-    "omr": "kvotregeln",
+    "omr": "produktregeln",
     "kurs": [
       "2c"
     ],
@@ -30635,8 +30635,8 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Funktionen \\(f\\) ges av \\(f(x)=(ax+b)e^x\\). Det gäller att \\(f(0)=2\\) och \\(f'(0)=5\\).</p><p>Bestäm \\(a\\) och \\(b\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Av \\(f(0)=2\\) fås direkt \\(b=2\\).</p></li><li><p>Produktregeln ger \\(f'(x)=ae^x+(ax+b)e^x\\), så \\(f'(0)=a+b=5\\).</p></li><li><p>Med \\(b=2\\) fås \\(\\boxed{a=3}\\).</p></li></ol></div>",
-    "familj": "Derivering med kvotregeln",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Funktionsvärdet \\(f(0)=2\\) ger \\(b\\)</p><div class=\"facit-matte\">\\[f(0)=(a\\cdot0+b)e^0=b=2\\]</div></li><li><p class=\"facit-rubrik\">Produktregeln: \\((uv)'=u'v+uv'\\)</p><div class=\"facit-matte\">\\[f'(x)=a\\,e^x+(ax+b)e^x\\]</div></li><li><p class=\"facit-rubrik\">Derivatavärdet \\(f'(0)=5\\) ger \\(a\\)</p><div class=\"facit-matte\">\\[f'(0)=a+b=5\\quad\\Rightarrow\\quad a=5-2=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\) och \\(b=2\\).</p></div>",
+    "familj": "Derivering med produktregeln",
     "formaga": [
       "procedur"
     ],
@@ -30657,7 +30657,7 @@ window.BANKMATO2 = [
       "numeriskt",
       "numeriskt"
     ],
-    "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
+    "familjNyckel": "produktregeln__derivering_med_produktregeln",
     "ledtrad": "<p>Använd först funktionsvärdet för att få en parameter. Derivera sedan och använd derivatavärdet.</p>",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -30679,7 +30679,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(b\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoret \\(f(0)=2\\) ger direkt \\(b=2\\), eftersom \\(e^0=1\\):</p></li><li><p>\\[f(0)=(a\\cdot0+b)e^0=b.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\(b=2\\)</strong></p></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Funktionsvärdet \\(f(0)=2\\) ger \\(b\\)</p><p>Eftersom \\(e^0=1\\) och \\(a\\cdot0=0\\) är</p><div class=\"facit-matte\">\\[f(0)=(a\\cdot0+b)e^0=b=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=2\\).</p></div></div>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3,
@@ -30689,7 +30689,11 @@ window.BANKMATO2 = [
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
-      "deriveringsregler"
+      "deriveringsregler",
+      "kvotregeln"
+    ],
+    "familjTidigare": [
+      "Derivering med kvotregeln"
     ]
   },
   {

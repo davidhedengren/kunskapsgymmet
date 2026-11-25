@@ -445,6 +445,11 @@ html[data-theme="dark"]{--walk-trail:#ff6b6b;--walk-trail-halo:#ff8a80;--walk-cu
 #circuit g.term-hl{filter:drop-shadow(0 0 4px var(--acc)) drop-shadow(0 0 9px var(--acc))}
 #graph path.graph-hl{stroke-width:6.5px}
 #graph circle.graph-hl{r:7px;fill:var(--acc)}
+#circuit .loop-arrow path{fill:none;stroke:var(--loop-color);stroke-width:3;stroke-linecap:round}
+#circuit .loop-arrow polygon{fill:var(--loop-color)}
+#circuit .loop-arrow{opacity:.75;pointer-events:none}
+#circuit .loop-arrow.active{opacity:1}
+#circuit .loop-arrow.loop-dim{opacity:.18}
 .sel-bar{position:absolute;z-index:25;display:flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--hair2);box-shadow:var(--e2);border-radius:14px;padding:6px 7px 6px 12px;font:600 13px var(--ui);white-space:nowrap}
 .sel-bar .sel-title{color:var(--ink2);margin-right:2px}
 .sel-bar input{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--hair2);border-radius:8px;padding:6px 7px}
@@ -789,8 +794,7 @@ function flowCurrents(){const I=new Map();for(const e of edges){const v=solution
  // Parts in a circuit without a finite solution carry no known current.
  if(solution.shorted?.size)for(const e of edges)if(solution.group?.[e.a]===undefined)I.delete(e.id);
  return I}
-function powerStatus(){if(!powerOn)return '';if(solution.shorted?.size)return 'Kortslutning! Batteriet är kopplat direkt med en ledning. I verkligheten blir strömmen mycket stor och batteriet blir varmt.';if(burnNote)return burnNote;if(issue)return issue;
- const lamps=edges.filter(e=>e.lamp&&!e.broken);if(!lamps.length)return 'Strömmen är på. Dra in en lampa för att se hur starkt den lyser.';return ''}
+function powerStatus(){if(!powerOn)return '';if(solution.shorted?.size)return 'Kortslutning! Batteriet är kopplat direkt med en ledning. I verkligheten blir strömmen mycket stor och batteriet blir varmt.';if(burnNote)return burnNote;if(issue)return issue;return ''}
 function setPower(on){powerOn=on;burnNote='';justBroken.clear();$('power').classList.toggle('active',on);$('power').setAttribute('aria-pressed',String(on));$('power').textContent=on?'⚡ Ström på':'⚡ Slå på ström';solve();buildBranches();burnLamps();render()}
 function refreshElectrical(){solve();buildBranches();burnLamps();loopMemory.clear();resetWalk();loopHover=-1;render()}
 function flipSource(id){const e=edges.find(x=>x.id===id&&x.type==='source');if(!e)return false;remember();[e.a,e.b]=[e.b,e.a];refreshElectrical();return true}
@@ -916,7 +920,12 @@ function drawLoopOverlay(){const svg=$('circuit'),g=$('loop-overlay');svg.classL
  const draw=(i,kind)=>{const s=loopShapes[i];if(!s)return;const d=s.pts.map((p,j)=>(j?'L':'M')+p.join(' ')).join(' ')+' Z';el(g,'path',{d,class:'loop-region '+kind+(i===chosenLoop?' loop-active':'')+(chosenLoop>=0&&i!==chosenLoop&&kind==='selected'?' loop-dim':'')+(s.area<1?' preview-noarea':''),style:'--loop-color:'+loopColor(i),'fill-rule':'evenodd','pointer-events':'none'})};
  for(const i of [...markedLoops].sort((a,b)=>loopShapes[b].area-loopShapes[a].area))draw(i,'selected');
  if(loopHover>=0)draw(loopHover,'preview');
- for(const i of markedLoops){const s=loopShapes[i],p=innerLabel(s);if(p)txt(g,p[0],p[1],loopCaption(i),{class:'loop-number'+(i===chosenLoop?' active':'')+(chosenLoop>=0&&i!==chosenLoop?' loop-dim':''),style:'--loop-color:'+loopColor(i)})}
+ for(const i of markedLoops){const s=loopShapes[i],p=innerLabel(s);if(!p)continue;const dim=chosenLoop>=0&&i!==chosenLoop?' loop-dim':'';
+  // A round arrow shows the walking direction: the loop's node order, reversed by "Vänd håll".
+  let signed=0;for(let j=0;j<s.pts.length;j++){const a=s.pts[j],b=s.pts[(j+1)%s.pts.length];signed+=a[0]*b[1]-a[1]*b[0]}const rev=i===chosenLoop?reverseLoop:loopMemory.get(i)?.reverse??false,cw=(signed>0)!==rev;
+  const R=19,cx=p[0],cy=p[1]-16,rad=d=>d*Math.PI/180,at=t=>[cx+R*Math.cos(rad(t)),cy+R*Math.sin(rad(t))],t0=cw?-50:230,t1=cw?230:-50,[x0,y0]=at(t0),[x1,y1]=at(t1),T=cw?[-Math.sin(rad(t1)),Math.cos(rad(t1))]:[Math.sin(rad(t1)),-Math.cos(rad(t1))],N=[Math.cos(rad(t1)),Math.sin(rad(t1))];
+  const arrow=el(g,'g',{class:'loop-arrow'+(i===chosenLoop?' active':'')+dim,style:'--loop-color:'+loopColor(i)});el(arrow,'path',{d:`M${x0} ${y0} A${R} ${R} 0 1 ${cw?1:0} ${x1} ${y1}`});el(arrow,'polygon',{points:[[x1+T[0]*9,y1+T[1]*9],[x1+N[0]*6.5-T[0]*2,y1+N[1]*6.5-T[1]*2],[x1-N[0]*6.5-T[0]*2,y1-N[1]*6.5-T[1]*2]].map(q=>q.join(',')).join(' ')});el(arrow,'title',{},cw?'Vandringsriktning: medurs':'Vandringsriktning: moturs');
+  txt(g,p[0],p[1]+22,loopCaption(i),{class:'loop-number'+(i===chosenLoop?' active':'')+dim,style:'--loop-color:'+loopColor(i)})}
  if(loopHover>=0&&!markedLoops.includes(loopHover)){const p=innerLabel(loopShapes[loopHover]);if(p)txt(g,p[0],p[1],loopCaption(loopHover),{class:'loop-number',style:'--loop-color:'+loopColor(loopHover)})}
 }
 function rememberLoopWalk(){if(chosenLoop>=0)loopMemory.set(chosenLoop,{history:history.map(h=>({...h})),reverse:reverseLoop})}

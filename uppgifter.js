@@ -21111,7 +21111,7 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       4,
-      5,
+      2,
       4
     ]
   },
@@ -22325,10 +22325,10 @@ window.BANK = [
     ],
     "omrTidigare": "newton",
     "svarVardesiffror": [
-      5,
-      5,
       3,
-      5
+      3,
+      3,
+      3
     ]
   },
   {
@@ -23652,7 +23652,7 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       4,
-      5
+      3
     ]
   },
   {
@@ -27601,7 +27601,7 @@ window.BANK = [
     "omrTidigare": "newton",
     "svarVardesiffror": [
       4,
-      5
+      2
     ]
   },
   {
@@ -27789,7 +27789,7 @@ window.BANK = [
     "svarVardesiffror": [
       1,
       2,
-      5,
+      2,
       1,
       4
     ]
@@ -28515,8 +28515,8 @@ window.BANK = [
       "Kraftjämvikt"
     ],
     "svarVardesiffror": [
-      5,
-      5
+      2,
+      2
     ]
   },
   {
@@ -28610,8 +28610,8 @@ window.BANK = [
     ],
     "omrTidigare": "newton",
     "svarVardesiffror": [
-      5,
-      5,
+      2,
+      2,
       null
     ]
   },
@@ -35683,7 +35683,7 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       4,
-      5,
+      2,
       4,
       4
     ]
@@ -38353,7 +38353,7 @@ window.BANK = [
     ],
     "omrTidigare": "newton",
     "svarVardesiffror": [
-      5,
+      3,
       1,
       3,
       2
@@ -38661,8 +38661,8 @@ window.BANK = [
     ],
     "omrTidigare": "newton",
     "svarVardesiffror": [
-      5,
-      5
+      3,
+      3
     ]
   },
   {
@@ -40583,7 +40583,7 @@ window.BANK = [
     "niva": "C",
     "typ": "beräkna fjäderkonstanten hos en enskild fjäder när lasten delas mellan flera, ur text, sökt kraft och fjäderkonstant",
     "poang": "(2/1/0)",
-    "t": "<p>En soffa stöds av sex likadana fjädrar. När en person som väger 75 kg sitter stilla sjunker soffan ytterligare 4,0 cm jämfört med utan person. Extra lasten fördelas lika på fjädrarna. Bortse från övrig deformation.</p><ol type=\"a\"><li>Bestäm den extra kraften på en fjäder.</li><li>Bestäm fjäderkonstanten för en fjäder.</li><li>Hur stor blir den extra nedsjunkningen med en person som väger 100 kg i stället?</li></ol>",
+    "t": "<p>En soffa vilar på sex likadana fjädrar. När en person som väger 75 kg sätter sig i soffan sjunker den ytterligare 4,0 cm. Den extra lasten fördelas lika på fjädrarna.</p><ol type=\"a\"><li>Bestäm den extra kraften på en fjäder.</li><li>Bestäm fjäderkonstanten för en fjäder.</li><li>Hur stor blir den extra nedsjunkningen med en person som väger 100 kg i stället?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) fördelad på sex fjädrar</p><div class=\"facit-matte\">\\[F=\\frac{75\\cdot9{,}82}{6}=122{,}75\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 122,75 N.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) fördelad på sex fjädrar</p><div class=\"facit-matte\">\\[F=\\frac{75\\cdot9{,}82}{6}=122{,}75\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Hookes lag: \\(F=kx\\), lös ut \\(k\\) med \\(x=0{,}040\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[k=\\frac{122{,}75}{0{,}040}=3068{,}75\\ \\mathrm{N/m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3068,75 N/m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hookes lag: \\(x=\\dfrac{F}{k}\\), proportionell mot lasten</p><div class=\"facit-matte\">\\[x=4{,}0\\cdot\\frac{100}{75}\\approx5{,}33\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,33 cm.</p></div></div></div>",
     "familj": "Fjädrar i serie och parallellt",
     "formaga": [
@@ -40595,7 +40595,7 @@ window.BANK = [
     "rättSvar": [
       122.75,
       3068.75,
-      5.33
+      5.333333333333333
     ],
     "tolerans": [
       0,
@@ -40627,12 +40627,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En soffa stöds av sex likadana fjädrar. När en person som väger 75 kg sitter stilla sjunker soffan ytterligare 4,0 cm jämfört med utan person. Extra lasten fördelas lika på fjädrarna. Bortse från övrig deformation.</p>",
+    "spelIntro": "<p>En soffa vilar på sex likadana fjädrar. När en person som väger 75 kg sätter sig i soffan sjunker den ytterligare 4,0 cm. Den extra lasten fördelas lika på fjädrarna.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm den extra kraften på en fjäder.",
-        "t": "<p>En soffa stöds av sex likadana fjädrar. När en person som väger 75 kg sitter stilla sjunker soffan ytterligare 4,0 cm jämfört med utan person. Extra lasten fördelas lika på fjädrarna. Bortse från övrig deformation.</p><p>Bestäm den extra kraften på en fjäder.</p>",
+        "t": "<p>En soffa vilar på sex likadana fjädrar. När en person som väger 75 kg sätter sig i soffan sjunker den ytterligare 4,0 cm. Den extra lasten fördelas lika på fjädrarna.</p><p>Bestäm den extra kraften på en fjäder.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) fördelad på sex fjädrar</p><div class=\"facit-matte\">\\[F=\\frac{75\\cdot9{,}82}{6}=122{,}75\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 122,75 N.</p></div>",
         "ledtrad": "<p>Hur fördelas personens extra belastning på sex fjädrar?</p>",
         "niva": "E",
@@ -40643,7 +40643,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm fjäderkonstanten för en fjäder.",
-        "t": "<p>En soffa stöds av sex likadana fjädrar. När en person som väger 75 kg sitter stilla sjunker soffan ytterligare 4,0 cm jämfört med utan person. Extra lasten fördelas lika på fjädrarna. Bortse från övrig deformation.</p><p>Bestäm fjäderkonstanten för en fjäder.</p>",
+        "t": "<p>En soffa vilar på sex likadana fjädrar. När en person som väger 75 kg sätter sig i soffan sjunker den ytterligare 4,0 cm. Den extra lasten fördelas lika på fjädrarna.</p><p>Bestäm fjäderkonstanten för en fjäder.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) fördelad på sex fjädrar</p><div class=\"facit-matte\">\\[F=\\frac{75\\cdot9{,}82}{6}=122{,}75\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Hookes lag: \\(F=kx\\), lös ut \\(k\\) med \\(x=0{,}040\\ \\mathrm m\\)</p><div class=\"facit-matte\">\\[k=\\frac{122{,}75}{0{,}040}=3068{,}75\\ \\mathrm{N/m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3068,75 N/m.</p></div>",
         "ledtrad": "<p>Varje fjäder får både en bestämd extra kraft och en bestämd extra hoptryckning.</p>",
         "niva": "C",
@@ -40654,7 +40654,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Hur stor blir den extra nedsjunkningen med en person som väger 100 kg i stället?",
-        "t": "<p>En soffa stöds av sex likadana fjädrar. När en person som väger 75 kg sitter stilla sjunker soffan ytterligare 4,0 cm jämfört med utan person. Extra lasten fördelas lika på fjädrarna. Bortse från övrig deformation.</p><p>Hur stor blir den extra nedsjunkningen med en person som väger 100 kg i stället?</p>",
+        "t": "<p>En soffa vilar på sex likadana fjädrar. När en person som väger 75 kg sätter sig i soffan sjunker den ytterligare 4,0 cm. Den extra lasten fördelas lika på fjädrarna.</p><p>Hur stor blir den extra nedsjunkningen med en person som väger 100 kg i stället?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hookes lag: \\(x=\\dfrac{F}{k}\\), proportionell mot lasten</p><div class=\"facit-matte\">\\[x=4{,}0\\cdot\\frac{100}{75}\\approx5{,}33\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,33 cm.</p></div>",
         "ledtrad": "<p>Jämför personernas massor: fjädrarnas egenskaper är oförändrade.</p>",
         "niva": "E",
@@ -40668,9 +40668,9 @@ window.BANK = [
       "Extra belastning på fjädrar"
     ],
     "svarVardesiffror": [
-      5,
-      6,
-      3
+      2,
+      2,
+      2
     ]
   },
   {
@@ -46127,8 +46127,8 @@ window.BANK = [
     "spel": true,
     "svarVardesiffror": [
       2,
-      5,
-      5
+      2,
+      2
     ]
   },
   {
@@ -47228,7 +47228,7 @@ window.BANK = [
     "spel": true,
     "svarVardesiffror": [
       null,
-      5,
+      2,
       null
     ]
   },
@@ -53958,7 +53958,7 @@ window.BANK = [
       "Energiförlust i en backe"
     ],
     "svarVardesiffror": [
-      5,
+      2,
       3,
       4,
       4
@@ -54378,7 +54378,7 @@ window.BANK = [
       1,
       3,
       3,
-      5
+      2
     ]
   },
   {
@@ -55887,7 +55887,7 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       3,
-      5,
+      2,
       4
     ]
   },
@@ -56431,7 +56431,7 @@ window.BANK = [
       "Medelkraft vid inbromsning"
     ],
     "svarVardesiffror": [
-      5,
+      2,
       null
     ]
   },
@@ -57102,7 +57102,7 @@ window.BANK = [
     "familjTidigare": [
       "Välja energimetod på ramp"
     ],
-    "svarVardesiffror": 6
+    "svarVardesiffror": 2
   },
   {
     "id": "5.69",
@@ -59534,7 +59534,7 @@ window.BANK = [
       "Konstant kraft under inträngning"
     ],
     "svarVardesiffror": [
-      5,
+      2,
       4
     ]
   },
@@ -60247,8 +60247,8 @@ window.BANK = [
       "Personflöde och lyftarbete"
     ],
     "svarVardesiffror": [
-      5,
-      6
+      2,
+      2
     ]
   },
   {
@@ -60335,7 +60335,7 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       4,
-      6
+      2
     ]
   },
   {
@@ -60867,7 +60867,7 @@ window.BANK = [
       "Dragkraft och momentan effekt"
     ],
     "svarVardesiffror": [
-      5,
+      2,
       4
     ]
   },
@@ -60952,8 +60952,8 @@ window.BANK = [
       "Sparkens impuls och medeleffekt"
     ],
     "svarVardesiffror": [
-      6,
-      7
+      2,
+      2
     ]
   },
   {
@@ -61142,7 +61142,7 @@ window.BANK = [
       "Bromsarbete och stopptid"
     ],
     "svarVardesiffror": [
-      5,
+      2,
       4
     ]
   },
@@ -61505,7 +61505,7 @@ window.BANK = [
     "svarVardesiffror": [
       3,
       3,
-      5,
+      2,
       2
     ]
   },
@@ -61611,7 +61611,7 @@ window.BANK = [
     "svarVardesiffror": [
       null,
       null,
-      7
+      2
     ]
   },
   {
@@ -63028,7 +63028,7 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       3,
-      6,
+      2,
       1
     ]
   },
@@ -64348,8 +64348,8 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       4,
-      5,
-      6
+      2,
+      2
     ]
   },
   {
@@ -64923,8 +64923,8 @@ window.BANK = [
       "Vätsketryck och absoluttryck"
     ],
     "svarVardesiffror": [
-      5,
-      5,
+      2,
+      4,
       3
     ]
   },
@@ -66910,7 +66910,7 @@ window.BANK = [
     "familjTidigare": [
       "Absoluttryck i vätska"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 4
   },
   {
     "id": "6.302",
@@ -66972,7 +66972,7 @@ window.BANK = [
     "familjTidigare": [
       "Absoluttryck i vätska"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 4
   },
   {
     "id": "6.33",
@@ -67098,7 +67098,7 @@ window.BANK = [
     "familjTidigare": [
       "Delvis nedsänkt kropp"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "6.35",
@@ -67736,7 +67736,7 @@ window.BANK = [
     "familjTidigare": [
       "Tryckskillnad mellan två djup"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "6.44",
@@ -67848,7 +67848,7 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       4,
-      6
+      5
     ]
   },
   {
@@ -68550,7 +68550,7 @@ window.BANK = [
     "svarVardesiffror": [
       3,
       4,
-      5
+      2
     ]
   },
   {
@@ -69192,7 +69192,7 @@ window.BANK = [
       "Tryck och kubens densitet"
     ],
     "svarVardesiffror": [
-      5,
+      2,
       3
     ]
   },
@@ -69433,7 +69433,7 @@ window.BANK = [
     "familjTidigare": [
       "Jämföra vätskepelare"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "6.63",
@@ -69528,7 +69528,7 @@ window.BANK = [
     "familjTidigare": [
       "Absoluttryck under vatten"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 4
   },
   {
     "id": "6.65",
@@ -72170,7 +72170,7 @@ window.BANK = [
     "familjTidigare": [
       "Övertryck i en spruta"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "6.245",
@@ -72316,7 +72316,7 @@ window.BANK = [
     "familjTidigare": [
       "Pumpkraft för given last"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "6.99",
@@ -72816,7 +72816,7 @@ window.BANK = [
     "familjTidigare": [
       "Tryck genom flera vätskeskikt"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 4
   },
   {
     "id": "6.106",
@@ -72933,7 +72933,7 @@ window.BANK = [
     ],
     "svarVardesiffror": [
       2,
-      5
+      2
     ]
   },
   {
@@ -73178,7 +73178,7 @@ window.BANK = [
     "svarVardesiffror": [
       3,
       2,
-      5
+      2
     ]
   },
   {
@@ -75044,7 +75044,7 @@ window.BANK = [
     "svarVardesiffror": [
       3,
       3,
-      5
+      2
     ]
   },
   {
@@ -75139,7 +75139,7 @@ window.BANK = [
     "familjTidigare": [
       "Tryckgräns i hydraulisk lyft"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 3
   },
   {
     "id": "6.135",
@@ -121866,7 +121866,7 @@ window.BANK = [
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
     "omrTidigare": "newton",
-    "svarVardesiffror": 5
+    "svarVardesiffror": 3
   },
   {
     "id": "4.314",
@@ -121953,7 +121953,7 @@ window.BANK = [
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
     "omrTidigare": "newton",
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "4.317",
@@ -133780,7 +133780,7 @@ window.BANK = [
     "omrTidigare": "konstacc",
     "svarVardesiffror": [
       null,
-      5
+      3
     ]
   },
   {
@@ -134418,7 +134418,7 @@ window.BANK = [
     "familjTidigare": [
       "Konstant acceleration"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "3.214",
@@ -134451,7 +134451,7 @@ window.BANK = [
     "familjTidigare": [
       "Konstant acceleration"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 3
   },
   {
     "id": "3.215",
@@ -134484,7 +134484,7 @@ window.BANK = [
     "familjTidigare": [
       "Konstant acceleration"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "3.216",
@@ -135138,7 +135138,7 @@ window.BANK = [
     "familjTidigare": [
       "Sträcka ur friktionsarbete"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "5.188",
@@ -135338,7 +135338,7 @@ window.BANK = [
     "familjTidigare": [
       "Bromskraft ur stoppsträcka"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "5.192",
@@ -144359,7 +144359,7 @@ window.BANK = [
     "svarVardesiffror": [
       4,
       4,
-      5
+      2
     ]
   },
   {
@@ -145135,7 +145135,7 @@ window.BANK = [
     "svarVardesiffror": [
       4,
       4,
-      5,
+      2,
       3
     ]
   },
@@ -145390,7 +145390,7 @@ window.BANK = [
     "arbetsinsats": 2,
     "spel": true,
     "svarVardesiffror": [
-      5,
+      2,
       4,
       4
     ]
@@ -147395,7 +147395,7 @@ window.BANK = [
       3,
       4,
       4,
-      5
+      2
     ]
   },
   {
@@ -147915,7 +147915,7 @@ window.BANK = [
     "familjTidigare": [
       "Förenliga rörelsedata och energibalans"
     ],
-    "svarVardesiffror": 5
+    "svarVardesiffror": 2
   },
   {
     "id": "5.244",
@@ -174127,7 +174127,7 @@ window.BANK = [
     "niva": "E",
     "typ": "skriva en förflyttningsvektor på vektorform, ur figur, sökt komposanter",
     "poang": "(2/0/0)",
-    "t": "<p>En person går från origo till punkten dit pilen pekar. Pilen \\(s\\) är personens förflyttning. Skala: 1 ruta = 1 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 246.00\" width=\"272\" height=\"246\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Koordinatsystem med rutnät. Förflyttningsvektorn s går från origo till punkten (5, −2).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"246.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"246.00\" y2=\"110.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.00,110.00 245.00,113.80 245.00,106.20\" fill=\"#2B2527\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"26.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"84.00,18.00 87.80,27.00 80.20,27.00\" fill=\"#2B2527\"/><text x=\"252.00\" y=\"127.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"72.00\" y=\"28.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.00\" y1=\"110.00\" x2=\"205.64\" y2=\"158.66\" stroke=\"#293747\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"214.00,162.00 203.08,162.37 206.35,154.20\" fill=\"#293747\"/><text x=\"230.90\" y=\"173.26\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13.5\" font-weight=\"600\" fill=\"#293747\" text-anchor=\"middle\">s</text></svg></span><ol type=\"a\"><li>Bestäm förflyttningens x-komposant \\(s_x\\).</li><li>Bestäm förflyttningens y-komposant \\(s_y\\).</li></ol>",
+    "t": "<p>En person går rakt från origo till punkten där pilen slutar. Pilen \\(s\\) visar personens förflyttning. Varje ruta i rutnätet är 1 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 246.00\" width=\"272\" height=\"246\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Koordinatsystem med rutnät. Förflyttningsvektorn s går från origo till punkten (5, −2).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"246.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"246.00\" y2=\"110.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.00,110.00 245.00,113.80 245.00,106.20\" fill=\"#2B2527\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"26.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"84.00,18.00 87.80,27.00 80.20,27.00\" fill=\"#2B2527\"/><text x=\"252.00\" y=\"127.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"72.00\" y=\"28.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.00\" y1=\"110.00\" x2=\"205.64\" y2=\"158.66\" stroke=\"#293747\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"214.00,162.00 203.08,162.37 206.35,154.20\" fill=\"#293747\"/><text x=\"230.90\" y=\"173.26\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13.5\" font-weight=\"600\" fill=\"#293747\" text-anchor=\"middle\">s</text></svg></span><ol type=\"a\"><li>Bestäm förflyttningens x-komposant \\(s_x\\), alltså hur långt personen förflyttar sig i x-led. Förflyttning åt höger räknas positivt.</li><li>Bestäm förflyttningens y-komposant \\(s_y\\), alltså hur långt personen förflyttar sig i y-led. Förflyttning uppåt räknas positivt och nedåt negativt.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\): \\(s_x\\)</p><p>Spetsen ligger 5 rutor till höger om origo.</p><div class=\"facit-matte\">\\[s_x=5\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\), med tecken: \\(s_y\\)</p><p>Spetsen ligger 2 rutor under origo. Nedåt är negativ y-riktning.</p><div class=\"facit-matte\">\\[s_y=-2\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2 m.</p></div></div></div>",
     "familj": "Dela upp vektorer i komposanter",
     "formaga": [
@@ -174166,12 +174166,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En person går från origo till punkten dit pilen pekar. Pilen \\(s\\) är personens förflyttning. Skala: 1 ruta = 1 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 246.00\" width=\"272\" height=\"246\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Koordinatsystem med rutnät. Förflyttningsvektorn s går från origo till punkten (5, −2).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"246.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"246.00\" y2=\"110.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.00,110.00 245.00,113.80 245.00,106.20\" fill=\"#2B2527\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"26.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"84.00,18.00 87.80,27.00 80.20,27.00\" fill=\"#2B2527\"/><text x=\"252.00\" y=\"127.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"72.00\" y=\"28.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.00\" y1=\"110.00\" x2=\"205.64\" y2=\"158.66\" stroke=\"#293747\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"214.00,162.00 203.08,162.37 206.35,154.20\" fill=\"#293747\"/><text x=\"230.90\" y=\"173.26\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13.5\" font-weight=\"600\" fill=\"#293747\" text-anchor=\"middle\">s</text></svg></span>",
+    "spelIntro": "<p>En person går rakt från origo till punkten där pilen slutar. Pilen \\(s\\) visar personens förflyttning. Varje ruta i rutnätet är 1 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 246.00\" width=\"272\" height=\"246\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Koordinatsystem med rutnät. Förflyttningsvektorn s går från origo till punkten (5, −2).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"246.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"246.00\" y2=\"110.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.00,110.00 245.00,113.80 245.00,106.20\" fill=\"#2B2527\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"26.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"84.00,18.00 87.80,27.00 80.20,27.00\" fill=\"#2B2527\"/><text x=\"252.00\" y=\"127.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"72.00\" y=\"28.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.00\" y1=\"110.00\" x2=\"205.64\" y2=\"158.66\" stroke=\"#293747\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"214.00,162.00 203.08,162.37 206.35,154.20\" fill=\"#293747\"/><text x=\"230.90\" y=\"173.26\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13.5\" font-weight=\"600\" fill=\"#293747\" text-anchor=\"middle\">s</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm förflyttningens x-komposant \\(s_x\\).",
-        "t": "<p>En person går från origo till punkten dit pilen pekar. Pilen \\(s\\) är personens förflyttning. Skala: 1 ruta = 1 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 246.00\" width=\"272\" height=\"246\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Koordinatsystem med rutnät. Förflyttningsvektorn s går från origo till punkten (5, −2).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"246.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"246.00\" y2=\"110.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.00,110.00 245.00,113.80 245.00,106.20\" fill=\"#2B2527\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"26.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"84.00,18.00 87.80,27.00 80.20,27.00\" fill=\"#2B2527\"/><text x=\"252.00\" y=\"127.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"72.00\" y=\"28.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.00\" y1=\"110.00\" x2=\"205.64\" y2=\"158.66\" stroke=\"#293747\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"214.00,162.00 203.08,162.37 206.35,154.20\" fill=\"#293747\"/><text x=\"230.90\" y=\"173.26\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13.5\" font-weight=\"600\" fill=\"#293747\" text-anchor=\"middle\">s</text></svg></span><p>Bestäm förflyttningens x-komposant \\(s_x\\).</p>",
+        "fraga": "Bestäm förflyttningens x-komposant \\(s_x\\), alltså hur långt personen förflyttar sig i x-led. Förflyttning åt höger räknas positivt.",
+        "t": "<p>En person går rakt från origo till punkten där pilen slutar. Pilen \\(s\\) visar personens förflyttning. Varje ruta i rutnätet är 1 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 246.00\" width=\"272\" height=\"246\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Koordinatsystem med rutnät. Förflyttningsvektorn s går från origo till punkten (5, −2).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"246.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"246.00\" y2=\"110.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.00,110.00 245.00,113.80 245.00,106.20\" fill=\"#2B2527\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"26.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"84.00,18.00 87.80,27.00 80.20,27.00\" fill=\"#2B2527\"/><text x=\"252.00\" y=\"127.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"72.00\" y=\"28.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.00\" y1=\"110.00\" x2=\"205.64\" y2=\"158.66\" stroke=\"#293747\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"214.00,162.00 203.08,162.37 206.35,154.20\" fill=\"#293747\"/><text x=\"230.90\" y=\"173.26\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13.5\" font-weight=\"600\" fill=\"#293747\" text-anchor=\"middle\">s</text></svg></span><p>Bestäm förflyttningens x-komposant \\(s_x\\), alltså hur långt personen förflyttar sig i x-led. Förflyttning åt höger räknas positivt.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\): \\(s_x\\)</p><p>Spetsen ligger 5 rutor till höger om origo.</p><div class=\"facit-matte\">\\[s_x=5\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 m.</p></div>",
         "ledtrad": "<p>Räkna rutor i x-led och i y-led från origo till spetsen. Glöm inte tecknen.</p>",
         "niva": "E",
@@ -174181,8 +174181,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm förflyttningens y-komposant \\(s_y\\).",
-        "t": "<p>En person går från origo till punkten dit pilen pekar. Pilen \\(s\\) är personens förflyttning. Skala: 1 ruta = 1 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 246.00\" width=\"272\" height=\"246\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Koordinatsystem med rutnät. Förflyttningsvektorn s går från origo till punkten (5, −2).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"246.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"246.00\" y2=\"110.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.00,110.00 245.00,113.80 245.00,106.20\" fill=\"#2B2527\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"26.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"84.00,18.00 87.80,27.00 80.20,27.00\" fill=\"#2B2527\"/><text x=\"252.00\" y=\"127.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"72.00\" y=\"28.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.00\" y1=\"110.00\" x2=\"205.64\" y2=\"158.66\" stroke=\"#293747\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"214.00,162.00 203.08,162.37 206.35,154.20\" fill=\"#293747\"/><text x=\"230.90\" y=\"173.26\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13.5\" font-weight=\"600\" fill=\"#293747\" text-anchor=\"middle\">s</text></svg></span><p>Bestäm förflyttningens y-komposant \\(s_y\\).</p>",
+        "fraga": "Bestäm förflyttningens y-komposant \\(s_y\\), alltså hur långt personen förflyttar sig i y-led. Förflyttning uppåt räknas positivt och nedåt negativt.",
+        "t": "<p>En person går rakt från origo till punkten där pilen slutar. Pilen \\(s\\) visar personens förflyttning. Varje ruta i rutnätet är 1 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 246.00\" width=\"272\" height=\"246\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Koordinatsystem med rutnät. Förflyttningsvektorn s går från origo till punkten (5, −2).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"246.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"246.00\" y2=\"110.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.00,110.00 245.00,113.80 245.00,106.20\" fill=\"#2B2527\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"26.00\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"84.00,18.00 87.80,27.00 80.20,27.00\" fill=\"#2B2527\"/><text x=\"252.00\" y=\"127.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"72.00\" y=\"28.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"500\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.00\" y1=\"110.00\" x2=\"205.64\" y2=\"158.66\" stroke=\"#293747\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"214.00,162.00 203.08,162.37 206.35,154.20\" fill=\"#293747\"/><text x=\"230.90\" y=\"173.26\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13.5\" font-weight=\"600\" fill=\"#293747\" text-anchor=\"middle\">s</text></svg></span><p>Bestäm förflyttningens y-komposant \\(s_y\\), alltså hur långt personen förflyttar sig i y-led. Förflyttning uppåt räknas positivt och nedåt negativt.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal rutor gånger skalan: \\(\\text{komposant}=n\\cdot\\text{skala}\\), med tecken: \\(s_y\\)</p><p>Spetsen ligger 2 rutor under origo. Nedåt är negativ y-riktning.</p><div class=\"facit-matte\">\\[s_y=-2\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2 m.</p></div>",
         "ledtrad": "<p>Räkna rutor i x-led och i y-led från origo till spetsen. Glöm inte tecknen.</p>",
         "niva": "E",
@@ -213557,7 +213557,7 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 5,
+  "svarVardesiffror": 3,
   "omrTidigare": [
     "vektorer"
   ],
@@ -213880,7 +213880,7 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "N",
   "svarFormat": "numeriskt",
-  "svarVardesiffror": 5,
+  "svarVardesiffror": 3,
   "omrTidigare": [
     "vektorer"
   ],

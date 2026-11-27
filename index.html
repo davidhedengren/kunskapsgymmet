@@ -4205,7 +4205,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-26-ai-flera-rutor";
+const BANK_VERSION="2026-11-27-felrapporter-0809";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11010,6 +11010,14 @@ function textSvarRatt(anv,facit){
      inte ”ingen korrelation” eller andra orelaterade korta textsvar. */
   if(/^(?:ingen lösning|inga lösningar|saknar lösning|ingen reell lösning|inga reella lösningar)$/.test(f)
      && /^(?:omöjligt|omojligt|det är omöjligt|∅|ø)$/.test(a)) return true;
+  /* Andra naturliga sätt att skriva att ekvationen saknar lösning: "lösning saknas", "det finns ingen lösning",
+     "ekvationen har inga lösningar" (felrapport Ma3c 1.150, 2026-11-27). Gäller bara när facit är "ingen lösning". */
+  if(/^(?:ingen lösning|inga lösningar|saknar lösning|ingen reell lösning|inga reella lösningar)$/.test(f)){
+    const L="(?:reell(?:a)? )?lösning(?:ar)?";
+    const ingenLosning=new RegExp("^(?:(?:ekvationen|ekvationssystemet|den|det|svar)\\s+)?(?:saknar "+L+"|har (?:ingen|inga) "+L
+      +"|"+L+" saknas|(?:ingen|inga) "+L+" finns|(?:det )?finns (?:ingen|inga) "+L+"|(?:ingen|inga) "+L+" existerar)$");
+    if(ingenLosning.test(a)) return true;
+  }
   /* ja/nej/sant/falskt följt av en motivering */
   if(/^(?:ja|nej|sant|falskt)$/.test(f)) return a.split(" ")[0]===f;
   /* Klockslag: "12", "kl. 12" och "klockan 12.00" godtas för facit "12.00" (felrapport Ma5 2.389, 2026-11-12). */

@@ -4205,7 +4205,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-27-kvalitetsrapport";
+const BANK_VERSION="2026-11-27-kvalitetsrapport-2";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -19475,7 +19475,7 @@ async function larSparaGruppKlass(taBort){
               eller i omkastad ordning
      figur    etiketter som krockar med linjer, cirklar eller varandra,
               eller hamnar utanför bilden
-     plural   kortinledning i plural fast kortet bara visar en deluppgift
+     plural   kortinledning i plural fast kortet bara visar en deluppgift (fristående delkort)
      raknare  miniräknare saknas där den behövs (fysik alltid; matte vid
               jobbig huvudräkning eller digitalt verktyg). Bör ses över, inte
               automatiskt fel.
@@ -19487,8 +19487,10 @@ const KV_KONTROLL={
   plural: {txt:"Kortinledning i plural",    kort:"plural"},
   raknare:{txt:"Miniräknare bör ses över",  kort:"miniräknare"}
 };
-/* Matteuppgifter som redan är granskade och ska vara utan miniräknare (2026-10-02). */
-const KV_RAKNARE_GRANSKADE=new Set(["ma1:0.40","ma1:0.49","ma1:0.58","ma1:0.61","ma1:0.67","ma1:0.73","ma1:0.88","ma1:0.94","ma1:0.100","ma1:0.103","ma1:0.176","ma1:0.177","ma1:0.178","ma1:0.179","ma1:0.180","ma1:0.181","ma1:0.182","ma1:0.183","ma1:0.184","ma1:0.185","ma1:0.186","ma1:0.189","ma1:0.190","ma1:0.191","ma1:0.192","ma1:0.197","ma1:0.212","ma1:0.213","ma1:0.214","ma1:0.215","ma1:0.216","ma1:0.217","ma1:0.218","ma1:0.219","ma1:0.220","ma1:0.221","ma1:0.222","ma1:0.223","ma1:0.224","ma1:0.225","ma1:0.226","ma1:0.227","ma1:0.229","ma1:0.230","ma1:0.231","ma1:0.236","ma1:0.237","ma1:0.238","ma1:0.239","ma1:0.240","ma1:0.241","ma1:0.242","ma1:0.243","ma1:0.244","ma1:0.245","ma1:0.246","ma1:0.247","ma1:0.249","ma1:0.250","ma1:0.251","ma1:0.309","ma1:0.311","ma1:0.312","ma1:0.331","ma1:0.333","ma1:0.410","ma1:0.415","ma1:0.416","ma1:0.421","ma1:0.422","ma1:0.502","ma1:0.503","ma1:0.506","ma1:0.507","ma1:0.508","ma1:0.509","ma1:0.510","ma1:0.514","ma1:0.515","ma1:0.517","ma1:0.520","ma1:0.521","ma1:0.522","ma1:0.523","ma1:0.524","ma1:0.525","ma1:0.528","ma1:0.529","ma1:0.532","ma1:0.533","ma1:0.534","ma1:0.535","ma1:0.537","ma1:0.538","ma1:0.539","ma1:0.542","ma1:0.545","ma1:0.546","ma1:0.547","ma1:0.548","ma1:0.549","ma1:0.550","ma1:0.552","ma1:0.560","ma1:0.561","ma1:0.562","ma1:0.565","ma1:0.569","ma1:0.570","ma1:0.572","ma1:0.580","ma1:0.581","ma1:0.603","ma1:0.604","ma1:0.605","ma1:0.606","ma1:0.607","ma1:0.608","ma1:0.609","ma1:0.610","ma1:0.611","ma1:0.612","ma1:0.613","ma1:0.614","ma1:0.615","ma1:0.616","ma1:0.617","ma1:0.618","ma1:0.619","ma1:0.620","ma1:0.621","ma1:0.622","ma1:0.710","ma1:0.717","ma1:0.718","ma1:0.719","ma1:0.720","ma1:0.721","ma1:0.722","ma1:0.723","ma1:0.724","ma1:0.725","ma1:0.726","ma1:0.727","ma1:0.728","ma1:0.729","ma1:0.730","ma1:0.731","ma1:0.740","ma1:0.744","ma1:0.752","ma1:0.753","ma1:0.778","ma1:2.138","ma1:3.77","ma1:3.142","ma1:3.244","ma1:3.406","ma1:3.476","ma1:3.477","ma1:3.512","ma1:3.517","ma1:5.22","ma1:5.181","ma1:5.284","ma1:5.470","ma1:5.480","ma1:5.490","ma1:5.534","ma1:5.556","ma1:6.01","ma1:6.31","ma1:6.138","ma1:6.410","ma1:6.415","ma1:1.1113","ma1:7.28","ma1:7.68","ma1:7.110","ma1:7.112","ma1:7.115","ma1:7.117","ma1:7.182","ma1:7.451","ma1:7.500","ma1:7.508","ma1:7.509","ma1:0.811","ma1:0.885","ma1:0.886","ma1:0.896","ma1:0.899","ma1:0.900","ma1:0.901","ma1:0.902","ma1:0.904","ma1:0.905","ma1:0.906","ma1:0.907","ma1:0.908","ma1:0.911","ma1:0.914","ma1:0.959","ma1:0.995","ma1:0.996","ma1:0.998","ma1:0.999","ma1:0.1000","ma1:0.1001","ma1:0.1003","ma1:0.1005","ma1:0.1043","ma1:0.1047","ma1:0.1052","ma1:0.1053","ma1:0.1054","ma2:2.483","ma2:4.254","mato1:2.60","mato1:2.95","mato1:2.100","mato1:3.591","mato1:3.819","mato1:3.820","mato2:1.494","mato2:2.574","mato2:2.567","mato2:2.570","matf1:1.62","matf1:2.169","matf1:2.380","matf1:3.18","matf1:3.26","matf1:3.118","matf1:4.133","matf1:3.278","matf1:3.279","matf1:4.510"]);
+/* Matteuppgifter som redan är granskade och ska vara utan miniräknare (2026-10-02, 2026-11-27). */
+const KV_RAKNARE_GRANSKADE=new Set(["ma1:0.40","ma1:0.49","ma1:0.58","ma1:0.61","ma1:0.67","ma1:0.73","ma1:0.88","ma1:0.94","ma1:0.100","ma1:0.103","ma1:0.176","ma1:0.177","ma1:0.178","ma1:0.179","ma1:0.180","ma1:0.181","ma1:0.182","ma1:0.183","ma1:0.184","ma1:0.185","ma1:0.186","ma1:0.189","ma1:0.190","ma1:0.191","ma1:0.192","ma1:0.197","ma1:0.212","ma1:0.213","ma1:0.214","ma1:0.215","ma1:0.216","ma1:0.217","ma1:0.218","ma1:0.219","ma1:0.220","ma1:0.221","ma1:0.222","ma1:0.223","ma1:0.224","ma1:0.225","ma1:0.226","ma1:0.227","ma1:0.229","ma1:0.230","ma1:0.231","ma1:0.236","ma1:0.237","ma1:0.238","ma1:0.239","ma1:0.240","ma1:0.241","ma1:0.242","ma1:0.243","ma1:0.244","ma1:0.245","ma1:0.246","ma1:0.247","ma1:0.249","ma1:0.250","ma1:0.251","ma1:0.309","ma1:0.311","ma1:0.312","ma1:0.331","ma1:0.333","ma1:0.410","ma1:0.415","ma1:0.416","ma1:0.421","ma1:0.422","ma1:0.502","ma1:0.503","ma1:0.506","ma1:0.507","ma1:0.508","ma1:0.509","ma1:0.510","ma1:0.514","ma1:0.515","ma1:0.517","ma1:0.520","ma1:0.521","ma1:0.522","ma1:0.523","ma1:0.524","ma1:0.525","ma1:0.528","ma1:0.529","ma1:0.532","ma1:0.533","ma1:0.534","ma1:0.535","ma1:0.537","ma1:0.538","ma1:0.539","ma1:0.542","ma1:0.545","ma1:0.546","ma1:0.547","ma1:0.548","ma1:0.549","ma1:0.550","ma1:0.552","ma1:0.560","ma1:0.561","ma1:0.562","ma1:0.565","ma1:0.569","ma1:0.570","ma1:0.572","ma1:0.580","ma1:0.581","ma1:0.603","ma1:0.604","ma1:0.605","ma1:0.606","ma1:0.607","ma1:0.608","ma1:0.609","ma1:0.610","ma1:0.611","ma1:0.612","ma1:0.613","ma1:0.614","ma1:0.615","ma1:0.616","ma1:0.617","ma1:0.618","ma1:0.619","ma1:0.620","ma1:0.621","ma1:0.622","ma1:0.710","ma1:0.717","ma1:0.718","ma1:0.719","ma1:0.720","ma1:0.721","ma1:0.722","ma1:0.723","ma1:0.724","ma1:0.725","ma1:0.726","ma1:0.727","ma1:0.728","ma1:0.729","ma1:0.730","ma1:0.731","ma1:0.740","ma1:0.744","ma1:0.752","ma1:0.753","ma1:0.778","ma1:2.138","ma1:3.77","ma1:3.142","ma1:3.244","ma1:3.406","ma1:3.476","ma1:3.477","ma1:3.512","ma1:3.517","ma1:5.22","ma1:5.181","ma1:5.284","ma1:5.470","ma1:5.480","ma1:5.490","ma1:5.534","ma1:5.556","ma1:6.01","ma1:6.31","ma1:6.138","ma1:6.410","ma1:6.415","ma1:1.1113","ma1:7.28","ma1:7.68","ma1:7.110","ma1:7.112","ma1:7.115","ma1:7.117","ma1:7.182","ma1:7.451","ma1:7.500","ma1:7.508","ma1:7.509","ma1:0.811","ma1:0.885","ma1:0.886","ma1:0.896","ma1:0.899","ma1:0.900","ma1:0.901","ma1:0.902","ma1:0.904","ma1:0.905","ma1:0.906","ma1:0.907","ma1:0.908","ma1:0.911","ma1:0.914","ma1:0.959","ma1:0.995","ma1:0.996","ma1:0.998","ma1:0.999","ma1:0.1000","ma1:0.1001","ma1:0.1003","ma1:0.1005","ma1:0.1043","ma1:0.1047","ma1:0.1052","ma1:0.1053","ma1:0.1054","ma2:2.483","ma2:4.254","mato1:2.60","mato1:2.95","mato1:2.100","mato1:3.591","mato1:3.819","mato1:3.820","mato2:1.494","mato2:2.574","mato2:2.567","mato2:2.570","matf1:1.62","matf1:2.169","matf1:2.380","matf1:3.18","matf1:3.26","matf1:3.118","matf1:4.133","matf1:3.278","matf1:3.279","matf1:4.510",
+  /* Granskade 2026-11-27 (kvalitetsrapporten): avrundning, positionssystem, grundpotensform, prefix, procentform eller enkel huvudräkning. */
+  "ma1:5.34","ma1:7.180","ma1:0.1085","ma1:0.1086","ma1:0.1087","ma1:0.1088","ma1:0.1089","ma1:0.1090","ma1:0.1102","ma1:0.1109","ma1:0.1111","ma1:0.1115","ma1:0.1116","ma1:0.1117","ma1:0.1119","ma1:7.713","ma1:0.1202","ma1:2.621","ma1:2.628","ma1:0.1234","ma1:5.632","ma1:0.1368","ma1:0.1369","ma1:0.1377","ma1:0.1378","ma1:0.1379","ma1:0.1380","ma1:0.1381","ma1:0.1384","ma1:0.1385","ma1:0.1386","ma2:3.163","ma2:3.311","ma2:3.313","ma2:1.1081","ma2:2.1181","mato1:4.411","mato1:4.574","mato1:2.1275","mato2:6.02","matf1:3.286","matf1:1.801"]);
 const kv={kurs:"alla",fynd:null,ok:new Map(),kor:false,filter:null,visaOk:false,visaSma:false,status:""};
 
 function kvSignatur(s){
@@ -19624,28 +19626,52 @@ function kvFigur(q){
         ? Math.hypot(cx-(f.r.left+f.r.right)/2,cy-(f.r.top+f.r.bottom)/2)<=Math.min(f.r.width,f.r.height)/2
         : cx>=f.r.left && cx<=f.r.right && cy>=f.r.top && cy<=f.r.bottom));
     };
+    /* Cirklar och ellipser med sina egna radier (granskning 2026-11-27: en ellips räknades förut som en cirkel
+       med den största radien, så text bredvid en avlång ellips såg ut att korsa den). */
     const cirklar=[];
     svg.querySelectorAll("circle,ellipse").forEach(el=>{ if(!syns(el)||!tung(el)) return;
-      const m=el.getScreenCTM(); const r=(el.r?el.r.baseVal.value:el.rx.baseVal.value)*Math.abs(m.a);
-      if(r<12) return; cirklar.push({c:pt(el,el.cx.baseVal.value,el.cy.baseVal.value),r}); });
+      const m=el.getScreenCTM();
+      const rx=(el.r?el.r.baseVal.value:el.rx.baseVal.value)*Math.abs(m.a), ry=(el.r?el.r.baseVal.value:el.ry.baseVal.value)*Math.abs(m.d);
+      if(Math.max(rx,ry)<12) return; cirklar.push({c:pt(el,el.cx.baseVal.value,el.cy.baseVal.value),rx,ry,ord:ordning.get(el)}); });
+    /* En fylld ruta mellan formen och texten (vit bakgrund bakom etiketten) gör texten läsbar. */
+    const rutaBakom=(t,ordForm)=>fyllda.some(f=>!f.cirkel && f.ord>ordForm && f.ord<t.ord
+      && f.r.left<=t.hel.left+1 && f.r.right>=t.hel.right-1 && f.r.top<=t.hel.top+1 && f.r.bottom>=t.hel.bottom-1);
+    /* Etiketter med vit kant: en vit kopia under texten (stroke och fyllning ljusa) eller paint-order:stroke med
+       ljus kant. Kopian är ingen egen etikett, och en etikett med vit kant är läsbar över linjer och cirklar. */
+    const ljus=c=>{ const m=String(c||"").match(/rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*([\d.]+))?/); if(!m) return /^#f{3,6}$|^white$/i.test(String(c||"").trim());
+      if(m[4]!==undefined && Number(m[4])<0.5) return false; return (0.2126*m[1]+0.7152*m[2]+0.0722*m[3])/255>0.85; };
+    const kant=el=>{ const cs=getComputedStyle(el); return ljus(cs.stroke) && (parseFloat(cs.strokeWidth)||0)>=2 ? cs : null; };
+    const kopia=el=>{ const cs=kant(el); return !!cs && ljus(cs.fill); };
+    const kopior=new Set([...svg.querySelectorAll("text")].filter(kopia).map(el=>el.textContent.trim()+"|"+el.getAttribute("x")+"|"+el.getAttribute("y")));
+    const harKant=el=>{ const cs=kant(el); return (!!cs && /stroke/.test(cs.paintOrder||"") && !/^normal$|^fill/.test(cs.paintOrder||""))
+      || kopior.has(el.textContent.trim()+"|"+el.getAttribute("x")+"|"+el.getAttribute("y")); };
     // Roterad text (t.ex. längs en linje) får en missvisande rak ruta och hoppas över.
     const rak=el=>{ const m=el.getScreenCTM(); return !m || (Math.abs(m.b)<1e-6 && Math.abs(m.c)<1e-6); };
-    const texter=[...svg.querySelectorAll("text")].filter(el=>syns(el) && el.textContent.trim() && rak(el)).map(el=>{
+    const texter=[...svg.querySelectorAll("text")].filter(el=>syns(el) && el.textContent.trim() && rak(el) && !kopia(el)).map(el=>{
       const b=el.getBoundingClientRect();
       // Bara linjer genom textens mitt räknas; etiketter som ligger an mot en linje är avsiktliga.
       const kx=b.width*0.30, ky=b.height*0.36;
-      return {txt:el.textContent.trim(), r:{x0:b.left+kx,x1:b.right-kx,y0:b.top+ky,y1:b.bottom-ky}, hel:b};
+      return {txt:el.textContent.trim(), r:{x0:b.left+kx,x1:b.right-kx,y0:b.top+ky,y1:b.bottom-ky}, hel:b, kant:harKant(el), ord:ordning.get(el)};
     }).filter(t=>t.r.x1>t.r.x0 && t.r.y1>t.r.y0);
     const krock=new Map();
     const lagg=(t,vad)=>{ if(!krock.has(t.txt)) krock.set(t.txt,new Set()); krock.get(t.txt).add(vad); };
     texter.forEach(t=>{
       if(t.hel.left<sr.left-2 || t.hel.right>sr.right+2 || t.hel.top<sr.top-2 || t.hel.bottom>sr.bottom+2) lagg(t,"utanför bilden");
+      if(t.kant) return;
       if(linjer.some(l=>kvSegmentIRuta(l[0],l[1],t.r) && !skymd(l,t))) lagg(t,"linje");
       cirklar.forEach(c=>{
-        const nx=Math.max(t.r.x0,Math.min(c.c.x,t.r.x1)), ny=Math.max(t.r.y0,Math.min(c.c.y,t.r.y1));
-        const nara=Math.hypot(nx-c.c.x,ny-c.c.y);
-        const fjarr=Math.max(...[[t.r.x0,t.r.y0],[t.r.x1,t.r.y0],[t.r.x0,t.r.y1],[t.r.x1,t.r.y1]].map(([x,y])=>Math.hypot(x-c.c.x,y-c.c.y)));
-        if(nara<c.r-1 && fjarr>c.r+1) lagg(t,"cirkel");
+        // Korsar konturen textens mittruta? Prova punkter i rutan mot ellipsens ekvation, med 1 px marginal.
+        const xs=[t.r.x0,(t.r.x0+t.r.x1)/2,t.r.x1], ys=[t.r.y0,(t.r.y0+t.r.y1)/2,t.r.y1];
+        const v=xs.flatMap(x=>ys.map(y=>Math.hypot((x-c.c.x)/c.rx,(y-c.c.y)/c.ry)));
+        const inne=1-1/Math.min(c.rx,c.ry), ute=1+1/Math.min(c.rx,c.ry);
+        // Nodetikett: textens mitt i en liten cirkel som texten ryms i (t.ex. ”e−” i en elektron).
+        const nod=v[4]<1 && t.hel.width<=2.3*c.rx && t.hel.height<=2.3*c.ry && Math.max(c.rx,c.ry)<=40;
+        // En fylld form som ritas efter konturen och täcker textens mitt döljer konturen där (elektronen på banan).
+        const dold=fyllda.some(f=>f.ord>c.ord && f.ord<t.ord && (f.cirkel
+          ? Math.hypot((t.r.x0+t.r.x1)/2-(f.r.left+f.r.right)/2,(t.r.y0+t.r.y1)/2-(f.r.top+f.r.bottom)/2)<=Math.min(f.r.width,f.r.height)/2
+          : (t.r.x0+t.r.x1)/2>=f.r.left && (t.r.x0+t.r.x1)/2<=f.r.right && (t.r.y0+t.r.y1)/2>=f.r.top && (t.r.y0+t.r.y1)/2<=f.r.bottom)
+          && f.r.width<0.9*sr.width);
+        if(v.some(x=>x<inne) && v.some(x=>x>ute) && !nod && !dold && !rutaBakom(t,c.ord)) lagg(t,"cirkel");
       });
     });
     for(let i=0;i<texter.length;i++) for(let j=i+1;j<texter.length;j++){
@@ -19670,6 +19696,9 @@ function kvFigur(q){
 const KV_PLURAL=/\b(?:varje (?:funktion|föremål|kropp|fall|ekvation|uttryck|integral|tal|ekvationssystem|polynom|graf|kurva|talföljd|situation|del)|ekvationerna|uttrycken|integralerna|funktionerna|derivatorna|gränsvärdena|olikheterna|ekvationssystemen|polynomen|talföljderna|följande (?:uttryck|ekvationer|funktioner|integraler|tal)|i alla (?:två|tre|fyra|fem) fallen|deluppgifterna)\b/i;
 function kvPlural(t){
   if(t.spelDelning!=="deluppgifter" || !Array.isArray(t.spelDelar) || t.spelDelar.length<2) return [];
+  /* Sedan deluppgiftskedjan (2026-10-24) visar ett kort hela uppgiften, a) → b) → c), så en inledning i plural
+     är rätt. Bara fristående delkort (kgFristaendeDelar, kedjaSyskon) visar en enda deluppgift (granskning 2026-11-27). */
+  if(t.kgFristaendeDelar!==true) return [];
   const m=kvText(t.spelIntro).match(KV_PLURAL);
   return m ? [`"${m[0]}" i inledningen: ${kvText(t.spelIntro).slice(0,90)}`] : [];
 }

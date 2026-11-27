@@ -4341,7 +4341,7 @@ window.BANK = [
     "niva": "C",
     "poang": "(0/3/0)",
     "t": "<p>I ett experiment mäts massan för olika volymer av en okänd vätska.</p>\n<table class=\"data\"><tr><th>Volym (cl)</th><th>Massa (g)</th></tr>\n<tr><td>10</td><td>90</td></tr><tr><td>20</td><td>174</td></tr><tr><td>35</td><td>300</td></tr>\n<tr><td>50</td><td>426</td></tr><tr><td>65</td><td>550</td></tr></table>\n<ol type=\"a\"><li>Anpassa en rät linje till mätvärdena och bestäm dess lutning.</li>\n<li>Bestäm vätskans densitet i g/cm³.</li>\n<li>Den anpassade linjen går inte genom origo. Ge en rimlig förklaring till varför.</li></ol><p>Sätt volymen i cl på den horisontella axeln och massan i g på den vertikala. Ange lutningen med enhet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Linjär modell: \\(m=kV+b\\)</p><p>Sätt volym V i cl på x-axeln och massa m i g på y-axeln. Lägg in de fem punkterna i ett digitalt verktyg och anpassa en rät linje med linjär regression.</p></li><li><p class=\"facit-rubrik\">Läs av den anpassade linjens lutning</p><div class=\"facit-matte\">\\[m\\approx8{,}3706V+6{,}6599\\]</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 450 345\" width=\"450\" height=\"345\" style=\"max-width:100%;height:auto;display:block\" role=\"img\" aria-label=\"Massa mot volym. Fem mätpunkter och anpassad linje med lutningen 8,37 gram per centiliter.\"><title>Linjär anpassning av massa mot volym</title><rect width=\"450\" height=\"345\" rx=\"10\" fill=\"white\"/><line x1=\"55.0\" x2=\"55.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"55.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">0</text><line x1=\"105.0\" x2=\"105.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"105.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">10</text><line x1=\"155.0\" x2=\"155.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"155.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">20</text><line x1=\"205.0\" x2=\"205.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"205.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">30</text><line x1=\"255.0\" x2=\"255.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"255.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">40</text><line x1=\"305.0\" x2=\"305.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"305.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">50</text><line x1=\"355.0\" x2=\"355.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"355.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">60</text><line x1=\"405.0\" x2=\"405.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"405.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">70</text><line x1=\"55\" x2=\"405\" y1=\"290.0\" y2=\"290.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"294.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">0</text><line x1=\"55\" x2=\"405\" y1=\"250.0\" y2=\"250.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"254.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">100</text><line x1=\"55\" x2=\"405\" y1=\"210.0\" y2=\"210.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"214.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">200</text><line x1=\"55\" x2=\"405\" y1=\"170.0\" y2=\"170.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"174.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">300</text><line x1=\"55\" x2=\"405\" y1=\"130.0\" y2=\"130.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"134.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">400</text><line x1=\"55\" x2=\"405\" y1=\"90.0\" y2=\"90.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"94.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">500</text><line x1=\"55\" x2=\"405\" y1=\"50.0\" y2=\"50.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"54.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">600</text><path d=\"M55 45V290H415\" fill=\"none\" stroke=\"#172438\" stroke-width=\"2\"/><text x=\"55\" y=\"26\" font-size=\"20\" fill=\"#172438\">m (g)</text><text x=\"405\" y=\"333\" text-anchor=\"end\" font-size=\"20\" fill=\"#172438\">V (cl)</text><line x1=\"55.0\" y1=\"287.33604060913706\" x2=\"405.0\" y2=\"52.960406091370544\" stroke=\"#176c87\" stroke-width=\"2.5\"/><circle cx=\"105.0\" cy=\"254.0\" r=\"4.5\" fill=\"#ac371c\"/><circle cx=\"155.0\" cy=\"220.4\" r=\"4.5\" fill=\"#ac371c\"/><circle cx=\"230.0\" cy=\"170.0\" r=\"4.5\" fill=\"#ac371c\"/><circle cx=\"305.0\" cy=\"119.6\" r=\"4.5\" fill=\"#ac371c\"/><circle cx=\"380.0\" cy=\"70.0\" r=\"4.5\" fill=\"#ac371c\"/><text x=\"110\" y=\"70\" font-size=\"18\" fill=\"#176c87\" stroke=\"white\" stroke-width=\"4\" paint-order=\"stroke\">m ≈ 8,37V + 6,66</text></svg><p>Koefficienten framför V är lutningen. En ökning av volymen med 1 cl ger ungefär 8,37 g större massa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lutningen är ungefär 8,37 g/cl.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet som lutning: \\(\\rho=\\Delta m/\\Delta V\\)</p><p>Linjens lutning beskriver hur mycket vätskans massa ökar per tillagd volym. En cl är 10 cm³.</p><div class=\"facit-matte\">\\[\\rho=\\frac{8{,}3706\\ \\mathrm g}{10\\ \\mathrm{cm^3}}\\approx0{,}837\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,837 g/cm³ (cirka 0,84 g/cm³).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärning med massaaxeln: \\(m(0)=b\\)</p><p>Modellen ger ungefär 6,66 g även vid noll vätskevolym. Det kan bero på att behållarens massa inte tarerats bort eller på ett nollfel i vågen. Skärningen ensam avgör inte orsaken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Exempelvis en behållare som inte tarerats bort, eller ett nollfel.</p></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Linjär modell: \\(m=kV+b\\)</p><p>Sätt volym V i cl på x-axeln och massa m i g på y-axeln. Lägg in de fem punkterna i GeoGebra och anpassa en rät linje med linjär regression.</p></li><li><p class=\"facit-rubrik\">Läs av den anpassade linjens lutning</p><div class=\"facit-matte\">\\[m\\approx8{,}3706V+6{,}6599\\]</div><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 450 345\" width=\"450\" height=\"345\" style=\"max-width:100%;height:auto;display:block\" role=\"img\" aria-label=\"Massa mot volym. Fem mätpunkter och anpassad linje med lutningen 8,37 gram per centiliter.\"><title>Linjär anpassning av massa mot volym</title><rect width=\"450\" height=\"345\" rx=\"10\" fill=\"white\"/><line x1=\"55.0\" x2=\"55.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"55.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">0</text><line x1=\"105.0\" x2=\"105.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"105.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">10</text><line x1=\"155.0\" x2=\"155.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"155.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">20</text><line x1=\"205.0\" x2=\"205.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"205.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">30</text><line x1=\"255.0\" x2=\"255.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"255.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">40</text><line x1=\"305.0\" x2=\"305.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"305.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">50</text><line x1=\"355.0\" x2=\"355.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"355.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">60</text><line x1=\"405.0\" x2=\"405.0\" y1=\"50\" y2=\"290\" stroke=\"#dde5ed\"/><text x=\"405.0\" y=\"310\" text-anchor=\"middle\" font-size=\"18\" fill=\"#172438\">70</text><line x1=\"55\" x2=\"405\" y1=\"290.0\" y2=\"290.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"294.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">0</text><line x1=\"55\" x2=\"405\" y1=\"250.0\" y2=\"250.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"254.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">100</text><line x1=\"55\" x2=\"405\" y1=\"210.0\" y2=\"210.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"214.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">200</text><line x1=\"55\" x2=\"405\" y1=\"170.0\" y2=\"170.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"174.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">300</text><line x1=\"55\" x2=\"405\" y1=\"130.0\" y2=\"130.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"134.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">400</text><line x1=\"55\" x2=\"405\" y1=\"90.0\" y2=\"90.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"94.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">500</text><line x1=\"55\" x2=\"405\" y1=\"50.0\" y2=\"50.0\" stroke=\"#dde5ed\"/><text x=\"46\" y=\"54.0\" text-anchor=\"end\" font-size=\"18\" fill=\"#172438\">600</text><path d=\"M55 45V290H415\" fill=\"none\" stroke=\"#172438\" stroke-width=\"2\"/><text x=\"55\" y=\"26\" font-size=\"20\" fill=\"#172438\">m (g)</text><text x=\"405\" y=\"333\" text-anchor=\"end\" font-size=\"20\" fill=\"#172438\">V (cl)</text><line x1=\"55.0\" y1=\"287.33604060913706\" x2=\"405.0\" y2=\"52.960406091370544\" stroke=\"#176c87\" stroke-width=\"2.5\"/><circle cx=\"105.0\" cy=\"254.0\" r=\"4.5\" fill=\"#ac371c\"/><circle cx=\"155.0\" cy=\"220.4\" r=\"4.5\" fill=\"#ac371c\"/><circle cx=\"230.0\" cy=\"170.0\" r=\"4.5\" fill=\"#ac371c\"/><circle cx=\"305.0\" cy=\"119.6\" r=\"4.5\" fill=\"#ac371c\"/><circle cx=\"380.0\" cy=\"70.0\" r=\"4.5\" fill=\"#ac371c\"/><text x=\"110\" y=\"70\" font-size=\"18\" fill=\"#176c87\" stroke=\"white\" stroke-width=\"4\" paint-order=\"stroke\">m ≈ 8,37V + 6,66</text></svg><p>Koefficienten framför V är lutningen. En ökning av volymen med 1 cl ger ungefär 8,37 g större massa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lutningen är ungefär 8,37 g/cl.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Densitet som lutning: \\(\\rho=\\Delta m/\\Delta V\\)</p><p>Linjens lutning beskriver hur mycket vätskans massa ökar per tillagd volym. En cl är 10 cm³.</p><div class=\"facit-matte\">\\[\\rho=\\frac{8{,}3706\\ \\mathrm g}{10\\ \\mathrm{cm^3}}\\approx0{,}837\\ \\mathrm{g/cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,837 g/cm³ (cirka 0,84 g/cm³).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärning med massaaxeln: \\(m(0)=b\\)</p><p>Modellen ger ungefär 6,66 g även vid noll vätskevolym. Det kan bero på att behållarens massa inte tarerats bort eller på ett nollfel i vågen. Skärningen ensam avgör inte orsaken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Exempelvis en behållare som inte tarerats bort, eller ett nollfel.</p></div></div></div>",
     "familj": "Mätosäkerhet och felgränser",
     "formaga": [
       "resonemang"
@@ -7585,29 +7585,31 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett klassrum är 8,0 m långt, 6,0 m brett och 2,7 m högt. Luftens densitet är 1,20 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">8,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">6,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,7 m</text></svg></span>",
+    "spelIntro": "<p>Ett klassrum är 8,0 m långt, 6,0 m brett och 2,7 m högt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">8,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">6,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,7 m</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm luftens massa.",
-        "t": "<p>Ett klassrum är 8,0 m långt, 6,0 m brett och 2,7 m högt. Luftens densitet är 1,20 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">8,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">6,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,7 m</text></svg></span><p>Bestäm luftens massa.</p>",
+        "t": "<p>Ett klassrum är 8,0 m långt, 6,0 m brett och 2,7 m högt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">8,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">6,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,7 m</text></svg></span><p>Bestäm luftens massa.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><div class=\"facit-matte\">\\[V=8{,}0\\cdot6{,}0\\cdot2{,}7=129{,}6\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Luftens densitet är 1,20 kg/m³.</p><div class=\"facit-matte\">\\[m=1{,}20\\cdot129{,}6=155{,}52\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(156\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Rummets volym behövs innan luftens massa kan bestämmas.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Luftens densitet är 1,20 kg/m³."
       },
       {
         "etikett": "b",
         "fraga": "Hur många gånger så stor är luftens massa som massan hos en person som väger 60 kg?",
-        "t": "<p>Ett klassrum är 8,0 m långt, 6,0 m brett och 2,7 m högt. Luftens densitet är 1,20 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">8,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">6,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,7 m</text></svg></span><p>Hur många gånger så stor är luftens massa som massan hos en person som väger 60 kg?</p>",
+        "t": "<p>Ett klassrum är 8,0 m långt, 6,0 m brett och 2,7 m högt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">8,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">6,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,7 m</text></svg></span><p>Hur många gånger så stor är luftens massa som massan hos en person som väger 60 kg?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><div class=\"facit-matte\">\\[V=8{,}0\\cdot6{,}0\\cdot2{,}7=129{,}6\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><p>Luftens densitet är 1,20 kg/m³.</p><div class=\"facit-matte\">\\[m=1{,}20\\cdot129{,}6=155{,}52\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Massförhållande: \\(m_{\\mathrm{luft}}/m_{\\mathrm{person}}\\)</p><p>Använd luftmassan före avrundning.</p><div class=\"facit-matte\">\\[155{,}52/60=2{,}592\\approx2{,}59\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}59\\text{ gånger så stor massa}\\).</p></div>",
         "ledtrad": "<p>Rummets volym behövs innan luftens massa kan bestämmas.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Luftens densitet är 1,20 kg/m³."
       }
     ],
     "familjTidigare": [
@@ -7771,31 +7773,31 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett tomt rum har måtten 4,0 m × 5,0 m × 2,5 m. Luft har densiteten 1,29 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">4,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">5,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,5 m</text></svg></span>",
+    "spelIntro": "<p>Ett tomt rum har måtten 4,0 m × 5,0 m × 2,5 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">4,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">5,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,5 m</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm massan i kg av luften som fyller rummet.",
-        "t": "<p>Ett tomt rum har måtten 4,0 m × 5,0 m × 2,5 m. Luft har densiteten 1,29 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">4,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">5,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,5 m</text></svg></span><p>Bestäm massan i kg av luften som fyller rummet.</p>",
+        "t": "<p>Ett tomt rum har måtten 4,0 m × 5,0 m × 2,5 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">4,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">5,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,5 m</text></svg></span><p>Bestäm massan i kg av luften som fyller rummet.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><div class=\"facit-matte\">\\[V=4{,}0\\cdot5{,}0\\cdot2{,}5=50\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[m_{\\mathrm{luft}}=1{,}29\\cdot50=64{,}5\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(64{,}5\\ \\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Volymen är densamma i de två fallen, men massan per kubikmeter skiljer sig.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
-        "kgInstruktion": "Vattnets densitet är 1000 kg/m³."
+        "kgInstruktion": "Vattnets densitet är 1000 kg/m³. Luft har densiteten 1,29 kg/m³."
       },
       {
         "etikett": "b",
         "fraga": "Bestäm massan i ton av det vatten som skulle fylla samma volym.",
-        "t": "<p>Ett tomt rum har måtten 4,0 m × 5,0 m × 2,5 m. Luft har densiteten 1,29 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">4,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">5,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,5 m</text></svg></span><p>Bestäm massan i ton av det vatten som skulle fylla samma volym.</p>",
+        "t": "<p>Ett tomt rum har måtten 4,0 m × 5,0 m × 2,5 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">4,0 m</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"middle\" fill=\"#293747\">5,0 m</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"18.06\" text-anchor=\"start\" fill=\"#293747\">2,5 m</text></svg></span><p>Bestäm massan i ton av det vatten som skulle fylla samma volym.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rätblockets volym: \\(V=lbh\\)</p><div class=\"facit-matte\">\\[V=4{,}0\\cdot5{,}0\\cdot2{,}5=50\\ \\mathrm{m^3}\\]</div></li><li><p class=\"facit-rubrik\">Massa: \\(m=\\rho V\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}m_{\\mathrm{vatten}}&=1000\\cdot50\\\\&=50000\\ \\mathrm{kg}\\\\&=50\\ \\mathrm{ton}\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\ \\mathrm{ton}\\).</p></div>",
         "ledtrad": "<p>Volymen är densamma i de två fallen, men massan per kubikmeter skiljer sig.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
-        "kgInstruktion": "Vattnets densitet är 1000 kg/m³."
+        "kgInstruktion": "Vattnets densitet är 1000 kg/m³. Luft har densiteten 1,29 kg/m³."
       }
     ],
     "familjTidigare": [
@@ -11345,40 +11347,45 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En person står mellan två klippväggar och klappar i händerna. De två ekona är direkta reflexer från var sin vägg. Det första ekot hörs efter 0,40 sekunder och det andra efter 1,10 sekunder. Ljudets fart är 340 m/s.</p><span class=\"fig\"><svg height=\"310.23\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 25.71 492.14 246.25\"><rect x=\"20\" y=\"200\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"200\" x2=\"470\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"436\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"173.7\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"186.3\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"176.6\" x2=\"180\" y2=\"156.8\" stroke=\"#2B2527\" stroke-width=\"3.24\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"162.2\" x2=\"194.4\" y2=\"158.6\" stroke=\"#2B2527\" stroke-width=\"2.3400000000000003\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"148.7\" r=\"8.1\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"196\" y1=\"130\" x2=\"290\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"300.00,130.00 290.00,134.60 290.00,125.40\" fill=\"#2A5D9E\"/><line x1=\"164\" y1=\"160\" x2=\"72\" y2=\"160\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"62.00,160.00 72.00,155.40 72.00,164.60\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt höger</text><text x=\"112\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt vänster</text><line x1=\"54\" y1=\"226\" x2=\"180\" y2=\"226\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"221\" x2=\"54\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"221\" x2=\"180\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"117\" y=\"242\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₁</text><line x1=\"180\" y1=\"250\" x2=\"436\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"245\" x2=\"180\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"436\" y1=\"245\" x2=\"436\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"308\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₂</text></svg></span>",
-    "spelDelar": [{
+    "spelIntro": "<p>En person står mellan två klippväggar och klappar i händerna. De två ekona är direkta reflexer från var sin vägg. Det första ekot hörs efter 0,40 sekunder och det andra efter 1,10 sekunder.</p><span class=\"fig\"><svg height=\"310.23\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 25.71 492.14 246.25\"><rect x=\"20\" y=\"200\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"200\" x2=\"470\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"436\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"173.7\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"186.3\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"176.6\" x2=\"180\" y2=\"156.8\" stroke=\"#2B2527\" stroke-width=\"3.24\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"162.2\" x2=\"194.4\" y2=\"158.6\" stroke=\"#2B2527\" stroke-width=\"2.3400000000000003\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"148.7\" r=\"8.1\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"196\" y1=\"130\" x2=\"290\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"300.00,130.00 290.00,134.60 290.00,125.40\" fill=\"#2A5D9E\"/><line x1=\"164\" y1=\"160\" x2=\"72\" y2=\"160\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"62.00,160.00 72.00,155.40 72.00,164.60\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt höger</text><text x=\"112\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt vänster</text><line x1=\"54\" y1=\"226\" x2=\"180\" y2=\"226\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"221\" x2=\"54\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"221\" x2=\"180\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"117\" y=\"242\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₁</text><line x1=\"180\" y1=\"250\" x2=\"436\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"245\" x2=\"180\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"436\" y1=\"245\" x2=\"436\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"308\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₂</text></svg></span>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Bestäm avståndet till närmaste väggen.",
-        "t": "<p>En person står mellan två klippväggar och klappar i händerna. De två ekona är direkta reflexer från var sin vägg. Det första ekot hörs efter 0,40 sekunder och det andra efter 1,10 sekunder. Ljudets fart är 340 m/s.</p><span class=\"fig\"><svg height=\"310.23\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 25.71 492.14 246.25\"><rect x=\"20\" y=\"200\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"200\" x2=\"470\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"436\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"173.7\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"186.3\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"176.6\" x2=\"180\" y2=\"156.8\" stroke=\"#2B2527\" stroke-width=\"3.24\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"162.2\" x2=\"194.4\" y2=\"158.6\" stroke=\"#2B2527\" stroke-width=\"2.3400000000000003\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"148.7\" r=\"8.1\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"196\" y1=\"130\" x2=\"290\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"300.00,130.00 290.00,134.60 290.00,125.40\" fill=\"#2A5D9E\"/><line x1=\"164\" y1=\"160\" x2=\"72\" y2=\"160\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"62.00,160.00 72.00,155.40 72.00,164.60\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt höger</text><text x=\"112\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt vänster</text><line x1=\"54\" y1=\"226\" x2=\"180\" y2=\"226\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"221\" x2=\"54\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"221\" x2=\"180\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"117\" y=\"242\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₁</text><line x1=\"180\" y1=\"250\" x2=\"436\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"245\" x2=\"180\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"436\" y1=\"245\" x2=\"436\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"308\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₂</text></svg></span><p>Bestäm avståndet till närmaste väggen.</p>",
+        "t": "<p>En person står mellan två klippväggar och klappar i händerna. De två ekona är direkta reflexer från var sin vägg. Det första ekot hörs efter 0,40 sekunder och det andra efter 1,10 sekunder.</p><span class=\"fig\"><svg height=\"310.23\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 25.71 492.14 246.25\"><rect x=\"20\" y=\"200\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"200\" x2=\"470\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"436\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"173.7\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"186.3\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"176.6\" x2=\"180\" y2=\"156.8\" stroke=\"#2B2527\" stroke-width=\"3.24\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"162.2\" x2=\"194.4\" y2=\"158.6\" stroke=\"#2B2527\" stroke-width=\"2.3400000000000003\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"148.7\" r=\"8.1\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"196\" y1=\"130\" x2=\"290\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"300.00,130.00 290.00,134.60 290.00,125.40\" fill=\"#2A5D9E\"/><line x1=\"164\" y1=\"160\" x2=\"72\" y2=\"160\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"62.00,160.00 72.00,155.40 72.00,164.60\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt höger</text><text x=\"112\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt vänster</text><line x1=\"54\" y1=\"226\" x2=\"180\" y2=\"226\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"221\" x2=\"54\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"221\" x2=\"180\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"117\" y=\"242\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₁</text><line x1=\"180\" y1=\"250\" x2=\"436\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"245\" x2=\"180\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"436\" y1=\"245\" x2=\"436\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"308\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₂</text></svg></span><p>Bestäm avståndet till närmaste väggen.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Eko: \\(2d=vt\\)</p><p>Ekot innebär att ljudet går både till väggen och tillbaka. Avståndet är halva ljudsträckan.</p><div class=\"facit-matte\">\\[d_1=340\\cdot0{,}40/2=68\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(68\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Vilken väg färdas ljudet innan ett eko når personen?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Ljudets fart är 340 m/s."
       },
       {
         "etikett": "b",
         "fraga": "Bestäm avståndet till bortre väggen.",
-        "t": "<p>En person står mellan två klippväggar och klappar i händerna. De två ekona är direkta reflexer från var sin vägg. Det första ekot hörs efter 0,40 sekunder och det andra efter 1,10 sekunder. Ljudets fart är 340 m/s.</p><span class=\"fig\"><svg height=\"310.23\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 25.71 492.14 246.25\"><rect x=\"20\" y=\"200\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"200\" x2=\"470\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"436\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"173.7\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"186.3\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"176.6\" x2=\"180\" y2=\"156.8\" stroke=\"#2B2527\" stroke-width=\"3.24\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"162.2\" x2=\"194.4\" y2=\"158.6\" stroke=\"#2B2527\" stroke-width=\"2.3400000000000003\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"148.7\" r=\"8.1\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"196\" y1=\"130\" x2=\"290\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"300.00,130.00 290.00,134.60 290.00,125.40\" fill=\"#2A5D9E\"/><line x1=\"164\" y1=\"160\" x2=\"72\" y2=\"160\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"62.00,160.00 72.00,155.40 72.00,164.60\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt höger</text><text x=\"112\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt vänster</text><line x1=\"54\" y1=\"226\" x2=\"180\" y2=\"226\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"221\" x2=\"54\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"221\" x2=\"180\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"117\" y=\"242\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₁</text><line x1=\"180\" y1=\"250\" x2=\"436\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"245\" x2=\"180\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"436\" y1=\"245\" x2=\"436\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"308\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₂</text></svg></span><p>Bestäm avståndet till bortre väggen.</p>",
+        "t": "<p>En person står mellan två klippväggar och klappar i händerna. De två ekona är direkta reflexer från var sin vägg. Det första ekot hörs efter 0,40 sekunder och det andra efter 1,10 sekunder.</p><span class=\"fig\"><svg height=\"310.23\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 25.71 492.14 246.25\"><rect x=\"20\" y=\"200\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"200\" x2=\"470\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"436\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"173.7\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"186.3\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"176.6\" x2=\"180\" y2=\"156.8\" stroke=\"#2B2527\" stroke-width=\"3.24\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"162.2\" x2=\"194.4\" y2=\"158.6\" stroke=\"#2B2527\" stroke-width=\"2.3400000000000003\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"148.7\" r=\"8.1\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"196\" y1=\"130\" x2=\"290\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"300.00,130.00 290.00,134.60 290.00,125.40\" fill=\"#2A5D9E\"/><line x1=\"164\" y1=\"160\" x2=\"72\" y2=\"160\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"62.00,160.00 72.00,155.40 72.00,164.60\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt höger</text><text x=\"112\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt vänster</text><line x1=\"54\" y1=\"226\" x2=\"180\" y2=\"226\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"221\" x2=\"54\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"221\" x2=\"180\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"117\" y=\"242\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₁</text><line x1=\"180\" y1=\"250\" x2=\"436\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"245\" x2=\"180\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"436\" y1=\"245\" x2=\"436\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"308\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₂</text></svg></span><p>Bestäm avståndet till bortre väggen.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Eko: \\(2d=vt\\)</p><p>Även det andra ekot färdas tur och retur.</p><div class=\"facit-matte\">\\[d_2=340\\cdot1{,}10/2=187\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(187\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Vilken väg färdas ljudet innan ett eko når personen?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Ljudets fart är 340 m/s."
       },
       {
         "etikett": "c",
         "fraga": "Bestäm avståndet mellan väggarna.",
-        "t": "<p>En person står mellan två klippväggar och klappar i händerna. De två ekona är direkta reflexer från var sin vägg. Det första ekot hörs efter 0,40 sekunder och det andra efter 1,10 sekunder. Ljudets fart är 340 m/s.</p><span class=\"fig\"><svg height=\"310.23\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 25.71 492.14 246.25\"><rect x=\"20\" y=\"200\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"200\" x2=\"470\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"436\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"173.7\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"186.3\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"176.6\" x2=\"180\" y2=\"156.8\" stroke=\"#2B2527\" stroke-width=\"3.24\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"162.2\" x2=\"194.4\" y2=\"158.6\" stroke=\"#2B2527\" stroke-width=\"2.3400000000000003\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"148.7\" r=\"8.1\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"196\" y1=\"130\" x2=\"290\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"300.00,130.00 290.00,134.60 290.00,125.40\" fill=\"#2A5D9E\"/><line x1=\"164\" y1=\"160\" x2=\"72\" y2=\"160\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"62.00,160.00 72.00,155.40 72.00,164.60\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt höger</text><text x=\"112\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt vänster</text><line x1=\"54\" y1=\"226\" x2=\"180\" y2=\"226\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"221\" x2=\"54\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"221\" x2=\"180\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"117\" y=\"242\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₁</text><line x1=\"180\" y1=\"250\" x2=\"436\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"245\" x2=\"180\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"436\" y1=\"245\" x2=\"436\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"308\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₂</text></svg></span><p>Bestäm avståndet mellan väggarna.</p>",
+        "t": "<p>En person står mellan två klippväggar och klappar i händerna. De två ekona är direkta reflexer från var sin vägg. Det första ekot hörs efter 0,40 sekunder och det andra efter 1,10 sekunder.</p><span class=\"fig\"><svg height=\"310.23\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 25.71 492.14 246.25\"><rect x=\"20\" y=\"200\" width=\"450\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"200\" x2=\"470\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"436\" y=\"40\" width=\"34\" height=\"160\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"173.7\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"186.3\" y1=\"200\" x2=\"180\" y2=\"176.6\" stroke=\"#2B2527\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"176.6\" x2=\"180\" y2=\"156.8\" stroke=\"#2B2527\" stroke-width=\"3.24\" stroke-linecap=\"round\"/><line x1=\"180\" y1=\"162.2\" x2=\"194.4\" y2=\"158.6\" stroke=\"#2B2527\" stroke-width=\"2.3400000000000003\" stroke-linecap=\"round\"/><circle cx=\"180\" cy=\"148.7\" r=\"8.1\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"196\" y1=\"130\" x2=\"290\" y2=\"130\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"300.00,130.00 290.00,134.60 290.00,125.40\" fill=\"#2A5D9E\"/><line x1=\"164\" y1=\"160\" x2=\"72\" y2=\"160\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"62.00,160.00 72.00,155.40 72.00,164.60\" fill=\"#2A5D9E\"/><text x=\"250\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt höger</text><text x=\"112\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2A5D9E\">ljud åt vänster</text><line x1=\"54\" y1=\"226\" x2=\"180\" y2=\"226\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"221\" x2=\"54\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"221\" x2=\"180\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"117\" y=\"242\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₁</text><line x1=\"180\" y1=\"250\" x2=\"436\" y2=\"250\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"180\" y1=\"245\" x2=\"180\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"436\" y1=\"245\" x2=\"436\" y2=\"255\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text font-size=\"16.15\" x=\"308\" y=\"266\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-weight=\"400\" fill=\"#5C575E\">d₂</text></svg></span><p>Bestäm avståndet mellan väggarna.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd mellan väggarna: \\(D=d_1+d_2\\)</p><p>Personen står mellan väggarna. Därför adderar vi avstånden till dem.</p><div class=\"facit-matte\">\\[\\begin{aligned}D&=340\\cdot0{,}40/2+340\\cdot1{,}10/2\\\\&=255\\ \\mathrm m\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(255\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Vilken väg färdas ljudet innan ett eko når personen?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
-      }],
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Ljudets fart är 340 m/s."
+      }
+    ],
     "miniräknare": true,
     "geogebra": false,
     "omrTidigare": "hastighet"
@@ -11525,40 +11532,45 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett fartyg mäter havsdjupet med ekolod. En ljudpuls skickas rakt nedåt och ekot är tillbaka efter 0,80 sekunder. Ljudets fart i vatten är 1500 m/s.</p><span class=\"fig\"><svg height=\"250\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 28.571 500.000 201.429\"><rect x=\"15\" y=\"70\" width=\"470\" height=\"150\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"70\" x2=\"485\" y2=\"70\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 190 70 L 310 70 L 292 40 L 208 40 Z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">ekolod</text><path d=\"M 15 205 Q 120 190 210 208 T 485 198\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"4\"/><line x1=\"232\" y1=\"74\" x2=\"232\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"268\" y1=\"196\" x2=\"268\" y2=\"74\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"232\" y1=\"120\" x2=\"232\" y2=\"180\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"232.00,190.00 227.40,180.00 236.60,180.00\" fill=\"#2A5D9E\"/><line x1=\"268\" y1=\"150\" x2=\"268\" y2=\"94\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"268.00,84.00 272.60,94.00 263.40,94.00\" fill=\"#2A5D9E\"/><line x1=\"360\" y1=\"70\" x2=\"360\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"70\" x2=\"365\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"200\" x2=\"365\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"368\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span>",
-    "spelDelar": [{
+    "spelIntro": "<p>Ett fartyg mäter havsdjupet med ekolod. En ljudpuls skickas rakt nedåt och ekot är tillbaka efter 0,80 sekunder.</p><span class=\"fig\"><svg height=\"250\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 28.571 500.000 201.429\"><rect x=\"15\" y=\"70\" width=\"470\" height=\"150\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"70\" x2=\"485\" y2=\"70\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 190 70 L 310 70 L 292 40 L 208 40 Z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">ekolod</text><path d=\"M 15 205 Q 120 190 210 208 T 485 198\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"4\"/><line x1=\"232\" y1=\"74\" x2=\"232\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"268\" y1=\"196\" x2=\"268\" y2=\"74\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"232\" y1=\"120\" x2=\"232\" y2=\"180\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"232.00,190.00 227.40,180.00 236.60,180.00\" fill=\"#2A5D9E\"/><line x1=\"268\" y1=\"150\" x2=\"268\" y2=\"94\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"268.00,84.00 272.60,94.00 263.40,94.00\" fill=\"#2A5D9E\"/><line x1=\"360\" y1=\"70\" x2=\"360\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"70\" x2=\"365\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"200\" x2=\"365\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"368\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur långt färdas ljudet på 0,80 s?",
-        "t": "<p>Ett fartyg mäter havsdjupet med ekolod. En ljudpuls skickas rakt nedåt och ekot är tillbaka efter 0,80 sekunder. Ljudets fart i vatten är 1500 m/s.</p><span class=\"fig\"><svg height=\"250\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 28.571 500.000 201.429\"><rect x=\"15\" y=\"70\" width=\"470\" height=\"150\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"70\" x2=\"485\" y2=\"70\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 190 70 L 310 70 L 292 40 L 208 40 Z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">ekolod</text><path d=\"M 15 205 Q 120 190 210 208 T 485 198\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"4\"/><line x1=\"232\" y1=\"74\" x2=\"232\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"268\" y1=\"196\" x2=\"268\" y2=\"74\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"232\" y1=\"120\" x2=\"232\" y2=\"180\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"232.00,190.00 227.40,180.00 236.60,180.00\" fill=\"#2A5D9E\"/><line x1=\"268\" y1=\"150\" x2=\"268\" y2=\"94\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"268.00,84.00 272.60,94.00 263.40,94.00\" fill=\"#2A5D9E\"/><line x1=\"360\" y1=\"70\" x2=\"360\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"70\" x2=\"365\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"200\" x2=\"365\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"368\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span><p>Hur långt färdas ljudet på 0,80 s?</p>",
+        "t": "<p>Ett fartyg mäter havsdjupet med ekolod. En ljudpuls skickas rakt nedåt och ekot är tillbaka efter 0,80 sekunder.</p><span class=\"fig\"><svg height=\"250\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 28.571 500.000 201.429\"><rect x=\"15\" y=\"70\" width=\"470\" height=\"150\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"70\" x2=\"485\" y2=\"70\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 190 70 L 310 70 L 292 40 L 208 40 Z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">ekolod</text><path d=\"M 15 205 Q 120 190 210 208 T 485 198\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"4\"/><line x1=\"232\" y1=\"74\" x2=\"232\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"268\" y1=\"196\" x2=\"268\" y2=\"74\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"232\" y1=\"120\" x2=\"232\" y2=\"180\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"232.00,190.00 227.40,180.00 236.60,180.00\" fill=\"#2A5D9E\"/><line x1=\"268\" y1=\"150\" x2=\"268\" y2=\"94\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"268.00,84.00 272.60,94.00 263.40,94.00\" fill=\"#2A5D9E\"/><line x1=\"360\" y1=\"70\" x2=\"360\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"70\" x2=\"365\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"200\" x2=\"365\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"368\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span><p>Hur långt färdas ljudet på 0,80 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sträcka vid konstant fart: \\(s=vt\\)</p><p>Här efterfrågas hela ljudsträckan, både ned och upp.</p><div class=\"facit-matte\">\\[s=1500\\cdot0{,}80=1200\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1200\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Ljudpulsen ska både nå botten och återvända till fartyget.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Ljudets fart i vatten är 1500 m/s."
       },
       {
         "etikett": "b",
         "fraga": "Hur stort är djupet i m?",
-        "t": "<p>Ett fartyg mäter havsdjupet med ekolod. En ljudpuls skickas rakt nedåt och ekot är tillbaka efter 0,80 sekunder. Ljudets fart i vatten är 1500 m/s.</p><span class=\"fig\"><svg height=\"250\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 28.571 500.000 201.429\"><rect x=\"15\" y=\"70\" width=\"470\" height=\"150\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"70\" x2=\"485\" y2=\"70\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 190 70 L 310 70 L 292 40 L 208 40 Z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">ekolod</text><path d=\"M 15 205 Q 120 190 210 208 T 485 198\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"4\"/><line x1=\"232\" y1=\"74\" x2=\"232\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"268\" y1=\"196\" x2=\"268\" y2=\"74\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"232\" y1=\"120\" x2=\"232\" y2=\"180\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"232.00,190.00 227.40,180.00 236.60,180.00\" fill=\"#2A5D9E\"/><line x1=\"268\" y1=\"150\" x2=\"268\" y2=\"94\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"268.00,84.00 272.60,94.00 263.40,94.00\" fill=\"#2A5D9E\"/><line x1=\"360\" y1=\"70\" x2=\"360\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"70\" x2=\"365\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"200\" x2=\"365\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"368\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span><p>Hur stort är djupet i m?</p>",
+        "t": "<p>Ett fartyg mäter havsdjupet med ekolod. En ljudpuls skickas rakt nedåt och ekot är tillbaka efter 0,80 sekunder.</p><span class=\"fig\"><svg height=\"250\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 28.571 500.000 201.429\"><rect x=\"15\" y=\"70\" width=\"470\" height=\"150\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"70\" x2=\"485\" y2=\"70\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 190 70 L 310 70 L 292 40 L 208 40 Z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">ekolod</text><path d=\"M 15 205 Q 120 190 210 208 T 485 198\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"4\"/><line x1=\"232\" y1=\"74\" x2=\"232\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"268\" y1=\"196\" x2=\"268\" y2=\"74\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"232\" y1=\"120\" x2=\"232\" y2=\"180\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"232.00,190.00 227.40,180.00 236.60,180.00\" fill=\"#2A5D9E\"/><line x1=\"268\" y1=\"150\" x2=\"268\" y2=\"94\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"268.00,84.00 272.60,94.00 263.40,94.00\" fill=\"#2A5D9E\"/><line x1=\"360\" y1=\"70\" x2=\"360\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"70\" x2=\"365\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"200\" x2=\"365\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"368\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span><p>Hur stort är djupet i m?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Eko: \\(2d=vt\\)</p><p>Ljudet går till bottnen och tillbaka, så djupet är halva ljudsträckan.</p><div class=\"facit-matte\">\\[d=1500\\cdot0{,}80/2=600\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(600\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Ljudpulsen ska både nå botten och återvända till fartyget.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Ljudets fart i vatten är 1500 m/s."
       },
       {
         "etikett": "c",
         "fraga": "Vilket djup motsvarar en ekotid på 0,20 s?",
-        "t": "<p>Ett fartyg mäter havsdjupet med ekolod. En ljudpuls skickas rakt nedåt och ekot är tillbaka efter 0,80 sekunder. Ljudets fart i vatten är 1500 m/s.</p><span class=\"fig\"><svg height=\"250\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 28.571 500.000 201.429\"><rect x=\"15\" y=\"70\" width=\"470\" height=\"150\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"70\" x2=\"485\" y2=\"70\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 190 70 L 310 70 L 292 40 L 208 40 Z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">ekolod</text><path d=\"M 15 205 Q 120 190 210 208 T 485 198\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"4\"/><line x1=\"232\" y1=\"74\" x2=\"232\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"268\" y1=\"196\" x2=\"268\" y2=\"74\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"232\" y1=\"120\" x2=\"232\" y2=\"180\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"232.00,190.00 227.40,180.00 236.60,180.00\" fill=\"#2A5D9E\"/><line x1=\"268\" y1=\"150\" x2=\"268\" y2=\"94\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"268.00,84.00 272.60,94.00 263.40,94.00\" fill=\"#2A5D9E\"/><line x1=\"360\" y1=\"70\" x2=\"360\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"70\" x2=\"365\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"200\" x2=\"365\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"368\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span><p>Vilket djup motsvarar en ekotid på 0,20 s?</p>",
+        "t": "<p>Ett fartyg mäter havsdjupet med ekolod. En ljudpuls skickas rakt nedåt och ekot är tillbaka efter 0,80 sekunder.</p><span class=\"fig\"><svg height=\"250\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 28.571 500.000 201.429\"><rect x=\"15\" y=\"70\" width=\"470\" height=\"150\" fill=\"#DCE6F2\"/><line x1=\"15\" y1=\"70\" x2=\"485\" y2=\"70\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 190 70 L 310 70 L 292 40 L 208 40 Z\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"600\" fill=\"#2B2527\">ekolod</text><path d=\"M 15 205 Q 120 190 210 208 T 485 198\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"4\"/><line x1=\"232\" y1=\"74\" x2=\"232\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"268\" y1=\"196\" x2=\"268\" y2=\"74\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"6 5\"/><line x1=\"232\" y1=\"120\" x2=\"232\" y2=\"180\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"232.00,190.00 227.40,180.00 236.60,180.00\" fill=\"#2A5D9E\"/><line x1=\"268\" y1=\"150\" x2=\"268\" y2=\"94\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"268.00,84.00 272.60,94.00 263.40,94.00\" fill=\"#2A5D9E\"/><line x1=\"360\" y1=\"70\" x2=\"360\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"70\" x2=\"365\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"355\" y1=\"200\" x2=\"365\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"368\" y=\"139\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"15\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span><p>Vilket djup motsvarar en ekotid på 0,20 s?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Eko: \\(2d=vt\\)</p><p>Den nya ekotiden är också tiden för en resa tur och retur.</p><div class=\"facit-matte\">\\[d=1500\\cdot0{,}20/2=150\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(150\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Ljudpulsen ska både nå botten och återvända till fartyget.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
-      }],
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Ljudets fart i vatten är 1500 m/s."
+      }
+    ],
     "miniräknare": true,
     "geogebra": false,
     "omrTidigare": "hastighet"
@@ -14302,40 +14314,45 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En fladdermus skickar ut ett ljud och hör ekot från en insekt 12 millisekunder senare. Ljudets fart i luft är 340 m/s.</p><span class=\"fig\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.000 19.286 323.571 109.286\"><path d=\"M 100 70 Q 130 40 160 70 Q 150 88 130 92 Q 110 88 100 70 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"130\" cy=\"78\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"130\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">fladdermus</text><ellipse cx=\"380\" cy=\"78\" rx=\"14\" ry=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"380\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">insekt</text><path d=\"M 176 62 Q 187 52 198 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 202 62 Q 213 52 224 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 228 62 Q 239 52 250 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 254 62 Q 265 52 276 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 280 62 Q 291 52 302 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 306 62 Q 317 52 328 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 332 62 Q 343 52 354 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"176\" y1=\"44\" x2=\"338\" y2=\"44\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"348.00,44.00 338.00,48.60 338.00,39.40\" fill=\"#2A5D9E\"/><line x1=\"348\" y1=\"100\" x2=\"186\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,100.00 186.00,95.40 186.00,104.60\" fill=\"#9A959C\"/><text x=\"262\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">utsänt ljud</text><text x=\"262\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">eko</text></svg></span><p>Bortse från djurens förflyttning under ekots restid.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En fladdermus skickar ut ett ljud och hör ekot från en insekt 12 millisekunder senare.</p><span class=\"fig\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.000 19.286 323.571 109.286\"><path d=\"M 100 70 Q 130 40 160 70 Q 150 88 130 92 Q 110 88 100 70 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"130\" cy=\"78\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"130\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">fladdermus</text><ellipse cx=\"380\" cy=\"78\" rx=\"14\" ry=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"380\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">insekt</text><path d=\"M 176 62 Q 187 52 198 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 202 62 Q 213 52 224 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 228 62 Q 239 52 250 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 254 62 Q 265 52 276 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 280 62 Q 291 52 302 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 306 62 Q 317 52 328 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 332 62 Q 343 52 354 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"176\" y1=\"44\" x2=\"338\" y2=\"44\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"348.00,44.00 338.00,48.60 338.00,39.40\" fill=\"#2A5D9E\"/><line x1=\"348\" y1=\"100\" x2=\"186\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,100.00 186.00,95.40 186.00,104.60\" fill=\"#9A959C\"/><text x=\"262\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">utsänt ljud</text><text x=\"262\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">eko</text></svg></span><p>Bortse från djurens förflyttning under ekots restid.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Skriv ekotiden i s.",
-        "t": "<p>En fladdermus skickar ut ett ljud och hör ekot från en insekt 12 millisekunder senare. Ljudets fart i luft är 340 m/s.</p><span class=\"fig\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.000 19.286 323.571 109.286\"><path d=\"M 100 70 Q 130 40 160 70 Q 150 88 130 92 Q 110 88 100 70 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"130\" cy=\"78\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"130\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">fladdermus</text><ellipse cx=\"380\" cy=\"78\" rx=\"14\" ry=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"380\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">insekt</text><path d=\"M 176 62 Q 187 52 198 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 202 62 Q 213 52 224 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 228 62 Q 239 52 250 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 254 62 Q 265 52 276 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 280 62 Q 291 52 302 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 306 62 Q 317 52 328 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 332 62 Q 343 52 354 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"176\" y1=\"44\" x2=\"338\" y2=\"44\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"348.00,44.00 338.00,48.60 338.00,39.40\" fill=\"#2A5D9E\"/><line x1=\"348\" y1=\"100\" x2=\"186\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,100.00 186.00,95.40 186.00,104.60\" fill=\"#9A959C\"/><text x=\"262\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">utsänt ljud</text><text x=\"262\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">eko</text></svg></span><p>Bortse från djurens förflyttning under ekots restid.</p><p>Skriv ekotiden i s.</p>",
+        "t": "<p>En fladdermus skickar ut ett ljud och hör ekot från en insekt 12 millisekunder senare.</p><span class=\"fig\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.000 19.286 323.571 109.286\"><path d=\"M 100 70 Q 130 40 160 70 Q 150 88 130 92 Q 110 88 100 70 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"130\" cy=\"78\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"130\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">fladdermus</text><ellipse cx=\"380\" cy=\"78\" rx=\"14\" ry=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"380\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">insekt</text><path d=\"M 176 62 Q 187 52 198 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 202 62 Q 213 52 224 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 228 62 Q 239 52 250 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 254 62 Q 265 52 276 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 280 62 Q 291 52 302 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 306 62 Q 317 52 328 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 332 62 Q 343 52 354 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"176\" y1=\"44\" x2=\"338\" y2=\"44\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"348.00,44.00 338.00,48.60 338.00,39.40\" fill=\"#2A5D9E\"/><line x1=\"348\" y1=\"100\" x2=\"186\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,100.00 186.00,95.40 186.00,104.60\" fill=\"#9A959C\"/><text x=\"262\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">utsänt ljud</text><text x=\"262\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">eko</text></svg></span><p>Bortse från djurens förflyttning under ekots restid.</p><p>Skriv ekotiden i s.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tidsprefix: \\(1\\ \\mathrm{ms}=10^{-3}\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[t=12\\cdot10^{-3}=0{,}012\\ \\mathrm s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}012\\ \\mathrm s\\).</p></div>",
         "ledtrad": "<p>Millisekunder är tusendels sekunder. Följ ljudets väg till insekten och tillbaka.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Ljudets fart i luft är 340 m/s."
       },
       {
         "etikett": "b",
         "fraga": "Hur långt färdas ljudet under ekotiden?",
-        "t": "<p>En fladdermus skickar ut ett ljud och hör ekot från en insekt 12 millisekunder senare. Ljudets fart i luft är 340 m/s.</p><span class=\"fig\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.000 19.286 323.571 109.286\"><path d=\"M 100 70 Q 130 40 160 70 Q 150 88 130 92 Q 110 88 100 70 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"130\" cy=\"78\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"130\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">fladdermus</text><ellipse cx=\"380\" cy=\"78\" rx=\"14\" ry=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"380\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">insekt</text><path d=\"M 176 62 Q 187 52 198 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 202 62 Q 213 52 224 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 228 62 Q 239 52 250 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 254 62 Q 265 52 276 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 280 62 Q 291 52 302 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 306 62 Q 317 52 328 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 332 62 Q 343 52 354 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"176\" y1=\"44\" x2=\"338\" y2=\"44\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"348.00,44.00 338.00,48.60 338.00,39.40\" fill=\"#2A5D9E\"/><line x1=\"348\" y1=\"100\" x2=\"186\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,100.00 186.00,95.40 186.00,104.60\" fill=\"#9A959C\"/><text x=\"262\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">utsänt ljud</text><text x=\"262\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">eko</text></svg></span><p>Bortse från djurens förflyttning under ekots restid.</p><p>Hur långt färdas ljudet under ekotiden?</p>",
+        "t": "<p>En fladdermus skickar ut ett ljud och hör ekot från en insekt 12 millisekunder senare.</p><span class=\"fig\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.000 19.286 323.571 109.286\"><path d=\"M 100 70 Q 130 40 160 70 Q 150 88 130 92 Q 110 88 100 70 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"130\" cy=\"78\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"130\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">fladdermus</text><ellipse cx=\"380\" cy=\"78\" rx=\"14\" ry=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"380\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">insekt</text><path d=\"M 176 62 Q 187 52 198 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 202 62 Q 213 52 224 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 228 62 Q 239 52 250 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 254 62 Q 265 52 276 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 280 62 Q 291 52 302 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 306 62 Q 317 52 328 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 332 62 Q 343 52 354 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"176\" y1=\"44\" x2=\"338\" y2=\"44\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"348.00,44.00 338.00,48.60 338.00,39.40\" fill=\"#2A5D9E\"/><line x1=\"348\" y1=\"100\" x2=\"186\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,100.00 186.00,95.40 186.00,104.60\" fill=\"#9A959C\"/><text x=\"262\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">utsänt ljud</text><text x=\"262\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">eko</text></svg></span><p>Bortse från djurens förflyttning under ekots restid.</p><p>Hur långt färdas ljudet under ekotiden?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sträcka vid konstant fart: \\(s=vt\\)</p><p>12 ms är 0,012 s. Det här är ljudets hela sträcka tur och retur.</p><div class=\"facit-matte\">\\[s=340\\cdot0{,}012=4{,}08\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}08\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Millisekunder är tusendels sekunder. Följ ljudets väg till insekten och tillbaka.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Ljudets fart i luft är 340 m/s."
       },
       {
         "etikett": "c",
         "fraga": "Hur långt bort är insekten?",
-        "t": "<p>En fladdermus skickar ut ett ljud och hör ekot från en insekt 12 millisekunder senare. Ljudets fart i luft är 340 m/s.</p><span class=\"fig\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.000 19.286 323.571 109.286\"><path d=\"M 100 70 Q 130 40 160 70 Q 150 88 130 92 Q 110 88 100 70 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"130\" cy=\"78\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"130\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">fladdermus</text><ellipse cx=\"380\" cy=\"78\" rx=\"14\" ry=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"380\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">insekt</text><path d=\"M 176 62 Q 187 52 198 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 202 62 Q 213 52 224 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 228 62 Q 239 52 250 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 254 62 Q 265 52 276 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 280 62 Q 291 52 302 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 306 62 Q 317 52 328 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 332 62 Q 343 52 354 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"176\" y1=\"44\" x2=\"338\" y2=\"44\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"348.00,44.00 338.00,48.60 338.00,39.40\" fill=\"#2A5D9E\"/><line x1=\"348\" y1=\"100\" x2=\"186\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,100.00 186.00,95.40 186.00,104.60\" fill=\"#9A959C\"/><text x=\"262\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">utsänt ljud</text><text x=\"262\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">eko</text></svg></span><p>Bortse från djurens förflyttning under ekots restid.</p><p>Hur långt bort är insekten?</p>",
+        "t": "<p>En fladdermus skickar ut ett ljud och hör ekot från en insekt 12 millisekunder senare.</p><span class=\"fig\"><svg height=\"209\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"85.000 19.286 323.571 109.286\"><path d=\"M 100 70 Q 130 40 160 70 Q 150 88 130 92 Q 110 88 100 70 Z\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"130\" cy=\"78\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"130\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">fladdermus</text><ellipse cx=\"380\" cy=\"78\" rx=\"14\" ry=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"380\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">insekt</text><path d=\"M 176 62 Q 187 52 198 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 202 62 Q 213 52 224 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 228 62 Q 239 52 250 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 254 62 Q 265 52 276 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 280 62 Q 291 52 302 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 306 62 Q 317 52 328 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><path d=\"M 332 62 Q 343 52 354 62\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"176\" y1=\"44\" x2=\"338\" y2=\"44\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"348.00,44.00 338.00,48.60 338.00,39.40\" fill=\"#2A5D9E\"/><line x1=\"348\" y1=\"100\" x2=\"186\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"176.00,100.00 186.00,95.40 186.00,104.60\" fill=\"#9A959C\"/><text x=\"262\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">utsänt ljud</text><text x=\"262\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">eko</text></svg></span><p>Bortse från djurens förflyttning under ekots restid.</p><p>Hur långt bort är insekten?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Eko: \\(2d=vt\\)</p><p>Avståndet till insekten är halva ljudets sträcka eftersom ekot ska tillbaka.</p><div class=\"facit-matte\">\\[d=340\\cdot0{,}012/2=2{,}04\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}04\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Millisekunder är tusendels sekunder. Följ ljudets väg till insekten och tillbaka.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
-      }],
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Ljudets fart i luft är 340 m/s."
+      }
+    ],
     "miniräknare": true,
     "geogebra": false,
     "omrTidigare": "hastighet"
@@ -34631,40 +34648,43 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En astronaut väger 65 kg och reser från jorden till månen. Tyngdaccelerationen är 1,62 m/s² på månen.</p>",
+    "spelIntro": "<p>En astronaut väger 65 kg och reser från jorden till månen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är tyngdkraften på astronauten på månen?",
-        "t": "<p>En astronaut väger 65 kg och reser från jorden till månen. Tyngdaccelerationen är 1,62 m/s² på månen.</p><p>Hur stor är tyngdkraften på astronauten på månen?</p>",
+        "t": "<p>En astronaut väger 65 kg och reser från jorden till månen.</p><p>Hur stor är tyngdkraften på astronauten på månen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med månens g</p><div class=\"facit-matte\">\\[F_M=65\\cdot1{,}62=105{,}3\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 105,3 N.</p></div>",
         "ledtrad": "<p>Använd det g-värde som gäller på månen.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Tyngdaccelerationen är 1,62 m/s² på månen."
       },
       {
         "etikett": "b",
         "fraga": "Hur stor är tyngdkraften på astronauten på jorden?",
-        "t": "<p>En astronaut väger 65 kg och reser från jorden till månen. Tyngdaccelerationen är 1,62 m/s² på månen.</p><p>Hur stor är tyngdkraften på astronauten på jorden?</p>",
+        "t": "<p>En astronaut väger 65 kg och reser från jorden till månen.</p><p>Hur stor är tyngdkraften på astronauten på jorden?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med jordens g</p><div class=\"facit-matte\">\\[F_J=65\\cdot9{,}82=638{,}3\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 638,3 N.</p></div>",
         "ledtrad": "<p>Använd det g-värde som gäller på jorden.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Tyngdaccelerationen är 1,62 m/s² på månen."
       },
       {
         "etikett": "c",
         "fraga": "Hur stor massa har astronauten på månen?",
-        "t": "<p>En astronaut väger 65 kg och reser från jorden till månen. Tyngdaccelerationen är 1,62 m/s² på månen.</p><p>Hur stor massa har astronauten på månen?</p>",
+        "t": "<p>En astronaut väger 65 kg och reser från jorden till månen.</p><p>Hur stor massa har astronauten på månen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massan är densamma överallt: \\(m_1=m_2\\)</p><p>Förflyttningen ändrar tyngdkraften men inte massan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 65 kg.</p></div>",
         "ledtrad": "<p>Skilj mellan massa och tyngdkraft.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Tyngdaccelerationen är 1,62 m/s² på månen."
       }
     ],
     "typfamilj": "Massa och tyngd på olika platser",
@@ -34879,29 +34899,31 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En robot som väger 78 kg skickas till Mars. Tyngdaccelerationen är 3,71 m/s² på Mars.</p>",
+    "spelIntro": "<p>En robot som väger 78 kg skickas till Mars.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är tyngdkraften på roboten?",
-        "t": "<p>En robot som väger 78 kg skickas till Mars. Tyngdaccelerationen är 3,71 m/s² på Mars.</p><p>Hur stor är tyngdkraften på roboten?</p>",
+        "t": "<p>En robot som väger 78 kg skickas till Mars.</p><p>Hur stor är tyngdkraften på roboten?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tyngdkraft: \\(F_g=mg\\) med Mars g</p><div class=\"facit-matte\">\\[F_g=78\\cdot3{,}71=289{,}38\\ \\mathrm N\\]</div><p>78 kg är massan. Tyngdkraften mäts i newton.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 290 N (två värdesiffror).</p></div>",
         "ledtrad": "<p>Vilket samband kopplar ihop massan, tyngdaccelerationen och tyngdkraften?</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Tyngdaccelerationen är 3,71 m/s² på Mars."
       },
       {
         "etikett": "b",
         "fraga": "Hur många gånger större är tyngdkraften på roboten på jorden än på Mars?",
-        "t": "<p>En robot som väger 78 kg skickas till Mars. Tyngdaccelerationen är 3,71 m/s² på Mars.</p><p>Hur många gånger större är tyngdkraften på roboten på jorden än på Mars?</p>",
+        "t": "<p>En robot som väger 78 kg skickas till Mars.</p><p>Hur många gånger större är tyngdkraften på roboten på jorden än på Mars?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvoten mellan tyngdkrafterna: \\(\\dfrac{mg_J}{mg_M}=\\dfrac{g_J}{g_M}\\)</p><div class=\"facit-matte\">\\[\\frac{78\\cdot9{,}82}{78\\cdot3{,}71}=\\frac{9{,}82}{3{,}71}\\approx2{,}65\\]</div><p>Massan tar ut sig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,65.</p></div>",
         "ledtrad": "<p>Vilken kraft ska stå i täljaren när du bildar jämförelsekvoten?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "kgInstruktion": "Tyngdaccelerationen är 3,71 m/s² på Mars."
       }
     ],
     "typ": "jämföra tyngdkraft",
@@ -76047,8 +76069,9 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>1,8 kg vatten vid 18 °C ska värmas till 100 °C och sedan förångas. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>1,8 kg vatten vid 18 °C ska värmas till 100 °C och sedan förångas.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi behövs för uppvärmningen?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 100 − 18 = 82 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=1{,}8\\cdot4{,}18\\cdot82\\\\ &=616{,}968\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(617\\,\\mathrm{kJ}\\).</p></div>",
@@ -76056,8 +76079,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>1,8 kg vatten värms från 18 °C till 100 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi behövs för uppvärmningen?</p>",
-        "arbetsinsats": 2
+        "t": "<p>1,8 kg vatten värms från 18 °C till 100 °C.</p><p>Hur mycket energi behövs för uppvärmningen?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K)."
       },
       {
         "etikett": "b",
@@ -76067,9 +76091,11 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>1,8 kg vatten vid 100 °C ska förångas. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi behövs för förångningen?</p>",
-        "arbetsinsats": 2
-      }],
+        "t": "<p>1,8 kg vatten vid 100 °C ska förångas.</p><p>Hur mycket energi behövs för förångningen?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets ångbildningsvärme är 2260 kJ/kg."
+      }
+    ],
     "familjTidigare": [
       "Energikedjor med fasövergång"
     ],
@@ -76479,8 +76505,9 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En dusch ger 12 liter vatten per minut och pågår i 8 minuter. Vattnet värms från 10 °C till 40 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Elpriset är 2,50 kr/kWh. Antag att all elenergi värmer vattnet.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En dusch ger 12 liter vatten per minut och pågår i 8 minuter. Vattnet värms från 10 °C till 40 °C. Elpriset är 2,50 kr/kWh. Antag att all elenergi värmer vattnet.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi tar vattnet upp?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 30 K.</p>\\[Q=96\\cdot4180\\cdot30=12038400\\,\\mathrm J\\]<p>1 kWh = 3 600 000 J.</p>\\[Q=\\frac{12038400}{3600000}=3{,}344\\,\\mathrm{kWh}\\]<p><strong>Svar:</strong> \\(3{,}34\\,\\mathrm{kWh}\\).</p></div>",
@@ -76488,8 +76515,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>96 kg duschvatten värms från 10 °C till 40 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp?</p>",
-        "arbetsinsats": 2
+        "t": "<p>96 kg duschvatten värms från 10 °C till 40 °C.</p><p>Hur mycket energi tar vattnet upp?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
@@ -76512,7 +76540,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>Vattnet till en dusch kostar 1,045 kr per minut att värma. Duschtiden minskas från 8 till 5 minuter varje dag.</p><p>Hur mycket sparas på 365 dagar?</p>",
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "familjTidigare": [
       "Värmeenergi i vardagen"
     ],
@@ -76784,8 +76813,9 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En värmare överför 150 W till 0,080 kg is vid −6,0 °C tills all is har smält. Isens specifika värmekapacitet är 2,10 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"650\" height=\"190\" viewBox=\"0 0 650 190\" role=\"img\" aria-label=\"Tre steg från kall is till smält vatten\"><rect width=\"650\" height=\"190\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"45\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#d9edf7\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"252\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#e9f3f8\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"459\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#bfe2f2\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M195 94 H242\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M235 84 L250 94 L235 104\" fill=\"#b85735\"/><path d=\"M402 94 H449\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M442 84 L457 94 L442 104\" fill=\"#b85735\"/><text x=\"118\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"21.33\" fill=\"#304657\">is −6 °C</text><text x=\"118\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18.96\" fill=\"#304657\">värms</text><text x=\"325\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"21.33\" fill=\"#304657\">is 0 °C</text><text x=\"325\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18.96\" fill=\"#304657\">smälter</text><text x=\"532\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"21.33\" fill=\"#304657\">vatten 0 °C</text><text x=\"325\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.14\" fill=\"#8f472f\">150 W tillförs</text></svg>",
-    "spelDelar": [{
+    "spelIntro": "<p>En värmare överför 150 W till 0,080 kg is vid −6,0 °C tills all is har smält.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"650\" height=\"190\" viewBox=\"0 0 650 190\" role=\"img\" aria-label=\"Tre steg från kall is till smält vatten\"><rect width=\"650\" height=\"190\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"45\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#d9edf7\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"252\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#e9f3f8\" stroke=\"#35505f\" stroke-width=\"3\"/><rect x=\"459\" y=\"58\" width=\"145\" height=\"72\" rx=\"12\" fill=\"#bfe2f2\" stroke=\"#35505f\" stroke-width=\"3\"/><path d=\"M195 94 H242\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M235 84 L250 94 L235 104\" fill=\"#b85735\"/><path d=\"M402 94 H449\" stroke=\"#b85735\" stroke-width=\"5\"/><path d=\"M442 84 L457 94 L442 104\" fill=\"#b85735\"/><text x=\"118\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"21.33\" fill=\"#304657\">is −6 °C</text><text x=\"118\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18.96\" fill=\"#304657\">värms</text><text x=\"325\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"21.33\" fill=\"#304657\">is 0 °C</text><text x=\"325\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"18.96\" fill=\"#304657\">smälter</text><text x=\"532\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"21.33\" fill=\"#304657\">vatten 0 °C</text><text x=\"325\" y=\"163\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.14\" fill=\"#8f472f\">150 W tillförs</text></svg>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi behövs för uppvärmningen?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Isen värms 6 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}08\\cdot2{,}1\\cdot6\\\\ &=1{,}008\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(1{,}01\\,\\mathrm{kJ}\\).</p></div>",
@@ -76793,8 +76823,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>0,080 kg is värms från −6,0 °C till 0 °C. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><p>Hur mycket energi behövs för uppvärmningen?</p>",
-        "arbetsinsats": 2
+        "t": "<p>0,080 kg is värms från −6,0 °C till 0 °C.</p><p>Hur mycket energi behövs för uppvärmningen?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Isens specifika värmekapacitet är 2,10 kJ/(kg·K)."
       },
       {
         "etikett": "b",
@@ -76804,8 +76835,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "(1/0/0)",
-        "t": "<p>0,080 kg is vid 0 °C ska smälta. Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi behövs för smältningen?</p>",
-        "arbetsinsats": 1
+        "t": "<p>0,080 kg is vid 0 °C ska smälta.</p><p>Hur mycket energi behövs för smältningen?</p>",
+        "arbetsinsats": 1,
+        "kgInstruktion": "Isens smältvärme är 334 kJ/kg."
       },
       {
         "etikett": "c",
@@ -76817,7 +76849,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>Det behövs 1,008 kJ för att värma en isbit till 0 °C och 26,72 kJ för att smälta den. Värmaren överför 150 W till isen.</p><p>Hur lång tid tar uppvärmningen och smältningen tillsammans?</p>",
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "familjTidigare": [
       "Effekt och verkningsgrad vid fasövergång"
     ],
@@ -77257,8 +77290,9 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>5,0 g vattenånga kondenserar på ett glas. All energi från kondensationen tas upp av 0,200 kg dryck. Vattnets ångbildningsvärme är 2260 kJ/kg. Dryckens specifika värmekapacitet är 4,18 kJ/(kg·K).</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>5,0 g vattenånga kondenserar på ett glas. All energi från kondensationen tas upp av 0,200 kg dryck. Dryckens specifika värmekapacitet är 4,18 kJ/(kg·K).</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi avges?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>5,0 g = 0,0050 kg.</p>\\[\\begin{aligned}&Q=mL_v=0{,}005\\cdot2260\\\\ &=11{,}3\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(11{,}3\\,\\mathrm{kJ}\\).</p></div>",
@@ -77266,8 +77300,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>5,0 g vattenånga blir vatten med samma temperatur. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi avges?</p>",
-        "arbetsinsats": 2
+        "t": "<p>5,0 g vattenånga blir vatten med samma temperatur.</p><p>Hur mycket energi avges?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets ångbildningsvärme är 2260 kJ/kg."
       },
       {
         "etikett": "b",
@@ -77279,7 +77314,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>0,200 kg dryck tar upp 11,3 kJ. Dess specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket ökar dryckens temperatur?</p>",
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "familjTidigare": [
       "Kondensation och energiöverföring"
     ],
@@ -77566,8 +77602,9 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>2,0 kg aluminium värms från 20 °C till smältpunkten 660 °C och smälter. Aluminiumets specifika värmekapacitet är 0,900 kJ/(kg·K) och smältvärmet är 397 kJ/kg.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>2,0 kg aluminium värms från 20 °C till smältpunkten 660 °C och smälter.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi behövs för uppvärmningen?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 660 − 20 = 640 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=2\\cdot0{,}9\\cdot640\\\\ &=1152\\,\\mathrm{kJ}\\end{aligned}\\]<p>1152 kJ = 1,152 MJ.</p><p><strong>Svar:</strong> \\(1{,}15\\,\\mathrm{MJ}\\).</p></div>",
@@ -77586,8 +77623,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>2,0 kg aluminium vid 660 °C ska smälta. Aluminiumets smältvärme är 397 kJ/kg.</p><p>Hur mycket energi behövs för smältningen?</p>",
-        "arbetsinsats": 2
+        "t": "<p>2,0 kg aluminium vid 660 °C ska smälta.</p><p>Hur mycket energi behövs för smältningen?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Aluminiumets smältvärme är 397 kJ/kg."
       },
       {
         "etikett": "c",
@@ -77599,7 +77637,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>Aluminium tar upp 1,152 MJ under uppvärmningen och 0,794 MJ när det smälter.</p><p>Hur mycket energi tar det upp totalt?</p>",
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "familjTidigare": [
       "Energikedjor med fasövergång"
     ],
@@ -77687,8 +77726,9 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>80 g silver värms från 20 °C till smältpunkten 962 °C och smälter. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>80 g silver värms från 20 °C till smältpunkten 962 °C och smälter.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi behövs för uppvärmningen?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>80 g = 0,080 kg. Temperaturen ökar 962 − 20 = 942 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}08\\cdot0{,}235\\cdot942\\\\ &=17{,}7096\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(17{,}7\\,\\mathrm{kJ}\\).</p></div>",
@@ -77696,8 +77736,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>80 g silver värms från 20 °C till 962 °C. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K).</p><p>Hur mycket energi behövs för uppvärmningen?</p>",
-        "arbetsinsats": 2
+        "t": "<p>80 g silver värms från 20 °C till 962 °C.</p><p>Hur mycket energi behövs för uppvärmningen?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K)."
       },
       {
         "etikett": "b",
@@ -77707,9 +77748,11 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>80 g silver tar upp 17,7096 kJ för att nå smältpunkten. Silvrets smältvärme är 105 kJ/kg.</p><p>Hur mycket energi behövs totalt för uppvärmning och smältning?</p>",
-        "arbetsinsats": 2
-      }],
+        "t": "<p>80 g silver tar upp 17,7096 kJ för att nå smältpunkten.</p><p>Hur mycket energi behövs totalt för uppvärmning och smältning?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Silvrets smältvärme är 105 kJ/kg."
+      }
+    ],
     "familjTidigare": [
       "Energikedjor med fasövergång"
     ],
@@ -77797,7 +77840,7 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>0,100 kg vatten värms från 20 °C till 100 °C och förångas. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p>",
+    "spelIntro": "<p>0,100 kg vatten värms från 20 °C till 100 °C och förångas.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -77807,8 +77850,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>0,100 kg vatten värms från 20 °C till 100 °C och förångas. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi behövs för uppvärmningen?</p>",
-        "arbetsinsats": 2
+        "t": "<p>0,100 kg vatten värms från 20 °C till 100 °C och förångas.</p><p>Hur mycket energi behövs för uppvärmningen?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg."
       },
       {
         "etikett": "b",
@@ -77818,8 +77862,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>0,100 kg vatten värms från 20 °C till 100 °C och förångas. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Uppvärmningen kräver 33,44 kJ. Hur många gånger större är energin för förångningen än energin för uppvärmningen?</p>",
-        "arbetsinsats": 2
+        "t": "<p>0,100 kg vatten värms från 20 °C till 100 °C och förångas.</p><p>Uppvärmningen kräver 33,44 kJ. Hur många gånger större är energin för förångningen än energin för uppvärmningen?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg."
       }
     ],
     "familjTidigare": [
@@ -78062,8 +78107,9 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>0,80 kg vatten passerar en värmare varje sekund. Vattnets temperatur ökar med 12 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"260\" viewBox=\"0 0 620 260\" role=\"img\" aria-label=\"Vatten genom en värmeväxlare\"><rect width=\"620\" height=\"260\" rx=\"18\" fill=\"#f5f7fa\"/><line x1=\"60\" y1=\"130\" x2=\"215\" y2=\"130\" stroke=\"#2f83aa\" stroke-width=\"16\"/><polygon points=\"215,130 188,112 188,148\" fill=\"#2f83aa\"/><rect x=\"220\" y=\"65\" width=\"180\" height=\"130\" rx=\"12\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><path d=\"M250 105 h120 M250 135 h120 M250 165 h120\" stroke=\"#b75432\" stroke-width=\"8\"/><line x1=\"405\" y1=\"130\" x2=\"560\" y2=\"130\" stroke=\"#b75432\" stroke-width=\"16\"/><polygon points=\"560,130 533,112 533,148\" fill=\"#b75432\"/><text x=\"135\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.34\" fill=\"#2b6f92\">0,80 kg/s</text><text x=\"485\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.34\" fill=\"#a1492d\">12 °C varmare</text><text x=\"310\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"21.47\" fill=\"#344454\">värmeväxlare</text></svg>",
-    "spelDelar": [{
+    "spelIntro": "<p>0,80 kg vatten passerar en värmare varje sekund. Vattnets temperatur ökar med 12 K.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"260\" viewBox=\"0 0 620 260\" role=\"img\" aria-label=\"Vatten genom en värmeväxlare\"><rect width=\"620\" height=\"260\" rx=\"18\" fill=\"#f5f7fa\"/><line x1=\"60\" y1=\"130\" x2=\"215\" y2=\"130\" stroke=\"#2f83aa\" stroke-width=\"16\"/><polygon points=\"215,130 188,112 188,148\" fill=\"#2f83aa\"/><rect x=\"220\" y=\"65\" width=\"180\" height=\"130\" rx=\"12\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><path d=\"M250 105 h120 M250 135 h120 M250 165 h120\" stroke=\"#b75432\" stroke-width=\"8\"/><line x1=\"405\" y1=\"130\" x2=\"560\" y2=\"130\" stroke=\"#b75432\" stroke-width=\"16\"/><polygon points=\"560,130 533,112 533,148\" fill=\"#b75432\"/><text x=\"135\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.34\" fill=\"#2b6f92\">0,80 kg/s</text><text x=\"485\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.34\" fill=\"#a1492d\">12 °C varmare</text><text x=\"310\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"21.47\" fill=\"#344454\">värmeväxlare</text></svg>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Vilken värmeeffekt behövs?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna energin för den mängd vatten som passerar på en sekund.</p>\\[Q=0{,}80\\cdot4180\\cdot12=40128\\,\\mathrm J\\]<p>40 128 J varje sekund motsvarar 40 128 W = 40,128 kW.</p><p><strong>Svar:</strong> \\(40{,}1\\,\\mathrm{kW}\\).</p></div>",
@@ -78071,8 +78117,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>Varje sekund värms 0,80 kg vatten med 12 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Vilken värmeeffekt behövs?</p>",
-        "arbetsinsats": 2
+        "t": "<p>Varje sekund värms 0,80 kg vatten med 12 K.</p><p>Vilken värmeeffekt behövs?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
@@ -78084,7 +78131,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>En värmare överför effekten 40,128 kW till vatten i 1 timme.</p><p>Hur mycket energi tar vattnet upp?</p>",
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "familjTidigare": [
       "Effekt vid uppvärmning"
     ],
@@ -78314,8 +78362,9 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>0,40 kg vatten värms från 18 °C till 90 °C. Värmaren överför effekten 2,0 kW till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>0,40 kg vatten värms från 18 °C till 90 °C. Värmaren överför effekten 2,0 kW till vattnet.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi tar vattnet upp?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 90 − 18 = 72 K.</p>\\[Q=0{,}40\\cdot4180\\cdot72=120384\\,\\mathrm J\\]<p>Dela med 1000 för att få kJ.</p><p><strong>Svar:</strong> \\(120{,}4\\,\\mathrm{kJ}\\).</p></div>",
@@ -78323,8 +78372,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>0,40 kg vatten värms från 18 °C till 90 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp?</p>",
-        "arbetsinsats": 2
+        "t": "<p>0,40 kg vatten värms från 18 °C till 90 °C.</p><p>Hur mycket energi tar vattnet upp?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
@@ -78336,7 +78386,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>En värmare överför effekten 2,0 kW till vatten som ska ta upp 120 384 J.</p><p>Hur lång tid tar det?</p>",
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "familjTidigare": [
       "Effekt vid uppvärmning"
     ],
@@ -78511,8 +78562,9 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bastu rymmer 12 m³ luft med densiteten 1,2 kg/m³. Luften värms 60 K. Luftens specifika värmekapacitet är 1005 J/(kg·K). Antag att effekten 6,0 kW bara värmer luften och att ingen luft byts ut.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En bastu rymmer 12 m³ luft. Luften värms 60 K. Luftens specifika värmekapacitet är 1005 J/(kg·K). Antag att effekten 6,0 kW bara värmer luften och att ingen luft byts ut.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur stor massa har luften? ",
         "s": "<div class=\"facit-v2 facit-stegvis\">\\[m=\\rho V=1{,}2\\cdot12=14{,}4\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(14{,}4\\,\\mathrm{kg}\\).</p></div>",
@@ -78520,8 +78572,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "(1/0/0)",
-        "t": "<p>En bastu rymmer 12 m³ luft. Luftens densitet är 1,2 kg/m³.</p><p>Hur stor massa har luften?</p>",
-        "arbetsinsats": 1
+        "t": "<p>En bastu rymmer 12 m³ luft.</p><p>Hur stor massa har luften?</p>",
+        "arbetsinsats": 1,
+        "kgInstruktion": "Luftens densitet är 1,2 kg/m³."
       },
       {
         "etikett": "b",
@@ -78544,7 +78597,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>En värmare överför effekten 6,0 kW till luft som ska ta upp 868 320 J.</p><p>Hur lång tid tar uppvärmningen?</p>",
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "familjTidigare": [
       "Effekt vid uppvärmning"
     ],
@@ -78638,8 +78692,9 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En motor ger 40 kW nyttig effekt och har verkningsgraden 30 %. Av värmeeffekten går 60 kW till kylvatten som värms 8,0 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"270\" viewBox=\"0 0 620 270\" role=\"img\" aria-label=\"Energiflöden i en bilmotor\"><rect width=\"620\" height=\"270\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"235\" y=\"75\" width=\"150\" height=\"120\" rx=\"16\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"310\" y=\"145\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"23.94\" fill=\"#344454\">motor</text><line x1=\"55\" y1=\"135\" x2=\"225\" y2=\"135\" stroke=\"#d98e26\" stroke-width=\"9\"/><polygon points=\"225,135 199,119 199,151\" fill=\"#d98e26\"/><line x1=\"395\" y1=\"110\" x2=\"565\" y2=\"110\" stroke=\"#2c8765\" stroke-width=\"9\"/><polygon points=\"565,110 539,94 539,126\" fill=\"#2c8765\"/><line x1=\"395\" y1=\"170\" x2=\"565\" y2=\"170\" stroke=\"#b75432\" stroke-width=\"9\"/><polygon points=\"565,170 539,154 539,186\" fill=\"#b75432\"/><text x=\"135\" y=\"105\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.35\" fill=\"#8c5c12\">bränsle</text><text x=\"485\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.35\" fill=\"#2c6f56\">40 kW nyttig</text><text x=\"485\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.35\" fill=\"#a1492d\">spillvärme</text></svg>",
-    "spelDelar": [{
+    "spelIntro": "<p>En motor ger 40 kW nyttig effekt och har verkningsgraden 30 %. Av värmeeffekten går 60 kW till kylvatten som värms 8,0 K.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"620\" height=\"270\" viewBox=\"0 0 620 270\" role=\"img\" aria-label=\"Energiflöden i en bilmotor\"><rect width=\"620\" height=\"270\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"235\" y=\"75\" width=\"150\" height=\"120\" rx=\"16\" fill=\"#eadfc9\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"310\" y=\"145\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"23.94\" fill=\"#344454\">motor</text><line x1=\"55\" y1=\"135\" x2=\"225\" y2=\"135\" stroke=\"#d98e26\" stroke-width=\"9\"/><polygon points=\"225,135 199,119 199,151\" fill=\"#d98e26\"/><line x1=\"395\" y1=\"110\" x2=\"565\" y2=\"110\" stroke=\"#2c8765\" stroke-width=\"9\"/><polygon points=\"565,110 539,94 539,126\" fill=\"#2c8765\"/><line x1=\"395\" y1=\"170\" x2=\"565\" y2=\"170\" stroke=\"#b75432\" stroke-width=\"9\"/><polygon points=\"565,170 539,154 539,186\" fill=\"#b75432\"/><text x=\"135\" y=\"105\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.35\" fill=\"#8c5c12\">bränsle</text><text x=\"485\" y=\"80\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.35\" fill=\"#2c6f56\">40 kW nyttig</text><text x=\"485\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"20.35\" fill=\"#a1492d\">spillvärme</text></svg>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Vilken effekt tillförs motorn?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dividera den nyttiga effekten med andelen som blir nyttig.</p>\\[P_{\\mathrm{in}}=40/0{,}30\\approx133{,}333\\,\\mathrm{kW}\\]<p><strong>Svar:</strong> \\(133{,}3\\,\\mathrm{kW}\\).</p></div>",
@@ -78669,9 +78724,11 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 3,
         "poang": "(1/0/0)",
-        "t": "<p>Kylvatten ska ta upp effekten 60 kW och värmas 8,0 K. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur många kilogram vatten måste passera varje sekund?</p>",
-        "arbetsinsats": 2
-      }],
+        "t": "<p>Kylvatten ska ta upp effekten 60 kW och värmas 8,0 K.</p><p>Hur många kilogram vatten måste passera varje sekund?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
+      }
+    ],
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
     ],
@@ -78818,8 +78875,9 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vatten vid 50 °C står i ett rum som håller 12 °C. När vattnet har fått samma temperatur som rummet har det avgett 120 kJ. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>Vatten vid 50 °C står i ett rum som håller 12 °C. När vattnet har fått samma temperatur som rummet har det avgett 120 kJ.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Vilken temperatur får vattnet till slut?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Värmen överförs tills vattnet har samma temperatur som rummet.</p><p><strong>Svar:</strong> \\(12\\,{}^\\circ\\mathrm C\\).</p></div>",
@@ -78838,9 +78896,11 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>Vatten svalnar från 50 °C till 12 °C och avger 120 kJ. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur stor massa har vattnet?</p>",
-        "arbetsinsats": 2
-      }],
+        "t": "<p>Vatten svalnar från 50 °C till 12 °C och avger 120 kJ.</p><p>Hur stor massa har vattnet?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
+      }
+    ],
     "familjTidigare": [
       "Avsvalning och termisk jämvikt"
     ],
@@ -78926,8 +78986,9 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>15 kg stål svalnar 35 K på 10 minuter. Stålets specifika värmekapacitet är 0,46 kJ/(kg·K).</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>15 kg stål svalnar 35 K på 10 minuter.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi avger stålet?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Alla enheter passar för ett svar direkt i kJ.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=15\\cdot0{,}46\\cdot35=241{,}5\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(241{,}5\\,\\mathrm{kJ}\\).</p></div>",
@@ -78935,8 +78996,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "(1/0/0)",
-        "t": "<p>15 kg stål svalnar 35 K. Stålets specifika värmekapacitet är 0,46 kJ/(kg·K).</p><p>Hur mycket energi avger stålet?</p>",
-        "arbetsinsats": 1
+        "t": "<p>15 kg stål svalnar 35 K.</p><p>Hur mycket energi avger stålet?</p>",
+        "arbetsinsats": 1,
+        "kgInstruktion": "Stålets specifika värmekapacitet är 0,46 kJ/(kg·K)."
       },
       {
         "etikett": "b",
@@ -78948,7 +79010,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>Stål avger 241 500 J på 10 minuter.</p><p>Vilken medeleffekt avges?</p>",
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "familjTidigare": [
       "Effekt vid uppvärmning"
     ],
@@ -79032,8 +79095,9 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>4,0 kg vatten värms från 15 °C till 75 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Samma energimängd används sedan för att lyfta en sten med massan 1200 kg.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>4,0 kg vatten värms från 15 °C till 75 °C. Samma energimängd används sedan för att lyfta en sten med massan 1200 kg.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi tar vattnet upp?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 60 K.</p>\\[Q=4{,}0\\cdot4180\\cdot60=1003200\\,\\mathrm J\\]<p>1 MJ = 1 000 000 J.</p><p><strong>Svar:</strong> \\(1{,}00\\,\\mathrm{MJ}\\).</p></div>",
@@ -79041,8 +79105,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>4,0 kg vatten värms från 15 °C till 75 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp?</p>",
-        "arbetsinsats": 2
+        "t": "<p>4,0 kg vatten värms från 15 °C till 75 °C.</p><p>Hur mycket energi tar vattnet upp?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
@@ -79054,7 +79119,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>En sten har massan 1200 kg. Den lyfts med energin 1 003 200 J. All energi ökar stenens lägesenergi.</p><p>Hur högt lyfts stenen?</p>",
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "familjTidigare": [
       "Värmeenergi i vardagen"
     ],
@@ -79212,7 +79278,7 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p>",
+    "spelIntro": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -79222,8 +79288,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><p>Hur mycket energi avges när vattnet svalnar från 5,0 °C till 0 °C?</p>",
-        "arbetsinsats": 2
+        "t": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C.</p><p>Hur mycket energi avges när vattnet svalnar från 5,0 °C till 0 °C?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K)."
       },
       {
         "etikett": "b",
@@ -79233,8 +79300,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "(1/0/0)",
-        "t": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><p>Hur mycket energi avges när vattnet fryser vid 0 °C?</p>",
-        "arbetsinsats": 1
+        "t": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C.</p><p>Hur mycket energi avges när vattnet fryser vid 0 °C?</p>",
+        "arbetsinsats": 1,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K)."
       },
       {
         "etikett": "c",
@@ -79244,8 +79312,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><p>Hur mycket energi avges när isen svalnar från 0 °C till −3,0 °C?</p>",
-        "arbetsinsats": 2
+        "t": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C.</p><p>Hur mycket energi avges när isen svalnar från 0 °C till −3,0 °C?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K)."
       },
       {
         "etikett": "d",
@@ -79255,8 +79324,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K).</p><p>Hur mycket energi avges totalt?</p>",
-        "arbetsinsats": 2
+        "t": "<p>3,0 kg vatten vid 5,0 °C kyls och fryser till is vid −3,0 °C.</p><p>Hur mycket energi avges totalt?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Isens specifika värmekapacitet är 2,10 kJ/(kg·K)."
       }
     ],
     "familjTidigare": [
@@ -79348,8 +79418,9 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>0,250 kg vatten och 0,120 kg is är vid 0 °C. En mikrovågsugn på 800 W värmer blandningen i 3,5 minuter. All is smälter och vattnet får temperaturen 18 °C. Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Skål med vatten och is i mikrovågsugn\"><rect width=\"500\" height=\"300\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"65\" y=\"45\" width=\"370\" height=\"210\" rx=\"18\" fill=\"#e9edf0\" stroke=\"#344454\" stroke-width=\"4\"/><rect x=\"95\" y=\"78\" width=\"245\" height=\"145\" rx=\"8\" fill=\"#283b49\"/><path d=\"M135 155 Q217 210 300 155 L285 210 H150 Z\" fill=\"#bfe2f2\" stroke=\"#dce9ef\" stroke-width=\"3\"/><rect x=\"185\" y=\"137\" width=\"38\" height=\"35\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><rect x=\"235\" y=\"128\" width=\"43\" height=\"40\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><circle cx=\"387\" cy=\"100\" r=\"24\" fill=\"#cbd4da\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"387\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">800 W</text><text x=\"387\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">3,5 min</text><text x=\"217\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">vatten + is vid 0 °C</text></svg>",
-    "spelDelar": [{
+    "spelIntro": "<p>0,250 kg vatten och 0,120 kg is är vid 0 °C. En mikrovågsugn på 800 W värmer blandningen i 3,5 minuter. All is smälter och vattnet får temperaturen 18 °C.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Skål med vatten och is i mikrovågsugn\"><rect width=\"500\" height=\"300\" rx=\"18\" fill=\"#f5f7fa\"/><rect x=\"65\" y=\"45\" width=\"370\" height=\"210\" rx=\"18\" fill=\"#e9edf0\" stroke=\"#344454\" stroke-width=\"4\"/><rect x=\"95\" y=\"78\" width=\"245\" height=\"145\" rx=\"8\" fill=\"#283b49\"/><path d=\"M135 155 Q217 210 300 155 L285 210 H150 Z\" fill=\"#bfe2f2\" stroke=\"#dce9ef\" stroke-width=\"3\"/><rect x=\"185\" y=\"137\" width=\"38\" height=\"35\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><rect x=\"235\" y=\"128\" width=\"43\" height=\"40\" rx=\"5\" fill=\"#e2f4fb\" stroke=\"#39708c\" stroke-width=\"2\"/><circle cx=\"387\" cy=\"100\" r=\"24\" fill=\"#cbd4da\" stroke=\"#344454\" stroke-width=\"3\"/><text x=\"387\" y=\"106\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">800 W</text><text x=\"387\" y=\"174\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">3,5 min</text><text x=\"217\" y=\"246\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"17\" fill=\"#344454\">vatten + is vid 0 °C</text></svg>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi tar blandningen upp?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Isen smälter först. Därefter värms hela vattenmassan, 0,250 + 0,120 = 0,370 kg.</p>\\[\\begin{aligned}&Q_{\\rm smält}=0{,}12\\cdot334\\\\ &=40{,}08\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm värm}=0{,}37\\cdot4{,}18\\cdot18\\\\ &=27{,}8388\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=40{,}08+27{,}8388\\\\ &=67{,}9188\\,\\mathrm{kJ}\\end{aligned}\\]<p><strong>Svar:</strong> \\(67{,}9\\,\\mathrm{kJ}\\).</p></div>",
@@ -79357,8 +79428,9 @@ window.BANK = [
         "niva": "C",
         "traningsniva": 3,
         "poang": "(0/1/0)",
-        "t": "<p>0,250 kg vatten och 0,120 kg is är vid 0 °C. All is smälter och vattnet värms till 18 °C. Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Hur mycket energi tar blandningen upp?</p>",
-        "arbetsinsats": 2
+        "t": "<p>0,250 kg vatten och 0,120 kg is är vid 0 °C. All is smälter och vattnet värms till 18 °C.</p><p>Hur mycket energi tar blandningen upp?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Isens smältvärme är 334 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K)."
       },
       {
         "etikett": "b",
@@ -79370,7 +79442,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>En mikrovågsugn på 800 W värmer en blandning i 3,5 minuter. Blandningen tar upp 67,9188 kJ.</p><p>Vilken är verkningsgraden?</p>",
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "familjTidigare": [
       "Effekt och verkningsgrad vid fasövergång"
     ],
@@ -79690,8 +79763,9 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>1,5 kg vatten vid 100 °C förångas med en värmare på 1800 W. Verkningsgraden är 75 %. Vattnets ångbildningsvärme är 2260 kJ/kg.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>1,5 kg vatten vid 100 °C förångas med en värmare på 1800 W. Verkningsgraden är 75 %.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi behöver vattnet ta upp?",
         "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_v=1{,}5\\cdot2260\\\\ &=3390\\,\\mathrm{kJ}\\end{aligned}\\]<p>3390 kJ = 3,39 MJ.</p><p><strong>Svar:</strong> \\(3{,}39\\,\\mathrm{MJ}\\).</p></div>",
@@ -79699,8 +79773,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>1,5 kg vatten vid 100 °C ska förångas. Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket energi behöver vattnet ta upp?</p>",
-        "arbetsinsats": 2
+        "t": "<p>1,5 kg vatten vid 100 °C ska förångas.</p><p>Hur mycket energi behöver vattnet ta upp?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets ångbildningsvärme är 2260 kJ/kg."
       },
       {
         "etikett": "b",
@@ -79712,7 +79787,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>Det behövs 3,39 MJ för att förånga en mängd vatten. Värmaren använder 1800 W och har verkningsgraden 75 %.</p><p>Hur lång tid tar förångningen?</p>",
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "familjTidigare": [
       "Effekt och verkningsgrad vid fasövergång"
     ],
@@ -80067,7 +80143,7 @@ window.BANK = [
     "omr": "fasandring",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>0,200 kg is vid 0 °C har smält till 65 %.</p><p>Hur mycket energi har isen tagit upp?</p>",
+    "t": "<p>Av 0,200 kg is vid 0 °C har 65 % smält.</p><p>Hur mycket energi har isen tagit upp?</p>",
     "kgInstruktion": "Isens smältvärme är 334 kJ/kg.",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den smälta massan är 65 % av 0,200 kg.</p>\\[\\begin{aligned}&m_{\\rm smält}=0{,}65\\cdot0{,}2\\\\ &=0{,}13\\,\\mathrm{kg}\\end{aligned}\\]\\[\\begin{aligned}&Q=m_{\\rm smält}L_f=0{,}13\\cdot334\\\\ &=43{,}42\\,\\mathrm{kJ}\\end{aligned}\\]<p class=\"facit-svar\"><strong>Svar:</strong> \\(43{,}4\\,\\mathrm{kJ}\\).</p></div>",
     "familj": "Energikedjor och värmebalans med fasövergång",
@@ -81037,8 +81113,9 @@ window.BANK = [
     ],
     "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En 25 m lång förlängningskabel har två kopparledare. Varje ledare har arean 1,5 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm. Strömmen är 10 A.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En 25 m lång förlängningskabel har två kopparledare. Varje ledare har arean 1,5 mm². Strömmen är 10 A.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Bestäm kabelns resistans. Strömmen går fram genom den ena ledaren och tillbaka genom den andra.",
         "s": "<div class=\"facit-v2\"><p>Strömmen går genom båda ledarna: \\(L=2\\cdot25=50\\ \\mathrm m\\). Arean är \\(1{,}5\\cdot10^{-6}\\ \\mathrm{m^2}\\).</p><p>\\[R=\\rho\\frac LA=\\frac{1{,}72\\cdot10^{-8}\\cdot50}{1{,}5\\cdot10^{-6}}\\approx0{,}573\\ \\Omega\\]</p></div>",
@@ -81126,7 +81203,8 @@ window.BANK = [
         "ledtrad": "<p>Tänk på hur värmen kan lämna kabeln.</p>",
         "t": "<p>Varför kan en hoprullad förlängningskabel bli varmare än en utrullad?</p>",
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
@@ -83766,8 +83844,9 @@ window.BANK = [
     ],
     "ledtrad": "<p>Radien är halva diametern. Använd \\(A=\\pi r^2\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En rund koppartråd är 8,0 m lång och har diametern 0,50 mm. Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En rund koppartråd är 8,0 m lång och har diametern 0,50 mm.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "En rund tråd har diametern 0,50 mm. Bestäm tvärsnittsarean.",
         "s": "<div class=\"facit-v2\"><p>Radien är halva diametern: \\(r=0{,}25\\ \\mathrm{mm}=2{,}5\\cdot10^{-4}\\ \\mathrm m\\).</p><p>\\[\\begin{aligned}A&=\\pi r^2\\\\&=\\pi(2{,}5\\cdot10^{-4})^2\\\\&\\approx1{,}96\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p></div>",
@@ -83820,7 +83899,8 @@ window.BANK = [
         "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
         "t": "<p>En tråd har resistansen 0,701 Ω. Hur stort blir spänningsfallet när strömmen är 3,0 A?</p>",
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
@@ -88324,8 +88404,9 @@ window.BANK = [
     ],
     "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter. Beräkna arean med \\(A=\\pi r^2\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En rund koppartråd är 2,5 m lång och har radien 0,50 mm. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En rund koppartråd är 2,5 m lång och har radien 0,50 mm.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Bestäm trådens resistans.",
         "s": "<div class=\"facit-v2\"><p>Radien är \\(0{,}50\\ \\mathrm{mm}=5{,}0\\cdot10^{-4}\\ \\mathrm m\\).</p><p>\\[\\begin{aligned}A&=\\pi(5{,}0\\cdot10^{-4})^2\\\\&\\approx7{,}85\\cdot10^{-7}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>\\[\\begin{aligned}R&=\\frac{1{,}7\\cdot10^{-8}\\cdot2{,}5}{A}\\\\&\\approx0{,}0541\\ \\Omega\\end{aligned}\\]</p></div>",
@@ -88360,7 +88441,8 @@ window.BANK = [
         "ledtrad": "<p>Använd Ohms lag \\(U=RI\\) och lös ut det som frågan söker.</p>",
         "t": "<p>En tråd har resistansen 0,0541 Ω. Vilken spänning behövs för att strömmen ska bli 0,15 A?</p>",
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
@@ -90689,8 +90771,9 @@ window.BANK = [
     ],
     "ledtrad": "<p>En millimeter är en tusendels meter. Kvadrera omvandlingsfaktorn för en area.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En koppartråd är 10 m lång och har arean 1,0 mm². Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En koppartråd är 10 m lång och har arean 1,0 mm².</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Skriv 1,0 mm² i m².",
         "s": "<div class=\"facit-v2\"><p>En millimeter är \\(10^{-3}\\) meter. När längden kvadreras blir faktorn \\(10^{-6}\\).</p><p>\\[1{,}0\\ \\mathrm{mm^2}=1{,}0\\cdot10^{-6}\\ \\mathrm{m^2}\\]</p></div>",
@@ -90761,7 +90844,8 @@ window.BANK = [
         "ledtrad": "<p>Hur beror resistansen på arean när material och längd är samma?</p>",
         "t": "<p>En tråd har resistansen 0,17 Ω. Den ersätts av en lika lång tråd av samma material med dubbelt så stor area. Vad blir resistansen?</p>",
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
@@ -91134,8 +91218,9 @@ window.BANK = [
     ],
     "ledtrad": "<p>Använd \\(P=UI\\) för lampans märkdata.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En lampa är märkt 12 V, 24 W. Den ska anslutas till en spänningskälla på 12 V med en 15 m lång kabel. Kabeln har två kopparledare, vardera med arean 1,0 mm². Kopparns resistivitet är 1,72·10⁻⁸ Ωm.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En lampa är märkt 12 V, 24 W. Den ska anslutas till en spänningskälla på 12 V med en 15 m lång kabel. Kabeln har två kopparledare, vardera med arean 1,0 mm².</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Vilken ström går genom lampan när spänningen över den är 12 V?",
         "s": "<div class=\"facit-v2\"><p>Märkströmmen gäller när spänningen över lampan är 12 V.</p><p>\\[I=P/U=24/12=2{,}0\\ \\mathrm A\\]</p></div>",
@@ -91155,7 +91240,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En 15 m lång kabel har två kopparledare med arean 1,0 mm² vardera. Kopparns resistivitet är 1,72·10⁻⁸ Ωm. Bestäm kabelns totala resistans.",
+        "fraga": "En 15 m lång kabel har två kopparledare med arean 1,0 mm² vardera. Bestäm kabelns totala resistans.",
         "s": "<div class=\"facit-v2\"><p>Strömmen går genom två ledare, vardera 15 m långa. Den totala ledarlängden är 30 m och arean är 10⁻⁶ m².</p><p>\\[R_{\\text{kabel}}=\\frac{1{,}72\\cdot10^{-8}\\cdot30}{10^{-6}}=0{,}516\\ \\Omega\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.5159999999999999,
@@ -91168,8 +91253,9 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Använd \\(R=\\rho L/A\\). Längden ska vara i meter och arean i kvadratmeter.</p>",
-        "t": "<p>En 15 m lång kabel har två kopparledare med arean 1,0 mm² vardera. Kopparns resistivitet är 1,72·10⁻⁸ Ωm. Bestäm kabelns totala resistans.</p>",
-        "arbetsinsats": 1
+        "t": "<p>En 15 m lång kabel har två kopparledare med arean 1,0 mm² vardera. Bestäm kabelns totala resistans.</p>",
+        "arbetsinsats": 1,
+        "kgInstruktion": "Kopparns resistivitet är 1,72·10⁻⁸ Ωm."
       },
       {
         "etikett": "c",
@@ -91203,7 +91289,8 @@ window.BANK = [
         "t": "<div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"260\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"En spänningskälla på 12 V seriekopplad med lampans 6,0 ohm och kabelns 0,516 ohm\"><rect width=\"500\" height=\"260\" fill=\"#fff\"/><path d=\"M90 110 V70 H188 M232 70 H400 V185 H320 M210 185 H90 V128 M65 110 H115 M75 128 H105\" fill=\"none\" stroke=\"#305777\" stroke-width=\"2.5\"/><circle cx=\"210\" cy=\"70\" r=\"22\" fill=\"#fff3c3\" stroke=\"#305777\" stroke-width=\"2\"/><path d=\"M194 54 L226 86 M194 86 L226 54\" stroke=\"#305777\" stroke-width=\"2\"/><rect x=\"210\" y=\"172\" width=\"110\" height=\"26\" fill=\"#e6eff7\" stroke=\"#305777\" stroke-width=\"2\"/><text x=\"210\" y=\"26\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243747\">Lampa: 6,0 Ω</text><text x=\"265\" y=\"226\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243747\">Kabel: 0,516 Ω</text><text x=\"18\" y=\"125\" font-size=\"19\" fill=\"#243747\">12 V</text></svg></div><p>En lampa med resistansen 6,0 Ω är seriekopplad med en kabel som har resistansen 0,516 Ω. Spänningskällan ger 12 V. Bestäm spänningen över kabeln och över lampan.</p>",
         "kgInstruktion": "Svara först med spänningen över kabeln och sedan över lampan.",
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 3,
@@ -103058,8 +103145,9 @@ window.BANK = [
     "familjNyckelTidigare": "aktivitet__radioaktivt_sonderfall_och_halveringstid",
     "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En källare på 120 m³ har radonhalten 300 Bq/m³. Referensvärdet för bostäder i Sverige är 200 Bq/m³. Radon-222 har halveringstiden 3,8 dygn.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En källare på 120 m³ har radonhalten 300 Bq/m³. Referensvärdet för bostäder i Sverige är 200 Bq/m³.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur många sönderfall sker i källarluften per sekund i genomsnitt?",
         "s": "<div class=\"facit-v2\"><p>Multiplicera aktiviteten per kubikmeter med rummets volym.</p><p>\\[A=300\\cdot120=36000\\ \\mathrm{Bq}\\]</p></div>",
@@ -103131,7 +103219,8 @@ window.BANK = [
         "ledtrad": "<p>Vad händer om nytt radon hela tiden kommer in?</p>",
         "t": "<p>Radon sönderfaller, men nytt radon kan tränga in i en källare från marken. Varför räcker det inte att stänga källaren och vänta på att radonhalten ska bli låg?</p>",
         "miniräknare": true
-      }],
+      }
+    ],
     "geogebra": false,
     "miniräknare": true,
     "traningsniva": 2,
@@ -103486,7 +103575,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Jod-131 har halveringstiden 8,0 dygn. Hur många halveringstider ryms i 24 dygn?",
+        "fraga": "Hur många halveringstider ryms i 24 dygn?",
         "s": "<div class=\"facit-v2\"><p>\\[n=24/8{,}0=3\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 3,
@@ -103499,9 +103588,10 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Dela tiden med halveringstiden.</p>",
-        "t": "<p>Jod-131 har halveringstiden 8,0 dygn. Hur många halveringstider ryms i 24 dygn?</p>",
+        "t": "<p>Hur många halveringstider ryms i 24 dygn?</p>",
         "arbetsinsats": 1,
-        "miniräknare": true
+        "miniräknare": true,
+        "kgInstruktion": "Jod-131 har halveringstiden 8,0 dygn."
       },
       {
         "etikett": "c",
@@ -103784,7 +103874,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Radium-226 har halveringstiden 1 600 år. Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.",
+        "fraga": "Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=1600\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx50500000000\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/50496000000\\]</p><p>\\[\\lambda\\approx1{,}37\\cdot10^{-11}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.3726774012990044e-11,
@@ -103797,9 +103887,10 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
-        "t": "<p>Radium-226 har halveringstiden 1 600 år. Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.</p>",
+        "t": "<p>Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.</p>",
         "arbetsinsats": 1,
-        "miniräknare": true
+        "miniräknare": true,
+        "kgInstruktion": "Radium-226 har halveringstiden 1 600 år."
       },
       {
         "etikett": "c",
@@ -108577,7 +108668,7 @@ window.BANK = [
     "niva": "E",
     "typ": "skillnaden mellan isotoper",
     "poang": "(1/0/0)",
-    "t": "<p>Två isotoper av samma grundämne skiljer sig åt i...</p>",
+    "t": "<p>Vad skiljer två isotoper av samma grundämne åt?</p>",
     "visaAlternativ": true,
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isotoper har samma antal protoner</p><p>Samma grundämne betyder samma atomnummer, så det är antalet neutroner som skiljer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> antal neutroner.</p></div>",
     "familj": "Nuklidbeteckning och isotoper",
@@ -114830,7 +114921,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Americium-241 har halveringstiden 432 år. Varför är en så lång halveringstid användbar i en brandvarnare?",
+        "fraga": "Varför är en så lång halveringstid användbar i en brandvarnare?",
         "s": "<div class=\"facit-v2\"><p>En mycket längre halveringstid än brukstiden ger en aktivitet som ändras långsamt. Det hjälper brandvarnaren att fungera stabilt.</p></div>",
         "svarstyp": "alternativ",
         "rättSvar": "Aktiviteten minskar bara lite under brandvarnarens brukstid.",
@@ -114860,8 +114951,9 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Jämför halveringstiden med några års användning.</p>",
-        "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år.</p><p>Americium-241 har halveringstiden 432 år. Varför är en så lång halveringstid användbar i en brandvarnare?</p>",
-        "miniräknare": true
+        "t": "<p>En brandvarnare har ett americium-241-preparat med startaktiviteten 37 kBq. Halveringstiden är 432 år.</p><p>Varför är en så lång halveringstid användbar i en brandvarnare?</p>",
+        "miniräknare": true,
+        "kgInstruktion": "Americium-241 har halveringstiden 432 år."
       }
     ],
     "geogebra": false,
@@ -115405,7 +115497,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Kol-14 har halveringstiden 5 730 år. Bestäm sönderfallskonstanten i år⁻¹.",
+        "fraga": "Bestäm sönderfallskonstanten i år⁻¹.",
         "s": "<div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/5730\\]</p><p>\\[\\lambda\\approx0{,}000121\\ \\mathrm{år^{-1}}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.00012096809433855938,
@@ -115418,9 +115510,10 @@ window.BANK = [
         "traningsniva": 1,
         "poang": "1/0/0",
         "ledtrad": "<p>Här ska tiden vara i år för att få år⁻¹.</p>",
-        "t": "<p>Kol-14 har halveringstiden 5 730 år. Bestäm sönderfallskonstanten i år⁻¹.</p>",
+        "t": "<p>Bestäm sönderfallskonstanten i år⁻¹.</p>",
         "arbetsinsats": 1,
-        "miniräknare": true
+        "miniräknare": true,
+        "kgInstruktion": "Kol-14 har halveringstiden 5 730 år."
       },
       {
         "etikett": "b",
@@ -120721,7 +120814,7 @@ window.BANK = [
       "mm"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Av 1,00 g koppar görs en rund tråd med resistansen 1,00 Ω. Kopparns resistivitet är 1,7·10⁻⁸ Ωm.</p>",
+    "spelIntro": "<p>Av 1,00 g koppar görs en rund tråd med resistansen 1,00 Ω.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -121092,10 +121185,11 @@ window.BANK = [
       "A"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
-        "fraga": "<p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p>Stavarna seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?",
+        "fraga": "<p>En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p>Stavarna seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?",
         "s": "<div class=\"facit-v2\"><p>Med samma längd och area har resistanserna förhållandet 1,7:10. I serie är strömmen samma, så spänningarna fördelas i samma förhållande som resistanserna.</p><p>\\[U_{\\mathrm{Cu}}=12\\cdot\\frac{1{,}7}{1{,}7+10}\\approx1{,}74\\ \\mathrm V\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 1.7435897435897436,
@@ -121108,12 +121202,13 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Stavarna har samma längd och area. I serie är strömmen lika genom båda stavarna.</p>",
-        "t": "<p><p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p>Stavarna seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?</p>",
-        "arbetsinsats": 2
+        "t": "<p><p>En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p>Stavarna seriekopplas till 12 V. Hur stor spänning ligger över kopparstaven?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn."
       },
       {
         "etikett": "b",
-        "fraga": "<p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p>Stavarna parallellkopplas. Den totala strömmen är 5,0 A. Hur stor ström går genom kopparstaven?",
+        "fraga": "<p>En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p>Stavarna parallellkopplas. Den totala strömmen är 5,0 A. Hur stor ström går genom kopparstaven?",
         "s": "<div class=\"facit-v2\"><p>Vid parallellkoppling är spänningen samma över stavarna. Lägre resistans ger större ström, så strömmarnas förhållande är omvänt mot resistansernas. Kopparstaven får andelen 10/(10 + 1,7) av strömmen.</p><p>\\[I_{\\mathrm{Cu}}=5{,}0\\cdot\\frac{10}{10+1{,}7}\\approx4{,}27\\ \\mathrm A\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.273504273504273,
@@ -121126,9 +121221,11 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>I parallell är spänningen samma över stavarna. Vilken stav får störst ström?</p>",
-        "t": "<p><p>En kopparstav och en järnstav har samma längd och tvärsnittsarea. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn.</p>Stavarna parallellkopplas. Den totala strömmen är 5,0 A. Hur stor ström går genom kopparstaven?</p>",
-        "arbetsinsats": 2
-      }],
+        "t": "<p><p>En kopparstav och en järnstav har samma längd och tvärsnittsarea.</p>Stavarna parallellkopplas. Den totala strömmen är 5,0 A. Hur stor ström går genom kopparstaven?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 1,0·10⁻⁷ Ωm för järn."
+      }
+    ],
     "ledtrad": "<p>Stavarna har samma längd och area. I serie är strömmen lika genom båda stavarna.</p>",
     "traningsniva": 3,
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
@@ -121179,10 +121276,11 @@ window.BANK = [
       "V"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En kabel består av 5,0 m koppar följt av 5,0 m aluminium. Båda delarna har diametern 1,4 mm. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 2,7·10⁻⁸ Ωm för aluminium. Spänningen över hela kabeln är 95 mV.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En kabel består av 5,0 m koppar följt av 5,0 m aluminium. Båda delarna har diametern 1,4 mm. Spänningen över hela kabeln är 95 mV.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
-        "fraga": "En kabel består av två delar i serie: 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 2,7·10⁻⁸ Ωm för aluminium. Bestäm kabelns resistans.",
+        "fraga": "En kabel består av två delar i serie: 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Bestäm kabelns resistans.",
         "s": "<div class=\"facit-v2\"><p>Radien är 0,70 mm = 7,0·10⁻⁴ m.</p><p>\\[\\begin{aligned}A&=\\pi(7{,}0\\cdot10^{-4})^2\\\\&\\approx1{,}54\\cdot10^{-6}\\ \\mathrm{m^2}\\end{aligned}\\]</p><p>Resistansformeln ger cirka 0,0552 Ω för kopparn och 0,0877 Ω för aluminiumet. Delarna är seriekopplade, så resistanserna adderas.</p><p>\\[\\begin{aligned}R_{\\text{tot}}&\\approx0{,}0552+0{,}0877\\\\&\\approx0{,}143\\ \\Omega\\end{aligned}\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0.14291464277639582,
@@ -121195,8 +121293,9 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Beräkna arean och resistansen i varje del. Delarnas resistanser adderas.</p>",
-        "t": "<p>En kabel består av två delar i serie: 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 2,7·10⁻⁸ Ωm för aluminium. Bestäm kabelns resistans.</p>",
-        "arbetsinsats": 1
+        "t": "<p>En kabel består av två delar i serie: 5,0 m koppar och 5,0 m aluminium, båda med diametern 1,4 mm. Bestäm kabelns resistans.</p>",
+        "arbetsinsats": 1,
+        "kgInstruktion": "Resistiviteten är 1,7·10⁻⁸ Ωm för koppar och 2,7·10⁻⁸ Ωm för aluminium."
       },
       {
         "etikett": "b",
@@ -121215,7 +121314,8 @@ window.BANK = [
         "ledtrad": "<p>I serie är strömmen samma. Beräkna total resistans och använd Ohms lag.</p>",
         "t": "<p>En kabel har två delar i serie: en koppardel på 0,0552 Ω och en aluminiumdel på 0,0877 Ω. Spänningen över hela kabeln är 95 mV. Hur stor spänning ligger över aluminiumdelen?</p>",
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "ledtrad": "<p>Beräkna arean och resistansen i varje del. Delarnas resistanser adderas.</p>",
     "traningsniva": 3,
     "familjNyckel": "kretsar__resistivitet_och_ledarresistans",
@@ -125380,7 +125480,7 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I två försök läggs en metallbit med massan 0,25 kg vid 100 °C i 0,40 kg vatten vid 20 °C. I det ena försöket används koppar och i det andra aluminium. Specifik värmekapacitet: koppar 385, aluminium 900 och vatten 4180 J/(kg·K). Bortse från eventuella värmeförluster till omgivningen.</p>",
+    "spelIntro": "<p>I två försök läggs en metallbit med massan 0,25 kg vid 100 °C i 0,40 kg vatten vid 20 °C. I det ena försöket används koppar och i det andra aluminium. Bortse från eventuella värmeförluster till omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -125390,8 +125490,9 @@ window.BANK = [
         "niva": "C",
         "traningsniva": 3,
         "poang": "(0/1/0)",
-        "t": "<p>I två försök läggs en metallbit med massan 0,25 kg vid 100 °C i 0,40 kg vatten vid 20 °C. I det ena försöket används koppar och i det andra aluminium. Specifik värmekapacitet: koppar 385, aluminium 900 och vatten 4180 J/(kg·K). Bortse från eventuella värmeförluster till omgivningen.</p><p>Vilken sluttemperatur blir det med koppar?</p>",
-        "arbetsinsats": 2
+        "t": "<p>I två försök läggs en metallbit med massan 0,25 kg vid 100 °C i 0,40 kg vatten vid 20 °C. I det ena försöket används koppar och i det andra aluminium. Bortse från eventuella värmeförluster till omgivningen.</p><p>Vilken sluttemperatur blir det med koppar?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Specifik värmekapacitet: koppar 385, aluminium 900 och vatten 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
@@ -125401,8 +125502,9 @@ window.BANK = [
         "niva": "C",
         "traningsniva": 3,
         "poang": "(0/1/0)",
-        "t": "<p>I två försök läggs en metallbit med massan 0,25 kg vid 100 °C i 0,40 kg vatten vid 20 °C. I det ena försöket används koppar och i det andra aluminium. Specifik värmekapacitet: koppar 385, aluminium 900 och vatten 4180 J/(kg·K). Bortse från eventuella värmeförluster till omgivningen.</p><p>Vilken sluttemperatur blir det med aluminium?</p>",
-        "arbetsinsats": 2
+        "t": "<p>I två försök läggs en metallbit med massan 0,25 kg vid 100 °C i 0,40 kg vatten vid 20 °C. I det ena försöket används koppar och i det andra aluminium. Bortse från eventuella värmeförluster till omgivningen.</p><p>Vilken sluttemperatur blir det med aluminium?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Specifik värmekapacitet: koppar 385, aluminium 900 och vatten 4180 J/(kg·K)."
       },
       {
         "etikett": "c",
@@ -125412,8 +125514,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "(1/0/0)",
-        "t": "<p>I två försök läggs en metallbit med massan 0,25 kg vid 100 °C i 0,40 kg vatten vid 20 °C. I det ena försöket används koppar och i det andra aluminium. Specifik värmekapacitet: koppar 385, aluminium 900 och vatten 4180 J/(kg·K). Bortse från eventuella värmeförluster till omgivningen.</p><p>Sluttemperaturen blir 24,355 °C med koppar och 29,489 °C med aluminium. Hur mycket högre blir sluttemperaturen i aluminiumförsöket?</p>",
-        "arbetsinsats": 1
+        "t": "<p>I två försök läggs en metallbit med massan 0,25 kg vid 100 °C i 0,40 kg vatten vid 20 °C. I det ena försöket används koppar och i det andra aluminium. Bortse från eventuella värmeförluster till omgivningen.</p><p>Sluttemperaturen blir 24,355 °C med koppar och 29,489 °C med aluminium. Hur mycket högre blir sluttemperaturen i aluminiumförsöket?</p>",
+        "arbetsinsats": 1,
+        "kgInstruktion": "Specifik värmekapacitet: koppar 385, aluminium 900 och vatten 4180 J/(kg·K)."
       }
     ],
     "familjTidigare": [
@@ -125540,8 +125643,9 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>0,90 kg aluminium värms 60 K. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Av den tillförda energin går 80 % till aluminiumet och 20 % till omgivningen.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>0,90 kg aluminium värms 60 K. Av den tillförda energin går 80 % till aluminiumet och 20 % till omgivningen.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi tar aluminiumet upp?",
         "s": "<div class=\"facit-v2 facit-stegvis\">\\[Q=0{,}90\\cdot900\\cdot60=48600\\,\\mathrm J\\]<p>48 600 J = 48,6 kJ.</p><p><strong>Svar:</strong> \\(48{,}6\\,\\mathrm{kJ}\\).</p></div>",
@@ -125549,8 +125653,9 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "poang": "(1/0/0)",
-        "t": "<p>0,90 kg aluminium värms 60 K. Aluminiumets specifika värmekapacitet är 900 J/(kg·K).</p><p>Hur mycket energi tar aluminiumet upp?</p>",
-        "arbetsinsats": 2
+        "t": "<p>0,90 kg aluminium värms 60 K.</p><p>Hur mycket energi tar aluminiumet upp?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Aluminiumets specifika värmekapacitet är 900 J/(kg·K)."
       },
       {
         "etikett": "b",
@@ -125573,7 +125678,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "t": "<p>Totalt tillförs 60,75 kJ. Av denna energi går 20 % till omgivningen.</p><p>Hur mycket energi går till omgivningen?</p>",
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "familjTidigare": [
       "Verkningsgrad vid uppvärmning"
     ],
@@ -126009,40 +126115,43 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "34,0 kg vatten värms från 15 °C till 95 °C. Hur mycket energi tar vattnet upp?",
-        "t": "<p>Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>34,0 kg vatten värms från 15 °C till 95 °C. Hur mycket energi tar vattnet upp?</p>",
+        "t": "<p>34,0 kg vatten värms från 15 °C till 95 °C. Hur mycket energi tar vattnet upp?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 80 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=34\\cdot4180\\cdot80=11369600\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> \\(11400000\\,\\mathrm{J}\\).</p></div>",
         "ledtrad": "<p>Energin som tas upp är \\(Q=mc\\Delta T\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
         "fraga": "3,0 kg vatten tar upp 8,2 kJ. Hur mycket ökar temperaturen?",
-        "t": "<p>Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>3,0 kg vatten tar upp 8,2 kJ. Hur mycket ökar temperaturen?</p>",
+        "t": "<p>3,0 kg vatten tar upp 8,2 kJ. Hur mycket ökar temperaturen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>8,2 kJ = 8200 J.</p>\\[\\Delta T=\\frac{Q}{mc}=\\frac{8200}{3{,}0\\cdot4180}\\approx0{,}6539\\,\\mathrm K\\]<p><strong>Svar:</strong> \\(0{,}65\\,\\mathrm{K}\\).</p></div>",
         "ledtrad": "<p>Energin är \\(Q=mc\\Delta T\\). Lös ut den storhet som söks.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "c",
         "fraga": "18,0 liter vatten värms från 15 °C till 95 °C. Hur mycket energi tar vattnet upp?",
-        "t": "<p>Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>18,0 liter vatten värms från 15 °C till 95 °C. Hur mycket energi tar vattnet upp?</p>",
+        "t": "<p>18,0 liter vatten värms från 15 °C till 95 °C. Hur mycket energi tar vattnet upp?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattenmassan är 18,0 kg.</p><p>Temperaturökningen är 80 K.</p>\\[\\begin{aligned}&Q=mc\\Delta T\\\\ &=18\\cdot4180\\cdot80=6019200\\,\\mathrm J\\end{aligned}\\]<p><strong>Svar:</strong> \\(6020000\\,\\mathrm{J}\\).</p></div>",
         "ledtrad": "<p>Energin som tas upp är \\(Q=mc\\Delta T\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
@@ -126096,29 +126205,33 @@ window.BANK = [
       "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>50,0 g koppar har temperaturen 25,0 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K).</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>50,0 g koppar har temperaturen 25,0 °C.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Vilken blir temperaturen när kopparn tar upp 1200 J? ",
-        "t": "<p>50,0 g koppar har temperaturen 25,0 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K).</p><p>Vilken blir temperaturen när kopparn tar upp 1200 J?</p>",
+        "t": "<p>50,0 g koppar har temperaturen 25,0 °C.</p><p>Vilken blir temperaturen när kopparn tar upp 1200 J?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>50,0 g = 0,0500 kg. Beräkna temperaturändringens storlek.</p>\\[\\Delta T=\\frac{1200}{0{,}0500\\cdot385}\\approx62{,}338\\,\\mathrm K\\]<p>Temperaturen ökar när energi tillförs.</p>\\[T=25+62{,}33766\\approx87{,}338\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(87{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Energin är \\(Q=mc\\Delta T\\). Lös ut den storhet som söks. Temperaturen ökar.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Kopparns specifika värmekapacitet är 385 J/(kg·K)."
       },
       {
         "etikett": "b",
         "fraga": "Vilken blir temperaturen när kopparn avger 1200 J? ",
-        "t": "<p>50,0 g koppar har temperaturen 25,0 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K).</p><p>Vilken blir temperaturen när kopparn avger 1200 J?</p>",
+        "t": "<p>50,0 g koppar har temperaturen 25,0 °C.</p><p>Vilken blir temperaturen när kopparn avger 1200 J?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>50,0 g = 0,0500 kg. Beräkna temperaturändringens storlek.</p>\\[\\Delta T=\\frac{1200}{0{,}0500\\cdot385}\\approx62{,}338\\,\\mathrm K\\]<p>Temperaturen minskar när energi avges.</p>\\[T=25-62{,}33766\\approx-37{,}338\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(-37{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Energin är \\(Q=mc\\Delta T\\). Lös ut den storhet som söks. Temperaturen minskar.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
-      }],
+        "arbetsinsats": 2,
+        "kgInstruktion": "Kopparns specifika värmekapacitet är 385 J/(kg·K)."
+      }
+    ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "varme__specifik_varmekapacitet",
@@ -126261,16 +126374,18 @@ window.BANK = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beräkna följande.</p>",
-    "spelDelar": [{
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi avger isen?",
-        "t": "<p>200 g is kyls från 0 °C till −30 °C. Isens specifika värmekapacitet är 2200 J/(kg·K).</p><p>Hur mycket energi avger isen?</p>",
+        "t": "<p>200 g is kyls från 0 °C till −30 °C.</p><p>Hur mycket energi avger isen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>200 g = 0,200 kg. Temperaturminskningen är 30 K.</p>\\[Q=0{,}200\\cdot2200\\cdot30=13200\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(13200\\,\\mathrm{J}\\).</p></div>",
         "ledtrad": "<p>Energin är \\(Q=mc\\Delta T\\). Lös ut den storhet som söks.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Isens specifika värmekapacitet är 2200 J/(kg·K)."
       },
       {
         "etikett": "b",
@@ -126286,14 +126401,16 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Hur stor massa har zinken? ",
-        "t": "<p>Zink tar upp 5,2 kJ och värms 45 K. Zinkens specifika värmekapacitet är 390 J/(kg·K).</p><p>Hur stor massa har zinken?</p>",
+        "t": "<p>Zink tar upp 5,2 kJ och värms 45 K.</p><p>Hur stor massa har zinken?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>5,2 kJ = 5200 J.</p>\\[m=\\frac{Q}{c\\Delta T}=\\frac{5200}{390\\cdot45}\\approx0{,}2963\\,\\mathrm{kg}\\]<p><strong>Svar:</strong> \\(0{,}30\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Energin är \\(Q=mc\\Delta T\\). Lös ut den storhet som söks.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
-      }],
+        "arbetsinsats": 2,
+        "kgInstruktion": "Zinkens specifika värmekapacitet är 390 J/(kg·K)."
+      }
+    ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "varme__specifik_varmekapacitet",
@@ -126436,29 +126553,31 @@ window.BANK = [
       "J"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>20 g kvicksilver tar upp 100 J. Dess specifika värmekapacitet är 140 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p>",
+    "spelIntro": "<p>20 g kvicksilver tar upp 100 J. Dess specifika värmekapacitet är 140 J/(kg·K).</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur mycket ökar temperaturen?",
-        "t": "<p>20 g kvicksilver tar upp 100 J. Dess specifika värmekapacitet är 140 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket ökar temperaturen?</p>",
+        "t": "<p>20 g kvicksilver tar upp 100 J. Dess specifika värmekapacitet är 140 J/(kg·K).</p><p>Hur mycket ökar temperaturen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Värmeenergi: \\(Q=mc\\Delta T\\)</p><p>Massan är 20 g = 0,020 kg. Lös ut temperaturökningen.</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{100}{0{,}020\\cdot140}\\approx35{,}714\\ \\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen ökar med cirka 36 K (36 °C).</p></div>",
         "ledtrad": "<p>Lös ut temperaturökningen ur \\(Q=mc\\Delta T\\). Använd massan i kg.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
         "fraga": "Hur mycket energi tar vattnet upp?",
-        "t": "<p>20 g kvicksilver tar upp 100 J. Dess specifika värmekapacitet är 140 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp?</p>",
+        "t": "<p>20 g kvicksilver tar upp 100 J. Dess specifika värmekapacitet är 140 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma massa och temperaturökning: \\(Q=mc\\Delta T\\)</p><p>Förhållandet mellan energierna blir därför förhållandet mellan de specifika värmekapaciteterna. Då behöver vi inte avrunda temperaturökningen från a).</p><div class=\"facit-matte\">\\[\\frac{Q_v}{Q_{Hg}}=\\frac{c_v}{c_{Hg}}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[Q_v=100\\cdot\\frac{4180}{140}\\approx2985{,}7\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vattnet tar upp cirka \\(3{,}0\\cdot10^3\\) J, alltså 3,0 kJ.</p></div>",
         "ledtrad": "<p>Massorna och temperaturökningarna är lika. Hur förhåller sig då energierna till de specifika värmekapaciteterna?</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
@@ -126600,17 +126719,19 @@ window.BANK = [
       "%"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En kastrull av 0,50 kg aluminium innehåller 0,25 kg vatten. Båda värms från 20 °C till 80 °C. Specifik värmekapacitet: aluminium 900 och vatten 4180 J/(kg·K).</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En kastrull av 0,50 kg aluminium innehåller 0,25 kg vatten. Båda värms från 20 °C till 80 °C.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi tar kastrullen och vattnet upp tillsammans?",
-        "t": "<p>En kastrull av 0,50 kg aluminium innehåller 0,25 kg vatten. Båda värms från 20 °C till 80 °C. Specifik värmekapacitet: aluminium 900 och vatten 4180 J/(kg·K).</p><p>Hur mycket energi tar kastrullen och vattnet upp tillsammans?</p>",
+        "t": "<p>En kastrull av 0,50 kg aluminium innehåller 0,25 kg vatten. Båda värms från 20 °C till 80 °C.</p><p>Hur mycket energi tar kastrullen och vattnet upp tillsammans?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 60 K för båda.</p>\\[Q_{\\mathrm{Al}}=0{,}50\\cdot900\\cdot60=27000\\,\\mathrm J\\]\\[Q_{\\mathrm{vatten}}=0{,}25\\cdot4180\\cdot60=62700\\,\\mathrm J\\]\\[Q_{\\mathrm{totalt}}=27000+62700=89700\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(89700\\,\\mathrm{J}\\).</p></div>",
         "ledtrad": "<p>Räkna energin för kastrullen och för vattnet var för sig och addera. Energin som tas upp är \\(Q=mc\\Delta T\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Specifik värmekapacitet: aluminium 900 och vatten 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
@@ -126622,7 +126743,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "varme__specifik_varmekapacitet",
@@ -126702,17 +126824,19 @@ window.BANK = [
       "min"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>245 liter vatten värms från 10 °C till 45 °C. Värmaren överför effekten 9,5 kW till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>245 liter vatten värms från 10 °C till 45 °C. Värmaren överför effekten 9,5 kW till vattnet.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi tar vattnet upp? ",
-        "t": "<p>245 liter vatten värms från 10 °C till 45 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur mycket energi tar vattnet upp?</p>",
+        "t": "<p>245 liter vatten värms från 10 °C till 45 °C.</p><p>Hur mycket energi tar vattnet upp?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massan är 245 kg och temperaturökningen 35 K.</p>\\[Q=245\\cdot4180\\cdot35=35843500\\,\\mathrm J\\]<p><strong>Svar:</strong> \\(35800000\\,\\mathrm{J}\\).</p></div>",
         "ledtrad": "<p>Energin som tas upp är \\(Q=mc\\Delta T\\). 245 liter vatten väger 245 kg.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
@@ -126724,7 +126848,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "varme__effekt_och_verkningsgrad_vid_uppvarmning",
@@ -127013,29 +127138,31 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>0,700 kg vatten vid 8 °C värms med effekten 1000 W som överförs till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vattnets kokpunkt är 100 °C.</p>",
+    "spelIntro": "<p>0,700 kg vatten vid 8 °C värms med effekten 1000 W som överförs till vattnet. Vattnets kokpunkt är 100 °C.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Värmaren är på i 2 minuter. Vilken temperatur får vattnet?",
-        "t": "<p>0,700 kg vatten vid 8 °C värms med effekten 1000 W som överförs till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vattnets kokpunkt är 100 °C.</p><p>Värmaren är på i 2 minuter. Vilken temperatur får vattnet?</p>",
+        "t": "<p>0,700 kg vatten vid 8 °C värms med effekten 1000 W som överförs till vattnet. Vattnets kokpunkt är 100 °C.</p><p>Värmaren är på i 2 minuter. Vilken temperatur får vattnet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>2 minuter = 120 s.</p>\\[Q=Pt=1000\\cdot120=120000\\,\\mathrm J\\]\\[\\Delta T=\\frac{120000}{0{,}700\\cdot4180}\\approx41{,}012\\,\\mathrm K\\]\\[T=8+41{,}01162\\approx49{,}012\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(49{,}0\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Vattnet kan inte bli varmare än kokpunkten.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
         "fraga": "Hur lång tid tar uppvärmningen?",
-        "t": "<p>0,700 kg vatten vid 8 °C värms med effekten 1000 W som överförs till vattnet. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vattnets kokpunkt är 100 °C.</p><p>Hur lång tid tar uppvärmningen?</p>",
+        "t": "<p>0,700 kg vatten vid 8 °C värms med effekten 1000 W som överförs till vattnet. Vattnets kokpunkt är 100 °C.</p><p>Hur lång tid tar uppvärmningen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Temperaturökningen är 92 K.</p>\\[Q=0{,}700\\cdot4180\\cdot92=269192\\,\\mathrm J\\]\\[t=Q/P=269192/1000=269{,}192\\,\\mathrm s\\]<p><strong>Svar:</strong> \\(269\\,\\mathrm{s}\\).</p></div>",
         "ledtrad": "<p>Effekt är energi per tid: \\(P=E/t\\). Räkna först energin som behövs.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       }
     ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
@@ -127104,13 +127231,14 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Hur många procent av elenergin går till vattnet?",
-        "t": "<p>En mikrovågsugn har eleffekten 800 W och värmer 0,240 kg vatten från 12 °C till 85 °C på 1 minut och 52 sekunder. Vattnets specifika värmekapacitet är 4180 J/(kg·K).</p><p>Hur många procent av elenergin går till vattnet?</p>",
+        "t": "<p>En mikrovågsugn har eleffekten 800 W och värmer 0,240 kg vatten från 12 °C till 85 °C på 1 minut och 52 sekunder.</p><p>Hur många procent av elenergin går till vattnet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Tiden är 60 + 52 = 112 s och temperaturökningen 73 K.</p>\\[\\begin{aligned}&Q_{\\mathrm{vatten}}\\\\ &=0{,}240\\cdot4180\\cdot73=73233{,}6\\,\\mathrm J\\end{aligned}\\]\\[E_{\\mathrm{el}}=Pt=800\\cdot112=89600\\,\\mathrm J\\]\\[\\eta=\\frac{73233{,}6}{89600}\\cdot100\\approx81{,}734\\,\\%\\]<p><strong>Svar:</strong> \\(81{,}7\\,\\%\\).</p></div>",
         "ledtrad": "<p>Verkningsgraden är energin som går till vattnet delad med elenergin.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       }
     ],
     "ledtrad": "<p>\\(\\eta=\\dfrac{E_\\text{nyttig}}{E_\\text{tillförd}}\\).</p>",
@@ -127327,15 +127455,15 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "1,5 kg vatten vid 51 °C blandas med 0,80 liter etanol vid 15 °C. Etanolens specifika värmekapacitet är 2400 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?",
-        "t": "<p>Bestäm sluttemperaturen i varje blandning. Bortse från eventuella värmeförluster till omgivningen.</p><p>1,5 kg vatten vid 51 °C blandas med 0,80 liter etanol vid 15 °C. Etanolens specifika värmekapacitet är 2400 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?</p>",
+        "fraga": "1,5 kg vatten vid 51 °C blandas med 0,80 liter etanol vid 15 °C. Vilken sluttemperatur får ämnena?",
+        "t": "<p>Bestäm sluttemperaturen i varje blandning. Bortse från eventuella värmeförluster till omgivningen.</p><p>1,5 kg vatten vid 51 °C blandas med 0,80 liter etanol vid 15 °C. Vilken sluttemperatur får ämnena?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Etanolens massa är 0,80 · 0,79 = 0,632 kg.</p><p>Låt sluttemperaturen vara T. Vattnet har massan 1,5 kg, etanolen har massan 0,632 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&1{,}5\\cdot4180(51-T)\\\\ &=0{,}632\\cdot2400(T-15)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[7786{,}8T=342522\\]\\[T=\\frac{342522}{7786{,}8}\\approx43{,}988\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(44{,}0\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Avgiven värme är lika med upptagen värme: \\(m_1c_1(T_1-T)=m_2c_2(T-T_2)\\). Lös ut sluttemperaturen T.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2,
-        "kgInstruktion": "Etanolens densitet är 0,79 kg/liter."
+        "kgInstruktion": "Etanolens densitet är 0,79 kg/liter. Etanolens specifika värmekapacitet är 2400 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
@@ -127393,25 +127521,27 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "0,030 kg koppar vid 300 °C läggs i 0,100 kg vatten vid 20 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?",
-        "t": "<p>Bestäm sluttemperaturen i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,030 kg koppar vid 300 °C läggs i 0,100 kg vatten vid 20 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?</p>",
+        "fraga": "0,030 kg koppar vid 300 °C läggs i 0,100 kg vatten vid 20 °C. Vilken sluttemperatur får ämnena?",
+        "t": "<p>Bestäm sluttemperaturen i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,030 kg koppar vid 300 °C läggs i 0,100 kg vatten vid 20 °C. Vilken sluttemperatur får ämnena?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Kopparn har massan 0,03 kg, vattnet har massan 0,1 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}03\\cdot385(300-T)\\\\ &=0{,}1\\cdot4180(T-20)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[429{,}55T=11825\\]\\[T=\\frac{11825}{429{,}55}\\approx27{,}529\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(27{,}5\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Avgiven värme är lika med upptagen värme: \\(m_1c_1(T_1-T)=m_2c_2(T-T_2)\\). Lös ut sluttemperaturen T.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
-        "fraga": "0,075 kg järn vid 200 °C läggs i 0,200 kg vatten vid 12 °C. Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?",
-        "t": "<p>Bestäm sluttemperaturen i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,075 kg järn vid 200 °C läggs i 0,200 kg vatten vid 12 °C. Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?</p>",
+        "fraga": "0,075 kg järn vid 200 °C läggs i 0,200 kg vatten vid 12 °C. Vilken sluttemperatur får ämnena?",
+        "t": "<p>Bestäm sluttemperaturen i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,075 kg järn vid 200 °C läggs i 0,200 kg vatten vid 12 °C. Vilken sluttemperatur får ämnena?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Järnet har massan 0,075 kg, vattnet har massan 0,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}075\\cdot450(200-T)\\\\ &=0{,}2\\cdot4180(T-12)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[869{,}75T=16782\\]\\[T=\\frac{16782}{869{,}75}\\approx19{,}295\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(19{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Avgiven värme är lika med upptagen värme: \\(m_1c_1(T_1-T)=m_2c_2(T-T_2)\\). Lös ut sluttemperaturen T.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
@@ -127709,36 +127839,39 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "22,0 g aluminium vid 100,0 °C läggs i 67,0 g vatten vid 15,1 °C. Sluttemperaturen blir 20,6 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Bestäm metallens specifika värmekapacitet.",
-        "t": "<p>Bestäm den specifika värmekapaciteten i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>22,0 g aluminium vid 100,0 °C läggs i 67,0 g vatten vid 15,1 °C. Sluttemperaturen blir 20,6 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Bestäm metallens specifika värmekapacitet.</p>",
+        "fraga": "22,0 g aluminium vid 100,0 °C läggs i 67,0 g vatten vid 15,1 °C. Sluttemperaturen blir 20,6 °C. Bestäm metallens specifika värmekapacitet.",
+        "t": "<p>Bestäm den specifika värmekapaciteten i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>22,0 g aluminium vid 100,0 °C läggs i 67,0 g vatten vid 15,1 °C. Sluttemperaturen blir 20,6 °C. Bestäm metallens specifika värmekapacitet.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna i beräkningen anges i kg. Vätskan värms 5,5 K och metallen svalnar 79,4 K.</p>\\[\\begin{aligned}&Q_{\\mathrm{vatska}}\\\\ &=0{,}067\\cdot4180\\cdot5{,}5=1540{,}33\\,\\mathrm J\\end{aligned}\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{1540{,}33}{0{,}022\\cdot79{,}4}\\approx881{,}801\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(882\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
         "ledtrad": "<p>Avgiven värme är lika med upptagen värme. Lös ut metallens specifika värmekapacitet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
-        "fraga": "100 g koppar vid 90 °C läggs i 200 g vatten vid 15 °C. Sluttemperaturen blir 18 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Bestäm metallens specifika värmekapacitet.",
-        "t": "<p>Bestäm den specifika värmekapaciteten i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>100 g koppar vid 90 °C läggs i 200 g vatten vid 15 °C. Sluttemperaturen blir 18 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Bestäm metallens specifika värmekapacitet.</p>",
+        "fraga": "100 g koppar vid 90 °C läggs i 200 g vatten vid 15 °C. Sluttemperaturen blir 18 °C. Bestäm metallens specifika värmekapacitet.",
+        "t": "<p>Bestäm den specifika värmekapaciteten i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>100 g koppar vid 90 °C läggs i 200 g vatten vid 15 °C. Sluttemperaturen blir 18 °C. Bestäm metallens specifika värmekapacitet.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna i beräkningen anges i kg. Vätskan värms 3 K och metallen svalnar 72 K.</p>\\[Q_{\\mathrm{vatska}}=0{,}2\\cdot4180\\cdot3=2508\\,\\mathrm J\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{2508}{0{,}1\\cdot72}\\approx348{,}333\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(348\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
         "ledtrad": "<p>Avgiven värme är lika med upptagen värme. Lös ut metallens specifika värmekapacitet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "c",
-        "fraga": "54 g metall vid 100,7 °C läggs i 46,30 g vatten vid 25,00 °C. Sluttemperaturen blir 32,40 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Bestäm metallens specifika värmekapacitet.",
-        "t": "<p>Bestäm den specifika värmekapaciteten i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>54 g metall vid 100,7 °C läggs i 46,30 g vatten vid 25,00 °C. Sluttemperaturen blir 32,40 °C. Vattnets specifika värmekapacitet är 4180 J/(kg·K). Bestäm metallens specifika värmekapacitet.</p>",
+        "fraga": "54 g metall vid 100,7 °C läggs i 46,30 g vatten vid 25,00 °C. Sluttemperaturen blir 32,40 °C. Bestäm metallens specifika värmekapacitet.",
+        "t": "<p>Bestäm den specifika värmekapaciteten i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>54 g metall vid 100,7 °C läggs i 46,30 g vatten vid 25,00 °C. Sluttemperaturen blir 32,40 °C. Bestäm metallens specifika värmekapacitet.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Massorna i beräkningen anges i kg. Vätskan värms 7,4 K och metallen svalnar 68,3 K.</p>\\[\\begin{aligned}&Q_{\\mathrm{vatska}}\\\\ &=0{,}0463\\cdot4180\\cdot7{,}4\\\\ &=1432{,}1516\\,\\mathrm J\\end{aligned}\\]<p>Metallen avger samma energi. Lös ut c ur Q = mcΔT.</p>\\[c=\\frac{1432{,}1516}{0{,}054\\cdot68{,}3}\\approx388{,}306\\,\\mathrm{J/(kg\\cdot K)}\\]<p><strong>Svar:</strong> \\(388\\,\\mathrm{J/(kg\\cdot K)}\\).</p></div>",
         "ledtrad": "<p>Avgiven värme är lika med upptagen värme. Lös ut metallens specifika värmekapacitet.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
@@ -127797,36 +127930,39 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "0,080 kg aluminium vid 100 °C läggs i 0,200 kg vatten vid 21 °C. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?",
-        "t": "<p>Bestäm sluttemperaturen i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,080 kg aluminium vid 100 °C läggs i 0,200 kg vatten vid 21 °C. Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?</p>",
+        "fraga": "0,080 kg aluminium vid 100 °C läggs i 0,200 kg vatten vid 21 °C. Vilken sluttemperatur får ämnena?",
+        "t": "<p>Bestäm sluttemperaturen i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,080 kg aluminium vid 100 °C läggs i 0,200 kg vatten vid 21 °C. Vilken sluttemperatur får ämnena?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Aluminiumet har massan 0,08 kg, vattnet har massan 0,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}08\\cdot900(100-T)\\\\ &=0{,}2\\cdot4180(T-21)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[908T=24756\\]\\[T=\\frac{24756}{908}\\approx27{,}264\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(27{,}3\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Avgiven värme är lika med upptagen värme: \\(m_1c_1(T_1-T)=m_2c_2(T-T_2)\\). Lös ut sluttemperaturen T.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Aluminiumets specifika värmekapacitet är 900 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "b",
-        "fraga": "0,075 kg koppar vid −18 °C läggs i 0,300 kg vatten vid 65 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?",
-        "t": "<p>Bestäm sluttemperaturen i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,075 kg koppar vid −18 °C läggs i 0,300 kg vatten vid 65 °C. Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?</p>",
+        "fraga": "0,075 kg koppar vid −18 °C läggs i 0,300 kg vatten vid 65 °C. Vilken sluttemperatur får ämnena?",
+        "t": "<p>Bestäm sluttemperaturen i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,075 kg koppar vid −18 °C läggs i 0,300 kg vatten vid 65 °C. Vilken sluttemperatur får ämnena?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Kopparn har massan 0,075 kg, vattnet har massan 0,3 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}3\\cdot4180(65-T)\\\\ &=0{,}075\\cdot385(T+18)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[1282{,}875T=80990{,}25\\]\\[T=\\frac{80990{,}25}{1282{,}875}\\approx63{,}132\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(63{,}1\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Avgiven värme är lika med upptagen värme: \\(m_1c_1(T_1-T)=m_2c_2(T-T_2)\\). Lös ut sluttemperaturen T.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Kopparns specifika värmekapacitet är 385 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       },
       {
         "etikett": "c",
-        "fraga": "0,018 kg järn vid 7,6 °C läggs i 0,200 kg vatten vid 75 °C. Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?",
-        "t": "<p>Bestäm sluttemperaturen i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,018 kg järn vid 7,6 °C läggs i 0,200 kg vatten vid 75 °C. Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K). Vilken sluttemperatur får ämnena?</p>",
+        "fraga": "0,018 kg järn vid 7,6 °C läggs i 0,200 kg vatten vid 75 °C. Vilken sluttemperatur får ämnena?",
+        "t": "<p>Bestäm sluttemperaturen i varje försök. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,018 kg järn vid 7,6 °C läggs i 0,200 kg vatten vid 75 °C. Vilken sluttemperatur får ämnena?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt sluttemperaturen vara T. Järnet har massan 0,018 kg, vattnet har massan 0,2 kg.</p><p>Energin som de varmare ämnena avger tas upp av de kallare. Använd Q = mcΔT på båda sidor:</p>\\[\\begin{aligned}&0{,}2\\cdot4180(75-T)\\\\ &=0{,}018\\cdot450(T-7{,}6)\\end{aligned}\\]<p>Multiplicera in och samla termerna med T:</p>\\[844{,}1T=62761{,}56\\]\\[T=\\frac{62761{,}56}{844{,}1}\\approx74{,}353\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(74{,}4\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Avgiven värme är lika med upptagen värme: \\(m_1c_1(T_1-T)=m_2c_2(T-T_2)\\). Lös ut sluttemperaturen T.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Järnets specifika värmekapacitet är 450 J/(kg·K). Vattnets specifika värmekapacitet är 4180 J/(kg·K)."
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
@@ -128536,28 +128672,32 @@ window.BANK = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beräkna energin för följande fasändringar.</p>",
-    "spelDelar": [{
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi behövs? ",
-        "t": "<p>1,2 kg aluminium vid smältpunkten ska smälta. Aluminiumets smältvärme är 397 kJ/kg.</p><p>Hur mycket energi behövs?</p>",
+        "t": "<p>1,2 kg aluminium vid smältpunkten ska smälta.</p><p>Hur mycket energi behövs?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q=mL_f=1{,}2\\cdot397\\\\ &=476{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p>Omvandla kJ till J.</p><p><strong>Svar:</strong> \\(476000\\,\\mathrm{J}\\).</p></div>",
         "ledtrad": "<p>Använd Q = mL_f och omvandla kJ till J.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Aluminiumets smältvärme är 397 kJ/kg."
       },
       {
         "etikett": "b",
         "fraga": "Hur mycket energi avges? ",
-        "t": "<p>25 g etanolånga blir vätska med samma temperatur. Etanolens ångbildningsvärme är 840 kJ/kg.</p><p>Hur mycket energi avges?</p>",
+        "t": "<p>25 g etanolånga blir vätska med samma temperatur.</p><p>Hur mycket energi avges?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>25 g = 0,025 kg.</p>\\[\\begin{aligned}&Q=mL_v=0{,}025\\cdot840\\\\ &=21\\,\\mathrm{kJ}\\end{aligned}\\]<p>21 kJ = 21 000 J.</p><p><strong>Svar:</strong> \\(21000\\,\\mathrm{J}\\).</p></div>",
         "ledtrad": "<p>Omvandla gram till kilogram och använd Q = mL_v.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
-      }],
+        "arbetsinsats": 2,
+        "kgInstruktion": "Etanolens ångbildningsvärme är 840 kJ/kg."
+      }
+    ],
     "ledtrad": "<p>\\(Q=ml\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "fasandring__latent_varme",
@@ -128614,39 +128754,44 @@ window.BANK = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "",
-    "spelDelar": [{
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi behövs? ",
-        "t": "<p>55 g järn värms från 25 °C till 1538 °C och smälter. Järnets specifika värmekapacitet är 0,45 kJ/(kg·K) och smältvärmet är 276 kJ/kg.</p><p>Hur mycket energi behövs?</p>",
+        "t": "<p>55 g järn värms från 25 °C till 1538 °C och smälter.</p><p>Hur mycket energi behövs?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>55 g = 0,055 kg. Temperaturökningen är 1538 − 25 = 1513 K.</p>\\[\\begin{aligned}&Q_{\\rm värm}=0{,}055\\cdot0{,}45\\cdot1513\\\\ &=37{,}44675\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}055\\cdot276\\\\ &=15{,}18\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=(37{,}44675+15{,}18)\\cdot1000\\\\ &=52626{,}75\\,\\mathrm{J}\\end{aligned}\\]<p><strong>Svar:</strong> \\(52600\\,\\mathrm{J}\\).</p></div>",
         "ledtrad": "<p>Lägg ihop energin för att värma järnet till smältpunkten och energin för smältningen.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Järnets specifika värmekapacitet är 0,45 kJ/(kg·K) och smältvärmet är 276 kJ/kg."
       },
       {
         "etikett": "b",
         "fraga": "Hur mycket energi behövs? ",
-        "t": "<p>18 g is vid −18 °C ska värmas till 0 °C och smälta. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi behövs?</p>",
+        "t": "<p>18 g is vid −18 °C ska värmas till 0 °C och smälta.</p><p>Hur mycket energi behövs?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>18 g = 0,018 kg. Isen värms 18 K och smälter.</p>\\[\\begin{aligned}&Q_{\\rm värm}=0{,}018\\cdot2{,}2\\cdot18\\\\ &=0{,}7128\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm smält}=0{,}018\\cdot334\\\\ &=6{,}012\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=(0{,}7128+6{,}012)\\cdot1000\\\\ &=6724{,}8\\,\\mathrm{J}\\end{aligned}\\]<p><strong>Svar:</strong> \\(6720\\,\\mathrm{J}\\).</p></div>",
         "ledtrad": "<p>Isen behöver först värmas till 0 °C och sedan smälta.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Isens smältvärme är 334 kJ/kg."
       },
       {
         "etikett": "c",
         "fraga": "Hur mycket vatten kan omvandlas till ånga? ",
-        "t": "<p>Vatten vid 21 °C tillförs 0,10 MJ. Det värms till 100 °C och förångas helt. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket vatten kan omvandlas till ånga?</p>",
+        "t": "<p>Vatten vid 21 °C tillförs 0,10 MJ. Det värms till 100 °C och förångas helt.</p><p>Hur mycket vatten kan omvandlas till ånga?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>0,10 MJ = 100 kJ. Varje kilogram behöver energi för att värmas 79 K och förångas:</p>\\[\\begin{aligned}&\\frac{Q}{m}=4{,}18\\cdot79+2260\\\\ &=2590{,}22\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&m=\\frac{100}{2590{,}22}\\\\ &\\approx0{,}0386\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}0386\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Beräkna energibehovet per kilogram och dividera den tillförda energin med det.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
-      }],
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg."
+      }
+    ],
     "ledtrad": "<p>\\(Q=mc\\Delta T\\) och \\(Q=ml\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "fasandring__latent_varme",
@@ -128890,17 +129035,19 @@ window.BANK = [
       "°C"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En blykula vid 20 °C passerar en vägg. Farten minskar från 220 m/s till 160 m/s. Kulan tar upp hälften av den förlorade rörelseenergin som värme. Blyets specifika värmekapacitet är 0,13 kJ/(kg·K).</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En blykula vid 20 °C passerar en vägg. Farten minskar från 220 m/s till 160 m/s. Kulan tar upp hälften av den förlorade rörelseenergin som värme.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket ökar kulans temperatur?",
-        "t": "<p>En blykula passerar en vägg. Farten minskar från 220 m/s till 160 m/s. Kulan tar upp hälften av den förlorade rörelseenergin. Blyets specifika värmekapacitet är 0,13 kJ/(kg·K).</p><p>Hur mycket ökar kulans temperatur?</p>",
+        "t": "<p>En blykula passerar en vägg. Farten minskar från 220 m/s till 160 m/s. Kulan tar upp hälften av den förlorade rörelseenergin.</p><p>Hur mycket ökar kulans temperatur?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna den förlorade rörelseenergin per kilogram:</p>\\[\\begin{aligned}&\\frac{\\Delta E_k}{m}=\\frac{220^{2}-160^{2}}{2}\\\\ &=11400\\,\\mathrm{J/kg}\\end{aligned}\\]<p>Kulan tar upp hälften, 5700 J per kilogram. Blyets specifika värmekapacitet är 130 J/(kg·K).</p>\\[\\begin{aligned}&\\Delta T=\\frac{5700}{130}\\\\ &\\approx44\\,\\mathrm{K}\\end{aligned}\\]<p><strong>Svar:</strong> \\(44\\,\\mathrm{K}\\).</p></div>",
         "ledtrad": "<p>Jämför den förlorade rörelseenergin med mcΔT och förkorta bort massan.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Blyets specifika värmekapacitet är 0,13 kJ/(kg·K)."
       },
       {
         "etikett": "b",
@@ -128912,7 +129059,8 @@ window.BANK = [
         "poang": "(1/0/0)",
         "traningsniva": 1,
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "ledtrad": "<p>Förlorad rörelseenergi blir värme.</p>",
     "traningsniva": 3,
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -128964,29 +129112,33 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>250 g vatten värms från 20 °C till 100 °C på 1 min 45 s i en mikrovågsugn. Vattnet tar upp energi med samma effekt under uppvärmningen och kokningen. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>250 g vatten värms från 20 °C till 100 °C på 1 min 45 s i en mikrovågsugn. Vattnet tar upp energi med samma effekt under uppvärmningen och kokningen.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Vilken effekt överförs till vattnet?",
-        "t": "<p>250 g vatten värms från 20 °C till 100 °C på 1 min 45 s. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K).</p><p>Vilken effekt överförs till vattnet?</p>",
+        "t": "<p>250 g vatten värms från 20 °C till 100 °C på 1 min 45 s.</p><p>Vilken effekt överförs till vattnet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>1 min 45 s = 105 s och 250 g = 0,250 kg.</p>\\[\\begin{aligned}&Q=mc\\Delta T=0{,}25\\cdot4{,}18\\cdot80\\\\ &=83{,}6\\,\\mathrm{kJ}\\end{aligned}\\]<p>83,6 kJ = 83 600 J.</p>\\[\\begin{aligned}&P=\\frac{Q}{t}=\\frac{83600}{105}\\\\ &\\approx796\\,\\mathrm{W}\\end{aligned}\\]<p><strong>Svar:</strong> \\(796\\,\\mathrm{W}\\).</p></div>",
         "ledtrad": "<p>Beräkna energin som vattnet tar upp och dividera med tiden i sekunder.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K)."
       },
       {
         "etikett": "b",
         "fraga": "Hur mycket vatten förångas? ",
-        "t": "<p>250 g vatten vid 20 °C värms i en mikrovågsugn. Det tar 1 min 45 s att nå 100 °C. Vattnet tar upp energi med samma effekt under uppvärmningen och kokningen. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg.</p><p>Hur mycket vatten har förångats 2,0 minuter efter start?</p>",
+        "t": "<p>250 g vatten vid 20 °C värms i en mikrovågsugn. Det tar 1 min 45 s att nå 100 °C. Vattnet tar upp energi med samma effekt under uppvärmningen och kokningen.</p><p>Hur mycket vatten har förångats 2,0 minuter efter start?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Efter 105 s börjar vattnet koka. Återstående tid är 120 − 105 = 15 s. Effekten som når vattnet fås från uppvärmningen:</p>\\[\\begin{aligned}&P=\\frac{0{,}25\\cdot4180\\cdot80}{105}\\\\ &\\approx796\\,\\mathrm{W}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm förånga}=\\frac{83600}{105}\\cdot15\\\\ &\\approx1{,}19\\cdot10^{4}\\,\\mathrm{J}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm ånga}=\\frac{\\frac{83600}{105}\\cdot15}{2260000}\\\\ &\\approx0{,}0053\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}0053\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Ta bort energin för uppvärmningen till 100 °C innan du räknar förångningen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
-      }],
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg."
+      }
+    ],
     "ledtrad": "<p>Beräkna effekten under uppvärmningen. Vid 100 °C går energin till förångningen.</p>",
     "traningsniva": 3,
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -129332,29 +129484,33 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>0,200 kg vatten vid 16 °C kyls med effekten 0,100 kW tills allt vatten är is vid 0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Kopparns specifika värmekapacitet är 0,385 kJ/(kg·K).</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>0,200 kg vatten vid 16 °C kyls med effekten 0,100 kW tills allt vatten är is vid 0 °C.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur lång tid tar det? Bortse från kärlet.",
-        "t": "<p>0,200 kg vatten vid 16 °C kyls med effekten 0,100 kW tills allt vatten är is vid 0 °C. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg.</p><p>Hur lång tid tar det? Bortse från kärlet.</p>",
+        "t": "<p>0,200 kg vatten vid 16 °C kyls med effekten 0,100 kW tills allt vatten är is vid 0 °C.</p><p>Hur lång tid tar det? Bortse från kärlet.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm kyl}=0{,}2\\cdot4{,}18\\cdot16\\\\ &=13{,}376\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm frys}=0{,}2\\cdot334\\\\ &=66{,}8\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=13{,}376+66{,}8\\\\ &=80{,}176\\,\\mathrm{kJ}\\end{aligned}\\]<p>Kylskåpet för bort 0,1 kW = 100 W.</p>\\[\\begin{aligned}&t=\\frac{80176}{100}\\\\ &=801{,}76\\,\\mathrm{s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(802\\,\\mathrm{s}\\).</p></div>",
         "ledtrad": "<p>Vattnet behöver både svalna och frysa. Använd sedan t = Q/P.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg."
       },
       {
         "etikett": "b",
         "fraga": "Hur lång tid tar kylningen och frysningen?",
-        "t": "<p>0,200 kg vatten vid 16 °C finns i ett kopparkärl med massan 0,200 kg vid samma temperatur. Vattnet ska bli is vid 0 °C. För detta avger vattnet 80,176 kJ. Kopparns specifika värmekapacitet är 0,385 kJ/(kg·K). Kylskåpet för bort 0,100 kW.</p><p>Hur lång tid tar kylningen och frysningen?</p>",
+        "t": "<p>0,200 kg vatten vid 16 °C finns i ett kopparkärl med massan 0,200 kg vid samma temperatur. Vattnet ska bli is vid 0 °C. För detta avger vattnet 80,176 kJ. Kylskåpet för bort 0,100 kW.</p><p>Hur lång tid tar kylningen och frysningen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\">\\[\\begin{aligned}&Q_{\\rm koppar}=0{,}2\\cdot0{,}385\\cdot16\\\\ &=1{,}232\\,\\mathrm{kJ}\\end{aligned}\\]<p>Kopparkärlet börjar också vid 16 °C och behöver svalna till 0 °C. Lägg dess energi till vattnets 80,176 kJ.</p>\\[\\begin{aligned}&Q_{\\rm tot}=80{,}176+1{,}232\\\\ &=81{,}408\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&t=\\frac{81408}{100}\\\\ &=814{,}08\\,\\mathrm{s}\\end{aligned}\\]<p><strong>Svar:</strong> \\(814\\,\\mathrm{s}\\).</p></div>",
         "ledtrad": "<p>Kopparkärlet avger också energi när det svalnar till 0 °C.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
-      }],
+        "arbetsinsats": 2,
+        "kgInstruktion": "Kopparns specifika värmekapacitet är 0,385 kJ/(kg·K)."
+      }
+    ],
     "ledtrad": "<p>\\(t=\\dfrac{Q}{P}\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "fasandring__energikedjor_och_varmebalans_med_fasovergang",
@@ -129649,40 +129805,43 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p>",
+    "spelIntro": "<p>Bortse från eventuella värmeförluster till omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "100 g is vid 0 °C läggs i 664 g vatten vid 20 °C. Vilken blir sluttemperaturen?",
-        "t": "<p>Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p><p>100 g is vid 0 °C läggs i 664 g vatten vid 20 °C. Vilken blir sluttemperaturen?</p>",
+        "t": "<p>Bortse från eventuella värmeförluster till omgivningen.</p><p>100 g is vid 0 °C läggs i 664 g vatten vid 20 °C. Vilken blir sluttemperaturen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontrollera först om vattnets energi räcker för att värma och smälta all is:</p>\\[\\begin{aligned}&Q_{\\rm vatten\\ till\\ 0}=0{,}664\\cdot4{,}18\\cdot20\\\\ &=55{,}5104\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is\\ till\\ vatten}=0{,}1\\cdot334\\\\ &=33{,}4\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet kan avge mer energi än isen behöver. All is smälter. Resten värmer hela vattenmassan, 0,764 kg.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=55{,}5104-33{,}4\\\\ &=22{,}1104\\,\\mathrm{kJ}\\end{aligned}\\]<p>Använd Q = mcΔT för att värma hela vattenmassan från 0 °C:</p>\\[T=\\frac{22{,}1104}{0{,}764\\cdot4{,}18}\\approx6{,}9\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(6{,}9\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Jämför vattnets energi vid kylning till 0 °C med energin för att värma och smälta all is.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg."
       },
       {
         "etikett": "b",
         "fraga": "40 g is vid 0 °C ska precis smältas av vatten vid 10 °C. Hur mycket vatten behövs?",
-        "t": "<p>Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p><p>40 g is vid 0 °C ska precis smältas av vatten vid 10 °C. Hur mycket vatten behövs?</p>",
+        "t": "<p>Bortse från eventuella värmeförluster till omgivningen.</p><p>40 g is vid 0 °C ska precis smältas av vatten vid 10 °C. Hur mycket vatten behövs?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>40 g = 0,040 kg. Isen behöver:</p>\\[\\begin{aligned}&Q_{\\rm smält}=0{,}04\\cdot334\\\\ &=13{,}36\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet svalnar 10 K till 0 °C. Dess massa fås ur mcΔT = Q:</p>\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{13{,}36}{4{,}18\\cdot10}\\\\ &\\approx0{,}320\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}320\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Vattnet svalnar till 0 °C och avger smältenergin som isen tar upp.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg."
       },
       {
         "etikett": "c",
         "fraga": "200 g vatten vid 20 °C blandas med 100 g is vid 0 °C. Hur mycket is smälter?",
-        "t": "<p>Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p><p>200 g vatten vid 20 °C blandas med 100 g is vid 0 °C. Hur mycket is smälter?</p>",
+        "t": "<p>Bortse från eventuella värmeförluster till omgivningen.</p><p>200 g vatten vid 20 °C blandas med 100 g is vid 0 °C. Hur mycket is smälter?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattnet kan avge:</p>\\[\\begin{aligned}&Q_{\\rm vatten}=0{,}2\\cdot4{,}18\\cdot20\\\\ &=16{,}72\\,\\mathrm{kJ}\\end{aligned}\\]<p>Det räcker inte för att smälta alla 100 g is (33,4 kJ). Sluttemperaturen blir därför 0 °C.</p>\\[\\begin{aligned}&m_{\\rm smält}=\\frac{16{,}72}{334}\\\\ &\\approx0{,}050\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}050\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Beräkna energin som vattnet kan avge när det svalnar till 0 °C.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg."
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
@@ -129808,40 +129967,43 @@ window.BANK = [
       ""
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p>",
+    "spelIntro": "<p>Bortse från eventuella värmeförluster till omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "50 g vattenånga vid 100 °C blandas med 5,0 liter vatten vid 11 °C. Vilken blir sluttemperaturen?",
-        "t": "<p>Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p><p>50 g vattenånga vid 100 °C blandas med 5,0 liter vatten vid 11 °C. Vilken blir sluttemperaturen?</p>",
+        "t": "<p>Bortse från eventuella värmeförluster till omgivningen.</p><p>50 g vattenånga vid 100 °C blandas med 5,0 liter vatten vid 11 °C. Vilken blir sluttemperaturen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massa ur vattenvolym: \\(m_v=\\rho V\\)</p><p>Med överslagsvärdet 1,0 kg/liter är vattenmassan 5,0 kg. Med tabellvärdet 0,997 kg/liter är den i stället 4,985 kg.</p></li><li><p class=\"facit-rubrik\">Energibalans: \\(Q_{av}=Q_{up}\\)</p><p>Ångan kondenserar och det bildade vattnet svalnar från 100 °C till T. Det kalla vattnet värms från 11 °C till T. Energierna nedan anges i kJ. Kondensationen avger 0,050 · 2260 = 113 kJ och avsvalningen ger 0,050 · 4,18 · (100 − T) kJ.</p><div class=\"facit-matte\">\\[\\begin{gathered}Q_{kond}=113\\\\Q_{kyl}=0{,}209(100-T)\\\\Q_{av}=133{,}9-0{,}209T\\\\Q_{up}=4{,}18m_v(T-11)\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös temperaturbalansen med vald vattenmassa</p><p>Med 5,0 kg vatten blir balansen:</p><div class=\"facit-matte\">\\[\\begin{gathered}Q_{up}=20{,}9T-229{,}9\\\\(20{,}9+0{,}209)T\\\\=133{,}9+229{,}9\\\\T=\\frac{363{,}8}{21{,}109}\\approx17{,}234\\ {}^\\circ\\mathrm C\\end{gathered}\\]</div><p>Med 4,985 kg vatten blir samma ekvation:</p><div class=\"facit-matte\">\\[\\begin{gathered}Q_{up}=20{,}8373(T-11)\\\\21{,}0463T=363{,}1103\\\\T\\approx17{,}253\\ {}^\\circ\\mathrm C\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sluttemperaturen blir cirka 17,2 °C med 1,0 kg/liter eller 17,3 °C med 0,997 kg/liter. Skillnaden beror på tabellvärdet.</p></div>",
         "ledtrad": "<p>Ångan blir vatten och svalnar. Det kalla vattnet tar upp denna energi.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 3
+        "arbetsinsats": 3,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg."
       },
       {
         "etikett": "b",
         "fraga": "0,50 kg is vid 0 °C smälts av vattenånga vid 100 °C. Allt får sluttemperaturen 0 °C. Hur mycket vattenånga behövs?",
-        "t": "<p>Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p><p>0,50 kg is vid 0 °C smälts av vattenånga vid 100 °C. Allt får sluttemperaturen 0 °C. Hur mycket vattenånga behövs?</p>",
+        "t": "<p>Bortse från eventuella värmeförluster till omgivningen.</p><p>0,50 kg is vid 0 °C smälts av vattenånga vid 100 °C. Allt får sluttemperaturen 0 °C. Hur mycket vattenånga behövs?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isens smältenergi: \\(Q=m_i l_s\\)</p><div class=\"facit-matte\">\\[Q=0{,}50\\cdot334=167\\ \\mathrm{kJ}\\]</div></li><li><p class=\"facit-rubrik\">Ångan avger både kondensations- och avsvalningsenergi: \\(Q=m_a(l_a+c\\Delta T)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}167&=m_a(2260+418)\\\\&=2678m_a\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut ångmassan</p><div class=\"facit-matte\">\\[m_a=\\frac{167}{2678}\\approx0{,}06236\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det behövs cirka 0,062 kg vattenånga.</p></div>",
         "ledtrad": "<p>Ångan avger energi vid både kondensationen och avsvalningen till 0 °C.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg."
       },
       {
         "etikett": "c",
         "fraga": "Is vid 0 °C och vattenånga vid 100 °C blandas. Sluttemperaturen blir 50 °C. Hur många gånger större är isens massa än ångans massa?",
-        "t": "<p>Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p><p>Is vid 0 °C och vattenånga vid 100 °C blandas. Sluttemperaturen blir 50 °C. Hur många gånger större är isens massa än ångans massa?</p>",
+        "t": "<p>Bortse från eventuella värmeförluster till omgivningen.</p><p>Is vid 0 °C och vattenånga vid 100 °C blandas. Sluttemperaturen blir 50 °C. Hur många gånger större är isens massa än ångans massa?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Isen smälter och värms: \\(Q_i=m_i(l_s+c\\Delta T)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}Q_i&=m_i(334+4{,}18\\cdot50)\\\\&=543m_i\\ \\mathrm{kJ}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Ångan kondenserar och svalnar: \\(Q_a=m_a(l_a+c\\Delta T)\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}Q_a&=m_a(2260+4{,}18\\cdot50)\\\\&=2469m_a\\ \\mathrm{kJ}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Energibalansen ger masskvoten: \\(Q_i=Q_a\\)</p><div class=\"facit-matte\">\\[m_i/m_a=2469/543\\approx4{,}55\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Isens massa ska vara cirka 4,55 gånger ångans massa.</p></div>",
         "ledtrad": "<p>Jämför energin som varje kilogram is tar upp med energin som varje kilogram ånga avger.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 3
+        "arbetsinsats": 3,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Vattnets ångbildningsvärme är 2260 kJ/kg."
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
@@ -129932,29 +130094,31 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>65 g is vid −8,0 °C läggs i en termos. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p>",
+    "spelIntro": "<p>65 g is vid −8,0 °C läggs i en termos. Bortse från eventuella värmeförluster till omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Isen blandas med 200 g vatten vid 35 °C. Vilken blir sluttemperaturen?",
-        "t": "<p>65 g is vid −8,0 °C läggs i en termos. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p><p>Isen blandas med 200 g vatten vid 35 °C. Vilken blir sluttemperaturen?</p>",
+        "t": "<p>65 g is vid −8,0 °C läggs i en termos. Bortse från eventuella värmeförluster till omgivningen.</p><p>Isen blandas med 200 g vatten vid 35 °C. Vilken blir sluttemperaturen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kontrollera först om vattnets energi räcker för att värma och smälta all is:</p>\\[\\begin{aligned}&Q_{\\rm vatten\\ till\\ 0}=0{,}2\\cdot4{,}18\\cdot35\\\\ &=29{,}26\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm is\\ till\\ vatten}=0{,}065\\cdot(2{,}2\\cdot8+334)\\\\ &=22{,}854\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet kan avge mer energi än isen behöver. All is smälter. Resten värmer hela vattenmassan, 0,265 kg.</p>\\[\\begin{aligned}&Q_{\\rm kvar}=29{,}26-22{,}854\\\\ &=6{,}406\\,\\mathrm{kJ}\\end{aligned}\\]<p>Använd Q = mcΔT för att värma hela vattenmassan från 0 °C:</p>\\[T=\\frac{6{,}406}{0{,}265\\cdot4{,}18}\\approx5{,}8\\,{}^\\circ\\mathrm C\\]<p><strong>Svar:</strong> \\(5{,}8\\,{}^\\circ\\mathrm C\\).</p></div>",
         "ledtrad": "<p>Jämför vattnets energi vid kylning till 0 °C med energin för att värma och smälta all is.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 3
+        "arbetsinsats": 3,
+        "kgInstruktion": "Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg."
       },
       {
         "etikett": "b",
         "fraga": "Hur mycket vatten vid 35 °C behövs för att precis smälta isen?",
-        "t": "<p>65 g is vid −8,0 °C läggs i en termos. Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p><p>Hur mycket vatten vid 35 °C behövs för att precis smälta isen?</p>",
+        "t": "<p>65 g is vid −8,0 °C läggs i en termos. Bortse från eventuella värmeförluster till omgivningen.</p><p>Hur mycket vatten vid 35 °C behövs för att precis smälta isen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>65 g = 0,065 kg. Isen behöver både värmas till 0 °C och smälta:</p>\\[\\begin{aligned}&Q_{\\rm is}=0{,}065\\cdot(2{,}2\\cdot8+334)\\\\ &=22{,}854\\,\\mathrm{kJ}\\end{aligned}\\]<p>Vattnet svalnar 35 K till 0 °C och avger samma energi.</p>\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{22{,}854}{4{,}18\\cdot35}\\\\ &\\approx0{,}156\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}156\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Vattnet svalnar till 0 °C och värmer och smälter isen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Isens specifika värmekapacitet är 2,2 kJ/(kg·K). Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Isens smältvärme är 334 kJ/kg."
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
@@ -130008,29 +130172,31 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>56 g flytande silver vid smältpunkten 962 °C kyls med vatten vid 10 °C. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p>",
+    "spelIntro": "<p>56 g flytande silver vid smältpunkten 962 °C kyls med vatten vid 10 °C. Bortse från eventuella värmeförluster till omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Silvret kyls till 20 °C i vatten som från början är 10 °C och som också får temperaturen 20 °C. Hur mycket vatten behövs?",
-        "t": "<p>56 g flytande silver vid smältpunkten 962 °C kyls med vatten vid 10 °C. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p><p>Silvret kyls till 20 °C i vatten som från början är 10 °C och som också får temperaturen 20 °C. Hur mycket vatten behövs?</p>",
+        "t": "<p>56 g flytande silver vid smältpunkten 962 °C kyls med vatten vid 10 °C. Bortse från eventuella värmeförluster till omgivningen.</p><p>Silvret kyls till 20 °C i vatten som från början är 10 °C och som också får temperaturen 20 °C. Hur mycket vatten behövs?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>56 g = 0,056 kg. Silvret avger energi när det stelnar och svalnar från 962 °C till 20 °C:</p>\\[\\begin{aligned}&Q_{\\rm stelna}=0{,}056\\cdot105\\\\ &=5{,}88\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm kyl}=0{,}056\\cdot0{,}235\\cdot(962-20)\\\\ &=12{,}39672\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=5{,}88+12{,}39672\\\\ &=18{,}27672\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram vatten tar upp 4,18 · (20 − 10) = 41,8 kJ. Vattenmassan blir:</p>\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{18{,}27672}{41{,}8}\\\\ &\\approx0{,}437\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}437\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Silvret avger energi när det stelnar och svalnar. Den energin värmer vattnet 10 K.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg."
       },
       {
         "etikett": "b",
         "fraga": "Hur mycket vatten behöver förångas om silvret i stället kyls till 100 °C genom att vatten vid 10 °C värms och förångas vid 100 °C?",
-        "t": "<p>56 g flytande silver vid smältpunkten 962 °C kyls med vatten vid 10 °C. Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg. Bortse från eventuella värmeförluster till omgivningen.</p><p>Hur mycket vatten behöver förångas om silvret i stället kyls till 100 °C genom att vatten vid 10 °C värms och förångas vid 100 °C?</p>",
+        "t": "<p>56 g flytande silver vid smältpunkten 962 °C kyls med vatten vid 10 °C. Bortse från eventuella värmeförluster till omgivningen.</p><p>Hur mycket vatten behöver förångas om silvret i stället kyls till 100 °C genom att vatten vid 10 °C värms och förångas vid 100 °C?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>56 g = 0,056 kg. I detta försök svalnar silvret till 100 °C. Det avger energi vid stelningen och avsvalningen:</p>\\[\\begin{aligned}&Q_{\\rm stelna}=0{,}056\\cdot105\\\\ &=5{,}88\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm kyl}=0{,}056\\cdot0{,}235\\cdot(962-100)\\\\ &=11{,}34392\\,\\mathrm{kJ}\\end{aligned}\\]\\[\\begin{aligned}&Q_{\\rm tot}=5{,}88+11{,}34392\\\\ &=17{,}22392\\,\\mathrm{kJ}\\end{aligned}\\]<p>Varje kilogram vatten behöver värmas från 10 °C till 100 °C och förångas:</p>\\[\\begin{aligned}&\\frac{Q_{\\rm vatten}}{m}=4{,}18\\cdot90+2260\\\\ &=2636{,}2\\,\\mathrm{kJ/kg}\\end{aligned}\\]\\[\\begin{aligned}&m_{\\rm vatten}=\\frac{17{,}22392}{2636{,}2}\\\\ &\\approx0{,}0065\\,\\mathrm{kg}\\end{aligned}\\]<p><strong>Svar:</strong> \\(0{,}0065\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Jämför silvrets avgivna energi med energibehovet per kilogram vatten.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 3
+        "arbetsinsats": 3,
+        "kgInstruktion": "Silvrets specifika värmekapacitet är 0,235 kJ/(kg·K) och smältvärmet är 105 kJ/kg. Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K). Vattnets ångbildningsvärme är 2260 kJ/kg."
       }
     ],
     "ledtrad": "<p>Avgiven värme = upptagen värme.</p>",
@@ -132316,8 +132482,9 @@ window.BANK = [
       "kr"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En 3,5 m lång kabel har två runda kopparledare med diametern 1,628 mm vardera. Kopparns resistivitet är 1,7·10⁻⁸ Ωm. Strömmen är 18 A.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En 3,5 m lång kabel har två runda kopparledare med diametern 1,628 mm vardera. Strömmen är 18 A.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Vilken effekt blir värme i kabeln?",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><p>Strömmen går genom både fram- och återledare: L = 2 · 3,5 = 7,0 m. Radien är 1,628/2 = 0,814 mm = 0,000814 m.</p></li><li><p class=\"facit-rubrik\">Cirkulär area: \\(A=\\pi r^2\\)</p><div class=\"facit-matte\">\\[A=\\pi\\cdot0{,}000814^2\\approx2{,}08\\cdot10^{-6}\\ \\mathrm{m^2}\\]</div></li><li><p class=\"facit-rubrik\">Ledningsresistans: \\(R=\\rho L/A\\)</p><div class=\"facit-matte\">\\[R=\\frac{1{,}7\\cdot10^{-8}\\cdot7{,}0}{\\pi\\cdot0{,}000814^2}\\approx0{,}05717\\ \\Omega\\]</div></li><li><p class=\"facit-rubrik\">Effekt i en resistor: \\(P=I^2R\\)</p><p>Använd den oavrundade resistansen.</p><div class=\"facit-matte\">\\[P=18^2\\cdot\\frac{1{,}7\\cdot10^{-8}\\cdot7{,}0}{\\pi\\cdot0{,}000814^2}\\approx18{,}522\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(18{,}5\\ \\mathrm W\\).</p></div>",
@@ -132352,7 +132519,8 @@ window.BANK = [
         "ledtrad": "<p>Effekten är redan given. Beräkna energin i kWh innan du använder elpriset.</p>",
         "t": "<p>I en kabel blir 18,5 W värme. Den används under 360 timmar. Elpriset är 2,0 kr/kWh. Vad kostar energin som blir värme?</p>",
         "arbetsinsats": 1
-      }],
+      }
+    ],
     "ledtrad": "<p>Hur lång sträcka går strömmen sammanlagt genom kabelns två ledare?</p>",
     "traningsniva": 2,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
@@ -132403,8 +132571,9 @@ window.BANK = [
       "s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Isens specifika värmekapacitet är 2 100 J/(kg·°C) och smältvärme 334 kJ/kg. Antag att all värme går till isen.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Antag att all värme går till isen.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Bestäm resistansen.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ohms lag: \\(U=RI\\)</p><div class=\"facit-matte\">\\[R=\\frac{230}{1{,}5}\\approx153\\ \\Omega\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(153\\ \\Omega\\).</p></div>",
@@ -132437,9 +132606,11 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Vilka två förändringar måste isen genomgå innan allt är vatten vid 0 °C?</p>",
-        "t": "<p>En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Isens specifika värmekapacitet är 2 100 J/(kg·°C) och smältvärme 334 kJ/kg. Antag att all värme går till isen. Hur lång tid behövs för att få vatten vid 0 °C?</p>",
-        "arbetsinsats": 2
-      }],
+        "t": "<p>En värmare drar 1,5 A vid 230 V. Den ska värma och smälta 0,72 kg is som är −18 °C. Antag att all värme går till isen. Hur lång tid behövs för att få vatten vid 0 °C?</p>",
+        "arbetsinsats": 2,
+        "kgInstruktion": "Isens specifika värmekapacitet är 2 100 J/(kg·°C) och smältvärme 334 kJ/kg."
+      }
+    ],
     "ledtrad": "<p>Skilj mellan energin för att värma isen till 0 °C och energin för att smälta den.</p>",
     "traningsniva": 3,
     "familjNyckel": "kopplingar__elektrisk_effekt_och_energi",
@@ -138569,8 +138740,8 @@ window.BANK = [
     "niva": "A",
     "typ": "atmosfärmodell och väderballong",
     "poang": "(0/1/2)",
-    "t": "<p>En väderballong har volymen 4,00 m³ vid marken. Den spricker när volymen når 20,0 m³. Vid höjden h meter modelleras temperaturen och trycket av T = 288−0,0065h kelvin och \\(p=101{,}3\\cdot\\left(\\dfrac{288-0{,}0065h}{288}\\right)^{5{,}26}\\) kPa. Vid marken är T = 288 K och p = 101,3 kPa. Ballongen antas vara sluten och ha samma tryck och temperatur som omgivningen.</p><p><strong>a)</strong> Ställ upp en ekvation för höjden där ballongen når 20,0 m³.</p><p><strong>b)</strong> Bestäm höjden med ett digitalt verktyg.</p><p><strong>c)</strong> Nämn en begränsning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Gasmängden är konstant. Gaslagen ger</p>\\[\\frac{101{,}3\\cdot4{,}00}{288}=\\frac{p(h)\\cdot20{,}0}{T(h)}.\\]<p>Sätt in den givna tryckmodellen och dela med uttrycket för starttillståndet.</p>\\[\\frac{V(h)}{4{,}00}=\\left(\\frac{T(h)}{288}\\right)^{1-5{,}26}.\\]<p>Vid gränsvolymen är volymkvoten 5. Ekvationen blir</p>\\[5=\\left(\\frac{288-0{,}0065h}{288}\\right)^{-4{,}26}.\\]<p><strong>b)</strong> Lös ekvationen med ett digitalt verktyg. Man kan också först lösa ut temperaturen:</p>\\[T=288\\cdot5^{-1/4{,}26}\\approx197{,}38\\,\\mathrm K.\\]\\[h=\\frac{288-T}{0{,}0065}\\approx13941\\,\\mathrm m.\\]<p class=\"facit-svar\"><strong>Svar:</strong> Cirka 13,9 km.</p><p><strong>c)</strong> Till exempel antar modellen att gasen i ballongen har samma tryck som omgivningen. Ballongens material kan ge ett högre tryck inne i ballongen.</p></div>",
+    "t": "<p>En väderballong har volymen 4,00 m³ vid marken. Den spricker när volymen når 20,0 m³. Vid höjden h meter modelleras temperaturen och trycket av T = 288−0,0065h kelvin och \\(p=101{,}3\\cdot\\left(\\dfrac{288-0{,}0065h}{288}\\right)^{5{,}26}\\) kPa. Vid marken är T = 288 K och p = 101,3 kPa. Ballongen antas vara sluten och ha samma tryck och temperatur som omgivningen.</p><p><strong>a)</strong> Ställ upp en ekvation för höjden där ballongen når 20,0 m³.</p><p><strong>b)</strong> Bestäm höjden med GeoGebra.</p><p><strong>c)</strong> Nämn en begränsning.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong> Gasmängden är konstant. Gaslagen ger</p>\\[\\frac{101{,}3\\cdot4{,}00}{288}=\\frac{p(h)\\cdot20{,}0}{T(h)}.\\]<p>Sätt in den givna tryckmodellen och dela med uttrycket för starttillståndet.</p>\\[\\frac{V(h)}{4{,}00}=\\left(\\frac{T(h)}{288}\\right)^{1-5{,}26}.\\]<p>Vid gränsvolymen är volymkvoten 5. Ekvationen blir</p>\\[5=\\left(\\frac{288-0{,}0065h}{288}\\right)^{-4{,}26}.\\]<p><strong>b)</strong> Lös ekvationen med GeoGebra. Man kan också först lösa ut temperaturen:</p>\\[T=288\\cdot5^{-1/4{,}26}\\approx197{,}38\\,\\mathrm K.\\]\\[h=\\frac{288-T}{0{,}0065}\\approx13941\\,\\mathrm m.\\]<p class=\"facit-svar\"><strong>Svar:</strong> Cirka 13,9 km.</p><p><strong>c)</strong> Till exempel antar modellen att gasen i ballongen har samma tryck som omgivningen. Ballongens material kan ge ett högre tryck inne i ballongen.</p></div>",
     "familj": "Allmänna gaslagen",
     "formaga": [
       "modellering",
@@ -141347,16 +141518,18 @@ window.BANK = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "",
-    "spelDelar": [{
+    "spelDelar": [
+      {
         "etikett": "a",
-        "fraga": "Åskmullret hörs 4,60 s efter blixten. Ljudets fart är 340 m/s. Hur långt bort slog blixten ner? Bortse från ljusets restid.",
-        "t": "<p>Åskmullret hörs 4,60 s efter blixten. Ljudets fart är 340 m/s. Hur långt bort slog blixten ner? Bortse från ljusets restid.</p>",
+        "fraga": "Åskmullret hörs 4,60 s efter blixten. Hur långt bort slog blixten ner? Bortse från ljusets restid.",
+        "t": "<p>Åskmullret hörs 4,60 s efter blixten. Hur långt bort slog blixten ner? Bortse från ljusets restid.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sträcka vid konstant fart: \\(s=vt\\)</p><p>När ljusets restid försummas är fördröjningen ljudets restid.</p><div class=\"facit-matte\">\\[s=340\\cdot4{,}60=1564\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1564\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>\\(s=vt\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "kgInstruktion": "Ljudets fart är 340 m/s."
       },
       {
         "etikett": "b",
@@ -141371,14 +141544,15 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En fladdermus får ekot från ett byte efter 0,20 s. Ljudets fart är 340 m/s. Hur långt bort är bytet?",
-        "t": "<p>En fladdermus får ekot från ett byte efter 0,20 s. Ljudets fart är 340 m/s. Hur långt bort är bytet?</p>",
+        "fraga": "En fladdermus får ekot från ett byte efter 0,20 s. Hur långt bort är bytet?",
+        "t": "<p>En fladdermus får ekot från ett byte efter 0,20 s. Hur långt bort är bytet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Eko: \\(2d=vt\\)</p><p>Ljudet går till bytet och tillbaka. Avståndet är därför halva ljudsträckan.</p><div class=\"facit-matte\">\\[d=340\\cdot0{,}20/2=34\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(34\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Ekot går dubbla sträckan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "kgInstruktion": "Ljudets fart är 340 m/s."
       },
       {
         "etikett": "d",
@@ -141390,7 +141564,8 @@ window.BANK = [
         "poang": "(0/1/0)",
         "traningsniva": 3,
         "arbetsinsats": 2
-      }],
+      }
+    ],
     "ledtrad": "<p>\\(s=vt\\).</p>",
     "traningsniva": 3,
     "familjNyckel": "medelhastighet__stracka_tid_och_fart",
@@ -142243,7 +142418,8 @@ window.BANK = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "",
-    "spelDelar": [{
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Oskar springer med konstant fart 4,0 m/s mot sin bil. En björn springer åt samma håll med konstant fart 6,0 m/s och är från början 36 m bakom Oskar. Oskar behöver 4,0 s vid bilen för att sätta sig. Vilket avstånd till bilen gör att han är färdig precis när björnen når bilen?",
         "t": "<p>Oskar springer med konstant fart 4,0 m/s mot sin bil. En björn springer åt samma håll med konstant fart 6,0 m/s och är från början 36 m bakom Oskar. Oskar behöver 4,0 s vid bilen för att sätta sig. Vilket avstånd till bilen gör att han är färdig precis när björnen når bilen?</p>",
@@ -142256,15 +142432,17 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En fiskebåts ekolod sänder en ljudpuls mot ett fiskstim. Ekot kommer tillbaka efter 0,30 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?",
-        "t": "<p>En fiskebåts ekolod sänder en ljudpuls mot ett fiskstim. Ekot kommer tillbaka efter 0,30 s. Ljudets fart i vatten är 1 500 m/s. Hur långt bort är stimmet?</p>",
+        "fraga": "En fiskebåts ekolod sänder en ljudpuls mot ett fiskstim. Ekot kommer tillbaka efter 0,30 s. Hur långt bort är stimmet?",
+        "t": "<p>En fiskebåts ekolod sänder en ljudpuls mot ett fiskstim. Ekot kommer tillbaka efter 0,30 s. Hur långt bort är stimmet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Eko: \\(2d=vt\\)</p><p>Ekot färdas till fiskstimmet och tillbaka.</p><div class=\"facit-matte\">\\[d=1500\\cdot0{,}30/2=225\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(225\\ \\mathrm m\\).</p></div>",
         "ledtrad": "<p>Ekot går dubbla sträckan.</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 1
-      }],
+        "arbetsinsats": 1,
+        "kgInstruktion": "Ljudets fart i vatten är 1 500 m/s."
+      }
+    ],
     "ledtrad": "<p>\\(s=vt\\).</p>",
     "traningsniva": 4,
     "familjNyckel": "medelhastighet__stracka_tid_och_fart",
@@ -154039,28 +154217,32 @@ window.BANK = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Vinden har rörelseenergi.</p>",
-    "spelDelar": [{
+    "spelDelar": [
+      {
         "etikett": "a",
-        "fraga": "Luften i en tänkt cylinder rör sig med farten 8,0 m/s. Cylindern har radien 20 m och längden 100 m. Luftens densitet är 1,29 kg/m³. Hur stor rörelseenergi har luften?",
-        "t": "<p>Luften i en tänkt cylinder rör sig med farten 8,0 m/s. Cylindern har radien 20 m och längden 100 m. Luftens densitet är 1,29 kg/m³. Hur stor rörelseenergi har luften?</p>",
+        "fraga": "Luften i en tänkt cylinder rör sig med farten 8,0 m/s. Cylindern har radien 20 m och längden 100 m. Hur stor rörelseenergi har luften?",
+        "t": "<p>Luften i en tänkt cylinder rör sig med farten 8,0 m/s. Cylindern har radien 20 m och längden 100 m. Hur stor rörelseenergi har luften?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Luftens massa: \\(m=\\rho V=\\rho\\pi r^2l\\)</p><div class=\"facit-matte\">\\[m=1{,}29\\cdot\\pi\\cdot20^2\\cdot100\\approx1{,}621\\cdot10^5\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-rubrik\">Rörelseenergi: \\(E_k=\\dfrac{mv^2}{2}\\)</p><div class=\"facit-matte\">\\[E_k=\\frac{1{,}621\\cdot10^5\\cdot8{,}0^2}{2}\\approx5{,}19\\cdot10^6\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}19\\cdot10^{6}\\) J.</p></div>",
         "ledtrad": "<p>Bestäm först luftens massa från cylinderns volym.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Luftens densitet är 1,29 kg/m³."
       },
       {
         "etikett": "b",
-        "fraga": "Vinden blåser med farten 8,0 m/s rakt mot ett vindkraftverk vars rotor har diametern 40 m. Luftens densitet är 1,29 kg/m³. Vindkraftverket kan ta till vara 59 % av den rörelseenergi som passerar rotorn varje sekund. Hur stor nyttig effekt ger vindkraftverket?",
-        "t": "<p>Vinden blåser med farten 8,0 m/s rakt mot ett vindkraftverk vars rotor har diametern 40 m. Luftens densitet är 1,29 kg/m³. Vindkraftverket kan ta till vara 59 % av den rörelseenergi som passerar rotorn varje sekund. Hur stor nyttig effekt ger vindkraftverket?</p>",
+        "fraga": "Vinden blåser med farten 8,0 m/s rakt mot ett vindkraftverk vars rotor har diametern 40 m. Vindkraftverket kan ta till vara 59 % av den rörelseenergi som passerar rotorn varje sekund. Hur stor nyttig effekt ger vindkraftverket?",
+        "t": "<p>Vinden blåser med farten 8,0 m/s rakt mot ett vindkraftverk vars rotor har diametern 40 m. Vindkraftverket kan ta till vara 59 % av den rörelseenergi som passerar rotorn varje sekund. Hur stor nyttig effekt ger vindkraftverket?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Massa per sekund: \\(\\dfrac{m}{t}=\\rho\\pi r^2v\\)</p><p>Varje sekund passerar en luftcylinder med längden 8,0 m. Radien är 20 m.</p><div class=\"facit-matte\">\\[\\frac{m}{t}=1{,}29\\cdot\\pi\\cdot20^2\\cdot8{,}0\\approx12\\,968\\ \\mathrm{kg/s}\\]</div></li><li><p class=\"facit-rubrik\">Rörelseenergi per sekund: \\(P=\\dfrac{m}{t}\\cdot\\dfrac{v^2}{2}\\)</p><div class=\"facit-matte\">\\[P_{\\text{vind}}=12\\,968\\cdot\\frac{8{,}0^2}{2}\\approx4{,}150\\cdot10^5\\ \\mathrm W\\]</div></li><li><p class=\"facit-rubrik\">Nyttig effekt: \\(P_{\\text{nyttig}}=\\eta P\\)</p><div class=\"facit-matte\">\\[P=0{,}59\\cdot4{,}150\\cdot10^5\\approx2{,}45\\cdot10^5\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}45\\cdot10^{5}\\) W.</p></div>",
         "ledtrad": "<p>Hur stor luftmassa för vinden genom cirkelytan varje sekund?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 3
-      }],
+        "arbetsinsats": 3,
+        "kgInstruktion": "Luftens densitet är 1,29 kg/m³."
+      }
+    ],
     "ledtrad": "<p>Beräkna luftens massa. För kraftverket behövs massan som passerar under en sekund.</p>",
     "traningsniva": 4,
     "familjNyckel": "effekt__verkningsgrad",
@@ -162250,7 +162432,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Uran-238 har halveringstiden 4,5·10⁹ år. Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.",
+        "fraga": "Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.",
         "s": "<div class=\"facit-v2\"><p><div class=\"facit-v2\"><p>\\[T=4{,}5\\cdot10^9\\cdot3{,}156\\cdot10^7\\]</p><p>\\[T\\approx1{,}42\\cdot10^{17}\\ \\mathrm{s}\\]</p></div></p><p><div class=\"facit-v2\"><p>\\[\\lambda=\\ln2/T\\]</p><p>\\[\\lambda\\approx4{,}88\\cdot10^{-18}\\ \\mathrm{s^{-1}}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.880630760174238e-18,
@@ -162263,9 +162445,10 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Sönderfallskonstanten är ln(2) delat med halveringstiden. Skriv tiden i sekunder för att få s⁻¹.</p>",
-        "t": "<p>Uran-238 har halveringstiden 4,5·10⁹ år. Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.</p>",
+        "t": "<p>Ett år är 3,156·10⁷ s. Bestäm sönderfallskonstanten i s⁻¹.</p>",
         "arbetsinsats": 1,
-        "miniräknare": true
+        "miniräknare": true,
+        "kgInstruktion": "Uran-238 har halveringstiden 4,5·10⁹ år."
       },
       {
         "etikett": "b",
@@ -163658,7 +163841,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Ett skelett har C-14/C-12-kvoten 4,34·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "fraga": "Ett skelett har C-14/C-12-kvoten 4,34·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Bestäm åldern i år.",
         "s": "<div class=\"facit-v2\"><p>\\[f=0{,}333846153846\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}333846153846)/\\ln2\\]</p><p>\\[t\\approx9070\\ \\mathrm{år}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 9069.126990450763,
@@ -163671,13 +163854,14 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
-        "t": "<p>Ett skelett har C-14/C-12-kvoten 4,34·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "t": "<p>Ett skelett har C-14/C-12-kvoten 4,34·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Bestäm åldern i år.</p>",
         "arbetsinsats": 2,
-        "miniräknare": true
+        "miniräknare": true,
+        "kgInstruktion": "Kol-14 har halveringstiden 5 730 år."
       },
       {
         "etikett": "b",
-        "fraga": "Ismannen Ötzis kvarlevor har kol-14-aktiviteten 0,121 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "fraga": "Ismannen Ötzis kvarlevor har kol-14-aktiviteten 0,121 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Bestäm åldern i år.",
         "s": "<div class=\"facit-v2\"><p>\\[f=0{,}526086956522\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}526086956522)/\\ln2\\]</p><p>\\[t\\approx5310\\ \\mathrm{år}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 5309.5716423278445,
@@ -163690,13 +163874,14 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
-        "t": "<p>Ismannen Ötzis kvarlevor har kol-14-aktiviteten 0,121 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "t": "<p>Ismannen Ötzis kvarlevor har kol-14-aktiviteten 0,121 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Bestäm åldern i år.</p>",
         "arbetsinsats": 2,
-        "miniräknare": true
+        "miniräknare": true,
+        "kgInstruktion": "Kol-14 har halveringstiden 5 730 år."
       },
       {
         "etikett": "c",
-        "fraga": "Ett prov har kol-14-aktiviteten 0,0061 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "fraga": "Ett prov har kol-14-aktiviteten 0,0061 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Bestäm åldern i år.",
         "s": "<div class=\"facit-v2\"><p>\\[f=0{,}0265217391304\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}0265217391304)/\\ln2\\]</p><p>\\[t\\approx30000\\ \\mathrm{år}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 30006.181031380518,
@@ -163709,9 +163894,10 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
-        "t": "<p>Ett prov har kol-14-aktiviteten 0,0061 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "t": "<p>Ett prov har kol-14-aktiviteten 0,0061 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Bestäm åldern i år.</p>",
         "arbetsinsats": 2,
-        "miniräknare": true
+        "miniräknare": true,
+        "kgInstruktion": "Kol-14 har halveringstiden 5 730 år."
       },
       {
         "etikett": "d",
@@ -163824,9 +164010,10 @@ window.BANK = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "",
-    "spelDelar": [{
+    "spelDelar": [
+      {
         "etikett": "a",
-        "fraga": "Ett ben har kol-14-aktiviteten 0,21 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "fraga": "Ett ben har kol-14-aktiviteten 0,21 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Bestäm åldern i år.",
         "s": "<div class=\"facit-v2\"><p>\\[f=0{,}913043478261\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}913043478261)/\\ln2\\]</p><p>\\[t\\approx752\\ \\mathrm{år}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 752.0311756843879,
@@ -163839,13 +164026,14 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
-        "t": "<p>Ett ben har kol-14-aktiviteten 0,21 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "t": "<p>Ett ben har kol-14-aktiviteten 0,21 Bq per gram kol. Levande material har 0,23 Bq per gram kol. Bestäm åldern i år.</p>",
         "arbetsinsats": 2,
-        "miniräknare": true
+        "miniräknare": true,
+        "kgInstruktion": "Kol-14 har halveringstiden 5 730 år."
       },
       {
         "etikett": "b",
-        "fraga": "Ett ben har C-14/C-12-kvoten 3,25·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "fraga": "Ett ben har C-14/C-12-kvoten 3,25·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Bestäm åldern i år.",
         "s": "<div class=\"facit-v2\"><p>\\[f=0{,}25\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}25)/\\ln2\\]</p><p>\\[t\\approx11500\\ \\mathrm{år}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 11460.0,
@@ -163858,13 +164046,14 @@ window.BANK = [
         "traningsniva": 2,
         "poang": "1/0/0",
         "ledtrad": "<p>Efter varje halveringstid återstår hälften av de radioaktiva kärnorna och hälften av aktiviteten.</p>",
-        "t": "<p>Ett ben har C-14/C-12-kvoten 3,25·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "t": "<p>Ett ben har C-14/C-12-kvoten 3,25·10⁻¹³. Kvoten i levande material är 1,30·10⁻¹². Bestäm åldern i år.</p>",
         "arbetsinsats": 1,
-        "miniräknare": true
+        "miniräknare": true,
+        "kgInstruktion": "Kol-14 har halveringstiden 5 730 år."
       },
       {
         "etikett": "c",
-        "fraga": "En gammal träbit innehåller 200 g kol och har kol-14-aktiviteten 16 Bq. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "fraga": "En gammal träbit innehåller 200 g kol och har kol-14-aktiviteten 16 Bq. Levande material har 0,23 Bq per gram kol. Bestäm åldern i år.",
         "s": "<div class=\"facit-v2\"><p>\\[A_0=200\\cdot0{,}23=46\\ \\mathrm{Bq}\\]</p><p>\\[f=16/46\\]</p><p><div class=\"facit-v2\"><p>\\[f=0{,}347826086957\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}347826086957)/\\ln2\\]</p><p>\\[t\\approx8730\\ \\mathrm{år}\\]</p></div></p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 8730.010008206684,
@@ -163877,13 +164066,14 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
-        "t": "<p>En gammal träbit innehåller 200 g kol och har kol-14-aktiviteten 16 Bq. Levande material har 0,23 Bq per gram kol. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "t": "<p>En gammal träbit innehåller 200 g kol och har kol-14-aktiviteten 16 Bq. Levande material har 0,23 Bq per gram kol. Bestäm åldern i år.</p>",
         "arbetsinsats": 2,
-        "miniräknare": true
+        "miniräknare": true,
+        "kgInstruktion": "Kol-14 har halveringstiden 5 730 år."
       },
       {
         "etikett": "d",
-        "fraga": "En mumie har 78,5 % av kol-14-halten i levande material. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.",
+        "fraga": "En mumie har 78,5 % av kol-14-halten i levande material. Bestäm åldern i år.",
         "s": "<div class=\"facit-v2\"><p>\\[f=0{,}785\\]</p><p>\\[f=2^{-t/5730}\\]</p><p><div class=\"facit-v2\"><p>\\[t=-5730\\ln(0{,}785)/\\ln2\\]</p><p>\\[t\\approx2000\\ \\mathrm{år}\\]</p></div></p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 2001.1190762601495,
@@ -163896,10 +164086,12 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
-        "t": "<p>En mumie har 78,5 % av kol-14-halten i levande material. Kol-14 har halveringstiden 5 730 år. Bestäm åldern i år.</p>",
+        "t": "<p>En mumie har 78,5 % av kol-14-halten i levande material. Bestäm åldern i år.</p>",
         "arbetsinsats": 2,
-        "miniräknare": true
-      }],
+        "miniräknare": true,
+        "kgInstruktion": "Kol-14 har halveringstiden 5 730 år."
+      }
+    ],
     "ledtrad": "<p>Skriv den kvarvarande andelen som 2 upphöjt till −t/T. Ta logaritmen för att lösa ut tiden.</p>",
     "traningsniva": 3,
     "familjNyckel": "aktivitet__sonderfallslagen_och_datering",
@@ -170582,14 +170774,15 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En träkub med sidan 10,0 cm och densiteten 700 kg/m³ flyter i saltvatten med densiteten 1030 kg/m³. Hur mycket av kubens höjd ligger under ytan?",
-        "t": "<p>Fyra föremål flyter stilla i vatten.</p><p>En träkub med sidan 10,0 cm och densiteten 700 kg/m³ flyter i saltvatten med densiteten 1030 kg/m³. Hur mycket av kubens höjd ligger under ytan?</p>",
+        "fraga": "En träkub med sidan 10,0 cm och densiteten 700 kg/m³ flyter i saltvatten. Hur mycket av kubens höjd ligger under ytan?",
+        "t": "<p>Fyra föremål flyter stilla i vatten.</p><p>En träkub med sidan 10,0 cm och densiteten 700 kg/m³ flyter i saltvatten. Hur mycket av kubens höjd ligger under ytan?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>När föremålet flyter stilla är lyftkraften lika stor som tyngdkraften. Föremålet väger därför lika mycket som det vatten det tränger undan.</p><p>Volymandelen under ytan är densitetsförhållandet 700/1030. Samma andel av kubens höjd ligger under ytan.</p>\\[h=\\frac{700}{1030}\\cdot0{,}100\\approx0{,}0679612\\,\\mathrm m.\\]<p><strong>Svar:</strong> \\(0{,}0680\\,\\mathrm{m}\\).</p></div>",
         "ledtrad": "<p>Andelen under ytan = densitetskvoten.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets densitet är 1030 kg/m³."
       },
       {
         "etikett": "c",
@@ -171735,30 +171928,31 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Luftens densitet är 1,29 kg/m³.</p>",
+    "spelIntro": "",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "En aluminiumkloss vägs i luft. Vågen visar 4,0000 kg och räknar massan som kraften på vågen delad med g. Hur stor är klossens verkliga massa?",
-        "t": "<p>Luftens densitet är 1,29 kg/m³.</p><p>En aluminiumkloss vägs i luft. Vågen visar 4,0000 kg och räknar massan som kraften på vågen delad med g. Hur stor är klossens verkliga massa?</p>",
+        "t": "<p>En aluminiumkloss vägs i luft. Vågen visar 4,0000 kg och räknar massan som kraften på vågen delad med g. Hur stor är klossens verkliga massa?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Luften bär en liten del av klossens tyngd. Därför visar vågen ett något för lågt värde.</p>\\[mg-\\rho_{\\mathrm{luft}}Vg=4{,}0000g.\\]<p>Med \\(V=m/2700\\) och efter division med \\(g\\) får vi:</p>\\[m-\\frac{1{,}29m}{2700}=4{,}0000.\\]\\[m=\\frac{4{,}0000}{1-1{,}29/2700}\\approx4{,}001912\\,\\mathrm{kg}.\\]<p><strong>Svar:</strong> \\(4{,}0019\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Luftens lyftkraft minskar vägningen.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
         "arbetsinsats": 3,
-        "kgInstruktion": "Aluminiumets densitet är 2 700 kg/m³."
+        "kgInstruktion": "Aluminiumets densitet är 2 700 kg/m³. Luftens densitet är 1,29 kg/m³."
       },
       {
         "etikett": "b",
         "fraga": "Hur stor är luftens lyftkraft på ballongen?",
-        "t": "<p>En klotformad ballong har radien 1,00 m. Luftens densitet är 1,29 kg/m³.</p><p>Hur stor är luftens lyftkraft på ballongen?</p>",
+        "t": "<p>En klotformad ballong har radien 1,00 m.</p><p>Hur stor är luftens lyftkraft på ballongen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den klotformade ballongen tränger undan lika mycket luft som sin volym.</p>\\[V=\\frac43\\pi\\cdot1{,}00^3\\approx4{,}18879\\,\\mathrm{m^3}.\\]<p>Luftens lyftkraft beräknas med luftens densitet.</p>\\[F_L=1{,}29\\cdot V\\cdot9{,}82\\approx53{,}0628\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(53{,}1\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Använd \\(F_L=\\rho_{\\mathrm{luft}}Vg\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Luftens densitet är 1,29 kg/m³."
       }
     ],
     "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
@@ -171822,51 +172016,55 @@ window.BANK = [
       "m"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Antag att ballongerna är klotformade. Luftens densitet är 1,29 kg/m³.</p>",
+    "spelIntro": "<p>Antag att ballongerna är klotformade.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Heliumets densitet är 0,179 kg/m³. En heliumballong ska precis kunna bära 180 kg last och ett hölje med massan 10 kg. Vilken volym behövs?",
-        "t": "<p>Antag att ballongerna är klotformade. Luftens densitet är 1,29 kg/m³.</p><p>Heliumets densitet är 0,179 kg/m³. En heliumballong ska precis kunna bära 180 kg last och ett hölje med massan 10 kg. Vilken volym behövs?</p>",
+        "fraga": "En heliumballong ska precis kunna bära 180 kg last och ett hölje med massan 10 kg. Vilken volym behövs?",
+        "t": "<p>Antag att ballongerna är klotformade.</p><p>En heliumballong ska precis kunna bära 180 kg last och ett hölje med massan 10 kg. Vilken volym behövs?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen måste bära både lasten och höljet. Gasens egen massa minskar lyftförmågan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(\\rho_\\text{luft}-\\rho_\\text{gas})V=180+10=190\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{190}{1{,}29-0{,}179}\\,\\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 171 m³.</p></div>",
         "ledtrad": "<p>Skillnaden mellan luftens och gasens densitet avgör hur mycket varje kubikmeter kan bära.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Luftens densitet är 1,29 kg/m³. Heliumets densitet är 0,179 kg/m³."
       },
       {
         "etikett": "b",
-        "fraga": "Vätgasens densitet är 0,090 kg/m³. En vätgasballong ska precis kunna bära 180 kg last och ett hölje med massan 10 kg. Vilken volym behövs?",
-        "t": "<p>Antag att ballongerna är klotformade. Luftens densitet är 1,29 kg/m³.</p><p>Vätgasens densitet är 0,090 kg/m³. En vätgasballong ska precis kunna bära 180 kg last och ett hölje med massan 10 kg. Vilken volym behövs?</p>",
+        "fraga": "En vätgasballong ska precis kunna bära 180 kg last och ett hölje med massan 10 kg. Vilken volym behövs?",
+        "t": "<p>Antag att ballongerna är klotformade.</p><p>En vätgasballong ska precis kunna bära 180 kg last och ett hölje med massan 10 kg. Vilken volym behövs?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Ballongen måste bära både lasten och höljet. Gasens egen massa minskar lyftförmågan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[(\\rho_\\text{luft}-\\rho_\\text{gas})V=180+10=190\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{190}{1{,}29-0{,}090}\\,\\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 158 m³.</p></div>",
         "ledtrad": "<p>Skillnaden mellan luftens och gasens densitet avgör hur mycket varje kubikmeter kan bära.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Luftens densitet är 1,29 kg/m³. Vätgasens densitet är 0,090 kg/m³."
       },
       {
         "etikett": "c",
-        "fraga": "Heliumets densitet är 0,179 kg/m³. En klotformad heliumballong har radien 7,15 m. Hölje och nät väger tillsammans 930 kg. Hur stor last kan den bära?",
-        "t": "<p>Antag att ballongerna är klotformade. Luftens densitet är 1,29 kg/m³.</p><p>Heliumets densitet är 0,179 kg/m³. En klotformad heliumballong har radien 7,15 m. Hölje och nät väger tillsammans 930 kg. Hur stor last kan den bära?</p>",
+        "fraga": "En klotformad heliumballong har radien 7,15 m. Hölje och nät väger tillsammans 930 kg. Hur stor last kan den bära?",
+        "t": "<p>Antag att ballongerna är klotformade.</p><p>En klotformad heliumballong har radien 7,15 m. Hölje och nät väger tillsammans 930 kg. Hur stor last kan den bära?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Beräkna först den klotformade ballongens volym.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{4\\pi r^3}{3}=\\frac{4\\pi\\cdot7{,}15^3}{3}\\approx1531\\,\\mathrm{m^3}\\]</div></div><div class=\"facit-stycke\"><p>Skillnaden mellan undanträngd luftmassa och heliummassa ger bärförmågan. Dra sedan bort höljet och nätet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{aligned}m_\\text{last}&=(1{,}29-0{,}179)\\frac{4\\pi\\cdot7{,}15^3}{3}-930\\\\ &\\approx771\\,\\mathrm{kg}\\end{aligned}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 771 kg.</p></div>",
         "ledtrad": "<p>Skillnaden mellan luftens och gasens densitet avgör hur mycket varje kubikmeter kan bära.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 3
+        "arbetsinsats": 3,
+        "kgInstruktion": "Luftens densitet är 1,29 kg/m³. Heliumets densitet är 0,179 kg/m³."
       },
       {
         "etikett": "d",
-        "fraga": "Heliumets densitet är 0,179 kg/m³. En klotformad heliumballong ska precis kunna bära 7,70 ton last. Hölje, korg och nät väger tillsammans 196 kg. Vilken radie behövs?",
-        "t": "<p>Antag att ballongerna är klotformade. Luftens densitet är 1,29 kg/m³.</p><p>Heliumets densitet är 0,179 kg/m³. En klotformad heliumballong ska precis kunna bära 7,70 ton last. Hölje, korg och nät väger tillsammans 196 kg. Vilken radie behövs?</p>",
+        "fraga": "En klotformad heliumballong ska precis kunna bära 7,70 ton last. Hölje, korg och nät väger tillsammans 196 kg. Vilken radie behövs?",
+        "t": "<p>Antag att ballongerna är klotformade.</p><p>En klotformad heliumballong ska precis kunna bära 7,70 ton last. Hölje, korg och nät väger tillsammans 196 kg. Vilken radie behövs?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Last och ballongens utrustning väger tillsammans</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=7700+196=7896\\,\\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p>En kubikmeter helium ger en bärförmåga på 1,29 − 0,179 = 1,111 kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{7896}{1{,}111}\\approx7107\\,\\mathrm{m^3}\\]</div></div><div class=\"facit-stycke\"><p>En klotformad ballong har \\(V=4\\pi r^3/3\\). Lös ut radien:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=\\sqrt[3]{\\frac{3V}{4\\pi}}\\approx11{,}9\\,\\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> cirka 11,9 m.</p></div>",
         "ledtrad": "<p>Bestäm volymen som kan bära lasten och utrustningen. Vilket samband kopplar ihop ett klots volym och radie?</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 3
+        "arbetsinsats": 3,
+        "kgInstruktion": "Luftens densitet är 1,29 kg/m³. Heliumets densitet är 0,179 kg/m³."
       }
     ],
     "ledtrad": "<p>Nettolyft per kubikmeter: \\(\\rho_\\text{luft}-\\rho_\\text{gas}\\).</p>",
@@ -171927,40 +172125,45 @@ window.BANK = [
       "kg"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Densitet: luft 1,29 kg/m³. Bortse från luftmotståndet.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>Bortse från luftmotståndet.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps.",
-        "t": "<p>Densitet: luft 1,29 kg/m³. Bortse från luftmotståndet.</p><p>En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps.</p>",
+        "t": "<p>Bortse från luftmotståndet.</p><p>En heliumballong (0,12 m³) har totalmassan 0,12 kg. Bestäm accelerationen när den släpps.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ballongens totalmassa är given, inklusive gasen. Lyftkraften verkar uppåt och tyngdkraften nedåt.</p>\\[F_L=1{,}29\\cdot0{,}12\\cdot9{,}82=1{,}520184\\,\\mathrm N.\\]\\[F_g=0{,}12\\cdot9{,}82=1{,}1784\\,\\mathrm N.\\]\\[a=\\frac{1{,}520184-1{,}1784}{0{,}12}=2{,}8478\\,\\mathrm{m/s^2}.\\]<p><strong>Svar:</strong> \\(2{,}85\\,\\mathrm{m/s^2}\\).</p></div>",
         "ledtrad": "<p>\\(F_R=F_\\text{lyft}-mg\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Densitet: luft 1,29 kg/m³."
       },
       {
         "etikett": "b",
-        "fraga": "Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas.",
-        "t": "<p>Densitet: luft 1,29 kg/m³. Bortse från luftmotståndet.</p><p>Varmluft (0,93 kg/m³) omges av kall luft (1,29 kg/m³). Bestäm accelerationen om bara varmluftens massa räknas.</p>",
+        "fraga": "Varmluft (0,93 kg/m³) omges av kall luft. Bestäm accelerationen om bara varmluftens massa räknas.",
+        "t": "<p>Bortse från luftmotståndet.</p><p>Varmluft (0,93 kg/m³) omges av kall luft. Bestäm accelerationen om bara varmluftens massa räknas.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Låt varmluftens volym vara \\(V\\). Massan är \\(0{,}93V\\). Lyftkraften bestäms av den kalla luftens densitet.</p>\\[F_L=1{,}29Vg,\\qquad F_g=0{,}93Vg.\\]<p>Dividera skillnaden mellan krafterna med varmluftens massa.</p>\\[\\begin{aligned}a&=\\frac{(1{,}29-0{,}93)Vg}{0{,}93V}\\\\ &=\\frac{0{,}36\\cdot9{,}82}{0{,}93}\\\\ &\\approx3{,}80129\\,\\mathrm{m/s^2}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(3{,}80\\,\\mathrm{m/s^2}\\).</p></div>",
         "ledtrad": "<p>\\(F_R=F_\\text{lyft}-mg\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Densitet: luft 1,29 kg/m³. Luftens densitet är 1,29 kg/m³."
       },
       {
         "etikett": "c",
-        "fraga": "En liten kula (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm kulans massa.",
-        "t": "<p>Bortse från luftmotståndet.</p><p>En liten kula (radie 0,500 mm) i vatten (1 000 kg/m³) accelererar uppåt med 0,225 m/s². Bestäm kulans massa.</p>",
+        "fraga": "En liten kula (radie 0,500 mm) i vatten accelererar uppåt med 0,225 m/s². Bestäm kulans massa.",
+        "t": "<p>Bortse från luftmotståndet.</p><p>En liten kula (radie 0,500 mm) i vatten accelererar uppåt med 0,225 m/s². Bestäm kulans massa.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Radien är \\(0{,}500\\,\\mathrm{mm}=0{,}000500\\,\\mathrm m\\). Beräkna först kulans volym och lyftkraft.</p>\\[\\begin{aligned}V&=\\frac43\\pi\\cdot0{,}000500^3\\\\ &\\approx5{,}23599\\cdot10^{-10}\\,\\mathrm{m^3}.\\end{aligned}\\]\\[F_L=1000V\\cdot9{,}82\\approx5{,}14174\\cdot10^{-6}\\,\\mathrm N.\\]<p>Newtons andra lag ger \\(F_L-mg=ma\\). Lös ut massan:</p>\\[\\begin{aligned}m&=\\frac{F_L}{g+a}\\\\ &=\\frac{F_L}{9{,}82+0{,}225}\\\\ &\\approx5{,}11871\\cdot10^{-7}\\,\\mathrm{kg}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(5{,}12\\cdot10^{-7}\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}-mg=ma\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 3
-      }],
+        "arbetsinsats": 3,
+        "kgInstruktion": "Vattnets densitet är 1 000 kg/m³."
+      }
+    ],
     "ledtrad": "<p>Lyftkraft minus tyngd ger accelerationen.</p>",
     "traningsniva": 4,
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
@@ -172018,42 +172221,43 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Luftens densitet är 1,29 kg/m³.</p><p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p>",
+    "spelIntro": "<p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor är luftens lyftkraft på ballongen?",
-        "t": "<p>Luftens densitet är 1,29 kg/m³.</p><p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p><p>Hur stor är luftens lyftkraft på ballongen?</p>",
+        "t": "<p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p><p>Hur stor är luftens lyftkraft på ballongen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på den undanträngda luften.</p>\\[V=2{,}0\\,\\mathrm{liter}=0{,}0020\\,\\mathrm{m^3}.\\]\\[F_L=1{,}29\\cdot0{,}0020\\cdot9{,}82=0{,}0253356\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}0253\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Använd \\(F_L=\\rho_{\\mathrm{luft}}Vg\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Luftens densitet är 1,29 kg/m³."
       },
       {
         "etikett": "b",
         "fraga": "Hur stor är vattnets lyftkraft på ballongen?",
-        "t": "<p>Luftens densitet är 1,29 kg/m³.</p><p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p><p>Hur stor är vattnets lyftkraft på ballongen?</p>",
+        "t": "<p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p><p>Hur stor är vattnets lyftkraft på ballongen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[V=2{,}0\\,\\mathrm{liter}=0{,}0020\\,\\mathrm{m^3}.\\]\\[F_L=1000\\cdot0{,}0020\\cdot9{,}82=19{,}64\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(19{,}6\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
         "niva": "E",
         "poang": "(1/0/0)",
         "traningsniva": 2,
         "arbetsinsats": 2,
-        "kgInstruktion": "Vattnets densitet är 1000 kg/m³."
+        "kgInstruktion": "Vattnets densitet är 1000 kg/m³. Luftens densitet är 1,29 kg/m³."
       },
       {
         "etikett": "c",
         "fraga": "Bestäm lyftkraften på 20 m djup (konstant temperatur).",
-        "t": "<p>Luftens densitet är 1,29 kg/m³.</p><p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p><p>Bestäm lyftkraften på 20 m djup (konstant temperatur).</p>",
+        "t": "<p>En mjuk ballong innehåller 2,0 liter luft vid lufttrycket 101,3 kPa. Ballongens volym kan ändras och luften i ballongen har samma tryck som omgivningen.</p><p>Bestäm lyftkraften på 20 m djup (konstant temperatur).</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>På 20 m djup ökar trycket. Använd det totala trycket när du beräknar ballongens nya volym.</p>\\[\\begin{aligned}p_2&=p_0+\\rho gh\\\\ &=101300+1000\\cdot9{,}82\\cdot20\\\\ &=297700\\,\\mathrm{Pa}.\\end{aligned}\\]<p>Temperaturen är oförändrad, så \\(p_1V_1=p_2V_2\\).</p>\\[V_2=0{,}0020\\frac{101300}{297700}\\approx0{,}000680551\\,\\mathrm{m^3}.\\]<p>Lyftkraften är lika stor som tyngdkraften på det undanträngda vattnet.</p>\\[F_L=1000\\cdot9{,}82\\cdot V_2\\approx6{,}68301\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(6{,}68\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>\\(p_1V_1=p_2V_2\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
         "arbetsinsats": 3,
-        "kgInstruktion": "Vattnets densitet är 1 000 kg/m³."
+        "kgInstruktion": "Vattnets densitet är 1 000 kg/m³. Luftens densitet är 1,29 kg/m³."
       }
     ],
     "ledtrad": "<p>\\(F_\\text{lyft}=\\rho_\\text{vätska}\\,V\\,g\\).</p>",
@@ -172197,29 +172401,33 @@ window.BANK = [
       "N"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³. Bortse från luftmotståndet.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>Bortse från luftmotståndet.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Bestäm accelerationen.",
-        "t": "<p>Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³. Bortse från luftmotståndet.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p><p>Bestäm accelerationen.</p>",
+        "t": "<p>Bortse från luftmotståndet.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p><p>Bestäm accelerationen.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Varje ballongs massa består av höljet och gasen. Båda ballongerna har samma volym och lika stor lyftkraft.</p>\\[V=\\frac43\\pi\\cdot0{,}500^3\\approx0{,}523599\\,\\mathrm{m^3}.\\]\\[m_{\\mathrm{vätgas}}=0{,}400+0{,}090V\\approx0{,}447124\\,\\mathrm{kg}.\\]\\[m_{\\mathrm{helium}}=0{,}400+0{,}179V\\approx0{,}493724\\,\\mathrm{kg}.\\]\\[F_L=1{,}29V\\cdot9{,}82\\approx6{,}63284\\,\\mathrm N.\\]<p>När båda ballongerna räknas tillsammans tar snörets krafter ut varandra.</p>\\[\\begin{aligned}a&=\\frac{2F_L-(m_{\\mathrm{vätgas}}+m_{\\mathrm{helium}})g}{m_{\\mathrm{vätgas}}+m_{\\mathrm{helium}}}\\\\ &\\approx4{,}27971\\,\\mathrm{m/s^2}.\\end{aligned}\\]<p><strong>Svar:</strong> \\(4{,}28\\,\\mathrm{m/s^2}\\).</p></div>",
         "ledtrad": "<p>Se ballongerna som ett system.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 3
+        "arbetsinsats": 3,
+        "kgInstruktion": "Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³."
       },
       {
         "etikett": "b",
         "fraga": "Hur stor är kraften i snöret?",
-        "t": "<p>Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³. Bortse från luftmotståndet.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p>Accelerationen uppåt är 4,2797 m/s².<p>Hur stor är kraften i snöret?</p>",
+        "t": "<p>Bortse från luftmotståndet.</p><p>Två ballonger (radie 0,500 m, hölje 400 g var) är sammanbundna med ett spänt snöre. Den övre har vätgas och den undre helium. De släpps fria.</p>Accelerationen uppåt är 4,2797 m/s².<p>Hur stor är kraften i snöret?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>På den övre ballongen verkar lyftkraften uppåt samt tyngdkraften och snörets kraft nedåt.</p>\\[V=\\frac43\\pi\\cdot0{,}500^3\\approx0{,}523599\\,\\mathrm{m^3}.\\]\\[m=0{,}400+0{,}090V\\approx0{,}447124\\,\\mathrm{kg}.\\]\\[F_L=1{,}29V\\cdot9{,}82\\approx6{,}63284\\,\\mathrm N.\\]<p>Newtons andra lag ger \\(F_L-mg-F_S=ma\\). Använd kortets givna acceleration \\(a=4{,}2797\\,\\mathrm{m/s^2}\\).</p>\\[F_S=F_L-m(g+a)\\approx0{,}328532\\,\\mathrm N.\\]<p><strong>Svar:</strong> \\(0{,}329\\,\\mathrm{N}\\).</p></div>",
         "ledtrad": "<p>Vilka krafter verkar på den övre ballongen? Snöret drar den nedåt.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 4,
-        "arbetsinsats": 3
-      }],
+        "arbetsinsats": 3,
+        "kgInstruktion": "Densitet: luft 1,29 kg/m³, helium 0,179 kg/m³, vätgas 0,090 kg/m³."
+      }
+    ],
     "ledtrad": "<p>Samma acceleration för båda.</p>",
     "traningsniva": 4,
     "familjNyckel": "arkimedes__ballonger_och_lastformaga",
@@ -185287,8 +185495,9 @@ window.BANK = [
       "K"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En protonstråle med strömmen 0,50 µA träffar ett strålmål av aluminium med massan 15 g. Aluminiums specifika värmekapacitet är 900 J/(kg·K).</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>En protonstråle med strömmen 0,50 µA träffar ett strålmål av aluminium med massan 15 g.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur många protoner träffar målet på 15 s?",
         "t": "<p>En protonstråle ger strömmen 0,50 µA.</p><p>Hur många protoner passerar under 15 s?</p>",
@@ -185302,14 +185511,16 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Varje proton har energin \\(4{,}9\\cdot10^{-12}\\) J som blir värme i målet. Hur mycket varmare blir målet?",
-        "t": "<p>Ett aluminiumföremål med massan 15 g träffas av \\(4{,}68\\cdot10^{13}\\) protoner. Varje proton har energin \\(4{,}9\\cdot10^{-12}\\) J som blir värme i föremålet. Aluminiums specifika värmekapacitet är 900 J/(kg·K).</p><p>Hur mycket ökar temperaturen?</p>",
+        "t": "<p>Ett aluminiumföremål med massan 15 g träffas av \\(4{,}68\\cdot10^{13}\\) protoner. Varje proton har energin \\(4{,}9\\cdot10^{-12}\\) J som blir värme i föremålet.</p><p>Hur mycket ökar temperaturen?</p>",
         "s": "<div class=\"facit-v2\"><p>Energin från protonerna blir värme i aluminiumföremålet.</p><p>\\[\\begin{aligned}E&=4{,}68\\cdot10^{13}\\cdot4{,}9\\cdot10^{-12}\\\\&=229{,}32\\ \\mathrm J\\end{aligned}\\]</p><p>Massan 15 g är 0,015 kg. Använd \\(E=mc\\Delta T\\).</p><p>\\[\\begin{aligned}\\Delta T&=\\frac{E}{mc}\\\\&=\\frac{229{,}32}{0{,}015\\cdot900}\\approx17\\ \\mathrm K\\end{aligned}\\]</p><p><strong>Svar:</strong> Temperaturen ökar med cirka 17 K, alltså 17 °C.</p></div>",
         "ledtrad": "<p>\\(Q=mc\\Delta T\\).</p>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
-        "arbetsinsats": 2
-      }],
+        "arbetsinsats": 2,
+        "kgInstruktion": "Aluminiums specifika värmekapacitet är 900 J/(kg·K)."
+      }
+    ],
     "ledtrad": "<p>\\(Q=It\\).</p>",
     "traningsniva": 2,
     "familjNyckel": "strom__strom_och_laddning_i_kretsar",
@@ -225014,40 +225225,45 @@ window.BANK = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tre isbitar med massan 18 g vardera tas ur en frys där temperaturen är −18 °C. De läggs i ett glas med 0,33 kg läsk som har temperaturen 22 °C. Antag att läsken har samma värmeegenskaper som vatten, och bortse från värmeutbytet med glaset och omgivningen. Isens specifika värmekapacitet är 2,10 kJ/(kg·K), vattnets är 4,18 kJ/(kg·K) och isens smältvärme är 334 kJ/kg.</p>",
-    "spelDelar": [{
+    "spelIntro": "<p>Tre isbitar med massan 18 g vardera tas ur en frys där temperaturen är −18 °C. De läggs i ett glas med 0,33 kg läsk som har temperaturen 22 °C. Antag att läsken har samma värmeegenskaper som vatten, och bortse från värmeutbytet med glaset och omgivningen.</p>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Hur mycket energi krävs för att värma de tre isbitarna till 0 °C och smälta dem?",
-        "t": "<p>Tre isbitar med massan 18 g vardera tas ur en frys där temperaturen är −18 °C. De läggs i ett glas med 0,33 kg läsk som har temperaturen 22 °C. Antag att läsken har samma värmeegenskaper som vatten, och bortse från värmeutbytet med glaset och omgivningen. Isens specifika värmekapacitet är 2,10 kJ/(kg·K), vattnets är 4,18 kJ/(kg·K) och isens smältvärme är 334 kJ/kg.</p><p>Hur mycket energi krävs för att värma de tre isbitarna till 0 °C och smälta dem?</p>",
+        "t": "<p>Tre isbitar med massan 18 g vardera tas ur en frys där temperaturen är −18 °C. De läggs i ett glas med 0,33 kg läsk som har temperaturen 22 °C. Antag att läsken har samma värmeegenskaper som vatten, och bortse från värmeutbytet med glaset och omgivningen.</p><p>Hur mycket energi krävs för att värma de tre isbitarna till 0 °C och smälta dem?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&m_{\\text{is}}=3\\cdot0{,}018=0{,}054\\ \\mathrm{kg}\\\\&m_{\\text{dryck}}=0{,}33\\ \\mathrm{kg}\\\\&c_{\\text{is}}=2{,}10\\ \\mathrm{kJ/(kg\\cdot K)}\\\\&c_{\\text{vatten}}=4{,}18\\ \\mathrm{kJ/(kg\\cdot K)}\\\\&l_s=334\\ \\mathrm{kJ/kg}\\end{aligned}\\]</div><p>Sökt: energin som krävs för att värma och smälta isen.</p></li><li><p class=\"facit-rubrik\">Uppvärmning av isen till 0 °C: \\(Q=cm\\Delta T\\)</p><div class=\"facit-matte\">\\[Q_1=2{,}10\\cdot0{,}054\\cdot18\\approx2{,}04\\ \\mathrm{kJ}\\]</div></li><li><p class=\"facit-rubrik\">Smältning av isen: \\(Q=l_sm\\)</p><div class=\"facit-matte\">\\[Q_2=334\\cdot0{,}054\\approx18{,}04\\ \\mathrm{kJ}\\]</div></li><li><p class=\"facit-rubrik\">Sammanlagd energi</p><div class=\"facit-matte\">\\[Q_1+Q_2=2{,}04+18{,}04\\approx20{,}08\\ \\mathrm{kJ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20,1 kJ.</p></div>",
         "ledtrad": "<p>Isen måste först värmas till 0 °C innan den kan smälta. Räkna de två stegen var för sig.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
         "traningsniva": 3,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Isens specifika värmekapacitet är 2,10 kJ/(kg·K), vattnets är 4,18 kJ/(kg·K) och isens smältvärme är 334 kJ/kg."
       },
       {
         "etikett": "b",
         "fraga": "Vilken temperatur får drycken när all is har smält och temperaturen har jämnats ut?",
-        "t": "<p>Tre isbitar med massan 18 g vardera tas ur en frys där temperaturen är −18 °C. De läggs i ett glas med 0,33 kg läsk som har temperaturen 22 °C. Antag att läsken har samma värmeegenskaper som vatten, och bortse från värmeutbytet med glaset och omgivningen. Isens specifika värmekapacitet är 2,10 kJ/(kg·K), vattnets är 4,18 kJ/(kg·K) och isens smältvärme är 334 kJ/kg.</p><p>Vilken temperatur får drycken när all is har smält och temperaturen har jämnats ut?</p>",
+        "t": "<p>Tre isbitar med massan 18 g vardera tas ur en frys där temperaturen är −18 °C. De läggs i ett glas med 0,33 kg läsk som har temperaturen 22 °C. Antag att läsken har samma värmeegenskaper som vatten, och bortse från värmeutbytet med glaset och omgivningen.</p><p>Vilken temperatur får drycken när all is har smält och temperaturen har jämnats ut?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&m_{\\text{is}}=3\\cdot0{,}018=0{,}054\\ \\mathrm{kg}\\\\&m_{\\text{dryck}}=0{,}33\\ \\mathrm{kg}\\\\&c_{\\text{is}}=2{,}10\\ \\mathrm{kJ/(kg\\cdot K)}\\\\&c_{\\text{vatten}}=4{,}18\\ \\mathrm{kJ/(kg\\cdot K)}\\\\&l_s=334\\ \\mathrm{kJ/kg}\\end{aligned}\\]</div><p>Sökt: dryckens sluttemperatur.</p></li><li><p class=\"facit-rubrik\">Uppvärmning av isen till 0 °C: \\(Q=cm\\Delta T\\)</p><div class=\"facit-matte\">\\[Q_1=2{,}10\\cdot0{,}054\\cdot18\\approx2{,}04\\ \\mathrm{kJ}\\]</div></li><li><p class=\"facit-rubrik\">Smältning av isen: \\(Q=l_sm\\)</p><div class=\"facit-matte\">\\[Q_2=334\\cdot0{,}054\\approx18{,}04\\ \\mathrm{kJ}\\]</div></li><li><p class=\"facit-rubrik\">Sammanlagd energi</p><div class=\"facit-matte\">\\[Q_1+Q_2=2{,}04+18{,}04\\approx20{,}08\\ \\mathrm{kJ}\\]</div></li><li><p class=\"facit-rubrik\">Energi som drycken kan avge ned till 0 °C: \\(Q=cm\\Delta T\\)</p><div class=\"facit-matte\">\\[Q=4{,}18\\cdot0{,}33\\cdot22\\approx30{,}35\\ \\mathrm{kJ}\\]</div></li><li><p class=\"facit-rubrik\">Smälter all is?</p><p>Ja. Drycken kan avge 30,35 kJ, vilket är mer än de 20,08 kJ som isen behöver.</p></li><li><p class=\"facit-rubrik\">Värmebalans: avgiven energi = upptagen energi</p><p>Drycken svalnar från 22 °C till sluttemperaturen \\(T\\). Isen värms och smälter, och smältvattnet värms sedan från 0 °C till samma temperatur.</p><div class=\"facit-matte\">\\[\\begin{aligned}&4{,}18\\cdot0{,}33\\cdot(22-T)\\\\&=20{,}08+4{,}18\\cdot0{,}054\\cdot T\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(T\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&30{,}35-1{,}379T=20{,}08+0{,}226T\\\\&10{,}27=1{,}605T\\\\&T\\approx6{,}4\\ ^\\circ\\mathrm C\\end{aligned}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,4 °C.</p></div>",
         "ledtrad": "<p>Smältvattnet från isen är 0 °C och måste också värmas upp till sluttemperaturen.</p>",
         "niva": "C",
         "poang": "(0/2/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Isens specifika värmekapacitet är 2,10 kJ/(kg·K), vattnets är 4,18 kJ/(kg·K) och isens smältvärme är 334 kJ/kg."
       },
       {
         "etikett": "c",
         "fraga": "Hur många isbitar behövs minst för att drycken ska kylas ända ned till 0 °C?",
-        "t": "<p>Tre isbitar med massan 18 g vardera tas ur en frys där temperaturen är −18 °C. De läggs i ett glas med 0,33 kg läsk som har temperaturen 22 °C. Antag att läsken har samma värmeegenskaper som vatten, och bortse från värmeutbytet med glaset och omgivningen. Isens specifika värmekapacitet är 2,10 kJ/(kg·K), vattnets är 4,18 kJ/(kg·K) och isens smältvärme är 334 kJ/kg.</p><p>Hur många isbitar behövs minst för att drycken ska kylas ända ned till 0 °C?</p>",
+        "t": "<p>Tre isbitar med massan 18 g vardera tas ur en frys där temperaturen är −18 °C. De läggs i ett glas med 0,33 kg läsk som har temperaturen 22 °C. Antag att läsken har samma värmeegenskaper som vatten, och bortse från värmeutbytet med glaset och omgivningen.</p><p>Hur många isbitar behövs minst för att drycken ska kylas ända ned till 0 °C?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&m=0{,}018\\ \\mathrm{kg\\ per\\ isbit}\\\\&m_{\\text{dryck}}=0{,}33\\ \\mathrm{kg}\\\\&c_{\\text{is}}=2{,}10\\ \\mathrm{kJ/(kg\\cdot K)}\\\\&c_{\\text{vatten}}=4{,}18\\ \\mathrm{kJ/(kg\\cdot K)}\\\\&l_s=334\\ \\mathrm{kJ/kg}\\end{aligned}\\]</div><p>Sökt: det minsta antalet isbitar som kyler drycken till 0 °C.</p></li><li><p class=\"facit-rubrik\">Energi som drycken kan avge ned till 0 °C: \\(Q=cm\\Delta T\\)</p><div class=\"facit-matte\">\\[Q=4{,}18\\cdot0{,}33\\cdot22\\approx30{,}35\\ \\mathrm{kJ}\\]</div></li><li><p class=\"facit-rubrik\">Energi som en isbit kan ta upp: \\(Q=cm\\Delta T+l_sm\\)</p><p>Isbiten värms först till 0 °C och smälter sedan.</p><div class=\"facit-matte\">\\[\\begin{aligned}&Q=2{,}10\\cdot0{,}018\\cdot18+334\\cdot0{,}018\\\\&Q\\approx6{,}69\\ \\mathrm{kJ}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Antal isbitar</p><div class=\"facit-matte\">\\[\\frac{30{,}35}{6{,}69}\\approx4{,}53\\]</div><p>Fyra isbitar tar bara upp 26,8 kJ och räcker inte. Med fem isbitar når drycken 0 °C, och en del av isen blir kvar osmält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 172\" width=\"500\" height=\"172\" role=\"img\" aria-label=\"Stapeldiagram. Drycken avger 30,3 kJ när den kyls till 0 °C. Fyra isbitar kan ta upp 26,8 kJ, vilket är för lite. Fem isbitar kan ta upp 33,5 kJ, vilket räcker.\" style=\"max-width:100%;height:auto\"><title>Stapeldiagram. Drycken avger 30,3 kJ när den kyls till 0 °C. Fyra isbitar kan ta upp 26,8 kJ, vilket är för lite. Fem isbitar kan ta upp 33,5 kJ, vilket räcker.</title><rect width=\"500\" height=\"172\" fill=\"#fff\"/><text x=\"142.0\" y=\"45.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"16.41\" text-anchor=\"end\">drycken avger</text><rect x=\"150.0\" y=\"26.0\" width=\"261.0\" height=\"28.0\" rx=\"2\" fill=\"#b25c17\" stroke=\"#b25c17\" stroke-width=\"0\"/><text x=\"160.0\" y=\"45.0\" fill=\"#fff\" font-family=\"Arial,sans-serif\" font-size=\"16.41\" text-anchor=\"start\" font-weight=\"bold\">30,3 kJ</text><text x=\"142.0\" y=\"89.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"16.41\" text-anchor=\"end\">4 isbitar tar upp</text><rect x=\"150.0\" y=\"70.0\" width=\"230.2\" height=\"28.0\" rx=\"2\" fill=\"#0b6fa4\" stroke=\"#0b6fa4\" stroke-width=\"0\"/><text x=\"160.0\" y=\"89.0\" fill=\"#fff\" font-family=\"Arial,sans-serif\" font-size=\"16.41\" text-anchor=\"start\" font-weight=\"bold\">26,8 kJ</text><text x=\"142.0\" y=\"133.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"16.41\" text-anchor=\"end\">5 isbitar tar upp</text><rect x=\"150.0\" y=\"114.0\" width=\"287.8\" height=\"28.0\" rx=\"2\" fill=\"#0b6fa4\" stroke=\"#0b6fa4\" stroke-width=\"0\"/><text x=\"160.0\" y=\"133.0\" fill=\"#fff\" font-family=\"Arial,sans-serif\" font-size=\"16.41\" text-anchor=\"start\" font-weight=\"bold\">33,5 kJ</text><line x1=\"411.0\" y1=\"14.0\" x2=\"411.0\" y2=\"162.0\" stroke=\"#b25c17\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><line x1=\"150.0\" y1=\"14.0\" x2=\"150.0\" y2=\"162.0\" stroke=\"#203746\" stroke-width=\"1.6\"/></svg></span></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 isbitar.</p></div>",
         "ledtrad": "<p>Hur mycket energi måste drycken avge för att nå 0 °C, och hur mycket kan en isbit ta upp?</p>",
         "niva": "A",
         "poang": "(0/0/1)",
         "traningsniva": 5,
-        "arbetsinsats": 3
-      }]
+        "arbetsinsats": 3,
+        "kgInstruktion": "Isens specifika värmekapacitet är 2,10 kJ/(kg·K), vattnets är 4,18 kJ/(kg·K) och isens smältvärme är 334 kJ/kg."
+      }
+    ]
   },
   {
     "id": "8.739",
@@ -227638,29 +227854,33 @@ window.BANK = [
       2
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Maja häller 0,25 kg te med temperaturen 95 °C i en porslinsmugg med massan 0,30 kg. Muggen har temperaturen 20 °C. Te och mugg får snabbt samma temperatur, innan någon energi hinner avges till omgivningen. Teet har samma specifika värmekapacitet som vatten, 4,18 kJ/(kg·K). För porslin är den 0,80 kJ/(kg·K) och för mjölk 3,9 kJ/(kg·K).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 208\" width=\"440\" height=\"208\" role=\"img\" aria-label=\"En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.\" style=\"max-width:100%;height:auto\"><title>En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.</title><rect width=\"440\" height=\"208\" fill=\"#fff\"/><rect x=\"120.0\" y=\"70.0\" width=\"96.0\" height=\"96.0\" rx=\"8\" fill=\"#f4f1ea\" stroke=\"#203746\" stroke-width=\"2.4\"/><rect x=\"128.0\" y=\"84.0\" width=\"80.0\" height=\"74.0\" rx=\"4\" fill=\"#c98f4e\" stroke=\"none\" stroke-width=\"0\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#203746\" stroke-width=\"7\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#f4f1ea\" stroke-width=\"3\"/><path d=\"M148 62 C140 50 156 42 148 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M168 62 C160 50 176 42 168 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M188 62 C180 50 196 42 188 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"168.0\" y1=\"120.0\" x2=\"96.0\" y2=\"120.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"92.0\" y=\"114.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">te</text><text x=\"92.0\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\">0,25 kg, 95 °C</text><line x1=\"160.0\" y1=\"166.0\" x2=\"160.0\" y2=\"186.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"168.0\" y=\"196.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">porslinsmugg, 0,30 kg, 20 °C</text><rect x=\"316.0\" y=\"74.0\" width=\"58.0\" height=\"92.0\" rx=\"3\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\"/><polygon points=\"316,74 345.0,52 374,74\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"345.0\" y=\"116.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">mjölk</text><text x=\"345.0\" y=\"136.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">6 °C</text></svg></span>",
-    "spelDelar": [{
+    "spelIntro": "<p>Maja häller 0,25 kg te med temperaturen 95 °C i en porslinsmugg med massan 0,30 kg. Muggen har temperaturen 20 °C. Te och mugg får snabbt samma temperatur, innan någon energi hinner avges till omgivningen. Teet har samma specifika värmekapacitet som vatten. För porslin är den 0,80 kJ/(kg·K) och för mjölk 3,9 kJ/(kg·K).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 208\" width=\"440\" height=\"208\" role=\"img\" aria-label=\"En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.\" style=\"max-width:100%;height:auto\"><title>En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.</title><rect width=\"440\" height=\"208\" fill=\"#fff\"/><rect x=\"120.0\" y=\"70.0\" width=\"96.0\" height=\"96.0\" rx=\"8\" fill=\"#f4f1ea\" stroke=\"#203746\" stroke-width=\"2.4\"/><rect x=\"128.0\" y=\"84.0\" width=\"80.0\" height=\"74.0\" rx=\"4\" fill=\"#c98f4e\" stroke=\"none\" stroke-width=\"0\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#203746\" stroke-width=\"7\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#f4f1ea\" stroke-width=\"3\"/><path d=\"M148 62 C140 50 156 42 148 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M168 62 C160 50 176 42 168 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M188 62 C180 50 196 42 188 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"168.0\" y1=\"120.0\" x2=\"96.0\" y2=\"120.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"92.0\" y=\"114.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">te</text><text x=\"92.0\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\">0,25 kg, 95 °C</text><line x1=\"160.0\" y1=\"166.0\" x2=\"160.0\" y2=\"186.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"168.0\" y=\"196.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">porslinsmugg, 0,30 kg, 20 °C</text><rect x=\"316.0\" y=\"74.0\" width=\"58.0\" height=\"92.0\" rx=\"3\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\"/><polygon points=\"316,74 345.0,52 374,74\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"345.0\" y=\"116.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">mjölk</text><text x=\"345.0\" y=\"136.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">6 °C</text></svg></span>",
+    "spelDelar": [
+      {
         "etikett": "a",
         "fraga": "Vilken gemensam temperatur får teet och muggen?",
-        "t": "<p>Maja häller 0,25 kg te med temperaturen 95 °C i en porslinsmugg med massan 0,30 kg. Muggen har temperaturen 20 °C. Te och mugg får snabbt samma temperatur, innan någon energi hinner avges till omgivningen. Teet har samma specifika värmekapacitet som vatten, 4,18 kJ/(kg·K). För porslin är den 0,80 kJ/(kg·K) och för mjölk 3,9 kJ/(kg·K).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 208\" width=\"440\" height=\"208\" role=\"img\" aria-label=\"En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.\" style=\"max-width:100%;height:auto\"><title>En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.</title><rect width=\"440\" height=\"208\" fill=\"#fff\"/><rect x=\"120.0\" y=\"70.0\" width=\"96.0\" height=\"96.0\" rx=\"8\" fill=\"#f4f1ea\" stroke=\"#203746\" stroke-width=\"2.4\"/><rect x=\"128.0\" y=\"84.0\" width=\"80.0\" height=\"74.0\" rx=\"4\" fill=\"#c98f4e\" stroke=\"none\" stroke-width=\"0\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#203746\" stroke-width=\"7\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#f4f1ea\" stroke-width=\"3\"/><path d=\"M148 62 C140 50 156 42 148 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M168 62 C160 50 176 42 168 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M188 62 C180 50 196 42 188 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"168.0\" y1=\"120.0\" x2=\"96.0\" y2=\"120.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"92.0\" y=\"114.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">te</text><text x=\"92.0\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\">0,25 kg, 95 °C</text><line x1=\"160.0\" y1=\"166.0\" x2=\"160.0\" y2=\"186.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"168.0\" y=\"196.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">porslinsmugg, 0,30 kg, 20 °C</text><rect x=\"316.0\" y=\"74.0\" width=\"58.0\" height=\"92.0\" rx=\"3\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\"/><polygon points=\"316,74 345.0,52 374,74\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"345.0\" y=\"116.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">mjölk</text><text x=\"345.0\" y=\"136.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">6 °C</text></svg></span><p>Vilken gemensam temperatur får teet och muggen?</p>",
+        "t": "<p>Maja häller 0,25 kg te med temperaturen 95 °C i en porslinsmugg med massan 0,30 kg. Muggen har temperaturen 20 °C. Te och mugg får snabbt samma temperatur, innan någon energi hinner avges till omgivningen. Teet har samma specifika värmekapacitet som vatten. För porslin är den 0,80 kJ/(kg·K) och för mjölk 3,9 kJ/(kg·K).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 208\" width=\"440\" height=\"208\" role=\"img\" aria-label=\"En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.\" style=\"max-width:100%;height:auto\"><title>En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.</title><rect width=\"440\" height=\"208\" fill=\"#fff\"/><rect x=\"120.0\" y=\"70.0\" width=\"96.0\" height=\"96.0\" rx=\"8\" fill=\"#f4f1ea\" stroke=\"#203746\" stroke-width=\"2.4\"/><rect x=\"128.0\" y=\"84.0\" width=\"80.0\" height=\"74.0\" rx=\"4\" fill=\"#c98f4e\" stroke=\"none\" stroke-width=\"0\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#203746\" stroke-width=\"7\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#f4f1ea\" stroke-width=\"3\"/><path d=\"M148 62 C140 50 156 42 148 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M168 62 C160 50 176 42 168 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M188 62 C180 50 196 42 188 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"168.0\" y1=\"120.0\" x2=\"96.0\" y2=\"120.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"92.0\" y=\"114.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">te</text><text x=\"92.0\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\">0,25 kg, 95 °C</text><line x1=\"160.0\" y1=\"166.0\" x2=\"160.0\" y2=\"186.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"168.0\" y=\"196.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">porslinsmugg, 0,30 kg, 20 °C</text><rect x=\"316.0\" y=\"74.0\" width=\"58.0\" height=\"92.0\" rx=\"3\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\"/><polygon points=\"316,74 345.0,52 374,74\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"345.0\" y=\"116.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">mjölk</text><text x=\"345.0\" y=\"136.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">6 °C</text></svg></span><p>Vilken gemensam temperatur får teet och muggen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&m_{\\text{te}}=0{,}25\\ \\mathrm{kg},\\quad T_{\\text{te}}=95\\ ^\\circ\\mathrm C\\\\&m_{\\text{mugg}}=0{,}30\\ \\mathrm{kg},\\quad T_{\\text{mugg}}=20\\ ^\\circ\\mathrm C\\\\&c_{\\text{te}}=4{,}18\\ \\mathrm{kJ/(kg\\cdot K)}\\\\&c_{\\text{porslin}}=0{,}80\\ \\mathrm{kJ/(kg\\cdot K)}\\end{aligned}\\]</div><p>Sökt: den gemensamma temperaturen \\(T\\) hos te och mugg.</p></li><li><p class=\"facit-rubrik\">Värmeenergi \\(E=cm\\Delta T\\): avgiven energi är lika med upptagen energi</p><p>Teet svalnar och avger energi. Muggen blir varmare och tar upp lika mycket energi.</p><div class=\"facit-matte\">\\[\\begin{aligned}&4{,}18\\cdot0{,}25\\cdot(95-T)\\\\&\\qquad=0{,}80\\cdot0{,}30\\cdot(T-20)\\\\&1{,}045\\cdot(95-T)=0{,}240\\cdot(T-20)\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera in och samla termerna med \\(T\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}&99{,}275-1{,}045T=0{,}240T-4{,}80\\\\&104{,}075=1{,}285T\\\\&T=\\frac{104{,}075}{1{,}285}\\approx81{,}0\\ ^\\circ\\mathrm C\\end{aligned}\\]</div><p>Muggen sänker alltså teets temperatur med 14 grader.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 81 °C.</p></div>",
         "ledtrad": "<p>Teet avger energi och muggen tar upp lika mycket. Skriv ett uttryck för vardera energin med den okända temperaturen T.</p>",
         "niva": "C",
         "poang": "(0/2/0)",
         "traningsniva": 4,
-        "arbetsinsats": 2
+        "arbetsinsats": 2,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K)."
       },
       {
         "etikett": "b",
         "fraga": "Teet och muggen har fått den gemensamma temperaturen 81,0 °C. Maja vill dricka teet när det är 60 °C. Hon häller därför i mjölk som är 6 °C. Hur mycket mjölk behövs?",
-        "t": "<p>Maja häller 0,25 kg te med temperaturen 95 °C i en porslinsmugg med massan 0,30 kg. Muggen har temperaturen 20 °C. Te och mugg får snabbt samma temperatur, innan någon energi hinner avges till omgivningen. Teet har samma specifika värmekapacitet som vatten, 4,18 kJ/(kg·K). För porslin är den 0,80 kJ/(kg·K) och för mjölk 3,9 kJ/(kg·K).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 208\" width=\"440\" height=\"208\" role=\"img\" aria-label=\"En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.\" style=\"max-width:100%;height:auto\"><title>En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.</title><rect width=\"440\" height=\"208\" fill=\"#fff\"/><rect x=\"120.0\" y=\"70.0\" width=\"96.0\" height=\"96.0\" rx=\"8\" fill=\"#f4f1ea\" stroke=\"#203746\" stroke-width=\"2.4\"/><rect x=\"128.0\" y=\"84.0\" width=\"80.0\" height=\"74.0\" rx=\"4\" fill=\"#c98f4e\" stroke=\"none\" stroke-width=\"0\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#203746\" stroke-width=\"7\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#f4f1ea\" stroke-width=\"3\"/><path d=\"M148 62 C140 50 156 42 148 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M168 62 C160 50 176 42 168 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M188 62 C180 50 196 42 188 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"168.0\" y1=\"120.0\" x2=\"96.0\" y2=\"120.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"92.0\" y=\"114.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">te</text><text x=\"92.0\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\">0,25 kg, 95 °C</text><line x1=\"160.0\" y1=\"166.0\" x2=\"160.0\" y2=\"186.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"168.0\" y=\"196.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">porslinsmugg, 0,30 kg, 20 °C</text><rect x=\"316.0\" y=\"74.0\" width=\"58.0\" height=\"92.0\" rx=\"3\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\"/><polygon points=\"316,74 345.0,52 374,74\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"345.0\" y=\"116.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">mjölk</text><text x=\"345.0\" y=\"136.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">6 °C</text></svg></span><p>Teet och muggen har fått den gemensamma temperaturen 81,0 °C. Maja vill dricka teet när det är 60 °C. Hon häller därför i mjölk som är 6 °C. Hur mycket mjölk behövs?</p>",
+        "t": "<p>Maja häller 0,25 kg te med temperaturen 95 °C i en porslinsmugg med massan 0,30 kg. Muggen har temperaturen 20 °C. Te och mugg får snabbt samma temperatur, innan någon energi hinner avges till omgivningen. Teet har samma specifika värmekapacitet som vatten. För porslin är den 0,80 kJ/(kg·K) och för mjölk 3,9 kJ/(kg·K).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 208\" width=\"440\" height=\"208\" role=\"img\" aria-label=\"En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.\" style=\"max-width:100%;height:auto\"><title>En porslinsmugg på 0,30 kg med temperaturen 20 °C fylls med 0,25 kg te som är 95 °C. Bredvid står ett mjölkpaket med temperaturen 6 °C.</title><rect width=\"440\" height=\"208\" fill=\"#fff\"/><rect x=\"120.0\" y=\"70.0\" width=\"96.0\" height=\"96.0\" rx=\"8\" fill=\"#f4f1ea\" stroke=\"#203746\" stroke-width=\"2.4\"/><rect x=\"128.0\" y=\"84.0\" width=\"80.0\" height=\"74.0\" rx=\"4\" fill=\"#c98f4e\" stroke=\"none\" stroke-width=\"0\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#203746\" stroke-width=\"7\"/><path d=\"M216 92 C252 92 252 144 216 144\" fill=\"none\" stroke=\"#f4f1ea\" stroke-width=\"3\"/><path d=\"M148 62 C140 50 156 42 148 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M168 62 C160 50 176 42 168 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M188 62 C180 50 196 42 188 28\" fill=\"none\" stroke=\"#526777\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"168.0\" y1=\"120.0\" x2=\"96.0\" y2=\"120.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"92.0\" y=\"114.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">te</text><text x=\"92.0\" y=\"132.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\">0,25 kg, 95 °C</text><line x1=\"160.0\" y1=\"166.0\" x2=\"160.0\" y2=\"186.0\" stroke=\"#526777\" stroke-width=\"1.2\"/><text x=\"168.0\" y=\"196.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">porslinsmugg, 0,30 kg, 20 °C</text><rect x=\"316.0\" y=\"74.0\" width=\"58.0\" height=\"92.0\" rx=\"3\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\"/><polygon points=\"316,74 345.0,52 374,74\" fill=\"#fff\" stroke=\"#203746\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"345.0\" y=\"116.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">mjölk</text><text x=\"345.0\" y=\"136.0\" fill=\"#203746\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\">6 °C</text></svg></span><p>Teet och muggen har fått den gemensamma temperaturen 81,0 °C. Maja vill dricka teet när det är 60 °C. Hon häller därför i mjölk som är 6 °C. Hur mycket mjölk behövs?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Givet och sökt</p><div class=\"facit-matte\">\\[\\begin{aligned}&m_{\\text{te}}=0{,}25\\ \\mathrm{kg},\\quad m_{\\text{mugg}}=0{,}30\\ \\mathrm{kg}\\\\&c_{\\text{te}}=4{,}18\\ \\mathrm{kJ/(kg\\cdot K)}\\\\&c_{\\text{porslin}}=0{,}80\\ \\mathrm{kJ/(kg\\cdot K)}\\\\&c_{\\text{mjölk}}=3{,}9\\ \\mathrm{kJ/(kg\\cdot K)}\\\\&\\text{te och mugg: }81{,}0\\ ^\\circ\\mathrm C\\\\&\\text{mjölk: }6\\ ^\\circ\\mathrm C\\\\&\\text{sluttemperatur: }60\\ ^\\circ\\mathrm C\\end{aligned}\\]</div><p>Sökt: mjölkens massa \\(m\\).</p></li><li><p class=\"facit-rubrik\">Te och mugg svalnar tillsammans: \\(E=cm\\Delta T\\) för båda</p><p>När mjölken hälls i svalnar både teet och muggen från 81,0 °C till 60 °C.</p><div class=\"facit-matte\">\\[\\begin{aligned}&E=(4{,}18\\cdot0{,}25+0{,}80\\cdot0{,}30)\\\\&\\qquad\\cdot(81{,}0-60)\\\\&E=1{,}285\\cdot21{,}0\\approx27{,}0\\ \\mathrm{kJ}\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Mjölken tar upp samma energi när den värms från 6 °C till 60 °C</p><div class=\"facit-matte\">\\[\\begin{aligned}&3{,}9\\cdot m\\cdot(60-6)=27{,}0\\\\&m=\\frac{27{,}0}{210{,}6}\\approx0{,}128\\ \\mathrm{kg}\\end{aligned}\\]</div><p>Det är 128 g, drygt en deciliter mjölk. Två värdesiffror ger 130 g.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 130 g.</p></div>",
         "ledtrad": "<p>Både teet och muggen svalnar när mjölken hälls i. Den energi de avger värmer mjölken.</p>",
         "niva": "A",
         "poang": "(0/0/2)",
         "traningsniva": 5,
-        "arbetsinsats": 3
-      }]
+        "arbetsinsats": 3,
+        "kgInstruktion": "Vattnets specifika värmekapacitet är 4,18 kJ/(kg·K)."
+      }
+    ]
   },
   {
     "id": "3.747",

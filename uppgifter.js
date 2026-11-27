@@ -2616,7 +2616,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla vardagliga energienheter till joule och kilowattimmar, ur text, sökt energi",
     "poang": "(5/0/0)",
-    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) En dags mat innehåller 2000 kcal. Hur många joule motsvarar det?</div><div>b) En dags mat innehåller 2000 kcal. Hur många kWh motsvarar det?</div><div>c) En lampa på 60 W är tänd i 5,0 timmar. Hur många kWh använder den?</div><div>d) En lampa på 60 W är tänd i 5,0 timmar. Hur många joule använder den?</div><div>e) Vid ett alfasönderfall frigörs 5,0 MeV. Hur mycket energi frigörs totalt vid 10¹² sådana sönderfall? Ange energin i joule.</div></div>",
+    "t": "<div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) En dags mat innehåller 2000 kcal. Hur många joule motsvarar det?</div><div>b) En dags mat innehåller 2000 kcal. Hur många kWh motsvarar det?</div><div>c) En lampa på 60 W är tänd i 5,0 timmar. Hur många kWh använder den?</div><div>d) En lampa på 60 W är tänd i 5,0 timmar. Hur många joule använder den?</div><div>e) Vid ett alfasönderfall frigörs 5,0 MeV. Hur mycket energi frigörs totalt vid 10¹² sådana sönderfall?</div></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilokalorier till joule: \\(1\\ \\mathrm{kcal}=4184\\ \\mathrm J\\)</p><p>Med tabellvärdet 4186 J/kcal blir svaret 8 372 000 J. Båda omvandlingsfaktorerna godtas.</p><div class=\"facit-matte\">\\[E=2000\\cdot4184\\ \\mathrm J=8\\,368\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\,368\\,000\\ \\mathrm J\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kilokalorier till joule: \\(1\\ \\mathrm{kcal}=4184\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E=2000\\cdot4184\\ \\mathrm J=8\\,368\\,000\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Joule till kWh: \\(1\\ \\mathrm{kWh}=3{,}6\\cdot10^6\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E=\\frac{8\\,368\\,000}{3{,}6\\cdot10^6}\\ \\mathrm{kWh}\\approx2{,}32\\ \\mathrm{kWh}\\]</div><p>Med 4186 J/kcal blir det i stället ungefär 2,33 kWh. Skillnaden beror på tabellvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 2,32 kWh (2,33 kWh med 4186 J/kcal).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi vid konstant effekt: \\(E=Pt\\)</p><p>60 W = 0,060 kW. Med kilowatt och timmar blir energin direkt i kilowattimmar.</p><div class=\"facit-matte\">\\[E=0{,}060\\ \\mathrm{kW}\\cdot5{,}0\\ \\mathrm h=0{,}30\\ \\mathrm{kWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}30\\ \\mathrm{kWh}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tiden i sekunder: \\(t=5{,}0\\cdot3600\\ \\mathrm s\\)</p><div class=\"facit-matte\">\\[t=18\\,000\\ \\mathrm s\\]</div></li><li><p class=\"facit-rubrik\">Energi vid konstant effekt: \\(E=Pt\\)</p><div class=\"facit-matte\">\\[E=60\\ \\mathrm W\\cdot18\\,000\\ \\mathrm s=1\\,080\\,000\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}08\\cdot10^6\\) J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">e)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi per händelse: \\(1\\ \\mathrm{eV}=1{,}602\\cdot10^{-19}\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E_1=5{,}0\\cdot10^6\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J\\]</div><div class=\"facit-matte\">\\[E_1=8{,}01\\cdot10^{-13}\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Total energi: \\(E_{\\text{tot}}=NE_1\\)</p><div class=\"facit-matte\">\\[\\begin{aligned}E_{\\text{tot}}&=10^{12}\\cdot8{,}01\\cdot10^{-13}\\ \\mathrm J\\\\&=0{,}801\\ \\mathrm J\\end{aligned}\\]</div><p>Med det avrundade tabellvärdet 1,60·10⁻¹⁹ J/eV blir svaret 0,800 J.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,801 J (0,800 J med det avrundade tabellvärdet).</p></div></div></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
@@ -52980,7 +52980,7 @@ window.BANK = [
     "niva": "C",
     "typ": "utströmning och referenssystem",
     "poang": "(0/4/0)",
-    "t": "<p>En vattenraket står stilla på marken. Den innehåller 0,60 kg vatten och väger 0,15 kg utan vattnet. Antag att allt vatten sprutar ut på en gång. Bortse från tyngdkraften och luftmotståndet under den korta utsprutningen.</p><ol type=\"a\"><li>Vattnet får farten 14 m/s nedåt, mätt från marken. Vilken fart får raketen?</li><li>Vattnet får i stället farten 14 m/s nedåt mätt från raketen efter utsprutningen. Vilken fart får raketen nu, mätt från marken?</li><li>Varför räcker det inte att säga att vattnet lämnar raketen med farten 14 m/s?</li></ol>",
+    "t": "<p>En vattenraket står stilla på marken. Den innehåller 0,60 kg vatten och väger 0,15 kg utan vattnet. Anta att allt vatten sprutar ut på en gång. Bortse från tyngdkraften och luftmotståndet under den korta utsprutningen.</p><ol type=\"a\"><li>Vattnet får farten 14 m/s nedåt, mätt från marken. Vilken fart får raketen?</li><li>Vattnet får i stället farten 14 m/s nedåt mätt från raketen efter utsprutningen. Vilken fart får raketen nu, mätt från marken?</li><li>Varför räcker det inte att säga att vattnet lämnar raketen med farten 14 m/s?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Rörelsemängden var noll och bevaras. Raketen har efteråt massan 0,15 kg.</p>\\[\\begin{gathered}0{,}15v+0{,}60\\cdot(-14)=0\\\\v=\\frac{8{,}40}{0{,}15}=+56{,}0\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>b)</strong></p><p>Om raketens markhastighet är v, är vattnets markhastighet v − 14. Båda hastigheterna i rörelsemängdssambandet måste mätas från marken.</p>\\[\\begin{gathered}0{,}15v+0{,}60(v-14)=0\\\\0{,}75v=8{,}40\\\\v=+11{,}2\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>c)</strong></p><p>Man behöver veta vad farten mäts från. Vatten som rör sig med 14 m/s jämfört med raketen har en annan markhastighet än vatten som rör sig med 14 m/s jämfört med marken. Därför ger modellerna olika rörelsemängder och olika rakethastigheter.</p></div>",
     "familj": "Rekyl och isärskjutning",
     "formaga": [
@@ -53301,7 +53301,7 @@ window.BANK = [
     "omr": "rorelsemangd",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Ett föremål med massan 30 kg har rörelsemängden 420 kg·m/s. Vilken fart har föremålet?</li><li>En proton har massan 1,673 · 10⁻²⁷ kg och farten 2,0 · 10⁶ m/s. Beräkna protonens rörelsemängd.</li></ol>",
+    "t": "<ol style=\"display:grid;gap:0.85rem\"><li>Ett föremål med massan 30 kg har rörelsemängden 420 kg·m/s. Vilken fart har föremålet?</li><li>En proton har farten 2,0 · 10⁶ m/s. Beräkna protonens rörelsemängd.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[v=\\frac{p}{m}=\\frac{420}{30}=14\\, \\mathrm{m/s}\\]</div></div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 14 m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{gathered}p=1{,}673\\cdot2{,}0\\cdot10^{-27+6}\\\\=3{,}346\\cdot10^{-21}\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]</div></div></div><div class=\"facit-stycke\"><p>Två värdesiffror, som i farten 2,0 · 10⁶ m/s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,3 · 10⁻²¹ kg·m/s.</p></div></div></div>",
     "familj": "Rörelsemängd p = mv",
     "formaga": [
@@ -53357,9 +53357,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En proton har massan 1,673 · 10⁻²⁷ kg och farten 2,0 · 10⁶ m/s. Beräkna protonens rörelsemängd.",
-        "t": "<p>En proton har massan 1,673 · 10⁻²⁷ kg och farten 2,0 · 10⁶ m/s.</p><p>Beräkna protonens rörelsemängd.</p>",
-        "kgInstruktion": "Skriv rörelsemängden som a · 10⁻²¹ kg·m/s och svara bara med talet a.",
+        "fraga": "En proton har farten 2,0 · 10⁶ m/s. Beräkna protonens rörelsemängd.",
+        "t": "<p>En proton har farten 2,0 · 10⁶ m/s.</p><p>Beräkna protonens rörelsemängd.</p>",
+        "kgInstruktion": "Skriv rörelsemängden som a · 10⁻²¹ kg·m/s och svara bara med talet a. Protonens massa är 1,673·10⁻²⁷ kg.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\begin{gathered}p=1{,}673\\cdot2{,}0\\cdot10^{-27+6}\\\\=3{,}346\\cdot10^{-21}\\,\\mathrm{kg\\,m/s}\\end{gathered}\\]</div></div></div><div class=\"facit-stycke\"><p>Koefficienten a är 3,346, som avrundas till 3,35.</p></div></div><p class=\"facit-svar\">Svar: 3,35.</p></div>",
         "ledtrad": "<p>Multiplicera faktorerna framför tiopotenserna och addera exponenterna.</p>",
         "niva": "E",
@@ -53377,7 +53377,8 @@ window.BANK = [
     "svarVardesiffror": [
       2,
       3
-    ]
+    ],
+    "kgInstruktion": "Protonens massa är 1,673·10⁻²⁷ kg."
   },
   {
     "id": "5.17",
@@ -54092,7 +54093,7 @@ window.BANK = [
     "niva": "C",
     "typ": "lägesenergi och temperatur",
     "poang": "(1/3/0)",
-    "t": "<p>I ett vattenfall faller vatten 93 m. Antag att all lägesenergi blir värme i vattnet.</p><ol type=\"a\"><li>Hur mycket lägesenergi frigörs per kilogram vatten?</li><li>Hur mycket ökar vattnets temperatur?</li><li>Hur hög måste fallhöjden vara för att temperaturen ska öka med 1,0 °C?</li><li>Ge två skäl till att temperaturen i ett verkligt vattenfall kan öka mer eller mindre.</li></ol>",
+    "t": "<p>I ett vattenfall faller vatten 93 m. Anta att all lägesenergi blir värme i vattnet.</p><ol type=\"a\"><li>Hur mycket lägesenergi frigörs per kilogram vatten?</li><li>Hur mycket ökar vattnets temperatur?</li><li>Hur hög måste fallhöjden vara för att temperaturen ska öka med 1,0 °C?</li><li>Ge två skäl till att temperaturen i ett verkligt vattenfall kan öka mer eller mindre.</li></ol>",
     "kgInstruktion": "Vattnets specifika värmekapacitet är 4180 J/(kg·°C).",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägesenergi per kilogram: \\(\\dfrac{E_p}{m}=gh\\)</p><div class=\"facit-matte\">\\[\\frac{E_p}{m}=9{,}82\\cdot93\\approx913\\ \\mathrm{J/kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 913 J/kg.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energiprincipen: \\(mgh=cm\\Delta T\\)</p><p>Massan förkortas bort.</p><div class=\"facit-matte\">\\[\\Delta T=\\frac{gh}{c}=\\frac{9{,}82\\cdot93}{4180}\\approx0{,}218\\ ^\\circ\\mathrm C\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,218 °C.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energiprincipen: \\(gh=c\\Delta T\\), lös ut \\(h\\)</p><div class=\"facit-matte\">\\[h=\\frac{c\\Delta T}{g}=\\frac{4180\\cdot1{,}0}{9{,}82}\\approx426\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 426 m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energiprincipen med förluster: \\(mgh=cm\\Delta T+E_{\\text{annat}}\\)</p><p>Energi kan gå till luften och berget, en del vatten avdunstar och tar med sig energi, och vattnet kan fortfarande ha rörelseenergi där temperaturen mäts.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel värme till omgivningen och avdunstning.</p></div></div></div>",
     "familj": "Lägesenergi och lyftarbete",
@@ -55335,7 +55336,7 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/3/0)",
-    "t": "<p>En bil som väger 1000 kg ökar farten från stillastående till 100 km/h på 6,0 s. Bortse från luftmotstånd och friktion.</p><ol type=\"a\"><li>Hur stor är den nyttiga medeleffekten under fartökningen?</li><li>Hur stor effekt måste tillföras i bränslet om verkningsgraden är 35 %?</li><li>Kevin menar att medeleffekten i a räcker för att välja hur stark motorn ska vara. Antag att accelerationen är konstant och visa varför det inte stämmer.</li></ol>",
+    "t": "<p>En bil som väger 1000 kg ökar farten från stillastående till 100 km/h på 6,0 s. Bortse från luftmotstånd och friktion.</p><ol type=\"a\"><li>Hur stor är den nyttiga medeleffekten under fartökningen?</li><li>Hur stor effekt måste tillföras i bränslet om verkningsgraden är 35 %?</li><li>Kevin menar att medeleffekten i a räcker för att välja hur stark motorn ska vara. Anta att accelerationen är konstant och visa varför det inte stämmer.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Enhetsbyte: \\(v=\\dfrac{v_{\\text{km/h}}}{3{,}6}\\)</p><div class=\"facit-matte\">\\[v=\\frac{100}{3{,}6}\\approx27{,}78\\ \\mathrm{m/s}\\]</div></li><li><p class=\"facit-rubrik\">Rörelseenergi: \\(E_k=\\dfrac{mv^2}{2}\\)</p><div class=\"facit-matte\">\\[\\Delta E_k=\\frac{1000\\cdot27{,}78^2}{2}\\approx3{,}858\\cdot10^5\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Effekt: \\(P=\\dfrac{E}{t}\\)</p><div class=\"facit-matte\">\\[P=\\frac{3{,}858\\cdot10^5}{6{,}0}\\approx6{,}43\\cdot10^4\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 64,3 kW.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=\\dfrac{P_{\\text{nyttig}}}{P_{\\text{tillförd}}}\\), lös ut \\(P_{\\text{tillförd}}\\)</p><div class=\"facit-matte\">\\[P_{\\text{bränsle}}=\\frac{64{,}3}{0{,}35}\\approx184\\ \\mathrm{kW}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 184 kW.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Newtons andra lag: \\(F_{\\text{res}}=ma\\), konstant acceleration ger konstant kraft</p><div class=\"facit-matte\">\\[a=\\frac{27{,}78}{6{,}0}\\approx4{,}63\\ \\mathrm{m/s^2}\\]</div><div class=\"facit-matte\">\\[F=1000\\cdot4{,}63=4630\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Ögonblickseffekt: \\(P=Fv\\)</p><div class=\"facit-matte\">\\[P_{\\text{slut}}=4630\\cdot27{,}78\\approx1{,}29\\cdot10^5\\ \\mathrm W\\]</div><p>Effekten växer med farten. I slutet är den dubbelt så stor som medeleffekten, så motorn måste klara mer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej. Sluteffekten blir ungefär 129 kW, dubbelt så stor som medeleffekten.</p></div></div></div>",
     "familj": "Verkningsgrad",
     "formaga": [
@@ -56121,7 +56122,7 @@ window.BANK = [
     "omr": "effekt",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Under ett roddpass ger en roddare den mekaniska effekten 180 W. Antag att 22 % av den kemiska energi som kroppen använder blir mekaniskt arbete.</p><ol type=\"a\"><li>Hur mycket kemisk energi använder kroppen per sekund?</li><li>Hur mycket kemisk energi används under 30 minuter?</li><li>Vart tar den energi vägen som inte blir mekaniskt arbete?</li></ol>",
+    "t": "<p>Under ett roddpass ger en roddare den mekaniska effekten 180 W. Anta att 22 % av den kemiska energi som kroppen använder blir mekaniskt arbete.</p><ol type=\"a\"><li>Hur mycket kemisk energi använder kroppen per sekund?</li><li>Hur mycket kemisk energi används under 30 minuter?</li><li>Vart tar den energi vägen som inte blir mekaniskt arbete?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=\\dfrac{P_{\\text{nyttig}}}{P_{\\text{tillförd}}}\\), lös ut \\(P_{\\text{tillförd}}\\)</p><div class=\"facit-matte\">\\[P_{\\text{kemisk}}=\\frac{180}{0{,}22}\\approx818\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 818 J per sekund.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energi: \\(E=Pt\\)</p><p>30 min = 1800 s.</p><div class=\"facit-matte\">\\[E=818{,}2\\cdot1800\\approx1{,}47\\cdot10^6\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,47 MJ.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förlusteffekt: \\(P_{\\text{förlust}}=P_{\\text{kemisk}}-P_{\\text{nyttig}}\\)</p><div class=\"facit-matte\">\\[P_{\\text{förlust}}\\approx818-180=638\\ \\mathrm W\\]</div><p>Energin blir främst värme i kroppen, som sedan går till omgivningen genom svett, andning och strålning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den blir värme i kroppen och går vidare till omgivningen.</p></div></div></div>",
     "familj": "Energi i kWh och vardagen",
     "formaga": [
@@ -57498,7 +57499,7 @@ window.BANK = [
     "familjNyckel": "arbete__upprepade_lyft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      246,
+      245.5,
       441.90000000000003,
       5.3028
     ],
@@ -58818,7 +58819,7 @@ window.BANK = [
     "omr": "kollisioner",
     "niva": "A",
     "poang": "(0/2/3)",
-    "t": "<p>En Newtons vagga har fem likadana kulor som var och en har massan m. En kula rör sig åt höger med farten v och träffar de andra, som hänger stilla. Antag att både rörelsemängden och rörelseenergin bevaras.</p><ol style=\"display:grid;gap:0.85rem\"><li>Visa att rörelsemängden och rörelseenergin bevaras om en kula lämnar raden med farten v.</li><li>Kan två kulor lämna raden med farten v/2 var? Kontrollera rörelsemängden och rörelseenergin.</li><li>Antag att n kulor lämnar raden åt höger med samma fart u och att de övriga stannar. Visa vilket värde på n som bevarandelagarna tillåter. Förklara varför slutsatsen bygger på antagandet om hur kulorna rör sig efteråt.</li></ol>",
+    "t": "<p>En Newtons vagga har fem likadana kulor som var och en har massan m. En kula rör sig åt höger med farten v och träffar de andra, som hänger stilla. Anta att både rörelsemängden och rörelseenergin bevaras.</p><ol style=\"display:grid;gap:0.85rem\"><li>Visa att rörelsemängden och rörelseenergin bevaras om en kula lämnar raden med farten v.</li><li>Kan två kulor lämna raden med farten v/2 var? Kontrollera rörelsemängden och rörelseenergin.</li><li>Anta att n kulor lämnar raden åt höger med samma fart u och att de övriga stannar. Visa vilket värde på n som bevarandelagarna tillåter. Förklara varför slutsatsen bygger på antagandet om hur kulorna rör sig efteråt.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Före är p = mv och</p><div class=\"facit-matte\">\\[E=\\frac{m v^{2}}{2}\\]</div></div></div><div class=\"facit-stycke\"><p>En kula med samma massa och fart efteråt ger precis samma värden.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rörelsemängden blir 2m(v/2) = mv, men energin blir 2m(v/2)²/2 = mv²/4, alltså bara hälften.</p></div><div class=\"facit-stycke\"><p>Detta slutläge är inte förenligt med den elastiska modellen.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Rörelsemängden ger</p><div class=\"facit-matte\">\\[n\\cdot u=v\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Energin ger</p><div class=\"facit-matte\">\\[n\\cdot u^{2}=v^{2}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Med v &gt; 0 fås u = v/n och därmed v²/n = v², så n = 1 och</p><div class=\"facit-matte\">\\[u=v\\]</div></div></div><div class=\"facit-stycke\"><p>Resultatet gäller de antagna slutlägena med lika utgående farter och övriga kulor stilla.</p></div><div class=\"facit-stycke\"><p>Enbart två bevarandelagar bestämmer inte godtyckliga sluthastigheter för fem kulor; även kontaktförloppet och villkoren för hur kulorna skiljs åt spelar roll.</p></div></div></div></div></div>",
     "familj": "Elastisk stöt och energikontroll",
     "formaga": [
@@ -61867,7 +61868,7 @@ window.BANK = [
     "omr": "rorelseenergi",
     "niva": "C",
     "poang": "(2/2/0)",
-    "t": "<p>En boll som väger 120 g släpps och studsar mot golvet. Från början är bollens tyngdpunkt 1,80 m över det läge den har när bollen nuddar golvet. Efter första studsen kommer tyngdpunkten som högst 1,25 m över samma läge. Räkna lägesenergin från det läget. Bortse från luftmotståndet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Lodrät studs visad före och efter i två separata lägen\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 270 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 258 H465\" stroke=\"#b2b7be\" stroke-dasharray=\"4 4\"/><circle cx=\"120\" cy=\"78\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"330\" cy=\"133\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"120\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><circle cx=\"330\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><path d=\"M120 92 V239 M330 243 V150\" stroke=\"#a1a7b0\" stroke-dasharray=\"5 4\"/><path d=\"M150 78 H207 M150 258 H207 M198 78 V258 M360 133 H412 M360 258 H412 M402 133 V258\" fill=\"none\" stroke=\"#949ba5\"/><text x=\"207\" y=\"175\">1,80 m</text><text x=\"412\" y=\"200\">1,25 m</text><text x=\"120\" y=\"38\" text-anchor=\"middle\">Före studsen</text><text x=\"330\" y=\"38\" text-anchor=\"middle\">Efter studsen</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Hur stor är lägesenergin i starten?</li><li>Hur stor är lägesenergin i det högsta läget efter första studsen?</li><li>Hur många procent av bollens mekaniska energi omvandlas till andra energiformer vid första studsen?</li><li>Antag att lika stor andel av energin finns kvar efter varje studs. Hur högt kommer tyngdpunkten efter nästa studs?</li></ol>",
+    "t": "<p>En boll som väger 120 g släpps och studsar mot golvet. Från början är bollens tyngdpunkt 1,80 m över det läge den har när bollen nuddar golvet. Efter första studsen kommer tyngdpunkten som högst 1,25 m över samma läge. Räkna lägesenergin från det läget. Bortse från luftmotståndet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" style=\"width:100%;max-width:500px;height:auto\" role=\"img\" aria-label=\"Lodrät studs visad före och efter i två separata lägen\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"15\" fill=\"#30343b\"><path d=\"M35 270 H465\" stroke=\"#34383e\" stroke-width=\"3\"/><path d=\"M35 258 H465\" stroke=\"#b2b7be\" stroke-dasharray=\"4 4\"/><circle cx=\"120\" cy=\"78\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"330\" cy=\"133\" r=\"12\" fill=\"white\" stroke=\"#34383e\" stroke-width=\"2.5\"/><circle cx=\"120\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><circle cx=\"330\" cy=\"258\" r=\"12\" fill=\"none\" stroke=\"#a1a7b0\" stroke-dasharray=\"4 4\"/><path d=\"M120 92 V239 M330 243 V150\" stroke=\"#a1a7b0\" stroke-dasharray=\"5 4\"/><path d=\"M150 78 H207 M150 258 H207 M198 78 V258 M360 133 H412 M360 258 H412 M402 133 V258\" fill=\"none\" stroke=\"#949ba5\"/><text x=\"207\" y=\"175\">1,80 m</text><text x=\"412\" y=\"200\">1,25 m</text><text x=\"120\" y=\"38\" text-anchor=\"middle\">Före studsen</text><text x=\"330\" y=\"38\" text-anchor=\"middle\">Efter studsen</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Hur stor är lägesenergin i starten?</li><li>Hur stor är lägesenergin i det högsta läget efter första studsen?</li><li>Hur många procent av bollens mekaniska energi omvandlas till andra energiformer vid första studsen?</li><li>Anta att lika stor andel av energin finns kvar efter varje studs. Hur högt kommer tyngdpunkten efter nästa studs?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägesenergi: \\(E_p=mgh\\)</p><div class=\"facit-matte\">\\[E_p=0{,}120\\cdot9{,}82\\cdot1{,}80\\approx2{,}12\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,12 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägesenergi: \\(E_p=mgh\\)</p><div class=\"facit-matte\">\\[E_p=0{,}120\\cdot9{,}82\\cdot1{,}25\\approx1{,}47\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,47 J.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andel som omvandlas: \\(\\dfrac{E_1-E_2}{E_1}=\\dfrac{h_1-h_2}{h_1}\\)</p><p>Massan och g förkortas bort.</p><div class=\"facit-matte\">\\[\\frac{1{,}80-1{,}25}{1{,}80}\\approx0{,}3056=30{,}56\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30,56 %.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma andel kvar: \\(\\dfrac{h_3}{h_2}=\\dfrac{h_2}{h_1}\\)</p><div class=\"facit-matte\">\\[h_3=1{,}25\\cdot\\frac{1{,}25}{1{,}80}\\approx0{,}87\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,87 m.</p></div></div></div>",
     "familj": "Nettoarbete och energiförluster",
     "formaga": [
@@ -62109,7 +62110,7 @@ window.BANK = [
     ],
     "familjNyckel": "arbete__massa_ur_rorelseenergi",
     "svarstyp": "numeriskt",
-    "rättSvar": 82,
+    "rättSvar": 82.17993079584777,
     "tolerans": 0.5,
     "självrättning": true,
     "ledtrad": "<p>Vilken storhet är okänd i uttrycket för rörelseenergi?</p>",
@@ -62474,7 +62475,7 @@ window.BANK = [
     ],
     "familjNyckel": "effekt__energi_under_aterkommande_drift",
     "svarstyp": "numeriskt",
-    "rättSvar": 17.6,
+    "rättSvar": 17.55,
     "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
@@ -62631,7 +62632,7 @@ window.BANK = [
     "omr": "effekt",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En cyklist och cykeln väger tillsammans 85 kg. Cyklisten håller farten 5,0 m/s uppför en rak backe som stiger 6,0 m för varje 100 m i horisontell led.</p><ol type=\"a\"><li>Hur stor effekt går till att öka lägesenergin?</li><li>Moa använder sin θ = 0,060, där θ är backens lutningsvinkel. Är det exakt eller en approximation? Hur bra är den här?</li><li>Varför måste cyklisten i verkligheten trampa med större effekt än svaret i a?</li></ol>",
+    "t": "<p>En cyklist och cykeln väger tillsammans 85 kg. Cyklisten håller farten 5,0 m/s uppför en rak backe som stiger 6,0 m för varje 100 m i horisontell led.</p><ol type=\"a\"><li>Hur stor effekt går till att öka lägesenergin?</li><li>Moa räknar med att \\(\\sin\\theta=0{,}060\\), där θ är backens lutningsvinkel. Är det exakt eller en approximation? Hur bra är den här?</li><li>Varför måste cyklisten i verkligheten trampa med större effekt än svaret i a?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Backens vinkel: \\(\\tan\\theta=\\dfrac{6{,}0}{100}\\)</p><div class=\"facit-matte\">\\[\\theta=\\arctan0{,}060\\approx3{,}434^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lyfteffekt: \\(P=mgv\\sin\\theta\\)</p><p>Den lodräta farten är v sin θ.</p><div class=\"facit-matte\">\\[P=85\\cdot9{,}82\\cdot5{,}0\\sin3{,}434^\\circ\\approx250\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 250 W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">0,060 är \\(\\tan\\theta\\), inte \\(\\sin\\theta\\)</p><div class=\"facit-matte\">\\[P_{\\text{approx}}=85\\cdot9{,}82\\cdot5{,}0\\cdot0{,}060=250{,}41\\ \\mathrm W\\]</div><p>Skillnaden mot 249,96 W är under 0,2 %, eftersom sin θ och tan θ är nästan lika för små vinklar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En approximation, men mycket bra här.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pedaleffekt: \\(P_{\\text{pedal}}=P_{\\text{läge}}+P_{\\text{motstånd}}+P_{\\text{förlust}}\\)</p><p>Cyklisten måste också övervinna luftmotstånd och rullmotstånd, och en del energi går förlorad i kedjan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Luftmotstånd, rullmotstånd och förluster i drivningen kräver också effekt.</p></div></div></div>",
     "familj": "Effekt P = W/t",
     "formaga": [
@@ -62702,7 +62703,7 @@ window.BANK = [
     ],
     "familjNyckel": "effekt__effektgrans_och_nyttolast",
     "svarstyp": "numeriskt",
-    "rättSvar": 402,
+    "rättSvar": 402.2257782950246,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
@@ -63308,7 +63309,7 @@ window.BANK = [
       7.5,
       -6,
       1.5,
-      1.13
+      1.125
     ],
     "tolerans": [
       0.005,
@@ -123702,7 +123703,7 @@ window.BANK = [
     "familj": "Impuls och medelkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      41.3,
+      41.25,
       61.875
     ],
     "tolerans": [
@@ -123999,7 +124000,7 @@ window.BANK = [
     "geogebra": false,
     "familj": "Impuls och medelkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 563,
+    "rättSvar": 562.5,
     "tolerans": 0.5,
     "självrättning": true,
     "formaga": [
@@ -124221,7 +124222,7 @@ window.BANK = [
     "familj": "Impuls och medelkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -2.84,
+      -2.8349999999999995,
       -51.63636363636363
     ],
     "tolerans": [
@@ -136323,7 +136324,7 @@ window.BANK = [
     "rättSvar": [
       500,
       433.0127018922194,
-      737
+      736.5
     ],
     "tolerans": [
       0.5,
@@ -144235,7 +144236,7 @@ window.BANK = [
     "familj": "Tidlösa formeln",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      12200000,
+      12247448.71391589,
       2.45e-08,
       3.71
     ],
@@ -148509,7 +148510,7 @@ window.BANK = [
     "niva": "A",
     "typ": "fartkvot uppför och nedför",
     "poang": "(0/2/2)",
-    "t": "<p>En kloss skjuts uppför ett plan med farten u. Planet lutar vinkeln θ och friktionstalet är μ. Klossen stannar och glider sedan tillbaka ner till startpunkten. Antag att μ &lt; tan θ.</p><ol type=\"a\" style=\"display:grid;gap:0.85rem\"><li>Ta fram förhållandet mellan farten v när klossen är tillbaka vid startpunkten och startfarten u.</li><li>Vilket villkor måste gälla för att klossen ska börja glida nedåt igen? Kontrollera svaret för fallet utan friktion.</li></ol>",
+    "t": "<p>En kloss skjuts uppför ett plan med farten u. Planet lutar vinkeln θ och friktionstalet är μ. Klossen stannar och glider sedan tillbaka ner till startpunkten. Anta att μ &lt; tan θ.</p><ol type=\"a\" style=\"display:grid;gap:0.85rem\"><li>Ta fram förhållandet mellan farten v när klossen är tillbaka vid startpunkten och startfarten u.</li><li>Vilket villkor måste gälla för att klossen ska börja glida nedåt igen? Kontrollera svaret för fallet utan friktion.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energiprincipen upp och ned: \\(\\dfrac{u^2}{2}=gs(\\sin\\theta+\\mu\\cos\\theta)\\), \\(\\dfrac{v^2}{2}=gs(\\sin\\theta-\\mu\\cos\\theta)\\)</p></li><li><p class=\"facit-rubrik\">Dividera</p><div class=\"facit-matte\">\\[\\frac{v}{u}=\\sqrt{\\frac{\\tan\\theta-\\mu}{\\tan\\theta+\\mu}}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{v}{u}=\\sqrt{\\dfrac{\\tan\\theta-\\mu}{\\tan\\theta+\\mu}}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Acceleration nedför: \\(a=g(\\sin\\theta-\\mu\\cos\\theta)>0\\)</p><p>Det kräver μ < tan θ.</p></li><li><p class=\"facit-rubrik\">Sätt \\(\\mu=0\\)</p><div class=\"facit-matte\">\\[\\frac{v}{u}=1\\]</div><p>Utan friktion bevaras den mekaniska energin.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> μ < tan θ. Utan friktion blir v = u.</p></div></div></div>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -152412,7 +152413,7 @@ window.BANK = [
     "niva": "C",
     "typ": "cyklist uppför backe",
     "poang": "(0/2/0)",
-    "t": "<p>En cyklist och cykeln väger tillsammans 90 kg. På plan väg håller cyklisten farten 6,0 m/s med effekten 200 W. Sedan kommer en backe som lutar 10°.</p><ol type=\"a\"><li>Hur stor effekt krävs för att hålla farten 6,0 m/s uppför backen? Antag att motståndskraften är lika stor som på plan väg.</li><li>Antag i stället att luftmotstånd och friktion bromsar med 30 N i backen. Vilken konstant fart kan cyklisten hålla uppför backen med effekten 200 W?</li></ol>",
+    "t": "<p>En cyklist och cykeln väger tillsammans 90 kg. På plan väg håller cyklisten farten 6,0 m/s med effekten 200 W. Sedan kommer en backe som lutar 10°.</p><ol type=\"a\"><li>Hur stor effekt krävs för att hålla farten 6,0 m/s uppför backen? Anta att motståndskraften är lika stor som på plan väg.</li><li>Anta i stället att luftmotstånd och friktion bromsar med 30 N i backen. Vilken konstant fart kan cyklisten hålla uppför backen med effekten 200 W?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Drivkraft: \\(F=\\dfrac{P}{v}\\) på vågrät väg ger motståndet</p><div class=\"facit-matte\">\\[F_{\\text{mot}}=\\frac{200}{6{,}0}\\approx33{,}3\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Drivkraft i backen: \\(F=mg\\sin\\alpha+F_{\\text{mot}}\\)</p><div class=\"facit-matte\">\\[F=90\\cdot9{,}82\\sin10^\\circ+33{,}3\\approx186{,}8\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Effekt vid konstant fart: \\(P=Fv\\)</p><div class=\"facit-matte\">\\[P=186{,}8\\cdot6{,}0\\approx1{,}12\\cdot10^3\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1120 W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Drivkraft i backen: \\(F=mg\\sin\\alpha+F_{\\text{mot}}\\)</p><div class=\"facit-matte\">\\[F=90\\cdot9{,}82\\sin10^\\circ+30\\approx183{,}5\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Effekt vid konstant fart: \\(P=Fv\\), lös ut \\(v\\)</p><div class=\"facit-matte\">\\[v=\\frac{200}{183{,}5}\\approx1{,}09\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,09 m/s.</p></div></div></div>",
     "id": "5.567",
     "miniräknare": true,
@@ -152451,7 +152452,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur stor effekt krävs för att hålla farten 6,0 m/s uppför backen?",
-        "t": "<p>En cyklist och cykeln väger tillsammans 90 kg. På plan väg håller cyklisten farten 6,0 m/s med effekten 200 W. Antag att motståndskraften är lika stor i en backe som lutar 10°.</p><p>Hur stor effekt krävs för att hålla farten 6,0 m/s uppför backen?</p>",
+        "t": "<p>En cyklist och cykeln väger tillsammans 90 kg. På plan väg håller cyklisten farten 6,0 m/s med effekten 200 W. Anta att motståndskraften är lika stor i en backe som lutar 10°.</p><p>Hur stor effekt krävs för att hålla farten 6,0 m/s uppför backen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Drivkraft: \\(F=\\dfrac{P}{v}\\) på vågrät väg ger motståndet</p><div class=\"facit-matte\">\\[F_{\\text{mot}}=\\frac{200}{6{,}0}\\approx33{,}3\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Drivkraft i backen: \\(F=mg\\sin\\alpha+F_{\\text{mot}}\\)</p><div class=\"facit-matte\">\\[F=90\\cdot9{,}82\\sin10^\\circ+33{,}3\\approx186{,}8\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Effekt vid konstant fart: \\(P=Fv\\)</p><div class=\"facit-matte\">\\[P=186{,}8\\cdot6{,}0\\approx1{,}12\\cdot10^3\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1120 W.</p></div>",
         "ledtrad": "<p>Bestäm motståndet på vågrät väg innan du lägger till backens påverkan.</p>",
         "niva": "C",
@@ -152874,7 +152875,7 @@ window.BANK = [
     "niva": "C",
     "typ": "luftmotstånd som beror på farten",
     "poang": "(0/2/0)",
-    "t": "<p>En cyklist och cykeln väger tillsammans 80 kg. Luftmotståndet kan beräknas med \\(F=kv^2\\), där v är farten. Bortse från annat motstånd.</p><ol type=\"a\"><li>Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° och håller den konstanta farten 3,5 m/s. Bestäm k.</li><li>Antag att k = 3,4 kg/m. Hur stor effekt krävs för att cykla med den konstanta farten 2,0 m/s uppför en backe som lutar 1,5°?</li></ol>",
+    "t": "<p>En cyklist och cykeln väger tillsammans 80 kg. Luftmotståndet kan beräknas med \\(F=kv^2\\), där v är farten. Bortse från annat motstånd.</p><ol type=\"a\"><li>Cyklisten rullar utan att trampa nedför en backe som lutar 3,0° och håller den konstanta farten 3,5 m/s. Bestäm k.</li><li>Anta att k = 3,4 kg/m. Hur stor effekt krävs för att cykla med den konstanta farten 2,0 m/s uppför en backe som lutar 1,5°?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstant fart nedför: \\(kv^2=mg\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[mg\\sin3{,}0^\\circ=80\\cdot9{,}82\\sin3{,}0^\\circ\\approx41{,}12\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(k\\)</p><div class=\"facit-matte\">\\[k=\\frac{41{,}12}{3{,}5^2}\\approx3{,}36\\ \\mathrm{kg/m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,36 kg/m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Drivkraft uppför: \\(F=kv^2+mg\\sin\\alpha\\)</p><div class=\"facit-matte\">\\[F=3{,}4\\cdot2{,}0^2+80\\cdot9{,}82\\sin1{,}5^\\circ\\approx13{,}6+20{,}6=34{,}2\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Effekt vid konstant fart: \\(P=Fv\\)</p><div class=\"facit-matte\">\\[P=34{,}17\\cdot2{,}0\\approx68{,}3\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 68,3 W.</p></div></div></div>",
     "id": "5.574",
     "miniräknare": true,
@@ -153105,7 +153106,7 @@ window.BANK = [
     "familj": "Effekt och fart (P = F·v)",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3530,
+      3525.0,
       3.79526531611836
     ],
     "tolerans": [
@@ -153644,7 +153645,7 @@ window.BANK = [
     "niva": "C",
     "typ": "chokladbitar för kroppsarbete",
     "poang": "(0/1/0)",
-    "t": "<p>Kalle uträttar 5,0 kJ mekaniskt arbete. Antag att 20 % av den kemiska energi kroppen använder blir mekaniskt arbete. Varje liten chokladbit innehåller 320 J, och kroppen kan ta till vara 60 % av den energin. Hur många chokladbitar behöver Kalle äta?</p>",
+    "t": "<p>Kalle uträttar 5,0 kJ mekaniskt arbete. Anta att 20 % av den kemiska energi kroppen använder blir mekaniskt arbete. Varje liten chokladbit innehåller 320 J, och kroppen kan ta till vara 60 % av den energin. Hur många chokladbitar behöver Kalle äta?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=\\dfrac{E_{\\text{nyttig}}}{E_{\\text{tillförd}}}\\), lös ut \\(E_{\\text{tillförd}}\\)</p><p>5,0 kJ = 5000 J.</p><div class=\"facit-matte\">\\[E_{\\text{kemisk}}=\\frac{5000}{0{,}20}=25\\,000\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Användbar energi per bit: \\(0{,}60\\cdot320\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E_{\\text{bit}}=0{,}60\\cdot320=192\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Antal bitar: \\(n=\\dfrac{E_{\\text{kemisk}}}{E_{\\text{bit}}}\\)</p><div class=\"facit-matte\">\\[n=\\frac{25\\,000}{192}\\approx130{,}2\\]</div><p>130 bitar räcker inte. Avrunda uppåt.</p><div class=\"facit-matte\">\\[n_{\\min}=131\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 131 bitar.</p></div>",
     "id": "5.589",
     "miniräknare": true,
@@ -154395,7 +154396,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bil som rullar i backe",
     "poang": "(0/2/0)",
-    "t": "<ol type=\"a\"><li>En bil som väger 1,2 ton rullar utan att motorn driver nedför en backe som lutar 3,0°, med den konstanta farten 80 km/h. Antag att motståndskraften är lika stor på plan väg i samma fart. Hur stor effekt måste motorn ge för att bilen ska hålla 80 km/h på plan väg?</li><li>En annan bil håller farten 80 km/h på plan väg, och motorns nyttiga effekt är 13,7 kW. Bilen förbrukar 0,75 liter bensin per mil (10 km). Bensinens densitet är 0,80 kg/L, och bensinen ger 32 MJ per kg. Hur stor är motorns verkningsgrad?</li></ol>",
+    "t": "<ol type=\"a\"><li>En bil som väger 1,2 ton rullar utan att motorn driver nedför en backe som lutar 3,0°, med den konstanta farten 80 km/h. Anta att motståndskraften är lika stor på plan väg i samma fart. Hur stor effekt måste motorn ge för att bilen ska hålla 80 km/h på plan väg?</li><li>En annan bil håller farten 80 km/h på plan väg, och motorns nyttiga effekt är 13,7 kW. Bilen förbrukar 0,75 liter bensin per mil (10 km). Bensinens densitet är 0,80 kg/L, och bensinen ger 32 MJ per kg. Hur stor är motorns verkningsgrad?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstant fart nedför: \\(F_{\\text{mot}}=mg\\sin\\alpha\\)</p><p>Utan drivkraft balanseras motståndet av tyngdkraftens komposant längs backen. 1,2 ton = 1200 kg.</p><div class=\"facit-matte\">\\[F_{\\text{mot}}=1200\\cdot9{,}82\\sin3{,}0^\\circ\\approx616{,}7\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Enhetsbyte: \\(v=\\dfrac{v_{\\text{km/h}}}{3{,}6}\\)</p><div class=\"facit-matte\">\\[v=\\frac{80}{3{,}6}\\approx22{,}22\\ \\mathrm{m/s}\\]</div></li><li><p class=\"facit-rubrik\">Effekt vid konstant fart: \\(P=Fv\\)</p><div class=\"facit-matte\">\\[P=616{,}7\\cdot22{,}22\\approx1{,}37\\cdot10^4\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}37\\cdot10^{4}\\) W.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tillförd energi per mil: \\(E=\\rho V\\cdot32\\ \\mathrm{MJ/kg}\\)</p><div class=\"facit-matte\">\\[m=0{,}80\\cdot0{,}75=0{,}60\\ \\mathrm{kg}\\]</div><div class=\"facit-matte\">\\[E_{\\text{in}}=0{,}60\\cdot32\\cdot10^6=1{,}92\\cdot10^7\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Nyttig energi: \\(E=Pt\\), med \\(t=\\dfrac{s}{v}\\)</p><div class=\"facit-matte\">\\[t=\\frac{10\\,000}{22{,}22}=450\\ \\mathrm s\\]</div><div class=\"facit-matte\">\\[E_{\\text{nyttig}}=13\\,700\\cdot450\\approx6{,}17\\cdot10^6\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Verkningsgrad: \\(\\eta=\\dfrac{E_{\\text{nyttig}}}{E_{\\text{tillförd}}}\\)</p><div class=\"facit-matte\">\\[\\eta=\\frac{6{,}17\\cdot10^6}{1{,}92\\cdot10^7}\\approx0{,}321=32{,}1\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32,1 %.</p></div></div></div>",
     "id": "5.599",
     "miniräknare": true,
@@ -154434,7 +154435,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur stor effekt måste motorn ge för att bilen ska hålla 80 km/h på plan väg?",
-        "t": "<p>En bil som väger 1,2 ton rullar utan att motorn driver nedför en backe som lutar 3,0°, med den konstanta farten 80 km/h. Antag att motståndskraften är lika stor på plan väg i samma fart.</p><p>Hur stor effekt måste motorn ge för att bilen ska hålla 80 km/h på plan väg?</p>",
+        "t": "<p>En bil som väger 1,2 ton rullar utan att motorn driver nedför en backe som lutar 3,0°, med den konstanta farten 80 km/h. Anta att motståndskraften är lika stor på plan väg i samma fart.</p><p>Hur stor effekt måste motorn ge för att bilen ska hålla 80 km/h på plan väg?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konstant fart nedför: \\(F_{\\text{mot}}=mg\\sin\\alpha\\)</p><p>Utan drivkraft balanseras motståndet av tyngdkraftens komposant längs backen. 1,2 ton = 1200 kg.</p><div class=\"facit-matte\">\\[F_{\\text{mot}}=1200\\cdot9{,}82\\sin3{,}0^\\circ\\approx616{,}7\\ \\mathrm N\\]</div></li><li><p class=\"facit-rubrik\">Enhetsbyte: \\(v=\\dfrac{v_{\\text{km/h}}}{3{,}6}\\)</p><div class=\"facit-matte\">\\[v=\\frac{80}{3{,}6}\\approx22{,}22\\ \\mathrm{m/s}\\]</div></li><li><p class=\"facit-rubrik\">Effekt vid konstant fart: \\(P=Fv\\)</p><div class=\"facit-matte\">\\[P=616{,}7\\cdot22{,}22\\approx1{,}37\\cdot10^4\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}37\\cdot10^{4}\\) W.</p></div>",
         "ledtrad": "<p>Bestäm först den bromsande kraften från rörelsen nedför backen.</p>",
         "niva": "C",
@@ -156519,7 +156520,7 @@ window.BANK = [
     "niva": "C",
     "typ": "pendel och lian",
     "poang": "(0/2/0)",
-    "t": "<p>Bortse från friktion och luftmotstånd.</p><ol type=\"a\"><li>En pendelkula hänger i en 1,00 m lång lina. Kulan dras ut så att linan bildar vinkeln 30° med lodlinjen och släpps. Vilken fart har kulan i det lägsta läget?</li><li>Oskar springer med farten 6,0 m/s och tar tag i ett 10,0 m långt rep som hänger rakt ner. Han svingar sig uppåt. Antag att farten inte ändras när han tar tag i repet. Vilken vinkel bildar repet med lodlinjen när Oskar vänder?</li></ol>",
+    "t": "<p>Bortse från friktion och luftmotstånd.</p><ol type=\"a\"><li>En pendelkula hänger i en 1,00 m lång lina. Kulan dras ut så att linan bildar vinkeln 30° med lodlinjen och släpps. Vilken fart har kulan i det lägsta läget?</li><li>Oskar springer med farten 6,0 m/s och tar tag i ett 10,0 m långt rep som hänger rakt ner. Han svingar sig uppåt. Anta att farten inte ändras när han tar tag i repet. Vilken vinkel bildar repet med lodlinjen när Oskar vänder?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Höjdskillnad i pendel: \\(h=L(1-\\cos\\theta)\\)</p><div class=\"facit-matte\">\\[h=1{,}00(1-\\cos30^\\circ)\\approx0{,}134\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Energiprincipen utan förluster: \\(\\dfrac{mv^2}{2}=mgh\\Rightarrow v=\\sqrt{2gh}\\)</p><div class=\"facit-matte\">\\[v=\\sqrt{2\\cdot9{,}82\\cdot0{,}134}\\approx1{,}62\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,62 m/s.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energiprincipen utan förluster: \\(mgh=\\dfrac{mv_0^2}{2}\\Rightarrow h=\\dfrac{v_0^2}{2g}\\)</p><div class=\"facit-matte\">\\[h=\\frac{6{,}0^2}{2\\cdot9{,}82}\\approx1{,}833\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Höjdskillnad i pendel: \\(h=L(1-\\cos\\theta)\\), lös ut \\(\\theta\\)</p><div class=\"facit-matte\">\\[\\cos\\theta=1-\\frac{1{,}833}{10{,}0}\\approx0{,}8167\\]</div><div class=\"facit-matte\">\\[\\theta\\approx35{,}2^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 35,2°.</p></div></div></div>",
     "id": "5.487",
     "miniräknare": true,
@@ -156568,7 +156569,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Vilken vinkel bildar repet med lodlinjen när Oskar vänder?",
-        "t": "<p>Oskar springer med farten 6,0 m/s och tar tag i ett 10,0 m långt rep som hänger rakt ner. Han svingar sig uppåt. Antag att farten inte ändras när han tar tag i repet. Bortse från luftmotståndet.</p><p>Vilken vinkel bildar repet med lodlinjen när Oskar vänder?</p>",
+        "t": "<p>Oskar springer med farten 6,0 m/s och tar tag i ett 10,0 m långt rep som hänger rakt ner. Han svingar sig uppåt. Anta att farten inte ändras när han tar tag i repet. Bortse från luftmotståndet.</p><p>Vilken vinkel bildar repet med lodlinjen när Oskar vänder?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energiprincipen utan förluster: \\(mgh=\\dfrac{mv_0^2}{2}\\Rightarrow h=\\dfrac{v_0^2}{2g}\\)</p><div class=\"facit-matte\">\\[h=\\frac{6{,}0^2}{2\\cdot9{,}82}\\approx1{,}833\\ \\mathrm m\\]</div></li><li><p class=\"facit-rubrik\">Höjdskillnad i pendel: \\(h=L(1-\\cos\\theta)\\), lös ut \\(\\theta\\)</p><div class=\"facit-matte\">\\[\\cos\\theta=1-\\frac{1{,}833}{10{,}0}\\approx0{,}8167\\]</div><div class=\"facit-matte\">\\[\\theta\\approx35{,}2^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 35,2°.</p></div>",
         "ledtrad": "<p>Bestäm höjden först.</p>",
         "niva": "C",
@@ -157439,7 +157440,7 @@ window.BANK = [
     "rättSvar": [
       3.967221644120707,
       1220,
-      76.3,
+      76.25,
       14.142135623730951
     ],
     "tolerans": [
@@ -157538,7 +157539,7 @@ window.BANK = [
     "niva": "C",
     "typ": "månens rörelseenergi",
     "poang": "(0/1/0)",
-    "t": "<p>Månen har massan \\(7{,}36\\cdot10^{22}\\) kg och går runt jorden på 27,3 dygn. Antag att banan är en cirkel med radien \\(3{,}84\\cdot10^8\\) m. Hur stor rörelseenergi har månen?</p>",
+    "t": "<p>Månen har massan \\(7{,}36\\cdot10^{22}\\) kg och går runt jorden på 27,3 dygn. Anta att banan är en cirkel med radien \\(3{,}84\\cdot10^8\\) m. Hur stor rörelseenergi har månen?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Banfart: \\(v=\\dfrac{2\\pi r}{T}\\)</p><p>27,3 dygn = 27,3 · 86 400 s.</p><div class=\"facit-matte\">\\[v=\\frac{2\\pi\\cdot3{,}84\\cdot10^8}{27{,}3\\cdot86\\,400}\\approx1023\\ \\mathrm{m/s}\\]</div></li><li><p class=\"facit-rubrik\">Rörelseenergi: \\(E_k=\\dfrac{mv^2}{2}\\)</p><div class=\"facit-matte\">\\[E_k=\\frac{7{,}36\\cdot10^{22}\\cdot1023^2}{2}\\approx3{,}85\\cdot10^{28}\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}85\\cdot10^{28}\\) J.</p></div>",
     "id": "5.506",
     "miniräknare": true,
@@ -157677,7 +157678,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       322072.7237654321,
-      371,
+      370.5,
       28.8,
       0.44000000000000006
     ],
@@ -158076,7 +158077,7 @@ window.BANK = [
       4240.384615384615,
       0.34541751527494907,
       21.43772375976517,
-      4810
+      4805.0
     ],
     "tolerans": [
       5,
@@ -169361,7 +169362,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       1964,
-      246,
+      245.50000000000003,
       0.025
     ],
     "tolerans": [
@@ -189342,7 +189343,7 @@ window.BANK = [
     "niva": "C",
     "typ": "energi i mat och lyftarbete",
     "poang": "(0/3/0)",
-    "t": "<ol type=\"a\"><li>Ett glas mjölk innehåller 80 kcal. En person som väger 65 kg går uppför trappor, så att höjden ökar 125 m. Hur stor andel av ett glas mjölk motsvarar lyftarbetet? Antag att all energi blir lyftarbete.</li><li>En glass innehåller 280 kcal. En person som väger 75 kg kan använda 20 % av energin till att lyfta sig själv. Hur högt kan personen ta sig?</li><li>En glass innehåller 280 kcal, och 20 % av energin kan användas till arbete. Varje lyft med en hantel kräver kraften 20,0 N längs 45,0 cm. Hur många hela lyft krävs för att använda all den energin?</li></ol>",
+    "t": "<ol type=\"a\"><li>Ett glas mjölk innehåller 80 kcal. En person som väger 65 kg går uppför trappor, så att höjden ökar 125 m. Hur stor andel av ett glas mjölk motsvarar lyftarbetet? Anta att all energi blir lyftarbete.</li><li>En glass innehåller 280 kcal. En person som väger 75 kg kan använda 20 % av energin till att lyfta sig själv. Hur högt kan personen ta sig?</li><li>En glass innehåller 280 kcal, och 20 % av energin kan användas till arbete. Varje lyft med en hantel kräver kraften 20,0 N längs 45,0 cm. Hur många hela lyft krävs för att använda all den energin?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lyftarbete från vila till vila: \\(W=mgh\\)</p><div class=\"facit-matte\">\\[W=65\\cdot9{,}82\\cdot125=79\\,787{,}5\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Energiomvandling: \\(1\\ \\mathrm{kcal}=4186\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E_{\\text{glas}}=80\\cdot4186=334\\,880\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Andel: \\(\\dfrac{W}{E_{\\text{glas}}}\\)</p><div class=\"facit-matte\">\\[\\frac{79\\,787{,}5}{334\\,880}\\approx0{,}238\\]</div><p>Ungefär en fjärdedel av ett glas i modellen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,238.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energiomvandling: \\(1\\ \\mathrm{kcal}=4186\\ \\mathrm J\\), och 20 % blir arbete</p><div class=\"facit-matte\">\\[E=0{,}20\\cdot280\\cdot4186=234\\,416\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Lyftarbete: \\(mgh=E\\), lös ut \\(h\\)</p><div class=\"facit-matte\">\\[h=\\frac{E}{mg}=\\frac{234\\,416}{75\\cdot9{,}82}\\approx318\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 318 m.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Energiomvandling: \\(1\\ \\mathrm{kcal}=4186\\ \\mathrm J\\), och 20 % blir arbete</p><div class=\"facit-matte\">\\[E=0{,}20\\cdot280\\cdot4186=234\\,416\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Arbete: \\(W=Fs\\) för ett lyft</p><p>45,0 cm = 0,450 m.</p><div class=\"facit-matte\">\\[W_1=20{,}0\\cdot0{,}450=9{,}00\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Antal lyft: \\(n=\\dfrac{E}{W_1}\\)</p><div class=\"facit-matte\">\\[n=\\frac{234\\,416}{9{,}00}\\approx26046{,}2\\]</div><p>26 046 lyft räcker inte riktigt. Avrunda uppåt. Med 1 kcal = 4184 J blir svaret 26 034, som också godkänns.</p><div class=\"facit-matte\">\\[n_{\\min}=26047\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 26 047 lyft.</p></div></div></div>",
     "id": "5.498",
     "miniräknare": true,
@@ -189386,7 +189387,7 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Hur stor andel av ett glas mjölk motsvarar lyftarbetet?",
-        "t": "<p>Ett glas mjölk innehåller 80 kcal. En person som väger 65 kg går uppför trappor, så att höjden ökar 125 m. Antag att all energi blir lyftarbete.</p><p>Hur stor andel av ett glas mjölk motsvarar lyftarbetet?</p>",
+        "t": "<p>Ett glas mjölk innehåller 80 kcal. En person som väger 65 kg går uppför trappor, så att höjden ökar 125 m. Anta att all energi blir lyftarbete.</p><p>Hur stor andel av ett glas mjölk motsvarar lyftarbetet?</p>",
         "kgInstruktion": "Svara med ett decimaltal.",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lyftarbete från vila till vila: \\(W=mgh\\)</p><div class=\"facit-matte\">\\[W=65\\cdot9{,}82\\cdot125=79\\,787{,}5\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Energiomvandling: \\(1\\ \\mathrm{kcal}=4186\\ \\mathrm J\\)</p><div class=\"facit-matte\">\\[E_{\\text{glas}}=80\\cdot4186=334\\,880\\ \\mathrm J\\]</div></li><li><p class=\"facit-rubrik\">Andel: \\(\\dfrac{W}{E_{\\text{glas}}}\\)</p><div class=\"facit-matte\">\\[\\frac{79\\,787{,}5}{334\\,880}\\approx0{,}238\\]</div><p>Ungefär en fjärdedel av ett glas i modellen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,238.</p></div>",
         "ledtrad": "<p>Dividera lyftarbetet med energin i ett glas.</p>",
@@ -190435,7 +190436,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       315.37353705126185,
-      213,
+      212.5,
       3117.691453623979
     ],
     "tolerans": [
@@ -190801,7 +190802,7 @@ window.BANK = [
     "familj": "Arbete W = F·s",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.0737,
+      0.07365,
       84.86082824168365,
       78.125
     ],
@@ -191823,7 +191824,7 @@ window.BANK = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.7899999999999999,
-      0.00228
+      0.002275000000000013
     ],
     "tolerans": [
       0.0005,
@@ -192957,7 +192958,7 @@ window.BANK = [
     "rättSvar": [
       3.033707865168539,
       9.103624875,
-      0.788
+      0.7875
     ],
     "tolerans": [
       0.005,
@@ -198899,7 +198900,7 @@ window.BANK = [
     "självrättning": true,
     "manuellKomplettering": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.563,
+    "rättSvar": 0.5625,
     "tolerans": 0.0005,
     "svarFormat": "numeriskt",
     "svarEnhet": null,

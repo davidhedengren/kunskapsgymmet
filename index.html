@@ -4205,7 +4205,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-11-27-felrapporter-0809";
+const BANK_VERSION="2026-11-27-kvalitetsrapport";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11826,6 +11826,9 @@ function formatRatt(anv,facit,meta){
     case "förkortat_uttryck": case "forkortat_uttryck": return forkortatUttryckRatt(a,f);
     case "största_faktor": case "storsta_faktor": return storstaFaktorRatt(a,f);
     case "uttryck": case "uttryck_med_villkor": {
+      /* Vinkeluttryck i grader (Ma2 3.67: y=45-x/2): ett gradtecken som eleven skriver ut ändrar inte
+         svaret när facit saknar det. Inte med sin/cos/tan, där ° ändrar värdet (granskning 2026-11-27). */
+      if(a.includes("°") && !f.includes("°") && !/sin|cos|tan/i.test(a)) return formatRatt(a.replace(/\s*°/g,""),facit,meta);
       /* Ett villkor efter kommatecken (", x≠0") tas bort, men inte ett decimalkomma: y=-1,5x+6 ska vara kvar. */
       const rensa=x=>String(x).split(/(?:(?<!\d),|,(?!\d))(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
       /* En derivataetikett är ett namn på svaret, inte en ekvation som
@@ -16822,7 +16825,12 @@ window.KG_TEST_MA4_SVAR=function(){
     {namn:"talfacit utan format: korrekt avrundat", got:delSvarRatt("1,13",1.134,null,null,{t:"<p>Bestäm den totala förändringsfaktorn.</p>"},0,undefined), want:true},
     {namn:"talfacit utan format: fler decimaler", got:delSvarRatt("1,1340",1.134,null,null,{t:"<p>Bestäm den totala förändringsfaktorn.</p>"},0,undefined), want:true},
     {namn:"talfacit utan format: fel avrundat", got:delSvarRatt("1,14",1.134,null,null,{t:"<p>Bestäm den totala förändringsfaktorn.</p>"},0,undefined), want:false},
-    {namn:"talfacit utan format: angiven precision gäller", got:delSvarRatt("1,1",1.134,null,null,{t:"<p>Svara med två decimaler.</p>"},0,undefined), want:false}
+    {namn:"talfacit utan format: angiven precision gäller", got:delSvarRatt("1,1",1.134,null,null,{t:"<p>Svara med två decimaler.</p>"},0,undefined), want:false},
+    /* Ma2 3.67 (granskning 2026-11-27): ett utskrivet gradtecken i ett vinkeluttryck ändrar inte svaret. */
+    {namn:"vinkeluttryck med gradtecken", got:formatRatt("y=45°-x/2","y=45-x/2",{format:"uttryck"}), want:true},
+    {namn:"vinkeluttryck utan y=", got:formatRatt("45° − x/2","y=45-x/2",{format:"uttryck"}), want:true},
+    {namn:"vinkeluttryck: fel tecken", got:formatRatt("y=45°+x/2","y=45-x/2",{format:"uttryck"}), want:false},
+    {namn:"gradtecken i sinus tas inte bort", got:formatRatt("sin(30°)","sin(30)",{format:"uttryck"}), want:false}
   ];
   cases.forEach(x=>x.ok=x.got===x.want);
   console.table(cases);
@@ -19519,7 +19527,14 @@ function kvFacit(q){
   delar.forEach(d=>{
     if(d.v===null || d.v===undefined || d.v==="") return;
     // Ett numeriskt lagrat facit ska prövas i den talform frågan begär.
-    const v=d.fmt==="grundpotensform" ? latexToPlain(visatSvar(d.v,d.tol,d.fmt)) : String(d.v);
+    let v=d.fmt==="grundpotensform" ? latexToPlain(visatSvar(d.v,d.tol,d.fmt)) : String(d.v);
+    /* Fysik med svarVardesiffror: rättSvar lagras oavrundat (122.75, 8.253850129198966) och rättningen
+       godtar n−2 till n+2 värdesiffror. Pröva därför facit avrundat till det rekommenderade antalet, så
+       som eleven skriver det, inte maskinvärdet med 16 siffror (granskning 2026-11-27). */
+    const nVs=d.fmt!=="grundpotensform" && typeof d.v==="number" && Number.isFinite(d.v) && d.v!==0 ? fysikVardesiffror(q,d.i) : null;
+    if(nVs) v=String(Number(d.v.toPrecision(nVs))).replace(".",",");
+    /* Namnlistor med alternativ ("R, B, E, L6|R, B, E, 5"): pröva det första alternativet. */
+    if(typeof d.v==="string" && ["namnordning","namnmangd"].includes(d.fmt) && d.v.includes("|")) v=d.v.split("|")[0].trim();
     // Eleven skriver inte LaTeX: ett LaTeX-facit provas i den vanliga text eleven skriver.
     if(/\\[a-zA-Z(]/.test(v)){
       const plain=latexToPlain(v);
@@ -19531,8 +19546,8 @@ function kvFacit(q){
         fel.push(`${d.namn}: enheten "${d.enh}" är angiven men svaret är "${v.slice(0,30)}"`);
       else prova(v+" "+d.enh,d.v,d.enh,d.tol,d.i,d.fmt,d.namn+" med enhet");
     }
-    // Lösningsmängder i omkastad ordning.
-    try{
+    // Lösningsmängder i omkastad ordning. Namnlistor (köer, vägar, mängder) rättas med egna regler.
+    if(!["namnordning","namnmangd"].includes(d.fmt)) try{
       const l=rotListor(d.v);
       if(l.length && l.every(x=>x.length>1)){
         const omv="x = "+[...l[0]].reverse().map(x=>String(+x.toFixed(6)).replace(".",",")).join(", ");
